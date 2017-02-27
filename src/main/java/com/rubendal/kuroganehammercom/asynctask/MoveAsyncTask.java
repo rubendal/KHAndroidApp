@@ -1,11 +1,11 @@
 package com.rubendal.kuroganehammercom.asynctask;
 
 import android.app.ProgressDialog;
-import android.content.Intent;
 import android.os.AsyncTask;
 
-import com.rubendal.kuroganehammercom.AttackListActivity;
-import com.rubendal.kuroganehammercom.CharacterActivity;
+import com.rubendal.kuroganehammercom.MainActivity;
+import com.rubendal.kuroganehammercom.fragments.AttackListFragment;
+import com.rubendal.kuroganehammercom.fragments.KHFragment;
 import com.rubendal.kuroganehammercom.util.Storage;
 import com.rubendal.kuroganehammercom.classes.AerialMove;
 import com.rubendal.kuroganehammercom.classes.Character;
@@ -19,13 +19,15 @@ import java.util.LinkedList;
 
 public class MoveAsyncTask extends AsyncTask<String, String, LinkedList<Move>> {
 
-    private CharacterActivity context;
+    private KHFragment context;
     private ProgressDialog dialog;
     private String title;
     private MoveType type;
     private Character character;
 
-    public MoveAsyncTask(CharacterActivity context, Character character, MoveType type){
+    private boolean replace = false;
+
+    public MoveAsyncTask(KHFragment context, Character character, MoveType type){
         this.context = context;
         this.type = type;
         this.character = character;
@@ -33,10 +35,19 @@ public class MoveAsyncTask extends AsyncTask<String, String, LinkedList<Move>> {
         this.dialog = null;
     }
 
-    public MoveAsyncTask(CharacterActivity context, Character character, MoveType type, String title){
-        this(context, character, type);
+    public MoveAsyncTask(KHFragment context, Character character, MoveType type, boolean replace){
+        this.context = context;
+        this.type = type;
+        this.character = character;
+        this.title = null;
+        this.dialog = null;
+        this.replace = replace;
+    }
+
+    public MoveAsyncTask(KHFragment context, Character character, MoveType type, boolean replace, String title){
+        this(context, character, type, replace);
         this.title = title;
-        this.dialog = new ProgressDialog(context);
+        this.dialog = new ProgressDialog(context.getActivity());
     }
 
     @Override
@@ -51,7 +62,7 @@ public class MoveAsyncTask extends AsyncTask<String, String, LinkedList<Move>> {
 
     private String getThrow(){
         try {
-            String json = Storage.read(String.valueOf(character.id),"throws.json",context);
+            String json = Storage.read(String.valueOf(character.id),"throws.json",context.getActivity());
             return json;
         }
         catch(Exception e){
@@ -63,7 +74,7 @@ public class MoveAsyncTask extends AsyncTask<String, String, LinkedList<Move>> {
     @Override
     protected LinkedList<Move> doInBackground(String... params) {
         try {
-            String json = Storage.read(String.valueOf(character.id),"moves.json",context);
+            String json = Storage.read(String.valueOf(character.id),"moves.json",context.getActivity());
             LinkedList<Move> list = new LinkedList<>();
             JSONArray jsonArray = new JSONArray(json);
             JSONArray t = null;
@@ -120,10 +131,10 @@ public class MoveAsyncTask extends AsyncTask<String, String, LinkedList<Move>> {
         if(dialog!=null){
             dialog.dismiss();
         }
-        Intent i = new Intent(context, AttackListActivity.class);
-        i.putExtra("character", character);
-        i.putExtra("moveType", type);
-        i.putExtra("moveList", s);
-        context.startActivity(i);
+        if(replace){
+            ((MainActivity)context.getActivity()).replaceFragment(AttackListFragment.newInstance(character,type,s));
+        }else {
+            ((MainActivity) context.getActivity()).loadFragment(AttackListFragment.newInstance(character, type, s));
+        }
     }
 }

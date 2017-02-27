@@ -1,12 +1,16 @@
-package com.rubendal.kuroganehammercom;
+package com.rubendal.kuroganehammercom.fragments;
 
-import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
+
 import android.os.Bundle;
+import android.support.annotation.Nullable;
+import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ListView;
 
+import com.rubendal.kuroganehammercom.MainActivity;
+import com.rubendal.kuroganehammercom.R;
 import com.rubendal.kuroganehammercom.adapter.CharacterOptionsAdapter;
 import com.rubendal.kuroganehammercom.asynctask.AttributeAsyncTask;
 import com.rubendal.kuroganehammercom.asynctask.MoveAsyncTask;
@@ -18,32 +22,67 @@ import com.rubendal.kuroganehammercom.classes.MoveType;
 import java.util.LinkedList;
 import java.util.List;
 
-public class CharacterActivity extends AppCompatActivity {
+public class CharacterFragment extends KHFragment {
 
-    private Character character;
+    public Character character;
 
     private CharacterOptionsAdapter adapter;
 
     private ListView listView;
 
-    private final CharacterActivity ref = this;
+    private final CharacterFragment ref = this;
 
     private List<CharacterOption> list = new LinkedList<>();
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_character);
-
-        character = (Character)getIntent().getSerializableExtra("character");
-
-        resetView();
+    public CharacterFragment() {
 
     }
 
-    private void resetView(){
-        setTitle(character.getCharacterTitleName());
+    @Override
+    public void updateData() {
 
+    }
+
+    @Override
+    public String getTitle() {
+        return character.getCharacterTitleName();
+    }
+
+    public static CharacterFragment newInstance(Character character){
+        CharacterFragment fragment = new CharacterFragment();
+        Bundle args = new Bundle();
+        args.putSerializable("character", character);
+        fragment.setArguments(args);
+        fragment.character = character;
+        return fragment;
+    }
+
+    @Override
+    public void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        if(getArguments() != null){
+            this.character = (Character)getArguments().getSerializable("character");
+        }
+    }
+
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
+        View view = inflater.inflate(R.layout.activity_character, container, false);
+
+        listView = (ListView)view.findViewById(R.id.list);
+
+        return view;
+    }
+
+    @Override
+    public void onActivityCreated(@Nullable Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
+
+        loadData();
+    }
+
+    private void loadData(){
         list = new LinkedList<>();
         list.add(new CharacterOption("Attributes"));
         list.add(new CharacterOption("Attribute ranking"));
@@ -62,9 +101,7 @@ public class CharacterActivity extends AppCompatActivity {
         }
 
 
-        adapter = new CharacterOptionsAdapter(this, list);
-
-        listView = (ListView)findViewById(R.id.list);
+        adapter = new CharacterOptionsAdapter(this.getActivity(), list);
 
         listView.setAdapter(adapter);
 
@@ -78,9 +115,7 @@ public class CharacterActivity extends AppCompatActivity {
                 }
                 if(character.hasSpecificAttributes) {
                     if (o.text.equals(character.specificAttribute.attribute)){
-                        Intent i = new Intent(ref, SpecificAttributeActivity.class);
-                        i.putExtra("character", character);
-                        startActivity(i);
+                        ((MainActivity)getActivity()).loadFragment(SpecificAttributeFragment.newInstance(character));
                         return;
                     }
                 }
@@ -117,5 +152,4 @@ public class CharacterActivity extends AppCompatActivity {
             }
         });
     }
-
 }

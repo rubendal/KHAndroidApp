@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:title="Smash 4">
+            <menu>
+                <item
+                    android:id="@+id/characters"
+                    android:icon="@drawable/ic_cached_black_24dp"
+                    android:title="Characters" />
+                <item
+                    android:id="@+id/attributes"
+                    android:icon="@drawable/ic_cached_black_24dp"
+                    android:title="Attributes" />
+            </menu>
+        </item>
+    </group>
+
+
+</menu>

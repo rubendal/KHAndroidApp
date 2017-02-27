@@ -10,20 +10,17 @@
         android:label="@string/launcher_app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/launcher_app_name"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:configChanges="orientation|screenSize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".CharacterActivity"
-            android:configChanges="orientation|screenSize" />
-        <activity android:name=".AttackListActivity" />
-        <activity android:name=".AttributeActivity" />
-        <activity android:name=".MovementActivity" />
-        <activity android:name=".SpecificAttributeActivity"/>
     </application>
 
 </manifest>

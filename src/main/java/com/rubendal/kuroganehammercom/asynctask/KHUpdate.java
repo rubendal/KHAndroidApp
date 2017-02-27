@@ -5,6 +5,7 @@ import android.os.AsyncTask;
 import android.widget.Toast;
 
 import com.rubendal.kuroganehammercom.MainActivity;
+import com.rubendal.kuroganehammercom.fragments.KHFragment;
 import com.rubendal.kuroganehammercom.util.Storage;
 import com.rubendal.kuroganehammercom.classes.Character;
 
@@ -17,14 +18,14 @@ import java.net.URL;
 import java.util.LinkedList;
 
 public class KHUpdate extends AsyncTask<String, String, Boolean> {
-    private MainActivity context;
+    private KHFragment context;
     private ProgressDialog dialog;
     private String title;
 
-    public KHUpdate(MainActivity context, String title){
+    public KHUpdate(KHFragment context, String title){
         this.context = context;
         this.title = title;
-        this.dialog = new ProgressDialog(this.context);
+        this.dialog = new ProgressDialog(this.context.getActivity());
     }
 
 
@@ -77,7 +78,8 @@ public class KHUpdate extends AsyncTask<String, String, Boolean> {
     @Override
     protected Boolean doInBackground(String... params) {
         //Get all data needed from the API
-        try {
+        return true;
+        /*try {
             String characters = sendRequest("http://api.kuroganehammer.com/api/Characters");
             String smashAttributes = sendRequest("http://api.kuroganehammer.com/api/smashattributetypes");
 
@@ -88,13 +90,13 @@ public class KHUpdate extends AsyncTask<String, String, Boolean> {
                 return false;
             }
 
-            Storage.write("data","characters.json",context,characters);
-            Storage.write("data","smashAttributes.json",context,smashAttributes);
+            Storage.write("data","characters.json",context.getActivity(),characters);
+            Storage.write("data","smashAttributes.json",context.getActivity(),smashAttributes);
 
             LinkedList<Character> list = new LinkedList<>();
             JSONArray jsonArray = new JSONArray(characters);
             for(int i=0;i<jsonArray.length();i++){
-                list.add(Character.fromJson(context, jsonArray.getJSONObject(i)));
+                list.add(Character.fromJson(context.getActivity(), jsonArray.getJSONObject(i)));
             }
 
             for(Character c : list){
@@ -114,16 +116,16 @@ public class KHUpdate extends AsyncTask<String, String, Boolean> {
                 if(smashAttributes.isEmpty()){
                     return false;
                 }
-                Storage.write(String.valueOf(c.id),"moves.json",context,moves);
-                Storage.write(String.valueOf(c.id),"throws.json",context,t);
-                Storage.write(String.valueOf(c.id),"smashAttributes.json",context,smashattributes);
-                Storage.write(String.valueOf(c.id),"attributes.json",context,attributes);
+                Storage.write(String.valueOf(c.id),"moves.json",context.getActivity(),moves);
+                Storage.write(String.valueOf(c.id),"throws.json",context.getActivity(),t);
+                Storage.write(String.valueOf(c.id),"smashAttributes.json",context.getActivity(),smashattributes);
+                Storage.write(String.valueOf(c.id),"attributes.json",context.getActivity(),attributes);
             }
             return true;
         }catch(Exception e){
 
         }
-        return false;
+        return false;*/
     }
 
     @Override
@@ -133,10 +135,10 @@ public class KHUpdate extends AsyncTask<String, String, Boolean> {
             dialog.dismiss();
         }
         if(s){
-            Toast.makeText(context, "Sync successful", Toast.LENGTH_LONG).show();
+            Toast.makeText(context.getActivity(), "Sync successful", Toast.LENGTH_LONG).show();
             context.updateData();
         }else{
-            Toast.makeText(context, "Error syncing data with KH API", Toast.LENGTH_LONG).show();
+            Toast.makeText(context.getActivity(), "Error syncing data with KH API", Toast.LENGTH_LONG).show();
         }
     }
 }

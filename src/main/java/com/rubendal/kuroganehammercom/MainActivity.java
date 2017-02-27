@@ -1,66 +1,53 @@
 package com.rubendal.kuroganehammercom;
 
-import android.content.res.Configuration;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.DisplayMetrics;
+import android.support.design.widget.FloatingActionButton;
+import android.support.design.widget.Snackbar;
+import android.support.v4.app.Fragment;
+import android.util.Log;
+import android.view.View;
+import android.support.design.widget.NavigationView;
+import android.support.v4.view.GravityCompat;
+import android.support.v4.widget.DrawerLayout;
+import android.support.v7.app.ActionBarDrawerToggle;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.GridView;
+import android.widget.RelativeLayout;
 
-import com.rubendal.kuroganehammercom.asynctask.CharacterAsyncTask;
 import com.rubendal.kuroganehammercom.asynctask.KHUpdate;
+import com.rubendal.kuroganehammercom.fragments.KHFragment;
+import com.rubendal.kuroganehammercom.fragments.MainFragment;
 import com.rubendal.kuroganehammercom.util.Storage;
 
-public class MainActivity extends AppCompatActivity {
+import java.util.Stack;
 
-    public GridView grid;
+public class MainActivity extends AppCompatActivity
+        implements NavigationView.OnNavigationItemSelectedListener {
+
+    public KHFragment currentFragment;
+    private Stack<String> titles = new Stack<>();
+    private int id = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
 
-        setTitle(getString(R.string.app_name));
+        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
+                this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
+        drawer.setDrawerListener(toggle);
+        toggle.syncState();
+
+        NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
+        navigationView.setNavigationItemSelectedListener(this);
 
         Storage.Initialize(this);
-
-        updateData();
-    }
-
-    public void updateData(){
-        grid = (GridView)findViewById(R.id.grid);
-
-        DisplayMetrics metrics = new DisplayMetrics();
-        getWindowManager().getDefaultDisplay().getMetrics(metrics);
-
-        int width = metrics.widthPixels;
-        int height = metrics.heightPixels;
-
-        int x = 300;
-
-        if(getResources().getConfiguration().orientation == Configuration.ORIENTATION_PORTRAIT) {
-            if (width <= 800) {
-                x = (width / 2) - 5;
-            } else if (width > 800 && width <= 1800) {
-                x = 350;
-            } else {
-                x = 400;
-            }
-        }else{
-            if (height <= 800) {
-                x = (height / 2) - 5;
-            } else if (height > 800 && height <= 1800) {
-                x = 350;
-            } else {
-                x = 400;
-            }
-        }
-
-        grid.setNumColumns(width / x);
-
-        CharacterAsyncTask c = new CharacterAsyncTask(this,x);
-        c.execute();
+        loadInitialFragment(MainFragment.newInstance());
     }
 
     @Override
@@ -73,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.update:
-                KHUpdate kh = new KHUpdate(this,"Syncing with KH API...");
+                KHUpdate kh = new KHUpdate(currentFragment,"Syncing with KH API...");
                 kh.execute();
                 return true;
             default:
@@ -82,4 +69,60 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    @SuppressWarnings("StatementWithEmptyBody")
+    @Override
+    public boolean onNavigationItemSelected(MenuItem item) {
+        // Handle navigation view item clicks here.
+        int id = item.getItemId();
+
+        if (id == R.id.characters) {
+            // Handle the camera action
+        } else if (id == R.id.attributes) {
+
+        }
+
+        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        drawer.closeDrawer(GravityCompat.START);
+        return true;
+    }
+
+    public void loadFragment(KHFragment fragment){
+        currentFragment = fragment;
+        getSupportFragmentManager().beginTransaction().replace(R.id.fragment_viewer, fragment, String.valueOf(id)).addToBackStack("").commit();
+        setTitle(fragment.getTitle());
+        id++;
+    }
+
+    public void replaceFragment(KHFragment fragment){
+        currentFragment = fragment;
+        getSupportFragmentManager().popBackStack();
+        id--;
+        getSupportFragmentManager().beginTransaction().replace(R.id.fragment_viewer, fragment, String.valueOf(id)).addToBackStack("").commit();
+        setTitle(fragment.getTitle());
+        id++;
+    }
+
+    public void loadInitialFragment(KHFragment fragment){
+        currentFragment = fragment;
+        getSupportFragmentManager().beginTransaction().replace(R.id.fragment_viewer, fragment, String.valueOf(id)).commit();
+        setTitle(fragment.getTitle());
+        id++;
+    }
+
+    @Override
+    public void onBackPressed() {
+        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        if (drawer.isDrawerOpen(GravityCompat.START)) {
+            drawer.closeDrawer(GravityCompat.START);
+        } else {
+            if (getSupportFragmentManager().getBackStackEntryCount() == 0){
+                super.onBackPressed();
+            } else {
+                id--;
+                currentFragment = (KHFragment)getSupportFragmentManager().findFragmentByTag(String.valueOf(id-1));
+                getSupportFragmentManager().popBackStack();
+                setTitle(currentFragment.getTitle());
+            }
+        }
+    }
 }
