@@ -78,8 +78,7 @@ public class KHUpdate extends AsyncTask<String, String, Boolean> {
     @Override
     protected Boolean doInBackground(String... params) {
         //Get all data needed from the API
-        return true;
-        /*try {
+        try {
             String characters = sendRequest("http://api.kuroganehammer.com/api/Characters");
             String smashAttributes = sendRequest("http://api.kuroganehammer.com/api/smashattributetypes");
 
@@ -125,7 +124,7 @@ public class KHUpdate extends AsyncTask<String, String, Boolean> {
         }catch(Exception e){
 
         }
-        return false;*/
+        return false;
     }
 
     @Override
