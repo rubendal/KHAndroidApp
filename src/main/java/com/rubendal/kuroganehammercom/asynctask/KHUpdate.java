@@ -4,7 +4,6 @@ import android.app.ProgressDialog;
 import android.os.AsyncTask;
 import android.widget.Toast;
 
-import com.rubendal.kuroganehammercom.MainActivity;
 import com.rubendal.kuroganehammercom.fragments.KHFragment;
 import com.rubendal.kuroganehammercom.util.Storage;
 import com.rubendal.kuroganehammercom.classes.Character;

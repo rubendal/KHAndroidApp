@@ -2,7 +2,6 @@ package com.rubendal.kuroganehammercom.asynctask;
 
 import android.app.ProgressDialog;
 import android.os.AsyncTask;
-import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 
@@ -59,7 +58,7 @@ public class CharacterAsyncTask extends AsyncTask<String, String, LinkedList<Cha
             }
             return list;
         } catch (Exception e) {
-            Log.d("fnje",e.getMessage());
+
         }
         return null;
     }
@@ -77,6 +76,8 @@ public class CharacterAsyncTask extends AsyncTask<String, String, LinkedList<Cha
                 @Override
                 public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                     Character character = (Character) parent.getItemAtPosition(position);
+                    //CharacterDataAsyncTask c = new CharacterDataAsyncTask(context,character);
+                    //c.execute();
                     ((MainActivity)context.getActivity()).loadFragment(CharacterFragment.newInstance(character));
                 }
             });

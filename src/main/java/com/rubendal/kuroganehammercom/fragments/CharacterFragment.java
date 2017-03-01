@@ -13,6 +13,7 @@ import com.rubendal.kuroganehammercom.MainActivity;
 import com.rubendal.kuroganehammercom.R;
 import com.rubendal.kuroganehammercom.adapter.CharacterOptionsAdapter;
 import com.rubendal.kuroganehammercom.asynctask.AttributeAsyncTask;
+import com.rubendal.kuroganehammercom.asynctask.CharacterDataAsyncTask;
 import com.rubendal.kuroganehammercom.asynctask.MoveAsyncTask;
 import com.rubendal.kuroganehammercom.asynctask.MovementAsyncTask;
 import com.rubendal.kuroganehammercom.classes.Character;
@@ -84,6 +85,7 @@ public class CharacterFragment extends KHFragment {
 
     private void loadData(){
         list = new LinkedList<>();
+        list.add(new CharacterOption("All data"));
         list.add(new CharacterOption("Attributes"));
         list.add(new CharacterOption("Attribute ranking"));
         list.add(new CharacterOption("All Attacks"));
@@ -120,6 +122,10 @@ public class CharacterFragment extends KHFragment {
                     }
                 }
                 switch (o.text){
+                    case "All data":
+                        CharacterDataAsyncTask c = new CharacterDataAsyncTask(ref, character);
+                        c.execute();
+                        break;
                     case "Attributes":
                         MovementAsyncTask at = new MovementAsyncTask(ref, character);
                         at.execute();

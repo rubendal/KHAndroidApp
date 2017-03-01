@@ -1,25 +1,19 @@
 package com.rubendal.kuroganehammercom.fragments;
 
 
-import android.app.Activity;
-import android.content.Context;
 import android.content.res.Configuration;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.support.v4.app.Fragment;
 import android.util.DisplayMetrics;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.GridView;
 
-import com.rubendal.kuroganehammercom.MainActivity;
 import com.rubendal.kuroganehammercom.R;
 import com.rubendal.kuroganehammercom.asynctask.CharacterAsyncTask;
-import com.rubendal.kuroganehammercom.classes.Character;
 
-public class MainFragment extends KHFragment {
+public class MainFragment extends NavigationFragment {
 
     public GridView grid;
 

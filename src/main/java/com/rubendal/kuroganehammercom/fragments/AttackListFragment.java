@@ -4,7 +4,6 @@ package com.rubendal.kuroganehammercom.fragments;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -14,7 +13,6 @@ import android.widget.TextView;
 
 import com.rubendal.kuroganehammercom.asynctask.MoveAsyncTask;
 import com.rubendal.kuroganehammercom.classes.Character;
-
 import com.rubendal.kuroganehammercom.R;
 import com.rubendal.kuroganehammercom.classes.Move;
 import com.rubendal.kuroganehammercom.classes.MoveType;
@@ -207,6 +205,11 @@ public class AttackListFragment extends KHFragment {
                         layout.addView(move.asRow(this.getActivity(), o % 2 == 1));
                     }
                 }
+            }
+
+            if(character.name.equals("Little Mac")){
+                TextView aerial = (TextView)getView().findViewById(R.id.aerial_label);
+                aerial.setText("Aerial Attacks (Please don't actually use these)");
             }
         }
     }

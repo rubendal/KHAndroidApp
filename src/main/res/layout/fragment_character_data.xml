@@ -16,7 +16,72 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:id="@+id/layout">
+
+                <TableLayout
+                    android:id="@+id/movement_table"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    >
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/mov_header">
+
+                        <TextView
+                            android:text="Attribute"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/mov_header1"
+                            android:padding="5dp"/>
+
+                        <TextView
+                            android:text="Value"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/mov_header2"
+                            android:padding="5dp"/>
+
+                    </TableRow>
+
+                </TableLayout>
+
+                <TableLayout
+                    android:id="@+id/specific_attr_simple_table"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/specific_attr_simple_header">
+
+                        <TextView
+                            android:text=""
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/specific_attr_simple_attribute"
+                            android:padding="5dp"/>
+
+                        <TextView
+                            android:text="-"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/specific_attr_simple_header2"
+                            android:padding="5dp"/>
+
+
+                    </TableRow>
+
+                </TableLayout>
 
                 <TextView
                     android:layout_width="match_parent"
@@ -333,6 +398,17 @@
                             android:id="@+id/header32"
                             android:padding="5dp"/>
                     </TableRow>
+
+
+                </TableLayout>
+
+                <TableLayout
+                    android:id="@+id/specific_attr_complex_table"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true">
 
 
                 </TableLayout>
