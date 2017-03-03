@@ -1,4 +1,4 @@
-package com.rubendal.kuroganehammercom.asynctask;
+package com.rubendal.kuroganehammercom.asynctask.character;
 
 import android.app.ProgressDialog;
 import android.os.AsyncTask;
@@ -72,9 +72,13 @@ public class CharacterAsyncTask extends AsyncTask<String, String, LinkedList<Cha
         CharacterAdapter adapter = new CharacterAdapter(context.getActivity(), s, x);
         if(s != null) {
             context.grid.setAdapter(adapter);
+            if(context.selectedItem != -1){
+                context.grid.smoothScrollToPosition(context.selectedItem);
+            }
             context.grid.setOnItemClickListener(new AdapterView.OnItemClickListener() {
                 @Override
                 public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                    context.selectedItem = position;
                     Character character = (Character) parent.getItemAtPosition(position);
                     //CharacterDataAsyncTask c = new CharacterDataAsyncTask(context,character);
                     //c.execute();

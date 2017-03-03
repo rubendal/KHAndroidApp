@@ -1,21 +1,21 @@
-package com.rubendal.kuroganehammercom.asynctask;
+package com.rubendal.kuroganehammercom.asynctask.character;
 
 import android.app.ProgressDialog;
 import android.os.AsyncTask;
 
 import com.rubendal.kuroganehammercom.MainActivity;
+import com.rubendal.kuroganehammercom.fragments.AttributeFragment;
 import com.rubendal.kuroganehammercom.fragments.KHFragment;
-import com.rubendal.kuroganehammercom.fragments.MovementFragment;
 import com.rubendal.kuroganehammercom.util.Storage;
+import com.rubendal.kuroganehammercom.classes.Attribute;
 import com.rubendal.kuroganehammercom.classes.Character;
-import com.rubendal.kuroganehammercom.classes.Movement;
 
 import org.json.JSONArray;
 
 import java.util.LinkedList;
 
 
-public class MovementAsyncTask extends AsyncTask<String, String, LinkedList<Movement>> {
+public class AttributeAsyncTask extends AsyncTask<String, String, LinkedList<Attribute>> {
 
     private KHFragment context;
     private ProgressDialog dialog;
@@ -24,14 +24,14 @@ public class MovementAsyncTask extends AsyncTask<String, String, LinkedList<Move
 
     private boolean replace = false;
 
-    public MovementAsyncTask(KHFragment context, Character character){
+    public AttributeAsyncTask(KHFragment context, Character character){
         this.context = context;
         this.character = character;
         this.title = null;
         this.dialog = null;
     }
 
-    public MovementAsyncTask(KHFragment context, Character character, boolean replace){
+    public AttributeAsyncTask(KHFragment context, Character character, boolean replace){
         this.context = context;
         this.character = character;
         this.replace = replace;
@@ -39,7 +39,7 @@ public class MovementAsyncTask extends AsyncTask<String, String, LinkedList<Move
         this.dialog = null;
     }
 
-    public MovementAsyncTask(KHFragment context, Character character, boolean replace, String title){
+    public AttributeAsyncTask(KHFragment context, Character character, boolean replace, String title){
         this(context, character, replace);
         this.title = title;
         this.dialog = new ProgressDialog(context.getActivity());
@@ -56,13 +56,13 @@ public class MovementAsyncTask extends AsyncTask<String, String, LinkedList<Move
     }
 
     @Override
-    protected LinkedList<Movement> doInBackground(String... params) {
+    protected LinkedList<Attribute> doInBackground(String... params) {
         try {
-            String json = Storage.read(String.valueOf(character.id),"attributes.json",context.getActivity());
-            LinkedList<Movement> list = new LinkedList<>();
+            String json = Storage.read(String.valueOf(character.id),"smashAttributes.json",context.getActivity());
+            LinkedList<Attribute> list = new LinkedList<>();
             JSONArray jsonArray = new JSONArray(json);
             for(int i=0;i<jsonArray.length();i++){
-                list.add(Movement.fromJson(jsonArray.getJSONObject(i)));
+                list.add(Attribute.getFromJson(context.getActivity(), jsonArray.getJSONObject(i)));
             }
             return list;
         } catch (Exception e) {
@@ -72,15 +72,15 @@ public class MovementAsyncTask extends AsyncTask<String, String, LinkedList<Move
     }
 
     @Override
-    protected void onPostExecute(LinkedList<Movement> s) {
+    protected void onPostExecute(LinkedList<Attribute> s) {
         super.onPostExecute(s);
         if(dialog!=null){
             dialog.dismiss();
         }
         if(replace){
-            ((MainActivity)context.getActivity()).replaceFragment(MovementFragment.newInstance(character,s));
-        }else{
-            ((MainActivity)context.getActivity()).loadFragment(MovementFragment.newInstance(character,s));
+            ((MainActivity) context.getActivity()).replaceFragment(AttributeFragment.newInstance(character, s));
+        }else {
+            ((MainActivity) context.getActivity()).loadFragment(AttributeFragment.newInstance(character, s));
         }
     }
 }

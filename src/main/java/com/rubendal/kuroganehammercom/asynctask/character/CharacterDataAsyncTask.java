@@ -1,4 +1,4 @@
-package com.rubendal.kuroganehammercom.asynctask;
+package com.rubendal.kuroganehammercom.asynctask.character;
 
 import android.app.ProgressDialog;
 import android.os.AsyncTask;

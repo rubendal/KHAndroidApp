@@ -80,6 +80,7 @@ public class KHUpdate extends AsyncTask<String, String, Boolean> {
         try {
             String characters = sendRequest("http://api.kuroganehammer.com/api/Characters");
             String smashAttributes = sendRequest("http://api.kuroganehammer.com/api/smashattributetypes");
+            String all_attributes = sendRequest("http://api.kuroganehammer.com/api/characterattributes");
 
             if(characters.isEmpty()){
                 return false;
@@ -87,9 +88,13 @@ public class KHUpdate extends AsyncTask<String, String, Boolean> {
             if(smashAttributes.isEmpty()){
                 return false;
             }
+            if(all_attributes.isEmpty()){
+                return false;
+            }
 
             Storage.write("data","characters.json",context.getActivity(),characters);
             Storage.write("data","smashAttributes.json",context.getActivity(),smashAttributes);
+            Storage.write("data","attributes.json", context.getActivity(), all_attributes);
 
             LinkedList<Character> list = new LinkedList<>();
             JSONArray jsonArray = new JSONArray(characters);

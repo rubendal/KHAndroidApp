@@ -12,7 +12,7 @@ import android.widget.TableRow;
 import android.widget.TextView;
 
 import com.rubendal.kuroganehammercom.R;
-import com.rubendal.kuroganehammercom.asynctask.MovementAsyncTask;
+import com.rubendal.kuroganehammercom.asynctask.character.MovementAsyncTask;
 import com.rubendal.kuroganehammercom.classes.Character;
 import com.rubendal.kuroganehammercom.classes.Movement;
 

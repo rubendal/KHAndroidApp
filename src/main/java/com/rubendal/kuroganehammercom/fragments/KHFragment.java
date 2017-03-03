@@ -7,20 +7,14 @@ import com.rubendal.kuroganehammercom.MainActivity;
 
 public abstract class KHFragment extends Fragment {
 
-    public MainActivity activity;
 
     public KHFragment(){
         super();
     }
 
+    //Update data after sync
     public abstract void updateData();
 
+    //App title while fragment is active
     public abstract String getTitle();
-
-    public void loadFragment(KHFragment fragment){
-        if(getActivity() instanceof MainActivity){
-            MainActivity activity = (MainActivity)getActivity();
-            activity.loadFragment(fragment);
-        }
-    }
 }

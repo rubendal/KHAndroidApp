@@ -6,7 +6,7 @@
     "value": "0.05",
     "name": "VALUE",
     "smashAttributeTypeId": 1,
-    "characterAttributeTypeId": 9
+    "characterAttributeTypeId": 12
   },
   {
     "id": 107,
@@ -15,7 +15,7 @@
     "value": "3-27",
     "name": "INTANGIBLE",
     "smashAttributeTypeId": 3,
-    "characterAttributeTypeId": 4
+    "characterAttributeTypeId": 5
   },
   {
     "id": 108,
@@ -33,7 +33,7 @@
     "value": "1.03",
     "name": "MAX AIR SPEED VALUE",
     "smashAttributeTypeId": 5,
-    "characterAttributeTypeId": 5
+    "characterAttributeTypeId": 6
   },
   {
     "id": 380,
@@ -42,7 +42,7 @@
     "value": "1.3",
     "name": "MAX FALL SPEED",
     "smashAttributeTypeId": 8,
-    "characterAttributeTypeId": 6
+    "characterAttributeTypeId": 7
   },
   {
     "id": 381,
@@ -60,7 +60,7 @@
     "value": "60%",
     "name": "SPEED INCREASE",
     "smashAttributeTypeId": 8,
-    "characterAttributeTypeId": 8
+    "characterAttributeTypeId": 11
   },
   {
     "id": 453,
@@ -69,7 +69,7 @@
     "value": "0.077",
     "name": "VALUE",
     "smashAttributeTypeId": 10,
-    "characterAttributeTypeId": 9
+    "characterAttributeTypeId": 12
   },
   {
     "id": 477,
@@ -78,7 +78,7 @@
     "value": "4",
     "name": "VALUE",
     "smashAttributeTypeId": 14,
-    "characterAttributeTypeId": 9
+    "characterAttributeTypeId": 12
   },
   {
     "id": 627,
@@ -87,7 +87,7 @@
     "value": "1-24",
     "name": "INTANGIBILITY",
     "smashAttributeTypeId": 15,
-    "characterAttributeTypeId": 3
+    "characterAttributeTypeId": 4
   },
   {
     "id": 628,
@@ -105,7 +105,7 @@
     "value": "4-23",
     "name": "INTANGIBLE",
     "smashAttributeTypeId": 17,
-    "characterAttributeTypeId": 4
+    "characterAttributeTypeId": 5
   },
   {
     "id": 756,
@@ -117,48 +117,102 @@
     "characterAttributeTypeId": 1
   },
   {
-    "id": 799,
+    "id": 793,
+    "ownerId": 48,
+    "rank": "37",
+    "value": "1.504",
+    "name": "MAX RUN SPEED VALUE",
+    "smashAttributeTypeId": 18,
+    "characterAttributeTypeId": 8
+  },
+  {
+    "id": 828,
+    "ownerId": 48,
+    "rank": "13-14",
+    "value": "11.655",
+    "name": "SIZE",
+    "smashAttributeTypeId": 20,
+    "characterAttributeTypeId": 10
+  },
+  {
+    "id": 915,
     "ownerId": 48,
     "rank": "18-32",
     "value": "2-17",
     "name": "INTANGIBLE",
-    "smashAttributeTypeId": 21,
-    "characterAttributeTypeId": 4
+    "smashAttributeTypeId": 22,
+    "characterAttributeTypeId": 5
   },
   {
-    "id": 800,
+    "id": 916,
     "ownerId": 48,
     "rank": "18-32",
     "value": "27",
     "name": "FAF",
-    "smashAttributeTypeId": 21,
+    "smashAttributeTypeId": 22,
     "characterAttributeTypeId": 1
   },
   {
-    "id": 898,
+    "id": 1014,
     "ownerId": 48,
     "rank": "26",
     "value": "0.0585",
     "name": "VALUE",
-    "smashAttributeTypeId": 23,
-    "characterAttributeTypeId": 9
+    "smashAttributeTypeId": 24,
+    "characterAttributeTypeId": 12
   },
   {
-    "id": 966,
+    "id": 1082,
     "ownerId": 48,
     "rank": "36",
     "value": "1.0615",
     "name": "MAX WALK SPEED VALUE",
-    "smashAttributeTypeId": 25,
-    "characterAttributeTypeId": 7
+    "smashAttributeTypeId": 26,
+    "characterAttributeTypeId": 9
   },
   {
-    "id": 995,
+    "id": 1111,
     "ownerId": 48,
     "rank": "6-7",
     "value": "108",
     "name": "WEIGHT VALUE",
-    "smashAttributeTypeId": 26,
-    "characterAttributeTypeId": 10
+    "smashAttributeTypeId": 27,
+    "characterAttributeTypeId": 13
+  },
+  {
+    "id": 1172,
+    "ownerId": 48,
+    "rank": "10",
+    "value": "18",
+    "name": "HEIGHT",
+    "smashAttributeTypeId": 28,
+    "characterAttributeTypeId": 3
+  },
+  {
+    "id": 1232,
+    "ownerId": 48,
+    "rank": "12",
+    "value": "37",
+    "name": "HEIGHT",
+    "smashAttributeTypeId": 29,
+    "characterAttributeTypeId": 3
+  },
+  {
+    "id": 1293,
+    "ownerId": 48,
+    "rank": "14-15",
+    "value": "37",
+    "name": "HEIGHT",
+    "smashAttributeTypeId": 30,
+    "characterAttributeTypeId": 3
+  },
+  {
+    "id": 1349,
+    "ownerId": 48,
+    "rank": "13",
+    "value": "38.5",
+    "name": "HEIGHT",
+    "smashAttributeTypeId": 31,
+    "characterAttributeTypeId": 3
   }
 ]

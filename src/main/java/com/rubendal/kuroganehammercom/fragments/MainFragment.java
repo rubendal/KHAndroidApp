@@ -11,11 +11,12 @@ import android.view.ViewGroup;
 import android.widget.GridView;
 
 import com.rubendal.kuroganehammercom.R;
-import com.rubendal.kuroganehammercom.asynctask.CharacterAsyncTask;
+import com.rubendal.kuroganehammercom.asynctask.character.CharacterAsyncTask;
 
 public class MainFragment extends NavigationFragment {
 
     public GridView grid;
+    public int selectedItem = -1;
 
     public MainFragment() {
 
@@ -23,6 +24,7 @@ public class MainFragment extends NavigationFragment {
 
     public static MainFragment newInstance(){
         MainFragment fragment = new MainFragment();
+        fragment.setRetainInstance(true);
         return fragment;
     }
 
@@ -71,7 +73,7 @@ public class MainFragment extends NavigationFragment {
 
         grid.setNumColumns(width / x);
 
-        CharacterAsyncTask c = new CharacterAsyncTask(this,x);
+        CharacterAsyncTask c = new CharacterAsyncTask(this, x);
         c.execute();
     }
 
@@ -84,5 +86,18 @@ public class MainFragment extends NavigationFragment {
     @Override
     public String getTitle() {
         return "Kurogane Hammer";
+    }
+
+    @Override
+    public void onSaveInstanceState(Bundle outState) {
+        outState.putInt("index",selectedItem);
+        super.onSaveInstanceState(outState);
+    }
+
+    public void onCreate(Bundle savedInstanceState) {
+        if (savedInstanceState != null) {
+            selectedItem = savedInstanceState.getInt("index");
+        }
+        super.onCreate(savedInstanceState);
     }
 }

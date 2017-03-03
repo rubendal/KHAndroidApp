@@ -12,6 +12,7 @@ import com.rubendal.kuroganehammercom.R;
 import org.json.JSONObject;
 
 import java.io.Serializable;
+import java.util.Comparator;
 import java.util.List;
 
 public class Attribute implements Serializable{
@@ -23,6 +24,7 @@ public class Attribute implements Serializable{
     public String formattedName;
     public String value;
     public String rank;
+    public int frank;
 
     public Attribute(int id, int owner, int attributeId, String name, String value, String rank){
         this.id = id;
@@ -32,6 +34,7 @@ public class Attribute implements Serializable{
         this.value = value;
         this.rank = rank;
         this.formattedName = name;
+        this.frank = Integer.parseInt(rank.split("-")[0]);
     }
 
     public static Attribute getFromJson(Context context, JSONObject jsonObject){
@@ -67,6 +70,8 @@ public class Attribute implements Serializable{
         return null;
     }
 
+
+
     public TableRow asRow(Context context, boolean odd){
         LayoutInflater vi = (LayoutInflater)context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         View v = vi.inflate(R.layout.attribute_row, null);
@@ -92,9 +97,8 @@ public class Attribute implements Serializable{
         }
 
         return tableRow;
-
-
     }
+
 
 
 }

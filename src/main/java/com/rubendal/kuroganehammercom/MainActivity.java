@@ -11,6 +11,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 import com.rubendal.kuroganehammercom.asynctask.KHUpdate;
+import com.rubendal.kuroganehammercom.fragments.AttributeMainFragment;
 import com.rubendal.kuroganehammercom.fragments.KHFragment;
 import com.rubendal.kuroganehammercom.fragments.MainFragment;
 import com.rubendal.kuroganehammercom.fragments.NavigationFragment;
@@ -78,7 +79,13 @@ public class MainActivity extends AppCompatActivity
             }
         }
         else if (id == R.id.attributes) {
-
+            if(!(currentFragment instanceof AttributeMainFragment)){
+                if(currentFragment instanceof NavigationFragment){
+                    replaceFragment(AttributeMainFragment.newInstance());
+                }else{
+                    loadFragment(AttributeMainFragment.newInstance());
+                }
+            }
         }
 
 
@@ -94,12 +101,18 @@ public class MainActivity extends AppCompatActivity
     }
 
     public void replaceFragment(KHFragment fragment){
-        currentFragment = fragment;
-        getSupportFragmentManager().popBackStack();
-        id--;
-        getSupportFragmentManager().beginTransaction().replace(R.id.fragment_viewer, fragment, String.valueOf(id)).addToBackStack("").commit();
-        setTitle(fragment.getTitle());
-        id++;
+        if(getSupportFragmentManager().getBackStackEntryCount() != 0) {
+            currentFragment = fragment;
+            getSupportFragmentManager().popBackStack();
+            id--;
+            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_viewer, fragment, String.valueOf(id)).addToBackStack("").commit();
+            setTitle(fragment.getTitle());
+            id++;
+        }else{
+            id--;
+            loadInitialFragment(fragment);
+        }
+
     }
 
     public void loadInitialFragment(KHFragment fragment){
@@ -116,7 +129,11 @@ public class MainActivity extends AppCompatActivity
             drawer.closeDrawer(GravityCompat.START);
         } else {
             if (getSupportFragmentManager().getBackStackEntryCount() == 0){
-                super.onBackPressed();
+                if(currentFragment instanceof MainFragment) {
+                    super.onBackPressed();
+                }else{
+                    loadInitialFragment(MainFragment.newInstance());
+                }
             } else {
                 id--;
                 currentFragment = (KHFragment)getSupportFragmentManager().findFragmentByTag(String.valueOf(id-1));
