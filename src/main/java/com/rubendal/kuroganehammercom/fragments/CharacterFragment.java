@@ -88,15 +88,15 @@ public class CharacterFragment extends KHFragment {
         list.add(new CharacterOption("All data"));
         list.add(new CharacterOption("Attributes"));
         list.add(new CharacterOption("Attribute ranking"));
-        list.add(new CharacterOption("All Attacks"));
-        list.add(new CharacterOption("Ground Attacks"));
+        list.add(new CharacterOption("All Moves"));
+        list.add(new CharacterOption("Ground Moves"));
         list.add(new CharacterOption("Throws"));
         if(character.name.equals("Little Mac")){
-            list.add(new CharacterOption("Aerial Attacks (Please don't actually use these)"));
+            list.add(new CharacterOption("Aerial Moves (Please don't actually use these)"));
         }else {
-            list.add(new CharacterOption("Aerial Attacks"));
+            list.add(new CharacterOption("Aerial Moves"));
         }
-        list.add(new CharacterOption("Specials"));
+        list.add(new CharacterOption("Special Moves"));
 
         if(character.hasSpecificAttributes){
             list.add(new CharacterOption(character.specificAttribute.attribute));
@@ -134,7 +134,7 @@ public class CharacterFragment extends KHFragment {
                         AttributeAsyncTask a = new AttributeAsyncTask(ref, character);
                         a.execute();
                         break;
-                    case "All Attacks":
+                    case "All Moves":
                         m = new MoveAsyncTask(ref, character, MoveType.Any);
                         m.execute();
                         break;
@@ -142,15 +142,15 @@ public class CharacterFragment extends KHFragment {
                         m = new MoveAsyncTask(ref, character, MoveType.Throw);
                         m.execute();
                         break;
-                    case "Aerial Attacks": case "Aerial Attacks (Please don't actually use these)":
+                    case "Aerial Moves": case "Aerial Moves (Please don't actually use these)":
                         m = new MoveAsyncTask(ref, character, MoveType.Aerial);
                         m.execute();
                         break;
-                    case "Specials":
+                    case "Special Moves":
                         m = new MoveAsyncTask(ref, character, MoveType.Special);
                         m.execute();
                         break;
-                    case "Ground Attacks":
+                    case "Ground Moves":
                         m = new MoveAsyncTask(ref, character, MoveType.Ground);
                         m.execute();
                         break;

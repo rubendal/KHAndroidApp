@@ -209,7 +209,7 @@ public class AttackListFragment extends KHFragment {
 
             if(character.name.equals("Little Mac")){
                 TextView aerial = (TextView)getView().findViewById(R.id.aerial_label);
-                aerial.setText("Aerial Attacks (Please don't actually use these)");
+                aerial.setText("Aerial Moves (Please don't actually use these)");
             }
         }
     }

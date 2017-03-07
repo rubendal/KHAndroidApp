@@ -69,10 +69,19 @@ public class AttributeRank implements Serializable {
                     characterView.setText(character.name);
             }
         }else {
-            characterView.setText(character.name);
+            if(attributeName.equals("RUNSPEED")){
+                String name = character.name;
+                switch (name){
+                    case "Ness":
+                        characterView.setText("Ebola Back Throw");
+                        break;
+                    default:
+                        characterView.setText(character.name);
+                }
+            }else {
+                characterView.setText(character.name);
+            }
         }
-
-
 
         characterView.setPadding(padding,padding,padding,padding);
         rankView.setPadding(padding,padding,padding,padding);
