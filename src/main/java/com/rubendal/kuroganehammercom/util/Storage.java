@@ -21,7 +21,7 @@ import java.util.LinkedList;
 public class Storage {
 
     //Initial storage assets version, will change when new assets are added
-    private static final String STORAGE_DATA_VERSION = "1.3";
+    private static final String STORAGE_DATA_VERSION = "1.4";
 
     //Write file in internal storage
     public static void write (String directory, String filename, Context context, String string) throws IOException {
@@ -105,6 +105,8 @@ public class Storage {
                 list.add(Character.fromJson(context, jsonArray.getJSONObject(i)));
             }
             write("data","characters.json",context,json);
+            json = getAsset(assets, "formulas.json");
+            write("data","formulas.json",context,json);
             json = getAsset(assets, "Data/smashAttributes.json");
             write("data","smashAttributes.json",context,json);
             json = getAsset(assets, "Data/attributes.json");

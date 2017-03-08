@@ -10,6 +10,9 @@
                 <item
                     android:id="@+id/attributes"
                     android:title="Attributes" />
+                <item
+                    android:id="@+id/formulas"
+                    android:title="Formulas" />
             </menu>
         </item>
     </group>

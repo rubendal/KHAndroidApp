@@ -1,0 +1,67 @@
+﻿[
+    {
+        "formula":"Training Mode Knockback Formula",
+        "equation":"((((((v+bd)/10)+(((v+bd)*bd)/20))*(200/(w+100))*1.4)+18)*(g/100))+b*r",
+        "notes":"v = Victim percent\nbd = Base damage\nw = Target weight\ng = KBG\nb = BKB\nr = Ratio where:\nCrouch Cancel = 0.85\nGrounded Meteor = 0.8\nCharging Smash = 1.2"
+    },
+    {
+        "formula":"VS Mode Knockback Formula",
+        "equation":"((((((v+bd*s)/10+(((v+bd*s)*bd*(1-(1-s)*0.3))/20))*1.4*(200/(w+100)))+18)*(g/100))+b)*r",
+        "notes":"v = Victim percent\nbd = Base damage\ns = Stale move multiplier\nw = Target weight\ng = KBG\nb = BKB\nr = Ratio where:\nRage Multiplier = Variable\nCrouch Cancel = 0.85\nGrounded Meteor = 0.8\nCharging Smash = 1.2"
+    },
+    {
+        "formula":"Stale Move Negation Multiplier Formula",
+        "equation":"1-Σ(sn/100)",
+        "notes":"S1=8.000\nS2=7.594\nS3=6.782\nS4=6.028\nS5=5.274\nS6=4.462\nS7=3.766\nS8=2.954\nS9=2.200"
+    },
+    {
+        "formula":"Rage Formula",
+        "equation":"1+(p-35)*(1.15-1)/(150-35)",
+        "notes":"p = Percent\np cannot be:\n<35\n>150"
+    },
+    {
+        "formula":"Hitstun Formula",
+        "equation":"Floor(Knockback*0.4)-1",
+        "notes":""
+    },
+    {
+        "formula":"Shieldstun Formula",
+        "equation":"Normal Attacks = INT(d/1.72+3)-1\nPowershield Normal Attacks = INT(d/2.61+3)-1\nProjectile Attacks = INT(d/3.5+3)-1\nPowershield Projectile Attacks = INT(d/5.22+3)-1",
+        "notes":""
+    },
+    {
+        "formula":"Hitlag Formula",
+        "equation":"INT(((d/2.6+5)*e)*h)*c)-1",
+        "notes":"This calculation's results is measured in FAF\nd = Damage\nh = Hitlag multiplier\ne = Electric multiplier (1.5× if electric, 1× otherwise)\nc = Crouching multiplier (0.67× if crouching, 1× otherwise)\n30 frames is the max amount of hitlag able to be dealt"
+    },
+    {
+        "formula":"Shield Advantage Formula",
+        "equation":"Hit Frame - (FAF-1) + Shield Stun + Shield Hitlag - Hitlag",
+        "notes":""
+    },
+    {
+        "formula":"Ledge Intangibility Formula",
+        "equation":"Floor((a*0.2+64)-(p*44/120))",
+        "notes":"a = Airborne frames\np = Character percentage\nAirborne frames cannot be higher than 300\nPercentage cannot be higher than 120\nMin intangibility granted: 24 frames\nMax intangibility granted: 124 frames"
+    },
+    {
+        "formula":"Rebound Duration Formula",
+        "equation":"Floor((d*15/8+)7.5)",
+        "notes":"d = Damage"
+    },
+    {
+        "formula":"Grab Duration Formula",
+        "equation":"Floor((90+p*1.7)-i)",
+        "notes":"p = Target percent\ni = Input\nInput:\nL-stick = 8\nButton = 14.3"
+    },
+    {
+        "formula":"Pikmin Grab Duration Formula",
+        "equation":"Floor((360-p)-i)",
+        "notes":"	p = Target percent\ni = Input\nInput:\nL-stick = 7\nButton = 12.5"
+    },
+    {
+        "formula":"Smash Charge Formula",
+        "equation":"d*(Held Frames/150)",
+        "notes":"d = Damage\nMegaman Fsmash:\nd*(Held Frames/86)"
+    }
+]

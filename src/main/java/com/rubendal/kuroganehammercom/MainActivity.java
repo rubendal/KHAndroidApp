@@ -12,6 +12,7 @@ import android.view.MenuItem;
 
 import com.rubendal.kuroganehammercom.asynctask.KHUpdate;
 import com.rubendal.kuroganehammercom.fragments.AttributeMainFragment;
+import com.rubendal.kuroganehammercom.fragments.FormulaFragment;
 import com.rubendal.kuroganehammercom.fragments.KHFragment;
 import com.rubendal.kuroganehammercom.fragments.MainFragment;
 import com.rubendal.kuroganehammercom.fragments.NavigationFragment;
@@ -82,6 +83,15 @@ public class MainActivity extends AppCompatActivity
             if(!(currentFragment instanceof AttributeMainFragment)){
                 if(currentFragment instanceof NavigationFragment){
                     replaceFragment(AttributeMainFragment.newInstance());
+                }else{
+                    loadFragment(AttributeMainFragment.newInstance());
+                }
+            }
+        }
+        else if (id == R.id.formulas) {
+            if(!(currentFragment instanceof FormulaFragment)){
+                if(currentFragment instanceof NavigationFragment){
+                    replaceFragment(FormulaFragment.newInstance());
                 }else{
                     loadFragment(AttributeMainFragment.newInstance());
                 }
