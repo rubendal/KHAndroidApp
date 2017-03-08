@@ -48,15 +48,15 @@ public class AttackListFragment extends KHFragment {
     private String getType(){
         switch(moveType){
             case Aerial:
-                return "Aerial Attacks";
+                return "Aerial Moves";
             case Special:
-                return "Specials";
+                return "Special Moves";
             case Throw:
                 return "Throws";
             case Ground:
-                return "Ground Attacks";
+                return "Ground Moves";
             default:
-                return "Attacks";
+                return "Moves";
         }
     }
 
