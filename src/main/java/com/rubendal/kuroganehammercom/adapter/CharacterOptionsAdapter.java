@@ -28,15 +28,18 @@ public class CharacterOptionsAdapter extends ArrayAdapter<CharacterOption>{
         if(convertView == null){
             if(o.isImage) {
                 convertView = LayoutInflater.from(getContext()).inflate(R.layout.character_image_row, parent, false);
-                ImageView img = (ImageView)convertView.findViewById(R.id.image);
-                img.setImageBitmap(o.image);
             }else{
                 convertView = LayoutInflater.from(getContext()).inflate(R.layout.list_item, parent, false);
-                TextView textView = (TextView)convertView.findViewById(R.id.text);
-
-                textView.setText(o.text);
-
             }
+        }
+        if(o.isImage) {
+            ImageView img = (ImageView)convertView.findViewById(R.id.image);
+            img.setImageBitmap(o.image);
+        }else{
+            TextView textView = (TextView)convertView.findViewById(R.id.text);
+
+            textView.setText(o.text);
+
         }
 
 
