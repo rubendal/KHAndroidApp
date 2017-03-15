@@ -56,6 +56,7 @@ public class CharacterAdapter extends BaseAdapter {
 
         TextView name = (TextView)convertView.findViewById(R.id.name);
         ImageView img = (ImageView)convertView.findViewById(R.id.image);
+        ImageView fav = (ImageView)convertView.findViewById(R.id.fav);
 
         img.getLayoutParams().width = x;
         img.getLayoutParams().height = x;
@@ -95,6 +96,12 @@ public class CharacterAdapter extends BaseAdapter {
                 img.setImageBitmap(image);
             }else{
                 img.setImageDrawable(ResourcesCompat.getDrawable(context.getResources(), R.drawable.row_shape, null));
+            }
+
+            if(character.favorite){
+                fav.setVisibility(View.VISIBLE);
+            }else{
+                fav.setVisibility(View.INVISIBLE);
             }
         }
 

@@ -4,16 +4,20 @@ import android.app.ProgressDialog;
 import android.os.AsyncTask;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.ImageView;
 
 import com.rubendal.kuroganehammercom.MainActivity;
+import com.rubendal.kuroganehammercom.R;
 import com.rubendal.kuroganehammercom.fragments.CharacterFragment;
 import com.rubendal.kuroganehammercom.fragments.MainFragment;
 import com.rubendal.kuroganehammercom.util.Storage;
 import com.rubendal.kuroganehammercom.adapter.CharacterAdapter;
 import com.rubendal.kuroganehammercom.classes.Character;
+import com.rubendal.kuroganehammercom.util.UserPref;
 
 import org.json.JSONArray;
 
+import java.util.Collections;
 import java.util.LinkedList;
 
 
@@ -56,6 +60,7 @@ public class CharacterAsyncTask extends AsyncTask<String, String, LinkedList<Cha
             for(int i=0;i<jsonArray.length();i++){
                 list.add(Character.fromJson(context.getActivity(), jsonArray.getJSONObject(i)));
             }
+            Collections.sort(list, Character.getComparator());
             return list;
         } catch (Exception e) {
 
@@ -80,9 +85,24 @@ public class CharacterAsyncTask extends AsyncTask<String, String, LinkedList<Cha
                 public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                     context.selectedItem = position;
                     Character character = (Character) parent.getItemAtPosition(position);
-                    //CharacterDataAsyncTask c = new CharacterDataAsyncTask(context,character);
-                    //c.execute();
                     ((MainActivity)context.getActivity()).loadFragment(CharacterFragment.newInstance(character));
+                }
+            });
+            context.grid.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
+                @Override
+                public boolean onItemLongClick(AdapterView<?> adapterView, View view, int i, long l) {
+                    Character character = (Character) adapterView.getItemAtPosition(i);
+                    ImageView fav = (ImageView)view.findViewById(R.id.fav);
+                    if(UserPref.checkFavorites(character.name)){
+                        UserPref.removeFavoriteCharacter(context.getActivity(),character.name);
+                        fav.setVisibility(View.INVISIBLE);
+                        character.favorite = false;
+                    }else{
+                        UserPref.addFavoriteCharacter(context.getActivity(),character.name);
+                        fav.setVisibility(View.VISIBLE);
+                        character.favorite = true;
+                    }
+                    return true;
                 }
             });
         }

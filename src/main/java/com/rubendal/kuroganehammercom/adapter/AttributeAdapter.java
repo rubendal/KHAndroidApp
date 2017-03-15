@@ -77,6 +77,9 @@ public class AttributeAdapter extends BaseAdapter {
 
         TextView name = (TextView)convertView.findViewById(R.id.name);
         ImageView img = (ImageView)convertView.findViewById(R.id.image);
+        ImageView fav = (ImageView)convertView.findViewById(R.id.fav);
+
+        fav.setVisibility(View.INVISIBLE);
 
         img.getLayoutParams().width = x;
         img.getLayoutParams().height = x;

@@ -1,5 +1,6 @@
 package com.rubendal.kuroganehammercom;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -17,6 +18,7 @@ import com.rubendal.kuroganehammercom.fragments.KHFragment;
 import com.rubendal.kuroganehammercom.fragments.MainFragment;
 import com.rubendal.kuroganehammercom.fragments.NavigationFragment;
 import com.rubendal.kuroganehammercom.util.Storage;
+import com.rubendal.kuroganehammercom.util.UserPref;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -41,6 +43,7 @@ public class MainActivity extends AppCompatActivity
         navigationView.setNavigationItemSelectedListener(this);
 
         Storage.Initialize(this);
+        UserPref.Initialize(this);
         loadInitialFragment(MainFragment.newInstance());
     }
 
@@ -96,6 +99,9 @@ public class MainActivity extends AppCompatActivity
                     loadFragment(AttributeMainFragment.newInstance());
                 }
             }
+        }
+        else if (id == R.id.about_credits) {
+            startActivity(new Intent(this,AboutActivity.class));
         }
 
 

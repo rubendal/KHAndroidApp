@@ -31,4 +31,16 @@
         android:textSize="32px"
         android:textColor="#FFFFFF"
         android:gravity="center_vertical" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="50px"
+        android:minHeight="50px"
+        android:padding="10px"
+        android:id="@+id/fav"
+        android:src="@drawable/ic_star_black_24dp"
+        android:layout_alignTop="@+id/image"
+        android:layout_alignRight="@+id/image"
+        android:layout_alignEnd="@+id/image" />
 </RelativeLayout>

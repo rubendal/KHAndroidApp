@@ -5,12 +5,14 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 
 import com.rubendal.kuroganehammercom.util.Storage;
+import com.rubendal.kuroganehammercom.util.UserPref;
 
 import org.json.JSONObject;
 
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.Serializable;
+import java.util.Comparator;
 
 public class Character implements Serializable {
     public String name;
@@ -20,6 +22,7 @@ public class Character implements Serializable {
     public String color;
     public boolean hasSpecificAttributes;
     public SpecificAttribute specificAttribute;
+    public boolean favorite = false;
 
     public Character(int id, String name){
         this.id = id;
@@ -90,10 +93,37 @@ public class Character implements Serializable {
         try {
             String name = jsonObject.getString("displayName"), thumbnail = jsonObject.getString("thumbnailUrl"), color = jsonObject.getString("colorTheme");
             int id = jsonObject.getInt("id");
-            return new Character(context, id, name, thumbnail, color);
+            Character c = new Character(context, id, name, thumbnail, color);
+            c.favorite = UserPref.checkFavorites(name);
+            return c;
         }catch(Exception e){
             return null;
         }
+    }
+
+    public static Comparator<Character> getComparator(){
+        Comparator<Character> comparator = new Comparator<Character>() {
+            @Override
+            public int compare(Character c1, Character c2) {
+                if(c1.favorite == c2.favorite){
+                    if(c1.id < c2.id){
+                        return -1;
+                    }
+                    if(c1.id > c2.id){
+                        return 1;
+                    }
+                    return 0;
+                }
+                if(c1.favorite){
+                    return -1;
+                }
+                if(c2.favorite){
+                    return 1;
+                }
+                return 0;
+            }
+        };
+        return comparator;
     }
 
 }
