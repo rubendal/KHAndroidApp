@@ -8,6 +8,7 @@ import android.widget.TableRow;
 import android.widget.TextView;
 
 import com.rubendal.kuroganehammercom.R;
+import com.rubendal.kuroganehammercom.util.params.Params;
 
 import org.apache.commons.lang3.StringEscapeUtils;
 import org.json.JSONObject;
@@ -49,7 +50,7 @@ public class AerialMove extends Move {
         landingLagView.setText(landingLag);
         autoCancelView.setText(autoCancel);
 
-        int padding = 15;
+        int padding = Params.PADDING;
         nameView.setPadding(padding,padding,padding,padding);
         hitboxActiveView.setPadding(padding,padding,padding,padding);
         fafView.setPadding(padding,padding,padding,padding);

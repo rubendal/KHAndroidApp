@@ -8,11 +8,11 @@ import android.widget.TableRow;
 import android.widget.TextView;
 
 import com.rubendal.kuroganehammercom.R;
+import com.rubendal.kuroganehammercom.util.params.Params;
 
 import org.json.JSONObject;
 
 import java.io.Serializable;
-import java.util.Comparator;
 import java.util.List;
 
 public class Attribute implements Serializable{
@@ -85,10 +85,11 @@ public class Attribute implements Serializable{
         valueView.setText(value);
         rankView.setText(rank);
 
-        int padding = 15;
+        int padding = Params.PADDING;
         attributeView.setPadding(padding,padding,padding,padding);
         valueView.setPadding(padding,padding,padding,padding);
         rankView.setPadding(padding,padding,padding,padding);
+
 
         if(!odd){
             attributeView.setBackgroundColor(Color.parseColor("#D9D9D9"));

@@ -19,6 +19,7 @@ import com.rubendal.kuroganehammercom.classes.Move;
 import com.rubendal.kuroganehammercom.classes.MoveType;
 import com.rubendal.kuroganehammercom.classes.Movement;
 import com.rubendal.kuroganehammercom.classes.RowValue;
+import com.rubendal.kuroganehammercom.util.params.Params;
 
 import java.util.List;
 
@@ -80,12 +81,13 @@ public class CharacterDataFragment extends KHFragment {
 
         TableLayout layout = (TableLayout)getView().findViewById(R.id.movement_table);
 
-        layout.setPadding(15, 15, 15, 15);
+        layout.setPadding(Params.LAYOUT_PADDING,Params.LAYOUT_PADDING,Params.LAYOUT_PADDING,Params.LAYOUT_PADDING);
 
         TableRow header = (TableRow) layout.findViewById(R.id.mov_header);
 
         for (int i = 0; i < header.getChildCount(); i++) {
             TextView t = (TextView) header.getChildAt(i);
+            t.setPadding(Params.PADDING,Params.PADDING,Params.PADDING,Params.PADDING);
             t.setBackgroundColor(Color.parseColor(data.character.color));
         }
 
@@ -103,12 +105,13 @@ public class CharacterDataFragment extends KHFragment {
                 container.removeView(getView().findViewById(R.id.specific_attr_complex_table));
                 layout = (TableLayout)getView().findViewById(R.id.specific_attr_simple_table);
 
-                layout.setPadding(15, 15, 15, 15);
+                layout.setPadding(Params.LAYOUT_PADDING,Params.LAYOUT_PADDING,Params.LAYOUT_PADDING,Params.LAYOUT_PADDING);
 
                 header = (TableRow) layout.findViewById(R.id.specific_attr_simple_header);
 
                 for (int i = 0; i < header.getChildCount(); i++) {
                     TextView t = (TextView) header.getChildAt(i);
+                    t.setPadding(Params.PADDING,Params.PADDING,Params.PADDING,Params.PADDING);
                     t.setBackgroundColor(Color.parseColor(data.character.color));
                 }
 
@@ -124,7 +127,7 @@ public class CharacterDataFragment extends KHFragment {
                 container.removeView(getView().findViewById(R.id.specific_attr_simple_table));
                 layout = (TableLayout)getView().findViewById(R.id.specific_attr_complex_table);
 
-                layout.setPadding(15, 15, 15, 15);
+                layout.setPadding(Params.LAYOUT_PADDING,Params.LAYOUT_PADDING,Params.LAYOUT_PADDING,Params.LAYOUT_PADDING);
 
                 List<TableRow> rows = data.character.specificAttribute.asRows(this.getActivity(), data.character.color);
                 for(TableRow tr : rows){
@@ -140,7 +143,7 @@ public class CharacterDataFragment extends KHFragment {
 
         layout = (TableLayout)getView().findViewById(R.id.groundtable);
 
-        layout.setPadding(15, 15, 15, 15);
+        layout.setPadding(Params.LAYOUT_PADDING,Params.LAYOUT_PADDING,Params.LAYOUT_PADDING,Params.LAYOUT_PADDING);
 
         header = (TableRow) layout.findViewById(R.id.groundheader);
 
@@ -148,6 +151,7 @@ public class CharacterDataFragment extends KHFragment {
 
         for (int i = 0; i < header.getChildCount(); i++) {
             TextView t = (TextView) header.getChildAt(i);
+            t.setPadding(Params.PADDING,Params.PADDING,Params.PADDING,Params.PADDING);
             t.setBackgroundColor(Color.parseColor(data.character.color));
         }
         for (Move move : data.moveList) {
@@ -162,12 +166,13 @@ public class CharacterDataFragment extends KHFragment {
         o=0;
         layout = (TableLayout)getView().findViewById(R.id.throwtable);
 
-        layout.setPadding(15, 15, 15, 15);
+        layout.setPadding(Params.LAYOUT_PADDING,Params.LAYOUT_PADDING,Params.LAYOUT_PADDING,Params.LAYOUT_PADDING);
 
         header = (TableRow) layout.findViewById(R.id.throwheader);
 
         for (int i = 0; i < header.getChildCount(); i++) {
             TextView t = (TextView) header.getChildAt(i);
+            t.setPadding(Params.PADDING,Params.PADDING,Params.PADDING,Params.PADDING);
             t.setBackgroundColor(Color.parseColor(data.character.color));
         }
         for (Move move : data.moveList) {
@@ -182,12 +187,13 @@ public class CharacterDataFragment extends KHFragment {
         o=0;
         layout = (TableLayout)getView().findViewById(R.id.aerialtable);
 
-        layout.setPadding(15, 15, 15, 15);
+        layout.setPadding(Params.LAYOUT_PADDING,Params.LAYOUT_PADDING,Params.LAYOUT_PADDING,Params.LAYOUT_PADDING);
 
         header = (TableRow) layout.findViewById(R.id.aerialheader);
 
         for (int i = 0; i < header.getChildCount(); i++) {
             TextView t = (TextView) header.getChildAt(i);
+            t.setPadding(Params.PADDING,Params.PADDING,Params.PADDING,Params.PADDING);
             t.setBackgroundColor(Color.parseColor(data.character.color));
         }
         for (Move move : data.moveList) {
@@ -202,12 +208,13 @@ public class CharacterDataFragment extends KHFragment {
         o=0;
         layout = (TableLayout)getView().findViewById(R.id.specialtable);
 
-        layout.setPadding(15, 15, 15, 15);
+        layout.setPadding(Params.LAYOUT_PADDING,Params.LAYOUT_PADDING,Params.LAYOUT_PADDING,Params.LAYOUT_PADDING);
 
         header = (TableRow) layout.findViewById(R.id.specialheader);
 
         for (int i = 0; i < header.getChildCount(); i++) {
             TextView t = (TextView) header.getChildAt(i);
+            t.setPadding(Params.PADDING,Params.PADDING,Params.PADDING,Params.PADDING);
             t.setBackgroundColor(Color.parseColor(data.character.color));
         }
         for (Move move : data.moveList) {

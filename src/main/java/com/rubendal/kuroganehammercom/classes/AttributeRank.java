@@ -2,13 +2,13 @@ package com.rubendal.kuroganehammercom.classes;
 
 import android.content.Context;
 import android.graphics.Color;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.TableRow;
 import android.widget.TextView;
 
 import com.rubendal.kuroganehammercom.R;
+import com.rubendal.kuroganehammercom.util.params.Params;
 
 import java.io.Serializable;
 import java.util.Comparator;
@@ -43,7 +43,7 @@ public class AttributeRank implements Serializable {
         TextView rankView = (TextView)tableRow.findViewById(R.id.rank);
         TextView characterView = (TextView)tableRow.findViewById(R.id.character);
 
-        int padding = 15;
+        int padding = Params.PADDING;
 
         for(int i=0;i<types.size();i++){
             TextView valueView = new TextView(context);

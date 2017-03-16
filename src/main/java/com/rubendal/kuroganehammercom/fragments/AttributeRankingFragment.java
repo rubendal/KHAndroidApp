@@ -4,7 +4,6 @@ package com.rubendal.kuroganehammercom.fragments;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -14,13 +13,9 @@ import android.widget.TextView;
 
 import com.rubendal.kuroganehammercom.R;
 import com.rubendal.kuroganehammercom.asynctask.attribute.AttributeRankingAsyncTask;
-import com.rubendal.kuroganehammercom.classes.Attribute;
-import com.rubendal.kuroganehammercom.classes.AttributeList;
 import com.rubendal.kuroganehammercom.classes.AttributeRank;
 import com.rubendal.kuroganehammercom.classes.AttributeRankWrapper;
-import com.rubendal.kuroganehammercom.classes.Character;
-
-import java.util.LinkedList;
+import com.rubendal.kuroganehammercom.util.params.Params;
 
 public class AttributeRankingFragment extends KHFragment {
 
@@ -73,19 +68,20 @@ public class AttributeRankingFragment extends KHFragment {
     private void loadData(){
         TableLayout layout  = (TableLayout)getView().findViewById(R.id.table);
 
-        layout.setPadding(15,15,15,15);
+        layout.setPadding(Params.LAYOUT_PADDING,Params.LAYOUT_PADDING,Params.LAYOUT_PADDING,Params.LAYOUT_PADDING);
 
         TableRow header = (TableRow)layout.findViewById(R.id.header);
 
         for(int i=0;i<attribute.valueTypes.size();i++){
             TextView a = new TextView(getContext());
             a.setText(attribute.valueTypes.get(i));
-            a.setPadding(15,15,15,15);
+            a.setPadding(Params.PADDING,Params.PADDING,Params.PADDING,Params.PADDING);
             header.addView(a);
         }
 
         for(int i = 0; i < header.getChildCount(); i++){
             TextView t = (TextView)header.getChildAt(i);
+            t.setPadding(Params.PADDING,Params.PADDING,Params.PADDING,Params.PADDING);
             t.setBackgroundColor(Color.parseColor("#D0EAFF"));
         }
 

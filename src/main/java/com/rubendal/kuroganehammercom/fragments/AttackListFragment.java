@@ -16,6 +16,7 @@ import com.rubendal.kuroganehammercom.classes.Character;
 import com.rubendal.kuroganehammercom.R;
 import com.rubendal.kuroganehammercom.classes.Move;
 import com.rubendal.kuroganehammercom.classes.MoveType;
+import com.rubendal.kuroganehammercom.util.params.Params;
 
 import java.util.LinkedList;
 
@@ -111,12 +112,13 @@ public class AttackListFragment extends KHFragment {
 
             TableLayout layout = (TableLayout)getView().findViewById(R.id.table);
 
-            layout.setPadding(15, 15, 15, 15);
+            layout.setPadding(Params.LAYOUT_PADDING,Params.LAYOUT_PADDING,Params.LAYOUT_PADDING,Params.LAYOUT_PADDING);
 
             TableRow header = (TableRow) layout.findViewById(R.id.header);
 
             for (int i = 0; i < header.getChildCount(); i++) {
                 TextView t = (TextView) header.getChildAt(i);
+                t.setPadding(Params.PADDING,Params.PADDING,Params.PADDING,Params.PADDING);
                 t.setBackgroundColor(Color.parseColor(character.color));
             }
 
@@ -130,12 +132,13 @@ public class AttackListFragment extends KHFragment {
         }else{
             TableLayout layout = (TableLayout)getView().findViewById(R.id.groundtable);
 
-            layout.setPadding(15, 15, 15, 15);
+            layout.setPadding(Params.LAYOUT_PADDING,Params.LAYOUT_PADDING,Params.LAYOUT_PADDING,Params.LAYOUT_PADDING);
 
             TableRow header = (TableRow) layout.findViewById(R.id.groundheader);
 
             for (int i = 0; i < header.getChildCount(); i++) {
                 TextView t = (TextView) header.getChildAt(i);
+                t.setPadding(Params.PADDING,Params.PADDING,Params.PADDING,Params.PADDING);
                 t.setBackgroundColor(Color.parseColor(character.color));
             }
             for (Move move : moveList) {
@@ -150,12 +153,13 @@ public class AttackListFragment extends KHFragment {
             o=0;
             layout = (TableLayout)getView().findViewById(R.id.throwtable);
 
-            layout.setPadding(15, 15, 15, 15);
+            layout.setPadding(Params.LAYOUT_PADDING,Params.LAYOUT_PADDING,Params.LAYOUT_PADDING,Params.LAYOUT_PADDING);
 
             header = (TableRow) layout.findViewById(R.id.throwheader);
 
             for (int i = 0; i < header.getChildCount(); i++) {
                 TextView t = (TextView) header.getChildAt(i);
+                t.setPadding(Params.PADDING,Params.PADDING,Params.PADDING,Params.PADDING);
                 t.setBackgroundColor(Color.parseColor(character.color));
             }
             for (Move move : moveList) {
@@ -170,12 +174,13 @@ public class AttackListFragment extends KHFragment {
             o=0;
             layout = (TableLayout)getView().findViewById(R.id.aerialtable);
 
-            layout.setPadding(15, 15, 15, 15);
+            layout.setPadding(Params.LAYOUT_PADDING,Params.LAYOUT_PADDING,Params.LAYOUT_PADDING,Params.LAYOUT_PADDING);
 
             header = (TableRow) layout.findViewById(R.id.aerialheader);
 
             for (int i = 0; i < header.getChildCount(); i++) {
                 TextView t = (TextView) header.getChildAt(i);
+                t.setPadding(Params.PADDING,Params.PADDING,Params.PADDING,Params.PADDING);
                 t.setBackgroundColor(Color.parseColor(character.color));
             }
             for (Move move : moveList) {
@@ -190,12 +195,13 @@ public class AttackListFragment extends KHFragment {
             o=0;
             layout = (TableLayout)getView().findViewById(R.id.specialtable);
 
-            layout.setPadding(15, 15, 15, 15);
+            layout.setPadding(Params.LAYOUT_PADDING,Params.LAYOUT_PADDING,Params.LAYOUT_PADDING,Params.LAYOUT_PADDING);
 
             header = (TableRow) layout.findViewById(R.id.specialheader);
 
             for (int i = 0; i < header.getChildCount(); i++) {
                 TextView t = (TextView) header.getChildAt(i);
+                t.setPadding(Params.PADDING,Params.PADDING,Params.PADDING,Params.PADDING);
                 t.setBackgroundColor(Color.parseColor(character.color));
             }
             for (Move move : moveList) {

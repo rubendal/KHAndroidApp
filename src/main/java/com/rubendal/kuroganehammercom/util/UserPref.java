@@ -9,7 +9,7 @@ import java.util.LinkedList;
 
 public class UserPref {
 
-    public static LinkedList<String> favoriteCharacters = new LinkedList<>();
+    private static LinkedList<String> favoriteCharacters = new LinkedList<>();
 
     public static void Initialize(Context context){
         LinkedList<String> list = new LinkedList<>();
@@ -25,13 +25,13 @@ public class UserPref {
         favoriteCharacters = list;
     }
 
-    private static void save(Context context){
+    private static void saveFavorites(Context context){
         try{
             JSONArray jsonArray = new JSONArray(favoriteCharacters);
             String json = jsonArray.toString();
             Storage.write("user","favoriteCharacters.json",context,json);
         }catch(Exception e){
-
+            
         }
     }
 
@@ -41,12 +41,12 @@ public class UserPref {
 
     public static void addFavoriteCharacter(Context context, String name){
         favoriteCharacters.add(name);
-        save(context);
+        saveFavorites(context);
     }
 
     public static void removeFavoriteCharacter(Context context, String name){
         favoriteCharacters.remove(name);
-        save(context);
+        saveFavorites(context);
     }
 
 

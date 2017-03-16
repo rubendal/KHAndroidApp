@@ -1,15 +1,14 @@
 package com.rubendal.kuroganehammercom.classes;
 
 import android.content.Context;
-import android.graphics.Color;
 import android.view.LayoutInflater;
 import android.view.View;
-import android.widget.LinearLayout;
 import android.widget.TableLayout;
 import android.widget.TableRow;
 import android.widget.TextView;
 
 import com.rubendal.kuroganehammercom.R;
+import com.rubendal.kuroganehammercom.util.params.Params;
 
 import org.json.JSONObject;
 
@@ -47,7 +46,7 @@ public class Formula implements Serializable {
         TableRow formulaRow = (TableRow)layout.findViewById(R.id.row_formula);
         TableRow notesRow = (TableRow)layout.findViewById(R.id.row_notes);
 
-        int padding = 15;
+        int padding = Params.PADDING;
 
         for (int i = 0; i < header.getChildCount(); i++) {
             TextView t = (TextView) header.getChildAt(i);

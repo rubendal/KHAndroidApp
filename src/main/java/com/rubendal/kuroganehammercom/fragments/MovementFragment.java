@@ -15,6 +15,7 @@ import com.rubendal.kuroganehammercom.R;
 import com.rubendal.kuroganehammercom.asynctask.character.MovementAsyncTask;
 import com.rubendal.kuroganehammercom.classes.Character;
 import com.rubendal.kuroganehammercom.classes.Movement;
+import com.rubendal.kuroganehammercom.util.params.Params;
 
 import java.util.LinkedList;
 
@@ -77,12 +78,13 @@ public class MovementFragment extends KHFragment {
     private void loadData(){
         TableLayout layout  = (TableLayout)getView().findViewById(R.id.table);
 
-        layout.setPadding(15,15,15,15);
+        layout.setPadding(Params.LAYOUT_PADDING,Params.LAYOUT_PADDING,Params.LAYOUT_PADDING,Params.LAYOUT_PADDING);
 
         TableRow header = (TableRow)layout.findViewById(R.id.header);
 
         for(int i = 0; i < header.getChildCount(); i++){
             TextView t = (TextView)header.getChildAt(i);
+            t.setPadding(Params.PADDING,Params.PADDING,Params.PADDING,Params.PADDING);
             t.setBackgroundColor(Color.parseColor(character.color));
         }
 

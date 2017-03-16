@@ -8,6 +8,7 @@ import android.widget.TableRow;
 import android.widget.TextView;
 
 import com.rubendal.kuroganehammercom.R;
+import com.rubendal.kuroganehammercom.util.params.Params;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -81,7 +82,7 @@ public class SpecificAttribute implements Serializable {
 
         TableRow.LayoutParams layoutParams = new TableRow.LayoutParams(
                 TableRow.LayoutParams.WRAP_CONTENT, TableRow.LayoutParams.WRAP_CONTENT);
-        int padding = 15;
+        int padding = Params.PADDING;
 
         for(int i =0;i<headers.size();i++){
             TextView t = new TextView(context);

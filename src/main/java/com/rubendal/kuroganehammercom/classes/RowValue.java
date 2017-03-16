@@ -8,6 +8,7 @@ import android.widget.TableRow;
 import android.widget.TextView;
 
 import com.rubendal.kuroganehammercom.R;
+import com.rubendal.kuroganehammercom.util.params.Params;
 
 import org.json.JSONObject;
 
@@ -45,7 +46,7 @@ public class RowValue implements Serializable {
         nameView.setText(name);
         valueView.setText(value);
 
-        int padding = 15;
+        int padding = Params.PADDING;
         nameView.setPadding(padding,padding,padding,padding);
         valueView.setPadding(padding,padding,padding,padding);
 

@@ -14,6 +14,7 @@ import android.widget.TextView;
 import com.rubendal.kuroganehammercom.R;
 import com.rubendal.kuroganehammercom.classes.Character;
 import com.rubendal.kuroganehammercom.classes.RowValue;
+import com.rubendal.kuroganehammercom.util.params.Params;
 
 import java.util.List;
 
@@ -76,12 +77,13 @@ public class SpecificAttributeFragment extends KHFragment {
         if(character.specificAttribute.isSimple){
             TableLayout layout = (TableLayout)getView().findViewById(R.id.table);
 
-            layout.setPadding(15, 15, 15, 15);
+            layout.setPadding(Params.LAYOUT_PADDING,Params.LAYOUT_PADDING,Params.LAYOUT_PADDING,Params.LAYOUT_PADDING);
 
             TableRow header = (TableRow) layout.findViewById(R.id.header);
 
             for (int i = 0; i < header.getChildCount(); i++) {
                 TextView t = (TextView) header.getChildAt(i);
+                t.setPadding(Params.PADDING,Params.PADDING,Params.PADDING,Params.PADDING);
                 t.setBackgroundColor(Color.parseColor(character.color));
             }
 
@@ -96,7 +98,7 @@ public class SpecificAttributeFragment extends KHFragment {
         }else{
             TableLayout layout = (TableLayout)getView().findViewById(R.id.table);
 
-            layout.setPadding(15, 15, 15, 15);
+            layout.setPadding(Params.LAYOUT_PADDING,Params.LAYOUT_PADDING,Params.LAYOUT_PADDING,Params.LAYOUT_PADDING);
 
             List<TableRow> rows = character.specificAttribute.asRows(this.getActivity(), character.color);
             for(TableRow tr : rows){
