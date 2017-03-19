@@ -31,7 +31,7 @@ public class UserPref {
             String json = jsonArray.toString();
             Storage.write("user","favoriteCharacters.json",context,json);
         }catch(Exception e){
-            
+
         }
     }
 

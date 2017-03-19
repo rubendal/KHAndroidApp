@@ -100,9 +100,9 @@ public class MainActivity extends AppCompatActivity
                 }
             }
         }
-        else if (id == R.id.about_credits) {
+        /*else if (id == R.id.about_credits) {
             startActivity(new Intent(this,AboutActivity.class));
-        }
+        }*/
 
 
         drawer.closeDrawer(GravityCompat.START);
