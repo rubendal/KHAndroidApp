@@ -4,6 +4,7 @@ import android.app.ProgressDialog;
 import android.os.AsyncTask;
 
 import com.rubendal.kuroganehammercom.MainActivity;
+import com.rubendal.kuroganehammercom.classes.Attribute;
 import com.rubendal.kuroganehammercom.fragments.AttackListFragment;
 import com.rubendal.kuroganehammercom.fragments.KHFragment;
 import com.rubendal.kuroganehammercom.util.Storage;
@@ -24,6 +25,7 @@ public class MoveAsyncTask extends AsyncTask<String, String, LinkedList<Move>> {
     private String title;
     private MoveType type;
     private Character character;
+    private LinkedList<Attribute> attributes;
 
     private boolean replace = false;
 
@@ -71,6 +73,22 @@ public class MoveAsyncTask extends AsyncTask<String, String, LinkedList<Move>> {
         return null;
     }
 
+    private void getAttributes(){
+        try {
+            String json = Storage.read(String.valueOf(character.id), "smashAttributes.json", context.getActivity());
+            attributes = new LinkedList<>();
+            JSONArray jsonArray = new JSONArray(json);
+            for (int i = 0; i < jsonArray.length(); i++) {
+                Attribute a = Attribute.getFromJson(context.getActivity(), jsonArray.getJSONObject(i));
+                if(a.formattedName.contains("AIRDODGE") || a.formattedName.contains("ROLLS") || a.formattedName.contains("SPOTDODGE")) {
+                    attributes.add(a);
+                }
+            }
+        }catch(Exception e){
+
+        }
+    }
+
     @Override
     protected LinkedList<Move> doInBackground(String... params) {
         try {
@@ -98,6 +116,7 @@ public class MoveAsyncTask extends AsyncTask<String, String, LinkedList<Move>> {
                             list.add(ThrowMove.getFromJson(jsonArray.getJSONObject(i), t));
                             break;
                     }
+                    getAttributes();
                 }else{
                     if(move.moveType == type) {
                         switch (type) {
@@ -106,6 +125,7 @@ public class MoveAsyncTask extends AsyncTask<String, String, LinkedList<Move>> {
                                 break;
                             case Ground:
                                 list.add(Move.getFromJson(jsonArray.getJSONObject(i)));
+                                getAttributes();
                                 break;
                             case Special:
                                 list.add(Move.getFromJson(jsonArray.getJSONObject(i)));
@@ -132,9 +152,9 @@ public class MoveAsyncTask extends AsyncTask<String, String, LinkedList<Move>> {
             dialog.dismiss();
         }
         if(replace){
-            ((MainActivity)context.getActivity()).replaceFragment(AttackListFragment.newInstance(character,type,s));
+            ((MainActivity)context.getActivity()).replaceFragment(AttackListFragment.newInstance(character,type,s, attributes));
         }else {
-            ((MainActivity) context.getActivity()).loadFragment(AttackListFragment.newInstance(character, type, s));
+            ((MainActivity) context.getActivity()).loadFragment(AttackListFragment.newInstance(character, type, s, attributes));
         }
     }
 }

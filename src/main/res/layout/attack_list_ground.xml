@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_attack_list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent" android:layout_height="fill_parent"
+        android:scrollbars="vertical"
+        android:fillViewport="true">
+
+        <HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content" android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+            <TableLayout
+                android:id="@+id/table"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/header">
+
+                    <TextView
+                        android:text="Attacks"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/header1"
+                        android:padding="5dp"
+                        />
+
+                    <TextView
+                        android:text="Hitbox Active"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/header2"
+                        android:padding="5dp"/>
+
+                    <TextView
+                        android:text="FAF"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/header3"
+                        android:padding="5dp"/>
+
+                    <TextView
+                        android:text="Damage"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/header4"
+                        android:padding="5dp"/>
+
+                    <TextView
+                        android:text="Angle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/header5"
+                        android:padding="5dp"/>
+
+                    <TextView
+                        android:text="BKB"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/header6"
+                        android:padding="5dp"/>
+
+                    <TextView
+                        android:text="KBG"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/header7"
+                        android:padding="5dp"/>
+                </TableRow>
+
+
+            </TableLayout>
+            <TableLayout
+                android:id="@+id/dodgetable"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/dodgeheader">
+
+                    <TextView
+                        android:text="Miscellaneous"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/dodgeheader1"
+                        android:padding="5dp"
+                        />
+
+                    <TextView
+                        android:text="Intangibility"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/dodgeheader2"
+                        android:padding="5dp"/>
+
+                    <TextView
+                        android:text="FAF"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/dodgeheader3"
+                        android:padding="5dp"/>
+                </TableRow>
+
+
+            </TableLayout>
+            </LinearLayout>
+        </HorizontalScrollView>
+    </ScrollView>
+</RelativeLayout>

@@ -167,6 +167,45 @@
 
                 </TableLayout>
 
+                <TableLayout
+                    android:id="@+id/dodgetable"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/dodgeheader">
+
+                        <TextView
+                            android:text="Miscellaneous"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/dodgeheader1"
+                            android:padding="5dp"
+                            />
+
+                        <TextView
+                            android:text="Intangibility"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/dodgeheader2"
+                            android:padding="5dp"/>
+
+                        <TextView
+                            android:text="FAF"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/dodgeheader3"
+                            android:padding="5dp"/>
+                    </TableRow>
+
+
+                </TableLayout>
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"

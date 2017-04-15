@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.update:
-                KHUpdate kh = new KHUpdate(currentFragment,"Syncing with KH API...");
+                KHUpdate kh = new KHUpdate(currentFragment,"Syncing with ZH API...");
                 kh.execute();
                 return true;
             default:

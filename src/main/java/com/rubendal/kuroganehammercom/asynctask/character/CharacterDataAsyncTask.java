@@ -4,6 +4,8 @@ import android.app.ProgressDialog;
 import android.os.AsyncTask;
 import android.util.Log;
 
+import com.rubendal.kuroganehammercom.classes.Attribute;
+import com.rubendal.kuroganehammercom.classes.AttributeRank;
 import com.rubendal.kuroganehammercom.fragments.CharacterDataFragment;
 import com.rubendal.kuroganehammercom.MainActivity;
 import com.rubendal.kuroganehammercom.classes.CharacterData;
@@ -102,7 +104,17 @@ public class CharacterDataAsyncTask extends AsyncTask<String, String, CharacterD
                 movements.add(Movement.fromJson(jsonArray.getJSONObject(i)));
             }
 
-            return new CharacterData(character, movements, list);
+            json = Storage.read(String.valueOf(character.id), "smashAttributes.json", context.getActivity());
+            LinkedList<Attribute> attributes = new LinkedList<>();
+            jsonArray = new JSONArray(json);
+            for (int i = 0; i < jsonArray.length(); i++) {
+                Attribute a = Attribute.getFromJson(context.getActivity(), jsonArray.getJSONObject(i));
+                if(a.formattedName.contains("AIRDODGE") || a.formattedName.contains("ROLLS") || a.formattedName.contains("SPOTDODGE")) {
+                    attributes.add(a);
+                }
+            }
+
+            return new CharacterData(character, movements, list, attributes);
         } catch (Exception e) {
             Log.d("nedfvnjf",e.getMessage());
         }
