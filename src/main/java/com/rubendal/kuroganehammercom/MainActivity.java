@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.update:
-                KHUpdate kh = new KHUpdate(currentFragment,"Syncing with ZH API...");
+                KHUpdate kh = new KHUpdate(currentFragment,"Syncing with KH API...");
                 kh.execute();
                 return true;
             default:
@@ -99,8 +99,8 @@ public class MainActivity extends AppCompatActivity
                     loadFragment(AttributeMainFragment.newInstance());
                 }
             }
-        }
-        /*else if (id == R.id.about_credits) {
+        }/*
+        else if (id == R.id.about_credits) {
             startActivity(new Intent(this,AboutActivity.class));
         }*/
 
