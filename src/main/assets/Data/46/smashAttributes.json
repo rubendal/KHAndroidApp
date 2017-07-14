@@ -1,218 +1,492 @@
 ﻿[
   {
-    "id": 54,
-    "ownerId": 46,
-    "rank": "54-56",
-    "value": "0.03",
-    "name": "VALUE",
-    "smashAttributeTypeId": 1,
-    "characterAttributeTypeId": 12
+    "InstanceId": "5968217946965952fcb51a34",
+    "Name": "AerialJump",
+    "OwnerId": 46,
+    "Owner": "Roy",
+    "Values": [
+      {
+        "Value": "28",
+        "Owner": "Roy",
+        "OwnerId": 46,
+        "Name": "HEIGHT"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968217946965952fcb51a34",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Roy",
+        "Title": ""
+      }
+    ]
   },
   {
-    "id": 123,
-    "ownerId": 46,
-    "rank": "19-34",
-    "value": "3-27",
-    "name": "INTANGIBLE",
-    "smashAttributeTypeId": 3,
-    "characterAttributeTypeId": 5
+    "InstanceId": "5968217946965952fcb51a35",
+    "Name": "Counters",
+    "OwnerId": 46,
+    "Owner": "Roy",
+    "Values": [
+      {
+        "Value": "8-27",
+        "Owner": "Roy",
+        "OwnerId": 46,
+        "Name": "COUNTER FRAMES"
+      },
+      {
+        "Value": "8-10",
+        "Owner": "Roy",
+        "OwnerId": 46,
+        "Name": "INTANGIBLE ON"
+      },
+      {
+        "Value": "60",
+        "Owner": "Roy",
+        "OwnerId": 46,
+        "Name": "FAF"
+      },
+      {
+        "Value": "1.35&#215;",
+        "Owner": "Roy",
+        "OwnerId": 46,
+        "Name": "DAMAGE (MULTIPLIER)"
+      },
+      {
+        "Value": "35 | 100/70",
+        "Owner": "Roy",
+        "OwnerId": 46,
+        "Name": "BKB | KBG"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968217946965952fcb51a35",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Roy",
+        "Title": ""
+      }
+    ]
   },
   {
-    "id": 124,
-    "ownerId": 46,
-    "rank": "19-34",
-    "value": "33",
-    "name": "FAF",
-    "smashAttributeTypeId": 3,
-    "characterAttributeTypeId": 1
+    "InstanceId": "5968217946965952fcb51a36",
+    "Name": "AirAcceleration",
+    "OwnerId": 46,
+    "Owner": "Roy",
+    "Values": [
+      {
+        "Value": "0.03",
+        "Owner": "Roy",
+        "OwnerId": 46,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968217946965952fcb51a36",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Roy",
+        "Title": ""
+      }
+    ]
   },
   {
-    "id": 178,
-    "ownerId": 46,
-    "rank": "4",
-    "value": "1.24",
-    "name": "MAX AIR SPEED VALUE",
-    "smashAttributeTypeId": 5,
-    "characterAttributeTypeId": 6
+    "InstanceId": "5968217946965952fcb51a37",
+    "Name": "AirDeceleration",
+    "OwnerId": 46,
+    "Owner": "Roy",
+    "Values": [
+      {
+        "Value": "0.02",
+        "Owner": "Roy",
+        "OwnerId": 46,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968217946965952fcb51a37",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Roy",
+        "Title": ""
+      }
+    ]
   },
   {
-    "id": 245,
-    "ownerId": 46,
-    "rank": "5-8",
-    "value": "1.8",
-    "name": "MAX FALL SPEED",
-    "smashAttributeTypeId": 8,
-    "characterAttributeTypeId": 7
+    "InstanceId": "5968217946965952fcb51a38",
+    "Name": "AirFriction",
+    "OwnerId": 46,
+    "Owner": "Roy",
+    "Values": [
+      {
+        "Value": "0.005",
+        "Owner": "Roy",
+        "OwnerId": 46,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968217946965952fcb51a38",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Roy",
+        "Title": ""
+      }
+    ]
   },
   {
-    "id": 246,
-    "ownerId": 46,
-    "rank": "5-8",
-    "value": "2.9",
-    "name": "FAST FALL SPEED",
-    "smashAttributeTypeId": 8,
-    "characterAttributeTypeId": 2
+    "InstanceId": "5968217946965952fcb51a39",
+    "Name": "DashLength",
+    "OwnerId": 46,
+    "Owner": "Roy",
+    "Values": [
+      {
+        "Value": "17",
+        "Owner": "Roy",
+        "OwnerId": 46,
+        "Name": "LENGTH IN FRAMES"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968217946965952fcb51a39",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Roy",
+        "Title": ""
+      }
+    ]
   },
   {
-    "id": 247,
-    "ownerId": 46,
-    "rank": "5-8",
-    "value": "61%",
-    "name": "SPEED INCREASE",
-    "smashAttributeTypeId": 8,
-    "characterAttributeTypeId": 11
+    "InstanceId": "5968217946965952fcb51a3a",
+    "Name": "FallSpeed",
+    "OwnerId": 46,
+    "Owner": "Roy",
+    "Values": [
+      {
+        "Value": "1.8",
+        "Owner": "Roy",
+        "OwnerId": 46,
+        "Name": "MAX FALL SPEED"
+      },
+      {
+        "Value": "2.9",
+        "Owner": "Roy",
+        "OwnerId": 46,
+        "Name": "FAST FALL SPEED"
+      },
+      {
+        "Value": "61%",
+        "Owner": "Roy",
+        "OwnerId": 46,
+        "Name": "SPEED INCREASE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968217946965952fcb51a3a",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Roy",
+        "Title": ""
+      }
+    ]
   },
   {
-    "id": 415,
-    "ownerId": 46,
-    "rank": "9",
-    "value": "0.114",
-    "name": "VALUE",
-    "smashAttributeTypeId": 10,
-    "characterAttributeTypeId": 12
+    "InstanceId": "5968217946965952fcb51a3b",
+    "Name": "FullHop",
+    "OwnerId": 46,
+    "Owner": "Roy",
+    "Values": [
+      {
+        "Value": "30.969999",
+        "Owner": "Roy",
+        "OwnerId": 46,
+        "Name": "HEIGHT"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968217946965952fcb51a3b",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Roy",
+        "Title": ""
+      }
+    ]
   },
   {
-    "id": 497,
-    "ownerId": 46,
-    "rank": "14-42",
-    "value": "5",
-    "name": "VALUE",
-    "smashAttributeTypeId": 14,
-    "characterAttributeTypeId": 12
+    "InstanceId": "5968217946965952fcb51a3c",
+    "Name": "Gravity",
+    "OwnerId": 46,
+    "Owner": "Roy",
+    "Values": [
+      {
+        "Value": "0.114",
+        "Owner": "Roy",
+        "OwnerId": 46,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968217946965952fcb51a3c",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Roy",
+        "Title": ""
+      }
+    ]
   },
   {
-    "id": 593,
-    "ownerId": 46,
-    "rank": "26-36",
-    "value": "1-27",
-    "name": "INTANGIBILITY",
-    "smashAttributeTypeId": 15,
-    "characterAttributeTypeId": 4
+    "InstanceId": "5968217946965952fcb51a3d",
+    "Name": "JumpSquat",
+    "OwnerId": 46,
+    "Owner": "Roy",
+    "Values": [
+      {
+        "Value": "5",
+        "Owner": "Roy",
+        "OwnerId": 46,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968217946965952fcb51a3d",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Roy",
+        "Title": ""
+      }
+    ]
   },
   {
-    "id": 594,
-    "ownerId": 46,
-    "rank": "26-36",
-    "value": "50",
-    "name": "FAF",
-    "smashAttributeTypeId": 15,
-    "characterAttributeTypeId": 1
+    "InstanceId": "5968217946965952fcb51a3e",
+    "Name": "LedgeHop",
+    "OwnerId": 46,
+    "Owner": "Roy",
+    "Values": [
+      {
+        "Value": "28",
+        "Owner": "Roy",
+        "OwnerId": 46,
+        "Name": "HEIGHT"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968217946965952fcb51a3e",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Roy",
+        "Title": ""
+      }
+    ]
   },
   {
-    "id": 665,
-    "ownerId": 46,
-    "rank": "14",
-    "value": "4-17",
-    "name": "INTANGIBLE",
-    "smashAttributeTypeId": 17,
-    "characterAttributeTypeId": 5
+    "InstanceId": "5968217946965952fcb51a3f",
+    "Name": "ShortHop",
+    "OwnerId": 46,
+    "Owner": "Roy",
+    "Values": [
+      {
+        "Value": "13",
+        "Owner": "Roy",
+        "OwnerId": 46,
+        "Name": "HEIGHT"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968217946965952fcb51a3f",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Roy",
+        "Title": ""
+      }
+    ]
   },
   {
-    "id": 666,
-    "ownerId": 46,
-    "rank": "14",
-    "value": "30",
-    "name": "FAF",
-    "smashAttributeTypeId": 17,
-    "characterAttributeTypeId": 1
+    "InstanceId": "5968217946965952fcb51a40",
+    "Name": "Spotdodge",
+    "OwnerId": 46,
+    "Owner": "Roy",
+    "Values": [
+      {
+        "Value": "2-17",
+        "Owner": "Roy",
+        "OwnerId": 46,
+        "Name": "INTANGIBLE"
+      },
+      {
+        "Value": "27",
+        "Owner": "Roy",
+        "OwnerId": 46,
+        "Name": "FAF"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968217946965952fcb51a40",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Roy",
+        "Title": ""
+      }
+    ]
   },
   {
-    "id": 767,
-    "ownerId": 46,
-    "rank": "11",
-    "value": "1.95",
-    "name": "MAX RUN SPEED VALUE",
-    "smashAttributeTypeId": 18,
-    "characterAttributeTypeId": 8
+    "InstanceId": "5968217946965952fcb51a41",
+    "Name": "Traction",
+    "OwnerId": 46,
+    "Owner": "Roy",
+    "Values": [
+      {
+        "Value": "0.06",
+        "Owner": "Roy",
+        "OwnerId": 46,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968217946965952fcb51a41",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Roy",
+        "Title": ""
+      }
+    ]
   },
   {
-    "id": 822,
-    "ownerId": 46,
-    "rank": "7-8",
-    "value": "12.075",
-    "name": "SIZE",
-    "smashAttributeTypeId": 20,
-    "characterAttributeTypeId": 10
+    "InstanceId": "5968217946965952fcb51a42",
+    "Name": "WalkSpeed",
+    "OwnerId": 46,
+    "Owner": "Roy",
+    "Values": [
+      {
+        "Value": "1.15",
+        "Owner": "Roy",
+        "OwnerId": 46,
+        "Name": "MAX WALK SPEED VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968217946965952fcb51a42",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Roy",
+        "Title": ""
+      }
+    ]
   },
   {
-    "id": 935,
-    "ownerId": 46,
-    "rank": "18-32",
-    "value": "2-17",
-    "name": "INTANGIBLE",
-    "smashAttributeTypeId": 22,
-    "characterAttributeTypeId": 5
+    "InstanceId": "5968217946965952fcb51a43",
+    "Name": "AirSpeed",
+    "OwnerId": 46,
+    "Owner": "Roy",
+    "Values": [
+      {
+        "Value": "1.24",
+        "Owner": "Roy",
+        "OwnerId": 46,
+        "Name": "MAX AIR SPEED VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968217946965952fcb51a43",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Roy",
+        "Title": ""
+      }
+    ]
   },
   {
-    "id": 936,
-    "ownerId": 46,
-    "rank": "18-32",
-    "value": "27",
-    "name": "FAF",
-    "smashAttributeTypeId": 22,
-    "characterAttributeTypeId": 1
-  },
-  {
-    "id": 1012,
-    "ownerId": 46,
-    "rank": "14-24",
-    "value": "0.06",
-    "name": "VALUE",
-    "smashAttributeTypeId": 24,
-    "characterAttributeTypeId": 12
-  },
-  {
-    "id": 1072,
-    "ownerId": 46,
-    "rank": "24-27",
-    "value": "1.15",
-    "name": "MAX WALK SPEED VALUE",
-    "smashAttributeTypeId": 26,
-    "characterAttributeTypeId": 9
-  },
-  {
-    "id": 1135,
-    "ownerId": 46,
-    "rank": "29-32",
-    "value": "95",
-    "name": "WEIGHT VALUE",
-    "smashAttributeTypeId": 27,
-    "characterAttributeTypeId": 13
-  },
-  {
-    "id": 1215,
-    "ownerId": 46,
-    "rank": "52-53",
-    "value": "13",
-    "name": "HEIGHT",
-    "smashAttributeTypeId": 28,
-    "characterAttributeTypeId": 3
-  },
-  {
-    "id": 1266,
-    "ownerId": 46,
-    "rank": "46",
-    "value": "30.969999",
-    "name": "HEIGHT",
-    "smashAttributeTypeId": 29,
-    "characterAttributeTypeId": 3
-  },
-  {
-    "id": 1331,
-    "ownerId": 46,
-    "rank": "53",
-    "value": "28",
-    "name": "HEIGHT",
-    "smashAttributeTypeId": 30,
-    "characterAttributeTypeId": 3
-  },
-  {
-    "id": 1394,
-    "ownerId": 46,
-    "rank": "58",
-    "value": "28",
-    "name": "HEIGHT",
-    "smashAttributeTypeId": 31,
-    "characterAttributeTypeId": 3
+    "InstanceId": "5968217946965952fcb51a44",
+    "Name": "AirDodge",
+    "OwnerId": 46,
+    "Owner": "Roy",
+    "Values": [
+      {
+        "Value": "3-27",
+        "Owner": "Roy",
+        "OwnerId": 46,
+        "Name": "INTANGIBLE"
+      },
+      {
+        "Value": "33",
+        "Owner": "Roy",
+        "OwnerId": 46,
+        "Name": "FAF"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968217946965952fcb51a44",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Roy",
+        "Title": ""
+      }
+    ]
   }
 ]

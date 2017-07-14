@@ -1,218 +1,492 @@
 ﻿[
   {
-    "id": 10,
-    "ownerId": 1,
-    "rank": "8-10",
-    "value": "0.085",
-    "name": "VALUE",
-    "smashAttributeTypeId": 1,
-    "characterAttributeTypeId": 12
+    "InstanceId": "596820f946965952fcb50b29",
+    "Name": "AerialJump",
+    "OwnerId": 1,
+    "Owner": "Bayonetta",
+    "Values": [
+      {
+        "Value": "42",
+        "Owner": "Bayonetta",
+        "OwnerId": 1,
+        "Name": "HEIGHT"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/596820f946965952fcb50b29",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Bayonetta",
+        "Title": ""
+      }
+    ]
   },
   {
-    "id": 173,
-    "ownerId": 1,
-    "rank": "58",
-    "value": "5-27 (Bat Within: 1-4)",
-    "name": "INTANGIBLE",
-    "smashAttributeTypeId": 3,
-    "characterAttributeTypeId": 5
+    "InstanceId": "596820f946965952fcb50b2a",
+    "Name": "Counters",
+    "OwnerId": 1,
+    "Owner": "Bayonetta",
+    "Values": [
+      {
+        "Value": "5-21",
+        "Owner": "Bayonetta",
+        "OwnerId": 1,
+        "Name": "COUNTER FRAMES"
+      },
+      {
+        "Value": "5-16 (BW: 17-29)",
+        "Owner": "Bayonetta",
+        "OwnerId": 1,
+        "Name": "INTANGIBLE ON"
+      },
+      {
+        "Value": "50",
+        "Owner": "Bayonetta",
+        "OwnerId": 1,
+        "Name": "FAF"
+      },
+      {
+        "Value": "Do you feel",
+        "Owner": "Bayonetta",
+        "OwnerId": 1,
+        "Name": "DAMAGE (MULTIPLIER)"
+      },
+      {
+        "Value": "outplayed?",
+        "Owner": "Bayonetta",
+        "OwnerId": 1,
+        "Name": "BKB | KBG"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/596820f946965952fcb50b2a",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Bayonetta",
+        "Title": ""
+      }
+    ]
   },
   {
-    "id": 174,
-    "ownerId": 1,
-    "rank": "58",
-    "value": "37",
-    "name": "FAF",
-    "smashAttributeTypeId": 3,
-    "characterAttributeTypeId": 1
+    "InstanceId": "596820f946965952fcb50b2b",
+    "Name": "AirAcceleration",
+    "OwnerId": 1,
+    "Owner": "Bayonetta",
+    "Values": [
+      {
+        "Value": "0.085",
+        "Owner": "Bayonetta",
+        "OwnerId": 1,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/596820f946965952fcb50b2b",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Bayonetta",
+        "Title": ""
+      }
+    ]
   },
   {
-    "id": 210,
-    "ownerId": 1,
-    "rank": "36-38",
-    "value": "0.97",
-    "name": "MAX AIR SPEED VALUE",
-    "smashAttributeTypeId": 5,
-    "characterAttributeTypeId": 6
+    "InstanceId": "596820f946965952fcb50b2c",
+    "Name": "AirDeceleration",
+    "OwnerId": 1,
+    "Owner": "Bayonetta",
+    "Values": [
+      {
+        "Value": "0.01",
+        "Owner": "Bayonetta",
+        "OwnerId": 1,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/596820f946965952fcb50b2c",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Bayonetta",
+        "Title": ""
+      }
+    ]
   },
   {
-    "id": 257,
-    "ownerId": 1,
-    "rank": "9",
-    "value": "1.77",
-    "name": "MAX FALL SPEED",
-    "smashAttributeTypeId": 8,
-    "characterAttributeTypeId": 7
+    "InstanceId": "596820f946965952fcb50b2d",
+    "Name": "AirFriction",
+    "OwnerId": 1,
+    "Owner": "Bayonetta",
+    "Values": [
+      {
+        "Value": "0.008",
+        "Owner": "Bayonetta",
+        "OwnerId": 1,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/596820f946965952fcb50b2d",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Bayonetta",
+        "Title": ""
+      }
+    ]
   },
   {
-    "id": 258,
-    "ownerId": 1,
-    "rank": "9",
-    "value": "2.832",
-    "name": "FAST FALL SPEED",
-    "smashAttributeTypeId": 8,
-    "characterAttributeTypeId": 2
+    "InstanceId": "596820f946965952fcb50b2e",
+    "Name": "DashLength",
+    "OwnerId": 1,
+    "Owner": "Bayonetta",
+    "Values": [
+      {
+        "Value": "11",
+        "Owner": "Bayonetta",
+        "OwnerId": 1,
+        "Name": "LENGTH IN FRAMES"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/596820f946965952fcb50b2e",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Bayonetta",
+        "Title": ""
+      }
+    ]
   },
   {
-    "id": 259,
-    "ownerId": 1,
-    "rank": "9",
-    "value": "60%",
-    "name": "SPEED INCREASE",
-    "smashAttributeTypeId": 8,
-    "characterAttributeTypeId": 11
+    "InstanceId": "596820f946965952fcb50b2f",
+    "Name": "FallSpeed",
+    "OwnerId": 1,
+    "Owner": "Bayonetta",
+    "Values": [
+      {
+        "Value": "1.77",
+        "Owner": "Bayonetta",
+        "OwnerId": 1,
+        "Name": "MAX FALL SPEED"
+      },
+      {
+        "Value": "2.832",
+        "Owner": "Bayonetta",
+        "OwnerId": 1,
+        "Name": "FAST FALL SPEED"
+      },
+      {
+        "Value": "60%",
+        "Owner": "Bayonetta",
+        "OwnerId": 1,
+        "Name": "SPEED INCREASE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/596820f946965952fcb50b2f",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Bayonetta",
+        "Title": ""
+      }
+    ]
   },
   {
-    "id": 413,
-    "ownerId": 1,
-    "rank": "5-8",
-    "value": "0.12",
-    "name": "VALUE",
-    "smashAttributeTypeId": 10,
-    "characterAttributeTypeId": 12
+    "InstanceId": "596820f946965952fcb50b30",
+    "Name": "FullHop",
+    "OwnerId": 1,
+    "Owner": "Bayonetta",
+    "Values": [
+      {
+        "Value": "39",
+        "Owner": "Bayonetta",
+        "OwnerId": 1,
+        "Name": "HEIGHT"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/596820f946965952fcb50b30",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Bayonetta",
+        "Title": ""
+      }
+    ]
   },
   {
-    "id": 467,
-    "ownerId": 1,
-    "rank": "1-13",
-    "value": "4",
-    "name": "VALUE",
-    "smashAttributeTypeId": 14,
-    "characterAttributeTypeId": 12
+    "InstanceId": "596820f946965952fcb50b31",
+    "Name": "Gravity",
+    "OwnerId": 1,
+    "Owner": "Bayonetta",
+    "Values": [
+      {
+        "Value": "0.12",
+        "Owner": "Bayonetta",
+        "OwnerId": 1,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/596820f946965952fcb50b31",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Bayonetta",
+        "Title": ""
+      }
+    ]
   },
   {
-    "id": 637,
-    "ownerId": 1,
-    "rank": "57-58",
-    "value": "1-21",
-    "name": "INTANGIBILITY",
-    "smashAttributeTypeId": 15,
-    "characterAttributeTypeId": 4
+    "InstanceId": "596820f946965952fcb50b32",
+    "Name": "JumpSquat",
+    "OwnerId": 1,
+    "Owner": "Bayonetta",
+    "Values": [
+      {
+        "Value": "4",
+        "Owner": "Bayonetta",
+        "OwnerId": 1,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/596820f946965952fcb50b32",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Bayonetta",
+        "Title": ""
+      }
+    ]
   },
   {
-    "id": 638,
-    "ownerId": 1,
-    "rank": "57-58",
-    "value": "50",
-    "name": "FAF",
-    "smashAttributeTypeId": 15,
-    "characterAttributeTypeId": 1
+    "InstanceId": "596820f946965952fcb50b33",
+    "Name": "LedgeHop",
+    "OwnerId": 1,
+    "Owner": "Bayonetta",
+    "Values": [
+      {
+        "Value": "39.5",
+        "Owner": "Bayonetta",
+        "OwnerId": 1,
+        "Name": "HEIGHT"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/596820f946965952fcb50b33",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Bayonetta",
+        "Title": ""
+      }
+    ]
   },
   {
-    "id": 753,
-    "ownerId": 1,
-    "rank": "58",
-    "value": "6-19 (Bat Within: 3-5)",
-    "name": "INTANGIBLE",
-    "smashAttributeTypeId": 17,
-    "characterAttributeTypeId": 5
+    "InstanceId": "596820f946965952fcb50b34",
+    "Name": "ShortHop",
+    "OwnerId": 1,
+    "Owner": "Bayonetta",
+    "Values": [
+      {
+        "Value": "21.354742",
+        "Owner": "Bayonetta",
+        "OwnerId": 1,
+        "Name": "HEIGHT"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/596820f946965952fcb50b34",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Bayonetta",
+        "Title": ""
+      }
+    ]
   },
   {
-    "id": 754,
-    "ownerId": 1,
-    "rank": "58",
-    "value": "37",
-    "name": "FAF",
-    "smashAttributeTypeId": 17,
-    "characterAttributeTypeId": 1
+    "InstanceId": "596820f946965952fcb50b35",
+    "Name": "Spotdodge",
+    "OwnerId": 1,
+    "Owner": "Bayonetta",
+    "Values": [
+      {
+        "Value": "5-19 (Bat Within: 1-4)",
+        "Owner": "Bayonetta",
+        "OwnerId": 1,
+        "Name": "INTANGIBLE"
+      },
+      {
+        "Value": "30",
+        "Owner": "Bayonetta",
+        "OwnerId": 1,
+        "Name": "FAF"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/596820f946965952fcb50b35",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Bayonetta",
+        "Title": ""
+      }
+    ]
   },
   {
-    "id": 784,
-    "ownerId": 1,
-    "rank": "28-30",
-    "value": "1.6",
-    "name": "MAX RUN SPEED VALUE",
-    "smashAttributeTypeId": 18,
-    "characterAttributeTypeId": 8
+    "InstanceId": "596820f946965952fcb50b36",
+    "Name": "Traction",
+    "OwnerId": 1,
+    "Owner": "Bayonetta",
+    "Values": [
+      {
+        "Value": "0.055",
+        "Owner": "Bayonetta",
+        "OwnerId": 1,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/596820f946965952fcb50b36",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Bayonetta",
+        "Title": ""
+      }
+    ]
   },
   {
-    "id": 833,
-    "ownerId": 1,
-    "rank": "19-22",
-    "value": "11.13",
-    "name": "SIZE",
-    "smashAttributeTypeId": 20,
-    "characterAttributeTypeId": 10
+    "InstanceId": "596820f946965952fcb50b37",
+    "Name": "WalkSpeed",
+    "OwnerId": 1,
+    "Owner": "Bayonetta",
+    "Values": [
+      {
+        "Value": "0.9",
+        "Owner": "Bayonetta",
+        "OwnerId": 1,
+        "Name": "MAX WALK SPEED VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/596820f946965952fcb50b37",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Bayonetta",
+        "Title": ""
+      }
+    ]
   },
   {
-    "id": 987,
-    "ownerId": 1,
-    "rank": "58",
-    "value": "5-19 (Bat Within: 1-4)",
-    "name": "INTANGIBLE",
-    "smashAttributeTypeId": 22,
-    "characterAttributeTypeId": 5
+    "InstanceId": "596820f946965952fcb50b38",
+    "Name": "AirSpeed",
+    "OwnerId": 1,
+    "Owner": "Bayonetta",
+    "Values": [
+      {
+        "Value": "0.97",
+        "Owner": "Bayonetta",
+        "OwnerId": 1,
+        "Name": "MAX AIR SPEED VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/596820f946965952fcb50b38",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Bayonetta",
+        "Title": ""
+      }
+    ]
   },
   {
-    "id": 988,
-    "ownerId": 1,
-    "rank": "58",
-    "value": "30",
-    "name": "FAF",
-    "smashAttributeTypeId": 22,
-    "characterAttributeTypeId": 1
-  },
-  {
-    "id": 1021,
-    "ownerId": 1,
-    "rank": "28-33",
-    "value": "0.055",
-    "name": "VALUE",
-    "smashAttributeTypeId": 24,
-    "characterAttributeTypeId": 12
-  },
-  {
-    "id": 1092,
-    "ownerId": 1,
-    "rank": "45-46",
-    "value": "0.9",
-    "name": "MAX WALK SPEED VALUE",
-    "smashAttributeTypeId": 26,
-    "characterAttributeTypeId": 9
-  },
-  {
-    "id": 1149,
-    "ownerId": 1,
-    "rank": "45",
-    "value": "84",
-    "name": "WEIGHT VALUE",
-    "smashAttributeTypeId": 27,
-    "characterAttributeTypeId": 13
-  },
-  {
-    "id": 1164,
-    "ownerId": 1,
-    "rank": "2-3",
-    "value": "21.354742",
-    "name": "HEIGHT",
-    "smashAttributeTypeId": 28,
-    "characterAttributeTypeId": 3
-  },
-  {
-    "id": 1227,
-    "ownerId": 1,
-    "rank": "7-8",
-    "value": "39",
-    "name": "HEIGHT",
-    "smashAttributeTypeId": 29,
-    "characterAttributeTypeId": 3
-  },
-  {
-    "id": 1284,
-    "ownerId": 1,
-    "rank": "6",
-    "value": "42",
-    "name": "HEIGHT",
-    "smashAttributeTypeId": 30,
-    "characterAttributeTypeId": 3
-  },
-  {
-    "id": 1344,
-    "ownerId": 1,
-    "rank": "8-9",
-    "value": "39.5",
-    "name": "HEIGHT",
-    "smashAttributeTypeId": 31,
-    "characterAttributeTypeId": 3
+    "InstanceId": "596820f946965952fcb50b39",
+    "Name": "AirDodge",
+    "OwnerId": 1,
+    "Owner": "Bayonetta",
+    "Values": [
+      {
+        "Value": "5-27 (Bat Within: 1-4)",
+        "Owner": "Bayonetta",
+        "OwnerId": 1,
+        "Name": "INTANGIBLE"
+      },
+      {
+        "Value": "37",
+        "Owner": "Bayonetta",
+        "OwnerId": 1,
+        "Name": "FAF"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/596820f946965952fcb50b39",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Bayonetta",
+        "Title": ""
+      }
+    ]
   }
 ]

@@ -1,110 +1,344 @@
 ﻿[
   {
-    "name": "Weight",
-    "ownerId": 38,
-    "id": 667,
-    "value": "95"
+    "InstanceId": "5968216346965952fcb5172c",
+    "Name": "Weight",
+    "OwnerId": 38,
+    "Owner": "PAC-MAN",
+    "Value": "95 ",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968216346965952fcb5172c",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/PAC-MAN",
+        "Title": ""
+      }
+    ]
   },
   {
-    "name": "Max Jumps",
-    "ownerId": 38,
-    "id": 668,
-    "value": "2"
+    "InstanceId": "5968216346965952fcb5172d",
+    "Name": "Max Jumps",
+    "OwnerId": 38,
+    "Owner": "PAC-MAN",
+    "Value": "2",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968216346965952fcb5172d",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/PAC-MAN",
+        "Title": ""
+      }
+    ]
   },
   {
-    "name": "Run Speed",
-    "ownerId": 38,
-    "id": 669,
-    "value": "1.52"
+    "InstanceId": "5968216346965952fcb5172e",
+    "Name": "Run Speed",
+    "OwnerId": 38,
+    "Owner": "PAC-MAN",
+    "Value": "1.52 ",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968216346965952fcb5172e",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/PAC-MAN",
+        "Title": ""
+      }
+    ]
   },
   {
-    "name": "Wall Jump",
-    "ownerId": 38,
-    "id": 670,
-    "value": "Yes"
+    "InstanceId": "5968216346965952fcb5172f",
+    "Name": "Wall Jump",
+    "OwnerId": 38,
+    "Owner": "PAC-MAN",
+    "Value": "Yes",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968216346965952fcb5172f",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/PAC-MAN",
+        "Title": ""
+      }
+    ]
   },
   {
-    "name": "Walk Speed",
-    "ownerId": 38,
-    "id": 671,
-    "value": "1.045"
+    "InstanceId": "5968216346965952fcb51730",
+    "Name": "Walk Speed",
+    "OwnerId": 38,
+    "Owner": "PAC-MAN",
+    "Value": "1.045 ",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968216346965952fcb51730",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/PAC-MAN",
+        "Title": ""
+      }
+    ]
   },
   {
-    "name": "Wall Cling",
-    "ownerId": 38,
-    "id": 672,
-    "value": "No"
+    "InstanceId": "5968216346965952fcb51731",
+    "Name": "Wall Cling",
+    "OwnerId": 38,
+    "Owner": "PAC-MAN",
+    "Value": "No",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968216346965952fcb51731",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/PAC-MAN",
+        "Title": ""
+      }
+    ]
   },
   {
-    "name": "Air Speed",
-    "ownerId": 38,
-    "id": 673,
-    "value": "1.04"
+    "InstanceId": "5968216346965952fcb51732",
+    "Name": "Air Speed",
+    "OwnerId": 38,
+    "Owner": "PAC-MAN",
+    "Value": "1.04 ",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968216346965952fcb51732",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/PAC-MAN",
+        "Title": ""
+      }
+    ]
   },
   {
-    "name": "Crawl",
-    "ownerId": 38,
-    "id": 674,
-    "value": "Yes"
+    "InstanceId": "5968216346965952fcb51733",
+    "Name": "Crawl",
+    "OwnerId": 38,
+    "Owner": "PAC-MAN",
+    "Value": "Yes",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968216346965952fcb51733",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/PAC-MAN",
+        "Title": ""
+      }
+    ]
   },
   {
-    "name": "Fall Speed",
-    "ownerId": 38,
-    "id": 675,
-    "value": "1.35"
+    "InstanceId": "5968216346965952fcb51734",
+    "Name": "Fall Speed",
+    "OwnerId": 38,
+    "Owner": "PAC-MAN",
+    "Value": "1.35 ",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968216346965952fcb51734",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/PAC-MAN",
+        "Title": ""
+      }
+    ]
   },
   {
-    "name": "Tether",
-    "ownerId": 38,
-    "id": 676,
-    "value": "No"
+    "InstanceId": "5968216346965952fcb51735",
+    "Name": "Tether",
+    "OwnerId": 38,
+    "Owner": "PAC-MAN",
+    "Value": "No",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968216346965952fcb51735",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/PAC-MAN",
+        "Title": ""
+      }
+    ]
   },
   {
-    "name": "Fast Fall Speed",
-    "ownerId": 38,
-    "id": 677,
-    "value": "2.16"
+    "InstanceId": "5968216346965952fcb51736",
+    "Name": "Fast Fall Speed",
+    "OwnerId": 38,
+    "Owner": "PAC-MAN",
+    "Value": "2.16 ",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968216346965952fcb51736",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/PAC-MAN",
+        "Title": ""
+      }
+    ]
   },
   {
-    "name": "Jumpsquat",
-    "ownerId": 38,
-    "id": 678,
-    "value": "5frames"
+    "InstanceId": "5968216346965952fcb51737",
+    "Name": "Jumpsquat",
+    "OwnerId": 38,
+    "Owner": "PAC-MAN",
+    "Value": "5 frames",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968216346965952fcb51737",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/PAC-MAN",
+        "Title": ""
+      }
+    ]
   },
   {
-    "name": "Air Acceleration",
-    "ownerId": 38,
-    "id": 679,
-    "value": "0.07"
+    "InstanceId": "5968216346965952fcb51738",
+    "Name": "Air Acceleration",
+    "OwnerId": 38,
+    "Owner": "PAC-MAN",
+    "Value": "0.07",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968216346965952fcb51738",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/PAC-MAN",
+        "Title": ""
+      }
+    ]
   },
   {
-    "name": "Soft Landing Lag",
-    "ownerId": 38,
-    "id": 680,
-    "value": "2frames"
+    "InstanceId": "5968216346965952fcb51739",
+    "Name": "Soft Landing Lag",
+    "OwnerId": 38,
+    "Owner": "PAC-MAN",
+    "Value": "2 frames",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968216346965952fcb51739",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/PAC-MAN",
+        "Title": ""
+      }
+    ]
   },
   {
-    "name": "Gravity",
-    "ownerId": 38,
-    "id": 681,
-    "value": "0.072"
+    "InstanceId": "5968216346965952fcb5173a",
+    "Name": "Gravity",
+    "OwnerId": 38,
+    "Owner": "PAC-MAN",
+    "Value": "0.072",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968216346965952fcb5173a",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/PAC-MAN",
+        "Title": ""
+      }
+    ]
   },
   {
-    "name": "Hard Landing Lag",
-    "ownerId": 38,
-    "id": 682,
-    "value": "4frames"
+    "InstanceId": "5968216346965952fcb5173b",
+    "Name": "Hard Landing Lag",
+    "OwnerId": 38,
+    "Owner": "PAC-MAN",
+    "Value": "4 frames",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968216346965952fcb5173b",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/PAC-MAN",
+        "Title": ""
+      }
+    ]
   },
   {
-    "name": "SH Air Time",
-    "ownerId": 38,
-    "id": 683,
-    "value": "42frames"
+    "InstanceId": "5968216346965952fcb5173c",
+    "Name": "SH Air Time",
+    "OwnerId": 38,
+    "Owner": "PAC-MAN",
+    "Value": "42 frames",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968216346965952fcb5173c",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/PAC-MAN",
+        "Title": ""
+      }
+    ]
   },
   {
-    "name": "FH Air Time",
-    "ownerId": 38,
-    "id": 684,
-    "value": "65frames"
+    "InstanceId": "5968216346965952fcb5173d",
+    "Name": "FH Air Time",
+    "OwnerId": 38,
+    "Owner": "PAC-MAN",
+    "Value": "65 frames",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968216346965952fcb5173d",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/PAC-MAN",
+        "Title": ""
+      }
+    ]
   }
 ]

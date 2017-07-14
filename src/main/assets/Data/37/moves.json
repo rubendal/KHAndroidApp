@@ -1,548 +1,1206 @@
 ﻿[
   {
-    "hitboxActive": "4",
-    "firstActionableFrame": "30",
-    "baseDamage": "3",
-    "angle": "361/80",
-    "baseKnockBackSetKnockback": "W: 40/30",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "80",
-    "type": 1,
-    "name": "Jab 1",
-    "ownerId": 37,
-    "id": 2047
+    "InstanceId": "5968216046965952fcb516f0",
+    "Name": "Jab 1",
+    "OwnerId": 37,
+    "Owner": "Olimar",
+    "HitboxActive": "4",
+    "FirstActionableFrame": "30",
+    "BaseDamage": "3",
+    "Angle": "361/80",
+    "BaseKnockBackSetKnockback": "W: 40/30",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "80",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216046965952fcb516f0",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Olimar",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "5",
-    "firstActionableFrame": "-",
-    "baseDamage": "4",
-    "angle": "80",
-    "baseKnockBackSetKnockback": "W: 35",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "80",
-    "type": 1,
-    "name": "Jab 1 (Late)",
-    "ownerId": 37,
-    "id": 2048
+    "InstanceId": "5968216046965952fcb516f1",
+    "Name": "Jab 1 (Late)",
+    "OwnerId": 37,
+    "Owner": "Olimar",
+    "HitboxActive": "5",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "4",
+    "Angle": "80",
+    "BaseKnockBackSetKnockback": "W: 35",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "80",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216046965952fcb516f1",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Olimar",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "4-5",
-    "firstActionableFrame": "18",
-    "baseDamage": "3/4",
-    "angle": "45",
-    "baseKnockBackSetKnockback": "W: 40",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "80",
-    "type": 1,
-    "name": "Jab 2",
-    "ownerId": 37,
-    "id": 2049
+    "InstanceId": "5968216046965952fcb516f2",
+    "Name": "Jab 2",
+    "OwnerId": 37,
+    "Owner": "Olimar",
+    "HitboxActive": "4-5",
+    "FirstActionableFrame": "18",
+    "BaseDamage": "3/4",
+    "Angle": "45",
+    "BaseKnockBackSetKnockback": "W: 40",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "80",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216046965952fcb516f2",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Olimar",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "8-10",
-    "firstActionableFrame": "38",
-    "baseDamage": "7",
-    "angle": "68",
-    "baseKnockBackSetKnockback": "50",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "50",
-    "type": 1,
-    "name": "Dash Attack (Hit 1)",
-    "ownerId": 37,
-    "id": 2050
+    "InstanceId": "5968216046965952fcb516f3",
+    "Name": "Dash Attack (Hit 1)",
+    "OwnerId": 37,
+    "Owner": "Olimar",
+    "HitboxActive": "8-10",
+    "FirstActionableFrame": "38",
+    "BaseDamage": "7",
+    "Angle": "68",
+    "BaseKnockBackSetKnockback": "50",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "50",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216046965952fcb516f3",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Olimar",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "11-14",
-    "firstActionableFrame": "-",
-    "baseDamage": "4",
-    "angle": "75",
-    "baseKnockBackSetKnockback": "90",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "50",
-    "type": 1,
-    "name": "Dash Attack (Hit 2)",
-    "ownerId": 37,
-    "id": 2051
+    "InstanceId": "5968216046965952fcb516f4",
+    "Name": "Dash Attack (Hit 2)",
+    "OwnerId": 37,
+    "Owner": "Olimar",
+    "HitboxActive": "11-14",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "4",
+    "Angle": "75",
+    "BaseKnockBackSetKnockback": "90",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "50",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216046965952fcb516f4",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Olimar",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "15-17",
-    "firstActionableFrame": "36",
-    "baseDamage": "11",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "35",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "97",
-    "type": 1,
-    "name": "Ftilt",
-    "ownerId": 37,
-    "id": 2052
+    "InstanceId": "5968216046965952fcb516f5",
+    "Name": "Ftilt",
+    "OwnerId": 37,
+    "Owner": "Olimar",
+    "HitboxActive": "15-17",
+    "FirstActionableFrame": "36",
+    "BaseDamage": "11",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "35",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "97",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216046965952fcb516f5",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Olimar",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "6, 8, 10, 12, 14",
-    "firstActionableFrame": "44",
-    "baseDamage": "0.6",
-    "angle": "120/120/92",
-    "baseKnockBackSetKnockback": "W: 50/50/20",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Utilt (Hits 1-5)",
-    "ownerId": 37,
-    "id": 2053
+    "InstanceId": "5968216046965952fcb516f6",
+    "Name": "Utilt (Hits 1-5)",
+    "OwnerId": 37,
+    "Owner": "Olimar",
+    "HitboxActive": "6, 8, 10, 12, 14",
+    "FirstActionableFrame": "44",
+    "BaseDamage": "0.6",
+    "Angle": "120/120/92",
+    "BaseKnockBackSetKnockback": "W: 50/50/20",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216046965952fcb516f6",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Olimar",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "16",
-    "firstActionableFrame": "-",
-    "baseDamage": "4",
-    "angle": "90",
-    "baseKnockBackSetKnockback": "50",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "120",
-    "type": 1,
-    "name": "Utilt (Hit 6)",
-    "ownerId": 37,
-    "id": 2054
+    "InstanceId": "5968216046965952fcb516f7",
+    "Name": "Utilt (Hit 6)",
+    "OwnerId": 37,
+    "Owner": "Olimar",
+    "HitboxActive": "16",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "4",
+    "Angle": "90",
+    "BaseKnockBackSetKnockback": "50",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "120",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216046965952fcb516f7",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Olimar",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "6-12",
-    "firstActionableFrame": "30",
-    "baseDamage": "6",
-    "angle": "80",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "115",
-    "type": 1,
-    "name": "Dtilt",
-    "ownerId": 37,
-    "id": 2055
+    "InstanceId": "5968216046965952fcb516f8",
+    "Name": "Dtilt",
+    "OwnerId": 37,
+    "Owner": "Olimar",
+    "HitboxActive": "6-12",
+    "FirstActionableFrame": "30",
+    "BaseDamage": "6",
+    "Angle": "80",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "115",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216046965952fcb516f8",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Olimar",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "11-14",
-    "firstActionableFrame": "40",
-    "baseDamage": "14.5",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "86/94/94/94/84",
-    "type": 1,
-    "name": "Fsmash (Early)",
-    "ownerId": 37,
-    "id": 2056
+    "InstanceId": "5968216046965952fcb516f9",
+    "Name": "Fsmash (Early)",
+    "OwnerId": 37,
+    "Owner": "Olimar",
+    "HitboxActive": "11-14",
+    "FirstActionableFrame": "40",
+    "BaseDamage": "14.5",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "86/94/94/94/84",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216046965952fcb516f9",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Olimar",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "15-20",
-    "firstActionableFrame": "-",
-    "baseDamage": "10",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "86/94/94/94/84",
-    "type": 1,
-    "name": "Fsmash",
-    "ownerId": 37,
-    "id": 2057
+    "InstanceId": "5968216046965952fcb516fa",
+    "Name": "Fsmash",
+    "OwnerId": 37,
+    "Owner": "Olimar",
+    "HitboxActive": "15-20",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "10",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "86/94/94/94/84",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216046965952fcb516fa",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Olimar",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "21-29",
-    "firstActionableFrame": "-",
-    "baseDamage": "6",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "86/94/94/94/84",
-    "type": 1,
-    "name": "Fsmash (Late)",
-    "ownerId": 37,
-    "id": 2058
+    "InstanceId": "5968216046965952fcb516fb",
+    "Name": "Fsmash (Late)",
+    "OwnerId": 37,
+    "Owner": "Olimar",
+    "HitboxActive": "21-29",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "6",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "86/94/94/94/84",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216046965952fcb516fb",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Olimar",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "12-15",
-    "firstActionableFrame": "56",
-    "baseDamage": "13",
-    "angle": "83",
-    "baseKnockBackSetKnockback": "50",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "83/91/91/91/81",
-    "type": 1,
-    "name": "Usmash",
-    "ownerId": 37,
-    "id": 2059
+    "InstanceId": "5968216046965952fcb516fc",
+    "Name": "Usmash",
+    "OwnerId": 37,
+    "Owner": "Olimar",
+    "HitboxActive": "12-16",
+    "FirstActionableFrame": "56",
+    "BaseDamage": "13",
+    "Angle": "83",
+    "BaseKnockBackSetKnockback": "50",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "83/91/91/91/81",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216046965952fcb516fc",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Olimar",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "12-13",
-    "firstActionableFrame": "-",
-    "baseDamage": "10",
-    "angle": "94",
-    "baseKnockBackSetKnockback": "50",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "74/81/81/81/72",
-    "type": 1,
-    "name": "Usmash (Sourspot)",
-    "ownerId": 37,
-    "id": 2060
+    "InstanceId": "5968216046965952fcb516fd",
+    "Name": "Usmash (Sourspot)",
+    "OwnerId": 37,
+    "Owner": "Olimar",
+    "HitboxActive": "12-13",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "10",
+    "Angle": "94",
+    "BaseKnockBackSetKnockback": "50",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "74/81/81/81/72",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216046965952fcb516fd",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Olimar",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "16-21",
-    "firstActionableFrame": "-",
-    "baseDamage": "11",
-    "angle": "60",
-    "baseKnockBackSetKnockback": "50",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "78/85/85/85/78",
-    "type": 1,
-    "name": "Usmash (Late)",
-    "ownerId": 37,
-    "id": 2061
+    "InstanceId": "5968216046965952fcb516fe",
+    "Name": "Usmash (Late)",
+    "OwnerId": 37,
+    "Owner": "Olimar",
+    "HitboxActive": "17-22",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "11",
+    "Angle": "60",
+    "BaseKnockBackSetKnockback": "50",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "78/85/85/85/78",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216046965952fcb516fe",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Olimar",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "10-13",
-    "firstActionableFrame": "39",
-    "baseDamage": "11 (+1)",
-    "angle": "28",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "81/89/89/89/72",
-    "type": 1,
-    "name": "Dsmash",
-    "ownerId": 37,
-    "id": 2062
+    "InstanceId": "5968216046965952fcb516ff",
+    "Name": "Dsmash",
+    "OwnerId": 37,
+    "Owner": "Olimar",
+    "HitboxActive": "10-13",
+    "FirstActionableFrame": "39",
+    "BaseDamage": "11 (+1)",
+    "Angle": "28",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "81/89/89/89/72",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216046965952fcb516ff",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Olimar",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "14-18",
-    "firstActionableFrame": "-",
-    "baseDamage": "9 (+1)",
-    "angle": "28",
-    "baseKnockBackSetKnockback": "22",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "81/89/89/89",
-    "type": 1,
-    "name": "Dsmash (Late)",
-    "ownerId": 37,
-    "id": 2063
+    "InstanceId": "5968216046965952fcb51700",
+    "Name": "Dsmash (Late)",
+    "OwnerId": 37,
+    "Owner": "Olimar",
+    "HitboxActive": "14-18",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "9 (+1)",
+    "Angle": "28",
+    "BaseKnockBackSetKnockback": "22",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "81/89/89/89",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216046965952fcb51700",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Olimar",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "14-15",
-    "firstActionableFrame": "-",
-    "baseDamage": "9 (+1)",
-    "angle": "0",
-    "baseKnockBackSetKnockback": "0",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "72",
-    "type": 1,
-    "name": "Dsmash (Purple Pikmin, Late)",
-    "ownerId": 37,
-    "id": 2064
+    "InstanceId": "5968216046965952fcb51701",
+    "Name": "Dsmash (Purple Pikmin, Late)",
+    "OwnerId": 37,
+    "Owner": "Olimar",
+    "HitboxActive": "14-15",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "9 (+1)",
+    "Angle": "0",
+    "BaseKnockBackSetKnockback": "0",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "72",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216046965952fcb51701",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Olimar",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "10-19",
-    "firstActionableFrame": "50",
-    "baseDamage": "",
-    "angle": "",
-    "baseKnockBackSetKnockback": "",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "",
-    "type": 1,
-    "name": "Standing Grab",
-    "ownerId": 37,
-    "id": 2066
+    "InstanceId": "5968216046965952fcb51702",
+    "Name": "Standing Grab",
+    "OwnerId": 37,
+    "Owner": "Olimar",
+    "HitboxActive": "10-19",
+    "FirstActionableFrame": "50",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216046965952fcb51702",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Olimar",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "10-19",
-    "firstActionableFrame": "53",
-    "baseDamage": "",
-    "angle": "",
-    "baseKnockBackSetKnockback": "",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "",
-    "type": 1,
-    "name": "Dash Grab",
-    "ownerId": 37,
-    "id": 2067
+    "InstanceId": "5968216046965952fcb51703",
+    "Name": "Dash Grab",
+    "OwnerId": 37,
+    "Owner": "Olimar",
+    "HitboxActive": "10-19",
+    "FirstActionableFrame": "53",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216046965952fcb51703",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Olimar",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "10-19",
-    "firstActionableFrame": "36",
-    "baseDamage": "",
-    "angle": "",
-    "baseKnockBackSetKnockback": "",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "",
-    "type": 1,
-    "name": "Pivot Grab",
-    "ownerId": 37,
-    "id": 2068
+    "InstanceId": "5968216046965952fcb51704",
+    "Name": "Pivot Grab",
+    "OwnerId": 37,
+    "Owner": "Olimar",
+    "HitboxActive": "10-19",
+    "FirstActionableFrame": "36",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216046965952fcb51704",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Olimar",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "7",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "65",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "60",
-    "type": 3,
-    "name": "Fthrow",
-    "ownerId": 37,
-    "id": 2070
+    "InstanceId": "5968216046965952fcb51705",
+    "Name": "Spotdodge",
+    "OwnerId": 37,
+    "Owner": "Olimar",
+    "HitboxActive": "3-17",
+    "FirstActionableFrame": "27",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216046965952fcb51705",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Olimar",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "9",
-    "angle": "45",
-    "baseKnockBackSetKnockback": "50",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "60",
-    "type": 3,
-    "name": "Bthrow",
-    "ownerId": 37,
-    "id": 2071
+    "InstanceId": "5968216046965952fcb51706",
+    "Name": "Forward Roll",
+    "OwnerId": 37,
+    "Owner": "Olimar",
+    "HitboxActive": "4-16",
+    "FirstActionableFrame": "30",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216046965952fcb51706",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Olimar",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "8",
-    "angle": "85",
-    "baseKnockBackSetKnockback": "80",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "65/65/58/65/65",
-    "type": 3,
-    "name": "Uthrow",
-    "ownerId": 37,
-    "id": 2072
+    "InstanceId": "5968216046965952fcb51707",
+    "Name": "Back Roll",
+    "OwnerId": 37,
+    "Owner": "Olimar",
+    "HitboxActive": "4-16",
+    "FirstActionableFrame": "30",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216046965952fcb51707",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Olimar",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "1 (Attack Multiplier), 7",
-    "angle": "70",
-    "baseKnockBackSetKnockback": "60",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "60",
-    "type": 3,
-    "name": "Dthrow",
-    "ownerId": 37,
-    "id": 2073
+    "InstanceId": "5968216046965952fcb51708",
+    "Name": "Airdodge",
+    "OwnerId": 37,
+    "Owner": "Olimar",
+    "HitboxActive": "3-27",
+    "FirstActionableFrame": "33",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216046965952fcb51708",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Olimar",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "7-8, 11-12, 15-16, 19-20",
-    "firstActionableFrame": "54",
-    "baseDamage": "1.5",
-    "angle": "90/130/130/270",
-    "baseKnockBackSetKnockback": "40/30/30/30 W: 7",
-    "landingLag": "15",
-    "autoCancel": "1-2, 34&gt;",
-    "knockbackGrowth": "30/30/80/100",
-    "type": 0,
-    "name": "Nair (Hits 1-4)",
-    "ownerId": 37,
-    "id": 2079
+    "InstanceId": "5968216046965952fcb51709",
+    "Name": "Nair (Hits 1-4)",
+    "OwnerId": 37,
+    "Owner": "Olimar",
+    "HitboxActive": "7-8, 11-12, 15-16, 19-20",
+    "FirstActionableFrame": "54",
+    "BaseDamage": "1.5",
+    "Angle": "90/130/130/270",
+    "BaseKnockBackSetKnockback": "40/30/30/30 W: 7",
+    "LandingLag": "15",
+    "AutoCancel": "1-2, 34&gt;",
+    "KnockbackGrowth": "30/30/80/100",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216046965952fcb51709",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Olimar",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "23-24",
-    "firstActionableFrame": "-",
-    "baseDamage": "2",
-    "angle": "70",
-    "baseKnockBackSetKnockback": "50",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "150",
-    "type": 0,
-    "name": "Nair",
-    "ownerId": 37,
-    "id": 2080
+    "InstanceId": "5968216046965952fcb5170a",
+    "Name": "Nair",
+    "OwnerId": 37,
+    "Owner": "Olimar",
+    "HitboxActive": "23-24",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "2",
+    "Angle": "70",
+    "BaseKnockBackSetKnockback": "50",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "150",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216046965952fcb5170a",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Olimar",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "7-9 (Low Priority)",
-    "firstActionableFrame": "43",
-    "baseDamage": "8.5",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "32",
-    "landingLag": "15",
-    "autoCancel": "1-5, 31&gt;",
-    "knockbackGrowth": "82/90/90/90/81",
-    "type": 0,
-    "name": "Fair",
-    "ownerId": 37,
-    "id": 2081
+    "InstanceId": "5968216046965952fcb5170b",
+    "Name": "Fair",
+    "OwnerId": 37,
+    "Owner": "Olimar",
+    "HitboxActive": "7-9 (Low Priority)",
+    "FirstActionableFrame": "43",
+    "BaseDamage": "8.5",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "32",
+    "LandingLag": "15",
+    "AutoCancel": "1-5, 31&gt;",
+    "KnockbackGrowth": "82/90/90/90/81",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216046965952fcb5170b",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Olimar",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "10-13 (Low Priority)",
-    "firstActionableFrame": "49",
-    "baseDamage": "10.8",
-    "angle": "40",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "15",
-    "autoCancel": "1-5, 36&gt;",
-    "knockbackGrowth": "90/98/98/98/88",
-    "type": 0,
-    "name": "Bair",
-    "ownerId": 37,
-    "id": 2082
+    "InstanceId": "5968216046965952fcb5170c",
+    "Name": "Bair",
+    "OwnerId": 37,
+    "Owner": "Olimar",
+    "HitboxActive": "10-13 (Low Priority)",
+    "FirstActionableFrame": "49",
+    "BaseDamage": "10.8",
+    "Angle": "40",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": "15",
+    "AutoCancel": "1-5, 36&gt;",
+    "KnockbackGrowth": "90/98/98/98/88",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216046965952fcb5170c",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Olimar",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "8-15 (Low Priority)",
-    "firstActionableFrame": "35",
-    "baseDamage": "9",
-    "angle": "95",
-    "baseKnockBackSetKnockback": "50",
-    "landingLag": "30",
-    "autoCancel": "1-5, 30&gt;",
-    "knockbackGrowth": "84/92/92/92/82",
-    "type": 0,
-    "name": "Uair",
-    "ownerId": 37,
-    "id": 2083
+    "InstanceId": "5968216046965952fcb5170d",
+    "Name": "Uair",
+    "OwnerId": 37,
+    "Owner": "Olimar",
+    "HitboxActive": "8-15 (Low Priority)",
+    "FirstActionableFrame": "35",
+    "BaseDamage": "9",
+    "Angle": "95",
+    "BaseKnockBackSetKnockback": "50",
+    "LandingLag": "30",
+    "AutoCancel": "1-5, 30&gt;",
+    "KnockbackGrowth": "84/92/92/92/82",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216046965952fcb5170d",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Olimar",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "9 (Low Priority)",
-    "firstActionableFrame": "52",
-    "baseDamage": "9",
-    "angle": "270/50",
-    "baseKnockBackSetKnockback": "10/30",
-    "landingLag": "30",
-    "autoCancel": "1-5, 30&gt;",
-    "knockbackGrowth": "91/99/99/99/89",
-    "type": 0,
-    "name": "Dair",
-    "ownerId": 37,
-    "id": 2084
+    "InstanceId": "5968216046965952fcb5170e",
+    "Name": "Dair",
+    "OwnerId": 37,
+    "Owner": "Olimar",
+    "HitboxActive": "9 (Low Priority)",
+    "FirstActionableFrame": "52",
+    "BaseDamage": "9",
+    "Angle": "270/50",
+    "BaseKnockBackSetKnockback": "10/30",
+    "LandingLag": "30",
+    "AutoCancel": "1-5, 30&gt;",
+    "KnockbackGrowth": "91/99/99/99/89",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216046965952fcb5170e",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Olimar",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "10-15 (Low Priority)",
-    "firstActionableFrame": "-",
-    "baseDamage": "9",
-    "angle": "50",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "91/99/99/99/89",
-    "type": 0,
-    "name": "Dair (Late)",
-    "ownerId": 37,
-    "id": 2085
+    "InstanceId": "5968216046965952fcb5170f",
+    "Name": "Dair (Late)",
+    "OwnerId": 37,
+    "Owner": "Olimar",
+    "HitboxActive": "10-15 (Low Priority)",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "9",
+    "Angle": "50",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "91/99/99/99/89",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216046965952fcb5170f",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Olimar",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "Pikmin Generated: Frame 1",
-    "firstActionableFrame": "9",
-    "baseDamage": "-",
-    "angle": "-",
-    "baseKnockBackSetKnockback": "-",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "-",
-    "type": 2,
-    "name": "Pikmin Pluck",
-    "ownerId": 37,
-    "id": 2086
+    "InstanceId": "5968216046965952fcb51710",
+    "Name": "Pikmin Pluck",
+    "OwnerId": 37,
+    "Owner": "Olimar",
+    "HitboxActive": "Pikmin Generated: Frame 1",
+    "FirstActionableFrame": "9",
+    "BaseDamage": "-",
+    "Angle": "-",
+    "BaseKnockBackSetKnockback": "-",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "-",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216046965952fcb51710",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Olimar",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "33",
-    "baseDamage": "-",
-    "angle": "-",
-    "baseKnockBackSetKnockback": "-",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "-",
-    "type": 2,
-    "name": "Pikmin Pluck (Failure)",
-    "ownerId": 37,
-    "id": 2087
+    "InstanceId": "5968216046965952fcb51711",
+    "Name": "Pikmin Pluck (Failure)",
+    "OwnerId": 37,
+    "Owner": "Olimar",
+    "HitboxActive": "-",
+    "FirstActionableFrame": "33",
+    "BaseDamage": "-",
+    "Angle": "-",
+    "BaseKnockBackSetKnockback": "-",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "-",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216046965952fcb51711",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Olimar",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "47",
-    "baseDamage": "-",
-    "angle": "-",
-    "baseKnockBackSetKnockback": "-",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "-",
-    "type": 2,
-    "name": "Pikmin Pluck (Air)",
-    "ownerId": 37,
-    "id": 2088
+    "InstanceId": "5968216046965952fcb51712",
+    "Name": "Pikmin Pluck (Air)",
+    "OwnerId": 37,
+    "Owner": "Olimar",
+    "HitboxActive": "-",
+    "FirstActionableFrame": "47",
+    "BaseDamage": "-",
+    "Angle": "-",
+    "BaseKnockBackSetKnockback": "-",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "-",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216046965952fcb51712",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Olimar",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "9-",
-    "firstActionableFrame": "25",
-    "baseDamage": "-",
-    "angle": "-",
-    "baseKnockBackSetKnockback": "-",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "-",
-    "type": 2,
-    "name": "Pikmin Toss",
-    "ownerId": 37,
-    "id": 2089
+    "InstanceId": "5968216046965952fcb51713",
+    "Name": "Pikmin Toss",
+    "OwnerId": 37,
+    "Owner": "Olimar",
+    "HitboxActive": "9-",
+    "FirstActionableFrame": "25",
+    "BaseDamage": "-",
+    "Angle": "-",
+    "BaseKnockBackSetKnockback": "-",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "-",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216046965952fcb51713",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Olimar",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "9-",
-    "firstActionableFrame": "25",
-    "baseDamage": "6 (+1)",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "60",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "50",
-    "type": 2,
-    "name": "Pikmin Toss (Purple)",
-    "ownerId": 37,
-    "id": 2090
+    "InstanceId": "5968216046965952fcb51714",
+    "Name": "Pikmin Toss (Purple)",
+    "OwnerId": 37,
+    "Owner": "Olimar",
+    "HitboxActive": "9-",
+    "FirstActionableFrame": "25",
+    "BaseDamage": "6 (+1)",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "60",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "50",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216046965952fcb51714",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Olimar",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "39",
-    "baseDamage": "-",
-    "angle": "-",
-    "baseKnockBackSetKnockback": "-",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "-",
-    "type": 2,
-    "name": "Winged Pikmin",
-    "ownerId": 37,
-    "id": 2091
+    "InstanceId": "5968216046965952fcb51715",
+    "Name": "Winged Pikmin",
+    "OwnerId": 37,
+    "Owner": "Olimar",
+    "HitboxActive": "-",
+    "FirstActionableFrame": "39",
+    "BaseDamage": "-",
+    "Angle": "-",
+    "BaseKnockBackSetKnockback": "-",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "-",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216046965952fcb51715",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Olimar",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "Super Armor: 6-12",
-    "firstActionableFrame": "21",
-    "baseDamage": "-",
-    "angle": "-",
-    "baseKnockBackSetKnockback": "-",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "-",
-    "type": 2,
-    "name": "Pikmin Order",
-    "ownerId": 37,
-    "id": 2092
+    "InstanceId": "5968216046965952fcb51716",
+    "Name": "Pikmin Order",
+    "OwnerId": 37,
+    "Owner": "Olimar",
+    "HitboxActive": "Super Armor: 6-12",
+    "FirstActionableFrame": "21",
+    "BaseDamage": "-",
+    "Angle": "-",
+    "BaseKnockBackSetKnockback": "-",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "-",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216046965952fcb51716",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Olimar",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968216046965952fcb51717",
+    "Name": "Fthrow",
+    "OwnerId": 37,
+    "Owner": "Olimar",
+    "HitboxActive": null,
+    "FirstActionableFrame": null,
+    "BaseDamage": "7",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "65",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "60",
+    "MoveType": "throw",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216046965952fcb51717",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Olimar",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968216046965952fcb51718",
+    "Name": "Bthrow",
+    "OwnerId": 37,
+    "Owner": "Olimar",
+    "HitboxActive": null,
+    "FirstActionableFrame": null,
+    "BaseDamage": "9",
+    "Angle": "45",
+    "BaseKnockBackSetKnockback": "50",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "60",
+    "MoveType": "throw",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216046965952fcb51718",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Olimar",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968216046965952fcb51719",
+    "Name": "Uthrow",
+    "OwnerId": 37,
+    "Owner": "Olimar",
+    "HitboxActive": null,
+    "FirstActionableFrame": null,
+    "BaseDamage": "8",
+    "Angle": "85",
+    "BaseKnockBackSetKnockback": "80",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "65/65/58/65/65",
+    "MoveType": "throw",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216046965952fcb51719",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Olimar",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968216046965952fcb5171a",
+    "Name": "Dthrow",
+    "OwnerId": 37,
+    "Owner": "Olimar",
+    "HitboxActive": null,
+    "FirstActionableFrame": null,
+    "BaseDamage": "1 (Attack Multiplier), 7",
+    "Angle": "70",
+    "BaseKnockBackSetKnockback": "60",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "60",
+    "MoveType": "throw",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216046965952fcb5171a",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Olimar",
+        "Title": ""
+      }
+    ]
   }
 ]

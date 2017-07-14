@@ -62,18 +62,8 @@ public class MoveAsyncTask extends AsyncTask<String, String, LinkedList<Move>> {
         }
     }
 
-    private String getThrow(){
-        try {
-            String json = Storage.read(String.valueOf(character.id),"throws.json",context.getActivity());
-            return json;
-        }
-        catch(Exception e){
 
-        }
-        return null;
-    }
-
-    private void getAttributes(){
+    /*private void getAttributes(){
         try {
             String json = Storage.read(String.valueOf(character.id), "smashAttributes.json", context.getActivity());
             attributes = new LinkedList<>();
@@ -87,7 +77,7 @@ public class MoveAsyncTask extends AsyncTask<String, String, LinkedList<Move>> {
         }catch(Exception e){
 
         }
-    }
+    }*/
 
     @Override
     protected LinkedList<Move> doInBackground(String... params) {
@@ -96,9 +86,6 @@ public class MoveAsyncTask extends AsyncTask<String, String, LinkedList<Move>> {
             LinkedList<Move> list = new LinkedList<>();
             JSONArray jsonArray = new JSONArray(json);
             JSONArray t = null;
-            if(type == MoveType.Throw || type == MoveType.Any){
-                t = new JSONArray(getThrow());
-            }
             for(int i=0;i<jsonArray.length();i++){
                 Move move = Move.getFromJson(jsonArray.getJSONObject(i));
                 if(type == MoveType.Any){
@@ -113,10 +100,10 @@ public class MoveAsyncTask extends AsyncTask<String, String, LinkedList<Move>> {
                             list.add(Move.getFromJson(jsonArray.getJSONObject(i)));
                             break;
                         case Throw:
-                            list.add(ThrowMove.getFromJson(jsonArray.getJSONObject(i), t));
+                            list.add(ThrowMove.getFromJson(jsonArray.getJSONObject(i)));
                             break;
                     }
-                    getAttributes();
+                    //getAttributes();
                 }else{
                     if(move.moveType == type) {
                         switch (type) {
@@ -125,13 +112,13 @@ public class MoveAsyncTask extends AsyncTask<String, String, LinkedList<Move>> {
                                 break;
                             case Ground:
                                 list.add(Move.getFromJson(jsonArray.getJSONObject(i)));
-                                getAttributes();
+                                //getAttributes();
                                 break;
                             case Special:
                                 list.add(Move.getFromJson(jsonArray.getJSONObject(i)));
                                 break;
                             case Throw:
-                                list.add(ThrowMove.getFromJson(jsonArray.getJSONObject(i), t));
+                                list.add(ThrowMove.getFromJson(jsonArray.getJSONObject(i)));
                                 break;
                         }
                     }

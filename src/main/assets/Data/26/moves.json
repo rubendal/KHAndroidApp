@@ -1,604 +1,1318 @@
 ﻿[
   {
-    "hitboxActive": "2-3",
-    "firstActionableFrame": "19",
-    "baseDamage": "3",
-    "angle": "90/65/50",
-    "baseKnockBackSetKnockback": "W: 20",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Jab 1",
-    "ownerId": 26,
-    "id": 1382
+    "InstanceId": "5968214246965952fcb5132e",
+    "Name": "Jab 1",
+    "OwnerId": 26,
+    "Owner": "Luigi",
+    "HitboxActive": "2-3",
+    "FirstActionableFrame": "19",
+    "BaseDamage": "3",
+    "Angle": "90/65/50",
+    "BaseKnockBackSetKnockback": "W: 20",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968214246965952fcb5132e",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Luigi",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "3-4",
-    "firstActionableFrame": "19",
-    "baseDamage": "2",
-    "angle": "70/60/60",
-    "baseKnockBackSetKnockback": "W: 15/20/20",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Jab 2",
-    "ownerId": 26,
-    "id": 1383
+    "InstanceId": "5968214246965952fcb5132f",
+    "Name": "Jab 2",
+    "OwnerId": 26,
+    "Owner": "Luigi",
+    "HitboxActive": "3-4",
+    "FirstActionableFrame": "19",
+    "BaseDamage": "2",
+    "Angle": "70/60/60",
+    "BaseKnockBackSetKnockback": "W: 15/20/20",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968214246965952fcb5132f",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Luigi",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "6-7",
-    "firstActionableFrame": "31",
-    "baseDamage": "5",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "65",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "80",
-    "type": 1,
-    "name": "Jab 3",
-    "ownerId": 26,
-    "id": 1384
+    "InstanceId": "5968214246965952fcb51330",
+    "Name": "Jab 3",
+    "OwnerId": 26,
+    "Owner": "Luigi",
+    "HitboxActive": "6-7",
+    "FirstActionableFrame": "31",
+    "BaseDamage": "5",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "65",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "80",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968214246965952fcb51330",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Luigi",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "4, 10, 16, 22, 29, 37",
-    "firstActionableFrame": "76",
-    "baseDamage": "-",
-    "angle": "-",
-    "baseKnockBackSetKnockback": "-",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "-",
-    "type": 1,
-    "name": "Dash Attack (Hits 1-6)",
-    "ownerId": 26,
-    "id": 1385
+    "InstanceId": "5968214246965952fcb51331",
+    "Name": "Dash Attack (Hits 1-6)",
+    "OwnerId": 26,
+    "Owner": "Luigi",
+    "HitboxActive": "4, 10, 16, 22, 29, 37",
+    "FirstActionableFrame": "76",
+    "BaseDamage": "1",
+    "Angle": "65/10",
+    "BaseKnockBackSetKnockback": "26/60",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "10",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968214246965952fcb51331",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Luigi",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "48",
-    "firstActionableFrame": "-",
-    "baseDamage": "3",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "60",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "128",
-    "type": 1,
-    "name": "Dash Attack (Final Hit)",
-    "ownerId": 26,
-    "id": 1386
+    "InstanceId": "5968214246965952fcb51332",
+    "Name": "Dash Attack (Final Hit)",
+    "OwnerId": 26,
+    "Owner": "Luigi",
+    "HitboxActive": "48",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "2",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "60",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "128",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968214246965952fcb51332",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Luigi",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "5-7",
-    "firstActionableFrame": "33",
-    "baseDamage": "8",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "2",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Ftilt (All Angles)",
-    "ownerId": 26,
-    "id": 1387
+    "InstanceId": "5968214246965952fcb51333",
+    "Name": "Ftilt (All Angles)",
+    "OwnerId": 26,
+    "Owner": "Luigi",
+    "HitboxActive": "5-7",
+    "FirstActionableFrame": "33",
+    "BaseDamage": "8",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "2",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968214246965952fcb51333",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Luigi",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "5-10",
-    "firstActionableFrame": "31",
-    "baseDamage": "6",
-    "angle": "100",
-    "baseKnockBackSetKnockback": "8",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "150",
-    "type": 1,
-    "name": "Utilt",
-    "ownerId": 26,
-    "id": 1388
+    "InstanceId": "5968214246965952fcb51334",
+    "Name": "Utilt",
+    "OwnerId": 26,
+    "Owner": "Luigi",
+    "HitboxActive": "5-10",
+    "FirstActionableFrame": "31",
+    "BaseDamage": "6",
+    "Angle": "100",
+    "BaseKnockBackSetKnockback": "8",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "150",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968214246965952fcb51334",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Luigi",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "5-8",
-    "firstActionableFrame": "27",
-    "baseDamage": "8",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "20",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "65",
-    "type": 1,
-    "name": "Dtilt",
-    "ownerId": 26,
-    "id": 1389
+    "InstanceId": "5968214246965952fcb51335",
+    "Name": "Dtilt",
+    "OwnerId": 26,
+    "Owner": "Luigi",
+    "HitboxActive": "5-8",
+    "FirstActionableFrame": "27",
+    "BaseDamage": "8",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "20",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "65",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968214246965952fcb51335",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Luigi",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "12-13",
-    "firstActionableFrame": "42",
-    "baseDamage": "15",
-    "angle": "65",
-    "baseKnockBackSetKnockback": "20",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "121",
-    "type": 1,
-    "name": "Fsmash (High)",
-    "ownerId": 26,
-    "id": 1390
+    "InstanceId": "5968214246965952fcb51336",
+    "Name": "Fsmash (High)",
+    "OwnerId": 26,
+    "Owner": "Luigi",
+    "HitboxActive": "12-13",
+    "FirstActionableFrame": "42",
+    "BaseDamage": "15",
+    "Angle": "65",
+    "BaseKnockBackSetKnockback": "20",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "121",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968214246965952fcb51336",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Luigi",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "12-13",
-    "firstActionableFrame": "-",
-    "baseDamage": "15",
-    "angle": "53",
-    "baseKnockBackSetKnockback": "20",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "116",
-    "type": 1,
-    "name": "Fsmash",
-    "ownerId": 26,
-    "id": 1391
+    "InstanceId": "5968214246965952fcb51337",
+    "Name": "Fsmash",
+    "OwnerId": 26,
+    "Owner": "Luigi",
+    "HitboxActive": "12-13",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "15",
+    "Angle": "53",
+    "BaseKnockBackSetKnockback": "20",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "116",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968214246965952fcb51337",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Luigi",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "12-13",
-    "firstActionableFrame": "-",
-    "baseDamage": "15",
-    "angle": "45",
-    "baseKnockBackSetKnockback": "20",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "117",
-    "type": 1,
-    "name": "Fsmash (Down)",
-    "ownerId": 26,
-    "id": 1392
+    "InstanceId": "5968214246965952fcb51338",
+    "Name": "Fsmash (Down)",
+    "OwnerId": 26,
+    "Owner": "Luigi",
+    "HitboxActive": "12-13",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "15",
+    "Angle": "45",
+    "BaseKnockBackSetKnockback": "20",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "117",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968214246965952fcb51338",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Luigi",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "9-13 (Head Intangibility: 9-13)",
-    "firstActionableFrame": "40",
-    "baseDamage": "14/12",
-    "angle": "110",
-    "baseKnockBackSetKnockback": "35",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "98",
-    "type": 1,
-    "name": "Usmash",
-    "ownerId": 26,
-    "id": 1393
+    "InstanceId": "5968214246965952fcb51339",
+    "Name": "Usmash",
+    "OwnerId": 26,
+    "Owner": "Luigi",
+    "HitboxActive": "9-13 (Head Intangibility: 9-13)",
+    "FirstActionableFrame": "40",
+    "BaseDamage": "14/12",
+    "Angle": "110",
+    "BaseKnockBackSetKnockback": "35",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "98",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968214246965952fcb51339",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Luigi",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "6-7",
-    "firstActionableFrame": "38",
-    "baseDamage": "14/15",
-    "angle": "120",
-    "baseKnockBackSetKnockback": "40",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "85",
-    "type": 1,
-    "name": "Dsmash (Hit 1)",
-    "ownerId": 26,
-    "id": 1394
+    "InstanceId": "5968214246965952fcb5133a",
+    "Name": "Dsmash (Hit 1)",
+    "OwnerId": 26,
+    "Owner": "Luigi",
+    "HitboxActive": "6-7",
+    "FirstActionableFrame": "38",
+    "BaseDamage": "14/15",
+    "Angle": "120",
+    "BaseKnockBackSetKnockback": "40",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "85",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968214246965952fcb5133a",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Luigi",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "14-15",
-    "firstActionableFrame": "-",
-    "baseDamage": "14/15",
-    "angle": "60",
-    "baseKnockBackSetKnockback": "40",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "104",
-    "type": 1,
-    "name": "Dsmash (Hit 2)",
-    "ownerId": 26,
-    "id": 1395
+    "InstanceId": "5968214246965952fcb5133b",
+    "Name": "Dsmash (Hit 2)",
+    "OwnerId": 26,
+    "Owner": "Luigi",
+    "HitboxActive": "14-15",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "14/15",
+    "Angle": "60",
+    "BaseKnockBackSetKnockback": "40",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "104",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968214246965952fcb5133b",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Luigi",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "45",
-    "firstActionableFrame": "70",
-    "baseDamage": "2",
-    "angle": "270",
-    "baseKnockBackSetKnockback": "W: 180",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Down Taunt",
-    "ownerId": 26,
-    "id": 1396
+    "InstanceId": "5968214246965952fcb5133c",
+    "Name": "Down Taunt",
+    "OwnerId": 26,
+    "Owner": "Luigi",
+    "HitboxActive": "45",
+    "FirstActionableFrame": "70",
+    "BaseDamage": "2",
+    "Angle": "270",
+    "BaseKnockBackSetKnockback": "W: 180",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968214246965952fcb5133c",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Luigi",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "6-7",
-    "firstActionableFrame": "29",
-    "baseDamage": "",
-    "angle": "",
-    "baseKnockBackSetKnockback": "",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "",
-    "type": 1,
-    "name": "Standing Grab",
-    "ownerId": 26,
-    "id": 1398
+    "InstanceId": "5968214246965952fcb5133d",
+    "Name": "Standing Grab",
+    "OwnerId": 26,
+    "Owner": "Luigi",
+    "HitboxActive": "6-7",
+    "FirstActionableFrame": "29",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968214246965952fcb5133d",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Luigi",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "8-9",
-    "firstActionableFrame": "36",
-    "baseDamage": "",
-    "angle": "",
-    "baseKnockBackSetKnockback": "",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "",
-    "type": 1,
-    "name": "Dash Grab",
-    "ownerId": 26,
-    "id": 1399
+    "InstanceId": "5968214246965952fcb5133e",
+    "Name": "Dash Grab",
+    "OwnerId": 26,
+    "Owner": "Luigi",
+    "HitboxActive": "8-9",
+    "FirstActionableFrame": "36",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968214246965952fcb5133e",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Luigi",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "9-10",
-    "firstActionableFrame": "34",
-    "baseDamage": "",
-    "angle": "",
-    "baseKnockBackSetKnockback": "",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "",
-    "type": 1,
-    "name": "Pivot Grab",
-    "ownerId": 26,
-    "id": 1400
+    "InstanceId": "5968214246965952fcb5133f",
+    "Name": "Pivot Grab",
+    "OwnerId": 26,
+    "Owner": "Luigi",
+    "HitboxActive": "9-10",
+    "FirstActionableFrame": "34",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968214246965952fcb5133f",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Luigi",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "9",
-    "angle": "45",
-    "baseKnockBackSetKnockback": "60",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "65",
-    "type": 3,
-    "name": "Fthrow",
-    "ownerId": 26,
-    "id": 1402
+    "InstanceId": "5968214246965952fcb51340",
+    "Name": "Dthrow: The Apocalypse",
+    "OwnerId": 26,
+    "Owner": "Luigi",
+    "HitboxActive": "Yes",
+    "FirstActionableFrame": "6",
+    "BaseDamage": "80",
+    "Angle": "55",
+    "BaseKnockBackSetKnockback": "83",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968214246965952fcb51340",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Luigi",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "10",
-    "angle": "45",
-    "baseKnockBackSetKnockback": "80",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "65",
-    "type": 3,
-    "name": "Bthrow",
-    "ownerId": 26,
-    "id": 1403
+    "InstanceId": "5968214246965952fcb51341",
+    "Name": "Spotdodge",
+    "OwnerId": 26,
+    "Owner": "Luigi",
+    "HitboxActive": "3-17",
+    "FirstActionableFrame": "27",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968214246965952fcb51341",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Luigi",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "8",
-    "angle": "90",
-    "baseKnockBackSetKnockback": "70",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "72",
-    "type": 3,
-    "name": "Uthrow",
-    "ownerId": 26,
-    "id": 1404
+    "InstanceId": "5968214246965952fcb51342",
+    "Name": "Forward Roll",
+    "OwnerId": 26,
+    "Owner": "Luigi",
+    "HitboxActive": "4-17",
+    "FirstActionableFrame": "31",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968214246965952fcb51342",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Luigi",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "6",
-    "angle": "80",
-    "baseKnockBackSetKnockback": "55",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "83",
-    "type": 3,
-    "name": "Dthrow: The Apocalypse",
-    "ownerId": 26,
-    "id": 1405
+    "InstanceId": "5968214246965952fcb51343",
+    "Name": "Back Roll",
+    "OwnerId": 26,
+    "Owner": "Luigi",
+    "HitboxActive": "4-17",
+    "FirstActionableFrame": "31",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968214246965952fcb51343",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Luigi",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "3-5",
-    "firstActionableFrame": "46",
-    "baseDamage": "12",
-    "angle": "90",
-    "baseKnockBackSetKnockback": "20",
-    "landingLag": "14",
-    "autoCancel": "1-2, 36&gt;",
-    "knockbackGrowth": "90",
-    "type": 0,
-    "name": "Nair",
-    "ownerId": 26,
-    "id": 1411
+    "InstanceId": "5968214246965952fcb51344",
+    "Name": "Airdodge",
+    "OwnerId": 26,
+    "Owner": "Luigi",
+    "HitboxActive": "3-27",
+    "FirstActionableFrame": "33",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968214246965952fcb51344",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Luigi",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "6-31",
-    "firstActionableFrame": "-",
-    "baseDamage": "6",
-    "angle": "80",
-    "baseKnockBackSetKnockback": "20",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "100",
-    "type": 0,
-    "name": "Nair (Late)",
-    "ownerId": 26,
-    "id": 1412
+    "InstanceId": "5968214246965952fcb51345",
+    "Name": "Nair",
+    "OwnerId": 26,
+    "Owner": "Luigi",
+    "HitboxActive": "3-5",
+    "FirstActionableFrame": "46",
+    "BaseDamage": "12",
+    "Angle": "90",
+    "BaseKnockBackSetKnockback": "20",
+    "LandingLag": "14",
+    "AutoCancel": "1-2, 36&gt;",
+    "KnockbackGrowth": "90",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968214246965952fcb51345",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Luigi",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "7-10",
-    "firstActionableFrame": "24",
-    "baseDamage": "8",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "22",
-    "autoCancel": "21&gt;",
-    "knockbackGrowth": "80",
-    "type": 0,
-    "name": "Fair",
-    "ownerId": 26,
-    "id": 1413
+    "InstanceId": "5968214246965952fcb51346",
+    "Name": "Nair (Late)",
+    "OwnerId": 26,
+    "Owner": "Luigi",
+    "HitboxActive": "6-31",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "6",
+    "Angle": "80",
+    "BaseKnockBackSetKnockback": "20",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "100",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968214246965952fcb51346",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Luigi",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "6-7",
-    "firstActionableFrame": "46",
-    "baseDamage": "14/8",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "12",
-    "landingLag": "16",
-    "autoCancel": "1-2, 33&gt;",
-    "knockbackGrowth": "100",
-    "type": 0,
-    "name": "Bair",
-    "ownerId": 26,
-    "id": 1414
+    "InstanceId": "5968214246965952fcb51347",
+    "Name": "Fair",
+    "OwnerId": 26,
+    "Owner": "Luigi",
+    "HitboxActive": "7-10",
+    "FirstActionableFrame": "24",
+    "BaseDamage": "8",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": "22",
+    "AutoCancel": "21&gt;",
+    "KnockbackGrowth": "80",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968214246965952fcb51347",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Luigi",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "8-13",
-    "firstActionableFrame": "-",
-    "baseDamage": "8",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "12",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "100",
-    "type": 0,
-    "name": "Bair (Late)",
-    "ownerId": 26,
-    "id": 1415
+    "InstanceId": "5968214246965952fcb51348",
+    "Name": "Bair",
+    "OwnerId": 26,
+    "Owner": "Luigi",
+    "HitboxActive": "6-7",
+    "FirstActionableFrame": "46",
+    "BaseDamage": "14/8",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "12",
+    "LandingLag": "16",
+    "AutoCancel": "1-2, 33&gt;",
+    "KnockbackGrowth": "100",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968214246965952fcb51348",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Luigi",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "5-7",
-    "firstActionableFrame": "30",
-    "baseDamage": "11",
-    "angle": "55",
-    "baseKnockBackSetKnockback": "0",
-    "landingLag": "12",
-    "autoCancel": "19&gt;",
-    "knockbackGrowth": "100",
-    "type": 0,
-    "name": "Uair",
-    "ownerId": 26,
-    "id": 1416
+    "InstanceId": "5968214246965952fcb51349",
+    "Name": "Bair (Late)",
+    "OwnerId": 26,
+    "Owner": "Luigi",
+    "HitboxActive": "8-13",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "8",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "12",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "100",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968214246965952fcb51349",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Luigi",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "8-11",
-    "firstActionableFrame": "-",
-    "baseDamage": "7",
-    "angle": "55",
-    "baseKnockBackSetKnockback": "0",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "100",
-    "type": 0,
-    "name": "Uair (Late)",
-    "ownerId": 26,
-    "id": 1417
+    "InstanceId": "5968214246965952fcb5134a",
+    "Name": "Uair",
+    "OwnerId": 26,
+    "Owner": "Luigi",
+    "HitboxActive": "5-7",
+    "FirstActionableFrame": "30",
+    "BaseDamage": "11",
+    "Angle": "55",
+    "BaseKnockBackSetKnockback": "0",
+    "LandingLag": "12",
+    "AutoCancel": "19&gt;",
+    "KnockbackGrowth": "100",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968214246965952fcb5134a",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Luigi",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "10",
-    "firstActionableFrame": "29",
-    "baseDamage": "10",
-    "angle": "270",
-    "baseKnockBackSetKnockback": "20",
-    "landingLag": "20",
-    "autoCancel": "1-5, 24&gt;",
-    "knockbackGrowth": "80",
-    "type": 0,
-    "name": "Dair",
-    "ownerId": 26,
-    "id": 1418
+    "InstanceId": "5968214246965952fcb5134b",
+    "Name": "Uair (Late)",
+    "OwnerId": 26,
+    "Owner": "Luigi",
+    "HitboxActive": "8-11",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "7",
+    "Angle": "55",
+    "BaseKnockBackSetKnockback": "0",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "100",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968214246965952fcb5134b",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Luigi",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "11-14",
-    "firstActionableFrame": "-",
-    "baseDamage": "8",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "20",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "100",
-    "type": 0,
-    "name": "Dair (Late)",
-    "ownerId": 26,
-    "id": 1419
+    "InstanceId": "5968214246965952fcb5134c",
+    "Name": "Dair",
+    "OwnerId": 26,
+    "Owner": "Luigi",
+    "HitboxActive": "10",
+    "FirstActionableFrame": "29",
+    "BaseDamage": "10",
+    "Angle": "270",
+    "BaseKnockBackSetKnockback": "20",
+    "LandingLag": "20",
+    "AutoCancel": "1-5, 24&gt;",
+    "KnockbackGrowth": "80",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968214246965952fcb5134c",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Luigi",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "17-45",
-    "firstActionableFrame": "44",
-    "baseDamage": "6",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "7",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "25",
-    "type": 2,
-    "name": "Fireball",
-    "ownerId": 26,
-    "id": 1420
+    "InstanceId": "5968214246965952fcb5134d",
+    "Name": "Dair (Late)",
+    "OwnerId": 26,
+    "Owner": "Luigi",
+    "HitboxActive": "11-14",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "8",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "20",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "100",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968214246965952fcb5134d",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Luigi",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "46-64",
-    "firstActionableFrame": "-",
-    "baseDamage": "5",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "7",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "25",
-    "type": 2,
-    "name": "Fireball (Late)",
-    "ownerId": 26,
-    "id": 1421
+    "InstanceId": "5968214246965952fcb5134e",
+    "Name": "Fireball",
+    "OwnerId": 26,
+    "Owner": "Luigi",
+    "HitboxActive": "17-45",
+    "FirstActionableFrame": "44",
+    "BaseDamage": "6",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "7",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "25",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968214246965952fcb5134e",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Luigi",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "22-",
-    "firstActionableFrame": "-",
-    "baseDamage": "10 (+4)",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "20",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "80",
-    "type": 2,
-    "name": "Green Missile (No Charge)",
-    "ownerId": 26,
-    "id": 1422
+    "InstanceId": "5968214246965952fcb5134f",
+    "Name": "Fireball (Late)",
+    "OwnerId": 26,
+    "Owner": "Luigi",
+    "HitboxActive": "46-64",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "5",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "7",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "25",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968214246965952fcb5134f",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Luigi",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "Charge Time: 70 Frames",
-    "firstActionableFrame": "-",
-    "baseDamage": "-",
-    "angle": "-",
-    "baseKnockBackSetKnockback": "-",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "-",
-    "type": 2,
-    "name": "Green Missile",
-    "ownerId": 26,
-    "id": 1423
+    "InstanceId": "5968214246965952fcb51350",
+    "Name": "Green Missile (No Charge)",
+    "OwnerId": 26,
+    "Owner": "Luigi",
+    "HitboxActive": "22-",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "10 (+4)",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "20",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "80",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968214246965952fcb51350",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Luigi",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "22- (Intangible: 18-22)",
-    "firstActionableFrame": "86",
-    "baseDamage": "25 (+4)",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "20",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 2,
-    "name": "Green Missile (Misfire)",
-    "ownerId": 26,
-    "id": 1424
+    "InstanceId": "5968214246965952fcb51351",
+    "Name": "Green Missile",
+    "OwnerId": 26,
+    "Owner": "Luigi",
+    "HitboxActive": "Charge Time: 70 Frames",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "-",
+    "Angle": "-",
+    "BaseKnockBackSetKnockback": "-",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "-",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968214246965952fcb51351",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Luigi",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "8 (Intangible: 8-10)",
-    "firstActionableFrame": "-",
-    "baseDamage": "25",
-    "angle": "88",
-    "baseKnockBackSetKnockback": "50",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "77",
-    "type": 2,
-    "name": "Super Jump Punch (Sweetspot, Ground)",
-    "ownerId": 26,
-    "id": 1425
+    "InstanceId": "5968214246965952fcb51352",
+    "Name": "Green Missile (Misfire)",
+    "OwnerId": 26,
+    "Owner": "Luigi",
+    "HitboxActive": "22- (Intangible: 18-22)",
+    "FirstActionableFrame": "86",
+    "BaseDamage": "25 (+4)",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "20",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968214246965952fcb51352",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Luigi",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "8 (Intangible: 8-10)",
-    "firstActionableFrame": "-",
-    "baseDamage": "20",
-    "angle": "90",
-    "baseKnockBackSetKnockback": "40",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "66",
-    "type": 2,
-    "name": "Super Jump Punch (Sweetspot, Aerial)",
-    "ownerId": 26,
-    "id": 1426
+    "InstanceId": "5968214246965952fcb51353",
+    "Name": "Super Jump Punch (Sweetspot, Ground)",
+    "OwnerId": 26,
+    "Owner": "Luigi",
+    "HitboxActive": "8 (Intangible: 8-10)",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "25",
+    "Angle": "88",
+    "BaseKnockBackSetKnockback": "50",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "77",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968214246965952fcb51353",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Luigi",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "8-",
-    "firstActionableFrame": "-",
-    "baseDamage": "1",
-    "angle": "-",
-    "baseKnockBackSetKnockback": "-",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "-",
-    "type": 2,
-    "name": "Super Jump Punch",
-    "ownerId": 26,
-    "id": 1427
+    "InstanceId": "5968214246965952fcb51354",
+    "Name": "Super Jump Punch (Sweetspot, Aerial)",
+    "OwnerId": 26,
+    "Owner": "Luigi",
+    "HitboxActive": "8 (Intangible: 8-10)",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "20",
+    "Angle": "90",
+    "BaseKnockBackSetKnockback": "40",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "66",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968214246965952fcb51354",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Luigi",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "10-33 (Rehit Rate: 6)",
-    "firstActionableFrame": "90",
-    "baseDamage": "1.5",
-    "angle": "366",
-    "baseKnockBackSetKnockback": "85/80/20",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "30/30/60",
-    "type": 2,
-    "name": "Luigi Cyclone (Ground)",
-    "ownerId": 26,
-    "id": 1428
+    "InstanceId": "5968214246965952fcb51355",
+    "Name": "Super Jump Punch",
+    "OwnerId": 26,
+    "Owner": "Luigi",
+    "HitboxActive": "8-",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "1",
+    "Angle": "-",
+    "BaseKnockBackSetKnockback": "-",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "-",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968214246965952fcb51355",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Luigi",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "44",
-    "firstActionableFrame": "-",
-    "baseDamage": "3",
-    "angle": "70/70/90",
-    "baseKnockBackSetKnockback": "80",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "130",
-    "type": 2,
-    "name": "Luigi Cyclone (Ground, Final Hit)",
-    "ownerId": 26,
-    "id": 1429
+    "InstanceId": "5968214246965952fcb51356",
+    "Name": "Luigi Cyclone (Ground)",
+    "OwnerId": 26,
+    "Owner": "Luigi",
+    "HitboxActive": "10-33 (Rehit Rate: 6)",
+    "FirstActionableFrame": "90",
+    "BaseDamage": "1.5",
+    "Angle": "366",
+    "BaseKnockBackSetKnockback": "85/80/20",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "30/30/60",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968214246965952fcb51356",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Luigi",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "10-33 (Rehit Rate: 6)",
-    "firstActionableFrame": "90",
-    "baseDamage": "1.5",
-    "angle": "366",
-    "baseKnockBackSetKnockback": "60",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "120",
-    "type": 2,
-    "name": "Luigi Cyclone (Aerial)",
-    "ownerId": 26,
-    "id": 1430
+    "InstanceId": "5968214246965952fcb51357",
+    "Name": "Luigi Cyclone (Ground, Final Hit)",
+    "OwnerId": 26,
+    "Owner": "Luigi",
+    "HitboxActive": "44",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "3",
+    "Angle": "70/70/90",
+    "BaseKnockBackSetKnockback": "80",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "130",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968214246965952fcb51357",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Luigi",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "44",
-    "firstActionableFrame": "-",
-    "baseDamage": "3",
-    "angle": "70/70/89",
-    "baseKnockBackSetKnockback": "80",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "120",
-    "type": 2,
-    "name": "Luigi Cyclone (Aerial, Final Hit)",
-    "ownerId": 26,
-    "id": 1431
+    "InstanceId": "5968214246965952fcb51358",
+    "Name": "Luigi Cyclone (Aerial)",
+    "OwnerId": 26,
+    "Owner": "Luigi",
+    "HitboxActive": "10-33 (Rehit Rate: 6)",
+    "FirstActionableFrame": "90",
+    "BaseDamage": "1.5",
+    "Angle": "366",
+    "BaseKnockBackSetKnockback": "60",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "120",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968214246965952fcb51358",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Luigi",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968214246965952fcb51359",
+    "Name": "Luigi Cyclone (Aerial, Final Hit)",
+    "OwnerId": 26,
+    "Owner": "Luigi",
+    "HitboxActive": "44",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "3",
+    "Angle": "70/70/89",
+    "BaseKnockBackSetKnockback": "80",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "120",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968214246965952fcb51359",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Luigi",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968214246965952fcb5135a",
+    "Name": "Fthrow",
+    "OwnerId": 26,
+    "Owner": "Luigi",
+    "HitboxActive": null,
+    "FirstActionableFrame": null,
+    "BaseDamage": "9",
+    "Angle": "45",
+    "BaseKnockBackSetKnockback": "60",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "65",
+    "MoveType": "throw",
+    "IsWeightDependent": true,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968214246965952fcb5135a",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Luigi",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968214246965952fcb5135b",
+    "Name": "Bthrow",
+    "OwnerId": 26,
+    "Owner": "Luigi",
+    "HitboxActive": null,
+    "FirstActionableFrame": null,
+    "BaseDamage": "10",
+    "Angle": "45",
+    "BaseKnockBackSetKnockback": "80",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "65",
+    "MoveType": "throw",
+    "IsWeightDependent": true,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968214246965952fcb5135b",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Luigi",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968214246965952fcb5135c",
+    "Name": "Uthrow",
+    "OwnerId": 26,
+    "Owner": "Luigi",
+    "HitboxActive": null,
+    "FirstActionableFrame": null,
+    "BaseDamage": "8",
+    "Angle": "90",
+    "BaseKnockBackSetKnockback": "70",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "72",
+    "MoveType": "throw",
+    "IsWeightDependent": true,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968214246965952fcb5135c",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Luigi",
+        "Title": ""
+      }
+    ]
   }
 ]

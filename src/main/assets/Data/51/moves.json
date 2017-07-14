@@ -1,576 +1,1290 @@
 ﻿[
   {
-    "hitboxActive": "3",
-    "firstActionableFrame": "20",
-    "baseDamage": "2",
-    "angle": "92/60/361",
-    "baseKnockBackSetKnockback": "W: 18",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Jab 1",
-    "ownerId": 51,
-    "id": 2841
+    "InstanceId": "5968218646965952fcb51bd0",
+    "Name": "Jab 1",
+    "OwnerId": 51,
+    "Owner": "Sonic",
+    "HitboxActive": "3",
+    "FirstActionableFrame": "20",
+    "BaseDamage": "2",
+    "Angle": "92/60/361",
+    "BaseKnockBackSetKnockback": "W: 18",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218646965952fcb51bd0",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sonic",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "2-3",
-    "firstActionableFrame": "22",
-    "baseDamage": "2",
-    "angle": "80/60/48",
-    "baseKnockBackSetKnockback": "W: 18",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Jab 2",
-    "ownerId": 51,
-    "id": 2842
+    "InstanceId": "5968218646965952fcb51bd1",
+    "Name": "Jab 2",
+    "OwnerId": 51,
+    "Owner": "Sonic",
+    "HitboxActive": "2-3",
+    "FirstActionableFrame": "22",
+    "BaseDamage": "2",
+    "Angle": "80/60/48",
+    "BaseKnockBackSetKnockback": "W: 18",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218646965952fcb51bd1",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sonic",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "4-6",
-    "firstActionableFrame": "36",
-    "baseDamage": "4",
-    "angle": "50",
-    "baseKnockBackSetKnockback": "50",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "110",
-    "type": 1,
-    "name": "Jab 3",
-    "ownerId": 51,
-    "id": 2843
+    "InstanceId": "5968218646965952fcb51bd2",
+    "Name": "Jab 3",
+    "OwnerId": 51,
+    "Owner": "Sonic",
+    "HitboxActive": "4-6",
+    "FirstActionableFrame": "36",
+    "BaseDamage": "4",
+    "Angle": "50",
+    "BaseKnockBackSetKnockback": "50",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "110",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218646965952fcb51bd2",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sonic",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "5-15 (Rehit rate: 4)",
-    "firstActionableFrame": "62",
-    "baseDamage": "1",
-    "angle": "0",
-    "baseKnockBackSetKnockback": "60",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "40/20",
-    "type": 1,
-    "name": "Dash Attack",
-    "ownerId": 51,
-    "id": 2844
+    "InstanceId": "5968218646965952fcb51bd3",
+    "Name": "Dash Attack",
+    "OwnerId": 51,
+    "Owner": "Sonic",
+    "HitboxActive": "5-15 (Rehit rate: 4)",
+    "FirstActionableFrame": "62",
+    "BaseDamage": "1",
+    "Angle": "0",
+    "BaseKnockBackSetKnockback": "60",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "40/20",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218646965952fcb51bd3",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sonic",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "17-20",
-    "firstActionableFrame": "-",
-    "baseDamage": "3",
-    "angle": "70",
-    "baseKnockBackSetKnockback": "80",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "125",
-    "type": 1,
-    "name": "Dash Attack (Final Hit)",
-    "ownerId": 51,
-    "id": 2845
+    "InstanceId": "5968218646965952fcb51bd4",
+    "Name": "Dash Attack (Final Hit)",
+    "OwnerId": 51,
+    "Owner": "Sonic",
+    "HitboxActive": "17-20",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "3",
+    "Angle": "70",
+    "BaseKnockBackSetKnockback": "80",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "125",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218646965952fcb51bd4",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sonic",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "6",
-    "firstActionableFrame": "36",
-    "baseDamage": "4",
-    "angle": "28",
-    "baseKnockBackSetKnockback": "60",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "70",
-    "type": 1,
-    "name": "Ftilt (All Angles, Hit 1)",
-    "ownerId": 51,
-    "id": 2846
+    "InstanceId": "5968218646965952fcb51bd5",
+    "Name": "Ftilt (All Angles, Hit 1)",
+    "OwnerId": 51,
+    "Owner": "Sonic",
+    "HitboxActive": "6",
+    "FirstActionableFrame": "36",
+    "BaseDamage": "4",
+    "Angle": "28",
+    "BaseKnockBackSetKnockback": "60",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "70",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218646965952fcb51bd5",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sonic",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "8-11",
-    "firstActionableFrame": "-",
-    "baseDamage": "7/5/5",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "115",
-    "type": 1,
-    "name": "Ftilt (All Angles, Hit 2)",
-    "ownerId": 51,
-    "id": 2847
+    "InstanceId": "5968218646965952fcb51bd6",
+    "Name": "Ftilt (All Angles, Hit 2)",
+    "OwnerId": 51,
+    "Owner": "Sonic",
+    "HitboxActive": "8-11",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "7/5/5",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "115",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218646965952fcb51bd6",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sonic",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "7",
-    "firstActionableFrame": "40",
-    "baseDamage": "2",
-    "angle": "96",
-    "baseKnockBackSetKnockback": "W: 100",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Utilt (Hit 1)",
-    "ownerId": 51,
-    "id": 2848
+    "InstanceId": "5968218646965952fcb51bd7",
+    "Name": "Utilt (Hit 1)",
+    "OwnerId": 51,
+    "Owner": "Sonic",
+    "HitboxActive": "7",
+    "FirstActionableFrame": "40",
+    "BaseDamage": "2",
+    "Angle": "96",
+    "BaseKnockBackSetKnockback": "W: 100",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218646965952fcb51bd7",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sonic",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "8-9",
-    "firstActionableFrame": "-",
-    "baseDamage": "2",
-    "angle": "96/90/365/365",
-    "baseKnockBackSetKnockback": "W: 100/60/35/12",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Utilt (Hit 1, Late)",
-    "ownerId": 51,
-    "id": 2849
+    "InstanceId": "5968218646965952fcb51bd8",
+    "Name": "Utilt (Hit 1, Late)",
+    "OwnerId": 51,
+    "Owner": "Sonic",
+    "HitboxActive": "8-9",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "2",
+    "Angle": "96/90/365/365",
+    "BaseKnockBackSetKnockback": "W: 100/60/35/12",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218646965952fcb51bd8",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sonic",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "18-19",
-    "firstActionableFrame": "-",
-    "baseDamage": "6",
-    "angle": "78",
-    "baseKnockBackSetKnockback": "40",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "120",
-    "type": 1,
-    "name": "Utilt (Hit 2)",
-    "ownerId": 51,
-    "id": 2850
+    "InstanceId": "5968218646965952fcb51bd9",
+    "Name": "Utilt (Hit 2)",
+    "OwnerId": 51,
+    "Owner": "Sonic",
+    "HitboxActive": "18-19",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "6",
+    "Angle": "78",
+    "BaseKnockBackSetKnockback": "40",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "120",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218646965952fcb51bd9",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sonic",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "6-7",
-    "firstActionableFrame": "28",
-    "baseDamage": "6",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "80",
-    "type": 1,
-    "name": "Dtilt",
-    "ownerId": 51,
-    "id": 2851
+    "InstanceId": "5968218646965952fcb51bda",
+    "Name": "Dtilt",
+    "OwnerId": 51,
+    "Owner": "Sonic",
+    "HitboxActive": "6-7",
+    "FirstActionableFrame": "28",
+    "BaseDamage": "6",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "80",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218646965952fcb51bda",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sonic",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "18-20",
-    "firstActionableFrame": "48",
-    "baseDamage": "14",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "101",
-    "type": 1,
-    "name": "Fsmash (All Angles)",
-    "ownerId": 51,
-    "id": 2852
+    "InstanceId": "5968218646965952fcb51bdb",
+    "Name": "Fsmash (All Angles)",
+    "OwnerId": 51,
+    "Owner": "Sonic",
+    "HitboxActive": "18-20",
+    "FirstActionableFrame": "48",
+    "BaseDamage": "14",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "101",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218646965952fcb51bdb",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sonic",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "19 (Intangible: 18-20)",
-    "firstActionableFrame": "66",
-    "baseDamage": "5",
-    "angle": "80/90",
-    "baseKnockBackSetKnockback": "60",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "85",
-    "type": 1,
-    "name": "Usmash (Hit 1)",
-    "ownerId": 51,
-    "id": 2853
+    "InstanceId": "5968218646965952fcb51bdc",
+    "Name": "Usmash (Hit 1)",
+    "OwnerId": 51,
+    "Owner": "Sonic",
+    "HitboxActive": "19 (Intangible: 18-20)",
+    "FirstActionableFrame": "66",
+    "BaseDamage": "5",
+    "Angle": "80/90",
+    "BaseKnockBackSetKnockback": "60",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "85",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218646965952fcb51bdc",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sonic",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "21, 23, 25, 27, 29, 31",
-    "firstActionableFrame": "-",
-    "baseDamage": "1",
-    "angle": "220/220/130/130",
-    "baseKnockBackSetKnockback": "W: 60",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Usmash (Hits 2-7)",
-    "ownerId": 51,
-    "id": 2854
+    "InstanceId": "5968218646965952fcb51bdd",
+    "Name": "Usmash (Hits 2-7)",
+    "OwnerId": 51,
+    "Owner": "Sonic",
+    "HitboxActive": "21, 23, 25, 27, 29, 31",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "1",
+    "Angle": "220/220/130/130",
+    "BaseKnockBackSetKnockback": "W: 60",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218646965952fcb51bdd",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sonic",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "33-34",
-    "firstActionableFrame": "-",
-    "baseDamage": "3",
-    "angle": "82",
-    "baseKnockBackSetKnockback": "80",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "165",
-    "type": 1,
-    "name": "Usmash (Hit 8)",
-    "ownerId": 51,
-    "id": 2855
+    "InstanceId": "5968218646965952fcb51bde",
+    "Name": "Usmash (Hit 8)",
+    "OwnerId": 51,
+    "Owner": "Sonic",
+    "HitboxActive": "33-34",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "3",
+    "Angle": "82",
+    "BaseKnockBackSetKnockback": "80",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "165",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218646965952fcb51bde",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sonic",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "12-13",
-    "firstActionableFrame": "55",
-    "baseDamage": "12",
-    "angle": "30",
-    "baseKnockBackSetKnockback": "55/50",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "63/80",
-    "type": 1,
-    "name": "Dsmash",
-    "ownerId": 51,
-    "id": 2856
+    "InstanceId": "5968218646965952fcb51bdf",
+    "Name": "Dsmash",
+    "OwnerId": 51,
+    "Owner": "Sonic",
+    "HitboxActive": "12-13",
+    "FirstActionableFrame": "55",
+    "BaseDamage": "12",
+    "Angle": "30",
+    "BaseKnockBackSetKnockback": "55/50",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "63/80",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218646965952fcb51bdf",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sonic",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "6-7",
-    "firstActionableFrame": "31",
-    "baseDamage": "",
-    "angle": "",
-    "baseKnockBackSetKnockback": "",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "",
-    "type": 1,
-    "name": "Standing Grab",
-    "ownerId": 51,
-    "id": 2858
+    "InstanceId": "5968218646965952fcb51be0",
+    "Name": "Standing Grab",
+    "OwnerId": 51,
+    "Owner": "Sonic",
+    "HitboxActive": "6-7",
+    "FirstActionableFrame": "31",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218646965952fcb51be0",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sonic",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "10-11",
-    "firstActionableFrame": "38",
-    "baseDamage": "",
-    "angle": "",
-    "baseKnockBackSetKnockback": "",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "",
-    "type": 1,
-    "name": "Dash Grab",
-    "ownerId": 51,
-    "id": 2859
+    "InstanceId": "5968218646965952fcb51be1",
+    "Name": "Dash Grab",
+    "OwnerId": 51,
+    "Owner": "Sonic",
+    "HitboxActive": "10-11",
+    "FirstActionableFrame": "38",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218646965952fcb51be1",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sonic",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "10-11",
-    "firstActionableFrame": "37",
-    "baseDamage": "",
-    "angle": "",
-    "baseKnockBackSetKnockback": "",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "",
-    "type": 1,
-    "name": "Pivot Grab",
-    "ownerId": 51,
-    "id": 2860
+    "InstanceId": "5968218646965952fcb51be2",
+    "Name": "Pivot Grab",
+    "OwnerId": 51,
+    "Owner": "Sonic",
+    "HitboxActive": "10-11",
+    "FirstActionableFrame": "37",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218646965952fcb51be2",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sonic",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "1, 6",
-    "angle": "70",
-    "baseKnockBackSetKnockback": "100",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "70",
-    "type": 3,
-    "name": "Fthrow",
-    "ownerId": 51,
-    "id": 2862
+    "InstanceId": "5968218646965952fcb51be3",
+    "Name": "Spotdodge",
+    "OwnerId": 51,
+    "Owner": "Sonic",
+    "HitboxActive": "2-15",
+    "FirstActionableFrame": "25",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218646965952fcb51be3",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sonic",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "7",
-    "angle": "140",
-    "baseKnockBackSetKnockback": "70",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "79",
-    "type": 3,
-    "name": "Bthrow",
-    "ownerId": 51,
-    "id": 2863
+    "InstanceId": "5968218646965952fcb51be4",
+    "Name": "Forward Roll",
+    "OwnerId": 51,
+    "Owner": "Sonic",
+    "HitboxActive": "4-15",
+    "FirstActionableFrame": "28",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218646965952fcb51be4",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sonic",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "1, 6",
-    "angle": "92",
-    "baseKnockBackSetKnockback": "92",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "80",
-    "type": 3,
-    "name": "Uthrow",
-    "ownerId": 51,
-    "id": 2864
+    "InstanceId": "5968218646965952fcb51be5",
+    "Name": "Back Roll",
+    "OwnerId": 51,
+    "Owner": "Sonic",
+    "HitboxActive": "4-15",
+    "FirstActionableFrame": "28",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218646965952fcb51be5",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sonic",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "1&#37;&#215;3, 4",
-    "angle": "20",
-    "baseKnockBackSetKnockback": "80",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "35",
-    "type": 3,
-    "name": "Dthrow",
-    "ownerId": 51,
-    "id": 2865
+    "InstanceId": "5968218646965952fcb51be6",
+    "Name": "Airdodge",
+    "OwnerId": 51,
+    "Owner": "Sonic",
+    "HitboxActive": "2-25",
+    "FirstActionableFrame": "31",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218646965952fcb51be6",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sonic",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "6-9",
-    "firstActionableFrame": "50",
-    "baseDamage": "12",
-    "angle": "75",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "16",
-    "autoCancel": "48&gt;",
-    "knockbackGrowth": "80",
-    "type": 0,
-    "name": "Nair (Early)",
-    "ownerId": 51,
-    "id": 2871
+    "InstanceId": "5968218646965952fcb51be7",
+    "Name": "Nair (Early)",
+    "OwnerId": 51,
+    "Owner": "Sonic",
+    "HitboxActive": "6-9",
+    "FirstActionableFrame": "50",
+    "BaseDamage": "12",
+    "Angle": "75",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": "16",
+    "AutoCancel": "48&gt;",
+    "KnockbackGrowth": "80",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218646965952fcb51be7",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sonic",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "10-19",
-    "firstActionableFrame": "-",
-    "baseDamage": "8",
-    "angle": "75",
-    "baseKnockBackSetKnockback": "20",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "85",
-    "type": 0,
-    "name": "Nair",
-    "ownerId": 51,
-    "id": 2872
+    "InstanceId": "5968218646965952fcb51be8",
+    "Name": "Nair",
+    "OwnerId": 51,
+    "Owner": "Sonic",
+    "HitboxActive": "10-19",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "8",
+    "Angle": "75",
+    "BaseKnockBackSetKnockback": "20",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "85",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218646965952fcb51be8",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sonic",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "20-38",
-    "firstActionableFrame": "-",
-    "baseDamage": "5",
-    "angle": "75",
-    "baseKnockBackSetKnockback": "20",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "90",
-    "type": 0,
-    "name": "Nair (Late)",
-    "ownerId": 51,
-    "id": 2873
+    "InstanceId": "5968218646965952fcb51be9",
+    "Name": "Nair (Late)",
+    "OwnerId": 51,
+    "Owner": "Sonic",
+    "HitboxActive": "20-38",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "5",
+    "Angle": "75",
+    "BaseKnockBackSetKnockback": "20",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "90",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218646965952fcb51be9",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sonic",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "5, 7, 9, 11, 13",
-    "firstActionableFrame": "46",
-    "baseDamage": "0.8",
-    "angle": "130/60/56/340",
-    "baseKnockBackSetKnockback": "W: 30",
-    "landingLag": "26",
-    "autoCancel": "1-2, 34&gt;",
-    "knockbackGrowth": "100",
-    "type": 0,
-    "name": "Fair (Hits 1-5)",
-    "ownerId": 51,
-    "id": 2874
+    "InstanceId": "5968218646965952fcb51bea",
+    "Name": "Fair (Hits 1-5)",
+    "OwnerId": 51,
+    "Owner": "Sonic",
+    "HitboxActive": "5, 7, 9, 11, 13",
+    "FirstActionableFrame": "46",
+    "BaseDamage": "0.8",
+    "Angle": "130/60/56/340",
+    "BaseKnockBackSetKnockback": "W: 30",
+    "LandingLag": "26",
+    "AutoCancel": "1-2, 34&gt;",
+    "KnockbackGrowth": "100",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218646965952fcb51bea",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sonic",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "15",
-    "firstActionableFrame": "-",
-    "baseDamage": "3",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "60",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "135",
-    "type": 0,
-    "name": "Fair (Hit 6)",
-    "ownerId": 51,
-    "id": 2875
+    "InstanceId": "5968218646965952fcb51beb",
+    "Name": "Fair (Hit 6)",
+    "OwnerId": 51,
+    "Owner": "Sonic",
+    "HitboxActive": "15",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "3",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "60",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "135",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218646965952fcb51beb",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sonic",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "13-17",
-    "firstActionableFrame": "38",
-    "baseDamage": "14/14/10/10",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "30/30/40/40",
-    "landingLag": "30",
-    "autoCancel": "1-4, 33&gt;",
-    "knockbackGrowth": "90/90/100/100",
-    "type": 0,
-    "name": "Bair",
-    "ownerId": 51,
-    "id": 2876
+    "InstanceId": "5968218646965952fcb51bec",
+    "Name": "Bair",
+    "OwnerId": 51,
+    "Owner": "Sonic",
+    "HitboxActive": "13-14",
+    "FirstActionableFrame": "38",
+    "BaseDamage": "14",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": "30",
+    "AutoCancel": "1-4, 33&gt;",
+    "KnockbackGrowth": "90",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218646965952fcb51bec",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sonic",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "5-7",
-    "firstActionableFrame": "40",
-    "baseDamage": "3",
-    "angle": "100/100/118/118",
-    "baseKnockBackSetKnockback": "W: 90/90/120/120",
-    "landingLag": "21",
-    "autoCancel": "1-4, 16&gt;",
-    "knockbackGrowth": "100",
-    "type": 0,
-    "name": "Uair (Hit 1)",
-    "ownerId": 51,
-    "id": 2877
+    "InstanceId": "5968218646965952fcb51bed",
+    "Name": "Bair (Late)",
+    "OwnerId": 51,
+    "Owner": "Sonic",
+    "HitboxActive": "15-19",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "10",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "40",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "100",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218646965952fcb51bed",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sonic",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "14-15",
-    "firstActionableFrame": "-",
-    "baseDamage": "6",
-    "angle": "91",
-    "baseKnockBackSetKnockback": "66",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "82",
-    "type": 0,
-    "name": "Uair (Hit 2)",
-    "ownerId": 51,
-    "id": 2878
+    "InstanceId": "5968218646965952fcb51bee",
+    "Name": "Uair (Hit 1)",
+    "OwnerId": 51,
+    "Owner": "Sonic",
+    "HitboxActive": "5-7",
+    "FirstActionableFrame": "40",
+    "BaseDamage": "3",
+    "Angle": "100/100/118/118",
+    "BaseKnockBackSetKnockback": "W: 90/90/120/120",
+    "LandingLag": "21",
+    "AutoCancel": "1-4, 16&gt;",
+    "KnockbackGrowth": "100",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218646965952fcb51bee",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sonic",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "17-18",
-    "firstActionableFrame": "46",
-    "baseDamage": "8",
-    "angle": "70",
-    "baseKnockBackSetKnockback": "80",
-    "landingLag": "38",
-    "autoCancel": "1-3, 41&gt;",
-    "knockbackGrowth": "70",
-    "type": 0,
-    "name": "Dair (Early)",
-    "ownerId": 51,
-    "id": 2879
+    "InstanceId": "5968218646965952fcb51bef",
+    "Name": "Uair (Hit 2)",
+    "OwnerId": 51,
+    "Owner": "Sonic",
+    "HitboxActive": "14-15",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "6",
+    "Angle": "91",
+    "BaseKnockBackSetKnockback": "66",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "82",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218646965952fcb51bef",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sonic",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "19-22",
-    "firstActionableFrame": "-",
-    "baseDamage": "8",
-    "angle": "70/285",
-    "baseKnockBackSetKnockback": "80/30",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "70/90",
-    "type": 0,
-    "name": "Dair",
-    "ownerId": 51,
-    "id": 2880
+    "InstanceId": "5968218646965952fcb51bf0",
+    "Name": "Dair (Early)",
+    "OwnerId": 51,
+    "Owner": "Sonic",
+    "HitboxActive": "17-18",
+    "FirstActionableFrame": "46",
+    "BaseDamage": "8",
+    "Angle": "70",
+    "BaseKnockBackSetKnockback": "80",
+    "LandingLag": "38",
+    "AutoCancel": "1-3, 41&gt;",
+    "KnockbackGrowth": "70",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218646965952fcb51bf0",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sonic",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "23-32",
-    "firstActionableFrame": "-",
-    "baseDamage": "7",
-    "angle": "70",
-    "baseKnockBackSetKnockback": "80",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "70",
-    "type": 0,
-    "name": "Dair (Late)",
-    "ownerId": 51,
-    "id": 2881
+    "InstanceId": "5968218646965952fcb51bf1",
+    "Name": "Dair",
+    "OwnerId": 51,
+    "Owner": "Sonic",
+    "HitboxActive": "19-22",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "8",
+    "Angle": "70/285",
+    "BaseKnockBackSetKnockback": "80/30",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "70/90",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218646965952fcb51bf1",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sonic",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "22-",
-    "firstActionableFrame": "-",
-    "baseDamage": "5",
-    "angle": "55",
-    "baseKnockBackSetKnockback": "45",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "90",
-    "type": 2,
-    "name": "Homing Attack (Earliest)",
-    "ownerId": 51,
-    "id": 2882
+    "InstanceId": "5968218646965952fcb51bf2",
+    "Name": "Dair (Late)",
+    "OwnerId": 51,
+    "Owner": "Sonic",
+    "HitboxActive": "23-32",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "7",
+    "Angle": "70",
+    "BaseKnockBackSetKnockback": "80",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "70",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218646965952fcb51bf2",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sonic",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "34-",
-    "firstActionableFrame": "79",
-    "baseDamage": "12",
-    "angle": "55",
-    "baseKnockBackSetKnockback": "45",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "90",
-    "type": 2,
-    "name": "Homing Attack (No Input)",
-    "ownerId": 51,
-    "id": 2883
+    "InstanceId": "5968218646965952fcb51bf3",
+    "Name": "Homing Attack (Earliest)",
+    "OwnerId": 51,
+    "Owner": "Sonic",
+    "HitboxActive": "22-",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "5",
+    "Angle": "55",
+    "BaseKnockBackSetKnockback": "45",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "90",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218646965952fcb51bf3",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sonic",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "Duration: 235 Frames",
-    "firstActionableFrame": "-",
-    "baseDamage": "-",
-    "angle": "-",
-    "baseKnockBackSetKnockback": "-",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "-",
-    "type": 2,
-    "name": "Spring Jump (Grounded)",
-    "ownerId": 51,
-    "id": 2884
+    "InstanceId": "5968218646965952fcb51bf4",
+    "Name": "Homing Attack (No Input)",
+    "OwnerId": 51,
+    "Owner": "Sonic",
+    "HitboxActive": "34-",
+    "FirstActionableFrame": "79",
+    "BaseDamage": "12",
+    "Angle": "55",
+    "BaseKnockBackSetKnockback": "45",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "90",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218646965952fcb51bf4",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sonic",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "4- (Intangible: 5-13)",
-    "firstActionableFrame": "19",
-    "baseDamage": "4",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "90",
-    "type": 2,
-    "name": "Spring Jump (Aerial)",
-    "ownerId": 51,
-    "id": 2885
+    "InstanceId": "5968218646965952fcb51bf5",
+    "Name": "Spring Jump (Grounded)",
+    "OwnerId": 51,
+    "Owner": "Sonic",
+    "HitboxActive": "Duration: 235 Frames",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "-",
+    "Angle": "-",
+    "BaseKnockBackSetKnockback": "-",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "-",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218646965952fcb51bf5",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sonic",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "17-",
-    "firstActionableFrame": "-",
-    "baseDamage": "7",
-    "angle": "70",
-    "baseKnockBackSetKnockback": "70",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "46",
-    "type": 2,
-    "name": "Spin Dash",
-    "ownerId": 51,
-    "id": 2886
+    "InstanceId": "5968218646965952fcb51bf6",
+    "Name": "Spring Jump (Aerial)",
+    "OwnerId": 51,
+    "Owner": "Sonic",
+    "HitboxActive": "4- (Intangible: 5-13)",
+    "FirstActionableFrame": "19",
+    "BaseDamage": "4",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "90",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218646965952fcb51bf6",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sonic",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "1- (Intangible: 1-6)",
-    "firstActionableFrame": "-",
-    "baseDamage": "7",
-    "angle": "70",
-    "baseKnockBackSetKnockback": "70",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "46",
-    "type": 2,
-    "name": "Spin Dash (Release)",
-    "ownerId": 51,
-    "id": 2887
+    "InstanceId": "5968218646965952fcb51bf7",
+    "Name": "Spin Dash",
+    "OwnerId": 51,
+    "Owner": "Sonic",
+    "HitboxActive": "17-",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "7",
+    "Angle": "70",
+    "BaseKnockBackSetKnockback": "70",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "46",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218646965952fcb51bf7",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sonic",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "1- (Rehit rate: 2)",
-    "firstActionableFrame": "-",
-    "baseDamage": "-",
-    "angle": "-",
-    "baseKnockBackSetKnockback": "-",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "-",
-    "type": 2,
-    "name": "Spin Charge (Release)",
-    "ownerId": 51,
-    "id": 2888
+    "InstanceId": "5968218646965952fcb51bf8",
+    "Name": "Spin Dash (Release)",
+    "OwnerId": 51,
+    "Owner": "Sonic",
+    "HitboxActive": "1- (Intangible: 1-6)",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "7",
+    "Angle": "70",
+    "BaseKnockBackSetKnockback": "70",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "46",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218646965952fcb51bf8",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sonic",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968218646965952fcb51bf9",
+    "Name": "Spin Charge (Release)",
+    "OwnerId": 51,
+    "Owner": "Sonic",
+    "HitboxActive": "1- (Rehit rate: 2)",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "-",
+    "Angle": "-",
+    "BaseKnockBackSetKnockback": "-",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "-",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218646965952fcb51bf9",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sonic",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968218646965952fcb51bfa",
+    "Name": "Fthrow",
+    "OwnerId": 51,
+    "Owner": "Sonic",
+    "HitboxActive": null,
+    "FirstActionableFrame": null,
+    "BaseDamage": "1, 6",
+    "Angle": "70",
+    "BaseKnockBackSetKnockback": "100",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "70",
+    "MoveType": "throw",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218646965952fcb51bfa",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sonic",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968218646965952fcb51bfb",
+    "Name": "Bthrow",
+    "OwnerId": 51,
+    "Owner": "Sonic",
+    "HitboxActive": null,
+    "FirstActionableFrame": null,
+    "BaseDamage": "7",
+    "Angle": "140",
+    "BaseKnockBackSetKnockback": "70",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "79",
+    "MoveType": "throw",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218646965952fcb51bfb",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sonic",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968218646965952fcb51bfc",
+    "Name": "Uthrow",
+    "OwnerId": 51,
+    "Owner": "Sonic",
+    "HitboxActive": null,
+    "FirstActionableFrame": null,
+    "BaseDamage": "1, 6",
+    "Angle": "92",
+    "BaseKnockBackSetKnockback": "92",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "80",
+    "MoveType": "throw",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218646965952fcb51bfc",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sonic",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968218646965952fcb51bfd",
+    "Name": "Dthrow",
+    "OwnerId": 51,
+    "Owner": "Sonic",
+    "HitboxActive": null,
+    "FirstActionableFrame": null,
+    "BaseDamage": "1&#37;&#215;3, 4",
+    "Angle": "20",
+    "BaseKnockBackSetKnockback": "80",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "35",
+    "MoveType": "throw",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218646965952fcb51bfd",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sonic",
+        "Title": ""
+      }
+    ]
   }
 ]

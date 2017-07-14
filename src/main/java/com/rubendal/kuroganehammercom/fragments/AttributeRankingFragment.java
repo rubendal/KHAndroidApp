@@ -12,7 +12,6 @@ import android.widget.TableRow;
 import android.widget.TextView;
 
 import com.rubendal.kuroganehammercom.R;
-import com.rubendal.kuroganehammercom.asynctask.attribute.AttributeRankingAsyncTask;
 import com.rubendal.kuroganehammercom.classes.AttributeRank;
 import com.rubendal.kuroganehammercom.classes.AttributeRankWrapper;
 import com.rubendal.kuroganehammercom.util.params.Params;
@@ -27,8 +26,8 @@ public class AttributeRankingFragment extends KHFragment {
 
     @Override
     public void updateData() {
-        AttributeRankingAsyncTask a = new AttributeRankingAsyncTask(this, attribute.attributeList, true);
-        a.execute();
+        /*AttributeRankingAsyncTask a = new AttributeRankingAsyncTask(this, attribute.attributeList, true);
+        a.execute();*/
     }
 
     @Override

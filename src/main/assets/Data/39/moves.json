@@ -1,520 +1,1150 @@
 ﻿[
   {
-    "hitboxActive": "8-10",
-    "firstActionableFrame": "26",
-    "baseDamage": "3",
-    "angle": "80",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "60",
-    "type": 1,
-    "name": "Jab 1",
-    "ownerId": 39,
-    "id": 2153
+    "InstanceId": "5968216646965952fcb5179a",
+    "Name": "Jab 1",
+    "OwnerId": 39,
+    "Owner": "Palutena",
+    "HitboxActive": "8-10",
+    "FirstActionableFrame": "26",
+    "BaseDamage": "3",
+    "Angle": "80",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "60",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216646965952fcb5179a",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Palutena",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "0.8",
-    "angle": "60/110",
-    "baseKnockBackSetKnockback": "10",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "20",
-    "type": 1,
-    "name": "Rapid Jab",
-    "ownerId": 39,
-    "id": 2154
+    "InstanceId": "5968216646965952fcb5179b",
+    "Name": "Rapid Jab",
+    "OwnerId": 39,
+    "Owner": "Palutena",
+    "HitboxActive": "-",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "0.8",
+    "Angle": "60/110",
+    "BaseKnockBackSetKnockback": "10",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "20",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216646965952fcb5179b",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Palutena",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "3-4",
-    "firstActionableFrame": "43",
-    "baseDamage": "3.5",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "55",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "140",
-    "type": 1,
-    "name": "Rapid Jab Finisher",
-    "ownerId": 39,
-    "id": 2155
+    "InstanceId": "5968216646965952fcb5179c",
+    "Name": "Rapid Jab Finisher",
+    "OwnerId": 39,
+    "Owner": "Palutena",
+    "HitboxActive": "3-4",
+    "FirstActionableFrame": "43",
+    "BaseDamage": "3.5",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "55",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "140",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216646965952fcb5179c",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Palutena",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "6-9 (Partial Body Invincibility: 4-15)",
-    "firstActionableFrame": "52",
-    "baseDamage": "9 (+3)",
-    "angle": "70/60",
-    "baseKnockBackSetKnockback": "70",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "90",
-    "type": 1,
-    "name": "Dash Attack",
-    "ownerId": 39,
-    "id": 2156
+    "InstanceId": "5968216646965952fcb5179d",
+    "Name": "Dash Attack",
+    "OwnerId": 39,
+    "Owner": "Palutena",
+    "HitboxActive": "6-9 (Partial Body Invincibility: 4-15)",
+    "FirstActionableFrame": "52",
+    "BaseDamage": "9 (+3)",
+    "Angle": "70/60",
+    "BaseKnockBackSetKnockback": "70",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "90",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216646965952fcb5179d",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Palutena",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "10-17",
-    "firstActionableFrame": "-",
-    "baseDamage": "5",
-    "angle": "60",
-    "baseKnockBackSetKnockback": "60",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "70",
-    "type": 1,
-    "name": "Dash Attack (Late)",
-    "ownerId": 39,
-    "id": 2157
+    "InstanceId": "5968216646965952fcb5179e",
+    "Name": "Dash Attack (Late)",
+    "OwnerId": 39,
+    "Owner": "Palutena",
+    "HitboxActive": "10-17",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "5",
+    "Angle": "60",
+    "BaseKnockBackSetKnockback": "60",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "70",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216646965952fcb5179e",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Palutena",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "17-24 (Cannot Rebound)",
-    "firstActionableFrame": "68",
-    "baseDamage": "6/4 (+1)",
-    "angle": "48",
-    "baseKnockBackSetKnockback": "43",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "65",
-    "type": 1,
-    "name": "Ftilt (Hit 1)",
-    "ownerId": 39,
-    "id": 2158
+    "InstanceId": "5968216646965952fcb5179f",
+    "Name": "Ftilt (Hit 1)",
+    "OwnerId": 39,
+    "Owner": "Palutena",
+    "HitboxActive": "17-24 (Cannot Rebound)",
+    "FirstActionableFrame": "68",
+    "BaseDamage": "6/4 (+1)",
+    "Angle": "48",
+    "BaseKnockBackSetKnockback": "43",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "65",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216646965952fcb5179f",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Palutena",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "25-39 (Cannot Rebound)",
-    "firstActionableFrame": "-",
-    "baseDamage": "6/4 (+1)",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "43",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Ftilt (Hit 2)",
-    "ownerId": 39,
-    "id": 2159
+    "InstanceId": "5968216646965952fcb517a0",
+    "Name": "Ftilt (Hit 2)",
+    "OwnerId": 39,
+    "Owner": "Palutena",
+    "HitboxActive": "25-39 (Cannot Rebound)",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "6/4 (+1)",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "43",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216646965952fcb517a0",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Palutena",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "10-38 (Rehit rate: 5, Cannot Rebound)",
-    "firstActionableFrame": "68",
-    "baseDamage": "1.2 (+1)",
-    "angle": "366/190/366",
-    "baseKnockBackSetKnockback": "W: 20/30/50",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Utilt",
-    "ownerId": 39,
-    "id": 2160
+    "InstanceId": "5968216646965952fcb517a1",
+    "Name": "Utilt",
+    "OwnerId": 39,
+    "Owner": "Palutena",
+    "HitboxActive": "10-38 (Rehit rate: 5, Cannot Rebound)",
+    "FirstActionableFrame": "68",
+    "BaseDamage": "1.2 (+1)",
+    "Angle": "366/190/366",
+    "BaseKnockBackSetKnockback": "W: 20/30/50",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216646965952fcb517a1",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Palutena",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "40-41 (Cannot Rebound)",
-    "firstActionableFrame": "-",
-    "baseDamage": "2.5/1.5 (+1)",
-    "angle": "85",
-    "baseKnockBackSetKnockback": "60",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "195",
-    "type": 1,
-    "name": "Utilt (Final Hit)",
-    "ownerId": 39,
-    "id": 2161
+    "InstanceId": "5968216646965952fcb517a2",
+    "Name": "Utilt (Final Hit)",
+    "OwnerId": 39,
+    "Owner": "Palutena",
+    "HitboxActive": "40-41 (Cannot Rebound)",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "2.5/1.5 (+1)",
+    "Angle": "85",
+    "BaseKnockBackSetKnockback": "60",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "195",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216646965952fcb517a2",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Palutena",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "14-24 (Cannot Rebound)",
-    "firstActionableFrame": "40",
-    "baseDamage": "8.5/5 (+1)",
-    "angle": "361/70",
-    "baseKnockBackSetKnockback": "40/38",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Dtilt",
-    "ownerId": 39,
-    "id": 2162
+    "InstanceId": "5968216646965952fcb517a3",
+    "Name": "Dtilt",
+    "OwnerId": 39,
+    "Owner": "Palutena",
+    "HitboxActive": "14-24 (Cannot Rebound)",
+    "FirstActionableFrame": "40",
+    "BaseDamage": "8.5/5 (+1)",
+    "Angle": "361/70",
+    "BaseKnockBackSetKnockback": "40/38",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216646965952fcb517a3",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Palutena",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "18-19",
-    "firstActionableFrame": "67",
-    "baseDamage": "16/13 (+1)",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "40",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "97/96",
-    "type": 1,
-    "name": "Fsmash",
-    "ownerId": 39,
-    "id": 2163
+    "InstanceId": "5968216646965952fcb517a4",
+    "Name": "Fsmash",
+    "OwnerId": 39,
+    "Owner": "Palutena",
+    "HitboxActive": "18-19",
+    "FirstActionableFrame": "67",
+    "BaseDamage": "16/13 (+1)",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "40",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "97/96",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216646965952fcb517a4",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Palutena",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "20-25",
-    "firstActionableFrame": "-",
-    "baseDamage": "0",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "W: 40",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Fsmash (Windboxes)",
-    "ownerId": 39,
-    "id": 2164
+    "InstanceId": "5968216646965952fcb517a5",
+    "Name": "Fsmash (Windboxes)",
+    "OwnerId": 39,
+    "Owner": "Palutena",
+    "HitboxActive": "20-25",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "0",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "W: 40",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216646965952fcb517a5",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Palutena",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "26-31",
-    "firstActionableFrame": "-",
-    "baseDamage": "0",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "W: 26",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Fsmash (Windboxes, Late)",
-    "ownerId": 39,
-    "id": 2165
+    "InstanceId": "5968216646965952fcb517a6",
+    "Name": "Fsmash (Windboxes, Late)",
+    "OwnerId": 39,
+    "Owner": "Palutena",
+    "HitboxActive": "26-31",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "0",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "W: 26",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216646965952fcb517a6",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Palutena",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "18-26",
-    "firstActionableFrame": "68",
-    "baseDamage": "16/12/9",
-    "angle": "88",
-    "baseKnockBackSetKnockback": "53/55/55",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "84/85/87",
-    "type": 1,
-    "name": "Usmash",
-    "ownerId": 39,
-    "id": 2166
+    "InstanceId": "5968216646965952fcb517a7",
+    "Name": "Usmash",
+    "OwnerId": 39,
+    "Owner": "Palutena",
+    "HitboxActive": "18-26",
+    "FirstActionableFrame": "68",
+    "BaseDamage": "16/12/9",
+    "Angle": "88",
+    "BaseKnockBackSetKnockback": "53/55/55",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "84/85/87",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216646965952fcb517a7",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Palutena",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "17",
-    "firstActionableFrame": "72",
-    "baseDamage": "15",
-    "angle": "60",
-    "baseKnockBackSetKnockback": "40",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "103",
-    "type": 1,
-    "name": "Dsmash",
-    "ownerId": 39,
-    "id": 2167
+    "InstanceId": "5968216646965952fcb517a8",
+    "Name": "Dsmash",
+    "OwnerId": 39,
+    "Owner": "Palutena",
+    "HitboxActive": "17",
+    "FirstActionableFrame": "72",
+    "BaseDamage": "15",
+    "Angle": "60",
+    "BaseKnockBackSetKnockback": "40",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "103",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216646965952fcb517a8",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Palutena",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "18-19",
-    "firstActionableFrame": "-",
-    "baseDamage": "13",
-    "angle": "28",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "90",
-    "type": 1,
-    "name": "Dsmash (Late)",
-    "ownerId": 39,
-    "id": 2168
+    "InstanceId": "5968216646965952fcb517a9",
+    "Name": "Dsmash (Late)",
+    "OwnerId": 39,
+    "Owner": "Palutena",
+    "HitboxActive": "18-19",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "13",
+    "Angle": "28",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "90",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216646965952fcb517a9",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Palutena",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "20-27",
-    "firstActionableFrame": "-",
-    "baseDamage": "0",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "32",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Dsmash (Windbox)",
-    "ownerId": 39,
-    "id": 2169
+    "InstanceId": "5968216646965952fcb517aa",
+    "Name": "Dsmash (Windbox)",
+    "OwnerId": 39,
+    "Owner": "Palutena",
+    "HitboxActive": "20-27",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "0",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "32",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216646965952fcb517aa",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Palutena",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "7-8",
-    "firstActionableFrame": "32",
-    "baseDamage": "",
-    "angle": "",
-    "baseKnockBackSetKnockback": "",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "",
-    "type": 1,
-    "name": "Standing Grab",
-    "ownerId": 39,
-    "id": 2171
+    "InstanceId": "5968216646965952fcb517ab",
+    "Name": "Standing Grab",
+    "OwnerId": 39,
+    "Owner": "Palutena",
+    "HitboxActive": "7-8",
+    "FirstActionableFrame": "32",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216646965952fcb517ab",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Palutena",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "9-10",
-    "firstActionableFrame": "40",
-    "baseDamage": "",
-    "angle": "",
-    "baseKnockBackSetKnockback": "",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "",
-    "type": 1,
-    "name": "Dash Grab",
-    "ownerId": 39,
-    "id": 2172
+    "InstanceId": "5968216646965952fcb517ac",
+    "Name": "Dash Grab",
+    "OwnerId": 39,
+    "Owner": "Palutena",
+    "HitboxActive": "9-10",
+    "FirstActionableFrame": "40",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216646965952fcb517ac",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Palutena",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "10-11",
-    "firstActionableFrame": "40",
-    "baseDamage": "",
-    "angle": "",
-    "baseKnockBackSetKnockback": "",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "",
-    "type": 1,
-    "name": "Pivot Grab",
-    "ownerId": 39,
-    "id": 2173
+    "InstanceId": "5968216646965952fcb517ad",
+    "Name": "Pivot Grab",
+    "OwnerId": 39,
+    "Owner": "Palutena",
+    "HitboxActive": "10-11",
+    "FirstActionableFrame": "40",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216646965952fcb517ad",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Palutena",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "9",
-    "angle": "45",
-    "baseKnockBackSetKnockback": "90",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "30",
-    "type": 3,
-    "name": "Fthrow",
-    "ownerId": 39,
-    "id": 2175
+    "InstanceId": "5968216646965952fcb517ae",
+    "Name": "Spotdodge",
+    "OwnerId": 39,
+    "Owner": "Palutena",
+    "HitboxActive": "3-18",
+    "FirstActionableFrame": "28",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216646965952fcb517ae",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Palutena",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "10",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "65",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "70",
-    "type": 3,
-    "name": "Bthrow",
-    "ownerId": 39,
-    "id": 2176
+    "InstanceId": "5968216646965952fcb517af",
+    "Name": "Forward Roll",
+    "OwnerId": 39,
+    "Owner": "Palutena",
+    "HitboxActive": "4-17",
+    "FirstActionableFrame": "31",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216646965952fcb517af",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Palutena",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "8",
-    "angle": "92",
-    "baseKnockBackSetKnockback": "90",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "60",
-    "type": 3,
-    "name": "Uthrow",
-    "ownerId": 39,
-    "id": 2177
+    "InstanceId": "5968216646965952fcb517b0",
+    "Name": "Back Roll",
+    "OwnerId": 39,
+    "Owner": "Palutena",
+    "HitboxActive": "4-17",
+    "FirstActionableFrame": "31",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216646965952fcb517b0",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Palutena",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "5",
-    "angle": "70",
-    "baseKnockBackSetKnockback": "90",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "25",
-    "type": 3,
-    "name": "Dthrow",
-    "ownerId": 39,
-    "id": 2178
+    "InstanceId": "5968216646965952fcb517b1",
+    "Name": "Airdodge",
+    "OwnerId": 39,
+    "Owner": "Palutena",
+    "HitboxActive": "3-29",
+    "FirstActionableFrame": "34",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216646965952fcb517b1",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Palutena",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "5-27 (Rehit rate: 5)",
-    "firstActionableFrame": "52",
-    "baseDamage": "1.7 (+1)",
-    "angle": "366/366/100/100",
-    "baseKnockBackSetKnockback": "W: 20",
-    "landingLag": "20",
-    "autoCancel": "1-3, 40&gt;",
-    "knockbackGrowth": "100",
-    "type": 0,
-    "name": "Nair",
-    "ownerId": 39,
-    "id": 2184
+    "InstanceId": "5968216646965952fcb517b2",
+    "Name": "Nair",
+    "OwnerId": 39,
+    "Owner": "Palutena",
+    "HitboxActive": "5-27 (Rehit rate: 5)",
+    "FirstActionableFrame": "52",
+    "BaseDamage": "1.7 (+1)",
+    "Angle": "366/366/100/100",
+    "BaseKnockBackSetKnockback": "W: 20",
+    "LandingLag": "20",
+    "AutoCancel": "1-3, 40&gt;",
+    "KnockbackGrowth": "100",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216646965952fcb517b2",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Palutena",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "31-32",
-    "firstActionableFrame": "-",
-    "baseDamage": "5 (+3)",
-    "angle": "55",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "180",
-    "type": 0,
-    "name": "Nair (Final Hit)",
-    "ownerId": 39,
-    "id": 2185
+    "InstanceId": "5968216646965952fcb517b3",
+    "Name": "Nair (Final Hit)",
+    "OwnerId": 39,
+    "Owner": "Palutena",
+    "HitboxActive": "31-32",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "5 (+3)",
+    "Angle": "55",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "180",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216646965952fcb517b3",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Palutena",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "9-11",
-    "firstActionableFrame": "45",
-    "baseDamage": "9 (+3)",
-    "angle": "45",
-    "baseKnockBackSetKnockback": "31",
-    "landingLag": "12",
-    "autoCancel": "1-3, 24&gt;",
-    "knockbackGrowth": "92",
-    "type": 0,
-    "name": "Fair",
-    "ownerId": 39,
-    "id": 2186
+    "InstanceId": "5968216646965952fcb517b4",
+    "Name": "Fair",
+    "OwnerId": 39,
+    "Owner": "Palutena",
+    "HitboxActive": "9-11",
+    "FirstActionableFrame": "45",
+    "BaseDamage": "9 (+3)",
+    "Angle": "45",
+    "BaseKnockBackSetKnockback": "31",
+    "LandingLag": "12",
+    "AutoCancel": "1-3, 24&gt;",
+    "KnockbackGrowth": "92",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216646965952fcb517b4",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Palutena",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "8-10 (Partial Body Invincibility: 3-10)",
-    "firstActionableFrame": "50",
-    "baseDamage": "12/9 (+3)",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "16",
-    "autoCancel": "1-2, 35&gt;",
-    "knockbackGrowth": "92",
-    "type": 0,
-    "name": "Bair",
-    "ownerId": 39,
-    "id": 2187
+    "InstanceId": "5968216646965952fcb517b5",
+    "Name": "Bair",
+    "OwnerId": 39,
+    "Owner": "Palutena",
+    "HitboxActive": "8-10 (Partial Body Invincibility: 3-10)",
+    "FirstActionableFrame": "50",
+    "BaseDamage": "12/9 (+3)",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": "16",
+    "AutoCancel": "1-2, 35&gt;",
+    "KnockbackGrowth": "92",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216646965952fcb517b5",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Palutena",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "8-23 (Rehit rate: 5)",
-    "firstActionableFrame": "52",
-    "baseDamage": "1",
-    "angle": "105/366/366/366",
-    "baseKnockBackSetKnockback": "40/20/20/20",
-    "landingLag": "24",
-    "autoCancel": "1-2, 64&gt;",
-    "knockbackGrowth": "100",
-    "type": 0,
-    "name": "Uair",
-    "ownerId": 39,
-    "id": 2188
+    "InstanceId": "5968216646965952fcb517b6",
+    "Name": "Uair",
+    "OwnerId": 39,
+    "Owner": "Palutena",
+    "HitboxActive": "8-23 (Rehit rate: 5)",
+    "FirstActionableFrame": "52",
+    "BaseDamage": "1",
+    "Angle": "105/366/366/366",
+    "BaseKnockBackSetKnockback": "40/20/20/20",
+    "LandingLag": "24",
+    "AutoCancel": "1-2, 64&gt;",
+    "KnockbackGrowth": "100",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216646965952fcb517b6",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Palutena",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "25-26",
-    "firstActionableFrame": "-",
-    "baseDamage": "5",
-    "angle": "88/65/65",
-    "baseKnockBackSetKnockback": "50",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "152",
-    "type": 0,
-    "name": "Uair (Final Hit)",
-    "ownerId": 39,
-    "id": 2189
+    "InstanceId": "5968216646965952fcb517b7",
+    "Name": "Uair (Final Hit)",
+    "OwnerId": 39,
+    "Owner": "Palutena",
+    "HitboxActive": "25-26",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "5",
+    "Angle": "88/65/65",
+    "BaseKnockBackSetKnockback": "50",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "152",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216646965952fcb517b7",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Palutena",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "10",
-    "firstActionableFrame": "59",
-    "baseDamage": "9",
-    "angle": "270/55",
-    "baseKnockBackSetKnockback": "20/30",
-    "landingLag": "18",
-    "autoCancel": "1-2, 48&gt;",
-    "knockbackGrowth": "100",
-    "type": 0,
-    "name": "Dair",
-    "ownerId": 39,
-    "id": 2190
+    "InstanceId": "5968216646965952fcb517b8",
+    "Name": "Dair",
+    "OwnerId": 39,
+    "Owner": "Palutena",
+    "HitboxActive": "10",
+    "FirstActionableFrame": "59",
+    "BaseDamage": "9",
+    "Angle": "270/55",
+    "BaseKnockBackSetKnockback": "20/30",
+    "LandingLag": "18",
+    "AutoCancel": "1-2, 48&gt;",
+    "KnockbackGrowth": "100",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216646965952fcb517b8",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Palutena",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "8",
-    "firstActionableFrame": "68",
-    "baseDamage": "-",
-    "angle": "-",
-    "baseKnockBackSetKnockback": "-",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "-",
-    "type": 2,
-    "name": "Autoreticle (Target)",
-    "ownerId": 39,
-    "id": 2191
+    "InstanceId": "5968216646965952fcb517b9",
+    "Name": "Autoreticle (Target)",
+    "OwnerId": 39,
+    "Owner": "Palutena",
+    "HitboxActive": "8",
+    "FirstActionableFrame": "68",
+    "BaseDamage": "-",
+    "Angle": "-",
+    "BaseKnockBackSetKnockback": "-",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "-",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216646965952fcb517b9",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Palutena",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "29-, 35-, 41-",
-    "firstActionableFrame": "-",
-    "baseDamage": "2.9",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "20",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "42",
-    "type": 2,
-    "name": "Autoreticle (Projectiles)",
-    "ownerId": 39,
-    "id": 2192
+    "InstanceId": "5968216646965952fcb517ba",
+    "Name": "Autoreticle (Projectiles)",
+    "OwnerId": 39,
+    "Owner": "Palutena",
+    "HitboxActive": "29-, 35-, 41-",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "2.9",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "20",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "42",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216646965952fcb517ba",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Palutena",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "8 (Unblockable), Reflects: 9-66 (1.17&#215;, 50% Break Threshold)",
-    "firstActionableFrame": "56",
-    "baseDamage": "5",
-    "angle": "25",
-    "baseKnockBackSetKnockback": "10",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "70",
-    "type": 2,
-    "name": "Reflect Barrier",
-    "ownerId": 39,
-    "id": 2193
+    "InstanceId": "5968216646965952fcb517bb",
+    "Name": "Reflect Barrier",
+    "OwnerId": 39,
+    "Owner": "Palutena",
+    "HitboxActive": "8 (Unblockable), Reflects: 9-66 (1.17&#215;, 50% Break Threshold)",
+    "FirstActionableFrame": "56",
+    "BaseDamage": "5",
+    "Angle": "25",
+    "BaseKnockBackSetKnockback": "10",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "70",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216646965952fcb517bb",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Palutena",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "Invisible: 16-31",
-    "firstActionableFrame": "67",
-    "baseDamage": "-",
-    "angle": "-",
-    "baseKnockBackSetKnockback": "-",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "-",
-    "type": 2,
-    "name": "Warp",
-    "ownerId": 39,
-    "id": 2194
+    "InstanceId": "5968216646965952fcb517bc",
+    "Name": "Warp",
+    "OwnerId": 39,
+    "Owner": "Palutena",
+    "HitboxActive": "Invisible: 16-31",
+    "FirstActionableFrame": "67",
+    "BaseDamage": "-",
+    "Angle": "-",
+    "BaseKnockBackSetKnockback": "-",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "-",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216646965952fcb517bc",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Palutena",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "Counters: 10-31 (Invincible: 10-16)",
-    "firstActionableFrame": "75",
-    "baseDamage": "-",
-    "angle": "-",
-    "baseKnockBackSetKnockback": "-",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "-",
-    "type": 2,
-    "name": "Counter",
-    "ownerId": 39,
-    "id": 2195
+    "InstanceId": "5968216646965952fcb517bd",
+    "Name": "Counter",
+    "OwnerId": 39,
+    "Owner": "Palutena",
+    "HitboxActive": "Counters: 10-31 (Invincible: 10-16)",
+    "FirstActionableFrame": "75",
+    "BaseDamage": "-",
+    "Angle": "-",
+    "BaseKnockBackSetKnockback": "-",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "-",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216646965952fcb517bd",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Palutena",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "4-6 (Invincible: 1-5)",
-    "firstActionableFrame": "56",
-    "baseDamage": "10 (1.3&#215;)",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "40/20",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "75/65",
-    "type": 2,
-    "name": "Counter (Attack)",
-    "ownerId": 39,
-    "id": 2196
+    "InstanceId": "5968216646965952fcb517be",
+    "Name": "Counter (Attack)",
+    "OwnerId": 39,
+    "Owner": "Palutena",
+    "HitboxActive": "4-6 (Invincible: 1-5)",
+    "FirstActionableFrame": "56",
+    "BaseDamage": "10 (1.3&#215;)",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "40/20",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "75/65",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216646965952fcb517be",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Palutena",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968216646965952fcb517bf",
+    "Name": "Fthrow",
+    "OwnerId": 39,
+    "Owner": "Palutena",
+    "HitboxActive": null,
+    "FirstActionableFrame": null,
+    "BaseDamage": "9",
+    "Angle": "45",
+    "BaseKnockBackSetKnockback": "90",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "30",
+    "MoveType": "throw",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216646965952fcb517bf",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Palutena",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968216646965952fcb517c0",
+    "Name": "Bthrow",
+    "OwnerId": 39,
+    "Owner": "Palutena",
+    "HitboxActive": null,
+    "FirstActionableFrame": null,
+    "BaseDamage": "10",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "65",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "70",
+    "MoveType": "throw",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216646965952fcb517c0",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Palutena",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968216646965952fcb517c1",
+    "Name": "Uthrow",
+    "OwnerId": 39,
+    "Owner": "Palutena",
+    "HitboxActive": null,
+    "FirstActionableFrame": null,
+    "BaseDamage": "8",
+    "Angle": "92",
+    "BaseKnockBackSetKnockback": "90",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "60",
+    "MoveType": "throw",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216646965952fcb517c1",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Palutena",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968216646965952fcb517c2",
+    "Name": "Dthrow",
+    "OwnerId": 39,
+    "Owner": "Palutena",
+    "HitboxActive": null,
+    "FirstActionableFrame": null,
+    "BaseDamage": "5",
+    "Angle": "70",
+    "BaseKnockBackSetKnockback": "90",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "25",
+    "MoveType": "throw",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216646965952fcb517c2",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Palutena",
+        "Title": ""
+      }
+    ]
   }
 ]

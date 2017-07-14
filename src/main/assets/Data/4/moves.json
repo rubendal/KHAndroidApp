@@ -1,744 +1,1598 @@
 ﻿[
   {
-    "hitboxActive": "3-5",
-    "firstActionableFrame": "18",
-    "baseDamage": "2",
-    "angle": "80",
-    "baseKnockBackSetKnockback": "W: 20",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Jab 1",
-    "ownerId": 4,
-    "id": 186
+    "InstanceId": "5968210346965952fcb50bfc",
+    "Name": "Jab 1",
+    "OwnerId": 4,
+    "Owner": "CaptainFalcon",
+    "HitboxActive": "3-5",
+    "FirstActionableFrame": "18",
+    "BaseDamage": "2",
+    "Angle": "80",
+    "BaseKnockBackSetKnockback": "W: 20",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210346965952fcb50bfc",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/CaptainFalcon",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "5-7",
-    "firstActionableFrame": "19",
-    "baseDamage": "2",
-    "angle": "80",
-    "baseKnockBackSetKnockback": "W: 20",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Jab 2",
-    "ownerId": 4,
-    "id": 187
+    "InstanceId": "5968210346965952fcb50bfd",
+    "Name": "Jab 2",
+    "OwnerId": 4,
+    "Owner": "CaptainFalcon",
+    "HitboxActive": "5-7",
+    "FirstActionableFrame": "19",
+    "BaseDamage": "2",
+    "Angle": "80",
+    "BaseKnockBackSetKnockback": "W: 20",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210346965952fcb50bfd",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/CaptainFalcon",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "6-8",
-    "firstActionableFrame": "33",
-    "baseDamage": "5",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "70",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Jab 3",
-    "ownerId": 4,
-    "id": 188
+    "InstanceId": "5968210346965952fcb50bfe",
+    "Name": "Jab 3",
+    "OwnerId": 4,
+    "Owner": "CaptainFalcon",
+    "HitboxActive": "6-8",
+    "FirstActionableFrame": "33",
+    "BaseDamage": "5",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "70",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210346965952fcb50bfe",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/CaptainFalcon",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "1",
-    "angle": "85/75/90",
-    "baseKnockBackSetKnockback": "15/15/8",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "50/50/30",
-    "type": 1,
-    "name": "Rapid Jab",
-    "ownerId": 4,
-    "id": 189
+    "InstanceId": "5968210346965952fcb50bff",
+    "Name": "Rapid Jab",
+    "OwnerId": 4,
+    "Owner": "CaptainFalcon",
+    "HitboxActive": "-",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "1",
+    "Angle": "85/75/90",
+    "BaseKnockBackSetKnockback": "15/15/8",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "50/50/30",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210346965952fcb50bff",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/CaptainFalcon",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "6-7",
-    "firstActionableFrame": "40",
-    "baseDamage": "2",
-    "angle": "45",
-    "baseKnockBackSetKnockback": "110",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "70",
-    "type": 1,
-    "name": "Rapid Jab Finisher",
-    "ownerId": 4,
-    "id": 190
+    "InstanceId": "5968210346965952fcb50c00",
+    "Name": "Rapid Jab Finisher",
+    "OwnerId": 4,
+    "Owner": "CaptainFalcon",
+    "HitboxActive": "6-7",
+    "FirstActionableFrame": "40",
+    "BaseDamage": "2",
+    "Angle": "45",
+    "BaseKnockBackSetKnockback": "110",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "70",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210346965952fcb50c00",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/CaptainFalcon",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "7-9",
-    "firstActionableFrame": "38",
-    "baseDamage": "10 (+1)",
-    "angle": "65",
-    "baseKnockBackSetKnockback": "90",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "50",
-    "type": 1,
-    "name": "Dash Attack",
-    "ownerId": 4,
-    "id": 191
+    "InstanceId": "5968210346965952fcb50c01",
+    "Name": "Dash Attack",
+    "OwnerId": 4,
+    "Owner": "CaptainFalcon",
+    "HitboxActive": "7-9",
+    "FirstActionableFrame": "38",
+    "BaseDamage": "10 (+1)",
+    "Angle": "65",
+    "BaseKnockBackSetKnockback": "90",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "50",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210346965952fcb50c01",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/CaptainFalcon",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "10-16",
-    "firstActionableFrame": "-",
-    "baseDamage": "6 (+1)",
-    "angle": "65",
-    "baseKnockBackSetKnockback": "90",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "50",
-    "type": 1,
-    "name": "Dash Attack (Late)",
-    "ownerId": 4,
-    "id": 192
+    "InstanceId": "5968210346965952fcb50c02",
+    "Name": "Dash Attack (Late)",
+    "OwnerId": 4,
+    "Owner": "CaptainFalcon",
+    "HitboxActive": "10-16",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "6 (+1)",
+    "Angle": "65",
+    "BaseKnockBackSetKnockback": "90",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "50",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210346965952fcb50c02",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/CaptainFalcon",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "9-11",
-    "firstActionableFrame": "32",
-    "baseDamage": "10/9/9",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "10",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Ftilt (Angled Up)",
-    "ownerId": 4,
-    "id": 193
+    "InstanceId": "5968210346965952fcb50c03",
+    "Name": "Ftilt (Angled Up)",
+    "OwnerId": 4,
+    "Owner": "CaptainFalcon",
+    "HitboxActive": "9-11",
+    "FirstActionableFrame": "32",
+    "BaseDamage": "10/9/9",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "10",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210346965952fcb50c03",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/CaptainFalcon",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "9-11",
-    "firstActionableFrame": "-",
-    "baseDamage": "9/9/8",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "10",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Ftilt",
-    "ownerId": 4,
-    "id": 194
+    "InstanceId": "5968210346965952fcb50c04",
+    "Name": "Ftilt",
+    "OwnerId": 4,
+    "Owner": "CaptainFalcon",
+    "HitboxActive": "9-11",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "9/9/8",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "10",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210346965952fcb50c04",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/CaptainFalcon",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "9-11",
-    "firstActionableFrame": "-",
-    "baseDamage": "10/9/9",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "10",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Ftilt (Angled Down)",
-    "ownerId": 4,
-    "id": 195
+    "InstanceId": "5968210346965952fcb50c05",
+    "Name": "Ftilt (Angled Down)",
+    "OwnerId": 4,
+    "Owner": "CaptainFalcon",
+    "HitboxActive": "9-11",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "10/9/9",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "10",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210346965952fcb50c05",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/CaptainFalcon",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "17-20",
-    "firstActionableFrame": "40",
-    "baseDamage": "11",
-    "angle": "60/275/60/60",
-    "baseKnockBackSetKnockback": "35/22/35/35",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Utilt",
-    "ownerId": 4,
-    "id": 196
+    "InstanceId": "5968210346965952fcb50c06",
+    "Name": "Utilt",
+    "OwnerId": 4,
+    "Owner": "CaptainFalcon",
+    "HitboxActive": "17-20",
+    "FirstActionableFrame": "40",
+    "BaseDamage": "11",
+    "Angle": "60/275/60/60",
+    "BaseKnockBackSetKnockback": "35/22/35/35",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210346965952fcb50c06",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/CaptainFalcon",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "11-12",
-    "firstActionableFrame": "35",
-    "baseDamage": "10",
-    "angle": "25",
-    "baseKnockBackSetKnockback": "38",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "80",
-    "type": 1,
-    "name": "Dtilt",
-    "ownerId": 4,
-    "id": 197
+    "InstanceId": "5968210346965952fcb50c07",
+    "Name": "Dtilt",
+    "OwnerId": 4,
+    "Owner": "CaptainFalcon",
+    "HitboxActive": "11-12",
+    "FirstActionableFrame": "35",
+    "BaseDamage": "10",
+    "Angle": "25",
+    "BaseKnockBackSetKnockback": "38",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "80",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210346965952fcb50c07",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/CaptainFalcon",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "19-22",
-    "firstActionableFrame": "60",
-    "baseDamage": "20",
-    "angle": "45",
-    "baseKnockBackSetKnockback": "24",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "95",
-    "type": 1,
-    "name": "Fsmash (Angled Up)",
-    "ownerId": 4,
-    "id": 198
+    "InstanceId": "5968210346965952fcb50c08",
+    "Name": "Fsmash (Angled Up)",
+    "OwnerId": 4,
+    "Owner": "CaptainFalcon",
+    "HitboxActive": "19-22",
+    "FirstActionableFrame": "60",
+    "BaseDamage": "20",
+    "Angle": "45",
+    "BaseKnockBackSetKnockback": "24",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "95",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210346965952fcb50c08",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/CaptainFalcon",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "19-22",
-    "firstActionableFrame": "-",
-    "baseDamage": "19",
-    "angle": "43",
-    "baseKnockBackSetKnockback": "24",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "95",
-    "type": 1,
-    "name": "Fsmash",
-    "ownerId": 4,
-    "id": 199
+    "InstanceId": "5968210346965952fcb50c09",
+    "Name": "Fsmash",
+    "OwnerId": 4,
+    "Owner": "CaptainFalcon",
+    "HitboxActive": "19-22",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "19",
+    "Angle": "43",
+    "BaseKnockBackSetKnockback": "24",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "95",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210346965952fcb50c09",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/CaptainFalcon",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "19-22",
-    "firstActionableFrame": "-",
-    "baseDamage": "20",
-    "angle": "38",
-    "baseKnockBackSetKnockback": "24",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "83",
-    "type": 1,
-    "name": "Fsmash (Angled Down)",
-    "ownerId": 4,
-    "id": 200
+    "InstanceId": "5968210346965952fcb50c0a",
+    "Name": "Fsmash (Angled Down)",
+    "OwnerId": 4,
+    "Owner": "CaptainFalcon",
+    "HitboxActive": "19-22",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "20",
+    "Angle": "38",
+    "BaseKnockBackSetKnockback": "24",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "83",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210346965952fcb50c0a",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/CaptainFalcon",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "22",
-    "firstActionableFrame": "52",
-    "baseDamage": "6/6/11/11",
-    "angle": "95/110/80/90",
-    "baseKnockBackSetKnockback": "W: 120/140/20/20 B: 0/0/30/30",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "90",
-    "type": 1,
-    "name": "Usmash (Hit 1)",
-    "ownerId": 4,
-    "id": 201
+    "InstanceId": "5968210346965952fcb50c0b",
+    "Name": "Usmash (Hit 1)",
+    "OwnerId": 4,
+    "Owner": "CaptainFalcon",
+    "HitboxActive": "22",
+    "FirstActionableFrame": "52",
+    "BaseDamage": "6/6/11/11",
+    "Angle": "95/110/80/90",
+    "BaseKnockBackSetKnockback": "W: 120/140/20/20 B: 0/0/30/30",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "90",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210346965952fcb50c0b",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/CaptainFalcon",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "28",
-    "firstActionableFrame": "-",
-    "baseDamage": "13/13/12",
-    "angle": "83/85/70",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "104/106/112",
-    "type": 1,
-    "name": "Usmash (Hit 2)",
-    "ownerId": 4,
-    "id": 202
+    "InstanceId": "5968210346965952fcb50c0c",
+    "Name": "Usmash (Hit 2)",
+    "OwnerId": 4,
+    "Owner": "CaptainFalcon",
+    "HitboxActive": "28",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "13/13/12",
+    "Angle": "83/85/70",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "104/106/112",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210346965952fcb50c0c",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/CaptainFalcon",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "19-20",
-    "firstActionableFrame": "49",
-    "baseDamage": "14",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "90",
-    "type": 1,
-    "name": "Dsmash (Hit 1)",
-    "ownerId": 4,
-    "id": 203
+    "InstanceId": "5968210346965952fcb50c0d",
+    "Name": "Dsmash (Hit 1)",
+    "OwnerId": 4,
+    "Owner": "CaptainFalcon",
+    "HitboxActive": "19-20",
+    "FirstActionableFrame": "49",
+    "BaseDamage": "14",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "90",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210346965952fcb50c0d",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/CaptainFalcon",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "29-30",
-    "firstActionableFrame": "-",
-    "baseDamage": "18",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "20",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "90",
-    "type": 1,
-    "name": "Dsmash (Hit 2)",
-    "ownerId": 4,
-    "id": 204
+    "InstanceId": "5968210346965952fcb50c0e",
+    "Name": "Dsmash (Hit 2)",
+    "OwnerId": 4,
+    "Owner": "CaptainFalcon",
+    "HitboxActive": "29-30",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "18",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "20",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "90",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210346965952fcb50c0e",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/CaptainFalcon",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "7-8",
-    "firstActionableFrame": "31",
-    "baseDamage": "",
-    "angle": "",
-    "baseKnockBackSetKnockback": "",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "",
-    "type": 1,
-    "name": "Standing Grab",
-    "ownerId": 4,
-    "id": 206
+    "InstanceId": "5968210346965952fcb50c0f",
+    "Name": "Standing Grab",
+    "OwnerId": 4,
+    "Owner": "CaptainFalcon",
+    "HitboxActive": "7-8",
+    "FirstActionableFrame": "31",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210346965952fcb50c0f",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/CaptainFalcon",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "9-10",
-    "firstActionableFrame": "38",
-    "baseDamage": "",
-    "angle": "",
-    "baseKnockBackSetKnockback": "",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "",
-    "type": 1,
-    "name": "Dash Grab",
-    "ownerId": 4,
-    "id": 207
+    "InstanceId": "5968210346965952fcb50c10",
+    "Name": "Dash Grab",
+    "OwnerId": 4,
+    "Owner": "CaptainFalcon",
+    "HitboxActive": "9-10",
+    "FirstActionableFrame": "38",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210346965952fcb50c10",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/CaptainFalcon",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "12-13",
-    "firstActionableFrame": "37",
-    "baseDamage": "",
-    "angle": "",
-    "baseKnockBackSetKnockback": "",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "",
-    "type": 1,
-    "name": "Pivot Grab",
-    "ownerId": 4,
-    "id": 208
+    "InstanceId": "5968210346965952fcb50c11",
+    "Name": "Pivot Grab",
+    "OwnerId": 4,
+    "Owner": "CaptainFalcon",
+    "HitboxActive": "12-13",
+    "FirstActionableFrame": "37",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210346965952fcb50c11",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/CaptainFalcon",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "5, 4",
-    "angle": "45",
-    "baseKnockBackSetKnockback": "55",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "120",
-    "type": 3,
-    "name": "Fthrow",
-    "ownerId": 4,
-    "id": 210
+    "InstanceId": "5968210346965952fcb50c12",
+    "Name": "Spotdodge",
+    "OwnerId": 4,
+    "Owner": "CaptainFalcon",
+    "HitboxActive": "3-18",
+    "FirstActionableFrame": "28",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210346965952fcb50c12",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/CaptainFalcon",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "5, 4",
-    "angle": "135",
-    "baseKnockBackSetKnockback": "60",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "130",
-    "type": 3,
-    "name": "Bthrow",
-    "ownerId": 4,
-    "id": 211
+    "InstanceId": "5968210346965952fcb50c13",
+    "Name": "Forward Roll",
+    "OwnerId": 4,
+    "Owner": "CaptainFalcon",
+    "HitboxActive": "4-15",
+    "FirstActionableFrame": "28",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210346965952fcb50c13",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/CaptainFalcon",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "4, 3",
-    "angle": "85",
-    "baseKnockBackSetKnockback": "80",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "110",
-    "type": 3,
-    "name": "Uthrow",
-    "ownerId": 4,
-    "id": 212
+    "InstanceId": "5968210346965952fcb50c14",
+    "Name": "Back Roll",
+    "OwnerId": 4,
+    "Owner": "CaptainFalcon",
+    "HitboxActive": "4-15",
+    "FirstActionableFrame": "28",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210346965952fcb50c14",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/CaptainFalcon",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "6",
-    "angle": "65",
-    "baseKnockBackSetKnockback": "80",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "45",
-    "type": 3,
-    "name": "Dthrow",
-    "ownerId": 4,
-    "id": 213
+    "InstanceId": "5968210346965952fcb50c15",
+    "Name": "Airdodge",
+    "OwnerId": 4,
+    "Owner": "CaptainFalcon",
+    "HitboxActive": "3-28",
+    "FirstActionableFrame": "34",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210346965952fcb50c15",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/CaptainFalcon",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "7-8",
-    "firstActionableFrame": "45",
-    "baseDamage": "4",
-    "angle": "86/78/74",
-    "baseKnockBackSetKnockback": "W: 55",
-    "landingLag": "12",
-    "autoCancel": "1-3, 32&gt;",
-    "knockbackGrowth": "100",
-    "type": 0,
-    "name": "Nair (Hit 1)",
-    "ownerId": 4,
-    "id": 219
+    "InstanceId": "5968210346965952fcb50c16",
+    "Name": "Nair (Hit 1)",
+    "OwnerId": 4,
+    "Owner": "CaptainFalcon",
+    "HitboxActive": "7-8",
+    "FirstActionableFrame": "45",
+    "BaseDamage": "4",
+    "Angle": "86/78/74",
+    "BaseKnockBackSetKnockback": "W: 55",
+    "LandingLag": "12",
+    "AutoCancel": "1-3, 32&gt;",
+    "KnockbackGrowth": "100",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210346965952fcb50c16",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/CaptainFalcon",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "20-21",
-    "firstActionableFrame": "-",
-    "baseDamage": "6",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "45",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "130",
-    "type": 0,
-    "name": "Nair (Hit 2)",
-    "ownerId": 4,
-    "id": 220
+    "InstanceId": "5968210346965952fcb50c17",
+    "Name": "Nair (Hit 2)",
+    "OwnerId": 4,
+    "Owner": "CaptainFalcon",
+    "HitboxActive": "20-21",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "6",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "45",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "130",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210346965952fcb50c17",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/CaptainFalcon",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "14",
-    "firstActionableFrame": "46",
-    "baseDamage": "19/6",
-    "angle": "32/361",
-    "baseKnockBackSetKnockback": "30/35",
-    "landingLag": "30",
-    "autoCancel": "1-4, 42&gt;",
-    "knockbackGrowth": "93/80",
-    "type": 0,
-    "name": "Fair",
-    "ownerId": 4,
-    "id": 221
+    "InstanceId": "5968210346965952fcb50c18",
+    "Name": "Fair",
+    "OwnerId": 4,
+    "Owner": "CaptainFalcon",
+    "HitboxActive": "14",
+    "FirstActionableFrame": "46",
+    "BaseDamage": "19/6",
+    "Angle": "32/361",
+    "BaseKnockBackSetKnockback": "30/35",
+    "LandingLag": "30",
+    "AutoCancel": "1-4, 42&gt;",
+    "KnockbackGrowth": "93/80",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210346965952fcb50c18",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/CaptainFalcon",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "15-30",
-    "firstActionableFrame": "-",
-    "baseDamage": "3",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "35",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "80",
-    "type": 0,
-    "name": "Fair (Late)",
-    "ownerId": 4,
-    "id": 222
+    "InstanceId": "5968210346965952fcb50c19",
+    "Name": "Fair (Late)",
+    "OwnerId": 4,
+    "Owner": "CaptainFalcon",
+    "HitboxActive": "15-30",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "3",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "35",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "80",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210346965952fcb50c19",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/CaptainFalcon",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "10-11",
-    "firstActionableFrame": "36",
-    "baseDamage": "13",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "25",
-    "landingLag": "12",
-    "autoCancel": "1-4, 19&gt;",
-    "knockbackGrowth": "100",
-    "type": 0,
-    "name": "Bair",
-    "ownerId": 4,
-    "id": 223
+    "InstanceId": "5968210346965952fcb50c1a",
+    "Name": "Bair",
+    "OwnerId": 4,
+    "Owner": "CaptainFalcon",
+    "HitboxActive": "10-11",
+    "FirstActionableFrame": "36",
+    "BaseDamage": "13",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "25",
+    "LandingLag": "12",
+    "AutoCancel": "1-4, 19&gt;",
+    "KnockbackGrowth": "100",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210346965952fcb50c1a",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/CaptainFalcon",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "12-15",
-    "firstActionableFrame": "-",
-    "baseDamage": "8",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "25",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "100",
-    "type": 0,
-    "name": "Bair (Late)",
-    "ownerId": 4,
-    "id": 224
+    "InstanceId": "5968210346965952fcb50c1b",
+    "Name": "Bair (Late)",
+    "OwnerId": 4,
+    "Owner": "CaptainFalcon",
+    "HitboxActive": "12-15",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "8",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "25",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "100",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210346965952fcb50c1b",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/CaptainFalcon",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "6-10",
-    "firstActionableFrame": "34",
-    "baseDamage": "11/10",
-    "angle": "70",
-    "baseKnockBackSetKnockback": "10",
-    "landingLag": "9",
-    "autoCancel": "24&gt;",
-    "knockbackGrowth": "100",
-    "type": 0,
-    "name": "Uair",
-    "ownerId": 4,
-    "id": 225
+    "InstanceId": "5968210346965952fcb50c1c",
+    "Name": "Uair",
+    "OwnerId": 4,
+    "Owner": "CaptainFalcon",
+    "HitboxActive": "6-10",
+    "FirstActionableFrame": "34",
+    "BaseDamage": "11/10",
+    "Angle": "70",
+    "BaseKnockBackSetKnockback": "10",
+    "LandingLag": "9",
+    "AutoCancel": "24&gt;",
+    "KnockbackGrowth": "100",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210346965952fcb50c1c",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/CaptainFalcon",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "11-12",
-    "firstActionableFrame": "-",
-    "baseDamage": "10/9",
-    "angle": "30",
-    "baseKnockBackSetKnockback": "8",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "80",
-    "type": 0,
-    "name": "Uair (Late)",
-    "ownerId": 4,
-    "id": 226
+    "InstanceId": "5968210346965952fcb50c1d",
+    "Name": "Uair (Late)",
+    "OwnerId": 4,
+    "Owner": "CaptainFalcon",
+    "HitboxActive": "11-12",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "10/9",
+    "Angle": "30",
+    "BaseKnockBackSetKnockback": "8",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "80",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210346965952fcb50c1d",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/CaptainFalcon",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "16-18",
-    "firstActionableFrame": "45",
-    "baseDamage": "14",
-    "angle": "270/361",
-    "baseKnockBackSetKnockback": "10/40",
-    "landingLag": "21",
-    "autoCancel": "1-3, 39&gt;",
-    "knockbackGrowth": "100",
-    "type": 0,
-    "name": "Dair",
-    "ownerId": 4,
-    "id": 227
+    "InstanceId": "5968210346965952fcb50c1e",
+    "Name": "Dair",
+    "OwnerId": 4,
+    "Owner": "CaptainFalcon",
+    "HitboxActive": "16-18",
+    "FirstActionableFrame": "45",
+    "BaseDamage": "14",
+    "Angle": "270/361",
+    "BaseKnockBackSetKnockback": "10/40",
+    "LandingLag": "21",
+    "AutoCancel": "1-3, 39&gt;",
+    "KnockbackGrowth": "100",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210346965952fcb50c1e",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/CaptainFalcon",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "53-57",
-    "firstActionableFrame": "110",
-    "baseDamage": "25",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "0",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "90",
-    "type": 2,
-    "name": "Falcon Punch",
-    "ownerId": 4,
-    "id": 228
+    "InstanceId": "5968210346965952fcb50c1f",
+    "Name": "Falcon Punch",
+    "OwnerId": 4,
+    "Owner": "CaptainFalcon",
+    "HitboxActive": "53-57",
+    "FirstActionableFrame": "110",
+    "BaseDamage": "25",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "0",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "90",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210346965952fcb50c1f",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/CaptainFalcon",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "53-57",
-    "firstActionableFrame": "-",
-    "baseDamage": "22",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "0",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "90",
-    "type": 2,
-    "name": "Falcon Punch (Aerial)",
-    "ownerId": 4,
-    "id": 229
+    "InstanceId": "5968210346965952fcb50c20",
+    "Name": "Falcon Punch (Aerial)",
+    "OwnerId": 4,
+    "Owner": "CaptainFalcon",
+    "HitboxActive": "53-57",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "22",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "0",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "90",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210346965952fcb50c20",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/CaptainFalcon",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "61-65",
-    "firstActionableFrame": "118",
-    "baseDamage": "28",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "0",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "90",
-    "type": 2,
-    "name": "Falcon Punch (B-Reversed)",
-    "ownerId": 4,
-    "id": 230
+    "InstanceId": "5968210346965952fcb50c21",
+    "Name": "Falcon Punch (B-Reversed)",
+    "OwnerId": 4,
+    "Owner": "CaptainFalcon",
+    "HitboxActive": "61-65",
+    "FirstActionableFrame": "118",
+    "BaseDamage": "28",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "0",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "90",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210346965952fcb50c21",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/CaptainFalcon",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "61-65",
-    "firstActionableFrame": "-",
-    "baseDamage": "25",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "0",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "90",
-    "type": 2,
-    "name": "Falcon Punch (B-Reversed, Aerial)",
-    "ownerId": 4,
-    "id": 231
+    "InstanceId": "5968210346965952fcb50c22",
+    "Name": "Falcon Punch (B-Reversed, Aerial)",
+    "OwnerId": 4,
+    "Owner": "CaptainFalcon",
+    "HitboxActive": "61-65",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "25",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "0",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "90",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210346965952fcb50c22",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/CaptainFalcon",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "Inert Detector: 16-35",
-    "firstActionableFrame": "80",
-    "baseDamage": "-",
-    "angle": "-",
-    "baseKnockBackSetKnockback": "-",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "-",
-    "type": 2,
-    "name": "Raptor Boost (Ground)",
-    "ownerId": 4,
-    "id": 232
+    "InstanceId": "5968210346965952fcb50c23",
+    "Name": "Raptor Boost (Ground)",
+    "OwnerId": 4,
+    "Owner": "CaptainFalcon",
+    "HitboxActive": "Inert Detector: 16-35",
+    "FirstActionableFrame": "80",
+    "BaseDamage": "-",
+    "Angle": "-",
+    "BaseKnockBackSetKnockback": "-",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "-",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210346965952fcb50c23",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/CaptainFalcon",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "Inert Detector: 19-35",
-    "firstActionableFrame": "-",
-    "baseDamage": "-",
-    "angle": "-",
-    "baseKnockBackSetKnockback": "-",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "-",
-    "type": 2,
-    "name": "Raptor Boost (Aerial)",
-    "ownerId": 4,
-    "id": 233
+    "InstanceId": "5968210346965952fcb50c24",
+    "Name": "Raptor Boost (Aerial)",
+    "OwnerId": 4,
+    "Owner": "CaptainFalcon",
+    "HitboxActive": "Inert Detector: 19-35",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "-",
+    "Angle": "-",
+    "BaseKnockBackSetKnockback": "-",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "-",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210346965952fcb50c24",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/CaptainFalcon",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "4-8",
-    "firstActionableFrame": "36",
-    "baseDamage": "9 (+4)",
-    "angle": "85",
-    "baseKnockBackSetKnockback": "100",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "75",
-    "type": 2,
-    "name": "Raptor Boost (Attack, Ground)",
-    "ownerId": 4,
-    "id": 234
+    "InstanceId": "5968210346965952fcb50c25",
+    "Name": "Raptor Boost (Attack, Ground)",
+    "OwnerId": 4,
+    "Owner": "CaptainFalcon",
+    "HitboxActive": "4-8",
+    "FirstActionableFrame": "36",
+    "BaseDamage": "9 (+4)",
+    "Angle": "85",
+    "BaseKnockBackSetKnockback": "100",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "75",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210346965952fcb50c25",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/CaptainFalcon",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "5-6",
-    "firstActionableFrame": "-",
-    "baseDamage": "8 (+2)",
-    "angle": "60/275/60",
-    "baseKnockBackSetKnockback": "60",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "80/70/80",
-    "type": 2,
-    "name": "Raptor Boost (Attack, Aerial)",
-    "ownerId": 4,
-    "id": 235
+    "InstanceId": "5968210346965952fcb50c26",
+    "Name": "Raptor Boost (Attack, Aerial)",
+    "OwnerId": 4,
+    "Owner": "CaptainFalcon",
+    "HitboxActive": "5-6",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "8 (+2)",
+    "Angle": "60/275/60",
+    "BaseKnockBackSetKnockback": "60",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "80/70/80",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210346965952fcb50c26",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/CaptainFalcon",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "14-30",
-    "firstActionableFrame": "-",
-    "baseDamage": "-",
-    "angle": "-",
-    "baseKnockBackSetKnockback": "-",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "-",
-    "type": 2,
-    "name": "Falcon Dive (Command Grab)",
-    "ownerId": 4,
-    "id": 236
+    "InstanceId": "5968210346965952fcb50c27",
+    "Name": "Falcon Dive (Command Grab)",
+    "OwnerId": 4,
+    "Owner": "CaptainFalcon",
+    "HitboxActive": "14-30",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "-",
+    "Angle": "-",
+    "BaseKnockBackSetKnockback": "-",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "-",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210346965952fcb50c27",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/CaptainFalcon",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "5",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "0",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "0",
-    "type": 2,
-    "name": "Falcon Dive (Latch)",
-    "ownerId": 4,
-    "id": 237
+    "InstanceId": "5968210346965952fcb50c28",
+    "Name": "Falcon Dive (Latch)",
+    "OwnerId": 4,
+    "Owner": "CaptainFalcon",
+    "HitboxActive": "-",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "5",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "0",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "0",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210346965952fcb50c28",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/CaptainFalcon",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "61",
-    "baseDamage": "12",
-    "angle": "50",
-    "baseKnockBackSetKnockback": "40",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "82",
-    "type": 2,
-    "name": "Falcon Dive (Attack)",
-    "ownerId": 4,
-    "id": 238
+    "InstanceId": "5968210346965952fcb50c29",
+    "Name": "Falcon Dive (Attack)",
+    "OwnerId": 4,
+    "Owner": "CaptainFalcon",
+    "HitboxActive": "-",
+    "FirstActionableFrame": "61",
+    "BaseDamage": "12",
+    "Angle": "50",
+    "BaseKnockBackSetKnockback": "40",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "82",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210346965952fcb50c29",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/CaptainFalcon",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "18-20",
-    "firstActionableFrame": "74",
-    "baseDamage": "13",
-    "angle": "80",
-    "baseKnockBackSetKnockback": "60",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "80",
-    "type": 2,
-    "name": "Falcon Kick (Early, Ground)",
-    "ownerId": 4,
-    "id": 239
+    "InstanceId": "5968210346965952fcb50c2a",
+    "Name": "Falcon Kick (Early, Ground)",
+    "OwnerId": 4,
+    "Owner": "CaptainFalcon",
+    "HitboxActive": "18-20",
+    "FirstActionableFrame": "74",
+    "BaseDamage": "13",
+    "Angle": "80",
+    "BaseKnockBackSetKnockback": "60",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "80",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210346965952fcb50c2a",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/CaptainFalcon",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "21-28",
-    "firstActionableFrame": "-",
-    "baseDamage": "11",
-    "angle": "68",
-    "baseKnockBackSetKnockback": "90",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "40",
-    "type": 2,
-    "name": "Falcon Kick (Ground)",
-    "ownerId": 4,
-    "id": 240
+    "InstanceId": "5968210346965952fcb50c2b",
+    "Name": "Falcon Kick (Ground)",
+    "OwnerId": 4,
+    "Owner": "CaptainFalcon",
+    "HitboxActive": "21-28",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "11",
+    "Angle": "68",
+    "BaseKnockBackSetKnockback": "90",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "40",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210346965952fcb50c2b",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/CaptainFalcon",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "29-38",
-    "firstActionableFrame": "-",
-    "baseDamage": "7",
-    "angle": "50",
-    "baseKnockBackSetKnockback": "80",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "60",
-    "type": 2,
-    "name": "Falcon Kick (Late, Ground)",
-    "ownerId": 4,
-    "id": 241
+    "InstanceId": "5968210346965952fcb50c2c",
+    "Name": "Falcon Kick (Late, Ground)",
+    "OwnerId": 4,
+    "Owner": "CaptainFalcon",
+    "HitboxActive": "29-38",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "7",
+    "Angle": "50",
+    "BaseKnockBackSetKnockback": "80",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "60",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210346965952fcb50c2c",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/CaptainFalcon",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "16-17",
-    "firstActionableFrame": "60",
-    "baseDamage": "15",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "40",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "65",
-    "type": 2,
-    "name": "Falcon Kick (Early, Aerial)",
-    "ownerId": 4,
-    "id": 242
+    "InstanceId": "5968210346965952fcb50c2d",
+    "Name": "Falcon Kick (Early, Aerial)",
+    "OwnerId": 4,
+    "Owner": "CaptainFalcon",
+    "HitboxActive": "16-17",
+    "FirstActionableFrame": "60",
+    "BaseDamage": "15",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "40",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "65",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210346965952fcb50c2d",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/CaptainFalcon",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "18-25",
-    "firstActionableFrame": "-",
-    "baseDamage": "13",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "40",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "65",
-    "type": 2,
-    "name": "Falcon Kick (Aerial)",
-    "ownerId": 4,
-    "id": 243
+    "InstanceId": "5968210346965952fcb50c2e",
+    "Name": "Falcon Kick (Aerial)",
+    "OwnerId": 4,
+    "Owner": "CaptainFalcon",
+    "HitboxActive": "18-25",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "13",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "40",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "65",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210346965952fcb50c2e",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/CaptainFalcon",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "26-33",
-    "firstActionableFrame": "-",
-    "baseDamage": "11",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "40",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "65",
-    "type": 2,
-    "name": "Falcon Kick (Late, Aerial)",
-    "ownerId": 4,
-    "id": 244
+    "InstanceId": "5968210346965952fcb50c2f",
+    "Name": "Falcon Kick (Late, Aerial)",
+    "OwnerId": 4,
+    "Owner": "CaptainFalcon",
+    "HitboxActive": "26-33",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "11",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "40",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "65",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210346965952fcb50c2f",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/CaptainFalcon",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "2-3",
-    "firstActionableFrame": "49",
-    "baseDamage": "9",
-    "angle": "80",
-    "baseKnockBackSetKnockback": "80",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "20",
-    "type": 2,
-    "name": "Falcon Kick (Landing)",
-    "ownerId": 4,
-    "id": 245
+    "InstanceId": "5968210346965952fcb50c30",
+    "Name": "Falcon Kick (Landing)",
+    "OwnerId": 4,
+    "Owner": "CaptainFalcon",
+    "HitboxActive": "2-3",
+    "FirstActionableFrame": "49",
+    "BaseDamage": "9",
+    "Angle": "80",
+    "BaseKnockBackSetKnockback": "80",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "20",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210346965952fcb50c30",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/CaptainFalcon",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968210346965952fcb50c31",
+    "Name": "Fthrow",
+    "OwnerId": 4,
+    "Owner": "CaptainFalcon",
+    "HitboxActive": null,
+    "FirstActionableFrame": null,
+    "BaseDamage": "5, 4",
+    "Angle": "45",
+    "BaseKnockBackSetKnockback": "55",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "120",
+    "MoveType": "throw",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210346965952fcb50c31",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/CaptainFalcon",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968210346965952fcb50c32",
+    "Name": "Bthrow",
+    "OwnerId": 4,
+    "Owner": "CaptainFalcon",
+    "HitboxActive": null,
+    "FirstActionableFrame": null,
+    "BaseDamage": "5, 4",
+    "Angle": "135",
+    "BaseKnockBackSetKnockback": "60",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "130",
+    "MoveType": "throw",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210346965952fcb50c32",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/CaptainFalcon",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968210346965952fcb50c33",
+    "Name": "Uthrow",
+    "OwnerId": 4,
+    "Owner": "CaptainFalcon",
+    "HitboxActive": null,
+    "FirstActionableFrame": null,
+    "BaseDamage": "4, 3",
+    "Angle": "85",
+    "BaseKnockBackSetKnockback": "80",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "110",
+    "MoveType": "throw",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210346965952fcb50c33",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/CaptainFalcon",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968210346965952fcb50c34",
+    "Name": "Dthrow",
+    "OwnerId": 4,
+    "Owner": "CaptainFalcon",
+    "HitboxActive": null,
+    "FirstActionableFrame": null,
+    "BaseDamage": "6",
+    "Angle": "65",
+    "BaseKnockBackSetKnockback": "80",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "45",
+    "MoveType": "throw",
+    "IsWeightDependent": true,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210346965952fcb50c34",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/CaptainFalcon",
+        "Title": ""
+      }
+    ]
   }
 ]

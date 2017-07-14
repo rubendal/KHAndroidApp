@@ -1,110 +1,344 @@
 ﻿[
   {
-    "name": "Weight",
-    "ownerId": 56,
-    "id": 991,
-    "value": "104"
+    "InstanceId": "5968219346965952fcb51d4d",
+    "Name": "Weight",
+    "OwnerId": 56,
+    "Owner": "Yoshi",
+    "Value": "104 ",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968219346965952fcb51d4d",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Yoshi",
+        "Title": ""
+      }
+    ]
   },
   {
-    "name": "Max Jumps",
-    "ownerId": 56,
-    "id": 992,
-    "value": "2"
+    "InstanceId": "5968219346965952fcb51d4e",
+    "Name": "Max Jumps",
+    "OwnerId": 56,
+    "Owner": "Yoshi",
+    "Value": "2",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968219346965952fcb51d4e",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Yoshi",
+        "Title": ""
+      }
+    ]
   },
   {
-    "name": "Run Speed",
-    "ownerId": 56,
-    "id": 993,
-    "value": "1.86"
+    "InstanceId": "5968219346965952fcb51d4f",
+    "Name": "Run Speed",
+    "OwnerId": 56,
+    "Owner": "Yoshi",
+    "Value": "1.86 ",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968219346965952fcb51d4f",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Yoshi",
+        "Title": ""
+      }
+    ]
   },
   {
-    "name": "Wall Jump",
-    "ownerId": 56,
-    "id": 994,
-    "value": "No"
+    "InstanceId": "5968219346965952fcb51d50",
+    "Name": "Wall Jump",
+    "OwnerId": 56,
+    "Owner": "Yoshi",
+    "Value": "No",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968219346965952fcb51d50",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Yoshi",
+        "Title": ""
+      }
+    ]
   },
   {
-    "name": "Walk Speed",
-    "ownerId": 56,
-    "id": 995,
-    "value": "1.15"
+    "InstanceId": "5968219346965952fcb51d51",
+    "Name": "Walk Speed",
+    "OwnerId": 56,
+    "Owner": "Yoshi",
+    "Value": "1.15 ",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968219346965952fcb51d51",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Yoshi",
+        "Title": ""
+      }
+    ]
   },
   {
-    "name": "Wall Cling",
-    "ownerId": 56,
-    "id": 996,
-    "value": "No"
+    "InstanceId": "5968219346965952fcb51d52",
+    "Name": "Wall Cling",
+    "OwnerId": 56,
+    "Owner": "Yoshi",
+    "Value": "No",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968219346965952fcb51d52",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Yoshi",
+        "Title": ""
+      }
+    ]
   },
   {
-    "name": "Air Speed",
-    "ownerId": 56,
-    "id": 997,
-    "value": "1.28"
+    "InstanceId": "5968219346965952fcb51d53",
+    "Name": "Air Speed",
+    "OwnerId": 56,
+    "Owner": "Yoshi",
+    "Value": "1.28 ",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968219346965952fcb51d53",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Yoshi",
+        "Title": ""
+      }
+    ]
   },
   {
-    "name": "Crawl",
-    "ownerId": 56,
-    "id": 998,
-    "value": "Yes"
+    "InstanceId": "5968219346965952fcb51d54",
+    "Name": "Crawl",
+    "OwnerId": 56,
+    "Owner": "Yoshi",
+    "Value": "Yes",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968219346965952fcb51d54",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Yoshi",
+        "Title": ""
+      }
+    ]
   },
   {
-    "name": "Fall Speed",
-    "ownerId": 56,
-    "id": 999,
-    "value": "1.29"
+    "InstanceId": "5968219346965952fcb51d55",
+    "Name": "Fall Speed",
+    "OwnerId": 56,
+    "Owner": "Yoshi",
+    "Value": "1.29 ",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968219346965952fcb51d55",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Yoshi",
+        "Title": ""
+      }
+    ]
   },
   {
-    "name": "Tether",
-    "ownerId": 56,
-    "id": 1000,
-    "value": "No"
+    "InstanceId": "5968219346965952fcb51d56",
+    "Name": "Tether",
+    "OwnerId": 56,
+    "Owner": "Yoshi",
+    "Value": "No",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968219346965952fcb51d56",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Yoshi",
+        "Title": ""
+      }
+    ]
   },
   {
-    "name": "Fast Fall Speed",
-    "ownerId": 56,
-    "id": 1001,
-    "value": "2.064"
+    "InstanceId": "5968219346965952fcb51d57",
+    "Name": "Fast Fall Speed",
+    "OwnerId": 56,
+    "Owner": "Yoshi",
+    "Value": "2.064 ",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968219346965952fcb51d57",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Yoshi",
+        "Title": ""
+      }
+    ]
   },
   {
-    "name": "Jumpsquat",
-    "ownerId": 56,
-    "id": 1002,
-    "value": "6frames"
+    "InstanceId": "5968219346965952fcb51d58",
+    "Name": "Jumpsquat",
+    "OwnerId": 56,
+    "Owner": "Yoshi",
+    "Value": "6 frames",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968219346965952fcb51d58",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Yoshi",
+        "Title": ""
+      }
+    ]
   },
   {
-    "name": "Air Acceleration",
-    "ownerId": 56,
-    "id": 1003,
-    "value": "0.068"
+    "InstanceId": "5968219346965952fcb51d59",
+    "Name": "Air Acceleration",
+    "OwnerId": 56,
+    "Owner": "Yoshi",
+    "Value": "0.068",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968219346965952fcb51d59",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Yoshi",
+        "Title": ""
+      }
+    ]
   },
   {
-    "name": "Soft Landing Lag",
-    "ownerId": 56,
-    "id": 1004,
-    "value": "2frames"
+    "InstanceId": "5968219346965952fcb51d5a",
+    "Name": "Soft Landing Lag",
+    "OwnerId": 56,
+    "Owner": "Yoshi",
+    "Value": "2 frames",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968219346965952fcb51d5a",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Yoshi",
+        "Title": ""
+      }
+    ]
   },
   {
-    "name": "Gravity",
-    "ownerId": 56,
-    "id": 1005,
-    "value": "0.08"
+    "InstanceId": "5968219346965952fcb51d5b",
+    "Name": "Gravity",
+    "OwnerId": 56,
+    "Owner": "Yoshi",
+    "Value": "0.08",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968219346965952fcb51d5b",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Yoshi",
+        "Title": ""
+      }
+    ]
   },
   {
-    "name": "Hard Landing Lag",
-    "ownerId": 56,
-    "id": 1006,
-    "value": "4frames"
+    "InstanceId": "5968219346965952fcb51d5c",
+    "Name": "Hard Landing Lag",
+    "OwnerId": 56,
+    "Owner": "Yoshi",
+    "Value": "4 frames",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968219346965952fcb51d5c",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Yoshi",
+        "Title": ""
+      }
+    ]
   },
   {
-    "name": "SH Air Time",
-    "ownerId": 56,
-    "id": 1007,
-    "value": "42frames"
+    "InstanceId": "5968219346965952fcb51d5d",
+    "Name": "SH Air Time",
+    "OwnerId": 56,
+    "Owner": "Yoshi",
+    "Value": "42 frames",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968219346965952fcb51d5d",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Yoshi",
+        "Title": ""
+      }
+    ]
   },
   {
-    "name": "FH Air Time",
-    "ownerId": 56,
-    "id": 1008,
-    "value": "66frames"
+    "InstanceId": "5968219346965952fcb51d5e",
+    "Name": "FH Air Time",
+    "OwnerId": 56,
+    "Owner": "Yoshi",
+    "Value": "66 frames",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968219346965952fcb51d5e",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Yoshi",
+        "Title": ""
+      }
+    ]
   }
 ]

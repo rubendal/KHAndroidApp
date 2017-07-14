@@ -1,618 +1,1346 @@
 ﻿[
   {
-    "hitboxActive": "7-8",
-    "firstActionableFrame": "29",
-    "baseDamage": "8/10/6",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "38/30/40",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "90/90/105",
-    "type": 1,
-    "name": "Jab 1",
-    "ownerId": 15,
-    "id": 798
+    "InstanceId": "5968212346965952fcb50f83",
+    "Name": "Jab 1",
+    "OwnerId": 15,
+    "Owner": "Ganondorf",
+    "HitboxActive": "7-8",
+    "FirstActionableFrame": "29",
+    "BaseDamage": "8/10/6",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "38/30/40",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "90/90/105",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212346965952fcb50f83",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ganondorf",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "10-12",
-    "firstActionableFrame": "38",
-    "baseDamage": "14 (+1)",
-    "angle": "70",
-    "baseKnockBackSetKnockback": "50",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "80",
-    "type": 1,
-    "name": "Dash Attack",
-    "ownerId": 15,
-    "id": 799
+    "InstanceId": "5968212346965952fcb50f84",
+    "Name": "Dash Attack",
+    "OwnerId": 15,
+    "Owner": "Ganondorf",
+    "HitboxActive": "10-12",
+    "FirstActionableFrame": "38",
+    "BaseDamage": "14 (+1)",
+    "Angle": "70",
+    "BaseKnockBackSetKnockback": "50",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "80",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212346965952fcb50f84",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ganondorf",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "13-19",
-    "firstActionableFrame": "-",
-    "baseDamage": "10",
-    "angle": "80",
-    "baseKnockBackSetKnockback": "45",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "60",
-    "type": 1,
-    "name": "Dash Attack (Late)",
-    "ownerId": 15,
-    "id": 800
+    "InstanceId": "5968212346965952fcb50f85",
+    "Name": "Dash Attack (Late)",
+    "OwnerId": 15,
+    "Owner": "Ganondorf",
+    "HitboxActive": "13-19",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "10",
+    "Angle": "80",
+    "BaseKnockBackSetKnockback": "45",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "60",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212346965952fcb50f85",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ganondorf",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "10-12",
-    "firstActionableFrame": "40",
-    "baseDamage": "13/12/12",
-    "angle": "22",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "88",
-    "type": 1,
-    "name": "Ftilt",
-    "ownerId": 15,
-    "id": 801
+    "InstanceId": "5968212346965952fcb50f86",
+    "Name": "Ftilt",
+    "OwnerId": 15,
+    "Owner": "Ganondorf",
+    "HitboxActive": "10-12",
+    "FirstActionableFrame": "40",
+    "BaseDamage": "13/12/12",
+    "Angle": "22",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "88",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212346965952fcb50f86",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ganondorf",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "6-70",
-    "firstActionableFrame": "115",
-    "baseDamage": "0",
-    "angle": "180/180/0/0",
-    "baseKnockBackSetKnockback": "W: 1",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Utilt (Windboxes)",
-    "ownerId": 15,
-    "id": 802
+    "InstanceId": "5968212346965952fcb50f87",
+    "Name": "Utilt (Windboxes)",
+    "OwnerId": 15,
+    "Owner": "Ganondorf",
+    "HitboxActive": "6-70",
+    "FirstActionableFrame": "115",
+    "BaseDamage": "0",
+    "Angle": "180/180/0/0",
+    "BaseKnockBackSetKnockback": "W: 1",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212346965952fcb50f87",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ganondorf",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "81-84",
-    "firstActionableFrame": "-",
-    "baseDamage": "28/28/20/18 (+20)",
-    "angle": "361/361/80/80",
-    "baseKnockBackSetKnockback": "60",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "80",
-    "type": 1,
-    "name": "Utilt (Hitbox)",
-    "ownerId": 15,
-    "id": 803
+    "InstanceId": "5968212346965952fcb50f88",
+    "Name": "Utilt (Hitbox)",
+    "OwnerId": 15,
+    "Owner": "Ganondorf",
+    "HitboxActive": "81-84",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "28/28/20/18 (+20)",
+    "Angle": "361/361/80/80",
+    "BaseKnockBackSetKnockback": "60",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "80",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212346965952fcb50f88",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ganondorf",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "10-12",
-    "firstActionableFrame": "36",
-    "baseDamage": "13",
-    "angle": "80/70/60",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Dtilt",
-    "ownerId": 15,
-    "id": 804
+    "InstanceId": "5968212346965952fcb50f89",
+    "Name": "Dtilt",
+    "OwnerId": 15,
+    "Owner": "Ganondorf",
+    "HitboxActive": "10-12",
+    "FirstActionableFrame": "36",
+    "BaseDamage": "13",
+    "Angle": "80/70/60",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212346965952fcb50f89",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ganondorf",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "21-26",
-    "firstActionableFrame": "60",
-    "baseDamage": "24",
-    "angle": "40",
-    "baseKnockBackSetKnockback": "35/30",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "83/75",
-    "type": 1,
-    "name": "Fsmash (All Angles)",
-    "ownerId": 15,
-    "id": 805
+    "InstanceId": "5968212346965952fcb50f8a",
+    "Name": "Fsmash (All Angles)",
+    "OwnerId": 15,
+    "Owner": "Ganondorf",
+    "HitboxActive": "21-26",
+    "FirstActionableFrame": "60",
+    "BaseDamage": "24",
+    "Angle": "40",
+    "BaseKnockBackSetKnockback": "35/30",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "83/75",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212346965952fcb50f8a",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ganondorf",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "21-23",
-    "firstActionableFrame": "42",
-    "baseDamage": "24/24/21",
-    "angle": "85/78/75",
-    "baseKnockBackSetKnockback": "40",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "71/71/75",
-    "type": 1,
-    "name": "Usmash",
-    "ownerId": 15,
-    "id": 806
+    "InstanceId": "5968212346965952fcb50f8b",
+    "Name": "Usmash",
+    "OwnerId": 15,
+    "Owner": "Ganondorf",
+    "HitboxActive": "21-23",
+    "FirstActionableFrame": "42",
+    "BaseDamage": "24/24/21",
+    "Angle": "85/78/75",
+    "BaseKnockBackSetKnockback": "40",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "71/71/75",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212346965952fcb50f8b",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ganondorf",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "15-18",
-    "firstActionableFrame": "64",
-    "baseDamage": "6",
-    "angle": "160/140/154/50",
-    "baseKnockBackSetKnockback": "W: 70/80/108/80",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Dsmash (Hit 1)",
-    "ownerId": 15,
-    "id": 807
+    "InstanceId": "5968212346965952fcb50f8c",
+    "Name": "Dsmash (Hit 1)",
+    "OwnerId": 15,
+    "Owner": "Ganondorf",
+    "HitboxActive": "15-18",
+    "FirstActionableFrame": "64",
+    "BaseDamage": "6",
+    "Angle": "160/140/154/50",
+    "BaseKnockBackSetKnockback": "W: 70/80/108/80",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212346965952fcb50f8c",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ganondorf",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "35-38",
-    "firstActionableFrame": "-",
-    "baseDamage": "15/15/13",
-    "angle": "130",
-    "baseKnockBackSetKnockback": "60",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "94",
-    "type": 1,
-    "name": "Dsmash (Hit 2)",
-    "ownerId": 15,
-    "id": 808
+    "InstanceId": "5968212346965952fcb50f8d",
+    "Name": "Dsmash (Hit 2)",
+    "OwnerId": 15,
+    "Owner": "Ganondorf",
+    "HitboxActive": "35-38",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "15/15/13",
+    "Angle": "130",
+    "BaseKnockBackSetKnockback": "60",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "94",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212346965952fcb50f8d",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ganondorf",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "7-8",
-    "firstActionableFrame": "36",
-    "baseDamage": "",
-    "angle": "",
-    "baseKnockBackSetKnockback": "",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "",
-    "type": 1,
-    "name": "Standing Grab",
-    "ownerId": 15,
-    "id": 810
+    "InstanceId": "5968212346965952fcb50f8e",
+    "Name": "Standing Grab",
+    "OwnerId": 15,
+    "Owner": "Ganondorf",
+    "HitboxActive": "7-8",
+    "FirstActionableFrame": "36",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212346965952fcb50f8e",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ganondorf",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "11-12",
-    "firstActionableFrame": "45",
-    "baseDamage": "",
-    "angle": "",
-    "baseKnockBackSetKnockback": "",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "",
-    "type": 1,
-    "name": "Dash Grab",
-    "ownerId": 15,
-    "id": 811
+    "InstanceId": "5968212346965952fcb50f8f",
+    "Name": "Dash Grab",
+    "OwnerId": 15,
+    "Owner": "Ganondorf",
+    "HitboxActive": "11-12",
+    "FirstActionableFrame": "45",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212346965952fcb50f8f",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ganondorf",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "10-11",
-    "firstActionableFrame": "42",
-    "baseDamage": "",
-    "angle": "",
-    "baseKnockBackSetKnockback": "",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "",
-    "type": 1,
-    "name": "Pivot Grab",
-    "ownerId": 15,
-    "id": 812
+    "InstanceId": "5968212346965952fcb50f90",
+    "Name": "Pivot Grab",
+    "OwnerId": 15,
+    "Owner": "Ganondorf",
+    "HitboxActive": "10-11",
+    "FirstActionableFrame": "42",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212346965952fcb50f90",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ganondorf",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "5, 8",
-    "angle": "43",
-    "baseKnockBackSetKnockback": "60",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "65",
-    "type": 3,
-    "name": "Fthrow",
-    "ownerId": 15,
-    "id": 814
+    "InstanceId": "5968212346965952fcb50f91",
+    "Name": "Spotdodge",
+    "OwnerId": 15,
+    "Owner": "Ganondorf",
+    "HitboxActive": "4-19",
+    "FirstActionableFrame": "29",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212346965952fcb50f91",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ganondorf",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "5, 5",
-    "angle": "43",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "130",
-    "type": 3,
-    "name": "Bthrow",
-    "ownerId": 15,
-    "id": 815
+    "InstanceId": "5968212346965952fcb50f92",
+    "Name": "Forward Roll",
+    "OwnerId": 15,
+    "Owner": "Ganondorf",
+    "HitboxActive": "4-19",
+    "FirstActionableFrame": "34",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212346965952fcb50f92",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ganondorf",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "7, 3",
-    "angle": "90",
-    "baseKnockBackSetKnockback": "70",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "105",
-    "type": 3,
-    "name": "Uthrow",
-    "ownerId": 15,
-    "id": 816
+    "InstanceId": "5968212346965952fcb50f93",
+    "Name": "Back Roll",
+    "OwnerId": 15,
+    "Owner": "Ganondorf",
+    "HitboxActive": "4-19",
+    "FirstActionableFrame": "34",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212346965952fcb50f93",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ganondorf",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "7",
-    "angle": "65",
-    "baseKnockBackSetKnockback": "70",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "50",
-    "type": 3,
-    "name": "Dthrow",
-    "ownerId": 15,
-    "id": 817
+    "InstanceId": "5968212346965952fcb50f94",
+    "Name": "Airdodge",
+    "OwnerId": 15,
+    "Owner": "Ganondorf",
+    "HitboxActive": "4-29",
+    "FirstActionableFrame": "35",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212346965952fcb50f94",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ganondorf",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "7-8",
-    "firstActionableFrame": "42",
-    "baseDamage": "7",
-    "angle": "55/70/55/100",
-    "baseKnockBackSetKnockback": "20/20/50/20",
-    "landingLag": "17",
-    "autoCancel": "1-3, 38&gt;",
-    "knockbackGrowth": "30/30/110/30",
-    "type": 0,
-    "name": "Nair (Hit 1)",
-    "ownerId": 15,
-    "id": 823
+    "InstanceId": "5968212346965952fcb50f95",
+    "Name": "Nair (Hit 1)",
+    "OwnerId": 15,
+    "Owner": "Ganondorf",
+    "HitboxActive": "7-8",
+    "FirstActionableFrame": "42",
+    "BaseDamage": "7",
+    "Angle": "55/70/55/100",
+    "BaseKnockBackSetKnockback": "20/20/50/20",
+    "LandingLag": "17",
+    "AutoCancel": "1-3, 38&gt;",
+    "KnockbackGrowth": "30/30/110/30",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212346965952fcb50f95",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ganondorf",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "9-13",
-    "firstActionableFrame": "-",
-    "baseDamage": "5.25",
-    "angle": "55/70/55/100",
-    "baseKnockBackSetKnockback": "20/20/50/20",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "30/30/110/30",
-    "type": 0,
-    "name": "Nair (Hit 1, Late)",
-    "ownerId": 15,
-    "id": 824
+    "InstanceId": "5968212346965952fcb50f96",
+    "Name": "Nair (Hit 1, Late)",
+    "OwnerId": 15,
+    "Owner": "Ganondorf",
+    "HitboxActive": "9-13",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "5.25",
+    "Angle": "55/70/55/100",
+    "BaseKnockBackSetKnockback": "20/20/50/20",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "30/30/110/30",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212346965952fcb50f96",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ganondorf",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "17-18",
-    "firstActionableFrame": "-",
-    "baseDamage": "12",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "25",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "106",
-    "type": 0,
-    "name": "Nair (Hit 2)",
-    "ownerId": 15,
-    "id": 825
+    "InstanceId": "5968212346965952fcb50f97",
+    "Name": "Nair (Hit 2)",
+    "OwnerId": 15,
+    "Owner": "Ganondorf",
+    "HitboxActive": "17-18",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "12",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "25",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "106",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212346965952fcb50f97",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ganondorf",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "19-29",
-    "firstActionableFrame": "-",
-    "baseDamage": "9",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "25",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "106",
-    "type": 0,
-    "name": "Nair (Hit 2, Late)",
-    "ownerId": 15,
-    "id": 826
+    "InstanceId": "5968212346965952fcb50f98",
+    "Name": "Nair (Hit 2, Late)",
+    "OwnerId": 15,
+    "Owner": "Ganondorf",
+    "HitboxActive": "19-29",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "9",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "25",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "106",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212346965952fcb50f98",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ganondorf",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "14-19",
-    "firstActionableFrame": "45",
-    "baseDamage": "17/18",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "20",
-    "landingLag": "22",
-    "autoCancel": "1-6, 55&gt;",
-    "knockbackGrowth": "93",
-    "type": 0,
-    "name": "Fair",
-    "ownerId": 15,
-    "id": 827
+    "InstanceId": "5968212346965952fcb50f99",
+    "Name": "Fair",
+    "OwnerId": 15,
+    "Owner": "Ganondorf",
+    "HitboxActive": "14-19",
+    "FirstActionableFrame": "45",
+    "BaseDamage": "17/18",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "20",
+    "LandingLag": "22",
+    "AutoCancel": "1-6, 55&gt;",
+    "KnockbackGrowth": "93",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212346965952fcb50f99",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ganondorf",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "10-12",
-    "firstActionableFrame": "36",
-    "baseDamage": "16/17/16",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "40",
-    "landingLag": "19",
-    "autoCancel": "1-6, 22&gt;",
-    "knockbackGrowth": "89",
-    "type": 0,
-    "name": "Bair",
-    "ownerId": 15,
-    "id": 828
+    "InstanceId": "5968212346965952fcb50f9a",
+    "Name": "Bair",
+    "OwnerId": 15,
+    "Owner": "Ganondorf",
+    "HitboxActive": "10-12",
+    "FirstActionableFrame": "36",
+    "BaseDamage": "16/17/16",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "40",
+    "LandingLag": "19",
+    "AutoCancel": "1-6, 22&gt;",
+    "KnockbackGrowth": "89",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212346965952fcb50f9a",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ganondorf",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "6-10",
-    "firstActionableFrame": "34",
-    "baseDamage": "13/12",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "35",
-    "landingLag": "19",
-    "autoCancel": "25&gt;",
-    "knockbackGrowth": "100",
-    "type": 0,
-    "name": "Uair (Early)",
-    "ownerId": 15,
-    "id": 829
+    "InstanceId": "5968212346965952fcb50f9b",
+    "Name": "Uair (Early)",
+    "OwnerId": 15,
+    "Owner": "Ganondorf",
+    "HitboxActive": "6-10",
+    "FirstActionableFrame": "34",
+    "BaseDamage": "13/12",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "35",
+    "LandingLag": "19",
+    "AutoCancel": "25&gt;",
+    "KnockbackGrowth": "100",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212346965952fcb50f9b",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ganondorf",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "11-13",
-    "firstActionableFrame": "-",
-    "baseDamage": "12/10",
-    "angle": "30",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "80",
-    "type": 0,
-    "name": "Uair",
-    "ownerId": 15,
-    "id": 830
+    "InstanceId": "5968212346965952fcb50f9c",
+    "Name": "Uair",
+    "OwnerId": 15,
+    "Owner": "Ganondorf",
+    "HitboxActive": "11-13",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "12/10",
+    "Angle": "30",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "80",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212346965952fcb50f9c",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ganondorf",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "14-16",
-    "firstActionableFrame": "-",
-    "baseDamage": "8/6",
-    "angle": "0",
-    "baseKnockBackSetKnockback": "20",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "70",
-    "type": 0,
-    "name": "Uair (Late)",
-    "ownerId": 15,
-    "id": 831
+    "InstanceId": "5968212346965952fcb50f9d",
+    "Name": "Uair (Late)",
+    "OwnerId": 15,
+    "Owner": "Ganondorf",
+    "HitboxActive": "14-16",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "8/6",
+    "Angle": "0",
+    "BaseKnockBackSetKnockback": "20",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "70",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212346965952fcb50f9d",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ganondorf",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "16-18",
-    "firstActionableFrame": "47",
-    "baseDamage": "19/17",
-    "angle": "270/361",
-    "baseKnockBackSetKnockback": "20",
-    "landingLag": "26",
-    "autoCancel": "1-3, 32&gt;",
-    "knockbackGrowth": "100",
-    "type": 0,
-    "name": "Dair",
-    "ownerId": 15,
-    "id": 832
+    "InstanceId": "5968212346965952fcb50f9e",
+    "Name": "Dair",
+    "OwnerId": 15,
+    "Owner": "Ganondorf",
+    "HitboxActive": "16-18",
+    "FirstActionableFrame": "47",
+    "BaseDamage": "19/17",
+    "Angle": "270/361",
+    "BaseKnockBackSetKnockback": "20",
+    "LandingLag": "26",
+    "AutoCancel": "1-3, 32&gt;",
+    "KnockbackGrowth": "100",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212346965952fcb50f9e",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ganondorf",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "70-71 (Super Armor: 11-66)",
-    "firstActionableFrame": "118",
-    "baseDamage": "30",
-    "angle": "50",
-    "baseKnockBackSetKnockback": "120",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "42",
-    "type": 2,
-    "name": "Warlock Punch",
-    "ownerId": 15,
-    "id": 833
+    "InstanceId": "5968212346965952fcb50f9f",
+    "Name": "Warlock Punch",
+    "OwnerId": 15,
+    "Owner": "Ganondorf",
+    "HitboxActive": "70-71 (Super Armor: 11-66)",
+    "FirstActionableFrame": "118",
+    "BaseDamage": "30",
+    "Angle": "50",
+    "BaseKnockBackSetKnockback": "120",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "42",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212346965952fcb50f9f",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ganondorf",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "70-71",
-    "firstActionableFrame": "-",
-    "baseDamage": "38",
-    "angle": "30",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 2,
-    "name": "Warlock Punch (Aerial)",
-    "ownerId": 15,
-    "id": 834
+    "InstanceId": "5968212346965952fcb50fa0",
+    "Name": "Warlock Punch (Aerial)",
+    "OwnerId": 15,
+    "Owner": "Ganondorf",
+    "HitboxActive": "70-71",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "38",
+    "Angle": "30",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212346965952fcb50fa0",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ganondorf",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "80-81 (Super Armor: 11-58)",
-    "firstActionableFrame": "128",
-    "baseDamage": "37",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 2,
-    "name": "Warlock Punch (B-Reversed)",
-    "ownerId": 15,
-    "id": 835
+    "InstanceId": "5968212346965952fcb50fa1",
+    "Name": "Warlock Punch (B-Reversed)",
+    "OwnerId": 15,
+    "Owner": "Ganondorf",
+    "HitboxActive": "80-81 (Super Armor: 11-58)",
+    "FirstActionableFrame": "128",
+    "BaseDamage": "37",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212346965952fcb50fa1",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ganondorf",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "80-81",
-    "firstActionableFrame": "-",
-    "baseDamage": "40",
-    "angle": "30",
-    "baseKnockBackSetKnockback": "40",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 2,
-    "name": "Warlock Punch (B-Reversed, Aerial)",
-    "ownerId": 15,
-    "id": 836
+    "InstanceId": "5968212346965952fcb50fa2",
+    "Name": "Warlock Punch (B-Reversed, Aerial)",
+    "OwnerId": 15,
+    "Owner": "Ganondorf",
+    "HitboxActive": "80-81",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "40",
+    "Angle": "30",
+    "BaseKnockBackSetKnockback": "40",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212346965952fcb50fa2",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ganondorf",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "16-30",
-    "firstActionableFrame": "60",
-    "baseDamage": "-",
-    "angle": "-",
-    "baseKnockBackSetKnockback": "-",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "-",
-    "type": 2,
-    "name": "Flame Choke (Ground)",
-    "ownerId": 15,
-    "id": 837
+    "InstanceId": "5968212346965952fcb50fa3",
+    "Name": "Flame Choke (Ground)",
+    "OwnerId": 15,
+    "Owner": "Ganondorf",
+    "HitboxActive": "16-30",
+    "FirstActionableFrame": "60",
+    "BaseDamage": "-",
+    "Angle": "-",
+    "BaseKnockBackSetKnockback": "-",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "-",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212346965952fcb50fa3",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ganondorf",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "19-31",
-    "firstActionableFrame": "-",
-    "baseDamage": "-",
-    "angle": "-",
-    "baseKnockBackSetKnockback": "-",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "-",
-    "type": 2,
-    "name": "Flame Choke (Aerial)",
-    "ownerId": 15,
-    "id": 838
+    "InstanceId": "5968212346965952fcb50fa4",
+    "Name": "Flame Choke (Aerial)",
+    "OwnerId": 15,
+    "Owner": "Ganondorf",
+    "HitboxActive": "19-31",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "-",
+    "Angle": "-",
+    "BaseKnockBackSetKnockback": "-",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "-",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212346965952fcb50fa4",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ganondorf",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "32 (Super Armor: 17-40)",
-    "firstActionableFrame": "62",
-    "baseDamage": "12",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "60",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "90",
-    "type": 2,
-    "name": "Flame Choke (Ground, Attack)",
-    "ownerId": 15,
-    "id": 839
+    "InstanceId": "5968212346965952fcb50fa5",
+    "Name": "Flame Choke (Ground, Attack)",
+    "OwnerId": 15,
+    "Owner": "Ganondorf",
+    "HitboxActive": "32 (Super Armor: 17-40)",
+    "FirstActionableFrame": "62",
+    "BaseDamage": "12",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "60",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "90",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212346965952fcb50fa5",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ganondorf",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "1-2",
-    "firstActionableFrame": "41",
-    "baseDamage": "15",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "40",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "82",
-    "type": 2,
-    "name": "Flame Choke (Aerial, Attack)",
-    "ownerId": 15,
-    "id": 840
+    "InstanceId": "5968212346965952fcb50fa6",
+    "Name": "Flame Choke (Aerial, Attack)",
+    "OwnerId": 15,
+    "Owner": "Ganondorf",
+    "HitboxActive": "1-2",
+    "FirstActionableFrame": "41",
+    "BaseDamage": "15",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "40",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "82",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212346965952fcb50fa6",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ganondorf",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "14-28",
-    "firstActionableFrame": "-",
-    "baseDamage": "-",
-    "angle": "-",
-    "baseKnockBackSetKnockback": "-",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "-",
-    "type": 2,
-    "name": "Dark Dive (Command Grab)",
-    "ownerId": 15,
-    "id": 841
+    "InstanceId": "5968212346965952fcb50fa7",
+    "Name": "Dark Dive (Command Grab)",
+    "OwnerId": 15,
+    "Owner": "Ganondorf",
+    "HitboxActive": "14-28",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "-",
+    "Angle": "-",
+    "BaseKnockBackSetKnockback": "-",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "-",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212346965952fcb50fa7",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ganondorf",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "34-36",
-    "firstActionableFrame": "-",
-    "baseDamage": "7",
-    "angle": "70",
-    "baseKnockBackSetKnockback": "70",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "90",
-    "type": 2,
-    "name": "Dark Dive (Attack)",
-    "ownerId": 15,
-    "id": 842
+    "InstanceId": "5968212346965952fcb50fa8",
+    "Name": "Dark Dive (Attack)",
+    "OwnerId": 15,
+    "Owner": "Ganondorf",
+    "HitboxActive": "34-36",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "7",
+    "Angle": "70",
+    "BaseKnockBackSetKnockback": "70",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "90",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212346965952fcb50fa8",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ganondorf",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "1.2",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "50",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 2,
-    "name": "Dark Dive (Latch)",
-    "ownerId": 15,
-    "id": 843
+    "InstanceId": "5968212346965952fcb50fa9",
+    "Name": "Dark Dive (Latch)",
+    "OwnerId": 15,
+    "Owner": "Ganondorf",
+    "HitboxActive": "-",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "1.2",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "50",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212346965952fcb50fa9",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ganondorf",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "60",
-    "baseDamage": "9",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "40",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "90",
-    "type": 2,
-    "name": "Dark Dive (Latch)",
-    "ownerId": 15,
-    "id": 844
+    "InstanceId": "5968212346965952fcb50faa",
+    "Name": "Dark Dive (Latch)",
+    "OwnerId": 15,
+    "Owner": "Ganondorf",
+    "HitboxActive": "-",
+    "FirstActionableFrame": "60",
+    "BaseDamage": "9",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "40",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "90",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212346965952fcb50faa",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ganondorf",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "16-35",
-    "firstActionableFrame": "77",
-    "baseDamage": "14/14/12 (+4)",
-    "angle": "45",
-    "baseKnockBackSetKnockback": "60",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "70",
-    "type": 2,
-    "name": "Wizard's Foot (Ground)",
-    "ownerId": 15,
-    "id": 845
+    "InstanceId": "5968212346965952fcb50fab",
+    "Name": "Wizard's Foot (Ground)",
+    "OwnerId": 15,
+    "Owner": "Ganondorf",
+    "HitboxActive": "16-35",
+    "FirstActionableFrame": "77",
+    "BaseDamage": "14/14/12 (+4)",
+    "Angle": "45",
+    "BaseKnockBackSetKnockback": "60",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "70",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212346965952fcb50fab",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ganondorf",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "16-18",
-    "firstActionableFrame": "58",
-    "baseDamage": "15 (+10)",
-    "angle": "290",
-    "baseKnockBackSetKnockback": "50",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 2,
-    "name": "Wizard's Foot (Aerial)",
-    "ownerId": 15,
-    "id": 846
+    "InstanceId": "5968212346965952fcb50fac",
+    "Name": "Wizard's Foot (Aerial)",
+    "OwnerId": 15,
+    "Owner": "Ganondorf",
+    "HitboxActive": "16-18",
+    "FirstActionableFrame": "58",
+    "BaseDamage": "15 (+10)",
+    "Angle": "290",
+    "BaseKnockBackSetKnockback": "50",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212346965952fcb50fac",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ganondorf",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "19-38",
-    "firstActionableFrame": "-",
-    "baseDamage": "14 (+10)",
-    "angle": "80",
-    "baseKnockBackSetKnockback": "50",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 2,
-    "name": "Wizard's Foot (Aerial, Late)",
-    "ownerId": 15,
-    "id": 847
+    "InstanceId": "5968212346965952fcb50fad",
+    "Name": "Wizard's Foot (Aerial, Late)",
+    "OwnerId": 15,
+    "Owner": "Ganondorf",
+    "HitboxActive": "19-38",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "14 (+10)",
+    "Angle": "80",
+    "BaseKnockBackSetKnockback": "50",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212346965952fcb50fad",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ganondorf",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "2-3",
-    "firstActionableFrame": "45",
-    "baseDamage": "8",
-    "angle": "80",
-    "baseKnockBackSetKnockback": "80",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "35",
-    "type": 2,
-    "name": "Wizard's Foot (Landing)",
-    "ownerId": 15,
-    "id": 848
+    "InstanceId": "5968212346965952fcb50fae",
+    "Name": "Wizard's Foot (Landing)",
+    "OwnerId": 15,
+    "Owner": "Ganondorf",
+    "HitboxActive": "2-3",
+    "FirstActionableFrame": "45",
+    "BaseDamage": "8",
+    "Angle": "80",
+    "BaseKnockBackSetKnockback": "80",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "35",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212346965952fcb50fae",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ganondorf",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968212346965952fcb50faf",
+    "Name": "Fthrow",
+    "OwnerId": 15,
+    "Owner": "Ganondorf",
+    "HitboxActive": null,
+    "FirstActionableFrame": null,
+    "BaseDamage": "5, 8",
+    "Angle": "43",
+    "BaseKnockBackSetKnockback": "60",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "65",
+    "MoveType": "throw",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212346965952fcb50faf",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ganondorf",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968212346965952fcb50fb0",
+    "Name": "Bthrow",
+    "OwnerId": 15,
+    "Owner": "Ganondorf",
+    "HitboxActive": null,
+    "FirstActionableFrame": null,
+    "BaseDamage": "5, 5",
+    "Angle": "43",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "130",
+    "MoveType": "throw",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212346965952fcb50fb0",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ganondorf",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968212346965952fcb50fb1",
+    "Name": "Uthrow",
+    "OwnerId": 15,
+    "Owner": "Ganondorf",
+    "HitboxActive": null,
+    "FirstActionableFrame": null,
+    "BaseDamage": "7, 3",
+    "Angle": "90",
+    "BaseKnockBackSetKnockback": "70",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "105",
+    "MoveType": "throw",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212346965952fcb50fb1",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ganondorf",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968212346965952fcb50fb2",
+    "Name": "Dthrow",
+    "OwnerId": 15,
+    "Owner": "Ganondorf",
+    "HitboxActive": null,
+    "FirstActionableFrame": null,
+    "BaseDamage": "7",
+    "Angle": "65",
+    "BaseKnockBackSetKnockback": "70",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "50",
+    "MoveType": "throw",
+    "IsWeightDependent": true,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212346965952fcb50fb2",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ganondorf",
+        "Title": ""
+      }
+    ]
   }
 ]

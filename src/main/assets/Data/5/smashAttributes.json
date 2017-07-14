@@ -1,218 +1,442 @@
 ﻿[
   {
-    "id": 43,
-    "ownerId": 5,
-    "rank": "39-44",
-    "value": "0.05",
-    "name": "VALUE",
-    "smashAttributeTypeId": 1,
-    "characterAttributeTypeId": 12
+    "InstanceId": "5968210646965952fcb50c74",
+    "Name": "AerialJump",
+    "OwnerId": 5,
+    "Owner": "Charizard",
+    "Values": [
+      {
+        "Value": "36",
+        "Owner": "Charizard",
+        "OwnerId": 5,
+        "Name": "HEIGHT"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968210646965952fcb50c74",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Charizard",
+        "Title": ""
+      }
+    ]
   },
   {
-    "id": 143,
-    "ownerId": 5,
-    "rank": "34-51",
-    "value": "3-28",
-    "name": "INTANGIBLE",
-    "smashAttributeTypeId": 3,
-    "characterAttributeTypeId": 5
+    "InstanceId": "5968210646965952fcb50c75",
+    "Name": "AirAcceleration",
+    "OwnerId": 5,
+    "Owner": "Charizard",
+    "Values": [
+      {
+        "Value": "0.05",
+        "Owner": "Charizard",
+        "OwnerId": 5,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968210646965952fcb50c75",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Charizard",
+        "Title": ""
+      }
+    ]
   },
   {
-    "id": 144,
-    "ownerId": 5,
-    "rank": "34-51",
-    "value": "34",
-    "name": "FAF",
-    "smashAttributeTypeId": 3,
-    "characterAttributeTypeId": 1
+    "InstanceId": "5968210646965952fcb50c76",
+    "Name": "AirDeceleration",
+    "OwnerId": 5,
+    "Owner": "Charizard",
+    "Values": [
+      {
+        "Value": "0.01",
+        "Owner": "Charizard",
+        "OwnerId": 5,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968210646965952fcb50c76",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Charizard",
+        "Title": ""
+      }
+    ]
   },
   {
-    "id": 221,
-    "ownerId": 5,
-    "rank": "47",
-    "value": "0.92",
-    "name": "MAX AIR SPEED VALUE",
-    "smashAttributeTypeId": 5,
-    "characterAttributeTypeId": 6
+    "InstanceId": "5968210646965952fcb50c77",
+    "Name": "AirFriction",
+    "OwnerId": 5,
+    "Owner": "Charizard",
+    "Values": [
+      {
+        "Value": "0.008",
+        "Owner": "Charizard",
+        "OwnerId": 5,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968210646965952fcb50c77",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Charizard",
+        "Title": ""
+      }
+    ]
   },
   {
-    "id": 353,
-    "ownerId": 5,
-    "rank": "40-41",
-    "value": "1.4",
-    "name": "MAX FALL SPEED",
-    "smashAttributeTypeId": 8,
-    "characterAttributeTypeId": 7
+    "InstanceId": "5968210646965952fcb50c78",
+    "Name": "DashLength",
+    "OwnerId": 5,
+    "Owner": "Charizard",
+    "Values": [
+      {
+        "Value": "11",
+        "Owner": "Charizard",
+        "OwnerId": 5,
+        "Name": "LENGTH IN FRAMES"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968210646965952fcb50c78",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Charizard",
+        "Title": ""
+      }
+    ]
   },
   {
-    "id": 354,
-    "ownerId": 5,
-    "rank": "40-41",
-    "value": "2.24",
-    "name": "FAST FALL SPEED",
-    "smashAttributeTypeId": 8,
-    "characterAttributeTypeId": 2
+    "InstanceId": "5968210646965952fcb50c79",
+    "Name": "FallSpeed",
+    "OwnerId": 5,
+    "Owner": "Charizard",
+    "Values": [
+      {
+        "Value": "1.4",
+        "Owner": "Charizard",
+        "OwnerId": 5,
+        "Name": "MAX FALL SPEED"
+      },
+      {
+        "Value": "2.24",
+        "Owner": "Charizard",
+        "OwnerId": 5,
+        "Name": "FAST FALL SPEED"
+      },
+      {
+        "Value": "60%",
+        "Owner": "Charizard",
+        "OwnerId": 5,
+        "Name": "SPEED INCREASE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968210646965952fcb50c79",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Charizard",
+        "Title": ""
+      }
+    ]
   },
   {
-    "id": 355,
-    "ownerId": 5,
-    "rank": "40-41",
-    "value": "60%",
-    "name": "SPEED INCREASE",
-    "smashAttributeTypeId": 8,
-    "characterAttributeTypeId": 11
+    "InstanceId": "5968210646965952fcb50c7a",
+    "Name": "FullHop",
+    "OwnerId": 5,
+    "Owner": "Charizard",
+    "Values": [
+      {
+        "Value": "32",
+        "Owner": "Charizard",
+        "OwnerId": 5,
+        "Name": "HEIGHT"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968210646965952fcb50c7a",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Charizard",
+        "Title": ""
+      }
+    ]
   },
   {
-    "id": 417,
-    "ownerId": 5,
-    "rank": "10-12",
-    "value": "0.11",
-    "name": "VALUE",
-    "smashAttributeTypeId": 10,
-    "characterAttributeTypeId": 12
+    "InstanceId": "5968210646965952fcb50c7b",
+    "Name": "Gravity",
+    "OwnerId": 5,
+    "Owner": "Charizard",
+    "Values": [
+      {
+        "Value": "0.11",
+        "Owner": "Charizard",
+        "OwnerId": 5,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968210646965952fcb50c7b",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Charizard",
+        "Title": ""
+      }
+    ]
   },
   {
-    "id": 520,
-    "ownerId": 5,
-    "rank": "52-57",
-    "value": "7",
-    "name": "VALUE",
-    "smashAttributeTypeId": 14,
-    "characterAttributeTypeId": 12
+    "InstanceId": "5968210646965952fcb50c7c",
+    "Name": "JumpSquat",
+    "OwnerId": 5,
+    "Owner": "Charizard",
+    "Values": [
+      {
+        "Value": "7",
+        "Owner": "Charizard",
+        "OwnerId": 5,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968210646965952fcb50c7c",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Charizard",
+        "Title": ""
+      }
+    ]
   },
   {
-    "id": 621,
-    "ownerId": 5,
-    "rank": "48-52",
-    "value": "1-25",
-    "name": "INTANGIBILITY",
-    "smashAttributeTypeId": 15,
-    "characterAttributeTypeId": 4
+    "InstanceId": "5968210646965952fcb50c7d",
+    "Name": "LedgeHop",
+    "OwnerId": 5,
+    "Owner": "Charizard",
+    "Values": [
+      {
+        "Value": "36",
+        "Owner": "Charizard",
+        "OwnerId": 5,
+        "Name": "HEIGHT"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968210646965952fcb50c7d",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Charizard",
+        "Title": ""
+      }
+    ]
   },
   {
-    "id": 622,
-    "ownerId": 5,
-    "rank": "48-52",
-    "value": "50",
-    "name": "FAF",
-    "smashAttributeTypeId": 15,
-    "characterAttributeTypeId": 1
+    "InstanceId": "5968210646965952fcb50c7e",
+    "Name": "ShortHop",
+    "OwnerId": 5,
+    "Owner": "Charizard",
+    "Values": [
+      {
+        "Value": "15.42625",
+        "Owner": "Charizard",
+        "OwnerId": 5,
+        "Name": "HEIGHT"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968210646965952fcb50c7e",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Charizard",
+        "Title": ""
+      }
+    ]
   },
   {
-    "id": 739,
-    "ownerId": 5,
-    "rank": "50-52",
-    "value": "4-18",
-    "name": "INTANGIBLE",
-    "smashAttributeTypeId": 17,
-    "characterAttributeTypeId": 5
+    "InstanceId": "5968210646965952fcb50c7f",
+    "Name": "Spotdodge",
+    "OwnerId": 5,
+    "Owner": "Charizard",
+    "Values": [
+      {
+        "Value": "3-18",
+        "Owner": "Charizard",
+        "OwnerId": 5,
+        "Name": "INTANGIBLE"
+      },
+      {
+        "Value": "28",
+        "Owner": "Charizard",
+        "OwnerId": 5,
+        "Name": "FAF"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968210646965952fcb50c7f",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Charizard",
+        "Title": ""
+      }
+    ]
   },
   {
-    "id": 740,
-    "ownerId": 5,
-    "rank": "50-52",
-    "value": "33",
-    "name": "FAF",
-    "smashAttributeTypeId": 17,
-    "characterAttributeTypeId": 1
+    "InstanceId": "5968210646965952fcb50c80",
+    "Name": "Traction",
+    "OwnerId": 5,
+    "Owner": "Charizard",
+    "Values": [
+      {
+        "Value": "0.04",
+        "Owner": "Charizard",
+        "OwnerId": 5,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968210646965952fcb50c80",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Charizard",
+        "Title": ""
+      }
+    ]
   },
   {
-    "id": 765,
-    "ownerId": 5,
-    "rank": "9",
-    "value": "2",
-    "name": "MAX RUN SPEED VALUE",
-    "smashAttributeTypeId": 18,
-    "characterAttributeTypeId": 8
+    "InstanceId": "5968210646965952fcb50c81",
+    "Name": "WalkSpeed",
+    "OwnerId": 5,
+    "Owner": "Charizard",
+    "Values": [
+      {
+        "Value": "1.2",
+        "Owner": "Charizard",
+        "OwnerId": 5,
+        "Name": "MAX WALK SPEED VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968210646965952fcb50c81",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Charizard",
+        "Title": ""
+      }
+    ]
   },
   {
-    "id": 820,
-    "ownerId": 5,
-    "rank": "6",
-    "value": "12.327",
-    "name": "SIZE",
-    "smashAttributeTypeId": 20,
-    "characterAttributeTypeId": 10
+    "InstanceId": "5968210646965952fcb50c82",
+    "Name": "AirSpeed",
+    "OwnerId": 5,
+    "Owner": "Charizard",
+    "Values": [
+      {
+        "Value": "0.92",
+        "Owner": "Charizard",
+        "OwnerId": 5,
+        "Name": "MAX AIR SPEED VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968210646965952fcb50c82",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Charizard",
+        "Title": ""
+      }
+    ]
   },
   {
-    "id": 957,
-    "ownerId": 5,
-    "rank": "35-51",
-    "value": "3-18",
-    "name": "INTANGIBLE",
-    "smashAttributeTypeId": 22,
-    "characterAttributeTypeId": 5
-  },
-  {
-    "id": 958,
-    "ownerId": 5,
-    "rank": "35-51",
-    "value": "28",
-    "name": "FAF",
-    "smashAttributeTypeId": 22,
-    "characterAttributeTypeId": 1
-  },
-  {
-    "id": 1044,
-    "ownerId": 5,
-    "rank": "56-57",
-    "value": "0.04",
-    "name": "VALUE",
-    "smashAttributeTypeId": 24,
-    "characterAttributeTypeId": 12
-  },
-  {
-    "id": 1062,
-    "ownerId": 5,
-    "rank": "15-16",
-    "value": "1.2",
-    "name": "MAX WALK SPEED VALUE",
-    "smashAttributeTypeId": 26,
-    "characterAttributeTypeId": 9
-  },
-  {
-    "id": 1108,
-    "ownerId": 5,
-    "rank": "4",
-    "value": "116",
-    "name": "WEIGHT VALUE",
-    "smashAttributeTypeId": 27,
-    "characterAttributeTypeId": 13
-  },
-  {
-    "id": 1203,
-    "ownerId": 5,
-    "rank": "41",
-    "value": "15.42625",
-    "name": "HEIGHT",
-    "smashAttributeTypeId": 28,
-    "characterAttributeTypeId": 3
-  },
-  {
-    "id": 1259,
-    "ownerId": 5,
-    "rank": "39-41",
-    "value": "32",
-    "name": "HEIGHT",
-    "smashAttributeTypeId": 29,
-    "characterAttributeTypeId": 3
-  },
-  {
-    "id": 1296,
-    "ownerId": 5,
-    "rank": "18",
-    "value": "36",
-    "name": "HEIGHT",
-    "smashAttributeTypeId": 30,
-    "characterAttributeTypeId": 3
-  },
-  {
-    "id": 1376,
-    "ownerId": 5,
-    "rank": "40-42",
-    "value": "36",
-    "name": "HEIGHT",
-    "smashAttributeTypeId": 31,
-    "characterAttributeTypeId": 3
+    "InstanceId": "5968210646965952fcb50c83",
+    "Name": "AirDodge",
+    "OwnerId": 5,
+    "Owner": "Charizard",
+    "Values": [
+      {
+        "Value": "3-28",
+        "Owner": "Charizard",
+        "OwnerId": 5,
+        "Name": "INTANGIBLE"
+      },
+      {
+        "Value": "34",
+        "Owner": "Charizard",
+        "OwnerId": 5,
+        "Name": "FAF"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968210646965952fcb50c83",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Charizard",
+        "Title": ""
+      }
+    ]
   }
 ]

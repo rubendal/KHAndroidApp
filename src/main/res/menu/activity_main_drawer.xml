@@ -13,6 +13,10 @@
                 <item
                     android:id="@+id/formulas"
                     android:title="Formulas" />
+
+                <item
+                    android:id="@+id/calculator"
+                    android:title="Sm4sh Calculator" />
             </menu>
         </item>
     </group>

@@ -1,218 +1,442 @@
 ﻿[
   {
-    "id": 35,
-    "ownerId": 6,
-    "rank": "35",
-    "value": "0.06",
-    "name": "VALUE",
-    "smashAttributeTypeId": 1,
-    "characterAttributeTypeId": 12
+    "InstanceId": "5968210a46965952fcb50ce1",
+    "Name": "AerialJump",
+    "OwnerId": 6,
+    "Owner": "Cloud",
+    "Values": [
+      {
+        "Value": "32",
+        "Owner": "Cloud",
+        "OwnerId": 6,
+        "Name": "HEIGHT"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968210a46965952fcb50ce1",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud",
+        "Title": ""
+      }
+    ]
   },
   {
-    "id": 151,
-    "ownerId": 6,
-    "rank": "34-51",
-    "value": "3-28",
-    "name": "INTANGIBLE",
-    "smashAttributeTypeId": 3,
-    "characterAttributeTypeId": 5
+    "InstanceId": "5968210a46965952fcb50ce2",
+    "Name": "AirAcceleration",
+    "OwnerId": 6,
+    "Owner": "Cloud",
+    "Values": [
+      {
+        "Value": "0.06",
+        "Owner": "Cloud",
+        "OwnerId": 6,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968210a46965952fcb50ce2",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud",
+        "Title": ""
+      }
+    ]
   },
   {
-    "id": 152,
-    "ownerId": 6,
-    "rank": "34-51",
-    "value": "34",
-    "name": "FAF",
-    "smashAttributeTypeId": 3,
-    "characterAttributeTypeId": 1
+    "InstanceId": "5968210a46965952fcb50ce3",
+    "Name": "AirDeceleration",
+    "OwnerId": 6,
+    "Owner": "Cloud",
+    "Values": [
+      {
+        "Value": "0.01",
+        "Owner": "Cloud",
+        "OwnerId": 6,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968210a46965952fcb50ce3",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud",
+        "Title": ""
+      }
+    ]
   },
   {
-    "id": 188,
-    "ownerId": 6,
-    "rank": "14-19",
-    "value": "1.1",
-    "name": "MAX AIR SPEED VALUE",
-    "smashAttributeTypeId": 5,
-    "characterAttributeTypeId": 6
+    "InstanceId": "5968210a46965952fcb50ce4",
+    "Name": "AirFriction",
+    "OwnerId": 6,
+    "Owner": "Cloud",
+    "Values": [
+      {
+        "Value": "0.009",
+        "Owner": "Cloud",
+        "OwnerId": 6,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968210a46965952fcb50ce4",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud",
+        "Title": ""
+      }
+    ]
   },
   {
-    "id": 272,
-    "ownerId": 6,
-    "rank": "14-15",
-    "value": "1.68",
-    "name": "MAX FALL SPEED",
-    "smashAttributeTypeId": 8,
-    "characterAttributeTypeId": 7
+    "InstanceId": "5968210a46965952fcb50ce5",
+    "Name": "DashLength",
+    "OwnerId": 6,
+    "Owner": "Cloud",
+    "Values": [
+      {
+        "Value": "11",
+        "Owner": "Cloud",
+        "OwnerId": 6,
+        "Name": "LENGTH IN FRAMES"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968210a46965952fcb50ce5",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud",
+        "Title": ""
+      }
+    ]
   },
   {
-    "id": 273,
-    "ownerId": 6,
-    "rank": "14-15",
-    "value": "2.688",
-    "name": "FAST FALL SPEED",
-    "smashAttributeTypeId": 8,
-    "characterAttributeTypeId": 2
+    "InstanceId": "5968210a46965952fcb50ce6",
+    "Name": "FallSpeed",
+    "OwnerId": 6,
+    "Owner": "Cloud",
+    "Values": [
+      {
+        "Value": "1.68",
+        "Owner": "Cloud",
+        "OwnerId": 6,
+        "Name": "MAX FALL SPEED"
+      },
+      {
+        "Value": "2.688",
+        "Owner": "Cloud",
+        "OwnerId": 6,
+        "Name": "FAST FALL SPEED"
+      },
+      {
+        "Value": "60%",
+        "Owner": "Cloud",
+        "OwnerId": 6,
+        "Name": "SPEED INCREASE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968210a46965952fcb50ce6",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud",
+        "Title": ""
+      }
+    ]
   },
   {
-    "id": 274,
-    "ownerId": 6,
-    "rank": "14-15",
-    "value": "60%",
-    "name": "SPEED INCREASE",
-    "smashAttributeTypeId": 8,
-    "characterAttributeTypeId": 11
+    "InstanceId": "5968210a46965952fcb50ce7",
+    "Name": "FullHop",
+    "OwnerId": 6,
+    "Owner": "Cloud",
+    "Values": [
+      {
+        "Value": "32.5",
+        "Owner": "Cloud",
+        "OwnerId": 6,
+        "Name": "HEIGHT"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968210a46965952fcb50ce7",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud",
+        "Title": ""
+      }
+    ]
   },
   {
-    "id": 424,
-    "ownerId": 6,
-    "rank": "18",
-    "value": "0.098",
-    "name": "VALUE",
-    "smashAttributeTypeId": 10,
-    "characterAttributeTypeId": 12
+    "InstanceId": "5968210a46965952fcb50ce8",
+    "Name": "Gravity",
+    "OwnerId": 6,
+    "Owner": "Cloud",
+    "Values": [
+      {
+        "Value": "0.098",
+        "Owner": "Cloud",
+        "OwnerId": 6,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968210a46965952fcb50ce8",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud",
+        "Title": ""
+      }
+    ]
   },
   {
-    "id": 468,
-    "ownerId": 6,
-    "rank": "1-13",
-    "value": "4",
-    "name": "VALUE",
-    "smashAttributeTypeId": 14,
-    "characterAttributeTypeId": 12
+    "InstanceId": "5968210a46965952fcb50ce9",
+    "Name": "JumpSquat",
+    "OwnerId": 6,
+    "Owner": "Cloud",
+    "Values": [
+      {
+        "Value": "4",
+        "Owner": "Cloud",
+        "OwnerId": 6,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968210a46965952fcb50ce9",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud",
+        "Title": ""
+      }
+    ]
   },
   {
-    "id": 595,
-    "ownerId": 6,
-    "rank": "37-47",
-    "value": "1-26",
-    "name": "INTANGIBILITY",
-    "smashAttributeTypeId": 15,
-    "characterAttributeTypeId": 4
+    "InstanceId": "5968210a46965952fcb50cea",
+    "Name": "LedgeHop",
+    "OwnerId": 6,
+    "Owner": "Cloud",
+    "Values": [
+      {
+        "Value": "36.25",
+        "Owner": "Cloud",
+        "OwnerId": 6,
+        "Name": "HEIGHT"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968210a46965952fcb50cea",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud",
+        "Title": ""
+      }
+    ]
   },
   {
-    "id": 596,
-    "ownerId": 6,
-    "rank": "37-47",
-    "value": "50",
-    "name": "FAF",
-    "smashAttributeTypeId": 15,
-    "characterAttributeTypeId": 1
+    "InstanceId": "5968210a46965952fcb50ceb",
+    "Name": "ShortHop",
+    "OwnerId": 6,
+    "Owner": "Cloud",
+    "Values": [
+      {
+        "Value": "17",
+        "Owner": "Cloud",
+        "OwnerId": 6,
+        "Name": "HEIGHT"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968210a46965952fcb50ceb",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud",
+        "Title": ""
+      }
+    ]
   },
   {
-    "id": 735,
-    "ownerId": 6,
-    "rank": "49",
-    "value": "4-15",
-    "name": "INTANGIBLE",
-    "smashAttributeTypeId": 17,
-    "characterAttributeTypeId": 5
+    "InstanceId": "5968210a46965952fcb50cec",
+    "Name": "Spotdodge",
+    "OwnerId": 6,
+    "Owner": "Cloud",
+    "Values": [
+      {
+        "Value": "3-18",
+        "Owner": "Cloud",
+        "OwnerId": 6,
+        "Name": "INTANGIBLE"
+      },
+      {
+        "Value": "28",
+        "Owner": "Cloud",
+        "OwnerId": 6,
+        "Name": "FAF"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968210a46965952fcb50cec",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud",
+        "Title": ""
+      }
+    ]
   },
   {
-    "id": 736,
-    "ownerId": 6,
-    "rank": "49",
-    "value": "32",
-    "name": "FAF",
-    "smashAttributeTypeId": 17,
-    "characterAttributeTypeId": 1
+    "InstanceId": "5968210a46965952fcb50ced",
+    "Name": "Traction",
+    "OwnerId": 6,
+    "Owner": "Cloud",
+    "Values": [
+      {
+        "Value": "0.055",
+        "Owner": "Cloud",
+        "OwnerId": 6,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968210a46965952fcb50ced",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud",
+        "Title": ""
+      }
+    ]
   },
   {
-    "id": 766,
-    "ownerId": 6,
-    "rank": "10",
-    "value": "1.97",
-    "name": "MAX RUN SPEED VALUE",
-    "smashAttributeTypeId": 18,
-    "characterAttributeTypeId": 8
+    "InstanceId": "5968210a46965952fcb50cee",
+    "Name": "WalkSpeed",
+    "OwnerId": 6,
+    "Owner": "Cloud",
+    "Values": [
+      {
+        "Value": "1.1",
+        "Owner": "Cloud",
+        "OwnerId": 6,
+        "Name": "MAX WALK SPEED VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968210a46965952fcb50cee",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud",
+        "Title": ""
+      }
+    ]
   },
   {
-    "id": 830,
-    "ownerId": 6,
-    "rank": "16-17",
-    "value": "11.445",
-    "name": "SIZE",
-    "smashAttributeTypeId": 20,
-    "characterAttributeTypeId": 10
+    "InstanceId": "5968210a46965952fcb50cef",
+    "Name": "AirSpeed",
+    "OwnerId": 6,
+    "Owner": "Cloud",
+    "Values": [
+      {
+        "Value": "1.1",
+        "Owner": "Cloud",
+        "OwnerId": 6,
+        "Name": "MAX AIR SPEED VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968210a46965952fcb50cef",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud",
+        "Title": ""
+      }
+    ]
   },
   {
-    "id": 971,
-    "ownerId": 6,
-    "rank": "35-51",
-    "value": "3-18",
-    "name": "INTANGIBLE",
-    "smashAttributeTypeId": 22,
-    "characterAttributeTypeId": 5
-  },
-  {
-    "id": 972,
-    "ownerId": 6,
-    "rank": "35-51",
-    "value": "28",
-    "name": "FAF",
-    "smashAttributeTypeId": 22,
-    "characterAttributeTypeId": 1
-  },
-  {
-    "id": 1020,
-    "ownerId": 6,
-    "rank": "28-33",
-    "value": "0.055",
-    "name": "VALUE",
-    "smashAttributeTypeId": 24,
-    "characterAttributeTypeId": 12
-  },
-  {
-    "id": 1078,
-    "ownerId": 6,
-    "rank": "30-32",
-    "value": "1.1",
-    "name": "MAX WALK SPEED VALUE",
-    "smashAttributeTypeId": 26,
-    "characterAttributeTypeId": 9
-  },
-  {
-    "id": 1124,
-    "ownerId": 6,
-    "rank": "17-20",
-    "value": "100",
-    "name": "WEIGHT VALUE",
-    "smashAttributeTypeId": 27,
-    "characterAttributeTypeId": 13
-  },
-  {
-    "id": 1184,
-    "ownerId": 6,
-    "rank": "22-23",
-    "value": "17",
-    "name": "HEIGHT",
-    "smashAttributeTypeId": 28,
-    "characterAttributeTypeId": 3
-  },
-  {
-    "id": 1257,
-    "ownerId": 6,
-    "rank": "37-38",
-    "value": "32.5",
-    "name": "HEIGHT",
-    "smashAttributeTypeId": 29,
-    "characterAttributeTypeId": 3
-  },
-  {
-    "id": 1318,
-    "ownerId": 6,
-    "rank": "40-41",
-    "value": "32",
-    "name": "HEIGHT",
-    "smashAttributeTypeId": 30,
-    "characterAttributeTypeId": 3
-  },
-  {
-    "id": 1374,
-    "ownerId": 6,
-    "rank": "38-39",
-    "value": "36.25",
-    "name": "HEIGHT",
-    "smashAttributeTypeId": 31,
-    "characterAttributeTypeId": 3
+    "InstanceId": "5968210a46965952fcb50cf0",
+    "Name": "AirDodge",
+    "OwnerId": 6,
+    "Owner": "Cloud",
+    "Values": [
+      {
+        "Value": "3-28",
+        "Owner": "Cloud",
+        "OwnerId": 6,
+        "Name": "INTANGIBLE"
+      },
+      {
+        "Value": "34",
+        "Owner": "Cloud",
+        "OwnerId": 6,
+        "Name": "FAF"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968210a46965952fcb50cf0",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud",
+        "Title": ""
+      }
+    ]
   }
 ]

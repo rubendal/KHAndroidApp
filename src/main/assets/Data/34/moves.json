@@ -1,1094 +1,2298 @@
 ﻿[
   {
-    "hitboxActive": "6-7",
-    "firstActionableFrame": "19",
-    "baseDamage": "4",
-    "angle": "85/50/45/45",
-    "baseKnockBackSetKnockback": "32",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "20",
-    "type": 1,
-    "name": "Jab 1",
-    "ownerId": 34,
-    "id": 1854
-  },
-  {
-    "hitboxActive": "6-7",
-    "firstActionableFrame": "23",
-    "baseDamage": "3",
-    "angle": "78/96/60/60",
-    "baseKnockBackSetKnockback": "40",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "20",
-    "type": 1,
-    "name": "Jab 2",
-    "ownerId": 34,
-    "id": 1855
-  },
-  {
-    "hitboxActive": "7-11",
-    "firstActionableFrame": "39",
-    "baseDamage": "5",
-    "angle": "55",
-    "baseKnockBackSetKnockback": "70",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "50",
-    "type": 1,
-    "name": "Jab 3",
-    "ownerId": 34,
-    "id": 1856
-  },
-  {
-    "hitboxActive": "9-11",
-    "firstActionableFrame": "43",
-    "baseDamage": "10",
-    "angle": "60",
-    "baseKnockBackSetKnockback": "80",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "60",
-    "type": 1,
-    "name": "Dash Attack",
-    "ownerId": 34,
-    "id": 1857
-  },
-  {
-    "hitboxActive": "12-18",
-    "firstActionableFrame": "-",
-    "baseDamage": "6",
-    "angle": "60",
-    "baseKnockBackSetKnockback": "80",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "60",
-    "type": 1,
-    "name": "Dash Attack (Late)",
-    "ownerId": 34,
-    "id": 1858
-  },
-  {
-    "hitboxActive": "11-13",
-    "firstActionableFrame": "35",
-    "baseDamage": "12",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "20",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "96",
-    "type": 1,
-    "name": "Ftilt",
-    "ownerId": 34,
-    "id": 1859
-  },
-  {
-    "hitboxActive": "8-12",
-    "firstActionableFrame": "33",
-    "baseDamage": "7",
-    "angle": "95/85/85",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "122/130/123",
-    "type": 1,
-    "name": "Utilt",
-    "ownerId": 34,
-    "id": 1860
-  },
-  {
-    "hitboxActive": "5-6",
-    "firstActionableFrame": "20",
-    "baseDamage": "8",
-    "angle": "65",
-    "baseKnockBackSetKnockback": "50",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "80",
-    "type": 1,
-    "name": "Dtilt",
-    "ownerId": 34,
-    "id": 1861
-  },
-  {
-    "hitboxActive": "16-18",
-    "firstActionableFrame": "60",
-    "baseDamage": "15/14/16/14",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100/100/99/100",
-    "type": 1,
-    "name": "Fsmash",
-    "ownerId": 34,
-    "id": 1862
-  },
-  {
-    "hitboxActive": "11-12",
-    "firstActionableFrame": "60",
-    "baseDamage": "4",
-    "angle": "130",
-    "baseKnockBackSetKnockback": "W: 120",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Usmash (Hit 1)",
-    "ownerId": 34,
-    "id": 1863
-  },
-  {
-    "hitboxActive": "14-16, 20-22",
-    "firstActionableFrame": "-",
-    "baseDamage": "3",
-    "angle": "104/110/366",
-    "baseKnockBackSetKnockback": "W: 90/40/20",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Usmash (Hits 2-3)",
-    "ownerId": 34,
-    "id": 1864
-  },
-  {
-    "hitboxActive": "26-28",
-    "firstActionableFrame": "-",
-    "baseDamage": "7",
-    "angle": "95/98/98",
-    "baseKnockBackSetKnockback": "40",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "142",
-    "type": 1,
-    "name": "Usmash (Hit 4)",
-    "ownerId": 34,
-    "id": 1865
-  },
-  {
-    "hitboxActive": "7-8",
-    "firstActionableFrame": "54",
-    "baseDamage": "12",
-    "angle": "27",
-    "baseKnockBackSetKnockback": "26",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "80",
-    "type": 1,
-    "name": "Dsmash (Hit 1)",
-    "ownerId": 34,
-    "id": 1866
-  },
-  {
-    "hitboxActive": "15-16",
-    "firstActionableFrame": "-",
-    "baseDamage": "15",
-    "angle": "32",
-    "baseKnockBackSetKnockback": "25",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "80",
-    "type": 1,
-    "name": "Dsmash (Hit 2)",
-    "ownerId": 34,
-    "id": 1867
-  },
-  {
-    "hitboxActive": "6-7",
-    "firstActionableFrame": "29",
-    "baseDamage": "",
-    "angle": "",
-    "baseKnockBackSetKnockback": "",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "",
-    "type": 1,
-    "name": "Standing Grab",
-    "ownerId": 34,
-    "id": 1869
-  },
-  {
-    "hitboxActive": "8-9",
-    "firstActionableFrame": "36",
-    "baseDamage": "",
-    "angle": "",
-    "baseKnockBackSetKnockback": "",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "",
-    "type": 1,
-    "name": "Dash Grab",
-    "ownerId": 34,
-    "id": 1870
-  },
-  {
-    "hitboxActive": "9-10",
-    "firstActionableFrame": "34",
-    "baseDamage": "",
-    "angle": "",
-    "baseKnockBackSetKnockback": "",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "",
-    "type": 1,
-    "name": "Pivot Grab",
-    "ownerId": 34,
-    "id": 1871
-  },
-  {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "3, 3",
-    "angle": "45",
-    "baseKnockBackSetKnockback": "60",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "110",
-    "type": 3,
-    "name": "Fthrow",
-    "ownerId": 34,
-    "id": 1873
-  },
-  {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "3, 3",
-    "angle": "45",
-    "baseKnockBackSetKnockback": "60",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "130",
-    "type": 3,
-    "name": "Bthrow",
-    "ownerId": 34,
-    "id": 1874
-  },
-  {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "3, 2",
-    "angle": "80",
-    "baseKnockBackSetKnockback": "50",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 3,
-    "name": "Uthrow",
-    "ownerId": 34,
-    "id": 1875
-  },
-  {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "2, 2",
-    "angle": "80",
-    "baseKnockBackSetKnockback": "75",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "120",
-    "type": 3,
-    "name": "Dthrow",
-    "ownerId": 34,
-    "id": 1876
-  },
-  {
-    "hitboxActive": "11-24",
-    "firstActionableFrame": "49",
-    "baseDamage": "8",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "48",
-    "landingLag": "15",
-    "autoCancel": "1-5, 33&gt;",
-    "knockbackGrowth": "68",
-    "type": 0,
-    "name": "Nair",
-    "ownerId": 34,
-    "id": 1882
-  },
-  {
-    "hitboxActive": "11, 16",
-    "firstActionableFrame": "47",
-    "baseDamage": "3",
-    "angle": "366",
-    "baseKnockBackSetKnockback": "5",
-    "landingLag": "17",
-    "autoCancel": "51&gt;",
-    "knockbackGrowth": "100",
-    "type": 0,
-    "name": "Fair (Hits 1-2)",
-    "ownerId": 34,
-    "id": 1883
-  },
-  {
-    "hitboxActive": "21",
-    "firstActionableFrame": "-",
-    "baseDamage": "5",
-    "angle": "50",
-    "baseKnockBackSetKnockback": "55",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "130",
-    "type": 0,
-    "name": "Fair (Hit 3)",
-    "ownerId": 34,
-    "id": 1884
-  },
-  {
-    "hitboxActive": "8-9",
-    "firstActionableFrame": "38",
-    "baseDamage": "14",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "10",
-    "landingLag": "15",
-    "autoCancel": "29&gt;",
-    "knockbackGrowth": "100",
-    "type": 0,
-    "name": "Bair",
-    "ownerId": 34,
-    "id": 1885
-  },
-  {
-    "hitboxActive": "11-13",
-    "firstActionableFrame": "45",
-    "baseDamage": "16",
-    "angle": "80",
-    "baseKnockBackSetKnockback": "25",
-    "landingLag": "16",
-    "autoCancel": "1-10, 30&gt;",
-    "knockbackGrowth": "90",
-    "type": 0,
-    "name": "Uair",
-    "ownerId": 34,
-    "id": 1886
-  },
-  {
-    "hitboxActive": "14-23",
-    "firstActionableFrame": "-",
-    "baseDamage": "10",
-    "angle": "80",
-    "baseKnockBackSetKnockback": "18",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "85",
-    "type": 0,
-    "name": "Uair (Late)",
-    "ownerId": 34,
-    "id": 1887
-  },
-  {
-    "hitboxActive": "14-37 (Rehit rate: 5)",
-    "firstActionableFrame": "59",
-    "baseDamage": "1",
-    "angle": "220/250",
-    "baseKnockBackSetKnockback": "W: 10/30 B: 18",
-    "landingLag": "30",
-    "autoCancel": "1-4, 80&gt;",
-    "knockbackGrowth": "80/100",
-    "type": 0,
-    "name": "Dair",
-    "ownerId": 34,
-    "id": 1888
-  },
-  {
-    "hitboxActive": "2-3",
-    "firstActionableFrame": "-",
-    "baseDamage": "5",
-    "angle": "45",
-    "baseKnockBackSetKnockback": "60",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "120",
-    "type": 0,
-    "name": "Dair (Landing)",
-    "ownerId": 34,
-    "id": 1889
-  },
-  {
-    "hitboxActive": "23-39 (Rehit rate: 6)",
-    "firstActionableFrame": "78",
-    "baseDamage": "3.7",
-    "angle": "86",
-    "baseKnockBackSetKnockback": "80",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "104",
-    "type": 2,
-    "name": "Neutral 1: Gale Strike (Early)",
-    "ownerId": 34,
-    "id": 1890
-  },
-  {
-    "hitboxActive": "40-56",
-    "firstActionableFrame": "-",
-    "baseDamage": "2.9",
-    "angle": "86",
-    "baseKnockBackSetKnockback": "80",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "105",
-    "type": 2,
-    "name": "Neutral 1: Gale Strike",
-    "ownerId": 34,
-    "id": 1891
-  },
-  {
-    "hitboxActive": "57-73",
-    "firstActionableFrame": "-",
-    "baseDamage": "2",
-    "angle": "86",
-    "baseKnockBackSetKnockback": "70",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "106",
-    "type": 2,
-    "name": "Neutral 1: Gale Strike (Late)",
-    "ownerId": 34,
-    "id": 1892
-  },
-  {
-    "hitboxActive": "74-",
-    "firstActionableFrame": "-",
-    "baseDamage": "0",
-    "angle": "86/20",
-    "baseKnockBackSetKnockback": "80/55",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 2,
-    "name": "Neutral 1: Gale Strike (Windbox)",
-    "ownerId": 34,
-    "id": 1893
-  },
-  {
-    "hitboxActive": "16-22",
-    "firstActionableFrame": "50",
-    "baseDamage": "2",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "20",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "50",
-    "type": 2,
-    "name": "Neutral 2: Shuriken of Light (Close)",
-    "ownerId": 34,
-    "id": 1894
-  },
-  {
-    "hitboxActive": "23-29",
-    "firstActionableFrame": "-",
-    "baseDamage": "4",
-    "angle": "70",
-    "baseKnockBackSetKnockback": "20",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "50",
-    "type": 2,
-    "name": "Neutral 2: Shuriken of Light",
-    "ownerId": 34,
-    "id": 1895
-  },
-  {
-    "hitboxActive": "30-36",
-    "firstActionableFrame": "-",
-    "baseDamage": "6.5",
-    "angle": "70",
-    "baseKnockBackSetKnockback": "35",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "50",
-    "type": 2,
-    "name": "Neutral 2: Shuriken of Light",
-    "ownerId": 34,
-    "id": 1896
-  },
-  {
-    "hitboxActive": "37-44",
-    "firstActionableFrame": "-",
-    "baseDamage": "10",
-    "angle": "70",
-    "baseKnockBackSetKnockback": "50",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "50",
-    "type": 2,
-    "name": "Neutral 2: Shuriken of Light",
-    "ownerId": 34,
-    "id": 1897
-  },
-  {
-    "hitboxActive": "17-18, 21-22, 25-26, 29-30",
-    "firstActionableFrame": "85",
-    "baseDamage": "0.6",
-    "angle": "45/150",
-    "baseKnockBackSetKnockback": "W: 8",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 2,
-    "name": "Neutral 3: Blade Flurry (No Charge, Hits 1-4)",
-    "ownerId": 34,
-    "id": 1898
-  },
-  {
-    "hitboxActive": "33-34",
-    "firstActionableFrame": "-",
-    "baseDamage": "0.5",
-    "angle": "366",
-    "baseKnockBackSetKnockback": "W: 22",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 2,
-    "name": "Neutral 3: Blade Flurry (No Charge, Hit 5)",
-    "ownerId": 34,
-    "id": 1899
-  },
-  {
-    "hitboxActive": "44-45",
-    "firstActionableFrame": "-",
-    "baseDamage": "7",
-    "angle": "40",
-    "baseKnockBackSetKnockback": "40",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "105",
-    "type": 2,
-    "name": "Neutral 3: Blade Flurry (No Charge, Final Hit)",
-    "ownerId": 34,
-    "id": 1900
-  },
-  {
-    "hitboxActive": "66-67, 70-71, 74-75, 78-79",
-    "firstActionableFrame": "134",
-    "baseDamage": "1.25?",
-    "angle": "45/150",
-    "baseKnockBackSetKnockback": "W: 8",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 2,
-    "name": "Neutral 3: Blade Flurry (Full Charge, Hits 1-4)",
-    "ownerId": 34,
-    "id": 1901
-  },
-  {
-    "hitboxActive": "82-83",
-    "firstActionableFrame": "-",
-    "baseDamage": "2",
-    "angle": "366",
-    "baseKnockBackSetKnockback": "W: 22",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 2,
-    "name": "Neutral 3: Blade Flurry (Full Charge, Hit 5)",
-    "ownerId": 34,
-    "id": 1902
-  },
-  {
-    "hitboxActive": "93-94",
-    "firstActionableFrame": "-",
-    "baseDamage": "17",
-    "angle": "40",
-    "baseKnockBackSetKnockback": "40",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "105",
-    "type": 2,
-    "name": "Neutral 3: Blade Flurry (Full Charge, Final Hit)",
-    "ownerId": 34,
-    "id": 1903
-  },
-  {
-    "hitboxActive": "32-",
-    "firstActionableFrame": "95",
-    "baseDamage": "9",
-    "angle": "50",
-    "baseKnockBackSetKnockback": "90",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "75",
-    "type": 2,
-    "name": "Side 1: Airborne Assault (No Charge)",
-    "ownerId": 34,
-    "id": 1904
-  },
-  {
-    "hitboxActive": "63-",
-    "firstActionableFrame": "136",
-    "baseDamage": "9",
-    "angle": "50",
-    "baseKnockBackSetKnockback": "90",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "75",
-    "type": 2,
-    "name": "Side 1: Airborne Assault (Full Charge)",
-    "ownerId": 34,
-    "id": 1905
-  },
-  {
-    "hitboxActive": "13-",
-    "firstActionableFrame": "62",
-    "baseDamage": "6",
-    "angle": "55",
-    "baseKnockBackSetKnockback": "70",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "88",
-    "type": 2,
-    "name": "Side 2: Surging Slash (No Charge)",
-    "ownerId": 34,
-    "id": 1906
-  },
-  {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "6",
-    "angle": "55",
-    "baseKnockBackSetKnockback": "70",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "88",
-    "type": 2,
-    "name": "Side 2: Surging Slash (Full Charge)",
-    "ownerId": 34,
-    "id": 1907
-  },
-  {
-    "hitboxActive": "18-",
-    "firstActionableFrame": "53",
-    "baseDamage": "-",
-    "angle": "-",
-    "baseKnockBackSetKnockback": "-",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "-",
-    "type": 2,
-    "name": "Side 3: Chakram",
-    "ownerId": 34,
-    "id": 1908
-  },
-  {
-    "hitboxActive": "13-15",
-    "firstActionableFrame": "-",
-    "baseDamage": "-",
-    "angle": "-",
-    "baseKnockBackSetKnockback": "-",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "-",
-    "type": 2,
-    "name": "Up 1: Stone Scabbard (Hit 1)",
-    "ownerId": 34,
-    "id": 1909
-  },
-  {
-    "hitboxActive": "42-",
-    "firstActionableFrame": "-",
-    "baseDamage": "-",
-    "angle": "-",
-    "baseKnockBackSetKnockback": "-",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "-",
-    "type": 2,
-    "name": "Up 1: Stone Scabbard (Hit 2)",
-    "ownerId": 34,
-    "id": 1910
-  },
-  {
-    "hitboxActive": "1-",
-    "firstActionableFrame": "-",
-    "baseDamage": "-",
-    "angle": "-",
-    "baseKnockBackSetKnockback": "-",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "-",
-    "type": 2,
-    "name": "Up 1: Stone Scabbard (Landing)",
-    "ownerId": 34,
-    "id": 1911
-  },
-  {
-    "hitboxActive": "24",
-    "firstActionableFrame": "-",
-    "baseDamage": "2",
-    "angle": "110",
-    "baseKnockBackSetKnockback": "28",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "30",
-    "type": 2,
-    "name": "Up 2: Skyward Slash Dash (Hit 1)",
-    "ownerId": 34,
-    "id": 1912
-  },
-  {
-    "hitboxActive": "29-30, 33-34, 37-38, 41-42, 45-46",
-    "firstActionableFrame": "-",
-    "baseDamage": "1",
-    "angle": "366/55/366/45",
-    "baseKnockBackSetKnockback": "30/50/30/80",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "30",
-    "type": 2,
-    "name": "Up 2: Skyward Slash Dash (Hit 2-6)",
-    "ownerId": 34,
-    "id": 1913
-  },
-  {
-    "hitboxActive": "49-50",
-    "firstActionableFrame": "-",
-    "baseDamage": "5",
-    "angle": "45",
-    "baseKnockBackSetKnockback": "70",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "104",
-    "type": 2,
-    "name": "Up 2: Skyward Slash Dash (Hit 7)",
-    "ownerId": 34,
-    "id": 1914
-  },
-  {
-    "hitboxActive": "8-9",
-    "firstActionableFrame": "79",
-    "baseDamage": "14/13/9",
-    "angle": "45",
-    "baseKnockBackSetKnockback": "60",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "90",
-    "type": 2,
-    "name": "Up 3: Hero's Spin (No Charge, Early)",
-    "ownerId": 34,
-    "id": 1915
-  },
-  {
-    "hitboxActive": "10-14",
-    "firstActionableFrame": "-",
-    "baseDamage": "12/11/7",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "55",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "80",
-    "type": 2,
-    "name": "Up 3: Hero's Spin (No Charge)",
-    "ownerId": 34,
-    "id": 1916
-  },
-  {
-    "hitboxActive": "15-24",
-    "firstActionableFrame": "-",
-    "baseDamage": "9/9/7",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "55",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "80",
-    "type": 2,
-    "name": "Up 3: Hero's Spin (No Charge, Late)",
-    "ownerId": 34,
-    "id": 1917
-  },
-  {
-    "hitboxActive": "25-40",
-    "firstActionableFrame": "-",
-    "baseDamage": "7/7/5",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "20",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "80",
-    "type": 2,
-    "name": "Up 3: Hero's Spin (No Charge, Latest)",
-    "ownerId": 34,
-    "id": 1918
-  },
-  {
-    "hitboxActive": "8",
-    "firstActionableFrame": "-",
-    "baseDamage": "4",
-    "angle": "85/80/366",
-    "baseKnockBackSetKnockback": "W: 70/100/85",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 2,
-    "name": "Up 3: Hero's Spin (Air, Hit 1)",
-    "ownerId": 34,
-    "id": 1919
-  },
-  {
-    "hitboxActive": "11",
-    "firstActionableFrame": "-",
-    "baseDamage": "2",
-    "angle": "120",
-    "baseKnockBackSetKnockback": "W: 90",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 2,
-    "name": "Up 3: Hero's Spin (Air, Hit 2)",
-    "ownerId": 34,
-    "id": 1920
-  },
-  {
-    "hitboxActive": "16",
-    "firstActionableFrame": "-",
-    "baseDamage": "2",
-    "angle": "366/82/45",
-    "baseKnockBackSetKnockback": "W: 60/100/85",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 2,
-    "name": "Up 3: Hero's Spin (Air, Hit 3)",
-    "ownerId": 34,
-    "id": 1921
-  },
-  {
-    "hitboxActive": "19",
-    "firstActionableFrame": "-",
-    "baseDamage": "2",
-    "angle": "120",
-    "baseKnockBackSetKnockback": "W: 90",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 2,
-    "name": "Up 3: Hero's Spin (Air, Hit 4)",
-    "ownerId": 34,
-    "id": 1922
-  },
-  {
-    "hitboxActive": "22",
-    "firstActionableFrame": "-",
-    "baseDamage": "2",
-    "angle": "366/90/45",
-    "baseKnockBackSetKnockback": "W: 50/100/85",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 2,
-    "name": "Up 3: Hero's Spin (Air, Hit 5)",
-    "ownerId": 34,
-    "id": 1923
-  },
-  {
-    "hitboxActive": "26",
-    "firstActionableFrame": "-",
-    "baseDamage": "2",
-    "angle": "120",
-    "baseKnockBackSetKnockback": "W: 90",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 2,
-    "name": "Up 3: Hero's Spin (Air, Hit 6)",
-    "ownerId": 34,
-    "id": 1924
-  },
-  {
-    "hitboxActive": "31",
-    "firstActionableFrame": "-",
-    "baseDamage": "2",
-    "angle": "90/90/50",
-    "baseKnockBackSetKnockback": "W: 45/80/85",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 2,
-    "name": "Up 3: Hero's Spin (Air, Hit 7)",
-    "ownerId": 34,
-    "id": 1925
-  },
-  {
-    "hitboxActive": "38",
-    "firstActionableFrame": "-",
-    "baseDamage": "2",
-    "angle": "120",
-    "baseKnockBackSetKnockback": "W: 90",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 2,
-    "name": "Up 3: Hero's Spin (Air, Hit 8)",
-    "ownerId": 34,
-    "id": 1926
-  },
-  {
-    "hitboxActive": "47-48",
-    "firstActionableFrame": "-",
-    "baseDamage": "4",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "200",
-    "type": 2,
-    "name": "Up 3: Hero's Spin (Air, Hit 9)",
-    "ownerId": 34,
-    "id": 1927
-  },
-  {
-    "hitboxActive": "Counters: 6-29",
-    "firstActionableFrame": "60",
-    "baseDamage": "-",
-    "angle": "-",
-    "baseKnockBackSetKnockback": "-",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "-",
-    "type": 2,
-    "name": "Down 1: Blade Counter",
-    "ownerId": 34,
-    "id": 1928
-  },
-  {
-    "hitboxActive": "16 Freeze Frames, (Intangible: 1-16)",
-    "firstActionableFrame": "-",
-    "baseDamage": "-",
-    "angle": "-",
-    "baseKnockBackSetKnockback": "-",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "-",
-    "type": 2,
-    "name": "Down 1: Blade Counter (On Hit)",
-    "ownerId": 34,
-    "id": 1929
-  },
-  {
-    "hitboxActive": "6-7 (Intangible: 1-8)",
-    "firstActionableFrame": "50",
-    "baseDamage": "8 (1.25&#215;)",
-    "angle": "48",
-    "baseKnockBackSetKnockback": "90",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "70",
-    "type": 2,
-    "name": "Down 1: Blade Counter (Attack)",
-    "ownerId": 34,
-    "id": 1930
-  },
-  {
-    "hitboxActive": "12-14 (Reflects: 6-22?)",
-    "firstActionableFrame": "38",
-    "baseDamage": "6",
-    "angle": "110",
-    "baseKnockBackSetKnockback": "W: 60",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 2,
-    "name": "Down 2: Reversal Slash",
-    "ownerId": 34,
-    "id": 1931
-  },
-  {
-    "hitboxActive": "14-16",
-    "firstActionableFrame": "62",
-    "baseDamage": "10/13",
-    "angle": "35",
-    "baseKnockBackSetKnockback": "50",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "70/80",
-    "type": 2,
-    "name": "Down 3: Power Thrust (Early, Ground)",
-    "ownerId": 34,
-    "id": 1932
-  },
-  {
-    "hitboxActive": "17-24",
-    "firstActionableFrame": "-",
-    "baseDamage": "8/11",
-    "angle": "37",
-    "baseKnockBackSetKnockback": "50",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "70/80",
-    "type": 2,
-    "name": "Down 3: Power Thrust (Ground)",
-    "ownerId": 34,
-    "id": 1933
-  },
-  {
-    "hitboxActive": "25-32",
-    "firstActionableFrame": "-",
-    "baseDamage": "8",
-    "angle": "50",
-    "baseKnockBackSetKnockback": "50",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "70",
-    "type": 2,
-    "name": "Down 3: Power Thrust (Late, Ground)",
-    "ownerId": 34,
-    "id": 1934
-  },
-  {
-    "hitboxActive": "16-18",
-    "firstActionableFrame": "66",
-    "baseDamage": "10/13",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "40",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "70/80",
-    "type": 2,
-    "name": "Down 3: Power Thrust (Early, Air)",
-    "ownerId": 34,
-    "id": 1935
-  },
-  {
-    "hitboxActive": "19-26",
-    "firstActionableFrame": "-",
-    "baseDamage": "8/11",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "40",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "65/77",
-    "type": 2,
-    "name": "Down 3: Power Thrust (Air)",
-    "ownerId": 34,
-    "id": 1936
-  },
-  {
-    "hitboxActive": "27-34",
-    "firstActionableFrame": "-",
-    "baseDamage": "5.5/8",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "40",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "60/70",
-    "type": 2,
-    "name": "Down 3: Power Thrust (Late, Air)",
-    "ownerId": 34,
-    "id": 1937
-  },
-  {
-    "hitboxActive": "2-3",
-    "firstActionableFrame": "-",
-    "baseDamage": "7",
-    "angle": "80",
-    "baseKnockBackSetKnockback": "80",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "20",
-    "type": 2,
-    "name": "Down 3: Power Thrust (Air, Landing)",
-    "ownerId": 34,
-    "id": 1938
+    "InstanceId": "5968215346965952fcb51526",
+    "Name": "Jab 1",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "HitboxActive": "6-7",
+    "FirstActionableFrame": "19",
+    "BaseDamage": "4",
+    "Angle": "85/50/45/45",
+    "BaseKnockBackSetKnockback": "32",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "20",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215346965952fcb51526",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968215346965952fcb51527",
+    "Name": "Jab 2",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "HitboxActive": "6-7",
+    "FirstActionableFrame": "23",
+    "BaseDamage": "3",
+    "Angle": "78/96/60/60",
+    "BaseKnockBackSetKnockback": "40",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "20",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215346965952fcb51527",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968215346965952fcb51528",
+    "Name": "Jab 3",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "HitboxActive": "7-11",
+    "FirstActionableFrame": "39",
+    "BaseDamage": "5",
+    "Angle": "55",
+    "BaseKnockBackSetKnockback": "70",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "50",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215346965952fcb51528",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968215346965952fcb51529",
+    "Name": "Dash Attack",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "HitboxActive": "9-11",
+    "FirstActionableFrame": "43",
+    "BaseDamage": "10",
+    "Angle": "60",
+    "BaseKnockBackSetKnockback": "80",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "60",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215346965952fcb51529",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968215346965952fcb5152a",
+    "Name": "Dash Attack (Late)",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "HitboxActive": "12-18",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "6",
+    "Angle": "60",
+    "BaseKnockBackSetKnockback": "80",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "60",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215346965952fcb5152a",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968215346965952fcb5152b",
+    "Name": "Ftilt",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "HitboxActive": "11-13",
+    "FirstActionableFrame": "35",
+    "BaseDamage": "12",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "20",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "96",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215346965952fcb5152b",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968215346965952fcb5152c",
+    "Name": "Utilt",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "HitboxActive": "8-12",
+    "FirstActionableFrame": "33",
+    "BaseDamage": "7",
+    "Angle": "95/85/85",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "122/130/123",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215346965952fcb5152c",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968215346965952fcb5152d",
+    "Name": "Dtilt",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "HitboxActive": "5-6",
+    "FirstActionableFrame": "20",
+    "BaseDamage": "8",
+    "Angle": "65",
+    "BaseKnockBackSetKnockback": "50",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "80",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215346965952fcb5152d",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968215346965952fcb5152e",
+    "Name": "Fsmash",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "HitboxActive": "16-18",
+    "FirstActionableFrame": "60",
+    "BaseDamage": "15/14/16/14",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100/100/99/100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215346965952fcb5152e",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968215346965952fcb5152f",
+    "Name": "Usmash (Hit 1)",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "HitboxActive": "11-12",
+    "FirstActionableFrame": "60",
+    "BaseDamage": "4",
+    "Angle": "130",
+    "BaseKnockBackSetKnockback": "W: 120",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215346965952fcb5152f",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968215346965952fcb51530",
+    "Name": "Usmash (Hits 2-3)",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "HitboxActive": "14-16, 20-22",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "3",
+    "Angle": "104/110/366",
+    "BaseKnockBackSetKnockback": "W: 90/40/20",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215346965952fcb51530",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968215346965952fcb51531",
+    "Name": "Usmash (Hit 4)",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "HitboxActive": "26-28",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "7",
+    "Angle": "95/98/98",
+    "BaseKnockBackSetKnockback": "40",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "142",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215346965952fcb51531",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968215346965952fcb51532",
+    "Name": "Dsmash (Hit 1)",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "HitboxActive": "7-8",
+    "FirstActionableFrame": "54",
+    "BaseDamage": "12",
+    "Angle": "27",
+    "BaseKnockBackSetKnockback": "26",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "80",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215346965952fcb51532",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968215346965952fcb51533",
+    "Name": "Dsmash (Hit 2)",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "HitboxActive": "15-16",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "15",
+    "Angle": "32",
+    "BaseKnockBackSetKnockback": "25",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "80",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215346965952fcb51533",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968215346965952fcb51534",
+    "Name": "Standing Grab",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "HitboxActive": "6-7",
+    "FirstActionableFrame": "29",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215346965952fcb51534",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968215346965952fcb51535",
+    "Name": "Dash Grab",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "HitboxActive": "8-9",
+    "FirstActionableFrame": "36",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215346965952fcb51535",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968215346965952fcb51536",
+    "Name": "Pivot Grab",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "HitboxActive": "9-10",
+    "FirstActionableFrame": "34",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215346965952fcb51536",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968215346965952fcb51537",
+    "Name": "Spotdodge",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "HitboxActive": "3-18",
+    "FirstActionableFrame": "28",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215346965952fcb51537",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968215346965952fcb51538",
+    "Name": "Forward Roll",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "HitboxActive": "4-17",
+    "FirstActionableFrame": "31",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215346965952fcb51538",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968215346965952fcb51539",
+    "Name": "Back Roll",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "HitboxActive": "4-17",
+    "FirstActionableFrame": "31",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215346965952fcb51539",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968215346965952fcb5153a",
+    "Name": "Airdodge",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "HitboxActive": "3-28",
+    "FirstActionableFrame": "34",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215346965952fcb5153a",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968215346965952fcb5153b",
+    "Name": "Nair",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "HitboxActive": "11-24",
+    "FirstActionableFrame": "49",
+    "BaseDamage": "8",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "48",
+    "LandingLag": "15",
+    "AutoCancel": "1-5, 33&gt;",
+    "KnockbackGrowth": "68",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215346965952fcb5153b",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968215346965952fcb5153c",
+    "Name": "Fair (Hits 1-2)",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "HitboxActive": "11, 16",
+    "FirstActionableFrame": "47",
+    "BaseDamage": "3",
+    "Angle": "366",
+    "BaseKnockBackSetKnockback": "5",
+    "LandingLag": "17",
+    "AutoCancel": "51&gt;",
+    "KnockbackGrowth": "100",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215346965952fcb5153c",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968215346965952fcb5153d",
+    "Name": "Fair (Hit 3)",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "HitboxActive": "21",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "5",
+    "Angle": "50",
+    "BaseKnockBackSetKnockback": "55",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "130",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215346965952fcb5153d",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968215346965952fcb5153e",
+    "Name": "Bair",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "HitboxActive": "8-9",
+    "FirstActionableFrame": "38",
+    "BaseDamage": "14",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "10",
+    "LandingLag": "15",
+    "AutoCancel": "29&gt;",
+    "KnockbackGrowth": "100",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215346965952fcb5153e",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968215346965952fcb5153f",
+    "Name": "Uair",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "HitboxActive": "11-13",
+    "FirstActionableFrame": "45",
+    "BaseDamage": "16",
+    "Angle": "80",
+    "BaseKnockBackSetKnockback": "25",
+    "LandingLag": "16",
+    "AutoCancel": "1-10, 30&gt;",
+    "KnockbackGrowth": "90",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215346965952fcb5153f",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968215346965952fcb51540",
+    "Name": "Uair (Late)",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "HitboxActive": "14-23",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "10",
+    "Angle": "80",
+    "BaseKnockBackSetKnockback": "18",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "85",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215346965952fcb51540",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968215346965952fcb51541",
+    "Name": "Dair",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "HitboxActive": "14-37 (Rehit rate: 5)",
+    "FirstActionableFrame": "59",
+    "BaseDamage": "1",
+    "Angle": "220/250",
+    "BaseKnockBackSetKnockback": "W: 10/30 B: 18",
+    "LandingLag": "30",
+    "AutoCancel": "1-4, 80&gt;",
+    "KnockbackGrowth": "80/100",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215346965952fcb51541",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968215346965952fcb51542",
+    "Name": "Dair (Landing)",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "HitboxActive": "2-3",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "5",
+    "Angle": "45",
+    "BaseKnockBackSetKnockback": "60",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "120",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215346965952fcb51542",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968215346965952fcb51543",
+    "Name": "Neutral 1: Gale Strike (Early)",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "HitboxActive": "23-39 (Rehit rate: 6)",
+    "FirstActionableFrame": "78",
+    "BaseDamage": "3.7",
+    "Angle": "86",
+    "BaseKnockBackSetKnockback": "80",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "104",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215346965952fcb51543",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968215346965952fcb51544",
+    "Name": "Neutral 1: Gale Strike",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "HitboxActive": "40-56",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "2.9",
+    "Angle": "86",
+    "BaseKnockBackSetKnockback": "80",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "105",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215346965952fcb51544",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968215346965952fcb51545",
+    "Name": "Neutral 1: Gale Strike (Late)",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "HitboxActive": "57-73",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "2",
+    "Angle": "86",
+    "BaseKnockBackSetKnockback": "70",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "106",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215346965952fcb51545",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968215346965952fcb51546",
+    "Name": "Neutral 1: Gale Strike (Windbox)",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "HitboxActive": "74-",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "0",
+    "Angle": "86/20",
+    "BaseKnockBackSetKnockback": "80/55",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215346965952fcb51546",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968215346965952fcb51547",
+    "Name": "Neutral 2: Shuriken of Light (Close)",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "HitboxActive": "16-22",
+    "FirstActionableFrame": "50",
+    "BaseDamage": "2",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "20",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "50",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215346965952fcb51547",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968215346965952fcb51548",
+    "Name": "Neutral 2: Shuriken of Light",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "HitboxActive": "23-29",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "4",
+    "Angle": "70",
+    "BaseKnockBackSetKnockback": "20",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "50",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215346965952fcb51548",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968215346965952fcb51549",
+    "Name": "Neutral 2: Shuriken of Light",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "HitboxActive": "30-36",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "6.5",
+    "Angle": "70",
+    "BaseKnockBackSetKnockback": "35",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "50",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215346965952fcb51549",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968215346965952fcb5154a",
+    "Name": "Neutral 2: Shuriken of Light",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "HitboxActive": "37-44",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "10",
+    "Angle": "70",
+    "BaseKnockBackSetKnockback": "50",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "50",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215346965952fcb5154a",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968215346965952fcb5154b",
+    "Name": "Neutral 3: Blade Flurry (No Charge, Hits 1-4)",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "HitboxActive": "17-18, 21-22, 25-26, 29-30",
+    "FirstActionableFrame": "85",
+    "BaseDamage": "0.6",
+    "Angle": "45/150",
+    "BaseKnockBackSetKnockback": "W: 8",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215346965952fcb5154b",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968215346965952fcb5154c",
+    "Name": "Neutral 3: Blade Flurry (No Charge, Hit 5)",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "HitboxActive": "33-34",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "0.5",
+    "Angle": "366",
+    "BaseKnockBackSetKnockback": "W: 22",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215346965952fcb5154c",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968215346965952fcb5154d",
+    "Name": "Neutral 3: Blade Flurry (No Charge, Final Hit)",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "HitboxActive": "44-45",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "7",
+    "Angle": "40",
+    "BaseKnockBackSetKnockback": "40",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "105",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215346965952fcb5154d",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968215346965952fcb5154e",
+    "Name": "Neutral 3: Blade Flurry (Full Charge, Hits 1-4)",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "HitboxActive": "66-67, 70-71, 74-75, 78-79",
+    "FirstActionableFrame": "134",
+    "BaseDamage": "1.25?",
+    "Angle": "45/150",
+    "BaseKnockBackSetKnockback": "W: 8",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215346965952fcb5154e",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968215346965952fcb5154f",
+    "Name": "Neutral 3: Blade Flurry (Full Charge, Hit 5)",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "HitboxActive": "82-83",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "2",
+    "Angle": "366",
+    "BaseKnockBackSetKnockback": "W: 22",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215346965952fcb5154f",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968215346965952fcb51550",
+    "Name": "Neutral 3: Blade Flurry (Full Charge, Final Hit)",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "HitboxActive": "93-94",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "17",
+    "Angle": "40",
+    "BaseKnockBackSetKnockback": "40",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "105",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215346965952fcb51550",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968215346965952fcb51551",
+    "Name": "Side 1: Airborne Assault (No Charge)",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "HitboxActive": "32-",
+    "FirstActionableFrame": "95",
+    "BaseDamage": "9",
+    "Angle": "50",
+    "BaseKnockBackSetKnockback": "90",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "75",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215346965952fcb51551",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968215346965952fcb51552",
+    "Name": "Side 1: Airborne Assault (Full Charge)",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "HitboxActive": "63-",
+    "FirstActionableFrame": "136",
+    "BaseDamage": "9",
+    "Angle": "50",
+    "BaseKnockBackSetKnockback": "90",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "75",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215346965952fcb51552",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968215346965952fcb51553",
+    "Name": "Side 2: Surging Slash (No Charge)",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "HitboxActive": "13-",
+    "FirstActionableFrame": "62",
+    "BaseDamage": "6",
+    "Angle": "55",
+    "BaseKnockBackSetKnockback": "70",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "88",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215346965952fcb51553",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968215346965952fcb51554",
+    "Name": "Side 2: Surging Slash (Full Charge)",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "HitboxActive": "-",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "6",
+    "Angle": "55",
+    "BaseKnockBackSetKnockback": "70",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "88",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215346965952fcb51554",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968215346965952fcb51555",
+    "Name": "Side 3: Chakram",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "HitboxActive": "18-",
+    "FirstActionableFrame": "53",
+    "BaseDamage": "-",
+    "Angle": "-",
+    "BaseKnockBackSetKnockback": "-",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "-",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215346965952fcb51555",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968215346965952fcb51556",
+    "Name": "Up 1: Stone Scabbard (Hit 1)",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "HitboxActive": "13-15",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "-",
+    "Angle": "-",
+    "BaseKnockBackSetKnockback": "-",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "-",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215346965952fcb51556",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968215346965952fcb51557",
+    "Name": "Up 1: Stone Scabbard (Hit 2)",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "HitboxActive": "42-",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "-",
+    "Angle": "-",
+    "BaseKnockBackSetKnockback": "-",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "-",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215346965952fcb51557",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968215346965952fcb51558",
+    "Name": "Up 1: Stone Scabbard (Landing)",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "HitboxActive": "1-",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "-",
+    "Angle": "-",
+    "BaseKnockBackSetKnockback": "-",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "-",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215346965952fcb51558",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968215346965952fcb51559",
+    "Name": "Up 2: Skyward Slash Dash (Hit 1)",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "HitboxActive": "24",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "2",
+    "Angle": "110",
+    "BaseKnockBackSetKnockback": "28",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "30",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215346965952fcb51559",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968215346965952fcb5155a",
+    "Name": "Up 2: Skyward Slash Dash (Hit 2-6)",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "HitboxActive": "29-30, 33-34, 37-38, 41-42, 45-46",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "1",
+    "Angle": "366/55/366/45",
+    "BaseKnockBackSetKnockback": "30/50/30/80",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "30",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215346965952fcb5155a",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968215346965952fcb5155b",
+    "Name": "Up 2: Skyward Slash Dash (Hit 7)",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "HitboxActive": "49-50",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "5",
+    "Angle": "45",
+    "BaseKnockBackSetKnockback": "70",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "104",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215346965952fcb5155b",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968215346965952fcb5155c",
+    "Name": "Up 3: Hero's Spin (No Charge, Early)",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "HitboxActive": "8-9",
+    "FirstActionableFrame": "79",
+    "BaseDamage": "14/13/9",
+    "Angle": "45",
+    "BaseKnockBackSetKnockback": "60",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "90",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215346965952fcb5155c",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968215346965952fcb5155d",
+    "Name": "Up 3: Hero's Spin (No Charge)",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "HitboxActive": "10-14",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "12/11/7",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "55",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "80",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215346965952fcb5155d",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968215346965952fcb5155e",
+    "Name": "Up 3: Hero's Spin (No Charge, Late)",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "HitboxActive": "15-24",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "9/9/7",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "55",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "80",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215346965952fcb5155e",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968215346965952fcb5155f",
+    "Name": "Up 3: Hero's Spin (No Charge, Latest)",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "HitboxActive": "25-40",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "7/7/5",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "20",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "80",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215346965952fcb5155f",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968215346965952fcb51560",
+    "Name": "Up 3: Hero's Spin (Air, Hit 1)",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "HitboxActive": "8",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "4",
+    "Angle": "85/80/366",
+    "BaseKnockBackSetKnockback": "W: 70/100/85",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215346965952fcb51560",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968215346965952fcb51561",
+    "Name": "Up 3: Hero's Spin (Air, Hit 2)",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "HitboxActive": "11",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "2",
+    "Angle": "120",
+    "BaseKnockBackSetKnockback": "W: 90",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215346965952fcb51561",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968215346965952fcb51562",
+    "Name": "Up 3: Hero's Spin (Air, Hit 3)",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "HitboxActive": "16",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "2",
+    "Angle": "366/82/45",
+    "BaseKnockBackSetKnockback": "W: 60/100/85",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215346965952fcb51562",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968215346965952fcb51563",
+    "Name": "Up 3: Hero's Spin (Air, Hit 4)",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "HitboxActive": "19",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "2",
+    "Angle": "120",
+    "BaseKnockBackSetKnockback": "W: 90",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215346965952fcb51563",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968215346965952fcb51564",
+    "Name": "Up 3: Hero's Spin (Air, Hit 5)",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "HitboxActive": "22",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "2",
+    "Angle": "366/90/45",
+    "BaseKnockBackSetKnockback": "W: 50/100/85",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215346965952fcb51564",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968215346965952fcb51565",
+    "Name": "Up 3: Hero's Spin (Air, Hit 6)",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "HitboxActive": "26",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "2",
+    "Angle": "120",
+    "BaseKnockBackSetKnockback": "W: 90",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215346965952fcb51565",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968215346965952fcb51566",
+    "Name": "Up 3: Hero's Spin (Air, Hit 7)",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "HitboxActive": "31",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "2",
+    "Angle": "90/90/50",
+    "BaseKnockBackSetKnockback": "W: 45/80/85",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215346965952fcb51566",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968215346965952fcb51567",
+    "Name": "Up 3: Hero's Spin (Air, Hit 8)",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "HitboxActive": "38",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "2",
+    "Angle": "120",
+    "BaseKnockBackSetKnockback": "W: 90",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215346965952fcb51567",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968215346965952fcb51568",
+    "Name": "Up 3: Hero's Spin (Air, Hit 9)",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "HitboxActive": "47-48",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "4",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "200",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215346965952fcb51568",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968215346965952fcb51569",
+    "Name": "Down 1: Blade Counter",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "HitboxActive": "Counters: 6-29",
+    "FirstActionableFrame": "60",
+    "BaseDamage": "-",
+    "Angle": "-",
+    "BaseKnockBackSetKnockback": "-",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "-",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215346965952fcb51569",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968215346965952fcb5156a",
+    "Name": "Down 1: Blade Counter (On Hit)",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "HitboxActive": "16 Freeze Frames, (Intangible: 1-16)",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "-",
+    "Angle": "-",
+    "BaseKnockBackSetKnockback": "-",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "-",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215346965952fcb5156a",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968215346965952fcb5156b",
+    "Name": "Down 1: Blade Counter (Attack)",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "HitboxActive": "6-7 (Intangible: 1-8)",
+    "FirstActionableFrame": "50",
+    "BaseDamage": "8 (1.25&#215;)",
+    "Angle": "48",
+    "BaseKnockBackSetKnockback": "90",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "70",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215346965952fcb5156b",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968215346965952fcb5156c",
+    "Name": "Down 2: Reversal Slash",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "HitboxActive": "12-14 (Reflects: 6-22?)",
+    "FirstActionableFrame": "38",
+    "BaseDamage": "6",
+    "Angle": "110",
+    "BaseKnockBackSetKnockback": "W: 60",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215346965952fcb5156c",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968215346965952fcb5156d",
+    "Name": "Down 3: Power Thrust (Early, Ground)",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "HitboxActive": "14-16",
+    "FirstActionableFrame": "62",
+    "BaseDamage": "10/13",
+    "Angle": "35",
+    "BaseKnockBackSetKnockback": "50",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "70/80",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215346965952fcb5156d",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968215346965952fcb5156e",
+    "Name": "Down 3: Power Thrust (Ground)",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "HitboxActive": "17-24",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "8/11",
+    "Angle": "37",
+    "BaseKnockBackSetKnockback": "50",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "70/80",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215346965952fcb5156e",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968215346965952fcb5156f",
+    "Name": "Down 3: Power Thrust (Late, Ground)",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "HitboxActive": "25-32",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "8",
+    "Angle": "50",
+    "BaseKnockBackSetKnockback": "50",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "70",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215346965952fcb5156f",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968215346965952fcb51570",
+    "Name": "Down 3: Power Thrust (Early, Air)",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "HitboxActive": "16-18",
+    "FirstActionableFrame": "66",
+    "BaseDamage": "10/13",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "40",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "70/80",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215346965952fcb51570",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968215346965952fcb51571",
+    "Name": "Down 3: Power Thrust (Air)",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "HitboxActive": "19-26",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "8/11",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "40",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "65/77",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215346965952fcb51571",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968215346965952fcb51572",
+    "Name": "Down 3: Power Thrust (Late, Air)",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "HitboxActive": "27-34",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "5.5/8",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "40",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "60/70",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215346965952fcb51572",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968215346965952fcb51573",
+    "Name": "Down 3: Power Thrust (Air, Landing)",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "HitboxActive": "2-3",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "7",
+    "Angle": "80",
+    "BaseKnockBackSetKnockback": "80",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "20",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215346965952fcb51573",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968215346965952fcb51574",
+    "Name": "Fthrow",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "HitboxActive": null,
+    "FirstActionableFrame": null,
+    "BaseDamage": "3, 3",
+    "Angle": "45",
+    "BaseKnockBackSetKnockback": "60",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "110",
+    "MoveType": "throw",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215346965952fcb51574",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968215346965952fcb51575",
+    "Name": "Bthrow",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "HitboxActive": null,
+    "FirstActionableFrame": null,
+    "BaseDamage": "3, 3",
+    "Angle": "45",
+    "BaseKnockBackSetKnockback": "60",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "130",
+    "MoveType": "throw",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215346965952fcb51575",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968215346965952fcb51576",
+    "Name": "Uthrow",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "HitboxActive": null,
+    "FirstActionableFrame": null,
+    "BaseDamage": "3, 2",
+    "Angle": "80",
+    "BaseKnockBackSetKnockback": "50",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "throw",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215346965952fcb51576",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968215346965952fcb51577",
+    "Name": "Dthrow",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "HitboxActive": null,
+    "FirstActionableFrame": null,
+    "BaseDamage": "2, 2",
+    "Angle": "80",
+    "BaseKnockBackSetKnockback": "75",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "120",
+    "MoveType": "throw",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215346965952fcb51577",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter",
+        "Title": ""
+      }
+    ]
   }
 ]

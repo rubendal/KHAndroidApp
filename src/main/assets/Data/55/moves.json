@@ -1,576 +1,1262 @@
 ﻿[
   {
-    "hitboxActive": "4-5 (Partial Intangibility?: 1-16)",
-    "firstActionableFrame": "26",
-    "baseDamage": "3",
-    "angle": "80/70",
-    "baseKnockBackSetKnockback": "W: 25",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Jab 1",
-    "ownerId": 55,
-    "id": 3057
+    "InstanceId": "5968219146965952fcb51d1c",
+    "Name": "Jab 1",
+    "OwnerId": 55,
+    "Owner": "WiiFitTrainer",
+    "HitboxActive": "4-5 (Partial Intangibility?: 1-16)",
+    "FirstActionableFrame": "26",
+    "BaseDamage": "3",
+    "Angle": "80/70",
+    "BaseKnockBackSetKnockback": "W: 25",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968219146965952fcb51d1c",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/WiiFitTrainer",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "5",
-    "firstActionableFrame": "-",
-    "baseDamage": "2",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "40",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "140",
-    "type": 1,
-    "name": "Jab 1 (Back)",
-    "ownerId": 55,
-    "id": 3058
+    "InstanceId": "5968219146965952fcb51d1d",
+    "Name": "Jab 1 (Back)",
+    "OwnerId": 55,
+    "Owner": "WiiFitTrainer",
+    "HitboxActive": "5",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "2",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "40",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "140",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968219146965952fcb51d1d",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/WiiFitTrainer",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "3-4",
-    "firstActionableFrame": "30",
-    "baseDamage": "2",
-    "angle": "45/70",
-    "baseKnockBackSetKnockback": "W: 25",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Jab 2",
-    "ownerId": 55,
-    "id": 3059
+    "InstanceId": "5968219146965952fcb51d1e",
+    "Name": "Jab 2",
+    "OwnerId": 55,
+    "Owner": "WiiFitTrainer",
+    "HitboxActive": "3-4",
+    "FirstActionableFrame": "30",
+    "BaseDamage": "2",
+    "Angle": "45/70",
+    "BaseKnockBackSetKnockback": "W: 25",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968219146965952fcb51d1e",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/WiiFitTrainer",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "6-7",
-    "firstActionableFrame": "40",
-    "baseDamage": "3",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "30/10",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "120/35",
-    "type": 1,
-    "name": "Jab 3",
-    "ownerId": 55,
-    "id": 3060
+    "InstanceId": "5968219146965952fcb51d1f",
+    "Name": "Jab 3",
+    "OwnerId": 55,
+    "Owner": "WiiFitTrainer",
+    "HitboxActive": "6-7",
+    "FirstActionableFrame": "40",
+    "BaseDamage": "3",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "30/10",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "120/35",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968219146965952fcb51d1f",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/WiiFitTrainer",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "7-13",
-    "firstActionableFrame": "43",
-    "baseDamage": "6",
-    "angle": "65",
-    "baseKnockBackSetKnockback": "75",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "80",
-    "type": 1,
-    "name": "Dash Attack",
-    "ownerId": 55,
-    "id": 3061
+    "InstanceId": "5968219146965952fcb51d20",
+    "Name": "Dash Attack",
+    "OwnerId": 55,
+    "Owner": "WiiFitTrainer",
+    "HitboxActive": "7-13",
+    "FirstActionableFrame": "43",
+    "BaseDamage": "6",
+    "Angle": "65",
+    "BaseKnockBackSetKnockback": "75",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "80",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968219146965952fcb51d20",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/WiiFitTrainer",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "6-7",
-    "firstActionableFrame": "33",
-    "baseDamage": "9",
-    "angle": "361/361/90/90",
-    "baseKnockBackSetKnockback": "50",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Ftilt",
-    "ownerId": 55,
-    "id": 3062
+    "InstanceId": "5968219146965952fcb51d21",
+    "Name": "Ftilt",
+    "OwnerId": 55,
+    "Owner": "WiiFitTrainer",
+    "HitboxActive": "6-7",
+    "FirstActionableFrame": "33",
+    "BaseDamage": "9",
+    "Angle": "361/361/90/90",
+    "BaseKnockBackSetKnockback": "50",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968219146965952fcb51d21",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/WiiFitTrainer",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "5-7",
-    "firstActionableFrame": "35",
-    "baseDamage": "10",
-    "angle": "90",
-    "baseKnockBackSetKnockback": "40",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "70",
-    "type": 1,
-    "name": "Utilt",
-    "ownerId": 55,
-    "id": 3063
+    "InstanceId": "5968219146965952fcb51d22",
+    "Name": "Utilt",
+    "OwnerId": 55,
+    "Owner": "WiiFitTrainer",
+    "HitboxActive": "5-7",
+    "FirstActionableFrame": "35",
+    "BaseDamage": "10",
+    "Angle": "90",
+    "BaseKnockBackSetKnockback": "40",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "70",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968219146965952fcb51d22",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/WiiFitTrainer",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "7 (Ground Only, Unblockable)",
-    "firstActionableFrame": "38",
-    "baseDamage": "0",
-    "angle": "0",
-    "baseKnockBackSetKnockback": "W: 28",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Dtilt (Windbox)",
-    "ownerId": 55,
-    "id": 3064
+    "InstanceId": "5968219146965952fcb51d23",
+    "Name": "Dtilt (Windbox)",
+    "OwnerId": 55,
+    "Owner": "WiiFitTrainer",
+    "HitboxActive": "7 (Ground Only, Unblockable)",
+    "FirstActionableFrame": "38",
+    "BaseDamage": "0",
+    "Angle": "0",
+    "BaseKnockBackSetKnockback": "W: 28",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968219146965952fcb51d23",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/WiiFitTrainer",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "10-11",
-    "firstActionableFrame": "-",
-    "baseDamage": "12",
-    "angle": "55",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "80",
-    "type": 1,
-    "name": "Dtilt",
-    "ownerId": 55,
-    "id": 3065
+    "InstanceId": "5968219146965952fcb51d24",
+    "Name": "Dtilt",
+    "OwnerId": 55,
+    "Owner": "WiiFitTrainer",
+    "HitboxActive": "10-11",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "12",
+    "Angle": "55",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "80",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968219146965952fcb51d24",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/WiiFitTrainer",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "16-19",
-    "firstActionableFrame": "62",
-    "baseDamage": "15.5/15.5/14/14",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "26",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "106",
-    "type": 1,
-    "name": "Fsmash",
-    "ownerId": 55,
-    "id": 3066
+    "InstanceId": "5968219146965952fcb51d25",
+    "Name": "Fsmash",
+    "OwnerId": 55,
+    "Owner": "WiiFitTrainer",
+    "HitboxActive": "16-19",
+    "FirstActionableFrame": "62",
+    "BaseDamage": "15.5/15.5/14/14",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "26",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "106",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968219146965952fcb51d25",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/WiiFitTrainer",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "14-15 (Intangible: 12-15)",
-    "firstActionableFrame": "58",
-    "baseDamage": "18/15/15",
-    "angle": "90",
-    "baseKnockBackSetKnockback": "31",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "97/102/102",
-    "type": 1,
-    "name": "Usmash",
-    "ownerId": 55,
-    "id": 3067
+    "InstanceId": "5968219146965952fcb51d26",
+    "Name": "Usmash",
+    "OwnerId": 55,
+    "Owner": "WiiFitTrainer",
+    "HitboxActive": "14-15 (Intangible: 12-15)",
+    "FirstActionableFrame": "58",
+    "BaseDamage": "18/15/15",
+    "Angle": "90",
+    "BaseKnockBackSetKnockback": "31",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "97/102/102",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968219146965952fcb51d26",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/WiiFitTrainer",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "16-22",
-    "firstActionableFrame": "-",
-    "baseDamage": "11/8/8",
-    "angle": "90/70/70",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "112/107/107",
-    "type": 1,
-    "name": "Usmash (Late)",
-    "ownerId": 55,
-    "id": 3068
+    "InstanceId": "5968219146965952fcb51d27",
+    "Name": "Usmash (Late)",
+    "OwnerId": 55,
+    "Owner": "WiiFitTrainer",
+    "HitboxActive": "16-22",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "11/8/8",
+    "Angle": "90/70/70",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "112/107/107",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968219146965952fcb51d27",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/WiiFitTrainer",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "18-21",
-    "firstActionableFrame": "57",
-    "baseDamage": "12/12/10/10",
-    "angle": "20",
-    "baseKnockBackSetKnockback": "20",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "110",
-    "type": 1,
-    "name": "Dsmash",
-    "ownerId": 55,
-    "id": 3069
+    "InstanceId": "5968219146965952fcb51d28",
+    "Name": "Dsmash",
+    "OwnerId": 55,
+    "Owner": "WiiFitTrainer",
+    "HitboxActive": "18-21",
+    "FirstActionableFrame": "57",
+    "BaseDamage": "12/12/10/10",
+    "Angle": "20",
+    "BaseKnockBackSetKnockback": "20",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "110",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968219146965952fcb51d28",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/WiiFitTrainer",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "6-7",
-    "firstActionableFrame": "29",
-    "baseDamage": "",
-    "angle": "",
-    "baseKnockBackSetKnockback": "",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "",
-    "type": 1,
-    "name": "Standing Grab",
-    "ownerId": 55,
-    "id": 3071
+    "InstanceId": "5968219146965952fcb51d29",
+    "Name": "Standing Grab",
+    "OwnerId": 55,
+    "Owner": "WiiFitTrainer",
+    "HitboxActive": "6-7",
+    "FirstActionableFrame": "29",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968219146965952fcb51d29",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/WiiFitTrainer",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "9-10",
-    "firstActionableFrame": "38",
-    "baseDamage": "",
-    "angle": "",
-    "baseKnockBackSetKnockback": "",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "",
-    "type": 1,
-    "name": "Dash Grab",
-    "ownerId": 55,
-    "id": 3072
+    "InstanceId": "5968219146965952fcb51d2a",
+    "Name": "Dash Grab",
+    "OwnerId": 55,
+    "Owner": "WiiFitTrainer",
+    "HitboxActive": "9-10",
+    "FirstActionableFrame": "38",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968219146965952fcb51d2a",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/WiiFitTrainer",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "10-11",
-    "firstActionableFrame": "34",
-    "baseDamage": "",
-    "angle": "",
-    "baseKnockBackSetKnockback": "",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "",
-    "type": 1,
-    "name": "Pivot Grab",
-    "ownerId": 55,
-    "id": 3073
+    "InstanceId": "5968219146965952fcb51d2b",
+    "Name": "Pivot Grab",
+    "OwnerId": 55,
+    "Owner": "WiiFitTrainer",
+    "HitboxActive": "10-11",
+    "FirstActionableFrame": "34",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968219146965952fcb51d2b",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/WiiFitTrainer",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "3, 7",
-    "angle": "45",
-    "baseKnockBackSetKnockback": "86",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "50",
-    "type": 3,
-    "name": "Fthrow",
-    "ownerId": 55,
-    "id": 3075
+    "InstanceId": "5968219146965952fcb51d2c",
+    "Name": "Spotdodge",
+    "OwnerId": 55,
+    "Owner": "WiiFitTrainer",
+    "HitboxActive": "2-16",
+    "FirstActionableFrame": "26",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968219146965952fcb51d2c",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/WiiFitTrainer",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "3, 6",
-    "angle": "45",
-    "baseKnockBackSetKnockback": "90",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "65",
-    "type": 3,
-    "name": "Bthrow",
-    "ownerId": 55,
-    "id": 3076
+    "InstanceId": "5968219146965952fcb51d2d",
+    "Name": "Forward Roll",
+    "OwnerId": 55,
+    "Owner": "WiiFitTrainer",
+    "HitboxActive": "4-16",
+    "FirstActionableFrame": "30",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968219146965952fcb51d2d",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/WiiFitTrainer",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "11",
-    "angle": "85",
-    "baseKnockBackSetKnockback": "50",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "80",
-    "type": 3,
-    "name": "Uthrow",
-    "ownerId": 55,
-    "id": 3077
+    "InstanceId": "5968219146965952fcb51d2e",
+    "Name": "Back Roll",
+    "OwnerId": 55,
+    "Owner": "WiiFitTrainer",
+    "HitboxActive": "4-16",
+    "FirstActionableFrame": "30",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968219146965952fcb51d2e",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/WiiFitTrainer",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "7",
-    "angle": "100",
-    "baseKnockBackSetKnockback": "66",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "75",
-    "type": 3,
-    "name": "Dthrow",
-    "ownerId": 55,
-    "id": 3078
+    "InstanceId": "5968219146965952fcb51d2f",
+    "Name": "Airdodge",
+    "OwnerId": 55,
+    "Owner": "WiiFitTrainer",
+    "HitboxActive": "2-26",
+    "FirstActionableFrame": "32",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968219146965952fcb51d2f",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/WiiFitTrainer",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "9-11",
-    "firstActionableFrame": "35",
-    "baseDamage": "5",
-    "angle": "110",
-    "baseKnockBackSetKnockback": "50",
-    "landingLag": "14",
-    "autoCancel": "1-5, 33&gt;",
-    "knockbackGrowth": "72",
-    "type": 0,
-    "name": "Nair (Hit 1)",
-    "ownerId": 55,
-    "id": 3084
+    "InstanceId": "5968219146965952fcb51d30",
+    "Name": "Nair (Hit 1)",
+    "OwnerId": 55,
+    "Owner": "WiiFitTrainer",
+    "HitboxActive": "9-11",
+    "FirstActionableFrame": "35",
+    "BaseDamage": "5",
+    "Angle": "110",
+    "BaseKnockBackSetKnockback": "50",
+    "LandingLag": "14",
+    "AutoCancel": "1-5, 33&gt;",
+    "KnockbackGrowth": "72",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968219146965952fcb51d30",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/WiiFitTrainer",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "12-13",
-    "firstActionableFrame": "-",
-    "baseDamage": "9",
-    "angle": "90",
-    "baseKnockBackSetKnockback": "20",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "102",
-    "type": 0,
-    "name": "Nair (Hit 2)",
-    "ownerId": 55,
-    "id": 3085
+    "InstanceId": "5968219146965952fcb51d31",
+    "Name": "Nair (Hit 2)",
+    "OwnerId": 55,
+    "Owner": "WiiFitTrainer",
+    "HitboxActive": "12-13",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "9",
+    "Angle": "90",
+    "BaseKnockBackSetKnockback": "20",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "102",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968219146965952fcb51d31",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/WiiFitTrainer",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "9-10",
-    "firstActionableFrame": "46",
-    "baseDamage": "10",
-    "angle": "50/50/300",
-    "baseKnockBackSetKnockback": "20/20/10",
-    "landingLag": "15",
-    "autoCancel": "1-8, 25&gt;",
-    "knockbackGrowth": "102/102/62",
-    "type": 0,
-    "name": "Fair",
-    "ownerId": 55,
-    "id": 3086
+    "InstanceId": "5968219146965952fcb51d32",
+    "Name": "Fair",
+    "OwnerId": 55,
+    "Owner": "WiiFitTrainer",
+    "HitboxActive": "9-10",
+    "FirstActionableFrame": "46",
+    "BaseDamage": "10",
+    "Angle": "50/50/300",
+    "BaseKnockBackSetKnockback": "20/20/10",
+    "LandingLag": "15",
+    "AutoCancel": "1-8, 25&gt;",
+    "KnockbackGrowth": "102/102/62",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968219146965952fcb51d32",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/WiiFitTrainer",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "11-15",
-    "firstActionableFrame": "-",
-    "baseDamage": "6",
-    "angle": "55/55/45",
-    "baseKnockBackSetKnockback": "20",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "102",
-    "type": 0,
-    "name": "Fair (Late)",
-    "ownerId": 55,
-    "id": 3087
+    "InstanceId": "5968219146965952fcb51d33",
+    "Name": "Fair (Late)",
+    "OwnerId": 55,
+    "Owner": "WiiFitTrainer",
+    "HitboxActive": "11-15",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "6",
+    "Angle": "55/55/45",
+    "BaseKnockBackSetKnockback": "20",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "102",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968219146965952fcb51d33",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/WiiFitTrainer",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "5",
-    "firstActionableFrame": "49",
-    "baseDamage": "13.5/11/9",
-    "angle": "47/361/361",
-    "baseKnockBackSetKnockback": "40/20/10",
-    "landingLag": "20",
-    "autoCancel": "1-2, 43&gt;",
-    "knockbackGrowth": "100/102/102",
-    "type": 0,
-    "name": "Bair",
-    "ownerId": 55,
-    "id": 3088
+    "InstanceId": "5968219146965952fcb51d34",
+    "Name": "Bair",
+    "OwnerId": 55,
+    "Owner": "WiiFitTrainer",
+    "HitboxActive": "5",
+    "FirstActionableFrame": "49",
+    "BaseDamage": "13.5/11/9",
+    "Angle": "47/361/361",
+    "BaseKnockBackSetKnockback": "40/20/10",
+    "LandingLag": "20",
+    "AutoCancel": "1-2, 43&gt;",
+    "KnockbackGrowth": "100/102/102",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968219146965952fcb51d34",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/WiiFitTrainer",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "6-11",
-    "firstActionableFrame": "-",
-    "baseDamage": "6",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "30/20",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "102",
-    "type": 0,
-    "name": "Bair (Late)",
-    "ownerId": 55,
-    "id": 3089
+    "InstanceId": "5968219146965952fcb51d35",
+    "Name": "Bair (Late)",
+    "OwnerId": 55,
+    "Owner": "WiiFitTrainer",
+    "HitboxActive": "6-11",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "6",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "30/20",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "102",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968219146965952fcb51d35",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/WiiFitTrainer",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "6-10",
-    "firstActionableFrame": "40",
-    "baseDamage": "10",
-    "angle": "72",
-    "baseKnockBackSetKnockback": "60",
-    "landingLag": "15",
-    "autoCancel": "1-5, 36&gt;",
-    "knockbackGrowth": "82",
-    "type": 0,
-    "name": "Uair",
-    "ownerId": 55,
-    "id": 3090
+    "InstanceId": "5968219146965952fcb51d36",
+    "Name": "Uair",
+    "OwnerId": 55,
+    "Owner": "WiiFitTrainer",
+    "HitboxActive": "6-10",
+    "FirstActionableFrame": "40",
+    "BaseDamage": "10",
+    "Angle": "72",
+    "BaseKnockBackSetKnockback": "60",
+    "LandingLag": "15",
+    "AutoCancel": "1-5, 36&gt;",
+    "KnockbackGrowth": "82",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968219146965952fcb51d36",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/WiiFitTrainer",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "20-21",
-    "firstActionableFrame": "45",
-    "baseDamage": "14/13",
-    "angle": "270/45",
-    "baseKnockBackSetKnockback": "20/50",
-    "landingLag": "20",
-    "autoCancel": "40&gt;",
-    "knockbackGrowth": "82/80",
-    "type": 0,
-    "name": "Dair",
-    "ownerId": 55,
-    "id": 3091
+    "InstanceId": "5968219146965952fcb51d37",
+    "Name": "Dair",
+    "OwnerId": 55,
+    "Owner": "WiiFitTrainer",
+    "HitboxActive": "20-21",
+    "FirstActionableFrame": "45",
+    "BaseDamage": "14/13",
+    "Angle": "270/45",
+    "BaseKnockBackSetKnockback": "20/50",
+    "LandingLag": "20",
+    "AutoCancel": "40&gt;",
+    "KnockbackGrowth": "82/80",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968219146965952fcb51d37",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/WiiFitTrainer",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "22-24",
-    "firstActionableFrame": "-",
-    "baseDamage": "8",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "102",
-    "type": 0,
-    "name": "Dair (Late)",
-    "ownerId": 55,
-    "id": 3092
+    "InstanceId": "5968219146965952fcb51d38",
+    "Name": "Dair (Late)",
+    "OwnerId": 55,
+    "Owner": "WiiFitTrainer",
+    "HitboxActive": "22-24",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "8",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "102",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968219146965952fcb51d38",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/WiiFitTrainer",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "24-102",
-    "firstActionableFrame": "-",
-    "baseDamage": "0",
-    "angle": "50",
-    "baseKnockBackSetKnockback": "10",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "130",
-    "type": 2,
-    "name": "Sun Salutation (Windbox)",
-    "ownerId": 55,
-    "id": 3093
+    "InstanceId": "5968219146965952fcb51d39",
+    "Name": "Sun Salutation (Windbox)",
+    "OwnerId": 55,
+    "Owner": "WiiFitTrainer",
+    "HitboxActive": "24-102",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "0",
+    "Angle": "50",
+    "BaseKnockBackSetKnockback": "10",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "130",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968219146965952fcb51d39",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/WiiFitTrainer",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "21-",
-    "firstActionableFrame": "57",
-    "baseDamage": "5 (Heals 2%)",
-    "angle": "50",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "73",
-    "type": 2,
-    "name": "Sun Salutation",
-    "ownerId": 55,
-    "id": 3094
+    "InstanceId": "5968219146965952fcb51d3a",
+    "Name": "Sun Salutation",
+    "OwnerId": 55,
+    "Owner": "WiiFitTrainer",
+    "HitboxActive": "21-",
+    "FirstActionableFrame": "57",
+    "BaseDamage": "5 (Heals 2%)",
+    "Angle": "50",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "73",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968219146965952fcb51d3a",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/WiiFitTrainer",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "16-17",
-    "firstActionableFrame": "41",
-    "baseDamage": "15",
-    "angle": "295",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "71",
-    "type": 2,
-    "name": "Header",
-    "ownerId": 55,
-    "id": 3095
+    "InstanceId": "5968219146965952fcb51d3b",
+    "Name": "Header",
+    "OwnerId": 55,
+    "Owner": "WiiFitTrainer",
+    "HitboxActive": "16-17",
+    "FirstActionableFrame": "41",
+    "BaseDamage": "15",
+    "Angle": "295",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "71",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968219146965952fcb51d3b",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/WiiFitTrainer",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "18-20",
-    "firstActionableFrame": "-",
-    "baseDamage": "10",
-    "angle": "295",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "71",
-    "type": 2,
-    "name": "Header (Late)",
-    "ownerId": 55,
-    "id": 3096
+    "InstanceId": "5968219146965952fcb51d3c",
+    "Name": "Header (Late)",
+    "OwnerId": 55,
+    "Owner": "WiiFitTrainer",
+    "HitboxActive": "18-20",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "10",
+    "Angle": "295",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "71",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968219146965952fcb51d3c",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/WiiFitTrainer",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "31-32",
-    "firstActionableFrame": "56",
-    "baseDamage": "-",
-    "angle": "-",
-    "baseKnockBackSetKnockback": "-",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "-",
-    "type": 2,
-    "name": "Header (No Input)",
-    "ownerId": 55,
-    "id": 3097
+    "InstanceId": "5968219146965952fcb51d3d",
+    "Name": "Header (No Input)",
+    "OwnerId": 55,
+    "Owner": "WiiFitTrainer",
+    "HitboxActive": "31-32",
+    "FirstActionableFrame": "56",
+    "BaseDamage": "-",
+    "Angle": "-",
+    "BaseKnockBackSetKnockback": "-",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "-",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968219146965952fcb51d3d",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/WiiFitTrainer",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "33-35",
-    "firstActionableFrame": "-",
-    "baseDamage": "-",
-    "angle": "-",
-    "baseKnockBackSetKnockback": "-",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "-",
-    "type": 2,
-    "name": "Header (No Input, Late)",
-    "ownerId": 55,
-    "id": 3098
+    "InstanceId": "5968219146965952fcb51d3e",
+    "Name": "Header (No Input, Late)",
+    "OwnerId": 55,
+    "Owner": "WiiFitTrainer",
+    "HitboxActive": "33-35",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "-",
+    "Angle": "-",
+    "BaseKnockBackSetKnockback": "-",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "-",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968219146965952fcb51d3e",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/WiiFitTrainer",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "Generated: Frame 1",
-    "firstActionableFrame": "-",
-    "baseDamage": "-",
-    "angle": "-",
-    "baseKnockBackSetKnockback": "-",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "-",
-    "type": 2,
-    "name": "Header (Soccer Ball)",
-    "ownerId": 55,
-    "id": 3099
+    "InstanceId": "5968219146965952fcb51d3f",
+    "Name": "Header (Soccer Ball)",
+    "OwnerId": 55,
+    "Owner": "WiiFitTrainer",
+    "HitboxActive": "Generated: Frame 1",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "-",
+    "Angle": "-",
+    "BaseKnockBackSetKnockback": "-",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "-",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968219146965952fcb51d3f",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/WiiFitTrainer",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "8-",
-    "firstActionableFrame": "-",
-    "baseDamage": "5",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "10",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "110",
-    "type": 2,
-    "name": "Super Hoop",
-    "ownerId": 55,
-    "id": 3100
+    "InstanceId": "5968219146965952fcb51d40",
+    "Name": "Super Hoop",
+    "OwnerId": 55,
+    "Owner": "WiiFitTrainer",
+    "HitboxActive": "8-",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "5",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "10",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "110",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968219146965952fcb51d40",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/WiiFitTrainer",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "Lasts ~590 Frames",
-    "firstActionableFrame": "31",
-    "baseDamage": "Heals 2%, Damage 1.2&#215;",
-    "angle": "-",
-    "baseKnockBackSetKnockback": "-",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "-",
-    "type": 2,
-    "name": "Deep Breathing (Fastest)",
-    "ownerId": 55,
-    "id": 3101
+    "InstanceId": "5968219146965952fcb51d41",
+    "Name": "Deep Breathing (Fastest)",
+    "OwnerId": 55,
+    "Owner": "WiiFitTrainer",
+    "HitboxActive": "Lasts ~590 Frames",
+    "FirstActionableFrame": "31",
+    "BaseDamage": "Heals 2%, Damage 1.2&#215;",
+    "Angle": "-",
+    "BaseKnockBackSetKnockback": "-",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "-",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968219146965952fcb51d41",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/WiiFitTrainer",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "Lasts ~420 Frames",
-    "firstActionableFrame": "31",
-    "baseDamage": "Heals 2%, Damage 1.16&#215;",
-    "angle": "-",
-    "baseKnockBackSetKnockback": "-",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "-",
-    "type": 2,
-    "name": "Deep Breathing (Slowest)",
-    "ownerId": 55,
-    "id": 3102
+    "InstanceId": "5968219146965952fcb51d42",
+    "Name": "Deep Breathing (Slowest)",
+    "OwnerId": 55,
+    "Owner": "WiiFitTrainer",
+    "HitboxActive": "Lasts ~420 Frames",
+    "FirstActionableFrame": "31",
+    "BaseDamage": "Heals 2%, Damage 1.16&#215;",
+    "Angle": "-",
+    "BaseKnockBackSetKnockback": "-",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "-",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968219146965952fcb51d42",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/WiiFitTrainer",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "16",
-    "baseDamage": "-",
-    "angle": "-",
-    "baseKnockBackSetKnockback": "-",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "-",
-    "type": 2,
-    "name": "Deep Breathing (Aerial)",
-    "ownerId": 55,
-    "id": 3103
+    "InstanceId": "5968219146965952fcb51d43",
+    "Name": "Deep Breathing (Aerial)",
+    "OwnerId": 55,
+    "Owner": "WiiFitTrainer",
+    "HitboxActive": "-",
+    "FirstActionableFrame": "16",
+    "BaseDamage": "-",
+    "Angle": "-",
+    "BaseKnockBackSetKnockback": "-",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "-",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968219146965952fcb51d43",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/WiiFitTrainer",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "49",
-    "baseDamage": "-",
-    "angle": "-",
-    "baseKnockBackSetKnockback": "-",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "-",
-    "type": 2,
-    "name": "Deep Breathing (Failure)",
-    "ownerId": 55,
-    "id": 3104
+    "InstanceId": "5968219146965952fcb51d44",
+    "Name": "Deep Breathing (Failure)",
+    "OwnerId": 55,
+    "Owner": "WiiFitTrainer",
+    "HitboxActive": "-",
+    "FirstActionableFrame": "49",
+    "BaseDamage": "-",
+    "Angle": "-",
+    "BaseKnockBackSetKnockback": "-",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "-",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968219146965952fcb51d44",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/WiiFitTrainer",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968219146965952fcb51d45",
+    "Name": "Fthrow",
+    "OwnerId": 55,
+    "Owner": "WiiFitTrainer",
+    "HitboxActive": null,
+    "FirstActionableFrame": null,
+    "BaseDamage": "3, 7",
+    "Angle": "45",
+    "BaseKnockBackSetKnockback": "86",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "50",
+    "MoveType": "throw",
+    "IsWeightDependent": true,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968219146965952fcb51d45",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/WiiFitTrainer",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968219146965952fcb51d46",
+    "Name": "Bthrow",
+    "OwnerId": 55,
+    "Owner": "WiiFitTrainer",
+    "HitboxActive": null,
+    "FirstActionableFrame": null,
+    "BaseDamage": "3, 6",
+    "Angle": "45",
+    "BaseKnockBackSetKnockback": "90",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "65",
+    "MoveType": "throw",
+    "IsWeightDependent": true,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968219146965952fcb51d46",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/WiiFitTrainer",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968219146965952fcb51d47",
+    "Name": "Uthrow",
+    "OwnerId": 55,
+    "Owner": "WiiFitTrainer",
+    "HitboxActive": null,
+    "FirstActionableFrame": null,
+    "BaseDamage": "11",
+    "Angle": "85",
+    "BaseKnockBackSetKnockback": "50",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "80",
+    "MoveType": "throw",
+    "IsWeightDependent": true,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968219146965952fcb51d47",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/WiiFitTrainer",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968219146965952fcb51d48",
+    "Name": "Dthrow",
+    "OwnerId": 55,
+    "Owner": "WiiFitTrainer",
+    "HitboxActive": null,
+    "FirstActionableFrame": null,
+    "BaseDamage": "7",
+    "Angle": "100",
+    "BaseKnockBackSetKnockback": "66",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "75",
+    "MoveType": "throw",
+    "IsWeightDependent": true,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968219146965952fcb51d48",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/WiiFitTrainer",
+        "Title": ""
+      }
+    ]
   }
 ]

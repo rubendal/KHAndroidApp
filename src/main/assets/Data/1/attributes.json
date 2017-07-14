@@ -1,110 +1,344 @@
 ﻿[
   {
-    "name": "Weight",
-    "ownerId": 1,
-    "id": 1,
-    "value": "84"
+    "InstanceId": "596820f846965952fcb50ad0",
+    "Name": "Weight",
+    "OwnerId": 1,
+    "Owner": "Bayonetta",
+    "Value": "84 ",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/596820f846965952fcb50ad0",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Bayonetta",
+        "Title": ""
+      }
+    ]
   },
   {
-    "name": "Max Jumps",
-    "ownerId": 1,
-    "id": 2,
-    "value": "2"
+    "InstanceId": "596820f846965952fcb50ad1",
+    "Name": "Max Jumps",
+    "OwnerId": 1,
+    "Owner": "Bayonetta",
+    "Value": "2",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/596820f846965952fcb50ad1",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Bayonetta",
+        "Title": ""
+      }
+    ]
   },
   {
-    "name": "Run Speed",
-    "ownerId": 1,
-    "id": 3,
-    "value": "1.6"
+    "InstanceId": "596820f846965952fcb50ad2",
+    "Name": "Run Speed",
+    "OwnerId": 1,
+    "Owner": "Bayonetta",
+    "Value": "1.6 ",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/596820f846965952fcb50ad2",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Bayonetta",
+        "Title": ""
+      }
+    ]
   },
   {
-    "name": "Wall Jump",
-    "ownerId": 1,
-    "id": 4,
-    "value": "Yes"
+    "InstanceId": "596820f846965952fcb50ad3",
+    "Name": "Wall Jump",
+    "OwnerId": 1,
+    "Owner": "Bayonetta",
+    "Value": "Yes",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/596820f846965952fcb50ad3",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Bayonetta",
+        "Title": ""
+      }
+    ]
   },
   {
-    "name": "Walk Speed",
-    "ownerId": 1,
-    "id": 5,
-    "value": "0.9"
+    "InstanceId": "596820f846965952fcb50ad4",
+    "Name": "Walk Speed",
+    "OwnerId": 1,
+    "Owner": "Bayonetta",
+    "Value": "0.9 ",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/596820f846965952fcb50ad4",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Bayonetta",
+        "Title": ""
+      }
+    ]
   },
   {
-    "name": "Wall Cling",
-    "ownerId": 1,
-    "id": 6,
-    "value": "Yes"
+    "InstanceId": "596820f846965952fcb50ad5",
+    "Name": "Wall Cling",
+    "OwnerId": 1,
+    "Owner": "Bayonetta",
+    "Value": "Yes",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/596820f846965952fcb50ad5",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Bayonetta",
+        "Title": ""
+      }
+    ]
   },
   {
-    "name": "Air Speed",
-    "ownerId": 1,
-    "id": 7,
-    "value": "0.97"
+    "InstanceId": "596820f846965952fcb50ad6",
+    "Name": "Air Speed",
+    "OwnerId": 1,
+    "Owner": "Bayonetta",
+    "Value": "0.97 ",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/596820f846965952fcb50ad6",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Bayonetta",
+        "Title": ""
+      }
+    ]
   },
   {
-    "name": "Crawl",
-    "ownerId": 1,
-    "id": 8,
-    "value": "No"
+    "InstanceId": "596820f846965952fcb50ad7",
+    "Name": "Crawl",
+    "OwnerId": 1,
+    "Owner": "Bayonetta",
+    "Value": "No",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/596820f846965952fcb50ad7",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Bayonetta",
+        "Title": ""
+      }
+    ]
   },
   {
-    "name": "Fall Speed",
-    "ownerId": 1,
-    "id": 9,
-    "value": "1.77"
+    "InstanceId": "596820f846965952fcb50ad8",
+    "Name": "Fall Speed",
+    "OwnerId": 1,
+    "Owner": "Bayonetta",
+    "Value": "1.77 ",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/596820f846965952fcb50ad8",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Bayonetta",
+        "Title": ""
+      }
+    ]
   },
   {
-    "name": "Tether",
-    "ownerId": 1,
-    "id": 10,
-    "value": "No"
+    "InstanceId": "596820f846965952fcb50ad9",
+    "Name": "Tether",
+    "OwnerId": 1,
+    "Owner": "Bayonetta",
+    "Value": "No",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/596820f846965952fcb50ad9",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Bayonetta",
+        "Title": ""
+      }
+    ]
   },
   {
-    "name": "Fast Fall Speed",
-    "ownerId": 1,
-    "id": 11,
-    "value": "2.832"
+    "InstanceId": "596820f846965952fcb50ada",
+    "Name": "Fast Fall Speed",
+    "OwnerId": 1,
+    "Owner": "Bayonetta",
+    "Value": "2.832 ",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/596820f846965952fcb50ada",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Bayonetta",
+        "Title": ""
+      }
+    ]
   },
   {
-    "name": "Jumpsquat",
-    "ownerId": 1,
-    "id": 12,
-    "value": "4frames"
+    "InstanceId": "596820f846965952fcb50adb",
+    "Name": "Jumpsquat",
+    "OwnerId": 1,
+    "Owner": "Bayonetta",
+    "Value": "4 frames",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/596820f846965952fcb50adb",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Bayonetta",
+        "Title": ""
+      }
+    ]
   },
   {
-    "name": "Air Acceleration",
-    "ownerId": 1,
-    "id": 13,
-    "value": "0.085"
+    "InstanceId": "596820f846965952fcb50adc",
+    "Name": "Air Acceleration",
+    "OwnerId": 1,
+    "Owner": "Bayonetta",
+    "Value": "0.085",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/596820f846965952fcb50adc",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Bayonetta",
+        "Title": ""
+      }
+    ]
   },
   {
-    "name": "Soft Landing Lag",
-    "ownerId": 1,
-    "id": 14,
-    "value": "2frames"
+    "InstanceId": "596820f846965952fcb50add",
+    "Name": "Soft Landing Lag",
+    "OwnerId": 1,
+    "Owner": "Bayonetta",
+    "Value": "2 frames",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/596820f846965952fcb50add",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Bayonetta",
+        "Title": ""
+      }
+    ]
   },
   {
-    "name": "Gravity",
-    "ownerId": 1,
-    "id": 15,
-    "value": "0.12"
+    "InstanceId": "596820f846965952fcb50ade",
+    "Name": "Gravity",
+    "OwnerId": 1,
+    "Owner": "Bayonetta",
+    "Value": "0.12",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/596820f846965952fcb50ade",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Bayonetta",
+        "Title": ""
+      }
+    ]
   },
   {
-    "name": "Hard Landing Lag",
-    "ownerId": 1,
-    "id": 16,
-    "value": "4frames"
+    "InstanceId": "596820f846965952fcb50adf",
+    "Name": "Hard Landing Lag",
+    "OwnerId": 1,
+    "Owner": "Bayonetta",
+    "Value": "4 frames",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/596820f846965952fcb50adf",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Bayonetta",
+        "Title": ""
+      }
+    ]
   },
   {
-    "name": "SH Air Time",
-    "ownerId": 1,
-    "id": 17,
-    "value": "38frames"
+    "InstanceId": "596820f846965952fcb50ae0",
+    "Name": "SH Air Time",
+    "OwnerId": 1,
+    "Owner": "Bayonetta",
+    "Value": "38 frames",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/596820f846965952fcb50ae0",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Bayonetta",
+        "Title": ""
+      }
+    ]
   },
   {
-    "name": "FH Air Time",
-    "ownerId": 1,
-    "id": 18,
-    "value": "54frames"
+    "InstanceId": "596820f846965952fcb50ae1",
+    "Name": "FH Air Time",
+    "OwnerId": 1,
+    "Owner": "Bayonetta",
+    "Value": "54 frames",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/596820f846965952fcb50ae1",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Bayonetta",
+        "Title": ""
+      }
+    ]
   }
 ]

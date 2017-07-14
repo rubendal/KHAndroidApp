@@ -63,7 +63,7 @@ public class CharacterAsyncTask extends AsyncTask<String, String, LinkedList<Cha
             Collections.sort(list, Character.getComparator());
             return list;
         } catch (Exception e) {
-
+            System.out.println(e.getMessage());
         }
         return null;
     }

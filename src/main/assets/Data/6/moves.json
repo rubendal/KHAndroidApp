@@ -1,982 +1,2074 @@
 ﻿[
   {
-    "hitboxActive": "4-5",
-    "firstActionableFrame": "30",
-    "baseDamage": "2.5",
-    "angle": "60/82/82",
-    "baseKnockBackSetKnockback": "42/42/28",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "24",
-    "type": 1,
-    "name": "Jab 1",
-    "ownerId": 6,
-    "id": 290
-  },
-  {
-    "hitboxActive": "5-6",
-    "firstActionableFrame": "33",
-    "baseDamage": "2",
-    "angle": "65/35/55",
-    "baseKnockBackSetKnockback": "33/33/28",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "25",
-    "type": 1,
-    "name": "Jab 2",
-    "ownerId": 6,
-    "id": 291
-  },
-  {
-    "hitboxActive": "6-7",
-    "firstActionableFrame": "38",
-    "baseDamage": "3.5",
-    "angle": "30",
-    "baseKnockBackSetKnockback": "75",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "50",
-    "type": 1,
-    "name": "Jab 3",
-    "ownerId": 6,
-    "id": 292
-  },
-  {
-    "hitboxActive": "9-13",
-    "firstActionableFrame": "46",
-    "baseDamage": "11 (+1)",
-    "angle": "60",
-    "baseKnockBackSetKnockback": "100",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "60",
-    "type": 1,
-    "name": "Dash Attack",
-    "ownerId": 6,
-    "id": 293
-  },
-  {
-    "hitboxActive": "14-18",
-    "firstActionableFrame": "-",
-    "baseDamage": "8 (+1)",
-    "angle": "65",
-    "baseKnockBackSetKnockback": "100",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "50",
-    "type": 1,
-    "name": "Dash Attack (Late)",
-    "ownerId": 6,
-    "id": 294
-  },
-  {
-    "hitboxActive": "9-10",
-    "firstActionableFrame": "36",
-    "baseDamage": "11",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "20",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Ftilt",
-    "ownerId": 6,
-    "id": 295
-  },
-  {
-    "hitboxActive": "6-9",
-    "firstActionableFrame": "33",
-    "baseDamage": "8",
-    "angle": "95",
-    "baseKnockBackSetKnockback": "46",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Utilt",
-    "ownerId": 6,
-    "id": 296
-  },
-  {
-    "hitboxActive": "7-8 (Leg Intangibility: 7-17)",
-    "firstActionableFrame": "41",
-    "baseDamage": "7/6",
-    "angle": "80",
-    "baseKnockBackSetKnockback": "80",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "75",
-    "type": 1,
-    "name": "Dtilt",
-    "ownerId": 6,
-    "id": 297
-  },
-  {
-    "hitboxActive": "9-17",
-    "firstActionableFrame": "-",
-    "baseDamage": "7",
-    "angle": "80",
-    "baseKnockBackSetKnockback": "80",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "75",
-    "type": 1,
-    "name": "Dtilt (Late)",
-    "ownerId": 6,
-    "id": 298
-  },
-  {
-    "hitboxActive": "19",
-    "firstActionableFrame": "64",
-    "baseDamage": "3",
-    "angle": "60/170/0/180",
-    "baseKnockBackSetKnockback": "B: 30 W: 25/10/10/10",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "30/100/100/100",
-    "type": 1,
-    "name": "Fsmash (Hit 1)",
-    "ownerId": 6,
-    "id": 299
-  },
-  {
-    "hitboxActive": "24",
-    "firstActionableFrame": "-",
-    "baseDamage": "3/2/4",
-    "angle": "15/15/170",
-    "baseKnockBackSetKnockback": "W: 90/50/10",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Fsmash (Hit 2)",
-    "ownerId": 6,
-    "id": 300
-  },
-  {
-    "hitboxActive": "28",
-    "firstActionableFrame": "-",
-    "baseDamage": "13/12",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "42",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "115",
-    "type": 1,
-    "name": "Fsmash (Hit 3)",
-    "ownerId": 6,
-    "id": 301
-  },
-  {
-    "hitboxActive": "15",
-    "firstActionableFrame": "47",
-    "baseDamage": "13",
-    "angle": "83",
-    "baseKnockBackSetKnockback": "40",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "96",
-    "type": 1,
-    "name": "Usmash (Early)",
-    "ownerId": 6,
-    "id": 302
-  },
-  {
-    "hitboxActive": "16-17",
-    "firstActionableFrame": "-",
-    "baseDamage": "12/13/13/11",
-    "angle": "83",
-    "baseKnockBackSetKnockback": "40",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "96/96/96/90",
-    "type": 1,
-    "name": "Usmash",
-    "ownerId": 6,
-    "id": 303
-  },
-  {
-    "hitboxActive": "18-19",
-    "firstActionableFrame": "-",
-    "baseDamage": "8",
-    "angle": "60",
-    "baseKnockBackSetKnockback": "32",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Usmash (Late)",
-    "ownerId": 6,
-    "id": 304
-  },
-  {
-    "hitboxActive": "8-9",
-    "firstActionableFrame": "50",
-    "baseDamage": "4",
-    "angle": "170/176/160/167",
-    "baseKnockBackSetKnockback": "W: 90/120/90/120",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "97",
-    "type": 1,
-    "name": "Dsmash",
-    "ownerId": 6,
-    "id": 305
-  },
-  {
-    "hitboxActive": "21-23",
-    "firstActionableFrame": "-",
-    "baseDamage": "12",
-    "angle": "35",
-    "baseKnockBackSetKnockback": "35",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "94",
-    "type": 1,
-    "name": "Dsmash (Hit 2)",
-    "ownerId": 6,
-    "id": 306
-  },
-  {
-    "hitboxActive": "7-8",
-    "firstActionableFrame": "32",
-    "baseDamage": "",
-    "angle": "",
-    "baseKnockBackSetKnockback": "",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "",
-    "type": 1,
-    "name": "Standing Grab",
-    "ownerId": 6,
-    "id": 308
-  },
-  {
-    "hitboxActive": "10-11",
-    "firstActionableFrame": "40",
-    "baseDamage": "",
-    "angle": "",
-    "baseKnockBackSetKnockback": "",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "",
-    "type": 1,
-    "name": "Dash Grab",
-    "ownerId": 6,
-    "id": 309
-  },
-  {
-    "hitboxActive": "11-12",
-    "firstActionableFrame": "37",
-    "baseDamage": "",
-    "angle": "",
-    "baseKnockBackSetKnockback": "",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "",
-    "type": 1,
-    "name": "Pivot Grab",
-    "ownerId": 6,
-    "id": 310
-  },
-  {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "4, 3",
-    "angle": "45",
-    "baseKnockBackSetKnockback": "60",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "120",
-    "type": 3,
-    "name": "Fthrow",
-    "ownerId": 6,
-    "id": 312
-  },
-  {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "3, 3",
-    "angle": "38",
-    "baseKnockBackSetKnockback": "48",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "110",
-    "type": 3,
-    "name": "Bthrow",
-    "ownerId": 6,
-    "id": 313
-  },
-  {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "2, 2.5, 4",
-    "angle": "80",
-    "baseKnockBackSetKnockback": "78",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "97",
-    "type": 3,
-    "name": "Uthrow",
-    "ownerId": 6,
-    "id": 314
-  },
-  {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "7",
-    "angle": "122",
-    "baseKnockBackSetKnockback": "40",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "110",
-    "type": 3,
-    "name": "Dthrow",
-    "ownerId": 6,
-    "id": 315
-  },
-  {
-    "hitboxActive": "5-15",
-    "firstActionableFrame": "39",
-    "baseDamage": "8",
-    "angle": "40",
-    "baseKnockBackSetKnockback": "25",
-    "landingLag": "15",
-    "autoCancel": "31&gt;",
-    "knockbackGrowth": "100",
-    "type": 0,
-    "name": "Nair",
-    "ownerId": 6,
-    "id": 321
-  },
-  {
-    "hitboxActive": "18-19",
-    "firstActionableFrame": "54",
-    "baseDamage": "14/14/13/13",
-    "angle": "270/60/45/45",
-    "baseKnockBackSetKnockback": "20/20/30/30",
-    "landingLag": "18",
-    "autoCancel": "1-2, 43&gt;",
-    "knockbackGrowth": "90/100/83/83",
-    "type": 0,
-    "name": "Fair",
-    "ownerId": 6,
-    "id": 322
-  },
-  {
-    "hitboxActive": "20-25",
-    "firstActionableFrame": "-",
-    "baseDamage": "11",
-    "angle": "45",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "83",
-    "type": 0,
-    "name": "Fair (Late)",
-    "ownerId": 6,
-    "id": 323
-  },
-  {
-    "hitboxActive": "11-13",
-    "firstActionableFrame": "42",
-    "baseDamage": "13",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "20",
-    "landingLag": "14",
-    "autoCancel": "1-4, 37&gt;",
-    "knockbackGrowth": "95",
-    "type": 0,
-    "name": "Bair",
-    "ownerId": 6,
-    "id": 324
-  },
-  {
-    "hitboxActive": "7-9",
-    "firstActionableFrame": "45",
-    "baseDamage": "12",
-    "angle": "82",
-    "baseKnockBackSetKnockback": "42",
-    "landingLag": "15",
-    "autoCancel": "26&gt;",
-    "knockbackGrowth": "82",
-    "type": 0,
-    "name": "Uair",
-    "ownerId": 6,
-    "id": 325
-  },
-  {
-    "hitboxActive": "10-25",
-    "firstActionableFrame": "-",
-    "baseDamage": "8.5",
-    "angle": "82",
-    "baseKnockBackSetKnockback": "42",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "80",
-    "type": 0,
-    "name": "Uair (Late)",
-    "ownerId": 6,
-    "id": 326
-  },
-  {
-    "hitboxActive": "11-13",
-    "firstActionableFrame": "60",
-    "baseDamage": "15/13",
-    "angle": "270/60",
-    "baseKnockBackSetKnockback": "10/30",
-    "landingLag": "26",
-    "autoCancel": "1-4, 43&gt;",
-    "knockbackGrowth": "100/105",
-    "type": 0,
-    "name": "Dair",
-    "ownerId": 6,
-    "id": 327
-  },
-  {
-    "hitboxActive": "14-42",
-    "firstActionableFrame": "-",
-    "baseDamage": "8",
-    "angle": "65",
-    "baseKnockBackSetKnockback": "80",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "55",
-    "type": 0,
-    "name": "Dair (Late)",
-    "ownerId": 6,
-    "id": 328
-  },
-  {
-    "hitboxActive": "16-17",
-    "firstActionableFrame": "61",
-    "baseDamage": "0",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "40",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 2,
-    "name": "Blade Beam (Windbox)",
-    "ownerId": 6,
-    "id": 329
-  },
-  {
-    "hitboxActive": "18-68",
-    "firstActionableFrame": "-",
-    "baseDamage": "8",
-    "angle": "55",
-    "baseKnockBackSetKnockback": "38",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "60",
-    "type": 2,
-    "name": "Blade Beam (Grounded)",
-    "ownerId": 6,
-    "id": 330
-  },
-  {
-    "hitboxActive": "18-68",
-    "firstActionableFrame": "-",
-    "baseDamage": "6",
-    "angle": "55",
-    "baseKnockBackSetKnockback": "38",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "60",
-    "type": 2,
-    "name": "Blade Beam (Grounded, Late)",
-    "ownerId": 6,
-    "id": 331
-  },
-  {
-    "hitboxActive": "18-68",
-    "firstActionableFrame": "-",
-    "baseDamage": "6.4",
-    "angle": "55",
-    "baseKnockBackSetKnockback": "38",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "60",
-    "type": 2,
-    "name": "Blade Beam (Aerial)",
-    "ownerId": 6,
-    "id": 332
-  },
-  {
-    "hitboxActive": "18-68",
-    "firstActionableFrame": "-",
-    "baseDamage": "4.8",
-    "angle": "55",
-    "baseKnockBackSetKnockback": "38",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "60",
-    "type": 2,
-    "name": "Blade Beam (Aerial, Late)",
-    "ownerId": 6,
-    "id": 333
-  },
-  {
-    "hitboxActive": "16-58 (Intangible: 10-17)",
-    "firstActionableFrame": "61",
-    "baseDamage": "6",
-    "angle": "55",
-    "baseKnockBackSetKnockback": "38",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "60",
-    "type": 2,
-    "name": "Limit Blade Beam (Ground, Projectile)",
-    "ownerId": 6,
-    "id": 334
-  },
-  {
-    "hitboxActive": "1-28 (Rehit rate: 6)",
-    "firstActionableFrame": "-",
-    "baseDamage": "2",
-    "angle": "367",
-    "baseKnockBackSetKnockback": "W: 40",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 2,
-    "name": "Limit Blade Beam (Ground)",
-    "ownerId": 6,
-    "id": 335
-  },
-  {
-    "hitboxActive": "29-30",
-    "firstActionableFrame": "-",
-    "baseDamage": "3",
-    "angle": "48",
-    "baseKnockBackSetKnockback": "40",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "226",
-    "type": 2,
-    "name": "Limit Blade Beam (Ground)",
-    "ownerId": 6,
-    "id": 336
-  },
-  {
-    "hitboxActive": "16-58 (Intangible: 10-17)",
-    "firstActionableFrame": "61",
-    "baseDamage": "4.8",
-    "angle": "55",
-    "baseKnockBackSetKnockback": "38",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "60",
-    "type": 2,
-    "name": "Limit Blade Beam (Aerial, Projectile)",
-    "ownerId": 6,
-    "id": 337
-  },
-  {
-    "hitboxActive": "1-28 (Rehit rate: 6)",
-    "firstActionableFrame": "-",
-    "baseDamage": "1.6",
-    "angle": "367",
-    "baseKnockBackSetKnockback": "W: 40",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 2,
-    "name": "Limit Blade Beam (Aerial)",
-    "ownerId": 6,
-    "id": 338
-  },
-  {
-    "hitboxActive": "29-30",
-    "firstActionableFrame": "-",
-    "baseDamage": "2.4",
-    "angle": "48",
-    "baseKnockBackSetKnockback": "40",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "226",
-    "type": 2,
-    "name": "Limit Blade Beam (Aerial)",
-    "ownerId": 6,
-    "id": 339
-  },
-  {
-    "hitboxActive": "10-11",
-    "firstActionableFrame": "41",
-    "baseDamage": "4",
-    "angle": "75/105/367",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "35/35/40",
-    "type": 2,
-    "name": "Cross Slash 1",
-    "ownerId": 6,
-    "id": 340
-  },
-  {
-    "hitboxActive": "2-3",
-    "firstActionableFrame": "32",
-    "baseDamage": "3",
-    "angle": "107/78",
-    "baseKnockBackSetKnockback": "43",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "25",
-    "type": 2,
-    "name": "Cross Slash 2",
-    "ownerId": 6,
-    "id": 341
-  },
-  {
-    "hitboxActive": "2-3",
-    "firstActionableFrame": "56",
-    "baseDamage": "3",
-    "angle": "70/290",
-    "baseKnockBackSetKnockback": "W: 20/30",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 2,
-    "name": "Cross Slash 3 (Hit 1)",
-    "ownerId": 6,
-    "id": 342
-  },
-  {
-    "hitboxActive": "11-12",
-    "firstActionableFrame": "-",
-    "baseDamage": "3",
-    "angle": "77/110",
-    "baseKnockBackSetKnockback": "W: 37",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 2,
-    "name": "Cross Slash (Hit 2)",
-    "ownerId": 6,
-    "id": 343
-  },
-  {
-    "hitboxActive": "25-26",
-    "firstActionableFrame": "-",
-    "baseDamage": "6",
-    "angle": "50",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "140",
-    "type": 2,
-    "name": "Cross Slash (Hit 3)",
-    "ownerId": 6,
-    "id": 344
-  },
-  {
-    "hitboxActive": "10-11 (Intangible: 6-11)",
-    "firstActionableFrame": "61",
-    "baseDamage": "5",
-    "angle": "366",
-    "baseKnockBackSetKnockback": "W: 80",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 2,
-    "name": "Limit Cross Slash (Hit 1)",
-    "ownerId": 6,
-    "id": 345
-  },
-  {
-    "hitboxActive": "15-16",
-    "firstActionableFrame": "-",
-    "baseDamage": "5",
-    "angle": "366",
-    "baseKnockBackSetKnockback": "W: 80",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 2,
-    "name": "Limit Cross Slash (Hit 2)",
-    "ownerId": 6,
-    "id": 346
-  },
-  {
-    "hitboxActive": "21-22",
-    "firstActionableFrame": "-",
-    "baseDamage": "3",
-    "angle": "70/290",
-    "baseKnockBackSetKnockback": "W: 14/21",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 2,
-    "name": "Limit Cross Slash (Hit 3)",
-    "ownerId": 6,
-    "id": 347
-  },
-  {
-    "hitboxActive": "28",
-    "firstActionableFrame": "-",
-    "baseDamage": "3",
-    "angle": "77/110",
-    "baseKnockBackSetKnockback": "W: 26",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 2,
-    "name": "Limit Cross Slash (Hit 4)",
-    "ownerId": 6,
-    "id": 348
-  },
-  {
-    "hitboxActive": "39-40",
-    "firstActionableFrame": "-",
-    "baseDamage": "10",
-    "angle": "50",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "153",
-    "type": 2,
-    "name": "Limit Cross Slash (Hit 5)",
-    "ownerId": 6,
-    "id": 349
-  },
-  {
-    "hitboxActive": "7",
-    "firstActionableFrame": "-",
-    "baseDamage": "3",
-    "angle": "40/78/102",
-    "baseKnockBackSetKnockback": "W: 80/",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 2,
-    "name": "Climhazard (Hit 1)",
-    "ownerId": 6,
-    "id": 350
-  },
-  {
-    "hitboxActive": "9-10",
-    "firstActionableFrame": "-",
-    "baseDamage": "4",
-    "angle": "87/96",
-    "baseKnockBackSetKnockback": "68",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "40",
-    "type": 2,
-    "name": "Climhazard (Hit 2, Early)",
-    "ownerId": 6,
-    "id": 351
-  },
-  {
-    "hitboxActive": "11",
-    "firstActionableFrame": "-",
-    "baseDamage": "4",
-    "angle": "87/96/90",
-    "baseKnockBackSetKnockback": "68/68/98",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "40",
-    "type": 2,
-    "name": "Climhazard (Hit 2)",
-    "ownerId": 6,
-    "id": 352
-  },
-  {
-    "hitboxActive": "12-15",
-    "firstActionableFrame": "-",
-    "baseDamage": "4",
-    "angle": "85/96/90",
-    "baseKnockBackSetKnockback": "50/50/70",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "40",
-    "type": 2,
-    "name": "Climhazard (Hit 2, Late)",
-    "ownerId": 6,
-    "id": 353
-  },
-  {
-    "hitboxActive": "7-10 (Intangible: 5-12)",
-    "firstActionableFrame": "-",
-    "baseDamage": "6",
-    "angle": "40/78/102",
-    "baseKnockBackSetKnockback": "W: 80/",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 2,
-    "name": "Limit Climhazard (Hit 1)",
-    "ownerId": 6,
-    "id": 354
-  },
-  {
-    "hitboxActive": "10",
-    "firstActionableFrame": "-",
-    "baseDamage": "7",
-    "angle": "88",
-    "baseKnockBackSetKnockback": "50",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "135",
-    "type": 2,
-    "name": "Limit Climhazard (Hit 2, Early)",
-    "ownerId": 6,
-    "id": 355
-  },
-  {
-    "hitboxActive": "11-16",
-    "firstActionableFrame": "-",
-    "baseDamage": "7",
-    "angle": "88/88/90",
-    "baseKnockBackSetKnockback": "50/50/98",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "110/110/40",
-    "type": 2,
-    "name": "Limit Climhazard (Hit 2)",
-    "ownerId": 6,
-    "id": 356
-  },
-  {
-    "hitboxActive": "12-",
-    "firstActionableFrame": "-",
-    "baseDamage": "4.5",
-    "angle": "262/45",
-    "baseKnockBackSetKnockback": "90/130",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "25",
-    "type": 2,
-    "name": "Climhazard (Decend)",
-    "ownerId": 6,
-    "id": 357
-  },
-  {
-    "hitboxActive": "1-2",
-    "firstActionableFrame": "21",
-    "baseDamage": "3.5",
-    "angle": "64",
-    "baseKnockBackSetKnockback": "64",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "128",
-    "type": 2,
-    "name": "Climhazard (Landing)",
-    "ownerId": 6,
-    "id": 358
-  },
-  {
-    "hitboxActive": "Starts Charging: 6",
-    "firstActionableFrame": "-",
-    "baseDamage": "-",
-    "angle": "-",
-    "baseKnockBackSetKnockback": "-",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "-",
-    "type": 2,
-    "name": "Limit Break",
-    "ownerId": 6,
-    "id": 359
-  },
-  {
-    "hitboxActive": "Frames to Charge: 400",
-    "firstActionableFrame": "-",
-    "baseDamage": "-",
-    "angle": "-",
-    "baseKnockBackSetKnockback": "-",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "-",
-    "type": 2,
-    "name": "Limit Break (Charge)",
-    "ownerId": 6,
-    "id": 360
-  },
-  {
-    "hitboxActive": "16-17 (Cannot hit more than once)",
-    "firstActionableFrame": "80",
-    "baseDamage": "1",
-    "angle": "80",
-    "baseKnockBackSetKnockback": "60",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "417",
-    "type": 2,
-    "name": "Finishing Touch (Grounded)",
-    "ownerId": 6,
-    "id": 361
-  },
-  {
-    "hitboxActive": "19 (Cannot hit more than once)",
-    "firstActionableFrame": "-",
-    "baseDamage": "1",
-    "angle": "80",
-    "baseKnockBackSetKnockback": "60",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "390",
-    "type": 2,
-    "name": "Finishing Touch (Grounded, Late)",
-    "ownerId": 6,
-    "id": 362
-  },
-  {
-    "hitboxActive": "27-31",
-    "firstActionableFrame": "-",
-    "baseDamage": "0",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "W: 80",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 2,
-    "name": "Finishing Touch (Windbox)",
-    "ownerId": 6,
-    "id": 363
-  },
-  {
-    "hitboxActive": "16-17 (Cannot hit more than once)",
-    "firstActionableFrame": "80",
-    "baseDamage": "1",
-    "angle": "80",
-    "baseKnockBackSetKnockback": "60",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "359",
-    "type": 2,
-    "name": "Finishing Touch (Aerial)",
-    "ownerId": 6,
-    "id": 364
-  },
-  {
-    "hitboxActive": "19 (Cannot hit more than once)",
-    "firstActionableFrame": "-",
-    "baseDamage": "1",
-    "angle": "80",
-    "baseKnockBackSetKnockback": "60",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "359",
-    "type": 2,
-    "name": "Finishing Touch (Aerial, Late)",
-    "ownerId": 6,
-    "id": 365
-  },
-  {
-    "hitboxActive": "27-31",
-    "firstActionableFrame": "-",
-    "baseDamage": "0",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "W: 80",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "86",
-    "type": 2,
-    "name": "Finishing Touch (Aerial, Windbox)",
-    "ownerId": 6,
-    "id": 366
+    "InstanceId": "5968210a46965952fcb50c97",
+    "Name": "Jab 1",
+    "OwnerId": 6,
+    "Owner": "Cloud",
+    "HitboxActive": "4-5",
+    "FirstActionableFrame": "30",
+    "BaseDamage": "2.5",
+    "Angle": "60/82/82",
+    "BaseKnockBackSetKnockback": "42/42/28",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "24",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210a46965952fcb50c97",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968210a46965952fcb50c98",
+    "Name": "Jab 2",
+    "OwnerId": 6,
+    "Owner": "Cloud",
+    "HitboxActive": "5-6",
+    "FirstActionableFrame": "33",
+    "BaseDamage": "2",
+    "Angle": "65/35/55",
+    "BaseKnockBackSetKnockback": "33/33/28",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "25",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210a46965952fcb50c98",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968210a46965952fcb50c99",
+    "Name": "Jab 3",
+    "OwnerId": 6,
+    "Owner": "Cloud",
+    "HitboxActive": "6-7",
+    "FirstActionableFrame": "38",
+    "BaseDamage": "3.5",
+    "Angle": "30",
+    "BaseKnockBackSetKnockback": "75",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "50",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210a46965952fcb50c99",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968210a46965952fcb50c9a",
+    "Name": "Dash Attack",
+    "OwnerId": 6,
+    "Owner": "Cloud",
+    "HitboxActive": "9-13",
+    "FirstActionableFrame": "46",
+    "BaseDamage": "11 (+1)",
+    "Angle": "60",
+    "BaseKnockBackSetKnockback": "100",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "60",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210a46965952fcb50c9a",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968210a46965952fcb50c9b",
+    "Name": "Dash Attack (Late)",
+    "OwnerId": 6,
+    "Owner": "Cloud",
+    "HitboxActive": "14-18",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "8 (+1)",
+    "Angle": "65",
+    "BaseKnockBackSetKnockback": "100",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "50",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210a46965952fcb50c9b",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968210a46965952fcb50c9c",
+    "Name": "Ftilt",
+    "OwnerId": 6,
+    "Owner": "Cloud",
+    "HitboxActive": "9-10",
+    "FirstActionableFrame": "36",
+    "BaseDamage": "11",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "20",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210a46965952fcb50c9c",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968210a46965952fcb50c9d",
+    "Name": "Utilt",
+    "OwnerId": 6,
+    "Owner": "Cloud",
+    "HitboxActive": "6-9",
+    "FirstActionableFrame": "33",
+    "BaseDamage": "8",
+    "Angle": "95",
+    "BaseKnockBackSetKnockback": "46",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210a46965952fcb50c9d",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968210a46965952fcb50c9e",
+    "Name": "Dtilt",
+    "OwnerId": 6,
+    "Owner": "Cloud",
+    "HitboxActive": "7-8 (Leg Intangibility: 7-17)",
+    "FirstActionableFrame": "41",
+    "BaseDamage": "7/6",
+    "Angle": "80",
+    "BaseKnockBackSetKnockback": "80",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "75",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210a46965952fcb50c9e",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968210a46965952fcb50c9f",
+    "Name": "Dtilt (Late)",
+    "OwnerId": 6,
+    "Owner": "Cloud",
+    "HitboxActive": "9-17",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "7",
+    "Angle": "80",
+    "BaseKnockBackSetKnockback": "80",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "75",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210a46965952fcb50c9f",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968210a46965952fcb50ca0",
+    "Name": "Fsmash (Hit 1)",
+    "OwnerId": 6,
+    "Owner": "Cloud",
+    "HitboxActive": "19",
+    "FirstActionableFrame": "64",
+    "BaseDamage": "3",
+    "Angle": "60/170/0/180",
+    "BaseKnockBackSetKnockback": "B: 30 W: 25/10/10/10",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "30/100/100/100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210a46965952fcb50ca0",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968210a46965952fcb50ca1",
+    "Name": "Fsmash (Hit 2)",
+    "OwnerId": 6,
+    "Owner": "Cloud",
+    "HitboxActive": "24",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "3/2/4",
+    "Angle": "15/15/170",
+    "BaseKnockBackSetKnockback": "W: 90/50/10",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210a46965952fcb50ca1",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968210a46965952fcb50ca2",
+    "Name": "Fsmash (Hit 3)",
+    "OwnerId": 6,
+    "Owner": "Cloud",
+    "HitboxActive": "28",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "13/12",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "42",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "115",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210a46965952fcb50ca2",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968210a46965952fcb50ca3",
+    "Name": "Usmash (Early)",
+    "OwnerId": 6,
+    "Owner": "Cloud",
+    "HitboxActive": "15",
+    "FirstActionableFrame": "47",
+    "BaseDamage": "13",
+    "Angle": "83",
+    "BaseKnockBackSetKnockback": "40",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "96",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210a46965952fcb50ca3",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968210a46965952fcb50ca4",
+    "Name": "Usmash",
+    "OwnerId": 6,
+    "Owner": "Cloud",
+    "HitboxActive": "16-17",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "12/13/13/11",
+    "Angle": "83",
+    "BaseKnockBackSetKnockback": "40",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "96/96/96/90",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210a46965952fcb50ca4",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968210a46965952fcb50ca5",
+    "Name": "Usmash (Late)",
+    "OwnerId": 6,
+    "Owner": "Cloud",
+    "HitboxActive": "18-19",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "8",
+    "Angle": "60",
+    "BaseKnockBackSetKnockback": "32",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210a46965952fcb50ca5",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968210a46965952fcb50ca6",
+    "Name": "Dsmash",
+    "OwnerId": 6,
+    "Owner": "Cloud",
+    "HitboxActive": "8-9",
+    "FirstActionableFrame": "50",
+    "BaseDamage": "4",
+    "Angle": "170/176/160/167",
+    "BaseKnockBackSetKnockback": "W: 90/120/90/120",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "97",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210a46965952fcb50ca6",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968210a46965952fcb50ca7",
+    "Name": "Dsmash (Hit 2)",
+    "OwnerId": 6,
+    "Owner": "Cloud",
+    "HitboxActive": "21-23",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "12",
+    "Angle": "35",
+    "BaseKnockBackSetKnockback": "35",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "94",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210a46965952fcb50ca7",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968210a46965952fcb50ca8",
+    "Name": "Standing Grab",
+    "OwnerId": 6,
+    "Owner": "Cloud",
+    "HitboxActive": "7-8",
+    "FirstActionableFrame": "32",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210a46965952fcb50ca8",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968210a46965952fcb50ca9",
+    "Name": "Dash Grab",
+    "OwnerId": 6,
+    "Owner": "Cloud",
+    "HitboxActive": "10-11",
+    "FirstActionableFrame": "40",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210a46965952fcb50ca9",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968210a46965952fcb50caa",
+    "Name": "Pivot Grab",
+    "OwnerId": 6,
+    "Owner": "Cloud",
+    "HitboxActive": "11-12",
+    "FirstActionableFrame": "37",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210a46965952fcb50caa",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968210a46965952fcb50cab",
+    "Name": "Spotdodge",
+    "OwnerId": 6,
+    "Owner": "Cloud",
+    "HitboxActive": "3-18",
+    "FirstActionableFrame": "28",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210a46965952fcb50cab",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968210a46965952fcb50cac",
+    "Name": "Forward Roll",
+    "OwnerId": 6,
+    "Owner": "Cloud",
+    "HitboxActive": "4-15",
+    "FirstActionableFrame": "32",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210a46965952fcb50cac",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968210a46965952fcb50cad",
+    "Name": "Back Roll",
+    "OwnerId": 6,
+    "Owner": "Cloud",
+    "HitboxActive": "4-15",
+    "FirstActionableFrame": "32",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210a46965952fcb50cad",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968210a46965952fcb50cae",
+    "Name": "Airdodge",
+    "OwnerId": 6,
+    "Owner": "Cloud",
+    "HitboxActive": "3-28",
+    "FirstActionableFrame": "34",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210a46965952fcb50cae",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968210a46965952fcb50caf",
+    "Name": "Nair",
+    "OwnerId": 6,
+    "Owner": "Cloud",
+    "HitboxActive": "5-15",
+    "FirstActionableFrame": "39",
+    "BaseDamage": "8",
+    "Angle": "40",
+    "BaseKnockBackSetKnockback": "25",
+    "LandingLag": "15",
+    "AutoCancel": "31&gt;",
+    "KnockbackGrowth": "100",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210a46965952fcb50caf",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968210a46965952fcb50cb0",
+    "Name": "Fair",
+    "OwnerId": 6,
+    "Owner": "Cloud",
+    "HitboxActive": "18-19",
+    "FirstActionableFrame": "54",
+    "BaseDamage": "14/14/13/13",
+    "Angle": "270/60/45/45",
+    "BaseKnockBackSetKnockback": "20/20/30/30",
+    "LandingLag": "18",
+    "AutoCancel": "1-2, 43&gt;",
+    "KnockbackGrowth": "90/100/83/83",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210a46965952fcb50cb0",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968210a46965952fcb50cb1",
+    "Name": "Fair (Late)",
+    "OwnerId": 6,
+    "Owner": "Cloud",
+    "HitboxActive": "20-25",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "11",
+    "Angle": "45",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "83",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210a46965952fcb50cb1",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968210a46965952fcb50cb2",
+    "Name": "Bair",
+    "OwnerId": 6,
+    "Owner": "Cloud",
+    "HitboxActive": "11-13",
+    "FirstActionableFrame": "42",
+    "BaseDamage": "13",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "20",
+    "LandingLag": "14",
+    "AutoCancel": "1-4, 37&gt;",
+    "KnockbackGrowth": "95",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210a46965952fcb50cb2",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968210a46965952fcb50cb3",
+    "Name": "Uair",
+    "OwnerId": 6,
+    "Owner": "Cloud",
+    "HitboxActive": "7-9",
+    "FirstActionableFrame": "45",
+    "BaseDamage": "12",
+    "Angle": "82",
+    "BaseKnockBackSetKnockback": "42",
+    "LandingLag": "15",
+    "AutoCancel": "26&gt;",
+    "KnockbackGrowth": "82",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210a46965952fcb50cb3",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968210a46965952fcb50cb4",
+    "Name": "Uair (Late)",
+    "OwnerId": 6,
+    "Owner": "Cloud",
+    "HitboxActive": "10-25",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "8.5",
+    "Angle": "82",
+    "BaseKnockBackSetKnockback": "42",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "80",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210a46965952fcb50cb4",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968210a46965952fcb50cb5",
+    "Name": "Dair",
+    "OwnerId": 6,
+    "Owner": "Cloud",
+    "HitboxActive": "11-13",
+    "FirstActionableFrame": "60",
+    "BaseDamage": "15/13",
+    "Angle": "270/60",
+    "BaseKnockBackSetKnockback": "10/30",
+    "LandingLag": "26",
+    "AutoCancel": "1-4, 43&gt;",
+    "KnockbackGrowth": "100/105",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210a46965952fcb50cb5",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968210a46965952fcb50cb6",
+    "Name": "Dair (Late)",
+    "OwnerId": 6,
+    "Owner": "Cloud",
+    "HitboxActive": "14-42",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "8",
+    "Angle": "65",
+    "BaseKnockBackSetKnockback": "80",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "55",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210a46965952fcb50cb6",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968210a46965952fcb50cb7",
+    "Name": "Blade Beam (Windbox)",
+    "OwnerId": 6,
+    "Owner": "Cloud",
+    "HitboxActive": "16-17",
+    "FirstActionableFrame": "61",
+    "BaseDamage": "0",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "40",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210a46965952fcb50cb7",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968210a46965952fcb50cb8",
+    "Name": "Blade Beam (Grounded)",
+    "OwnerId": 6,
+    "Owner": "Cloud",
+    "HitboxActive": "18-68",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "8",
+    "Angle": "55",
+    "BaseKnockBackSetKnockback": "38",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "60",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210a46965952fcb50cb8",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968210a46965952fcb50cb9",
+    "Name": "Blade Beam (Grounded, Late)",
+    "OwnerId": 6,
+    "Owner": "Cloud",
+    "HitboxActive": "18-68",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "6",
+    "Angle": "55",
+    "BaseKnockBackSetKnockback": "38",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "60",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210a46965952fcb50cb9",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968210a46965952fcb50cba",
+    "Name": "Blade Beam (Aerial)",
+    "OwnerId": 6,
+    "Owner": "Cloud",
+    "HitboxActive": "18-68",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "6.4",
+    "Angle": "55",
+    "BaseKnockBackSetKnockback": "38",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "60",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210a46965952fcb50cba",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968210a46965952fcb50cbb",
+    "Name": "Blade Beam (Aerial, Late)",
+    "OwnerId": 6,
+    "Owner": "Cloud",
+    "HitboxActive": "18-68",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "4.8",
+    "Angle": "55",
+    "BaseKnockBackSetKnockback": "38",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "60",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210a46965952fcb50cbb",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968210a46965952fcb50cbc",
+    "Name": "Limit Blade Beam (Ground, Projectile)",
+    "OwnerId": 6,
+    "Owner": "Cloud",
+    "HitboxActive": "16-58 (Intangible: 10-17)",
+    "FirstActionableFrame": "61",
+    "BaseDamage": "6",
+    "Angle": "55",
+    "BaseKnockBackSetKnockback": "38",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "60",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210a46965952fcb50cbc",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968210a46965952fcb50cbd",
+    "Name": "Limit Blade Beam (Ground)",
+    "OwnerId": 6,
+    "Owner": "Cloud",
+    "HitboxActive": "1-28 (Rehit rate: 6)",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "2",
+    "Angle": "367",
+    "BaseKnockBackSetKnockback": "W: 40",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210a46965952fcb50cbd",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968210a46965952fcb50cbe",
+    "Name": "Limit Blade Beam (Ground)",
+    "OwnerId": 6,
+    "Owner": "Cloud",
+    "HitboxActive": "29-30",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "3",
+    "Angle": "48",
+    "BaseKnockBackSetKnockback": "40",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "226",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210a46965952fcb50cbe",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968210a46965952fcb50cbf",
+    "Name": "Limit Blade Beam (Aerial, Projectile)",
+    "OwnerId": 6,
+    "Owner": "Cloud",
+    "HitboxActive": "16-58 (Intangible: 10-17)",
+    "FirstActionableFrame": "61",
+    "BaseDamage": "4.8",
+    "Angle": "55",
+    "BaseKnockBackSetKnockback": "38",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "60",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210a46965952fcb50cbf",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968210a46965952fcb50cc0",
+    "Name": "Limit Blade Beam (Aerial)",
+    "OwnerId": 6,
+    "Owner": "Cloud",
+    "HitboxActive": "1-28 (Rehit rate: 6)",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "1.6",
+    "Angle": "367",
+    "BaseKnockBackSetKnockback": "W: 40",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210a46965952fcb50cc0",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968210a46965952fcb50cc1",
+    "Name": "Limit Blade Beam (Aerial)",
+    "OwnerId": 6,
+    "Owner": "Cloud",
+    "HitboxActive": "29-30",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "2.4",
+    "Angle": "48",
+    "BaseKnockBackSetKnockback": "40",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "226",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210a46965952fcb50cc1",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968210a46965952fcb50cc2",
+    "Name": "Cross Slash 1",
+    "OwnerId": 6,
+    "Owner": "Cloud",
+    "HitboxActive": "10-11",
+    "FirstActionableFrame": "41",
+    "BaseDamage": "4",
+    "Angle": "75/105/367",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "35/35/40",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210a46965952fcb50cc2",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968210a46965952fcb50cc3",
+    "Name": "Cross Slash 2",
+    "OwnerId": 6,
+    "Owner": "Cloud",
+    "HitboxActive": "2-3",
+    "FirstActionableFrame": "32",
+    "BaseDamage": "3",
+    "Angle": "107/78",
+    "BaseKnockBackSetKnockback": "43",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "25",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210a46965952fcb50cc3",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968210a46965952fcb50cc4",
+    "Name": "Cross Slash 3 (Hit 1)",
+    "OwnerId": 6,
+    "Owner": "Cloud",
+    "HitboxActive": "2-3",
+    "FirstActionableFrame": "56",
+    "BaseDamage": "3",
+    "Angle": "70/290",
+    "BaseKnockBackSetKnockback": "W: 20/30",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210a46965952fcb50cc4",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968210a46965952fcb50cc5",
+    "Name": "Cross Slash (Hit 2)",
+    "OwnerId": 6,
+    "Owner": "Cloud",
+    "HitboxActive": "11-12",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "3",
+    "Angle": "77/110",
+    "BaseKnockBackSetKnockback": "W: 37",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210a46965952fcb50cc5",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968210a46965952fcb50cc6",
+    "Name": "Cross Slash (Hit 3)",
+    "OwnerId": 6,
+    "Owner": "Cloud",
+    "HitboxActive": "25-26",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "6",
+    "Angle": "50",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "140",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210a46965952fcb50cc6",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968210a46965952fcb50cc7",
+    "Name": "Limit Cross Slash (Hit 1)",
+    "OwnerId": 6,
+    "Owner": "Cloud",
+    "HitboxActive": "10-11 (Intangible: 6-11, Cannot Rebound)",
+    "FirstActionableFrame": "61",
+    "BaseDamage": "5",
+    "Angle": "366",
+    "BaseKnockBackSetKnockback": "W: 80",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210a46965952fcb50cc7",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968210a46965952fcb50cc8",
+    "Name": "Limit Cross Slash (Hit 2)",
+    "OwnerId": 6,
+    "Owner": "Cloud",
+    "HitboxActive": "15-16 (Cannot Rebound)",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "5",
+    "Angle": "366",
+    "BaseKnockBackSetKnockback": "W: 80",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210a46965952fcb50cc8",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968210a46965952fcb50cc9",
+    "Name": "Limit Cross Slash (Hit 3)",
+    "OwnerId": 6,
+    "Owner": "Cloud",
+    "HitboxActive": "21-22 (Cannot Rebound)",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "3",
+    "Angle": "70/290",
+    "BaseKnockBackSetKnockback": "W: 14/21",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210a46965952fcb50cc9",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968210a46965952fcb50cca",
+    "Name": "Limit Cross Slash (Hit 4)",
+    "OwnerId": 6,
+    "Owner": "Cloud",
+    "HitboxActive": "28 (Cannot Rebound)",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "3",
+    "Angle": "77/110",
+    "BaseKnockBackSetKnockback": "W: 26",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210a46965952fcb50cca",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968210a46965952fcb50ccb",
+    "Name": "Limit Cross Slash (Hit 5)",
+    "OwnerId": 6,
+    "Owner": "Cloud",
+    "HitboxActive": "38-39 (Cannot Rebound)",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "10",
+    "Angle": "50",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "153",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210a46965952fcb50ccb",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968210a46965952fcb50ccc",
+    "Name": "Climhazard (Hit 1)",
+    "OwnerId": 6,
+    "Owner": "Cloud",
+    "HitboxActive": "7 (Cannot Rebound)",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "3",
+    "Angle": "40/78/102",
+    "BaseKnockBackSetKnockback": "W: 80/",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210a46965952fcb50ccc",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968210a46965952fcb50ccd",
+    "Name": "Climhazard (Hit 2, Early)",
+    "OwnerId": 6,
+    "Owner": "Cloud",
+    "HitboxActive": "9-10 (Cannot Rebound)",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "4",
+    "Angle": "87/96",
+    "BaseKnockBackSetKnockback": "68",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "40",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210a46965952fcb50ccd",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968210a46965952fcb50cce",
+    "Name": "Climhazard (Hit 2)",
+    "OwnerId": 6,
+    "Owner": "Cloud",
+    "HitboxActive": "11 (Cannot Rebound)",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "4",
+    "Angle": "87/96/90",
+    "BaseKnockBackSetKnockback": "68/68/98",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "40",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210a46965952fcb50cce",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968210a46965952fcb50ccf",
+    "Name": "Climhazard (Hit 2, Late)",
+    "OwnerId": 6,
+    "Owner": "Cloud",
+    "HitboxActive": "12-15 (Cannot Rebound)",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "4",
+    "Angle": "85/96/90",
+    "BaseKnockBackSetKnockback": "50/50/70",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "40",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210a46965952fcb50ccf",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968210a46965952fcb50cd0",
+    "Name": "Limit Climhazard (Hit 1)",
+    "OwnerId": 6,
+    "Owner": "Cloud",
+    "HitboxActive": "7-10 (Intangible: 5-12, Cannot Rebound)",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "6",
+    "Angle": "40/78/102",
+    "BaseKnockBackSetKnockback": "W: 80/",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210a46965952fcb50cd0",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968210a46965952fcb50cd1",
+    "Name": "Limit Climhazard (Hit 2, Early)",
+    "OwnerId": 6,
+    "Owner": "Cloud",
+    "HitboxActive": "10 (Cannot Rebound)",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "7",
+    "Angle": "88",
+    "BaseKnockBackSetKnockback": "50",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "135",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210a46965952fcb50cd1",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968210a46965952fcb50cd2",
+    "Name": "Limit Climhazard (Hit 2)",
+    "OwnerId": 6,
+    "Owner": "Cloud",
+    "HitboxActive": "11-16 (Cannot Rebound)",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "7",
+    "Angle": "88/88/90",
+    "BaseKnockBackSetKnockback": "50/50/98",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "110/110/40",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210a46965952fcb50cd2",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968210a46965952fcb50cd3",
+    "Name": "Climhazard (Decend)",
+    "OwnerId": 6,
+    "Owner": "Cloud",
+    "HitboxActive": "12-",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "4.5",
+    "Angle": "262/45",
+    "BaseKnockBackSetKnockback": "90/130",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "25",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210a46965952fcb50cd3",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968210a46965952fcb50cd4",
+    "Name": "Climhazard (Landing)",
+    "OwnerId": 6,
+    "Owner": "Cloud",
+    "HitboxActive": "1-2",
+    "FirstActionableFrame": "21",
+    "BaseDamage": "3.5",
+    "Angle": "64",
+    "BaseKnockBackSetKnockback": "64",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "128",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210a46965952fcb50cd4",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968210a46965952fcb50cd5",
+    "Name": "Limit Break",
+    "OwnerId": 6,
+    "Owner": "Cloud",
+    "HitboxActive": "Starts Charging: 6",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "-",
+    "Angle": "-",
+    "BaseKnockBackSetKnockback": "-",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "-",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210a46965952fcb50cd5",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968210a46965952fcb50cd6",
+    "Name": "Limit Break (Charge)",
+    "OwnerId": 6,
+    "Owner": "Cloud",
+    "HitboxActive": "Frames to Charge: 400",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "-",
+    "Angle": "-",
+    "BaseKnockBackSetKnockback": "-",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "-",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210a46965952fcb50cd6",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968210a46965952fcb50cd7",
+    "Name": "Finishing Touch (Grounded)",
+    "OwnerId": 6,
+    "Owner": "Cloud",
+    "HitboxActive": "16-17 (Cannot hit more than once/Rebound)",
+    "FirstActionableFrame": "80",
+    "BaseDamage": "1",
+    "Angle": "80",
+    "BaseKnockBackSetKnockback": "60",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "417",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210a46965952fcb50cd7",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968210a46965952fcb50cd8",
+    "Name": "Finishing Touch (Grounded, Late)",
+    "OwnerId": 6,
+    "Owner": "Cloud",
+    "HitboxActive": "19 (Cannot hit more than once/Rebound)",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "1",
+    "Angle": "80",
+    "BaseKnockBackSetKnockback": "60",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "390",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210a46965952fcb50cd8",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968210a46965952fcb50cd9",
+    "Name": "Finishing Touch (Windbox)",
+    "OwnerId": 6,
+    "Owner": "Cloud",
+    "HitboxActive": "27-31",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "0",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "W: 80",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210a46965952fcb50cd9",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968210a46965952fcb50cda",
+    "Name": "Finishing Touch (Aerial)",
+    "OwnerId": 6,
+    "Owner": "Cloud",
+    "HitboxActive": "16-17 (Cannot hit more than once/Rebound)",
+    "FirstActionableFrame": "80",
+    "BaseDamage": "1",
+    "Angle": "80",
+    "BaseKnockBackSetKnockback": "60",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "359",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210a46965952fcb50cda",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968210a46965952fcb50cdb",
+    "Name": "Finishing Touch (Aerial, Late)",
+    "OwnerId": 6,
+    "Owner": "Cloud",
+    "HitboxActive": "19 (Cannot hit more than once/Rebound)",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "1",
+    "Angle": "80",
+    "BaseKnockBackSetKnockback": "60",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "335",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210a46965952fcb50cdb",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968210a46965952fcb50cdc",
+    "Name": "Finishing Touch (Aerial, Windbox)",
+    "OwnerId": 6,
+    "Owner": "Cloud",
+    "HitboxActive": "27-31",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "0",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "W: 80",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "86",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210a46965952fcb50cdc",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968210a46965952fcb50cdd",
+    "Name": "Fthrow",
+    "OwnerId": 6,
+    "Owner": "Cloud",
+    "HitboxActive": null,
+    "FirstActionableFrame": null,
+    "BaseDamage": "4, 3",
+    "Angle": "49",
+    "BaseKnockBackSetKnockback": "48",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "125",
+    "MoveType": "throw",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210a46965952fcb50cdd",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968210a46965952fcb50cde",
+    "Name": "Bthrow",
+    "OwnerId": 6,
+    "Owner": "Cloud",
+    "HitboxActive": null,
+    "FirstActionableFrame": null,
+    "BaseDamage": "3, 3",
+    "Angle": "38",
+    "BaseKnockBackSetKnockback": "48",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "110",
+    "MoveType": "throw",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210a46965952fcb50cde",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968210a46965952fcb50cdf",
+    "Name": "Uthrow",
+    "OwnerId": 6,
+    "Owner": "Cloud",
+    "HitboxActive": null,
+    "FirstActionableFrame": null,
+    "BaseDamage": "2, 2.5, 4",
+    "Angle": "80",
+    "BaseKnockBackSetKnockback": "78",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "97",
+    "MoveType": "throw",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210a46965952fcb50cdf",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968210a46965952fcb50ce0",
+    "Name": "Dthrow",
+    "OwnerId": 6,
+    "Owner": "Cloud",
+    "HitboxActive": null,
+    "FirstActionableFrame": null,
+    "BaseDamage": "7",
+    "Angle": "122",
+    "BaseKnockBackSetKnockback": "40",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "110",
+    "MoveType": "throw",
+    "IsWeightDependent": true,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210a46965952fcb50ce0",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud",
+        "Title": ""
+      }
+    ]
   }
 ]

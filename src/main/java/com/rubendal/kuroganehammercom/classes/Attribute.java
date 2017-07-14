@@ -17,41 +17,25 @@ import java.util.List;
 
 public class Attribute implements Serializable{
 
-    public int id;
-    public int owner;
-    public int attributeId;
+    public int ownerId;
     public String name;
-    public String formattedName;
     public String value;
-    public String rank;
-    public int frank;
 
-    public Attribute(int id, int owner, int attributeId, String name, String value, String rank){
-        this.id = id;
-        this.owner = owner;
-        this.attributeId = attributeId;
+    public Attribute(int ownerId, String name, String value){
+        this.ownerId = ownerId;
         this.name = name;
         this.value = value;
-        this.rank = rank;
-        this.formattedName = name;
-        this.frank = Integer.parseInt(rank.split("-")[0]);
     }
 
     public static Attribute getFromJson(Context context, JSONObject jsonObject){
         try {
 
-            List<AttributeList> attributeList = AttributeList.getList(context);
-
-
-            int id = jsonObject.getInt("id");
-            int owner = jsonObject.getInt(("ownerId"));
-            int attributeId = jsonObject.getInt("smashAttributeTypeId");
+            int ownerId = jsonObject.getInt("OwnerId");
             String name = jsonObject.getString("name");
             String value = jsonObject.getString("value");
-            String rank = jsonObject.getString("rank");
-            Attribute attribute = new Attribute(id, owner, attributeId, name, value, rank);
+            Attribute attribute = new Attribute(ownerId, name, value);
 
-            for(AttributeList al : attributeList){
+            /*for(AttributeList al : attributeList){
                 if(attribute.attributeId == al.id){
                     if(attribute.formattedName.equals("VALUE") || attribute.formattedName.equals("INTANGIBILITY") || attribute.formattedName.equals("INTANGIBLE") || attribute.formattedName.equals("FAF") || attribute.formattedName.equals("HEIGHT") || attribute.formattedName.equals("SIZE")){
                         if(!attribute.name.equals("VALUE")) {
@@ -62,7 +46,7 @@ public class Attribute implements Serializable{
                         return attribute;
                     }
                 }
-            }
+            }*/
             return attribute;
         }catch(Exception e){
 
@@ -72,7 +56,7 @@ public class Attribute implements Serializable{
 
 
 
-    public TableRow asRow(Context context, boolean odd){
+    /*public TableRow asRow(Context context, boolean odd){
         LayoutInflater vi = (LayoutInflater)context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         View v = vi.inflate(R.layout.attribute_row, null);
         TableRow tableRow = (TableRow)v.findViewById(R.id.row);
@@ -81,9 +65,8 @@ public class Attribute implements Serializable{
         TextView valueView = (TextView)tableRow.findViewById(R.id.value);
         TextView rankView = (TextView)tableRow.findViewById(R.id.rank);
 
-        attributeView.setText(formattedName);
+        attributeView.setText(name);
         valueView.setText(value);
-        rankView.setText(rank);
 
         int padding = Params.PADDING;
         attributeView.setPadding(padding,padding,padding,padding);
@@ -98,7 +81,7 @@ public class Attribute implements Serializable{
         }
 
         return tableRow;
-    }
+    }*/
 
 
 

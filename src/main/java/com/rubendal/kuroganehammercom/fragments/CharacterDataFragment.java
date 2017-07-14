@@ -200,7 +200,7 @@ public class CharacterDataFragment extends KHFragment {
             t.setBackgroundColor(Color.parseColor(data.character.color));
         }
 
-        LinkedList<DodgeData> dodgeData = new LinkedList<>();
+        /*LinkedList<DodgeData> dodgeData = new LinkedList<>();
 
         for(int i=0;i<data.attributes.size();i+=2){
             String name = data.attributes.get(i).formattedName;
@@ -246,7 +246,7 @@ public class CharacterDataFragment extends KHFragment {
         for(DodgeData d : dodgeData){
             o++;
             layout.addView(d.asRow(this.getActivity(), o % 2 == 1));
-        }
+        }*/
 
         o=0;
         layout = (TableLayout)getView().findViewById(R.id.aerialtable);

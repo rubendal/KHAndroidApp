@@ -21,7 +21,7 @@ import java.util.LinkedList;
 public class Storage {
 
     //Initial storage assets version, will change when new assets that are stored in internal storage are added
-    private static final String STORAGE_DATA_VERSION = "1.4";
+    private static final String STORAGE_DATA_VERSION = "1";
 
     //Write file in internal storage
     public static void write (String directory, String filename, Context context, String string) throws IOException {
@@ -92,15 +92,15 @@ public class Storage {
             write("data","characters.json",context,json);
             json = Assets.getAsset(assets, "formulas.json");
             write("data","formulas.json",context,json);
-            json = Assets.getAsset(assets, "Data/smashAttributes.json");
-            write("data","smashAttributes.json",context,json);
+            //json = Assets.getAsset(assets, "Data/smashAttributes.json");
+            //write("data","smashAttributes.json",context,json);
             json = Assets.getAsset(assets, "Data/attributes.json");
             write("data","attributes.json",context,json);
             for(Character c : list){
                 json = Assets.getAsset(assets, "Data/" + c.id + "/moves.json");
                 write(String.valueOf(c.id),"moves.json",context,json);
-                json = Assets.getAsset(assets, "Data/" + c.id + "/throws.json");
-                write(String.valueOf(c.id),"throws.json",context,json);
+                //json = Assets.getAsset(assets, "Data/" + c.id + "/throws.json");
+                //write(String.valueOf(c.id),"throws.json",context,json);
                 json = Assets.getAsset(assets, "Data/" + c.id + "/attributes.json");
                 write(String.valueOf(c.id),"attributes.json",context,json);
                 json = Assets.getAsset(assets, "Data/" + c.id + "/smashAttributes.json");

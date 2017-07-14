@@ -1,646 +1,1402 @@
 ﻿[
   {
-    "hitboxActive": "2-4",
-    "firstActionableFrame": "20",
-    "baseDamage": "2.5",
-    "angle": "30/66/87",
-    "baseKnockBackSetKnockback": "W: 30/18/16",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Jab 1",
-    "ownerId": 24,
-    "id": 1278
+    "InstanceId": "5968213c46965952fcb51285",
+    "Name": "Jab 1",
+    "OwnerId": 24,
+    "Owner": "Lucas",
+    "HitboxActive": "2-4",
+    "FirstActionableFrame": "20",
+    "BaseDamage": "2.5",
+    "Angle": "30/66/87",
+    "BaseKnockBackSetKnockback": "W: 30/18/16",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213c46965952fcb51285",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucas",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "3-5",
-    "firstActionableFrame": "20",
-    "baseDamage": "2",
-    "angle": "30/70/88",
-    "baseKnockBackSetKnockback": "W: 30/18/16",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Jab 2",
-    "ownerId": 24,
-    "id": 1279
+    "InstanceId": "5968213c46965952fcb51286",
+    "Name": "Jab 2",
+    "OwnerId": 24,
+    "Owner": "Lucas",
+    "HitboxActive": "3-5",
+    "FirstActionableFrame": "20",
+    "BaseDamage": "2",
+    "Angle": "30/70/88",
+    "BaseKnockBackSetKnockback": "W: 30/18/16",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213c46965952fcb51286",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucas",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "6-8",
-    "firstActionableFrame": "30",
-    "baseDamage": "4",
-    "angle": "48",
-    "baseKnockBackSetKnockback": "60",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "80",
-    "type": 1,
-    "name": "Jab 3",
-    "ownerId": 24,
-    "id": 1280
+    "InstanceId": "5968213c46965952fcb51287",
+    "Name": "Jab 3",
+    "OwnerId": 24,
+    "Owner": "Lucas",
+    "HitboxActive": "6-8",
+    "FirstActionableFrame": "30",
+    "BaseDamage": "4",
+    "Angle": "48",
+    "BaseKnockBackSetKnockback": "60",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "80",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213c46965952fcb51287",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucas",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "15-16",
-    "firstActionableFrame": "39",
-    "baseDamage": "9/13",
-    "angle": "75/46",
-    "baseKnockBackSetKnockback": "60",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "76/70",
-    "type": 1,
-    "name": "Dash Attack",
-    "ownerId": 24,
-    "id": 1281
+    "InstanceId": "5968213c46965952fcb51288",
+    "Name": "Dash Attack",
+    "OwnerId": 24,
+    "Owner": "Lucas",
+    "HitboxActive": "15-16",
+    "FirstActionableFrame": "39",
+    "BaseDamage": "9/13",
+    "Angle": "75/46",
+    "BaseKnockBackSetKnockback": "60",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "76/70",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213c46965952fcb51288",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucas",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "7-9",
-    "firstActionableFrame": "26",
-    "baseDamage": "7.5/11",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "20/30",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "60/75",
-    "type": 1,
-    "name": "Ftilt (All Angles)",
-    "ownerId": 24,
-    "id": 1282
+    "InstanceId": "5968213c46965952fcb51289",
+    "Name": "Ftilt (All Angles)",
+    "OwnerId": 24,
+    "Owner": "Lucas",
+    "HitboxActive": "7-9",
+    "FirstActionableFrame": "26",
+    "BaseDamage": "7.5/11",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "20/30",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "60/75",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213c46965952fcb51289",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucas",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "4",
-    "firstActionableFrame": "37",
-    "baseDamage": "1.5",
-    "angle": "120",
-    "baseKnockBackSetKnockback": "W: 60",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Utilt (Hit 1)",
-    "ownerId": 24,
-    "id": 1283
+    "InstanceId": "5968213c46965952fcb5128a",
+    "Name": "Utilt (Hit 1)",
+    "OwnerId": 24,
+    "Owner": "Lucas",
+    "HitboxActive": "4",
+    "FirstActionableFrame": "37",
+    "BaseDamage": "1.5",
+    "Angle": "120",
+    "BaseKnockBackSetKnockback": "W: 60",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213c46965952fcb5128a",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucas",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "7-10",
-    "firstActionableFrame": "-",
-    "baseDamage": "8",
-    "angle": "93",
-    "baseKnockBackSetKnockback": "50",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Utilt (Hit 2)",
-    "ownerId": 24,
-    "id": 1284
+    "InstanceId": "5968213c46965952fcb5128b",
+    "Name": "Utilt (Hit 2)",
+    "OwnerId": 24,
+    "Owner": "Lucas",
+    "HitboxActive": "7-10",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "8",
+    "Angle": "93",
+    "BaseKnockBackSetKnockback": "50",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213c46965952fcb5128b",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucas",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "11-14",
-    "firstActionableFrame": "-",
-    "baseDamage": "5",
-    "angle": "90",
-    "baseKnockBackSetKnockback": "50",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Utilt (Hit 2, Late)",
-    "ownerId": 24,
-    "id": 1285
+    "InstanceId": "5968213c46965952fcb5128c",
+    "Name": "Utilt (Hit 2, Late)",
+    "OwnerId": 24,
+    "Owner": "Lucas",
+    "HitboxActive": "11-14",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "5",
+    "Angle": "90",
+    "BaseKnockBackSetKnockback": "50",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213c46965952fcb5128c",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucas",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "3-4",
-    "firstActionableFrame": "16",
-    "baseDamage": "3",
-    "angle": "76/40/0",
-    "baseKnockBackSetKnockback": "18/10/8",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "50/45/40",
-    "type": 1,
-    "name": "Dtilt",
-    "ownerId": 24,
-    "id": 1286
+    "InstanceId": "5968213c46965952fcb5128d",
+    "Name": "Dtilt",
+    "OwnerId": 24,
+    "Owner": "Lucas",
+    "HitboxActive": "3-4",
+    "FirstActionableFrame": "16",
+    "BaseDamage": "3",
+    "Angle": "76/40/0",
+    "BaseKnockBackSetKnockback": "18/10/8",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "50/45/40",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213c46965952fcb5128d",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucas",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "14-15 (Reflects on: 10-19, 1.5&#215;, 50% Break Threshold)",
-    "firstActionableFrame": "47",
-    "baseDamage": "14/15",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "50",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "88",
-    "type": 1,
-    "name": "Fsmash",
-    "ownerId": 24,
-    "id": 1287
+    "InstanceId": "5968213c46965952fcb5128e",
+    "Name": "Fsmash",
+    "OwnerId": 24,
+    "Owner": "Lucas",
+    "HitboxActive": "14-15 (Reflects on: 10-19, 1.5&#215;, 50% Break Threshold)",
+    "FirstActionableFrame": "47",
+    "BaseDamage": "14/15",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "50",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "88",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213c46965952fcb5128e",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucas",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "28 (Invincible: 1-4, Head Intangible: 15-29)",
-    "firstActionableFrame": "99",
-    "baseDamage": "2",
-    "angle": "110",
-    "baseKnockBackSetKnockback": "W: 110",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "90",
-    "type": 1,
-    "name": "Usmash (Launcher)",
-    "ownerId": 24,
-    "id": 1288
+    "InstanceId": "5968213c46965952fcb5128f",
+    "Name": "Usmash (Launcher)",
+    "OwnerId": 24,
+    "Owner": "Lucas",
+    "HitboxActive": "28 (Invincible: 1-4, Head Intangible: 15-29)",
+    "FirstActionableFrame": "99",
+    "BaseDamage": "2",
+    "Angle": "110",
+    "BaseKnockBackSetKnockback": "W: 110",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "90",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213c46965952fcb5128f",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucas",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "30-32",
-    "firstActionableFrame": "-",
-    "baseDamage": "19",
-    "angle": "95",
-    "baseKnockBackSetKnockback": "48",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "77",
-    "type": 1,
-    "name": "Usmash (Hit 2, Earliest)",
-    "ownerId": 24,
-    "id": 1289
+    "InstanceId": "5968213c46965952fcb51290",
+    "Name": "Usmash (Hit 2, Earliest)",
+    "OwnerId": 24,
+    "Owner": "Lucas",
+    "HitboxActive": "30-32",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "19",
+    "Angle": "95",
+    "BaseKnockBackSetKnockback": "48",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "77",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213c46965952fcb51290",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucas",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "33-37",
-    "firstActionableFrame": "-",
-    "baseDamage": "18",
-    "angle": "95",
-    "baseKnockBackSetKnockback": "42",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "77",
-    "type": 1,
-    "name": "Usmash (Hit 2, Early)",
-    "ownerId": 24,
-    "id": 1290
+    "InstanceId": "5968213c46965952fcb51291",
+    "Name": "Usmash (Hit 2, Early)",
+    "OwnerId": 24,
+    "Owner": "Lucas",
+    "HitboxActive": "33-37",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "18",
+    "Angle": "95",
+    "BaseKnockBackSetKnockback": "42",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "77",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213c46965952fcb51291",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucas",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "38-42",
-    "firstActionableFrame": "-",
-    "baseDamage": "16",
-    "angle": "95",
-    "baseKnockBackSetKnockback": "37",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "77",
-    "type": 1,
-    "name": "Usmash (Hit 2)",
-    "ownerId": 24,
-    "id": 1291
+    "InstanceId": "5968213c46965952fcb51292",
+    "Name": "Usmash (Hit 2)",
+    "OwnerId": 24,
+    "Owner": "Lucas",
+    "HitboxActive": "38-42",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "16",
+    "Angle": "95",
+    "BaseKnockBackSetKnockback": "37",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "77",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213c46965952fcb51292",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucas",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "43-47",
-    "firstActionableFrame": "-",
-    "baseDamage": "14",
-    "angle": "95",
-    "baseKnockBackSetKnockback": "32",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "77",
-    "type": 1,
-    "name": "Usmash (Hit 2, Late)",
-    "ownerId": 24,
-    "id": 1292
+    "InstanceId": "5968213c46965952fcb51293",
+    "Name": "Usmash (Hit 2, Late)",
+    "OwnerId": 24,
+    "Owner": "Lucas",
+    "HitboxActive": "43-47",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "14",
+    "Angle": "95",
+    "BaseKnockBackSetKnockback": "32",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "77",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213c46965952fcb51293",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucas",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "48-52 (Aerial Only)",
-    "firstActionableFrame": "-",
-    "baseDamage": "12",
-    "angle": "95",
-    "baseKnockBackSetKnockback": "27",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "77",
-    "type": 1,
-    "name": "Usmash (Hit 2, Latest)",
-    "ownerId": 24,
-    "id": 1293
+    "InstanceId": "5968213c46965952fcb51294",
+    "Name": "Usmash (Hit 2, Latest)",
+    "OwnerId": 24,
+    "Owner": "Lucas",
+    "HitboxActive": "48-52 (Aerial Only)",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "12",
+    "Angle": "95",
+    "BaseKnockBackSetKnockback": "27",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "77",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213c46965952fcb51294",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucas",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "20-21 (Cannot hit more than once)",
-    "firstActionableFrame": "60",
-    "baseDamage": "17",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "43",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "90",
-    "type": 1,
-    "name": "Dsmash (Hit 1)",
-    "ownerId": 24,
-    "id": 1294
+    "InstanceId": "5968213c46965952fcb51295",
+    "Name": "Dsmash (Hit 1)",
+    "OwnerId": 24,
+    "Owner": "Lucas",
+    "HitboxActive": "20-21 (Cannot hit more than once)",
+    "FirstActionableFrame": "60",
+    "BaseDamage": "17",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "43",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "90",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213c46965952fcb51295",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucas",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "29-30 (Cannot hit more than once)",
-    "firstActionableFrame": "-",
-    "baseDamage": "14",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "90",
-    "type": 1,
-    "name": "Dsmash (Hit 2)",
-    "ownerId": 24,
-    "id": 1295
+    "InstanceId": "5968213c46965952fcb51296",
+    "Name": "Dsmash (Hit 2)",
+    "OwnerId": 24,
+    "Owner": "Lucas",
+    "HitboxActive": "29-30 (Cannot hit more than once)",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "14",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "90",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213c46965952fcb51296",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucas",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "39-40 (Cannot hit more than once)",
-    "firstActionableFrame": "-",
-    "baseDamage": "11",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "20",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "90",
-    "type": 1,
-    "name": "Dsmash (Hit 3)",
-    "ownerId": 24,
-    "id": 1296
+    "InstanceId": "5968213c46965952fcb51297",
+    "Name": "Dsmash (Hit 3)",
+    "OwnerId": 24,
+    "Owner": "Lucas",
+    "HitboxActive": "39-40 (Cannot hit more than once)",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "11",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "20",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "90",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213c46965952fcb51297",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucas",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "12-19",
-    "firstActionableFrame": "46",
-    "baseDamage": "",
-    "angle": "",
-    "baseKnockBackSetKnockback": "",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "",
-    "type": 1,
-    "name": "Standing Grab",
-    "ownerId": 24,
-    "id": 1298
+    "InstanceId": "5968213c46965952fcb51298",
+    "Name": "Standing Grab",
+    "OwnerId": 24,
+    "Owner": "Lucas",
+    "HitboxActive": "12-19",
+    "FirstActionableFrame": "46",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213c46965952fcb51298",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucas",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "14-21",
-    "firstActionableFrame": "56",
-    "baseDamage": "",
-    "angle": "",
-    "baseKnockBackSetKnockback": "",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "",
-    "type": 1,
-    "name": "Dash Grab",
-    "ownerId": 24,
-    "id": 1299
+    "InstanceId": "5968213c46965952fcb51299",
+    "Name": "Dash Grab",
+    "OwnerId": 24,
+    "Owner": "Lucas",
+    "HitboxActive": "14-21",
+    "FirstActionableFrame": "56",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213c46965952fcb51299",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucas",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "12-19",
-    "firstActionableFrame": "56",
-    "baseDamage": "",
-    "angle": "",
-    "baseKnockBackSetKnockback": "",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "",
-    "type": 1,
-    "name": "Pivot Grab",
-    "ownerId": 24,
-    "id": 1300
+    "InstanceId": "5968213c46965952fcb5129a",
+    "Name": "Pivot Grab",
+    "OwnerId": 24,
+    "Owner": "Lucas",
+    "HitboxActive": "12-19",
+    "FirstActionableFrame": "56",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213c46965952fcb5129a",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucas",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "10",
-    "angle": "48",
-    "baseKnockBackSetKnockback": "80",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "65",
-    "type": 3,
-    "name": "Fthrow",
-    "ownerId": 24,
-    "id": 1302
+    "InstanceId": "5968213c46965952fcb5129b",
+    "Name": "Spotdodge",
+    "OwnerId": 24,
+    "Owner": "Lucas",
+    "HitboxActive": "3-18",
+    "FirstActionableFrame": "28",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213c46965952fcb5129b",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucas",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "10",
-    "angle": "41",
-    "baseKnockBackSetKnockback": "80",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "65",
-    "type": 3,
-    "name": "Bthrow",
-    "ownerId": 24,
-    "id": 1303
+    "InstanceId": "5968213c46965952fcb5129c",
+    "Name": "Forward Roll",
+    "OwnerId": 24,
+    "Owner": "Lucas",
+    "HitboxActive": "4-17",
+    "FirstActionableFrame": "31",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213c46965952fcb5129c",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucas",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "10",
-    "angle": "90",
-    "baseKnockBackSetKnockback": "78",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "69",
-    "type": 3,
-    "name": "Uthrow",
-    "ownerId": 24,
-    "id": 1304
+    "InstanceId": "5968213c46965952fcb5129d",
+    "Name": "Back Roll",
+    "OwnerId": 24,
+    "Owner": "Lucas",
+    "HitboxActive": "4-17",
+    "FirstActionableFrame": "31",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213c46965952fcb5129d",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucas",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "6.5",
-    "angle": "80",
-    "baseKnockBackSetKnockback": "78",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "51",
-    "type": 3,
-    "name": "Dthrow",
-    "ownerId": 24,
-    "id": 1305
+    "InstanceId": "5968213c46965952fcb5129e",
+    "Name": "Airdodge",
+    "OwnerId": 24,
+    "Owner": "Lucas",
+    "HitboxActive": "3-28",
+    "FirstActionableFrame": "34",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213c46965952fcb5129e",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucas",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "7-23 (Rehit rate: 5)",
-    "firstActionableFrame": "45",
-    "baseDamage": "2",
-    "angle": "367",
-    "baseKnockBackSetKnockback": "20",
-    "landingLag": "13",
-    "autoCancel": "37&gt;",
-    "knockbackGrowth": "70",
-    "type": 0,
-    "name": "Nair",
-    "ownerId": 24,
-    "id": 1311
+    "InstanceId": "5968213c46965952fcb5129f",
+    "Name": "Nair",
+    "OwnerId": 24,
+    "Owner": "Lucas",
+    "HitboxActive": "7-23 (Rehit rate: 5)",
+    "FirstActionableFrame": "45",
+    "BaseDamage": "2",
+    "Angle": "367",
+    "BaseKnockBackSetKnockback": "20",
+    "LandingLag": "13",
+    "AutoCancel": "37&gt;",
+    "KnockbackGrowth": "70",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213c46965952fcb5129f",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucas",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "26",
-    "firstActionableFrame": "-",
-    "baseDamage": "4",
-    "angle": "60",
-    "baseKnockBackSetKnockback": "40",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "140",
-    "type": 0,
-    "name": "Nair (Final Hit)",
-    "ownerId": 24,
-    "id": 1312
+    "InstanceId": "5968213c46965952fcb512a0",
+    "Name": "Nair (Final Hit)",
+    "OwnerId": 24,
+    "Owner": "Lucas",
+    "HitboxActive": "26",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "4",
+    "Angle": "60",
+    "BaseKnockBackSetKnockback": "40",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "140",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213c46965952fcb512a0",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucas",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "9-10",
-    "firstActionableFrame": "42",
-    "baseDamage": "9/11.5",
-    "angle": "361/46",
-    "baseKnockBackSetKnockback": "10/30",
-    "landingLag": "12",
-    "autoCancel": "38&gt;",
-    "knockbackGrowth": "100/97",
-    "type": 0,
-    "name": "Fair",
-    "ownerId": 24,
-    "id": 1313
+    "InstanceId": "5968213c46965952fcb512a1",
+    "Name": "Fair",
+    "OwnerId": 24,
+    "Owner": "Lucas",
+    "HitboxActive": "9-10",
+    "FirstActionableFrame": "42",
+    "BaseDamage": "9/11.5",
+    "Angle": "361/46",
+    "BaseKnockBackSetKnockback": "10/30",
+    "LandingLag": "12",
+    "AutoCancel": "38&gt;",
+    "KnockbackGrowth": "100/97",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213c46965952fcb512a1",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucas",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "11-12",
-    "firstActionableFrame": "-",
-    "baseDamage": "6",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "7",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "100",
-    "type": 0,
-    "name": "Fair (Late)",
-    "ownerId": 24,
-    "id": 1314
+    "InstanceId": "5968213c46965952fcb512a2",
+    "Name": "Fair (Late)",
+    "OwnerId": 24,
+    "Owner": "Lucas",
+    "HitboxActive": "11-12",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "6",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "7",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "100",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213c46965952fcb512a2",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucas",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "15-20",
-    "firstActionableFrame": "40",
-    "baseDamage": "9/12/12/7",
-    "angle": "361/280/361/361",
-    "baseKnockBackSetKnockback": "30/30/30/10",
-    "landingLag": "15",
-    "autoCancel": "1-2, 39&gt;",
-    "knockbackGrowth": "80/90/90/60",
-    "type": 0,
-    "name": "Bair",
-    "ownerId": 24,
-    "id": 1315
+    "InstanceId": "5968213c46965952fcb512a3",
+    "Name": "Bair",
+    "OwnerId": 24,
+    "Owner": "Lucas",
+    "HitboxActive": "15-20",
+    "FirstActionableFrame": "40",
+    "BaseDamage": "9/12/12/7",
+    "Angle": "361/280/361/361",
+    "BaseKnockBackSetKnockback": "30/30/30/10",
+    "LandingLag": "15",
+    "AutoCancel": "1-2, 39&gt;",
+    "KnockbackGrowth": "80/90/90/60",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213c46965952fcb512a3",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucas",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "7-9",
-    "firstActionableFrame": "46",
-    "baseDamage": "13",
-    "angle": "80",
-    "baseKnockBackSetKnockback": "10",
-    "landingLag": "12",
-    "autoCancel": "38&gt;",
-    "knockbackGrowth": "100",
-    "type": 0,
-    "name": "Uair",
-    "ownerId": 24,
-    "id": 1316
+    "InstanceId": "5968213c46965952fcb512a4",
+    "Name": "Uair",
+    "OwnerId": 24,
+    "Owner": "Lucas",
+    "HitboxActive": "7-9",
+    "FirstActionableFrame": "46",
+    "BaseDamage": "13",
+    "Angle": "80",
+    "BaseKnockBackSetKnockback": "10",
+    "LandingLag": "12",
+    "AutoCancel": "38&gt;",
+    "KnockbackGrowth": "100",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213c46965952fcb512a4",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucas",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "10-12, 18-19, 26-27",
-    "firstActionableFrame": "57",
-    "baseDamage": "3.5",
-    "angle": "90/270",
-    "baseKnockBackSetKnockback": "B: 42/W: 20",
-    "landingLag": "24",
-    "autoCancel": "47&gt;",
-    "knockbackGrowth": "10/100",
-    "type": 0,
-    "name": "Dair (Hits 1-3)",
-    "ownerId": 24,
-    "id": 1317
+    "InstanceId": "5968213c46965952fcb512a5",
+    "Name": "Dair (Hits 1-3)",
+    "OwnerId": 24,
+    "Owner": "Lucas",
+    "HitboxActive": "10-12, 18-19, 26-27",
+    "FirstActionableFrame": "57",
+    "BaseDamage": "3.5",
+    "Angle": "90/270",
+    "BaseKnockBackSetKnockback": "B: 42/W: 20",
+    "LandingLag": "24",
+    "AutoCancel": "47&gt;",
+    "KnockbackGrowth": "10/100",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213c46965952fcb512a5",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucas",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "34-35",
-    "firstActionableFrame": "-",
-    "baseDamage": "5",
-    "angle": "270/361",
-    "baseKnockBackSetKnockback": "10",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "110/130",
-    "type": 0,
-    "name": "Dair (Hit 4)",
-    "ownerId": 24,
-    "id": 1318
+    "InstanceId": "5968213c46965952fcb512a6",
+    "Name": "Dair (Hit 4)",
+    "OwnerId": 24,
+    "Owner": "Lucas",
+    "HitboxActive": "34-35",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "5",
+    "Angle": "270/361",
+    "BaseKnockBackSetKnockback": "10",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "110/130",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213c46965952fcb512a6",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucas",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "9-12",
-    "firstActionableFrame": "60",
-    "baseDamage": "4",
-    "angle": "45",
-    "baseKnockBackSetKnockback": "60",
-    "landingLag": "8",
-    "autoCancel": "-",
-    "knockbackGrowth": "30",
-    "type": 0,
-    "name": "Zair",
-    "ownerId": 24,
-    "id": 1319
+    "InstanceId": "5968213c46965952fcb512a7",
+    "Name": "Zair",
+    "OwnerId": 24,
+    "Owner": "Lucas",
+    "HitboxActive": "9-12",
+    "FirstActionableFrame": "60",
+    "BaseDamage": "4",
+    "Angle": "45",
+    "BaseKnockBackSetKnockback": "60",
+    "LandingLag": "8",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "30",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213c46965952fcb512a7",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucas",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "13-19",
-    "firstActionableFrame": "-",
-    "baseDamage": "2.8",
-    "angle": "45",
-    "baseKnockBackSetKnockback": "40",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "30",
-    "type": 0,
-    "name": "Zair (Late)",
-    "ownerId": 24,
-    "id": 1320
+    "InstanceId": "5968213c46965952fcb512a8",
+    "Name": "Zair (Late)",
+    "OwnerId": 24,
+    "Owner": "Lucas",
+    "HitboxActive": "13-19",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "2.8",
+    "Angle": "45",
+    "BaseKnockBackSetKnockback": "40",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "30",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213c46965952fcb512a8",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucas",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "40",
-    "firstActionableFrame": "67",
-    "baseDamage": "-",
-    "angle": "-",
-    "baseKnockBackSetKnockback": "-",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "-",
-    "type": 2,
-    "name": "PK Freeze",
-    "ownerId": 24,
-    "id": 1321
+    "InstanceId": "5968213c46965952fcb512a9",
+    "Name": "PK Freeze",
+    "OwnerId": 24,
+    "Owner": "Lucas",
+    "HitboxActive": "40",
+    "FirstActionableFrame": "67",
+    "BaseDamage": "-",
+    "Angle": "-",
+    "BaseKnockBackSetKnockback": "-",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "-",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213c46965952fcb512a9",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucas",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "89",
-    "firstActionableFrame": "116",
-    "baseDamage": "-",
-    "angle": "-",
-    "baseKnockBackSetKnockback": "-",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "-",
-    "type": 2,
-    "name": "PK Freeze (Max)",
-    "ownerId": 24,
-    "id": 1322
+    "InstanceId": "5968213c46965952fcb512aa",
+    "Name": "PK Freeze (Max)",
+    "OwnerId": 24,
+    "Owner": "Lucas",
+    "HitboxActive": "89",
+    "FirstActionableFrame": "116",
+    "BaseDamage": "-",
+    "Angle": "-",
+    "BaseKnockBackSetKnockback": "-",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "-",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213c46965952fcb512aa",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucas",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "21-37",
-    "firstActionableFrame": "53",
-    "baseDamage": "3",
-    "angle": "-",
-    "baseKnockBackSetKnockback": "-",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "-",
-    "type": 2,
-    "name": "PK Fire",
-    "ownerId": 24,
-    "id": 1323
+    "InstanceId": "5968213c46965952fcb512ab",
+    "Name": "PK Fire",
+    "OwnerId": 24,
+    "Owner": "Lucas",
+    "HitboxActive": "21-37",
+    "FirstActionableFrame": "53",
+    "BaseDamage": "3",
+    "Angle": "-",
+    "BaseKnockBackSetKnockback": "-",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "-",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213c46965952fcb512ab",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucas",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "1-20",
-    "firstActionableFrame": "-",
-    "baseDamage": "6",
-    "angle": "-",
-    "baseKnockBackSetKnockback": "-",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "-",
-    "type": 2,
-    "name": "PK Fire (Contact)",
-    "ownerId": 24,
-    "id": 1324
+    "InstanceId": "5968213c46965952fcb512ac",
+    "Name": "PK Fire (Contact)",
+    "OwnerId": 24,
+    "Owner": "Lucas",
+    "HitboxActive": "1-20",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "6",
+    "Angle": "-",
+    "BaseKnockBackSetKnockback": "-",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "-",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213c46965952fcb512ac",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucas",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "20-137",
-    "firstActionableFrame": "70",
-    "baseDamage": "-",
-    "angle": "-",
-    "baseKnockBackSetKnockback": "-",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "-",
-    "type": 2,
-    "name": "PK Thunder",
-    "ownerId": 24,
-    "id": 1325
+    "InstanceId": "5968213c46965952fcb512ad",
+    "Name": "PK Thunder",
+    "OwnerId": 24,
+    "Owner": "Lucas",
+    "HitboxActive": "20-137",
+    "FirstActionableFrame": "70",
+    "BaseDamage": "-",
+    "Angle": "-",
+    "BaseKnockBackSetKnockback": "-",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "-",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213c46965952fcb512ad",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucas",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "1 (Intangible: 1-9)",
-    "firstActionableFrame": "66",
-    "baseDamage": "8",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "60",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "110",
-    "type": 2,
-    "name": "PK Thunder 2 (Hit 1)",
-    "ownerId": 24,
-    "id": 1326
+    "InstanceId": "5968213c46965952fcb512ae",
+    "Name": "PK Thunder 2 (Hit 1)",
+    "OwnerId": 24,
+    "Owner": "Lucas",
+    "HitboxActive": "1 (Intangible: 1-9)",
+    "FirstActionableFrame": "66",
+    "BaseDamage": "8",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "60",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "110",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213c46965952fcb512ae",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucas",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "3-4, 6-7, 9-10, 12-13, 15-16",
-    "firstActionableFrame": "-",
-    "baseDamage": "2",
-    "angle": "366",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "50",
-    "type": 2,
-    "name": "PK Thunder 2 (Hits 2-6)",
-    "ownerId": 24,
-    "id": 1327
+    "InstanceId": "5968213c46965952fcb512af",
+    "Name": "PK Thunder 2 (Hits 2-6)",
+    "OwnerId": 24,
+    "Owner": "Lucas",
+    "HitboxActive": "3-4, 6-7, 9-10, 12-13, 15-16",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "2",
+    "Angle": "366",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "50",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213c46965952fcb512af",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucas",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "18-19, 21-22, 24-25, 27-28, 30-31",
-    "firstActionableFrame": "-",
-    "baseDamage": "1.5",
-    "angle": "366",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "50",
-    "type": 2,
-    "name": "PK Thunder 2 (Hits 7-11)",
-    "ownerId": 24,
-    "id": 1328
+    "InstanceId": "5968213c46965952fcb512b0",
+    "Name": "PK Thunder 2 (Hits 7-11)",
+    "OwnerId": 24,
+    "Owner": "Lucas",
+    "HitboxActive": "18-19, 21-22, 24-25, 27-28, 30-31",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "1.5",
+    "Angle": "366",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "50",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213c46965952fcb512b0",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucas",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "33-34",
-    "firstActionableFrame": "-",
-    "baseDamage": "10",
-    "angle": "50",
-    "baseKnockBackSetKnockback": "90",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "74",
-    "type": 2,
-    "name": "PK Thunder 2 (Hit 12)",
-    "ownerId": 24,
-    "id": 1329
+    "InstanceId": "5968213c46965952fcb512b1",
+    "Name": "PK Thunder 2 (Hit 12)",
+    "OwnerId": 24,
+    "Owner": "Lucas",
+    "HitboxActive": "33-34",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "10",
+    "Angle": "50",
+    "BaseKnockBackSetKnockback": "90",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "74",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213c46965952fcb512b1",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucas",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "17",
-    "firstActionableFrame": "36",
-    "baseDamage": "8",
-    "angle": "25",
-    "baseKnockBackSetKnockback": "40",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "98",
-    "type": 2,
-    "name": "PSI Magnet",
-    "ownerId": 24,
-    "id": 1330
+    "InstanceId": "5968213c46965952fcb512b2",
+    "Name": "PSI Magnet",
+    "OwnerId": 24,
+    "Owner": "Lucas",
+    "HitboxActive": "17",
+    "FirstActionableFrame": "36",
+    "BaseDamage": "8",
+    "Angle": "25",
+    "BaseKnockBackSetKnockback": "40",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "98",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213c46965952fcb512b2",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucas",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968213c46965952fcb512b3",
+    "Name": "Fthrow",
+    "OwnerId": 24,
+    "Owner": "Lucas",
+    "HitboxActive": null,
+    "FirstActionableFrame": null,
+    "BaseDamage": "10",
+    "Angle": "48",
+    "BaseKnockBackSetKnockback": "80",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "65",
+    "MoveType": "throw",
+    "IsWeightDependent": true,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213c46965952fcb512b3",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucas",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968213c46965952fcb512b4",
+    "Name": "Bthrow",
+    "OwnerId": 24,
+    "Owner": "Lucas",
+    "HitboxActive": null,
+    "FirstActionableFrame": null,
+    "BaseDamage": "10",
+    "Angle": "41",
+    "BaseKnockBackSetKnockback": "80",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "65",
+    "MoveType": "throw",
+    "IsWeightDependent": true,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213c46965952fcb512b4",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucas",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968213c46965952fcb512b5",
+    "Name": "Uthrow",
+    "OwnerId": 24,
+    "Owner": "Lucas",
+    "HitboxActive": null,
+    "FirstActionableFrame": null,
+    "BaseDamage": "10",
+    "Angle": "90",
+    "BaseKnockBackSetKnockback": "78",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "69",
+    "MoveType": "throw",
+    "IsWeightDependent": true,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213c46965952fcb512b5",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucas",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968213c46965952fcb512b6",
+    "Name": "Dthrow",
+    "OwnerId": 24,
+    "Owner": "Lucas",
+    "HitboxActive": null,
+    "FirstActionableFrame": null,
+    "BaseDamage": "6.5",
+    "Angle": "80",
+    "BaseKnockBackSetKnockback": "78",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "51",
+    "MoveType": "throw",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213c46965952fcb512b6",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucas",
+        "Title": ""
+      }
+    ]
   }
 ]

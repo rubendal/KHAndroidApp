@@ -1,800 +1,1710 @@
 ﻿[
   {
-    "hitboxActive": "3-4",
-    "firstActionableFrame": "18",
-    "baseDamage": "3",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "8",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "80/100/100",
-    "type": 1,
-    "name": "Jab 1",
-    "ownerId": 48,
-    "id": 2662
+    "InstanceId": "5968217e46965952fcb51abd",
+    "Name": "Jab 1",
+    "OwnerId": 48,
+    "Owner": "Samus",
+    "HitboxActive": "3-4",
+    "FirstActionableFrame": "18",
+    "BaseDamage": "3",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "8",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "80/100/100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968217e46965952fcb51abd",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Samus",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "6-9",
-    "firstActionableFrame": "30",
-    "baseDamage": "8",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "95",
-    "type": 1,
-    "name": "Jab 2",
-    "ownerId": 48,
-    "id": 2663
+    "InstanceId": "5968217e46965952fcb51abe",
+    "Name": "Jab 2",
+    "OwnerId": 48,
+    "Owner": "Samus",
+    "HitboxActive": "6-9",
+    "FirstActionableFrame": "30",
+    "BaseDamage": "8",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "95",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968217e46965952fcb51abe",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Samus",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "8-9",
-    "firstActionableFrame": "34",
-    "baseDamage": "7 (+1)",
-    "angle": "75",
-    "baseKnockBackSetKnockback": "80",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "60",
-    "type": 1,
-    "name": "Dash Attack (Early)",
-    "ownerId": 48,
-    "id": 2664
+    "InstanceId": "5968217e46965952fcb51abf",
+    "Name": "Dash Attack (Early)",
+    "OwnerId": 48,
+    "Owner": "Samus",
+    "HitboxActive": "8-9",
+    "FirstActionableFrame": "34",
+    "BaseDamage": "7 (+1)",
+    "Angle": "75",
+    "BaseKnockBackSetKnockback": "80",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "60",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968217e46965952fcb51abf",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Samus",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "10-13",
-    "firstActionableFrame": "-",
-    "baseDamage": "10 (+1)",
-    "angle": "75",
-    "baseKnockBackSetKnockback": "80",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "60",
-    "type": 1,
-    "name": "Dash Attack",
-    "ownerId": 48,
-    "id": 2665
+    "InstanceId": "5968217e46965952fcb51ac0",
+    "Name": "Dash Attack",
+    "OwnerId": 48,
+    "Owner": "Samus",
+    "HitboxActive": "10-13",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "10 (+1)",
+    "Angle": "75",
+    "BaseKnockBackSetKnockback": "80",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "60",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968217e46965952fcb51ac0",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Samus",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "14-18",
-    "firstActionableFrame": "-",
-    "baseDamage": "6 (+1)",
-    "angle": "75",
-    "baseKnockBackSetKnockback": "80",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "60",
-    "type": 1,
-    "name": "Dash Attack (Late)",
-    "ownerId": 48,
-    "id": 2666
+    "InstanceId": "5968217e46965952fcb51ac1",
+    "Name": "Dash Attack (Late)",
+    "OwnerId": 48,
+    "Owner": "Samus",
+    "HitboxActive": "14-18",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "6 (+1)",
+    "Angle": "75",
+    "BaseKnockBackSetKnockback": "80",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "60",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968217e46965952fcb51ac1",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Samus",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "8-10",
-    "firstActionableFrame": "34",
-    "baseDamage": "8/9/10/11",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "20/20/30/30",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "70/70/100/100",
-    "type": 1,
-    "name": "Ftilt (Angled Up)",
-    "ownerId": 48,
-    "id": 2667
+    "InstanceId": "5968217e46965952fcb51ac2",
+    "Name": "Ftilt (Angled Up)",
+    "OwnerId": 48,
+    "Owner": "Samus",
+    "HitboxActive": "8-10",
+    "FirstActionableFrame": "34",
+    "BaseDamage": "8/9/10/11",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "20/20/30/30",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "70/70/100/100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968217e46965952fcb51ac2",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Samus",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "8-10",
-    "firstActionableFrame": "-",
-    "baseDamage": "7/8/9/10",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "20/20/30/30",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "70/70/100/100",
-    "type": 1,
-    "name": "Ftilt",
-    "ownerId": 48,
-    "id": 2668
+    "InstanceId": "5968217e46965952fcb51ac3",
+    "Name": "Ftilt",
+    "OwnerId": 48,
+    "Owner": "Samus",
+    "HitboxActive": "8-10",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "7/8/9/10",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "20/20/30/30",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "70/70/100/100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968217e46965952fcb51ac3",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Samus",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "8-10",
-    "firstActionableFrame": "-",
-    "baseDamage": "8/9/10/11",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "20/20/30/30",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "70/70/100/100",
-    "type": 1,
-    "name": "Ftilt (Angled Down)",
-    "ownerId": 48,
-    "id": 2669
+    "InstanceId": "5968217e46965952fcb51ac4",
+    "Name": "Ftilt (Angled Down)",
+    "OwnerId": 48,
+    "Owner": "Samus",
+    "HitboxActive": "8-10",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "8/9/10/11",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "20/20/30/30",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "70/70/100/100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968217e46965952fcb51ac4",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Samus",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "15-18",
-    "firstActionableFrame": "40",
-    "baseDamage": "13/13/12/12",
-    "angle": "270/270/361/361",
-    "baseKnockBackSetKnockback": "40",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Utilt",
-    "ownerId": 48,
-    "id": 2670
+    "InstanceId": "5968217e46965952fcb51ac5",
+    "Name": "Utilt",
+    "OwnerId": 48,
+    "Owner": "Samus",
+    "HitboxActive": "15-18",
+    "FirstActionableFrame": "40",
+    "BaseDamage": "13/13/12/12",
+    "Angle": "270/270/361/361",
+    "BaseKnockBackSetKnockback": "40",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968217e46965952fcb51ac5",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Samus",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "6-8",
-    "firstActionableFrame": "40",
-    "baseDamage": "12",
-    "angle": "80",
-    "baseKnockBackSetKnockback": "80",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "48",
-    "type": 1,
-    "name": "Dtilt",
-    "ownerId": 48,
-    "id": 2671
+    "InstanceId": "5968217e46965952fcb51ac6",
+    "Name": "Dtilt",
+    "OwnerId": 48,
+    "Owner": "Samus",
+    "HitboxActive": "6-8",
+    "FirstActionableFrame": "40",
+    "BaseDamage": "12",
+    "Angle": "80",
+    "BaseKnockBackSetKnockback": "80",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "48",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968217e46965952fcb51ac6",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Samus",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "10-11",
-    "firstActionableFrame": "49",
-    "baseDamage": "13/13/15",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "16/16/40",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "112/112/100",
-    "type": 1,
-    "name": "Fsmash (Angled Up)",
-    "ownerId": 48,
-    "id": 2672
+    "InstanceId": "5968217e46965952fcb51ac7",
+    "Name": "Fsmash (Angled Up)",
+    "OwnerId": 48,
+    "Owner": "Samus",
+    "HitboxActive": "10-11",
+    "FirstActionableFrame": "49",
+    "BaseDamage": "13/13/15",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "16/16/40",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "112/112/100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968217e46965952fcb51ac7",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Samus",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "10-11",
-    "firstActionableFrame": "-",
-    "baseDamage": "12/12/14",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "16/16/40",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "112/112/100",
-    "type": 1,
-    "name": "Fsmash",
-    "ownerId": 48,
-    "id": 2673
+    "InstanceId": "5968217e46965952fcb51ac8",
+    "Name": "Fsmash",
+    "OwnerId": 48,
+    "Owner": "Samus",
+    "HitboxActive": "10-11",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "12/12/14",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "16/16/40",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "112/112/100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968217e46965952fcb51ac8",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Samus",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "10-11",
-    "firstActionableFrame": "-",
-    "baseDamage": "11/11/13.5",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "16/16/40",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "112/112/100",
-    "type": 1,
-    "name": "Fsmash (Angled Down)",
-    "ownerId": 48,
-    "id": 2674
+    "InstanceId": "5968217e46965952fcb51ac9",
+    "Name": "Fsmash (Angled Down)",
+    "OwnerId": 48,
+    "Owner": "Samus",
+    "HitboxActive": "10-11",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "11/11/13.5",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "16/16/40",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "112/112/100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968217e46965952fcb51ac9",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Samus",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "11-12",
-    "firstActionableFrame": "57",
-    "baseDamage": "3",
-    "angle": "366/110/95",
-    "baseKnockBackSetKnockback": "W: 70/100/110",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Usmash (Hit 1)",
-    "ownerId": 48,
-    "id": 2675
+    "InstanceId": "5968217e46965952fcb51aca",
+    "Name": "Usmash (Hit 1)",
+    "OwnerId": 48,
+    "Owner": "Samus",
+    "HitboxActive": "11-12",
+    "FirstActionableFrame": "57",
+    "BaseDamage": "3",
+    "Angle": "366/110/95",
+    "BaseKnockBackSetKnockback": "W: 70/100/110",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968217e46965952fcb51aca",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Samus",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "15-16",
-    "firstActionableFrame": "-",
-    "baseDamage": "3",
-    "angle": "160/240/95",
-    "baseKnockBackSetKnockback": "W: 50/40/90",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Usmash (Hit 2)",
-    "ownerId": 48,
-    "id": 2676
+    "InstanceId": "5968217e46965952fcb51acb",
+    "Name": "Usmash (Hit 2)",
+    "OwnerId": 48,
+    "Owner": "Samus",
+    "HitboxActive": "15-16",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "3",
+    "Angle": "160/240/95",
+    "BaseKnockBackSetKnockback": "W: 50/40/90",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968217e46965952fcb51acb",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Samus",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "19-20",
-    "firstActionableFrame": "-",
-    "baseDamage": "3",
-    "angle": "366/240/95",
-    "baseKnockBackSetKnockback": "W: 50/40/90",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Usmash (Hit 3)",
-    "ownerId": 48,
-    "id": 2677
+    "InstanceId": "5968217e46965952fcb51acc",
+    "Name": "Usmash (Hit 3)",
+    "OwnerId": 48,
+    "Owner": "Samus",
+    "HitboxActive": "19-20",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "3",
+    "Angle": "366/240/95",
+    "BaseKnockBackSetKnockback": "W: 50/40/90",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968217e46965952fcb51acc",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Samus",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "23-24",
-    "firstActionableFrame": "-",
-    "baseDamage": "3",
-    "angle": "366/366/95",
-    "baseKnockBackSetKnockback": "W: 50/50/80",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Usmash (Hit 4)",
-    "ownerId": 48,
-    "id": 2678
+    "InstanceId": "5968217e46965952fcb51acd",
+    "Name": "Usmash (Hit 4)",
+    "OwnerId": 48,
+    "Owner": "Samus",
+    "HitboxActive": "23-24",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "3",
+    "Angle": "366/366/95",
+    "BaseKnockBackSetKnockback": "W: 50/50/80",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968217e46965952fcb51acd",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Samus",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "27-28",
-    "firstActionableFrame": "-",
-    "baseDamage": "6",
-    "angle": "80",
-    "baseKnockBackSetKnockback": "50",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "150",
-    "type": 1,
-    "name": "Usmash (Hit 5)",
-    "ownerId": 48,
-    "id": 2679
+    "InstanceId": "5968217e46965952fcb51ace",
+    "Name": "Usmash (Hit 5)",
+    "OwnerId": 48,
+    "Owner": "Samus",
+    "HitboxActive": "27-28",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "6",
+    "Angle": "80",
+    "BaseKnockBackSetKnockback": "50",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "150",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968217e46965952fcb51ace",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Samus",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "9-10",
-    "firstActionableFrame": "45",
-    "baseDamage": "10",
-    "angle": "31",
-    "baseKnockBackSetKnockback": "70",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "46",
-    "type": 1,
-    "name": "Dsmash (Hit 1)",
-    "ownerId": 48,
-    "id": 2680
+    "InstanceId": "5968217e46965952fcb51acf",
+    "Name": "Dsmash (Hit 1)",
+    "OwnerId": 48,
+    "Owner": "Samus",
+    "HitboxActive": "9-10",
+    "FirstActionableFrame": "45",
+    "BaseDamage": "10",
+    "Angle": "31",
+    "BaseKnockBackSetKnockback": "70",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "46",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968217e46965952fcb51acf",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Samus",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "17-18",
-    "firstActionableFrame": "-",
-    "baseDamage": "12",
-    "angle": "31",
-    "baseKnockBackSetKnockback": "70",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "48",
-    "type": 1,
-    "name": "Dsmash (Hit 2)",
-    "ownerId": 48,
-    "id": 2681
+    "InstanceId": "5968217e46965952fcb51ad0",
+    "Name": "Dsmash (Hit 2)",
+    "OwnerId": 48,
+    "Owner": "Samus",
+    "HitboxActive": "17-18",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "12",
+    "Angle": "31",
+    "BaseKnockBackSetKnockback": "70",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "48",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968217e46965952fcb51ad0",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Samus",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "16-25",
-    "firstActionableFrame": "70",
-    "baseDamage": "",
-    "angle": "",
-    "baseKnockBackSetKnockback": "",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "",
-    "type": 1,
-    "name": "Standing Grab",
-    "ownerId": 48,
-    "id": 2683
+    "InstanceId": "5968217e46965952fcb51ad1",
+    "Name": "Standing Grab",
+    "OwnerId": 48,
+    "Owner": "Samus",
+    "HitboxActive": "16-25",
+    "FirstActionableFrame": "70",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968217e46965952fcb51ad1",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Samus",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "16-26",
-    "firstActionableFrame": "68",
-    "baseDamage": "",
-    "angle": "",
-    "baseKnockBackSetKnockback": "",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "",
-    "type": 1,
-    "name": "Dash Grab",
-    "ownerId": 48,
-    "id": 2684
+    "InstanceId": "5968217e46965952fcb51ad2",
+    "Name": "Dash Grab",
+    "OwnerId": 48,
+    "Owner": "Samus",
+    "HitboxActive": "16-26",
+    "FirstActionableFrame": "68",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968217e46965952fcb51ad2",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Samus",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "17-28",
-    "firstActionableFrame": "84",
-    "baseDamage": "",
-    "angle": "",
-    "baseKnockBackSetKnockback": "",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "",
-    "type": 1,
-    "name": "Pivot Grab",
-    "ownerId": 48,
-    "id": 2685
+    "InstanceId": "5968217e46965952fcb51ad3",
+    "Name": "Pivot Grab",
+    "OwnerId": 48,
+    "Owner": "Samus",
+    "HitboxActive": "17-28",
+    "FirstActionableFrame": "84",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968217e46965952fcb51ad3",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Samus",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "9",
-    "angle": "42",
-    "baseKnockBackSetKnockback": "60",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "55",
-    "type": 3,
-    "name": "Fthrow",
-    "ownerId": 48,
-    "id": 2687
+    "InstanceId": "5968217e46965952fcb51ad4",
+    "Name": "Spotdodge",
+    "OwnerId": 48,
+    "Owner": "Samus",
+    "HitboxActive": "3-17",
+    "FirstActionableFrame": "27",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968217e46965952fcb51ad4",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Samus",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "8",
-    "angle": "40",
-    "baseKnockBackSetKnockback": "60",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "55",
-    "type": 3,
-    "name": "Bthrow",
-    "ownerId": 48,
-    "id": 2688
+    "InstanceId": "5968217e46965952fcb51ad5",
+    "Name": "Forward Roll",
+    "OwnerId": 48,
+    "Owner": "Samus",
+    "HitboxActive": "4-23",
+    "FirstActionableFrame": "40",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968217e46965952fcb51ad5",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Samus",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "1&#37;&#215;5, 4",
-    "angle": "90",
-    "baseKnockBackSetKnockback": "80",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "70",
-    "type": 3,
-    "name": "Uthrow",
-    "ownerId": 48,
-    "id": 2689
+    "InstanceId": "5968217e46965952fcb51ad6",
+    "Name": "Back Roll",
+    "OwnerId": 48,
+    "Owner": "Samus",
+    "HitboxActive": "4-23",
+    "FirstActionableFrame": "40",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968217e46965952fcb51ad6",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Samus",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "6",
-    "angle": "80",
-    "baseKnockBackSetKnockback": "80",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "50",
-    "type": 3,
-    "name": "Dthrow",
-    "ownerId": 48,
-    "id": 2690
+    "InstanceId": "5968217e46965952fcb51ad7",
+    "Name": "Airdodge",
+    "OwnerId": 48,
+    "Owner": "Samus",
+    "HitboxActive": "3-27",
+    "FirstActionableFrame": "33",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968217e46965952fcb51ad7",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Samus",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "8-11",
-    "firstActionableFrame": "46",
-    "baseDamage": "10",
-    "angle": "32",
-    "baseKnockBackSetKnockback": "40",
-    "landingLag": "16",
-    "autoCancel": "1-7, 35&gt;",
-    "knockbackGrowth": "100",
-    "type": 0,
-    "name": "Nair (Hit 1)",
-    "ownerId": 48,
-    "id": 2696
+    "InstanceId": "5968217e46965952fcb51ad8",
+    "Name": "Nair (Hit 1)",
+    "OwnerId": 48,
+    "Owner": "Samus",
+    "HitboxActive": "8-11",
+    "FirstActionableFrame": "46",
+    "BaseDamage": "10",
+    "Angle": "32",
+    "BaseKnockBackSetKnockback": "40",
+    "LandingLag": "16",
+    "AutoCancel": "1-7, 35&gt;",
+    "KnockbackGrowth": "100",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968217e46965952fcb51ad8",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Samus",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "16-17",
-    "firstActionableFrame": "-",
-    "baseDamage": "9",
-    "angle": "45",
-    "baseKnockBackSetKnockback": "40",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "100",
-    "type": 0,
-    "name": "Nair (Hit 2)",
-    "ownerId": 48,
-    "id": 2697
+    "InstanceId": "5968217e46965952fcb51ad9",
+    "Name": "Nair (Hit 2)",
+    "OwnerId": 48,
+    "Owner": "Samus",
+    "HitboxActive": "16-17",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "9",
+    "Angle": "45",
+    "BaseKnockBackSetKnockback": "40",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "100",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968217e46965952fcb51ad9",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Samus",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "18-24",
-    "firstActionableFrame": "-",
-    "baseDamage": "8",
-    "angle": "45",
-    "baseKnockBackSetKnockback": "10",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "98",
-    "type": 0,
-    "name": "Nair (Hit 2, Late)",
-    "ownerId": 48,
-    "id": 2698
+    "InstanceId": "5968217e46965952fcb51ada",
+    "Name": "Nair (Hit 2, Late)",
+    "OwnerId": 48,
+    "Owner": "Samus",
+    "HitboxActive": "18-24",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "8",
+    "Angle": "45",
+    "BaseKnockBackSetKnockback": "10",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "98",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968217e46965952fcb51ada",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Samus",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "6-7",
-    "firstActionableFrame": "60",
-    "baseDamage": "3",
-    "angle": "80/280/60",
-    "baseKnockBackSetKnockback": "W: 15",
-    "landingLag": "24",
-    "autoCancel": "47&gt;",
-    "knockbackGrowth": "100",
-    "type": 0,
-    "name": "Fair (Hit 1)",
-    "ownerId": 48,
-    "id": 2699
+    "InstanceId": "5968217e46965952fcb51adb",
+    "Name": "Fair (Hit 1)",
+    "OwnerId": 48,
+    "Owner": "Samus",
+    "HitboxActive": "6-7",
+    "FirstActionableFrame": "60",
+    "BaseDamage": "3",
+    "Angle": "80/280/60",
+    "BaseKnockBackSetKnockback": "W: 15",
+    "LandingLag": "24",
+    "AutoCancel": "47&gt;",
+    "KnockbackGrowth": "100",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968217e46965952fcb51adb",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Samus",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "12-13, 18-19, 24-25",
-    "firstActionableFrame": "-",
-    "baseDamage": "1.6",
-    "angle": "366/18",
-    "baseKnockBackSetKnockback": "W: 30",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "100",
-    "type": 0,
-    "name": "Fair (Hit 2-4)",
-    "ownerId": 48,
-    "id": 2700
+    "InstanceId": "5968217e46965952fcb51adc",
+    "Name": "Fair (Hit 2-4)",
+    "OwnerId": 48,
+    "Owner": "Samus",
+    "HitboxActive": "12-13, 18-19, 24-25",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "1.6",
+    "Angle": "366/18",
+    "BaseKnockBackSetKnockback": "W: 30",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "100",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968217e46965952fcb51adc",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Samus",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "30-31",
-    "firstActionableFrame": "-",
-    "baseDamage": "5",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "40",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "140",
-    "type": 0,
-    "name": "Fair (Hit 5)",
-    "ownerId": 48,
-    "id": 2701
+    "InstanceId": "5968217e46965952fcb51add",
+    "Name": "Fair (Hit 5)",
+    "OwnerId": 48,
+    "Owner": "Samus",
+    "HitboxActive": "30-31",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "5",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "40",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "140",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968217e46965952fcb51add",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Samus",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "9-10",
-    "firstActionableFrame": "39",
-    "baseDamage": "12/14",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "30/42",
-    "landingLag": "18",
-    "autoCancel": "1-8, 42&gt;",
-    "knockbackGrowth": "98",
-    "type": 0,
-    "name": "Bair",
-    "ownerId": 48,
-    "id": 2702
+    "InstanceId": "5968217e46965952fcb51ade",
+    "Name": "Bair",
+    "OwnerId": 48,
+    "Owner": "Samus",
+    "HitboxActive": "9-10",
+    "FirstActionableFrame": "39",
+    "BaseDamage": "12/14",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "30/42",
+    "LandingLag": "18",
+    "AutoCancel": "1-8, 42&gt;",
+    "KnockbackGrowth": "98",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968217e46965952fcb51ade",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Samus",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "11-14",
-    "firstActionableFrame": "-",
-    "baseDamage": "9",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "20",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "90",
-    "type": 0,
-    "name": "Bair (Late)",
-    "ownerId": 48,
-    "id": 2703
+    "InstanceId": "5968217e46965952fcb51adf",
+    "Name": "Bair (Late)",
+    "OwnerId": 48,
+    "Owner": "Samus",
+    "HitboxActive": "11-14",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "9",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "20",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "90",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968217e46965952fcb51adf",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Samus",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "5-6",
-    "firstActionableFrame": "40",
-    "baseDamage": "3",
-    "angle": "90/90/361",
-    "baseKnockBackSetKnockback": "W: 30/30/0",
-    "landingLag": "12",
-    "autoCancel": "1-4, 34&gt;",
-    "knockbackGrowth": "100/100/130",
-    "type": 0,
-    "name": "Uair (Hit 1)",
-    "ownerId": 48,
-    "id": 2704
+    "InstanceId": "5968217e46965952fcb51ae0",
+    "Name": "Uair (Hit 1)",
+    "OwnerId": 48,
+    "Owner": "Samus",
+    "HitboxActive": "5-6",
+    "FirstActionableFrame": "40",
+    "BaseDamage": "3",
+    "Angle": "90/90/361",
+    "BaseKnockBackSetKnockback": "W: 30/30/0",
+    "LandingLag": "12",
+    "AutoCancel": "1-4, 34&gt;",
+    "KnockbackGrowth": "100/100/130",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968217e46965952fcb51ae0",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Samus",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "8-9, 11-12, 14-15, 17-18",
-    "firstActionableFrame": "-",
-    "baseDamage": "1",
-    "angle": "80",
-    "baseKnockBackSetKnockback": "W: 30/30/0",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "100/100/130",
-    "type": 0,
-    "name": "Uair (Hit 2-5)",
-    "ownerId": 48,
-    "id": 2705
+    "InstanceId": "5968217e46965952fcb51ae1",
+    "Name": "Uair (Hit 2-5)",
+    "OwnerId": 48,
+    "Owner": "Samus",
+    "HitboxActive": "8-9, 11-12, 14-15, 17-18",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "1",
+    "Angle": "80",
+    "BaseKnockBackSetKnockback": "W: 30/30/0",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "100/100/130",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968217e46965952fcb51ae1",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Samus",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "20-21",
-    "firstActionableFrame": "-",
-    "baseDamage": "4",
-    "angle": "70",
-    "baseKnockBackSetKnockback": "40",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "160",
-    "type": 0,
-    "name": "Uair (Hit 6)",
-    "ownerId": 48,
-    "id": 2706
+    "InstanceId": "5968217e46965952fcb51ae2",
+    "Name": "Uair (Hit 6)",
+    "OwnerId": 48,
+    "Owner": "Samus",
+    "HitboxActive": "20-21",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "4",
+    "Angle": "70",
+    "BaseKnockBackSetKnockback": "40",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "160",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968217e46965952fcb51ae2",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Samus",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "17-18",
-    "firstActionableFrame": "49",
-    "baseDamage": "10",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "25",
-    "landingLag": "20",
-    "autoCancel": "1-3, 34&gt;",
-    "knockbackGrowth": "100",
-    "type": 0,
-    "name": "Dair (Early)",
-    "ownerId": 48,
-    "id": 2707
+    "InstanceId": "5968217e46965952fcb51ae3",
+    "Name": "Dair (Early)",
+    "OwnerId": 48,
+    "Owner": "Samus",
+    "HitboxActive": "17-18",
+    "FirstActionableFrame": "49",
+    "BaseDamage": "10",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "25",
+    "LandingLag": "20",
+    "AutoCancel": "1-3, 34&gt;",
+    "KnockbackGrowth": "100",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968217e46965952fcb51ae3",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Samus",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "19-21",
-    "firstActionableFrame": "-",
-    "baseDamage": "14",
-    "angle": "270",
-    "baseKnockBackSetKnockback": "25",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "85",
-    "type": 0,
-    "name": "Dair (Meteor)",
-    "ownerId": 48,
-    "id": 2708
+    "InstanceId": "5968217e46965952fcb51ae4",
+    "Name": "Dair (Meteor)",
+    "OwnerId": 48,
+    "Owner": "Samus",
+    "HitboxActive": "19-21",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "14",
+    "Angle": "270",
+    "BaseKnockBackSetKnockback": "25",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "85",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968217e46965952fcb51ae4",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Samus",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "22-23",
-    "firstActionableFrame": "-",
-    "baseDamage": "11",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "25",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "100",
-    "type": 0,
-    "name": "Dair (Late)",
-    "ownerId": 48,
-    "id": 2709
+    "InstanceId": "5968217e46965952fcb51ae5",
+    "Name": "Dair (Late)",
+    "OwnerId": 48,
+    "Owner": "Samus",
+    "HitboxActive": "22-23",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "11",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "25",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "100",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968217e46965952fcb51ae5",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Samus",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "8-17",
-    "firstActionableFrame": "60",
-    "baseDamage": "1.5",
-    "angle": "45",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "8",
-    "autoCancel": "-",
-    "knockbackGrowth": "30",
-    "type": 0,
-    "name": "Zair (Hit 1)",
-    "ownerId": 48,
-    "id": 2710
+    "InstanceId": "5968217e46965952fcb51ae6",
+    "Name": "Zair (Hit 1)",
+    "OwnerId": 48,
+    "Owner": "Samus",
+    "HitboxActive": "8-17",
+    "FirstActionableFrame": "60",
+    "BaseDamage": "1.5",
+    "Angle": "45",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": "8",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "30",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968217e46965952fcb51ae6",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Samus",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "16-17",
-    "firstActionableFrame": "",
-    "baseDamage": "3",
-    "angle": "45",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "100",
-    "type": 0,
-    "name": "Zair (Hit 2)",
-    "ownerId": 48,
-    "id": 2711
+    "InstanceId": "5968217e46965952fcb51ae7",
+    "Name": "Zair (Hit 2)",
+    "OwnerId": 48,
+    "Owner": "Samus",
+    "HitboxActive": "16-17",
+    "FirstActionableFrame": "",
+    "BaseDamage": "3",
+    "Angle": "45",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "100",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968217e46965952fcb51ae7",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Samus",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "Can Shoot From: 16, Full Charge: 140",
-    "firstActionableFrame": "54",
-    "baseDamage": "3",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "14",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "42",
-    "type": 2,
-    "name": "Charge Shot",
-    "ownerId": 48,
-    "id": 2712
+    "InstanceId": "5968217e46965952fcb51ae8",
+    "Name": "Charge Shot",
+    "OwnerId": 48,
+    "Owner": "Samus",
+    "HitboxActive": "Can Shoot From: 16, Full Charge: 140",
+    "FirstActionableFrame": "54",
+    "BaseDamage": "3",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "14",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "42",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968217e46965952fcb51ae8",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Samus",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "16-84",
-    "firstActionableFrame": "61",
-    "baseDamage": "25",
-    "angle": "40",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "62",
-    "type": 2,
-    "name": "Charge Shot (Full Charge)",
-    "ownerId": 48,
-    "id": 2713
+    "InstanceId": "5968217e46965952fcb51ae9",
+    "Name": "Charge Shot (Full Charge)",
+    "OwnerId": 48,
+    "Owner": "Samus",
+    "HitboxActive": "16-84",
+    "FirstActionableFrame": "61",
+    "BaseDamage": "25",
+    "Angle": "40",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "62",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968217e46965952fcb51ae9",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Samus",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "18-118",
-    "firstActionableFrame": "57",
-    "baseDamage": "5",
-    "angle": "0",
-    "baseKnockBackSetKnockback": "26",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "22",
-    "type": 2,
-    "name": "Homing Missile",
-    "ownerId": 48,
-    "id": 2714
+    "InstanceId": "5968217e46965952fcb51aea",
+    "Name": "Homing Missile",
+    "OwnerId": 48,
+    "Owner": "Samus",
+    "HitboxActive": "18-118",
+    "FirstActionableFrame": "57",
+    "BaseDamage": "5",
+    "Angle": "0",
+    "BaseKnockBackSetKnockback": "26",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "22",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968217e46965952fcb51aea",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Samus",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "21-84",
-    "firstActionableFrame": "59",
-    "baseDamage": "10",
-    "angle": "65",
-    "baseKnockBackSetKnockback": "50",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "65",
-    "type": 2,
-    "name": "Super Missile",
-    "ownerId": 48,
-    "id": 2715
+    "InstanceId": "5968217e46965952fcb51aeb",
+    "Name": "Super Missile",
+    "OwnerId": 48,
+    "Owner": "Samus",
+    "HitboxActive": "21-84",
+    "FirstActionableFrame": "59",
+    "BaseDamage": "10",
+    "Angle": "65",
+    "BaseKnockBackSetKnockback": "50",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "65",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968217e46965952fcb51aeb",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Samus",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "5-6 (Intangible: 3-6)",
-    "firstActionableFrame": "-",
-    "baseDamage": "2",
-    "angle": "95",
-    "baseKnockBackSetKnockback": "W: 180/180/120/120",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 2,
-    "name": "Screw Attack (Ground, Hit 1)",
-    "ownerId": 48,
-    "id": 2716
+    "InstanceId": "5968217e46965952fcb51aec",
+    "Name": "Screw Attack (Ground, Hit 1)",
+    "OwnerId": 48,
+    "Owner": "Samus",
+    "HitboxActive": "5-6 (Intangible: 3-6)",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "2",
+    "Angle": "95",
+    "BaseKnockBackSetKnockback": "W: 180/180/120/120",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968217e46965952fcb51aec",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Samus",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "7-8, 9-10, 11-12",
-    "firstActionableFrame": "-",
-    "baseDamage": "1",
-    "angle": "96",
-    "baseKnockBackSetKnockback": "W: 178/178/140",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 2,
-    "name": "Screw Attack (Ground, Hits 2-4)",
-    "ownerId": 48,
-    "id": 2717
+    "InstanceId": "5968217e46965952fcb51aed",
+    "Name": "Screw Attack (Ground, Hits 2-4)",
+    "OwnerId": 48,
+    "Owner": "Samus",
+    "HitboxActive": "7-8, 9-10, 11-12",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "1",
+    "Angle": "96",
+    "BaseKnockBackSetKnockback": "W: 178/178/140",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968217e46965952fcb51aed",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Samus",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "13-14, 15-16, 17-18, 19-20, 21-22, 23-24",
-    "firstActionableFrame": "-",
-    "baseDamage": "1",
-    "angle": "110/110/100",
-    "baseKnockBackSetKnockback": "W: 50/50/80",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 2,
-    "name": "Screw Attack (Ground, Hits 5-10)",
-    "ownerId": 48,
-    "id": 2718
+    "InstanceId": "5968217e46965952fcb51aee",
+    "Name": "Screw Attack (Ground, Hits 5-10)",
+    "OwnerId": 48,
+    "Owner": "Samus",
+    "HitboxActive": "13-14, 15-16, 17-18, 19-20, 21-22, 23-24",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "1",
+    "Angle": "110/110/100",
+    "BaseKnockBackSetKnockback": "W: 50/50/80",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968217e46965952fcb51aee",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Samus",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "25-26",
-    "firstActionableFrame": "-",
-    "baseDamage": "1",
-    "angle": "70",
-    "baseKnockBackSetKnockback": "50",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "240",
-    "type": 2,
-    "name": "Screw Attack (Ground, Hit 11)",
-    "ownerId": 48,
-    "id": 2719
+    "InstanceId": "5968217e46965952fcb51aef",
+    "Name": "Screw Attack (Ground, Hit 11)",
+    "OwnerId": 48,
+    "Owner": "Samus",
+    "HitboxActive": "25-26",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "1",
+    "Angle": "70",
+    "BaseKnockBackSetKnockback": "50",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "240",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968217e46965952fcb51aef",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Samus",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "5-6, 7-8, 9-10 (Intangible: 3-5)",
-    "firstActionableFrame": "-",
-    "baseDamage": "1",
-    "angle": "140/140/110/110",
-    "baseKnockBackSetKnockback": "25/25/100/100",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "0",
-    "type": 2,
-    "name": "Screw Attack (Air, Hits 1-3)",
-    "ownerId": 48,
-    "id": 2720
+    "InstanceId": "5968217e46965952fcb51af0",
+    "Name": "Screw Attack (Air, Hits 1-3)",
+    "OwnerId": 48,
+    "Owner": "Samus",
+    "HitboxActive": "5-6, 7-8, 9-10 (Intangible: 3-5)",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "1",
+    "Angle": "140/140/110/110",
+    "BaseKnockBackSetKnockback": "25/25/100/100",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "0",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968217e46965952fcb51af0",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Samus",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "11-12, 13-14, 15-16, 17-18",
-    "firstActionableFrame": "-",
-    "baseDamage": "1",
-    "angle": "366/366/100",
-    "baseKnockBackSetKnockback": "B: 25/25 W: 50",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "0/0/100",
-    "type": 2,
-    "name": "Screw Attack (Air, 4-7)",
-    "ownerId": 48,
-    "id": 2721
+    "InstanceId": "5968217e46965952fcb51af1",
+    "Name": "Screw Attack (Air, 4-7)",
+    "OwnerId": 48,
+    "Owner": "Samus",
+    "HitboxActive": "11-12, 13-14, 15-16, 17-18",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "1",
+    "Angle": "366/366/100",
+    "BaseKnockBackSetKnockback": "B: 25/25 W: 50",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "0/0/100",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968217e46965952fcb51af1",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Samus",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "19-20, 21-22, 23-24, 25-26",
-    "firstActionableFrame": "-",
-    "baseDamage": "1",
-    "angle": "366/366/100",
-    "baseKnockBackSetKnockback": "B: 25/25 W: 50",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "0/0/100",
-    "type": 2,
-    "name": "Screw Attack (Air, 8-11)",
-    "ownerId": 48,
-    "id": 2722
+    "InstanceId": "5968217e46965952fcb51af2",
+    "Name": "Screw Attack (Air, 8-11)",
+    "OwnerId": 48,
+    "Owner": "Samus",
+    "HitboxActive": "19-20, 21-22, 23-24, 25-26",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "1",
+    "Angle": "366/366/100",
+    "BaseKnockBackSetKnockback": "B: 25/25 W: 50",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "0/0/100",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968217e46965952fcb51af2",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Samus",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "27-28",
-    "firstActionableFrame": "-",
-    "baseDamage": "1",
-    "angle": "70",
-    "baseKnockBackSetKnockback": "50",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "240",
-    "type": 2,
-    "name": "Screw Attack (Air, Hit 12)",
-    "ownerId": 48,
-    "id": 2723
+    "InstanceId": "5968217e46965952fcb51af3",
+    "Name": "Screw Attack (Air, Hit 12)",
+    "OwnerId": 48,
+    "Owner": "Samus",
+    "HitboxActive": "27-28",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "1",
+    "Angle": "70",
+    "BaseKnockBackSetKnockback": "50",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "240",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968217e46965952fcb51af3",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Samus",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "63-80",
-    "firstActionableFrame": "54",
-    "baseDamage": "4",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "22",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "45",
-    "type": 2,
-    "name": "Bomb",
-    "ownerId": 48,
-    "id": 2724
+    "InstanceId": "5968217e46965952fcb51af4",
+    "Name": "Bomb",
+    "OwnerId": 48,
+    "Owner": "Samus",
+    "HitboxActive": "63-80",
+    "FirstActionableFrame": "54",
+    "BaseDamage": "4",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "22",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "45",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968217e46965952fcb51af4",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Samus",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "1-18",
-    "firstActionableFrame": "-",
-    "baseDamage": "5",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "15",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "45",
-    "type": 2,
-    "name": "Bomb (Explosion)",
-    "ownerId": 48,
-    "id": 2725
+    "InstanceId": "5968217e46965952fcb51af5",
+    "Name": "Bomb (Explosion)",
+    "OwnerId": 48,
+    "Owner": "Samus",
+    "HitboxActive": "1-18",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "5",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "15",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "45",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968217e46965952fcb51af5",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Samus",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968217e46965952fcb51af6",
+    "Name": "Fthrow",
+    "OwnerId": 48,
+    "Owner": "Samus",
+    "HitboxActive": null,
+    "FirstActionableFrame": null,
+    "BaseDamage": "9",
+    "Angle": "42",
+    "BaseKnockBackSetKnockback": "60",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "55",
+    "MoveType": "throw",
+    "IsWeightDependent": true,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968217e46965952fcb51af6",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Samus",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968217e46965952fcb51af7",
+    "Name": "Bthrow",
+    "OwnerId": 48,
+    "Owner": "Samus",
+    "HitboxActive": null,
+    "FirstActionableFrame": null,
+    "BaseDamage": "8",
+    "Angle": "40",
+    "BaseKnockBackSetKnockback": "60",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "55",
+    "MoveType": "throw",
+    "IsWeightDependent": true,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968217e46965952fcb51af7",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Samus",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968217e46965952fcb51af8",
+    "Name": "Uthrow",
+    "OwnerId": 48,
+    "Owner": "Samus",
+    "HitboxActive": null,
+    "FirstActionableFrame": null,
+    "BaseDamage": "1&#37;&#215;5, 4",
+    "Angle": "90",
+    "BaseKnockBackSetKnockback": "80",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "70",
+    "MoveType": "throw",
+    "IsWeightDependent": true,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968217e46965952fcb51af8",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Samus",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968217e46965952fcb51af9",
+    "Name": "Dthrow",
+    "OwnerId": 48,
+    "Owner": "Samus",
+    "HitboxActive": null,
+    "FirstActionableFrame": null,
+    "BaseDamage": "6",
+    "Angle": "80",
+    "BaseKnockBackSetKnockback": "80",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "50",
+    "MoveType": "throw",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968217e46965952fcb51af9",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Samus",
+        "Title": ""
+      }
+    ]
   }
 ]

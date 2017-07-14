@@ -1,618 +1,1346 @@
 ﻿[
   {
-    "hitboxActive": "5-7",
-    "firstActionableFrame": "26",
-    "baseDamage": "3/3/5",
-    "angle": "78/65/90",
-    "baseKnockBackSetKnockback": "55",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "30",
-    "type": 1,
-    "name": "Jab 1",
-    "ownerId": 28,
-    "id": 1481
+    "InstanceId": "5968214846965952fcb513d1",
+    "Name": "Jab 1",
+    "OwnerId": 28,
+    "Owner": "Marth",
+    "HitboxActive": "5-7",
+    "FirstActionableFrame": "26",
+    "BaseDamage": "3/3/5",
+    "Angle": "78/65/90",
+    "BaseKnockBackSetKnockback": "55",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "30",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968214846965952fcb513d1",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Marth",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "3-5",
-    "firstActionableFrame": "29",
-    "baseDamage": "4/4/6",
-    "angle": "45",
-    "baseKnockBackSetKnockback": "62",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "75",
-    "type": 1,
-    "name": "Jab 2",
-    "ownerId": 28,
-    "id": 1482
+    "InstanceId": "5968214846965952fcb513d2",
+    "Name": "Jab 2",
+    "OwnerId": 28,
+    "Owner": "Marth",
+    "HitboxActive": "3-5",
+    "FirstActionableFrame": "29",
+    "BaseDamage": "4/4/6",
+    "Angle": "45",
+    "BaseKnockBackSetKnockback": "62",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "75",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968214846965952fcb513d2",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Marth",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "13-16",
-    "firstActionableFrame": "50",
-    "baseDamage": "10/9/9/12",
-    "angle": "45/361/361/45",
-    "baseKnockBackSetKnockback": "70/35/35/80",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "55/60/60/55",
-    "type": 1,
-    "name": "Dash Attack",
-    "ownerId": 28,
-    "id": 1483
+    "InstanceId": "5968214846965952fcb513d3",
+    "Name": "Dash Attack",
+    "OwnerId": 28,
+    "Owner": "Marth",
+    "HitboxActive": "13-16",
+    "FirstActionableFrame": "50",
+    "BaseDamage": "10/9/9/12",
+    "Angle": "45/361/361/45",
+    "BaseKnockBackSetKnockback": "70/35/35/80",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "55/60/60/55",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968214846965952fcb513d3",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Marth",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "8-11",
-    "firstActionableFrame": "34",
-    "baseDamage": "9/9/12",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "30/30/55",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "70/70/85",
-    "type": 1,
-    "name": "Ftilt",
-    "ownerId": 28,
-    "id": 1484
+    "InstanceId": "5968214846965952fcb513d4",
+    "Name": "Ftilt",
+    "OwnerId": 28,
+    "Owner": "Marth",
+    "HitboxActive": "8-11",
+    "FirstActionableFrame": "34",
+    "BaseDamage": "9/9/12",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "30/30/55",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "70/70/85",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968214846965952fcb513d4",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Marth",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "6-8",
-    "firstActionableFrame": "34",
-    "baseDamage": "6/5/5/9",
-    "angle": "100",
-    "baseKnockBackSetKnockback": "65",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Utilt",
-    "ownerId": 28,
-    "id": 1485
+    "InstanceId": "5968214846965952fcb513d5",
+    "Name": "Utilt",
+    "OwnerId": 28,
+    "Owner": "Marth",
+    "HitboxActive": "6-8",
+    "FirstActionableFrame": "34",
+    "BaseDamage": "6/5/5/9",
+    "Angle": "100",
+    "BaseKnockBackSetKnockback": "65",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968214846965952fcb513d5",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Marth",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "9-12",
-    "firstActionableFrame": "-",
-    "baseDamage": "6/5/5/9",
-    "angle": "85/100/100/85",
-    "baseKnockBackSetKnockback": "52",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Utilt (Late)",
-    "ownerId": 28,
-    "id": 1486
+    "InstanceId": "5968214846965952fcb513d6",
+    "Name": "Utilt (Late)",
+    "OwnerId": 28,
+    "Owner": "Marth",
+    "HitboxActive": "9-12",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "6/5/5/9",
+    "Angle": "85/100/100/85",
+    "BaseKnockBackSetKnockback": "52",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968214846965952fcb513d6",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Marth",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "7-8",
-    "firstActionableFrame": "24",
-    "baseDamage": "7/10",
-    "angle": "30",
-    "baseKnockBackSetKnockback": "40/50",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "40",
-    "type": 1,
-    "name": "Dtilt",
-    "ownerId": 28,
-    "id": 1487
+    "InstanceId": "5968214846965952fcb513d7",
+    "Name": "Dtilt",
+    "OwnerId": 28,
+    "Owner": "Marth",
+    "HitboxActive": "7-8",
+    "FirstActionableFrame": "24",
+    "BaseDamage": "7/10",
+    "Angle": "30",
+    "BaseKnockBackSetKnockback": "40/50",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "40",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968214846965952fcb513d7",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Marth",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "10-13",
-    "firstActionableFrame": "52",
-    "baseDamage": "13/13/13/18",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "55/55/55/80",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "80",
-    "type": 1,
-    "name": "Fsmash",
-    "ownerId": 28,
-    "id": 1488
+    "InstanceId": "5968214846965952fcb513d8",
+    "Name": "Fsmash",
+    "OwnerId": 28,
+    "Owner": "Marth",
+    "HitboxActive": "10-13",
+    "FirstActionableFrame": "52",
+    "BaseDamage": "13/13/13/18",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "55/55/55/80",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "80",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968214846965952fcb513d8",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Marth",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "13-14",
-    "firstActionableFrame": "59",
-    "baseDamage": "3",
-    "angle": "125",
-    "baseKnockBackSetKnockback": "W: 155",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Usmash (Launcher)",
-    "ownerId": 28,
-    "id": 1489
+    "InstanceId": "5968214846965952fcb513d9",
+    "Name": "Usmash (Launcher)",
+    "OwnerId": 28,
+    "Owner": "Marth",
+    "HitboxActive": "13-14",
+    "FirstActionableFrame": "59",
+    "BaseDamage": "3",
+    "Angle": "125",
+    "BaseKnockBackSetKnockback": "W: 155",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968214846965952fcb513d9",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Marth",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "13-17",
-    "firstActionableFrame": "-",
-    "baseDamage": "13/17/13",
-    "angle": "89/89/90",
-    "baseKnockBackSetKnockback": "45/40/45",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "90/95/90",
-    "type": 1,
-    "name": "Usmash",
-    "ownerId": 28,
-    "id": 1490
+    "InstanceId": "5968214846965952fcb513da",
+    "Name": "Usmash",
+    "OwnerId": 28,
+    "Owner": "Marth",
+    "HitboxActive": "13-17",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "13/17/13",
+    "Angle": "89/89/90",
+    "BaseKnockBackSetKnockback": "45/40/45",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "90/95/90",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968214846965952fcb513da",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Marth",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "6-7",
-    "firstActionableFrame": "55",
-    "baseDamage": "8/8/8/12",
-    "angle": "75/361/361/361",
-    "baseKnockBackSetKnockback": "70/50/50/50",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "88",
-    "type": 1,
-    "name": "Dsmash (Hit 1)",
-    "ownerId": 28,
-    "id": 1491
+    "InstanceId": "5968214846965952fcb513db",
+    "Name": "Dsmash (Hit 1)",
+    "OwnerId": 28,
+    "Owner": "Marth",
+    "HitboxActive": "6-7",
+    "FirstActionableFrame": "55",
+    "BaseDamage": "8/8/8/12",
+    "Angle": "75/361/361/361",
+    "BaseKnockBackSetKnockback": "70/50/50/50",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "88",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968214846965952fcb513db",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Marth",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "21-23",
-    "firstActionableFrame": "-",
-    "baseDamage": "12/12/12/17",
-    "angle": "60/361/361/361",
-    "baseKnockBackSetKnockback": "70/50/50/50",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "88",
-    "type": 1,
-    "name": "Dsmash (Hit 2)",
-    "ownerId": 28,
-    "id": 1492
+    "InstanceId": "5968214846965952fcb513dc",
+    "Name": "Dsmash (Hit 2)",
+    "OwnerId": 28,
+    "Owner": "Marth",
+    "HitboxActive": "21-23",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "12/12/12/17",
+    "Angle": "60/361/361/361",
+    "BaseKnockBackSetKnockback": "70/50/50/50",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "88",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968214846965952fcb513dc",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Marth",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "7-8",
-    "firstActionableFrame": "30",
-    "baseDamage": "",
-    "angle": "",
-    "baseKnockBackSetKnockback": "",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "",
-    "type": 1,
-    "name": "Standing Grab",
-    "ownerId": 28,
-    "id": 1494
+    "InstanceId": "5968214846965952fcb513dd",
+    "Name": "Standing Grab",
+    "OwnerId": 28,
+    "Owner": "Marth",
+    "HitboxActive": "7-8",
+    "FirstActionableFrame": "30",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968214846965952fcb513dd",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Marth",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "8-9",
-    "firstActionableFrame": "37",
-    "baseDamage": "",
-    "angle": "",
-    "baseKnockBackSetKnockback": "",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "",
-    "type": 1,
-    "name": "Dash Grab",
-    "ownerId": 28,
-    "id": 1495
+    "InstanceId": "5968214846965952fcb513de",
+    "Name": "Dash Grab",
+    "OwnerId": 28,
+    "Owner": "Marth",
+    "HitboxActive": "8-9",
+    "FirstActionableFrame": "37",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968214846965952fcb513de",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Marth",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "9-10",
-    "firstActionableFrame": "35",
-    "baseDamage": "",
-    "angle": "",
-    "baseKnockBackSetKnockback": "",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "",
-    "type": 1,
-    "name": "Pivot Grab",
-    "ownerId": 28,
-    "id": 1496
+    "InstanceId": "5968214846965952fcb513df",
+    "Name": "Pivot Grab",
+    "OwnerId": 28,
+    "Owner": "Marth",
+    "HitboxActive": "9-10",
+    "FirstActionableFrame": "35",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968214846965952fcb513df",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Marth",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "4",
-    "angle": "50",
-    "baseKnockBackSetKnockback": "100",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "50",
-    "type": 3,
-    "name": "Fthrow",
-    "ownerId": 28,
-    "id": 1498
+    "InstanceId": "5968214846965952fcb513e0",
+    "Name": "Spotdodge",
+    "OwnerId": 28,
+    "Owner": "Marth",
+    "HitboxActive": "3-17",
+    "FirstActionableFrame": "27",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968214846965952fcb513e0",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Marth",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "4",
-    "angle": "140",
-    "baseKnockBackSetKnockback": "80",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "60",
-    "type": 3,
-    "name": "Bthrow",
-    "ownerId": 28,
-    "id": 1499
+    "InstanceId": "5968214846965952fcb513e1",
+    "Name": "Forward Roll",
+    "OwnerId": 28,
+    "Owner": "Marth",
+    "HitboxActive": "4-17",
+    "FirstActionableFrame": "31",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968214846965952fcb513e1",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Marth",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "4",
-    "angle": "93",
-    "baseKnockBackSetKnockback": "70",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "120",
-    "type": 3,
-    "name": "Uthrow",
-    "ownerId": 28,
-    "id": 1500
+    "InstanceId": "5968214846965952fcb513e2",
+    "Name": "Back Roll",
+    "OwnerId": 28,
+    "Owner": "Marth",
+    "HitboxActive": "4-17",
+    "FirstActionableFrame": "31",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968214846965952fcb513e2",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Marth",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "5",
-    "angle": "100",
-    "baseKnockBackSetKnockback": "95",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "50",
-    "type": 3,
-    "name": "Dthrow",
-    "ownerId": 28,
-    "id": 1501
+    "InstanceId": "5968214846965952fcb513e3",
+    "Name": "Airdodge",
+    "OwnerId": 28,
+    "Owner": "Marth",
+    "HitboxActive": "3-27",
+    "FirstActionableFrame": "33",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968214846965952fcb513e3",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Marth",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "6-7",
-    "firstActionableFrame": "50",
-    "baseDamage": "3.5/3.5/3.5/5",
-    "angle": "80/75/65/90",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "12",
-    "autoCancel": "47&gt;",
-    "knockbackGrowth": "50",
-    "type": 0,
-    "name": "Nair (Hit 1)",
-    "ownerId": 28,
-    "id": 1507
+    "InstanceId": "5968214846965952fcb513e4",
+    "Name": "Nair (Hit 1)",
+    "OwnerId": 28,
+    "Owner": "Marth",
+    "HitboxActive": "6-7",
+    "FirstActionableFrame": "50",
+    "BaseDamage": "3.5/3.5/3.5/5",
+    "Angle": "80/75/65/90",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": "12",
+    "AutoCancel": "47&gt;",
+    "KnockbackGrowth": "50",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968214846965952fcb513e4",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Marth",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "15-21",
-    "firstActionableFrame": "-",
-    "baseDamage": "7/7/7/9.5",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "50/50/50/60",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "90/90/90/100",
-    "type": 0,
-    "name": "Nair (Hit 2)",
-    "ownerId": 28,
-    "id": 1508
+    "InstanceId": "5968214846965952fcb513e5",
+    "Name": "Nair (Hit 2)",
+    "OwnerId": 28,
+    "Owner": "Marth",
+    "HitboxActive": "15-21",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "7/7/7/9.5",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "50/50/50/60",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "90/90/90/100",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968214846965952fcb513e5",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Marth",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "6-8",
-    "firstActionableFrame": "38",
-    "baseDamage": "8/8/11.5",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "40",
-    "landingLag": "16",
-    "autoCancel": "36&gt;",
-    "knockbackGrowth": "80/80/90",
-    "type": 0,
-    "name": "Fair",
-    "ownerId": 28,
-    "id": 1509
+    "InstanceId": "5968214846965952fcb513e6",
+    "Name": "Fair",
+    "OwnerId": 28,
+    "Owner": "Marth",
+    "HitboxActive": "6-8",
+    "FirstActionableFrame": "38",
+    "BaseDamage": "8/8/11.5",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "40",
+    "LandingLag": "16",
+    "AutoCancel": "36&gt;",
+    "KnockbackGrowth": "80/80/90",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968214846965952fcb513e6",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Marth",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "7-11",
-    "firstActionableFrame": "40",
-    "baseDamage": "9/9/12.5",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "40",
-    "landingLag": "17",
-    "autoCancel": "1-2, 32&gt;",
-    "knockbackGrowth": "85/85/94",
-    "type": 0,
-    "name": "Bair",
-    "ownerId": 28,
-    "id": 1510
+    "InstanceId": "5968214846965952fcb513e7",
+    "Name": "Bair",
+    "OwnerId": 28,
+    "Owner": "Marth",
+    "HitboxActive": "7-11",
+    "FirstActionableFrame": "40",
+    "BaseDamage": "9/9/12.5",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "40",
+    "LandingLag": "17",
+    "AutoCancel": "1-2, 32&gt;",
+    "KnockbackGrowth": "85/85/94",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968214846965952fcb513e7",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Marth",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "5-9",
-    "firstActionableFrame": "46",
-    "baseDamage": "9.5/9.5/9.5/13",
-    "angle": "80/80/80/90",
-    "baseKnockBackSetKnockback": "40",
-    "landingLag": "14",
-    "autoCancel": "1-2, 38&gt;",
-    "knockbackGrowth": "80/80/80/84",
-    "type": 0,
-    "name": "Uair",
-    "ownerId": 28,
-    "id": 1511
+    "InstanceId": "5968214846965952fcb513e8",
+    "Name": "Uair",
+    "OwnerId": 28,
+    "Owner": "Marth",
+    "HitboxActive": "5-9",
+    "FirstActionableFrame": "46",
+    "BaseDamage": "9.5/9.5/9.5/13",
+    "Angle": "80/80/80/90",
+    "BaseKnockBackSetKnockback": "40",
+    "LandingLag": "14",
+    "AutoCancel": "1-2, 38&gt;",
+    "KnockbackGrowth": "80/80/80/84",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968214846965952fcb513e8",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Marth",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "9-13",
-    "firstActionableFrame": "60",
-    "baseDamage": "12/12/14",
-    "angle": "361/80/361",
-    "baseKnockBackSetKnockback": "30/40/20",
-    "landingLag": "24",
-    "autoCancel": "1-2, 55&gt;",
-    "knockbackGrowth": "70/70/80",
-    "type": 0,
-    "name": "Dair",
-    "ownerId": 28,
-    "id": 1512
+    "InstanceId": "5968214846965952fcb513e9",
+    "Name": "Dair",
+    "OwnerId": 28,
+    "Owner": "Marth",
+    "HitboxActive": "9-13",
+    "FirstActionableFrame": "60",
+    "BaseDamage": "12/12/14",
+    "Angle": "361/80/361",
+    "BaseKnockBackSetKnockback": "30/40/20",
+    "LandingLag": "24",
+    "AutoCancel": "1-2, 55&gt;",
+    "KnockbackGrowth": "70/70/80",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968214846965952fcb513e9",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Marth",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "11",
-    "firstActionableFrame": "-",
-    "baseDamage": "15",
-    "angle": "270",
-    "baseKnockBackSetKnockback": "20",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "80",
-    "type": 0,
-    "name": "Dair (Meteor)",
-    "ownerId": 28,
-    "id": 1513
+    "InstanceId": "5968214846965952fcb513ea",
+    "Name": "Dair (Meteor)",
+    "OwnerId": 28,
+    "Owner": "Marth",
+    "HitboxActive": "11",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "15",
+    "Angle": "270",
+    "BaseKnockBackSetKnockback": "20",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "80",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968214846965952fcb513ea",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Marth",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "19-20",
-    "firstActionableFrame": "51",
-    "baseDamage": "8/9 (+25)",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "30/60",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "90/100",
-    "type": 2,
-    "name": "Shield Breaker (No Charge)",
-    "ownerId": 28,
-    "id": 1514
+    "InstanceId": "5968214846965952fcb513eb",
+    "Name": "Shield Breaker (No Charge)",
+    "OwnerId": 28,
+    "Owner": "Marth",
+    "HitboxActive": "19-20",
+    "FirstActionableFrame": "51",
+    "BaseDamage": "8/9 (+25)",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "30/60",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "90/100",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968214846965952fcb513eb",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Marth",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "78-79",
-    "firstActionableFrame": "110",
-    "baseDamage": "22/24 (+50)",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "30/60",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "90/100",
-    "type": 2,
-    "name": "Shield Breaker (Full Charge)",
-    "ownerId": 28,
-    "id": 1515
+    "InstanceId": "5968214846965952fcb513ec",
+    "Name": "Shield Breaker (Full Charge)",
+    "OwnerId": 28,
+    "Owner": "Marth",
+    "HitboxActive": "78-79",
+    "FirstActionableFrame": "110",
+    "BaseDamage": "22/24 (+50)",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "30/60",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "90/100",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968214846965952fcb513ec",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Marth",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "6-8",
-    "firstActionableFrame": "42",
-    "baseDamage": "3/4/3",
-    "angle": "78/92/20",
-    "baseKnockBackSetKnockback": "25",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "75",
-    "type": 2,
-    "name": "Dancing Blade",
-    "ownerId": 28,
-    "id": 1516
+    "InstanceId": "5968214846965952fcb513ed",
+    "Name": "Dancing Blade",
+    "OwnerId": 28,
+    "Owner": "Marth",
+    "HitboxActive": "6-8",
+    "FirstActionableFrame": "42",
+    "BaseDamage": "3/4/3",
+    "Angle": "78/92/20",
+    "BaseKnockBackSetKnockback": "25",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "75",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968214846965952fcb513ed",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Marth",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "7-10",
-    "firstActionableFrame": "39",
-    "baseDamage": "3/4/3",
-    "angle": "80/85/60",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "70/50/70",
-    "type": 2,
-    "name": "Dancing Blade 2 (Up)",
-    "ownerId": 28,
-    "id": 1517
+    "InstanceId": "5968214846965952fcb513ee",
+    "Name": "Dancing Blade 2 (Up)",
+    "OwnerId": 28,
+    "Owner": "Marth",
+    "HitboxActive": "7-10",
+    "FirstActionableFrame": "39",
+    "BaseDamage": "3/4/3",
+    "Angle": "80/85/60",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "70/50/70",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968214846965952fcb513ee",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Marth",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "9-10",
-    "firstActionableFrame": "39",
-    "baseDamage": "3/4/3",
-    "angle": "75/90/40",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "30",
-    "type": 2,
-    "name": "Dancing Blade 2",
-    "ownerId": 28,
-    "id": 1518
+    "InstanceId": "5968214846965952fcb513ef",
+    "Name": "Dancing Blade 2",
+    "OwnerId": 28,
+    "Owner": "Marth",
+    "HitboxActive": "9-10",
+    "FirstActionableFrame": "39",
+    "BaseDamage": "3/4/3",
+    "Angle": "75/90/40",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "30",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968214846965952fcb513ef",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Marth",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "8-10",
-    "firstActionableFrame": "44",
-    "baseDamage": "4/5/4",
-    "angle": "80/85/60",
-    "baseKnockBackSetKnockback": "40",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "60/40/60",
-    "type": 2,
-    "name": "Dancing Blade 3 (Up)",
-    "ownerId": 28,
-    "id": 1519
+    "InstanceId": "5968214846965952fcb513f0",
+    "Name": "Dancing Blade 3 (Up)",
+    "OwnerId": 28,
+    "Owner": "Marth",
+    "HitboxActive": "8-10",
+    "FirstActionableFrame": "44",
+    "BaseDamage": "4/5/4",
+    "Angle": "80/85/60",
+    "BaseKnockBackSetKnockback": "40",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "60/40/60",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968214846965952fcb513f0",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Marth",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "6-8",
-    "firstActionableFrame": "44",
-    "baseDamage": "4/5/4",
-    "angle": "50/55/40",
-    "baseKnockBackSetKnockback": "40",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "50/35/50",
-    "type": 2,
-    "name": "Dancing Blade 3",
-    "ownerId": 28,
-    "id": 1520
+    "InstanceId": "5968214846965952fcb513f1",
+    "Name": "Dancing Blade 3",
+    "OwnerId": 28,
+    "Owner": "Marth",
+    "HitboxActive": "6-8",
+    "FirstActionableFrame": "44",
+    "BaseDamage": "4/5/4",
+    "Angle": "50/55/40",
+    "BaseKnockBackSetKnockback": "40",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "50/35/50",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968214846965952fcb513f1",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Marth",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "8-10",
-    "firstActionableFrame": "44",
-    "baseDamage": "4.5/5.5",
-    "angle": "44",
-    "baseKnockBackSetKnockback": "50",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "28",
-    "type": 2,
-    "name": "Dancing Blade 3 (Down)",
-    "ownerId": 28,
-    "id": 1521
+    "InstanceId": "5968214846965952fcb513f2",
+    "Name": "Dancing Blade 3 (Down)",
+    "OwnerId": 28,
+    "Owner": "Marth",
+    "HitboxActive": "8-10",
+    "FirstActionableFrame": "44",
+    "BaseDamage": "4.5/5.5",
+    "Angle": "44",
+    "BaseKnockBackSetKnockback": "50",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "28",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968214846965952fcb513f2",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Marth",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "11-15",
-    "firstActionableFrame": "51",
-    "baseDamage": "6/8/6",
-    "angle": "80",
-    "baseKnockBackSetKnockback": "60",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "118",
-    "type": 2,
-    "name": "Dancing Blade 4 (Up)",
-    "ownerId": 28,
-    "id": 1522
+    "InstanceId": "5968214846965952fcb513f3",
+    "Name": "Dancing Blade 4 (Up)",
+    "OwnerId": 28,
+    "Owner": "Marth",
+    "HitboxActive": "11-15",
+    "FirstActionableFrame": "51",
+    "BaseDamage": "6/8/6",
+    "Angle": "80",
+    "BaseKnockBackSetKnockback": "60",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "118",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968214846965952fcb513f3",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Marth",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "13-15",
-    "firstActionableFrame": "56",
-    "baseDamage": "5/7/5",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "60",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "130",
-    "type": 2,
-    "name": "Dancing Blade 4",
-    "ownerId": 28,
-    "id": 1523
+    "InstanceId": "5968214846965952fcb513f4",
+    "Name": "Dancing Blade 4",
+    "OwnerId": 28,
+    "Owner": "Marth",
+    "HitboxActive": "13-15",
+    "FirstActionableFrame": "56",
+    "BaseDamage": "5/7/5",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "60",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "130",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968214846965952fcb513f4",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Marth",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "13-14, 19-20, 25-26, 31-32",
-    "firstActionableFrame": "72",
-    "baseDamage": "2",
-    "angle": "80",
-    "baseKnockBackSetKnockback": "2",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "40",
-    "type": 2,
-    "name": "Dancing Blade 4 (Down, Hits 1-4)",
-    "ownerId": 28,
-    "id": 1524
+    "InstanceId": "5968214846965952fcb513f5",
+    "Name": "Dancing Blade 4 (Down, Hits 1-4)",
+    "OwnerId": 28,
+    "Owner": "Marth",
+    "HitboxActive": "13-14, 19-20, 25-26, 31-32",
+    "FirstActionableFrame": "72",
+    "BaseDamage": "2",
+    "Angle": "80",
+    "BaseKnockBackSetKnockback": "2",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "40",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968214846965952fcb513f5",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Marth",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "37-38",
-    "firstActionableFrame": "-",
-    "baseDamage": "4/6/4",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "70",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "80",
-    "type": 2,
-    "name": "Dancing Blade 4 (Down, Hit 5)",
-    "ownerId": 28,
-    "id": 1525
+    "InstanceId": "5968214846965952fcb513f6",
+    "Name": "Dancing Blade 4 (Down, Hit 5)",
+    "OwnerId": 28,
+    "Owner": "Marth",
+    "HitboxActive": "37-38",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "4/6/4",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "70",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "80",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968214846965952fcb513f6",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Marth",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "5 (Intangible: 4-5, Air: 1-5)",
-    "firstActionableFrame": "-",
-    "baseDamage": "11",
-    "angle": "361/74",
-    "baseKnockBackSetKnockback": "70",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "74",
-    "type": 2,
-    "name": "Dolphin Slash (Early)",
-    "ownerId": 28,
-    "id": 1526
+    "InstanceId": "5968214846965952fcb513f7",
+    "Name": "Dolphin Slash (Early)",
+    "OwnerId": 28,
+    "Owner": "Marth",
+    "HitboxActive": "5 (Intangible: 4-5, Air: 1-5)",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "11",
+    "Angle": "361/74",
+    "BaseKnockBackSetKnockback": "70",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "74",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968214846965952fcb513f7",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Marth",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "6",
-    "firstActionableFrame": "-",
-    "baseDamage": "7/7/6/11/11",
-    "angle": "361/74/74/361/74",
-    "baseKnockBackSetKnockback": "20/20/20/70/70",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "90/90/90/74/74",
-    "type": 2,
-    "name": "Dolphin Slash",
-    "ownerId": 28,
-    "id": 1527
+    "InstanceId": "5968214846965952fcb513f8",
+    "Name": "Dolphin Slash",
+    "OwnerId": 28,
+    "Owner": "Marth",
+    "HitboxActive": "6",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "7/7/6/11/11",
+    "Angle": "361/74/74/361/74",
+    "BaseKnockBackSetKnockback": "20/20/20/70/70",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "90/90/90/74/74",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968214846965952fcb513f8",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Marth",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "7-11",
-    "firstActionableFrame": "-",
-    "baseDamage": "7/7/6",
-    "angle": "361/74/74",
-    "baseKnockBackSetKnockback": "20",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "90",
-    "type": 2,
-    "name": "Dolphin Slash (Late)",
-    "ownerId": 28,
-    "id": 1528
+    "InstanceId": "5968214846965952fcb513f9",
+    "Name": "Dolphin Slash (Late)",
+    "OwnerId": 28,
+    "Owner": "Marth",
+    "HitboxActive": "7-11",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "7/7/6",
+    "Angle": "361/74/74",
+    "BaseKnockBackSetKnockback": "20",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "90",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968214846965952fcb513f9",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Marth",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "Counters: 6-27 (Intangible: 5-6)",
-    "firstActionableFrame": "60",
-    "baseDamage": "-",
-    "angle": "-",
-    "baseKnockBackSetKnockback": "-",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "-",
-    "type": 2,
-    "name": "Counter",
-    "ownerId": 28,
-    "id": 1529
+    "InstanceId": "5968214846965952fcb513fa",
+    "Name": "Counter",
+    "OwnerId": 28,
+    "Owner": "Marth",
+    "HitboxActive": "Counters: 6-27 (Intangible: 5-6)",
+    "FirstActionableFrame": "60",
+    "BaseDamage": "-",
+    "Angle": "-",
+    "BaseKnockBackSetKnockback": "-",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "-",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968214846965952fcb513fa",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Marth",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "16 Freeze Frames (Intangible: 1-16)",
-    "firstActionableFrame": "-",
-    "baseDamage": "-",
-    "angle": "-",
-    "baseKnockBackSetKnockback": "-",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "-",
-    "type": 2,
-    "name": "Counter (On Hit)",
-    "ownerId": 28,
-    "id": 1530
+    "InstanceId": "5968214846965952fcb513fb",
+    "Name": "Counter (On Hit)",
+    "OwnerId": 28,
+    "Owner": "Marth",
+    "HitboxActive": "16 Freeze Frames (Intangible: 1-16)",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "-",
+    "Angle": "-",
+    "BaseKnockBackSetKnockback": "-",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "-",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968214846965952fcb513fb",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Marth",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "5-7 (Intangible: 1-7)",
-    "firstActionableFrame": "36",
-    "baseDamage": "8 (1.2&#215;)",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "90",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "60",
-    "type": 2,
-    "name": "Counter (Attack)",
-    "ownerId": 28,
-    "id": 1531
+    "InstanceId": "5968214846965952fcb513fc",
+    "Name": "Counter (Attack)",
+    "OwnerId": 28,
+    "Owner": "Marth",
+    "HitboxActive": "5-7 (Intangible: 1-7)",
+    "FirstActionableFrame": "36",
+    "BaseDamage": "8 (1.2&#215;)",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "90",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "60",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968214846965952fcb513fc",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Marth",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968214846965952fcb513fd",
+    "Name": "Fthrow",
+    "OwnerId": 28,
+    "Owner": "Marth",
+    "HitboxActive": null,
+    "FirstActionableFrame": null,
+    "BaseDamage": "4",
+    "Angle": "50",
+    "BaseKnockBackSetKnockback": "100",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "50",
+    "MoveType": "throw",
+    "IsWeightDependent": true,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968214846965952fcb513fd",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Marth",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968214846965952fcb513fe",
+    "Name": "Bthrow",
+    "OwnerId": 28,
+    "Owner": "Marth",
+    "HitboxActive": null,
+    "FirstActionableFrame": null,
+    "BaseDamage": "4",
+    "Angle": "140",
+    "BaseKnockBackSetKnockback": "80",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "60",
+    "MoveType": "throw",
+    "IsWeightDependent": true,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968214846965952fcb513fe",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Marth",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968214846965952fcb513ff",
+    "Name": "Uthrow",
+    "OwnerId": 28,
+    "Owner": "Marth",
+    "HitboxActive": null,
+    "FirstActionableFrame": null,
+    "BaseDamage": "4",
+    "Angle": "93",
+    "BaseKnockBackSetKnockback": "70",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "120",
+    "MoveType": "throw",
+    "IsWeightDependent": true,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968214846965952fcb513ff",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Marth",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968214846965952fcb51400",
+    "Name": "Dthrow",
+    "OwnerId": 28,
+    "Owner": "Marth",
+    "HitboxActive": null,
+    "FirstActionableFrame": null,
+    "BaseDamage": "5",
+    "Angle": "100",
+    "BaseKnockBackSetKnockback": "95",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "50",
+    "MoveType": "throw",
+    "IsWeightDependent": true,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968214846965952fcb51400",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Marth",
+        "Title": ""
+      }
+    ]
   }
 ]

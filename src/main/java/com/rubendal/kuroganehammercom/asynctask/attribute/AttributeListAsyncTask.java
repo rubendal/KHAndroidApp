@@ -25,7 +25,7 @@ public class AttributeListAsyncTask extends AsyncTask<String, String, LinkedList
     private ProgressDialog dialog;
     private String title;
     private int x;
-    private LinkedList<Attribute> attributes = new LinkedList<>();
+    private LinkedList<AttributeList> attributes = new LinkedList<>();
 
     public AttributeListAsyncTask(AttributeMainFragment context, int x){
         this.context = context;
@@ -56,9 +56,9 @@ public class AttributeListAsyncTask extends AsyncTask<String, String, LinkedList
             String json = Storage.read("data","attributes.json",context.getActivity());
             JSONArray jsonArray = new JSONArray(json);
             for(int i=0;i<jsonArray.length();i++){
-                attributes.add(Attribute.getFromJson(context.getActivity(), jsonArray.getJSONObject(i)));
+                attributes.add(AttributeList.getFromJson(context.getActivity(), jsonArray.getJSONObject(i)));
             }
-            return AttributeList.getList(context.getActivity());
+            return attributes;
         } catch (Exception e) {
 
         }
@@ -71,7 +71,7 @@ public class AttributeListAsyncTask extends AsyncTask<String, String, LinkedList
         if(dialog!=null){
             dialog.dismiss();
         }
-        AttributeAdapter adapter = new AttributeAdapter(context.getActivity(), s, x, attributes);
+        AttributeAdapter adapter = new AttributeAdapter(context.getActivity(), attributes, x);
         if(s != null) {
             context.grid.setAdapter(adapter);
             if(context.selectedItem != -1){

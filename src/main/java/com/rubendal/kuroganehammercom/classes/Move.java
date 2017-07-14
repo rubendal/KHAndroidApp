@@ -17,7 +17,7 @@ import java.io.Serializable;
 
 public class Move implements Serializable {
 
-    public int id;
+    public String id;
     public MoveType moveType;
     public String name;
     public String hitboxActive;
@@ -27,7 +27,7 @@ public class Move implements Serializable {
     public String bkb;
     public String kbg;
 
-    public Move(int id, MoveType moveType, String name, String hitboxActive, String FAF, String baseDamage, String angle, String bkb, String kbg) {
+    public Move(String id, MoveType moveType, String name, String hitboxActive, String FAF, String baseDamage, String angle, String bkb, String kbg) {
         this.id = id;
         this.moveType = moveType;
         this.name = name;
@@ -91,15 +91,27 @@ public class Move implements Serializable {
 
     public static Move getFromJson(JSONObject jsonObject){
         try {
-            int id = jsonObject.getInt("id");
-            MoveType moveType = MoveType.fromValue(jsonObject.getInt("type"));
-            String name = StringEscapeUtils.unescapeHtml4(jsonObject.getString("name"));
-            String hitboxActive = StringEscapeUtils.unescapeHtml4(jsonObject.getString("hitboxActive"));
-            String FAF = StringEscapeUtils.unescapeHtml4(jsonObject.getString("firstActionableFrame"));
-            String baseDamage = StringEscapeUtils.unescapeHtml4(jsonObject.getString("baseDamage"));
-            String angle = StringEscapeUtils.unescapeHtml4(jsonObject.getString("angle"));
-            String bkb = StringEscapeUtils.unescapeHtml4(jsonObject.getString("baseKnockBackSetKnockback"));
-            String kbg = StringEscapeUtils.unescapeHtml4(jsonObject.getString("knockbackGrowth"));
+            String id = jsonObject.getString("InstanceId");
+            MoveType moveType = MoveType.fromValue(jsonObject.getString("MoveType"));
+            String name = StringEscapeUtils.unescapeHtml4(jsonObject.getString("Name"));
+            String hitboxActive = StringEscapeUtils.unescapeHtml4(jsonObject.getString("HitboxActive"));
+            String FAF = StringEscapeUtils.unescapeHtml4(jsonObject.getString("FirstActionableFrame"));
+            String baseDamage = StringEscapeUtils.unescapeHtml4(jsonObject.getString("BaseDamage"));
+            String angle = StringEscapeUtils.unescapeHtml4(jsonObject.getString("Angle"));
+            String bkb = StringEscapeUtils.unescapeHtml4(jsonObject.getString("BaseKnockBackSetKnockback"));
+            String kbg = StringEscapeUtils.unescapeHtml4(jsonObject.getString("KnockbackGrowth"));
+            if(jsonObject.isNull("HitboxActive"))
+                hitboxActive="";
+            if(jsonObject.isNull("FirstActionableFrame"))
+                FAF = "";
+            if(jsonObject.isNull("BaseDamage"))
+                baseDamage = "";
+            if(jsonObject.isNull("Angle"))
+                angle = "";
+            if(jsonObject.isNull("BaseKnockBackSetKnockback"))
+                bkb = "";
+            if(jsonObject.isNull("KnockbackGrowth"))
+                kbg = "";
             return new Move(id, moveType, name, hitboxActive, FAF, baseDamage, angle, bkb, kbg);
         }catch(Exception e){
             return null;

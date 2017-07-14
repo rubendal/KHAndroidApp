@@ -26,11 +26,11 @@ public class AttributeAdapter extends BaseAdapter {
     private List<AttributeList> list;
     private int x;
 
-    public AttributeAdapter(Context context, List<AttributeList> list, int x, LinkedList<Attribute> attributes)
+    public AttributeAdapter(Context context, LinkedList<AttributeList> attributes, int x)
     {
         this.context = context;
-        this.list = list;
         this.x = x;
+        this.list = attributes;
 
         //Remove all attributes that don't have data
         LinkedList<AttributeList> emptyAttributeList = new LinkedList<>();
@@ -38,8 +38,8 @@ public class AttributeAdapter extends BaseAdapter {
         boolean hasOne = false;
         for(AttributeList a : this.list){
             hasOne = false;
-            for(Attribute attr : attributes){
-                if(attr.attributeId == a.id){
+            for(AttributeList attr : attributes){
+                if(attr.name == a.name){
                     hasOne = true;
                     break;
                 }

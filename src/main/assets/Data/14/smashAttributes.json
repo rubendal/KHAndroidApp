@@ -1,218 +1,442 @@
 ﻿[
   {
-    "id": 12,
-    "ownerId": 14,
-    "rank": "11-16",
-    "value": "0.08",
-    "name": "VALUE",
-    "smashAttributeTypeId": 1,
-    "characterAttributeTypeId": 12
+    "InstanceId": "5968212046965952fcb50f60",
+    "Name": "AerialJump",
+    "OwnerId": 14,
+    "Owner": "Fox",
+    "Values": [
+      {
+        "Value": "37",
+        "Owner": "Fox",
+        "OwnerId": 14,
+        "Name": "HEIGHT"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968212046965952fcb50f60",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Fox",
+        "Title": ""
+      }
+    ]
   },
   {
-    "id": 77,
-    "ownerId": 14,
-    "rank": "2-10",
-    "value": "2-25",
-    "name": "INTANGIBLE",
-    "smashAttributeTypeId": 3,
-    "characterAttributeTypeId": 5
+    "InstanceId": "5968212046965952fcb50f61",
+    "Name": "AirAcceleration",
+    "OwnerId": 14,
+    "Owner": "Fox",
+    "Values": [
+      {
+        "Value": "0.08",
+        "Owner": "Fox",
+        "OwnerId": 14,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968212046965952fcb50f61",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Fox",
+        "Title": ""
+      }
+    ]
   },
   {
-    "id": 78,
-    "ownerId": 14,
-    "rank": "2-10",
-    "value": "31",
-    "name": "FAF",
-    "smashAttributeTypeId": 3,
-    "characterAttributeTypeId": 1
+    "InstanceId": "5968212046965952fcb50f62",
+    "Name": "AirDeceleration",
+    "OwnerId": 14,
+    "Owner": "Fox",
+    "Values": [
+      {
+        "Value": "0.01",
+        "Owner": "Fox",
+        "OwnerId": 14,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968212046965952fcb50f62",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Fox",
+        "Title": ""
+      }
+    ]
   },
   {
-    "id": 213,
-    "ownerId": 14,
-    "rank": "39-40",
-    "value": "0.96",
-    "name": "MAX AIR SPEED VALUE",
-    "smashAttributeTypeId": 5,
-    "characterAttributeTypeId": 6
+    "InstanceId": "5968212046965952fcb50f63",
+    "Name": "AirFriction",
+    "OwnerId": 14,
+    "Owner": "Fox",
+    "Values": [
+      {
+        "Value": "0.015",
+        "Owner": "Fox",
+        "OwnerId": 14,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968212046965952fcb50f63",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Fox",
+        "Title": ""
+      }
+    ]
   },
   {
-    "id": 233,
-    "ownerId": 14,
-    "rank": "1",
-    "value": "2.05",
-    "name": "MAX FALL SPEED",
-    "smashAttributeTypeId": 8,
-    "characterAttributeTypeId": 7
+    "InstanceId": "5968212046965952fcb50f64",
+    "Name": "DashLength",
+    "OwnerId": 14,
+    "Owner": "Fox",
+    "Values": [
+      {
+        "Value": "11",
+        "Owner": "Fox",
+        "OwnerId": 14,
+        "Name": "LENGTH IN FRAMES"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968212046965952fcb50f64",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Fox",
+        "Title": ""
+      }
+    ]
   },
   {
-    "id": 234,
-    "ownerId": 14,
-    "rank": "1",
-    "value": "3.28",
-    "name": "FAST FALL SPEED",
-    "smashAttributeTypeId": 8,
-    "characterAttributeTypeId": 2
+    "InstanceId": "5968212046965952fcb50f65",
+    "Name": "FallSpeed",
+    "OwnerId": 14,
+    "Owner": "Fox",
+    "Values": [
+      {
+        "Value": "2.05",
+        "Owner": "Fox",
+        "OwnerId": 14,
+        "Name": "MAX FALL SPEED"
+      },
+      {
+        "Value": "3.28",
+        "Owner": "Fox",
+        "OwnerId": 14,
+        "Name": "FAST FALL SPEED"
+      },
+      {
+        "Value": "60%",
+        "Owner": "Fox",
+        "OwnerId": 14,
+        "Name": "SPEED INCREASE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968212046965952fcb50f65",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Fox",
+        "Title": ""
+      }
+    ]
   },
   {
-    "id": 235,
-    "ownerId": 14,
-    "rank": "1",
-    "value": "60%",
-    "name": "SPEED INCREASE",
-    "smashAttributeTypeId": 8,
-    "characterAttributeTypeId": 11
+    "InstanceId": "5968212046965952fcb50f66",
+    "Name": "FullHop",
+    "OwnerId": 14,
+    "Owner": "Fox",
+    "Values": [
+      {
+        "Value": "35",
+        "Owner": "Fox",
+        "OwnerId": 14,
+        "Name": "HEIGHT"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968212046965952fcb50f66",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Fox",
+        "Title": ""
+      }
+    ]
   },
   {
-    "id": 407,
-    "ownerId": 14,
-    "rank": "1",
-    "value": "0.19",
-    "name": "VALUE",
-    "smashAttributeTypeId": 10,
-    "characterAttributeTypeId": 12
+    "InstanceId": "5968212046965952fcb50f67",
+    "Name": "Gravity",
+    "OwnerId": 14,
+    "Owner": "Fox",
+    "Values": [
+      {
+        "Value": "0.19",
+        "Owner": "Fox",
+        "OwnerId": 14,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968212046965952fcb50f67",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Fox",
+        "Title": ""
+      }
+    ]
   },
   {
-    "id": 466,
-    "ownerId": 14,
-    "rank": "1-13",
-    "value": "4",
-    "name": "VALUE",
-    "smashAttributeTypeId": 14,
-    "characterAttributeTypeId": 12
+    "InstanceId": "5968212046965952fcb50f68",
+    "Name": "JumpSquat",
+    "OwnerId": 14,
+    "Owner": "Fox",
+    "Values": [
+      {
+        "Value": "4",
+        "Owner": "Fox",
+        "OwnerId": 14,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968212046965952fcb50f68",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Fox",
+        "Title": ""
+      }
+    ]
   },
   {
-    "id": 569,
-    "ownerId": 14,
-    "rank": "22-25",
-    "value": "1-28",
-    "name": "INTANGIBILITY",
-    "smashAttributeTypeId": 15,
-    "characterAttributeTypeId": 4
+    "InstanceId": "5968212046965952fcb50f69",
+    "Name": "LedgeHop",
+    "OwnerId": 14,
+    "Owner": "Fox",
+    "Values": [
+      {
+        "Value": "37.5",
+        "Owner": "Fox",
+        "OwnerId": 14,
+        "Name": "HEIGHT"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968212046965952fcb50f69",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Fox",
+        "Title": ""
+      }
+    ]
   },
   {
-    "id": 570,
-    "ownerId": 14,
-    "rank": "22-25",
-    "value": "50",
-    "name": "FAF",
-    "smashAttributeTypeId": 15,
-    "characterAttributeTypeId": 1
+    "InstanceId": "5968212046965952fcb50f6a",
+    "Name": "ShortHop",
+    "OwnerId": 14,
+    "Owner": "Fox",
+    "Values": [
+      {
+        "Value": "16.403395",
+        "Owner": "Fox",
+        "OwnerId": 14,
+        "Name": "HEIGHT"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968212046965952fcb50f6a",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Fox",
+        "Title": ""
+      }
+    ]
   },
   {
-    "id": 641,
-    "ownerId": 14,
-    "rank": "2-4",
-    "value": "4-14",
-    "name": "INTANGIBLE",
-    "smashAttributeTypeId": 17,
-    "characterAttributeTypeId": 5
+    "InstanceId": "5968212046965952fcb50f6b",
+    "Name": "Spotdodge",
+    "OwnerId": 14,
+    "Owner": "Fox",
+    "Values": [
+      {
+        "Value": "2-15",
+        "Owner": "Fox",
+        "OwnerId": 14,
+        "Name": "INTANGIBLE"
+      },
+      {
+        "Value": "25",
+        "Owner": "Fox",
+        "OwnerId": 14,
+        "Name": "FAF"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968212046965952fcb50f6b",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Fox",
+        "Title": ""
+      }
+    ]
   },
   {
-    "id": 642,
-    "ownerId": 14,
-    "rank": "2-4",
-    "value": "27",
-    "name": "FAF",
-    "smashAttributeTypeId": 17,
-    "characterAttributeTypeId": 1
+    "InstanceId": "5968212046965952fcb50f6c",
+    "Name": "Traction",
+    "OwnerId": 14,
+    "Owner": "Fox",
+    "Values": [
+      {
+        "Value": "0.06",
+        "Owner": "Fox",
+        "OwnerId": 14,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968212046965952fcb50f6c",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Fox",
+        "Title": ""
+      }
+    ]
   },
   {
-    "id": 760,
-    "ownerId": 14,
-    "rank": "4",
-    "value": "2.184",
-    "name": "MAX RUN SPEED VALUE",
-    "smashAttributeTypeId": 18,
-    "characterAttributeTypeId": 8
+    "InstanceId": "5968212046965952fcb50f6d",
+    "Name": "WalkSpeed",
+    "OwnerId": 14,
+    "Owner": "Fox",
+    "Values": [
+      {
+        "Value": "1.45",
+        "Owner": "Fox",
+        "OwnerId": 14,
+        "Name": "MAX WALK SPEED VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968212046965952fcb50f6d",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Fox",
+        "Title": ""
+      }
+    ]
   },
   {
-    "id": 846,
-    "ownerId": 14,
-    "rank": "32",
-    "value": "10.08",
-    "name": "SIZE",
-    "smashAttributeTypeId": 20,
-    "characterAttributeTypeId": 10
+    "InstanceId": "5968212046965952fcb50f6e",
+    "Name": "AirSpeed",
+    "OwnerId": 14,
+    "Owner": "Fox",
+    "Values": [
+      {
+        "Value": "0.96",
+        "Owner": "Fox",
+        "OwnerId": 14,
+        "Name": "MAX AIR SPEED VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968212046965952fcb50f6e",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Fox",
+        "Title": ""
+      }
+    ]
   },
   {
-    "id": 887,
-    "ownerId": 14,
-    "rank": "2-9",
-    "value": "2-15",
-    "name": "INTANGIBLE",
-    "smashAttributeTypeId": 22,
-    "characterAttributeTypeId": 5
-  },
-  {
-    "id": 888,
-    "ownerId": 14,
-    "rank": "2-9",
-    "value": "25",
-    "name": "FAF",
-    "smashAttributeTypeId": 22,
-    "characterAttributeTypeId": 1
-  },
-  {
-    "id": 1002,
-    "ownerId": 14,
-    "rank": "14-24",
-    "value": "0.06",
-    "name": "VALUE",
-    "smashAttributeTypeId": 24,
-    "characterAttributeTypeId": 12
-  },
-  {
-    "id": 1049,
-    "ownerId": 14,
-    "rank": "3",
-    "value": "1.45",
-    "name": "MAX WALK SPEED VALUE",
-    "smashAttributeTypeId": 26,
-    "characterAttributeTypeId": 9
-  },
-  {
-    "id": 1155,
-    "ownerId": 14,
-    "rank": "51-54",
-    "value": "79",
-    "name": "WEIGHT VALUE",
-    "smashAttributeTypeId": 27,
-    "characterAttributeTypeId": 13
-  },
-  {
-    "id": 1192,
-    "ownerId": 14,
-    "rank": "30",
-    "value": "16.403395",
-    "name": "HEIGHT",
-    "smashAttributeTypeId": 28,
-    "characterAttributeTypeId": 3
-  },
-  {
-    "id": 1239,
-    "ownerId": 14,
-    "rank": "19-21",
-    "value": "35",
-    "name": "HEIGHT",
-    "smashAttributeTypeId": 29,
-    "characterAttributeTypeId": 3
-  },
-  {
-    "id": 1292,
-    "ownerId": 14,
-    "rank": "14-15",
-    "value": "37",
-    "name": "HEIGHT",
-    "smashAttributeTypeId": 30,
-    "characterAttributeTypeId": 3
-  },
-  {
-    "id": 1356,
-    "ownerId": 14,
-    "rank": "20-22",
-    "value": "37.5",
-    "name": "HEIGHT",
-    "smashAttributeTypeId": 31,
-    "characterAttributeTypeId": 3
+    "InstanceId": "5968212046965952fcb50f6f",
+    "Name": "AirDodge",
+    "OwnerId": 14,
+    "Owner": "Fox",
+    "Values": [
+      {
+        "Value": "2-25",
+        "Owner": "Fox",
+        "OwnerId": 14,
+        "Name": "INTANGIBLE"
+      },
+      {
+        "Value": "31",
+        "Owner": "Fox",
+        "OwnerId": 14,
+        "Name": "FAF"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968212046965952fcb50f6f",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Fox",
+        "Title": ""
+      }
+    ]
   }
 ]

@@ -1,110 +1,344 @@
 ﻿[
   {
-    "name": "Weight",
-    "ownerId": 16,
-    "id": 271,
-    "value": "94"
+    "InstanceId": "5968212646965952fcb50fc4",
+    "Name": "Weight",
+    "OwnerId": 16,
+    "Owner": "Greninja",
+    "Value": "94 ",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968212646965952fcb50fc4",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Greninja",
+        "Title": ""
+      }
+    ]
   },
   {
-    "name": "Max Jumps",
-    "ownerId": 16,
-    "id": 272,
-    "value": "2"
+    "InstanceId": "5968212646965952fcb50fc5",
+    "Name": "Max Jumps",
+    "OwnerId": 16,
+    "Owner": "Greninja",
+    "Value": "2",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968212646965952fcb50fc5",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Greninja",
+        "Title": ""
+      }
+    ]
   },
   {
-    "name": "Run Speed",
-    "ownerId": 16,
-    "id": 273,
-    "value": "2.08"
+    "InstanceId": "5968212646965952fcb50fc6",
+    "Name": "Run Speed",
+    "OwnerId": 16,
+    "Owner": "Greninja",
+    "Value": "2.08 ",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968212646965952fcb50fc6",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Greninja",
+        "Title": ""
+      }
+    ]
   },
   {
-    "name": "Wall Jump",
-    "ownerId": 16,
-    "id": 274,
-    "value": "Yes"
+    "InstanceId": "5968212646965952fcb50fc7",
+    "Name": "Wall Jump",
+    "OwnerId": 16,
+    "Owner": "Greninja",
+    "Value": "Yes",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968212646965952fcb50fc7",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Greninja",
+        "Title": ""
+      }
+    ]
   },
   {
-    "name": "Walk Speed",
-    "ownerId": 16,
-    "id": 275,
-    "value": "1.43"
+    "InstanceId": "5968212646965952fcb50fc8",
+    "Name": "Walk Speed",
+    "OwnerId": 16,
+    "Owner": "Greninja",
+    "Value": "1.43 ",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968212646965952fcb50fc8",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Greninja",
+        "Title": ""
+      }
+    ]
   },
   {
-    "name": "Wall Cling",
-    "ownerId": 16,
-    "id": 276,
-    "value": "Yes"
+    "InstanceId": "5968212646965952fcb50fc9",
+    "Name": "Wall Cling",
+    "OwnerId": 16,
+    "Owner": "Greninja",
+    "Value": "Yes",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968212646965952fcb50fc9",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Greninja",
+        "Title": ""
+      }
+    ]
   },
   {
-    "name": "Air Speed",
-    "ownerId": 16,
-    "id": 277,
-    "value": "1.18"
+    "InstanceId": "5968212646965952fcb50fca",
+    "Name": "Air Speed",
+    "OwnerId": 16,
+    "Owner": "Greninja",
+    "Value": "1.18 ",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968212646965952fcb50fca",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Greninja",
+        "Title": ""
+      }
+    ]
   },
   {
-    "name": "Crawl",
-    "ownerId": 16,
-    "id": 278,
-    "value": "Yes"
+    "InstanceId": "5968212646965952fcb50fcb",
+    "Name": "Crawl",
+    "OwnerId": 16,
+    "Owner": "Greninja",
+    "Value": "Yes",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968212646965952fcb50fcb",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Greninja",
+        "Title": ""
+      }
+    ]
   },
   {
-    "name": "Fall Speed",
-    "ownerId": 16,
-    "id": 279,
-    "value": "1.85"
+    "InstanceId": "5968212646965952fcb50fcc",
+    "Name": "Fall Speed",
+    "OwnerId": 16,
+    "Owner": "Greninja",
+    "Value": "1.85 ",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968212646965952fcb50fcc",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Greninja",
+        "Title": ""
+      }
+    ]
   },
   {
-    "name": "Tether",
-    "ownerId": 16,
-    "id": 280,
-    "value": "No"
+    "InstanceId": "5968212646965952fcb50fcd",
+    "Name": "Tether",
+    "OwnerId": 16,
+    "Owner": "Greninja",
+    "Value": "No",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968212646965952fcb50fcd",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Greninja",
+        "Title": ""
+      }
+    ]
   },
   {
-    "name": "Fast Fall Speed",
-    "ownerId": 16,
-    "id": 281,
-    "value": "2.96"
+    "InstanceId": "5968212646965952fcb50fce",
+    "Name": "Fast Fall Speed",
+    "OwnerId": 16,
+    "Owner": "Greninja",
+    "Value": "2.96 ",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968212646965952fcb50fce",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Greninja",
+        "Title": ""
+      }
+    ]
   },
   {
-    "name": "Jumpsquat",
-    "ownerId": 16,
-    "id": 282,
-    "value": "4frames"
+    "InstanceId": "5968212646965952fcb50fcf",
+    "Name": "Jumpsquat",
+    "OwnerId": 16,
+    "Owner": "Greninja",
+    "Value": "4 frames",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968212646965952fcb50fcf",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Greninja",
+        "Title": ""
+      }
+    ]
   },
   {
-    "name": "Air Acceleration",
-    "ownerId": 16,
-    "id": 283,
-    "value": "0.07"
+    "InstanceId": "5968212646965952fcb50fd0",
+    "Name": "Air Acceleration",
+    "OwnerId": 16,
+    "Owner": "Greninja",
+    "Value": "0.07",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968212646965952fcb50fd0",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Greninja",
+        "Title": ""
+      }
+    ]
   },
   {
-    "name": "Soft Landing Lag",
-    "ownerId": 16,
-    "id": 284,
-    "value": "2frames"
+    "InstanceId": "5968212646965952fcb50fd1",
+    "Name": "Soft Landing Lag",
+    "OwnerId": 16,
+    "Owner": "Greninja",
+    "Value": "2 frames",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968212646965952fcb50fd1",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Greninja",
+        "Title": ""
+      }
+    ]
   },
   {
-    "name": "Gravity",
-    "ownerId": 16,
-    "id": 285,
-    "value": "0.18"
+    "InstanceId": "5968212646965952fcb50fd2",
+    "Name": "Gravity",
+    "OwnerId": 16,
+    "Owner": "Greninja",
+    "Value": "0.18",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968212646965952fcb50fd2",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Greninja",
+        "Title": ""
+      }
+    ]
   },
   {
-    "name": "Hard Landing Lag",
-    "ownerId": 16,
-    "id": 286,
-    "value": "4frames"
+    "InstanceId": "5968212646965952fcb50fd3",
+    "Name": "Hard Landing Lag",
+    "OwnerId": 16,
+    "Owner": "Greninja",
+    "Value": "4 frames",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968212646965952fcb50fd3",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Greninja",
+        "Title": ""
+      }
+    ]
   },
   {
-    "name": "SH Air Time",
-    "ownerId": 16,
-    "id": 287,
-    "value": "32frames"
+    "InstanceId": "5968212646965952fcb50fd4",
+    "Name": "SH Air Time",
+    "OwnerId": 16,
+    "Owner": "Greninja",
+    "Value": "32 frames",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968212646965952fcb50fd4",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Greninja",
+        "Title": ""
+      }
+    ]
   },
   {
-    "name": "FH Air Time",
-    "ownerId": 16,
-    "id": 288,
-    "value": "52frames"
+    "InstanceId": "5968212646965952fcb50fd5",
+    "Name": "FH Air Time",
+    "OwnerId": 16,
+    "Owner": "Greninja",
+    "Value": "52 frames",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968212646965952fcb50fd5",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Greninja",
+        "Title": ""
+      }
+    ]
   }
 ]

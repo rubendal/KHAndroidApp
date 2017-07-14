@@ -83,7 +83,7 @@ public class AttributeRankingAsyncTask extends AsyncTask<String, String, Attribu
             LinkedList<String> types = new LinkedList<>();
             jsonArray = new JSONArray(json);
             for (int i = 0; i < jsonArray.length(); i++) {
-                Attribute a = Attribute.getFromJson(context.getActivity(), jsonArray.getJSONObject(i));
+                /*Attribute a = Attribute.getFromJson(context.getActivity(), jsonArray.getJSONObject(i));
                 if (a.attributeId == attribute.id) {
                     if (!types.contains(a.name)) {
                         types.add(a.name);
@@ -100,7 +100,7 @@ public class AttributeRankingAsyncTask extends AsyncTask<String, String, Attribu
                             }
                         }
                     }
-                }
+                }*/
             }
             Collections.sort(list, AttributeRank.getComparator());
 

@@ -154,7 +154,7 @@ public class AttackListFragment extends KHFragment {
                     t.setBackgroundColor(Color.parseColor(character.color));
                 }
 
-                LinkedList<DodgeData> dodgeData = new LinkedList<>();
+                /*LinkedList<DodgeData> dodgeData = new LinkedList<>();
 
                 for(int i=0;i<attributes.size();i+=2){
                     String name = attributes.get(i).formattedName;
@@ -201,6 +201,7 @@ public class AttackListFragment extends KHFragment {
                     o++;
                     layout.addView(d.asRow(this.getActivity(), o % 2 == 1));
                 }
+                */
             }
         }else{
             TableLayout layout = (TableLayout)getView().findViewById(R.id.groundtable);
@@ -257,7 +258,7 @@ public class AttackListFragment extends KHFragment {
                 t.setBackgroundColor(Color.parseColor(character.color));
             }
 
-            LinkedList<DodgeData> dodgeData = new LinkedList<>();
+            /*LinkedList<DodgeData> dodgeData = new LinkedList<>();
 
             for(int i=0;i<attributes.size();i+=2){
                 String name = attributes.get(i).formattedName;
@@ -303,7 +304,7 @@ public class AttackListFragment extends KHFragment {
             for(DodgeData d : dodgeData){
                 o++;
                 layout.addView(d.asRow(this.getActivity(), o % 2 == 1));
-            }
+            }*/
 
             o=0;
             layout = (TableLayout)getView().findViewById(R.id.aerialtable);

@@ -12,7 +12,9 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 import com.rubendal.kuroganehammercom.asynctask.KHUpdate;
-import com.rubendal.kuroganehammercom.fragments.AttributeMainFragment;
+import com.rubendal.kuroganehammercom.calculator.CalculatorFragment;
+import com.rubendal.kuroganehammercom.calculator.asynctask.StartCalculatorAsyncTask;
+//import com.rubendal.kuroganehammercom.fragments.AttributeMainFragment;
 import com.rubendal.kuroganehammercom.fragments.FormulaFragment;
 import com.rubendal.kuroganehammercom.fragments.KHFragment;
 import com.rubendal.kuroganehammercom.fragments.MainFragment;
@@ -82,7 +84,7 @@ public class MainActivity extends AppCompatActivity
                 }
             }
         }
-        else if (id == R.id.attributes) {
+        /*else if (id == R.id.attributes) {
             if(!(currentFragment instanceof AttributeMainFragment)){
                 if(currentFragment instanceof NavigationFragment){
                     replaceFragment(AttributeMainFragment.newInstance());
@@ -90,14 +92,20 @@ public class MainActivity extends AppCompatActivity
                     loadFragment(AttributeMainFragment.newInstance());
                 }
             }
-        }
+        }*/
         else if (id == R.id.formulas) {
             if(!(currentFragment instanceof FormulaFragment)){
                 if(currentFragment instanceof NavigationFragment){
                     replaceFragment(FormulaFragment.newInstance());
                 }else{
-                    loadFragment(AttributeMainFragment.newInstance());
+                    loadFragment(FormulaFragment.newInstance());
                 }
+            }
+        }
+        else if (id == R.id.calculator) {
+            if(!(currentFragment instanceof CalculatorFragment)){
+                StartCalculatorAsyncTask s = new StartCalculatorAsyncTask(this, currentFragment instanceof NavigationFragment, "Loading calculator");
+                s.execute();
             }
         }/*
         else if (id == R.id.about_credits) {

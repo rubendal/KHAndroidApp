@@ -1,772 +1,1654 @@
 ﻿[
   {
-    "hitboxActive": "5-6",
-    "firstActionableFrame": "26",
-    "baseDamage": "2",
-    "angle": "65/94/60",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "50",
-    "type": 1,
-    "name": "Jab 1",
-    "ownerId": 33,
-    "id": 1792
+    "InstanceId": "5968215846965952fcb515f9",
+    "Name": "Jab 1",
+    "OwnerId": 33,
+    "Owner": "MiiGunner",
+    "HitboxActive": "5-6",
+    "FirstActionableFrame": "26",
+    "BaseDamage": "2",
+    "Angle": "65/94/60",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "50",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215846965952fcb515f9",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiGunner",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "4-5",
-    "firstActionableFrame": "26",
-    "baseDamage": "2",
-    "angle": "83/70/45",
-    "baseKnockBackSetKnockback": "38",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "28",
-    "type": 1,
-    "name": "Jab 2",
-    "ownerId": 33,
-    "id": 1793
+    "InstanceId": "5968215846965952fcb515fa",
+    "Name": "Jab 2",
+    "OwnerId": 33,
+    "Owner": "MiiGunner",
+    "HitboxActive": "4-5",
+    "FirstActionableFrame": "26",
+    "BaseDamage": "2",
+    "Angle": "83/70/45",
+    "BaseKnockBackSetKnockback": "38",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "28",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215846965952fcb515fa",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiGunner",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "7-9",
-    "firstActionableFrame": "38",
-    "baseDamage": "1",
-    "angle": "350/90",
-    "baseKnockBackSetKnockback": "W: 20",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Jab 3 (Hit 1)",
-    "ownerId": 33,
-    "id": 1794
+    "InstanceId": "5968215846965952fcb515fb",
+    "Name": "Jab 3 (Hit 1)",
+    "OwnerId": 33,
+    "Owner": "MiiGunner",
+    "HitboxActive": "7-9",
+    "FirstActionableFrame": "38",
+    "BaseDamage": "1",
+    "Angle": "350/90",
+    "BaseKnockBackSetKnockback": "W: 20",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215846965952fcb515fb",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiGunner",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "14-15",
-    "firstActionableFrame": "-",
-    "baseDamage": "4",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "40",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "110",
-    "type": 1,
-    "name": "Jab 3 (Hit 2)",
-    "ownerId": 33,
-    "id": 1795
+    "InstanceId": "5968215846965952fcb515fc",
+    "Name": "Jab 3 (Hit 2)",
+    "OwnerId": 33,
+    "Owner": "MiiGunner",
+    "HitboxActive": "14-15",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "4",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "40",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "110",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215846965952fcb515fc",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiGunner",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "10-14",
-    "firstActionableFrame": "46",
-    "baseDamage": "10",
-    "angle": "60",
-    "baseKnockBackSetKnockback": "80",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "70",
-    "type": 1,
-    "name": "Dash Attack",
-    "ownerId": 33,
-    "id": 1796
+    "InstanceId": "5968215846965952fcb515fd",
+    "Name": "Dash Attack",
+    "OwnerId": 33,
+    "Owner": "MiiGunner",
+    "HitboxActive": "10-14",
+    "FirstActionableFrame": "46",
+    "BaseDamage": "10",
+    "Angle": "60",
+    "BaseKnockBackSetKnockback": "80",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "70",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215846965952fcb515fd",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiGunner",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "10-11",
-    "firstActionableFrame": "-",
-    "baseDamage": "9",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Ftilt (Early)",
-    "ownerId": 33,
-    "id": 1797
+    "InstanceId": "5968215846965952fcb515fe",
+    "Name": "Ftilt (Early)",
+    "OwnerId": 33,
+    "Owner": "MiiGunner",
+    "HitboxActive": "10-11",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "9",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215846965952fcb515fe",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiGunner",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "12-13",
-    "firstActionableFrame": "-",
-    "baseDamage": "",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Ftilt",
-    "ownerId": 33,
-    "id": 1798
+    "InstanceId": "5968215846965952fcb515ff",
+    "Name": "Ftilt",
+    "OwnerId": 33,
+    "Owner": "MiiGunner",
+    "HitboxActive": "12-13",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215846965952fcb515ff",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiGunner",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "14-15",
-    "firstActionableFrame": "-",
-    "baseDamage": "6",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Ftilt (Late)",
-    "ownerId": 33,
-    "id": 1799
+    "InstanceId": "5968215846965952fcb51600",
+    "Name": "Ftilt (Late)",
+    "OwnerId": 33,
+    "Owner": "MiiGunner",
+    "HitboxActive": "14-15",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "6",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215846965952fcb51600",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiGunner",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "5",
-    "firstActionableFrame": "38",
-    "baseDamage": "10/9",
-    "angle": "95/90",
-    "baseKnockBackSetKnockback": "50",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100/80",
-    "type": 1,
-    "name": "Utilt",
-    "ownerId": 33,
-    "id": 1800
+    "InstanceId": "5968215846965952fcb51601",
+    "Name": "Utilt",
+    "OwnerId": 33,
+    "Owner": "MiiGunner",
+    "HitboxActive": "5",
+    "FirstActionableFrame": "38",
+    "BaseDamage": "10/9",
+    "Angle": "95/90",
+    "BaseKnockBackSetKnockback": "50",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100/80",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215846965952fcb51601",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiGunner",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "6-9",
-    "firstActionableFrame": "-",
-    "baseDamage": "8",
-    "angle": "95",
-    "baseKnockBackSetKnockback": "50",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "70",
-    "type": 1,
-    "name": "Utilt (Late)",
-    "ownerId": 33,
-    "id": 1801
+    "InstanceId": "5968215846965952fcb51602",
+    "Name": "Utilt (Late)",
+    "OwnerId": 33,
+    "Owner": "MiiGunner",
+    "HitboxActive": "6-9",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "8",
+    "Angle": "95",
+    "BaseKnockBackSetKnockback": "50",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "70",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215846965952fcb51602",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiGunner",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "8-10",
-    "firstActionableFrame": "41",
-    "baseDamage": "14",
-    "angle": "80",
-    "baseKnockBackSetKnockback": "80",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "60",
-    "type": 1,
-    "name": "Dtilt",
-    "ownerId": 33,
-    "id": 1802
+    "InstanceId": "5968215846965952fcb51603",
+    "Name": "Dtilt",
+    "OwnerId": 33,
+    "Owner": "MiiGunner",
+    "HitboxActive": "8-10",
+    "FirstActionableFrame": "41",
+    "BaseDamage": "14",
+    "Angle": "80",
+    "BaseKnockBackSetKnockback": "80",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "60",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215846965952fcb51603",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiGunner",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "17-38 (Rehit rate: 4)",
-    "firstActionableFrame": "78",
-    "baseDamage": "0.8",
-    "angle": "80/10",
-    "baseKnockBackSetKnockback": "W: 5",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Fsmash",
-    "ownerId": 33,
-    "id": 1803
+    "InstanceId": "5968215846965952fcb51604",
+    "Name": "Fsmash",
+    "OwnerId": 33,
+    "Owner": "MiiGunner",
+    "HitboxActive": "17-38 (Rehit rate: 4)",
+    "FirstActionableFrame": "78",
+    "BaseDamage": "0.8",
+    "Angle": "80/10",
+    "BaseKnockBackSetKnockback": "W: 5",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215846965952fcb51604",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiGunner",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "40",
-    "firstActionableFrame": "-",
-    "baseDamage": "5",
-    "angle": "45",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "193",
-    "type": 1,
-    "name": "Fsmash (Final Hit)",
-    "ownerId": 33,
-    "id": 1804
+    "InstanceId": "5968215846965952fcb51605",
+    "Name": "Fsmash (Final Hit)",
+    "OwnerId": 33,
+    "Owner": "MiiGunner",
+    "HitboxActive": "40",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "5",
+    "Angle": "45",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "193",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215846965952fcb51605",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiGunner",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "11-12",
-    "firstActionableFrame": "56",
-    "baseDamage": "3",
-    "angle": "110/110/110/180",
-    "baseKnockBackSetKnockback": "70/70/30/40",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "25",
-    "type": 1,
-    "name": "Usmash (Hit 1)",
-    "ownerId": 33,
-    "id": 1805
+    "InstanceId": "5968215846965952fcb51606",
+    "Name": "Usmash (Hit 1)",
+    "OwnerId": 33,
+    "Owner": "MiiGunner",
+    "HitboxActive": "11-12",
+    "FirstActionableFrame": "56",
+    "BaseDamage": "3",
+    "Angle": "110/110/110/180",
+    "BaseKnockBackSetKnockback": "70/70/30/40",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "25",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215846965952fcb51606",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiGunner",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "15-16",
-    "firstActionableFrame": "-",
-    "baseDamage": "2.5",
-    "angle": "150/150/180",
-    "baseKnockBackSetKnockback": "55/55/30",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "25",
-    "type": 1,
-    "name": "Usmash (Hit 2)",
-    "ownerId": 33,
-    "id": 1806
+    "InstanceId": "5968215846965952fcb51607",
+    "Name": "Usmash (Hit 2)",
+    "OwnerId": 33,
+    "Owner": "MiiGunner",
+    "HitboxActive": "15-16",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "2.5",
+    "Angle": "150/150/180",
+    "BaseKnockBackSetKnockback": "55/55/30",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "25",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215846965952fcb51607",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiGunner",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "19-20",
-    "firstActionableFrame": "-",
-    "baseDamage": "2.5",
-    "angle": "180/180/240",
-    "baseKnockBackSetKnockback": "50/50/30",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "25",
-    "type": 1,
-    "name": "Usmash (Hit 3)",
-    "ownerId": 33,
-    "id": 1807
+    "InstanceId": "5968215846965952fcb51608",
+    "Name": "Usmash (Hit 3)",
+    "OwnerId": 33,
+    "Owner": "MiiGunner",
+    "HitboxActive": "19-20",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "2.5",
+    "Angle": "180/180/240",
+    "BaseKnockBackSetKnockback": "50/50/30",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "25",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215846965952fcb51608",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiGunner",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "23-24",
-    "firstActionableFrame": "-",
-    "baseDamage": "2.5",
-    "angle": "220/220/280",
-    "baseKnockBackSetKnockback": "40/40/30",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "25",
-    "type": 1,
-    "name": "Usmash (Hit 4)",
-    "ownerId": 33,
-    "id": 1808
+    "InstanceId": "5968215846965952fcb51609",
+    "Name": "Usmash (Hit 4)",
+    "OwnerId": 33,
+    "Owner": "MiiGunner",
+    "HitboxActive": "23-24",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "2.5",
+    "Angle": "220/220/280",
+    "BaseKnockBackSetKnockback": "40/40/30",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "25",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215846965952fcb51609",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiGunner",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "27-28",
-    "firstActionableFrame": "-",
-    "baseDamage": "6",
-    "angle": "90",
-    "baseKnockBackSetKnockback": "50",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "150",
-    "type": 1,
-    "name": "Usmash (Hit 5)",
-    "ownerId": 33,
-    "id": 1809
+    "InstanceId": "5968215846965952fcb5160a",
+    "Name": "Usmash (Hit 5)",
+    "OwnerId": 33,
+    "Owner": "MiiGunner",
+    "HitboxActive": "27-28",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "6",
+    "Angle": "90",
+    "BaseKnockBackSetKnockback": "50",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "150",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215846965952fcb5160a",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiGunner",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "9",
-    "firstActionableFrame": "53",
-    "baseDamage": "4",
-    "angle": "164",
-    "baseKnockBackSetKnockback": "W: 90/110/130",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Dsmash (Hit 1)",
-    "ownerId": 33,
-    "id": 1810
+    "InstanceId": "5968215846965952fcb5160b",
+    "Name": "Dsmash (Hit 1)",
+    "OwnerId": 33,
+    "Owner": "MiiGunner",
+    "HitboxActive": "9",
+    "FirstActionableFrame": "53",
+    "BaseDamage": "4",
+    "Angle": "164",
+    "BaseKnockBackSetKnockback": "W: 90/110/130",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215846965952fcb5160b",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiGunner",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "23-25",
-    "firstActionableFrame": "-",
-    "baseDamage": "10",
-    "angle": "50",
-    "baseKnockBackSetKnockback": "60",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "105",
-    "type": 1,
-    "name": "Dsmash (Hit 2)",
-    "ownerId": 33,
-    "id": 1811
+    "InstanceId": "5968215846965952fcb5160c",
+    "Name": "Dsmash (Hit 2)",
+    "OwnerId": 33,
+    "Owner": "MiiGunner",
+    "HitboxActive": "23-25",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "10",
+    "Angle": "50",
+    "BaseKnockBackSetKnockback": "60",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "105",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215846965952fcb5160c",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiGunner",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "6-7",
-    "firstActionableFrame": "29",
-    "baseDamage": "",
-    "angle": "",
-    "baseKnockBackSetKnockback": "",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "",
-    "type": 1,
-    "name": "Standing Grab",
-    "ownerId": 33,
-    "id": 1813
+    "InstanceId": "5968215846965952fcb5160d",
+    "Name": "Standing Grab",
+    "OwnerId": 33,
+    "Owner": "MiiGunner",
+    "HitboxActive": "6-7",
+    "FirstActionableFrame": "29",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215846965952fcb5160d",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiGunner",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "8-9",
-    "firstActionableFrame": "39",
-    "baseDamage": "",
-    "angle": "",
-    "baseKnockBackSetKnockback": "",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "",
-    "type": 1,
-    "name": "Dash Grab",
-    "ownerId": 33,
-    "id": 1814
+    "InstanceId": "5968215846965952fcb5160e",
+    "Name": "Dash Grab",
+    "OwnerId": 33,
+    "Owner": "MiiGunner",
+    "HitboxActive": "8-9",
+    "FirstActionableFrame": "39",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215846965952fcb5160e",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiGunner",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "9-10",
-    "firstActionableFrame": "35",
-    "baseDamage": "",
-    "angle": "",
-    "baseKnockBackSetKnockback": "",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "",
-    "type": 1,
-    "name": "Pivot Grab",
-    "ownerId": 33,
-    "id": 1815
+    "InstanceId": "5968215846965952fcb5160f",
+    "Name": "Pivot Grab",
+    "OwnerId": 33,
+    "Owner": "MiiGunner",
+    "HitboxActive": "9-10",
+    "FirstActionableFrame": "35",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215846965952fcb5160f",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiGunner",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "2, 3",
-    "angle": "45",
-    "baseKnockBackSetKnockback": "42",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "130",
-    "type": 3,
-    "name": "Fthrow",
-    "ownerId": 33,
-    "id": 1817
+    "InstanceId": "5968215846965952fcb51610",
+    "Name": "Spotdodge",
+    "OwnerId": 33,
+    "Owner": "MiiGunner",
+    "HitboxActive": "3-16",
+    "FirstActionableFrame": "27",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215846965952fcb51610",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiGunner",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "2, 3",
-    "angle": "45, 361",
-    "baseKnockBackSetKnockback": "80, 20",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "56, 160",
-    "type": 3,
-    "name": "Bthrow",
-    "ownerId": 33,
-    "id": 1818
+    "InstanceId": "5968215846965952fcb51611",
+    "Name": "Forward Roll",
+    "OwnerId": 33,
+    "Owner": "MiiGunner",
+    "HitboxActive": "4-17",
+    "FirstActionableFrame": "31",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215846965952fcb51611",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiGunner",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "2, 3",
-    "angle": "90, 89",
-    "baseKnockBackSetKnockback": "75, 40",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "53, 150",
-    "type": 3,
-    "name": "Uthrow",
-    "ownerId": 33,
-    "id": 1819
+    "InstanceId": "5968215846965952fcb51612",
+    "Name": "Back Roll",
+    "OwnerId": 33,
+    "Owner": "MiiGunner",
+    "HitboxActive": "4-17",
+    "FirstActionableFrame": "31",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215846965952fcb51612",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiGunner",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "5",
-    "angle": "100",
-    "baseKnockBackSetKnockback": "95",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "50",
-    "type": 3,
-    "name": "Dthrow",
-    "ownerId": 33,
-    "id": 1820
+    "InstanceId": "5968215846965952fcb51613",
+    "Name": "Airdodge",
+    "OwnerId": 33,
+    "Owner": "MiiGunner",
+    "HitboxActive": "3-27",
+    "FirstActionableFrame": "33",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215846965952fcb51613",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiGunner",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "8-21",
-    "firstActionableFrame": "42",
-    "baseDamage": "6",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "45",
-    "landingLag": "18",
-    "autoCancel": "1-3, 35&gt;",
-    "knockbackGrowth": "80",
-    "type": 0,
-    "name": "Nair",
-    "ownerId": 33,
-    "id": 1826
+    "InstanceId": "5968215846965952fcb51614",
+    "Name": "Nair",
+    "OwnerId": 33,
+    "Owner": "MiiGunner",
+    "HitboxActive": "8-21",
+    "FirstActionableFrame": "42",
+    "BaseDamage": "6",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "45",
+    "LandingLag": "18",
+    "AutoCancel": "1-3, 35&gt;",
+    "KnockbackGrowth": "80",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215846965952fcb51614",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiGunner",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "10-13",
-    "firstActionableFrame": "56",
-    "baseDamage": "6",
-    "angle": "45",
-    "baseKnockBackSetKnockback": "35",
-    "landingLag": "12",
-    "autoCancel": "47&gt;",
-    "knockbackGrowth": "110",
-    "type": 0,
-    "name": "Fair",
-    "ownerId": 33,
-    "id": 1827
+    "InstanceId": "5968215846965952fcb51615",
+    "Name": "Fair",
+    "OwnerId": 33,
+    "Owner": "MiiGunner",
+    "HitboxActive": "10-13",
+    "FirstActionableFrame": "56",
+    "BaseDamage": "6",
+    "Angle": "45",
+    "BaseKnockBackSetKnockback": "35",
+    "LandingLag": "12",
+    "AutoCancel": "47&gt;",
+    "KnockbackGrowth": "110",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215846965952fcb51615",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiGunner",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "14-",
-    "firstActionableFrame": "-",
-    "baseDamage": "4",
-    "angle": "70",
-    "baseKnockBackSetKnockback": "50",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "80",
-    "type": 0,
-    "name": "Fair (Late)",
-    "ownerId": 33,
-    "id": 1828
+    "InstanceId": "5968215846965952fcb51616",
+    "Name": "Fair (Late)",
+    "OwnerId": 33,
+    "Owner": "MiiGunner",
+    "HitboxActive": "14-",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "4",
+    "Angle": "70",
+    "BaseKnockBackSetKnockback": "50",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "80",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215846965952fcb51616",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiGunner",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "9-10",
-    "firstActionableFrame": "48",
-    "baseDamage": "12",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "30/42",
-    "landingLag": "18",
-    "autoCancel": "1-3, 32&gt;",
-    "knockbackGrowth": "88",
-    "type": 0,
-    "name": "Bair",
-    "ownerId": 33,
-    "id": 1829
+    "InstanceId": "5968215846965952fcb51617",
+    "Name": "Bair",
+    "OwnerId": 33,
+    "Owner": "MiiGunner",
+    "HitboxActive": "9-10",
+    "FirstActionableFrame": "48",
+    "BaseDamage": "12",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "30/42",
+    "LandingLag": "18",
+    "AutoCancel": "1-3, 32&gt;",
+    "KnockbackGrowth": "88",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215846965952fcb51617",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiGunner",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "17",
-    "firstActionableFrame": "62",
-    "baseDamage": "1",
-    "angle": "140",
-    "baseKnockBackSetKnockback": "W: 45",
-    "landingLag": "22",
-    "autoCancel": "1-10, 60&gt;",
-    "knockbackGrowth": "100",
-    "type": 0,
-    "name": "Uair (Hit 1)",
-    "ownerId": 33,
-    "id": 1830
+    "InstanceId": "5968215846965952fcb51618",
+    "Name": "Uair (Hit 1)",
+    "OwnerId": 33,
+    "Owner": "MiiGunner",
+    "HitboxActive": "17",
+    "FirstActionableFrame": "62",
+    "BaseDamage": "1",
+    "Angle": "140",
+    "BaseKnockBackSetKnockback": "W: 45",
+    "LandingLag": "22",
+    "AutoCancel": "1-10, 60&gt;",
+    "KnockbackGrowth": "100",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215846965952fcb51618",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiGunner",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "18-37 (Rehit rate: 3)",
-    "firstActionableFrame": "-",
-    "baseDamage": "1",
-    "angle": "366/96/130",
-    "baseKnockBackSetKnockback": "W: 25",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "100",
-    "type": 0,
-    "name": "Uair",
-    "ownerId": 33,
-    "id": 1831
+    "InstanceId": "5968215846965952fcb51619",
+    "Name": "Uair",
+    "OwnerId": 33,
+    "Owner": "MiiGunner",
+    "HitboxActive": "18-37 (Rehit rate: 3)",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "1",
+    "Angle": "366/96/130",
+    "BaseKnockBackSetKnockback": "W: 25",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "100",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215846965952fcb51619",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiGunner",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "39",
-    "firstActionableFrame": "-",
-    "baseDamage": "3",
-    "angle": "72",
-    "baseKnockBackSetKnockback": "40",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "170",
-    "type": 0,
-    "name": "Uair (Final Hit)",
-    "ownerId": 33,
-    "id": 1832
+    "InstanceId": "5968215846965952fcb5161a",
+    "Name": "Uair (Final Hit)",
+    "OwnerId": 33,
+    "Owner": "MiiGunner",
+    "HitboxActive": "39",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "4",
+    "Angle": "72",
+    "BaseKnockBackSetKnockback": "40",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "170",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215846965952fcb5161a",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiGunner",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "20",
-    "firstActionableFrame": "55",
-    "baseDamage": "10/15/15",
-    "angle": "361/270/361",
-    "baseKnockBackSetKnockback": "30/2/30",
-    "landingLag": "28",
-    "autoCancel": "1-3, 54&gt;",
-    "knockbackGrowth": "90",
-    "type": 0,
-    "name": "Dair",
-    "ownerId": 33,
-    "id": 1833
+    "InstanceId": "5968215846965952fcb5161b",
+    "Name": "Dair",
+    "OwnerId": 33,
+    "Owner": "MiiGunner",
+    "HitboxActive": "20",
+    "FirstActionableFrame": "55",
+    "BaseDamage": "10/15/15",
+    "Angle": "361/270/361",
+    "BaseKnockBackSetKnockback": "30/2/30",
+    "LandingLag": "28",
+    "AutoCancel": "1-3, 54&gt;",
+    "KnockbackGrowth": "90",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215846965952fcb5161b",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiGunner",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "16?",
-    "firstActionableFrame": "39?",
-    "baseDamage": "3",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "14",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "42",
-    "type": 2,
-    "name": "Neutral 1: Charge Blast (No Charge)",
-    "ownerId": 33,
-    "id": 1834
+    "InstanceId": "5968215846965952fcb5161c",
+    "Name": "Neutral 1: Charge Blast (No Charge)",
+    "OwnerId": 33,
+    "Owner": "MiiGunner",
+    "HitboxActive": "16?",
+    "FirstActionableFrame": "39?",
+    "BaseDamage": "3",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "14",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "42",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215846965952fcb5161c",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiGunner",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "16?",
-    "firstActionableFrame": "39?",
-    "baseDamage": "22",
-    "angle": "50",
-    "baseKnockBackSetKnockback": "20",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "64",
-    "type": 2,
-    "name": "Neutral 1: Charge Blast (Full Charge)",
-    "ownerId": 33,
-    "id": 1835
+    "InstanceId": "5968215846965952fcb5161d",
+    "Name": "Neutral 1: Charge Blast (Full Charge)",
+    "OwnerId": 33,
+    "Owner": "MiiGunner",
+    "HitboxActive": "16?",
+    "FirstActionableFrame": "39?",
+    "BaseDamage": "22",
+    "Angle": "50",
+    "BaseKnockBackSetKnockback": "20",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "64",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215846965952fcb5161d",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiGunner",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "?",
-    "firstActionableFrame": "?",
-    "baseDamage": "4",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "W: 3",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 2,
-    "name": "Neutral 2: Laser Blaze",
-    "ownerId": 33,
-    "id": 1836
+    "InstanceId": "5968215846965952fcb5161e",
+    "Name": "Neutral 2: Laser Blaze",
+    "OwnerId": 33,
+    "Owner": "MiiGunner",
+    "HitboxActive": "?",
+    "FirstActionableFrame": "?",
+    "BaseDamage": "4",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "W: 3",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215846965952fcb5161e",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiGunner",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "",
-    "firstActionableFrame": "-",
-    "baseDamage": "3",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "W: 3",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 2,
-    "name": "Neutral 2: Laser Blaze (Late)",
-    "ownerId": 33,
-    "id": 1837
+    "InstanceId": "5968215846965952fcb5161f",
+    "Name": "Neutral 2: Laser Blaze (Late)",
+    "OwnerId": 33,
+    "Owner": "MiiGunner",
+    "HitboxActive": "",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "3",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "W: 3",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215846965952fcb5161f",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiGunner",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "1-17 (Rehit rate: 5)",
-    "firstActionableFrame": "",
-    "baseDamage": "0.5",
-    "angle": "160",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "10",
-    "type": 2,
-    "name": "Neutral 3: Grenade Launcher (Explosion)",
-    "ownerId": 33,
-    "id": 1838
+    "InstanceId": "5968215846965952fcb51620",
+    "Name": "Neutral 3: Grenade Launcher (Explosion)",
+    "OwnerId": 33,
+    "Owner": "MiiGunner",
+    "HitboxActive": "1-17 (Rehit rate: 5)",
+    "FirstActionableFrame": "",
+    "BaseDamage": "0.5",
+    "Angle": "160",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "10",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215846965952fcb51620",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiGunner",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "18",
-    "firstActionableFrame": "-",
-    "baseDamage": "6",
-    "angle": "55",
-    "baseKnockBackSetKnockback": "20",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "160",
-    "type": 2,
-    "name": "Neutral 3: Grenade Launcher (Final Hit)",
-    "ownerId": 33,
-    "id": 1839
+    "InstanceId": "5968215846965952fcb51621",
+    "Name": "Neutral 3: Grenade Launcher (Final Hit)",
+    "OwnerId": 33,
+    "Owner": "MiiGunner",
+    "HitboxActive": "18",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "6",
+    "Angle": "55",
+    "BaseKnockBackSetKnockback": "20",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "160",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215846965952fcb51621",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiGunner",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "21-",
-    "firstActionableFrame": "60",
-    "baseDamage": "4",
-    "angle": "80",
-    "baseKnockBackSetKnockback": "40",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "80",
-    "type": 2,
-    "name": "Side 1: Flame Pilar (Shot)",
-    "ownerId": 33,
-    "id": 1840
+    "InstanceId": "5968215846965952fcb51622",
+    "Name": "Side 1: Flame Pilar (Shot)",
+    "OwnerId": 33,
+    "Owner": "MiiGunner",
+    "HitboxActive": "21-",
+    "FirstActionableFrame": "60",
+    "BaseDamage": "4",
+    "Angle": "80",
+    "BaseKnockBackSetKnockback": "40",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "80",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215846965952fcb51622",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiGunner",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "1-",
-    "firstActionableFrame": "-",
-    "baseDamage": "6",
-    "angle": "45",
-    "baseKnockBackSetKnockback": "40",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "70",
-    "type": 2,
-    "name": "Side 1: Flame Pillar (Pillar)",
-    "ownerId": 33,
-    "id": 1841
+    "InstanceId": "5968215846965952fcb51623",
+    "Name": "Side 1: Flame Pillar (Pillar)",
+    "OwnerId": 33,
+    "Owner": "MiiGunner",
+    "HitboxActive": "1-",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "6",
+    "Angle": "45",
+    "BaseKnockBackSetKnockback": "40",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "70",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215846965952fcb51623",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiGunner",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "10-16?",
-    "firstActionableFrame": "?",
-    "baseDamage": "7",
-    "angle": "65",
-    "baseKnockBackSetKnockback": "20",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "95",
-    "type": 2,
-    "name": "Side 2: Stealth Burst (No Charge)",
-    "ownerId": 33,
-    "id": 1842
+    "InstanceId": "5968215846965952fcb51624",
+    "Name": "Side 2: Stealth Burst (No Charge)",
+    "OwnerId": 33,
+    "Owner": "MiiGunner",
+    "HitboxActive": "10-16?",
+    "FirstActionableFrame": "?",
+    "BaseDamage": "7",
+    "Angle": "65",
+    "BaseKnockBackSetKnockback": "20",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "95",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215846965952fcb51624",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiGunner",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "19?",
-    "firstActionableFrame": "62",
-    "baseDamage": "4.5 (+1)",
-    "angle": "0",
-    "baseKnockBackSetKnockback": "26",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "22",
-    "type": 2,
-    "name": "Side 3: Mii Missile (Homing)",
-    "ownerId": 33,
-    "id": 1843
+    "InstanceId": "5968215846965952fcb51625",
+    "Name": "Side 3: Mii Missile (Homing)",
+    "OwnerId": 33,
+    "Owner": "MiiGunner",
+    "HitboxActive": "19?",
+    "FirstActionableFrame": "62",
+    "BaseDamage": "4.5 (+1)",
+    "Angle": "0",
+    "BaseKnockBackSetKnockback": "26",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "22",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215846965952fcb51625",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiGunner",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "?",
-    "firstActionableFrame": "49",
-    "baseDamage": "10 (+5)",
-    "angle": "65",
-    "baseKnockBackSetKnockback": "50",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "65",
-    "type": 2,
-    "name": "Side 3: Mii Missile (Super)",
-    "ownerId": 33,
-    "id": 1844
+    "InstanceId": "5968215846965952fcb51626",
+    "Name": "Side 3: Mii Missile (Super)",
+    "OwnerId": 33,
+    "Owner": "MiiGunner",
+    "HitboxActive": "?",
+    "FirstActionableFrame": "49",
+    "BaseDamage": "10 (+5)",
+    "Angle": "65",
+    "BaseKnockBackSetKnockback": "50",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "65",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215846965952fcb51626",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiGunner",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "?",
-    "firstActionableFrame": "-",
-    "baseDamage": "7",
-    "angle": "55",
-    "baseKnockBackSetKnockback": "50",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 2,
-    "name": "Up 1: Lunar Launch",
-    "ownerId": 33,
-    "id": 1845
+    "InstanceId": "5968215846965952fcb51627",
+    "Name": "Up 1: Lunar Launch",
+    "OwnerId": 33,
+    "Owner": "MiiGunner",
+    "HitboxActive": "?",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "7",
+    "Angle": "55",
+    "BaseKnockBackSetKnockback": "50",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215846965952fcb51627",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiGunner",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "11-12",
-    "firstActionableFrame": "-",
-    "baseDamage": "9",
-    "angle": "270/110",
-    "baseKnockBackSetKnockback": "5/60",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100/85",
-    "type": 2,
-    "name": "Up 2: Cannon Uppercut (Hit 1)",
-    "ownerId": 33,
-    "id": 1846
+    "InstanceId": "5968215846965952fcb51628",
+    "Name": "Up 2: Cannon Uppercut (Hit 1)",
+    "OwnerId": 33,
+    "Owner": "MiiGunner",
+    "HitboxActive": "11-12",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "9",
+    "Angle": "270/110",
+    "BaseKnockBackSetKnockback": "5/60",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100/85",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215846965952fcb51628",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiGunner",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "?",
-    "firstActionableFrame": "-",
-    "baseDamage": "8",
-    "angle": "80",
-    "baseKnockBackSetKnockback": "50",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "134",
-    "type": 2,
-    "name": "Up 2: Cannon Uppercut (Hit 2)",
-    "ownerId": 33,
-    "id": 1847
+    "InstanceId": "5968215846965952fcb51629",
+    "Name": "Up 2: Cannon Uppercut (Hit 2)",
+    "OwnerId": 33,
+    "Owner": "MiiGunner",
+    "HitboxActive": "?",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "8",
+    "Angle": "80",
+    "BaseKnockBackSetKnockback": "50",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "134",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215846965952fcb51629",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiGunner",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "?",
-    "firstActionableFrame": "-",
-    "baseDamage": "6",
-    "angle": "80",
-    "baseKnockBackSetKnockback": "50",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "134",
-    "type": 2,
-    "name": "Up 2: Cannon Uppercut (Hit 2, Late)",
-    "ownerId": 33,
-    "id": 1848
+    "InstanceId": "5968215846965952fcb5162a",
+    "Name": "Up 2: Cannon Uppercut (Hit 2, Late)",
+    "OwnerId": 33,
+    "Owner": "MiiGunner",
+    "HitboxActive": "?",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "6",
+    "Angle": "80",
+    "BaseKnockBackSetKnockback": "50",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "134",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215846965952fcb5162a",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiGunner",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "-",
-    "angle": "-",
-    "baseKnockBackSetKnockback": "-",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "-",
-    "type": 2,
-    "name": "Up 3: Arm Rocket",
-    "ownerId": 33,
-    "id": 1849
+    "InstanceId": "5968215846965952fcb5162b",
+    "Name": "Up 3: Arm Rocket",
+    "OwnerId": 33,
+    "Owner": "MiiGunner",
+    "HitboxActive": "-",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "-",
+    "Angle": "-",
+    "BaseKnockBackSetKnockback": "-",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "-",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215846965952fcb5162b",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiGunner",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "3-4",
-    "firstActionableFrame": "-",
-    "baseDamage": "2",
-    "angle": "10/60",
-    "baseKnockBackSetKnockback": "60",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "30",
-    "type": 2,
-    "name": "Down 1: Echo Reflector",
-    "ownerId": 33,
-    "id": 1850
+    "InstanceId": "5968215846965952fcb5162c",
+    "Name": "Down 1: Echo Reflector",
+    "OwnerId": 33,
+    "Owner": "MiiGunner",
+    "HitboxActive": "3-4",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "2",
+    "Angle": "10/60",
+    "BaseKnockBackSetKnockback": "60",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "30",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215846965952fcb5162c",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiGunner",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "11-",
-    "firstActionableFrame": "55",
-    "baseDamage": "2 (+6)",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "70",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "50",
-    "type": 2,
-    "name": "Down 2: Bomb Drop",
-    "ownerId": 33,
-    "id": 1851
+    "InstanceId": "5968215846965952fcb5162d",
+    "Name": "Down 2: Bomb Drop",
+    "OwnerId": 33,
+    "Owner": "MiiGunner",
+    "HitboxActive": "11-",
+    "FirstActionableFrame": "55",
+    "BaseDamage": "2 (+6)",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "70",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "50",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215846965952fcb5162d",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiGunner",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "1-",
-    "firstActionableFrame": "-",
-    "baseDamage": "9 (+6)",
-    "angle": "66",
-    "baseKnockBackSetKnockback": "70",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "80",
-    "type": 2,
-    "name": "Down 2: Bomb Drop (Contact)",
-    "ownerId": 33,
-    "id": 1852
+    "InstanceId": "5968215846965952fcb5162e",
+    "Name": "Down 2: Bomb Drop (Contact)",
+    "OwnerId": 33,
+    "Owner": "MiiGunner",
+    "HitboxActive": "1-",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "9 (+6)",
+    "Angle": "66",
+    "BaseKnockBackSetKnockback": "70",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "80",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215846965952fcb5162e",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiGunner",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "1-2",
-    "firstActionableFrame": "-",
-    "baseDamage": "0",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 2,
-    "name": "Down 3: Absorbing Vortex",
-    "ownerId": 33,
-    "id": 1853
+    "InstanceId": "5968215846965952fcb5162f",
+    "Name": "Down 3: Absorbing Vortex",
+    "OwnerId": 33,
+    "Owner": "MiiGunner",
+    "HitboxActive": "1-2",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "0",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215846965952fcb5162f",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiGunner",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968215846965952fcb51630",
+    "Name": "Fthrow",
+    "OwnerId": 33,
+    "Owner": "MiiGunner",
+    "HitboxActive": null,
+    "FirstActionableFrame": null,
+    "BaseDamage": "2, 3",
+    "Angle": "45",
+    "BaseKnockBackSetKnockback": "42",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "130",
+    "MoveType": "throw",
+    "IsWeightDependent": true,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215846965952fcb51630",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiGunner",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968215846965952fcb51631",
+    "Name": "Bthrow",
+    "OwnerId": 33,
+    "Owner": "MiiGunner",
+    "HitboxActive": null,
+    "FirstActionableFrame": null,
+    "BaseDamage": "2, 3",
+    "Angle": "45, 361",
+    "BaseKnockBackSetKnockback": "80, 20",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "56, 160",
+    "MoveType": "throw",
+    "IsWeightDependent": true,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215846965952fcb51631",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiGunner",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968215846965952fcb51632",
+    "Name": "Uthrow",
+    "OwnerId": 33,
+    "Owner": "MiiGunner",
+    "HitboxActive": null,
+    "FirstActionableFrame": null,
+    "BaseDamage": "2, 3",
+    "Angle": "90, 89",
+    "BaseKnockBackSetKnockback": "75, 40",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "53, 150",
+    "MoveType": "throw",
+    "IsWeightDependent": true,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215846965952fcb51632",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiGunner",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968215846965952fcb51633",
+    "Name": "Dthrow",
+    "OwnerId": 33,
+    "Owner": "MiiGunner",
+    "HitboxActive": null,
+    "FirstActionableFrame": null,
+    "BaseDamage": "5",
+    "Angle": "100",
+    "BaseKnockBackSetKnockback": "95",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "50",
+    "MoveType": "throw",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968215846965952fcb51633",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiGunner",
+        "Title": ""
+      }
+    ]
   }
 ]

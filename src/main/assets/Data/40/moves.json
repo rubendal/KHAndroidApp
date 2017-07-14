@@ -1,660 +1,1430 @@
 ﻿[
   {
-    "hitboxActive": "2-3",
-    "firstActionableFrame": "28",
-    "baseDamage": "2",
-    "angle": "74/78/78",
-    "baseKnockBackSetKnockback": "W: 20",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Jab 1",
-    "ownerId": 40,
-    "id": 2197
+    "InstanceId": "5968216846965952fcb517e7",
+    "Name": "Jab 1",
+    "OwnerId": 40,
+    "Owner": "Peach",
+    "HitboxActive": "2-3",
+    "FirstActionableFrame": "28",
+    "BaseDamage": "2",
+    "Angle": "74/78/78",
+    "BaseKnockBackSetKnockback": "W: 20",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216846965952fcb517e7",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Peach",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "2-3",
-    "firstActionableFrame": "30",
-    "baseDamage": "3",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Jab 2",
-    "ownerId": 40,
-    "id": 2198
+    "InstanceId": "5968216846965952fcb517e8",
+    "Name": "Jab 2",
+    "OwnerId": 40,
+    "Owner": "Peach",
+    "HitboxActive": "2-3",
+    "FirstActionableFrame": "30",
+    "BaseDamage": "3",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216846965952fcb517e8",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Peach",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "6-9",
-    "firstActionableFrame": "38",
-    "baseDamage": "4",
-    "angle": "70/50",
-    "baseKnockBackSetKnockback": "W: 50/70",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Dash Attack (Hit 1)",
-    "ownerId": 40,
-    "id": 2199
+    "InstanceId": "5968216846965952fcb517e9",
+    "Name": "Dash Attack (Hit 1)",
+    "OwnerId": 40,
+    "Owner": "Peach",
+    "HitboxActive": "6-9",
+    "FirstActionableFrame": "38",
+    "BaseDamage": "4",
+    "Angle": "70/50",
+    "BaseKnockBackSetKnockback": "W: 50/70",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216846965952fcb517e9",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Peach",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "17-19",
-    "firstActionableFrame": "-",
-    "baseDamage": "6",
-    "angle": "65",
-    "baseKnockBackSetKnockback": "50",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "140",
-    "type": 1,
-    "name": "Dash Attack (Hit 2)",
-    "ownerId": 40,
-    "id": 2200
+    "InstanceId": "5968216846965952fcb517ea",
+    "Name": "Dash Attack (Hit 2)",
+    "OwnerId": 40,
+    "Owner": "Peach",
+    "HitboxActive": "17-19",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "6",
+    "Angle": "65",
+    "BaseKnockBackSetKnockback": "50",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "140",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216846965952fcb517ea",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Peach",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "7",
-    "firstActionableFrame": "37",
-    "baseDamage": "7",
-    "angle": "88/80",
-    "baseKnockBackSetKnockback": "50",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "102",
-    "type": 1,
-    "name": "Ftilt (Early)",
-    "ownerId": 40,
-    "id": 2201
+    "InstanceId": "5968216846965952fcb517eb",
+    "Name": "Ftilt (Early)",
+    "OwnerId": 40,
+    "Owner": "Peach",
+    "HitboxActive": "7",
+    "FirstActionableFrame": "37",
+    "BaseDamage": "7",
+    "Angle": "88/80",
+    "BaseKnockBackSetKnockback": "50",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "102",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216846965952fcb517eb",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Peach",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "8-9",
-    "firstActionableFrame": "-",
-    "baseDamage": "7/7/8",
-    "angle": "88/80/75",
-    "baseKnockBackSetKnockback": "50/50/55",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "102",
-    "type": 1,
-    "name": "Ftilt",
-    "ownerId": 40,
-    "id": 2202
+    "InstanceId": "5968216846965952fcb517ec",
+    "Name": "Ftilt",
+    "OwnerId": 40,
+    "Owner": "Peach",
+    "HitboxActive": "8-9",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "7/7/8",
+    "Angle": "88/80/75",
+    "BaseKnockBackSetKnockback": "50/50/55",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "102",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216846965952fcb517ec",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Peach",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "10-15",
-    "firstActionableFrame": "-",
-    "baseDamage": "6",
-    "angle": "92",
-    "baseKnockBackSetKnockback": "40",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "120",
-    "type": 1,
-    "name": "Ftilt (Late)",
-    "ownerId": 40,
-    "id": 2203
+    "InstanceId": "5968216846965952fcb517ed",
+    "Name": "Ftilt (Late)",
+    "OwnerId": 40,
+    "Owner": "Peach",
+    "HitboxActive": "10-15",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "6",
+    "Angle": "92",
+    "BaseKnockBackSetKnockback": "40",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "120",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216846965952fcb517ed",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Peach",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "9-13",
-    "firstActionableFrame": "38",
-    "baseDamage": "8/10",
-    "angle": "94/92",
-    "baseKnockBackSetKnockback": "40/65",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "84",
-    "type": 1,
-    "name": "Utilt",
-    "ownerId": 40,
-    "id": 2204
+    "InstanceId": "5968216846965952fcb517ee",
+    "Name": "Utilt",
+    "OwnerId": 40,
+    "Owner": "Peach",
+    "HitboxActive": "9-13",
+    "FirstActionableFrame": "38",
+    "BaseDamage": "8/10",
+    "Angle": "94/92",
+    "BaseKnockBackSetKnockback": "40/65",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "84",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216846965952fcb517ee",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Peach",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "13-14 (Arm Intangibility: 9-14)",
-    "firstActionableFrame": "28",
-    "baseDamage": "7",
-    "angle": "275/80",
-    "baseKnockBackSetKnockback": "60/15",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "105",
-    "type": 1,
-    "name": "Dtilt",
-    "ownerId": 40,
-    "id": 2205
+    "InstanceId": "5968216846965952fcb517ef",
+    "Name": "Dtilt",
+    "OwnerId": 40,
+    "Owner": "Peach",
+    "HitboxActive": "13-14 (Arm Intangibility: 9-14)",
+    "FirstActionableFrame": "28",
+    "BaseDamage": "7",
+    "Angle": "275/80",
+    "BaseKnockBackSetKnockback": "60/15",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "105",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216846965952fcb517ef",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Peach",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "15-17",
-    "firstActionableFrame": "46",
-    "baseDamage": "13",
-    "angle": "28",
-    "baseKnockBackSetKnockback": "80/80/80/86",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "56/56/56/60",
-    "type": 1,
-    "name": "Fsmash (Tennis Racket)",
-    "ownerId": 40,
-    "id": 2206
+    "InstanceId": "5968216846965952fcb517f0",
+    "Name": "Fsmash (Tennis Racket)",
+    "OwnerId": 40,
+    "Owner": "Peach",
+    "HitboxActive": "15-17",
+    "FirstActionableFrame": "46",
+    "BaseDamage": "13",
+    "Angle": "28",
+    "BaseKnockBackSetKnockback": "80/80/80/86",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "56/56/56/60",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216846965952fcb517f0",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Peach",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "15-17",
-    "firstActionableFrame": "46",
-    "baseDamage": "15",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "65",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "60",
-    "type": 1,
-    "name": "Fsmash (Golf Club)",
-    "ownerId": 40,
-    "id": 2207
+    "InstanceId": "5968216846965952fcb517f1",
+    "Name": "Fsmash (Golf Club)",
+    "OwnerId": 40,
+    "Owner": "Peach",
+    "HitboxActive": "15-17",
+    "FirstActionableFrame": "46",
+    "BaseDamage": "15",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "65",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "60",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216846965952fcb517f1",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Peach",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "15-17",
-    "firstActionableFrame": "46",
-    "baseDamage": "18",
-    "angle": "80",
-    "baseKnockBackSetKnockback": "70",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "65",
-    "type": 1,
-    "name": "Fsmash (Frying Pan)",
-    "ownerId": 40,
-    "id": 2208
+    "InstanceId": "5968216846965952fcb517f2",
+    "Name": "Fsmash (Frying Pan)",
+    "OwnerId": 40,
+    "Owner": "Peach",
+    "HitboxActive": "15-17",
+    "FirstActionableFrame": "46",
+    "BaseDamage": "18",
+    "Angle": "80",
+    "BaseKnockBackSetKnockback": "70",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "65",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216846965952fcb517f2",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Peach",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "14-16 (Head and Arm Intangibility: 14-20)",
-    "firstActionableFrame": "45",
-    "baseDamage": "17/15/12/12",
-    "angle": "90/90/75/75",
-    "baseKnockBackSetKnockback": "24/50/40/40",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "97",
-    "type": 1,
-    "name": "Usmash",
-    "ownerId": 40,
-    "id": 2209
+    "InstanceId": "5968216846965952fcb517f3",
+    "Name": "Usmash",
+    "OwnerId": 40,
+    "Owner": "Peach",
+    "HitboxActive": "14-16 (Head and Arm Intangibility: 14-20)",
+    "FirstActionableFrame": "45",
+    "BaseDamage": "17/15/12/12",
+    "Angle": "90/90/75/75",
+    "BaseKnockBackSetKnockback": "24/50/40/40",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "97",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216846965952fcb517f3",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Peach",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "17-20",
-    "firstActionableFrame": "-",
-    "baseDamage": "10/12",
-    "angle": "85",
-    "baseKnockBackSetKnockback": "60",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Usmash (Late)",
-    "ownerId": 40,
-    "id": 2210
+    "InstanceId": "5968216846965952fcb517f4",
+    "Name": "Usmash (Late)",
+    "OwnerId": 40,
+    "Owner": "Peach",
+    "HitboxActive": "17-20",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "10/12",
+    "Angle": "85",
+    "BaseKnockBackSetKnockback": "60",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216846965952fcb517f4",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Peach",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "6-7, 11-12, 16-17, 21-22",
-    "firstActionableFrame": "55",
-    "baseDamage": "2/3/3",
-    "angle": "15/170/170",
-    "baseKnockBackSetKnockback": "W: 30/20/20",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Dsmash (Hits 1-4)",
-    "ownerId": 40,
-    "id": 2211
+    "InstanceId": "5968216846965952fcb517f5",
+    "Name": "Dsmash (Hits 1-4)",
+    "OwnerId": 40,
+    "Owner": "Peach",
+    "HitboxActive": "6-7, 11-12, 16-17, 21-22",
+    "FirstActionableFrame": "55",
+    "BaseDamage": "2/3/3",
+    "Angle": "15/170/170",
+    "BaseKnockBackSetKnockback": "W: 30/20/20",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216846965952fcb517f5",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Peach",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "26-27",
-    "firstActionableFrame": "-",
-    "baseDamage": "3",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "40",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "180",
-    "type": 1,
-    "name": "Dsmash (Hit 5)",
-    "ownerId": 40,
-    "id": 2212
+    "InstanceId": "5968216846965952fcb517f6",
+    "Name": "Dsmash (Hit 5)",
+    "OwnerId": 40,
+    "Owner": "Peach",
+    "HitboxActive": "26-27",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "3",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "40",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "180",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216846965952fcb517f6",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Peach",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "6-7",
-    "firstActionableFrame": "32",
-    "baseDamage": "",
-    "angle": "",
-    "baseKnockBackSetKnockback": "",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "",
-    "type": 1,
-    "name": "Standing Grab",
-    "ownerId": 40,
-    "id": 2214
+    "InstanceId": "5968216846965952fcb517f7",
+    "Name": "Standing Grab",
+    "OwnerId": 40,
+    "Owner": "Peach",
+    "HitboxActive": "6-7",
+    "FirstActionableFrame": "32",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216846965952fcb517f7",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Peach",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "8-9",
-    "firstActionableFrame": "40",
-    "baseDamage": "",
-    "angle": "",
-    "baseKnockBackSetKnockback": "",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "",
-    "type": 1,
-    "name": "Dash Grab",
-    "ownerId": 40,
-    "id": 2215
+    "InstanceId": "5968216846965952fcb517f8",
+    "Name": "Dash Grab",
+    "OwnerId": 40,
+    "Owner": "Peach",
+    "HitboxActive": "8-9",
+    "FirstActionableFrame": "40",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216846965952fcb517f8",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Peach",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "10-11",
-    "firstActionableFrame": "38",
-    "baseDamage": "",
-    "angle": "",
-    "baseKnockBackSetKnockback": "",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "",
-    "type": 1,
-    "name": "Pivot Grab",
-    "ownerId": 40,
-    "id": 2216
+    "InstanceId": "5968216846965952fcb517f9",
+    "Name": "Pivot Grab",
+    "OwnerId": 40,
+    "Owner": "Peach",
+    "HitboxActive": "10-11",
+    "FirstActionableFrame": "38",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216846965952fcb517f9",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Peach",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "2, 8",
-    "angle": "45",
-    "baseKnockBackSetKnockback": "48",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "83",
-    "type": 3,
-    "name": "Fthrow",
-    "ownerId": 40,
-    "id": 2218
+    "InstanceId": "5968216846965952fcb517fa",
+    "Name": "Spotdodge",
+    "OwnerId": 40,
+    "Owner": "Peach",
+    "HitboxActive": "3-18",
+    "FirstActionableFrame": "28",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216846965952fcb517fa",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Peach",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "2, 9",
-    "angle": "140",
-    "baseKnockBackSetKnockback": "35",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "95",
-    "type": 3,
-    "name": "Bthrow",
-    "ownerId": 40,
-    "id": 2219
+    "InstanceId": "5968216846965952fcb517fb",
+    "Name": "Forward Roll",
+    "OwnerId": 40,
+    "Owner": "Peach",
+    "HitboxActive": "4-17",
+    "FirstActionableFrame": "31",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216846965952fcb517fb",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Peach",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "2, 6",
-    "angle": "88",
-    "baseKnockBackSetKnockback": "72",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "80",
-    "type": 3,
-    "name": "Uthrow",
-    "ownerId": 40,
-    "id": 2220
+    "InstanceId": "5968216846965952fcb517fc",
+    "Name": "Back Roll",
+    "OwnerId": 40,
+    "Owner": "Peach",
+    "HitboxActive": "4-17",
+    "FirstActionableFrame": "31",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216846965952fcb517fc",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Peach",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "1, 7",
-    "angle": "106",
-    "baseKnockBackSetKnockback": "60",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "60",
-    "type": 3,
-    "name": "Dthrow",
-    "ownerId": 40,
-    "id": 2221
+    "InstanceId": "5968216846965952fcb517fd",
+    "Name": "Airdodge",
+    "OwnerId": 40,
+    "Owner": "Peach",
+    "HitboxActive": "3-28",
+    "FirstActionableFrame": "34",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216846965952fcb517fd",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Peach",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "5-8",
-    "firstActionableFrame": "49",
-    "baseDamage": "13",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "20",
-    "landingLag": "11",
-    "autoCancel": "1-4, 36&gt;",
-    "knockbackGrowth": "90",
-    "type": 0,
-    "name": "Nair",
-    "ownerId": 40,
-    "id": 2227
+    "InstanceId": "5968216846965952fcb517fe",
+    "Name": "Nair",
+    "OwnerId": 40,
+    "Owner": "Peach",
+    "HitboxActive": "5-8",
+    "FirstActionableFrame": "49",
+    "BaseDamage": "13",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "20",
+    "LandingLag": "11",
+    "AutoCancel": "1-4, 36&gt;",
+    "KnockbackGrowth": "90",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216846965952fcb517fe",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Peach",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "9-19",
-    "firstActionableFrame": "-",
-    "baseDamage": "6/6/5",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "0",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "100",
-    "type": 0,
-    "name": "Nair (Late)",
-    "ownerId": 40,
-    "id": 2228
+    "InstanceId": "5968216846965952fcb517ff",
+    "Name": "Nair (Late)",
+    "OwnerId": 40,
+    "Owner": "Peach",
+    "HitboxActive": "9-19",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "6/6/5",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "0",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "100",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216846965952fcb517ff",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Peach",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "16-20",
-    "firstActionableFrame": "58",
-    "baseDamage": "15",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "45",
-    "landingLag": "22",
-    "autoCancel": "1-9, 41&gt;",
-    "knockbackGrowth": "84",
-    "type": 0,
-    "name": "Fair",
-    "ownerId": 40,
-    "id": 2229
+    "InstanceId": "5968216846965952fcb51800",
+    "Name": "Fair",
+    "OwnerId": 40,
+    "Owner": "Peach",
+    "HitboxActive": "16-20",
+    "FirstActionableFrame": "58",
+    "BaseDamage": "15",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "45",
+    "LandingLag": "22",
+    "AutoCancel": "1-9, 41&gt;",
+    "KnockbackGrowth": "84",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216846965952fcb51800",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Peach",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "6-7",
-    "firstActionableFrame": "54",
-    "baseDamage": "12",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "18",
-    "autoCancel": "1-4, 30&gt;",
-    "knockbackGrowth": "92",
-    "type": 0,
-    "name": "Bair",
-    "ownerId": 40,
-    "id": 2230
+    "InstanceId": "5968216846965952fcb51801",
+    "Name": "Bair",
+    "OwnerId": 40,
+    "Owner": "Peach",
+    "HitboxActive": "6-7",
+    "FirstActionableFrame": "54",
+    "BaseDamage": "12",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": "18",
+    "AutoCancel": "1-4, 30&gt;",
+    "KnockbackGrowth": "92",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216846965952fcb51801",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Peach",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "8-13",
-    "firstActionableFrame": "-",
-    "baseDamage": "7",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "10",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "70",
-    "type": 0,
-    "name": "Bair (Late)",
-    "ownerId": 40,
-    "id": 2231
+    "InstanceId": "5968216846965952fcb51802",
+    "Name": "Bair (Late)",
+    "OwnerId": 40,
+    "Owner": "Peach",
+    "HitboxActive": "8-13",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "7",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "10",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "70",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216846965952fcb51802",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Peach",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "10",
-    "firstActionableFrame": "46",
-    "baseDamage": "4",
-    "angle": "366",
-    "baseKnockBackSetKnockback": "W: 30",
-    "landingLag": "12",
-    "autoCancel": "1-4, 41&gt;",
-    "knockbackGrowth": "100",
-    "type": 0,
-    "name": "Uair (Hit 1, Early)",
-    "ownerId": 40,
-    "id": 2232
+    "InstanceId": "5968216846965952fcb51803",
+    "Name": "Uair (Hit 1, Early)",
+    "OwnerId": 40,
+    "Owner": "Peach",
+    "HitboxActive": "10",
+    "FirstActionableFrame": "46",
+    "BaseDamage": "4",
+    "Angle": "366",
+    "BaseKnockBackSetKnockback": "W: 30",
+    "LandingLag": "12",
+    "AutoCancel": "1-4, 41&gt;",
+    "KnockbackGrowth": "100",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216846965952fcb51803",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Peach",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "11",
-    "firstActionableFrame": "-",
-    "baseDamage": "4",
-    "angle": "366",
-    "baseKnockBackSetKnockback": "W: 30",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "100",
-    "type": 0,
-    "name": "Uair (Hit 1)",
-    "ownerId": 40,
-    "id": 2233
+    "InstanceId": "5968216846965952fcb51804",
+    "Name": "Uair (Hit 1)",
+    "OwnerId": 40,
+    "Owner": "Peach",
+    "HitboxActive": "11",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "4",
+    "Angle": "366",
+    "BaseKnockBackSetKnockback": "W: 30",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "100",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216846965952fcb51804",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Peach",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "12-13",
-    "firstActionableFrame": "-",
-    "baseDamage": "4",
-    "angle": "366/366/366/366",
-    "baseKnockBackSetKnockback": "W: 30/30/30/55",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "100/100/100/100",
-    "type": 0,
-    "name": "Uair (Hit 1, Late)",
-    "ownerId": 40,
-    "id": 2234
+    "InstanceId": "5968216846965952fcb51805",
+    "Name": "Uair (Hit 1, Late)",
+    "OwnerId": 40,
+    "Owner": "Peach",
+    "HitboxActive": "12-13",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "4",
+    "Angle": "366/366/366/366",
+    "BaseKnockBackSetKnockback": "W: 30/30/30/55",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "100/100/100/100",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216846965952fcb51805",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Peach",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "14",
-    "firstActionableFrame": "-",
-    "baseDamage": "6",
-    "angle": "76/70",
-    "baseKnockBackSetKnockback": "50",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "112",
-    "type": 0,
-    "name": "Uair (Hit 2)",
-    "ownerId": 40,
-    "id": 2235
+    "InstanceId": "5968216846965952fcb51806",
+    "Name": "Uair (Hit 2)",
+    "OwnerId": 40,
+    "Owner": "Peach",
+    "HitboxActive": "14",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "6",
+    "Angle": "76/70",
+    "BaseKnockBackSetKnockback": "50",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "112",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216846965952fcb51806",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Peach",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "15-16",
-    "firstActionableFrame": "-",
-    "baseDamage": "6",
-    "angle": "76/70/70",
-    "baseKnockBackSetKnockback": "50",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "112",
-    "type": 0,
-    "name": "Uair (Hit 2, Late)",
-    "ownerId": 40,
-    "id": 2236
+    "InstanceId": "5968216846965952fcb51807",
+    "Name": "Uair (Hit 2, Late)",
+    "OwnerId": 40,
+    "Owner": "Peach",
+    "HitboxActive": "15-16",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "6",
+    "Angle": "76/70/70",
+    "BaseKnockBackSetKnockback": "50",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "112",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216846965952fcb51807",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Peach",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "12-13, 18-19, 24-25",
-    "firstActionableFrame": "39",
-    "baseDamage": "2/1",
-    "angle": "70",
-    "baseKnockBackSetKnockback": "13",
-    "landingLag": "13",
-    "autoCancel": "1-11, 38&gt;",
-    "knockbackGrowth": "30",
-    "type": 0,
-    "name": "Dair (Hits 1-3)",
-    "ownerId": 40,
-    "id": 2237
+    "InstanceId": "5968216846965952fcb51808",
+    "Name": "Dair (Hits 1-3)",
+    "OwnerId": 40,
+    "Owner": "Peach",
+    "HitboxActive": "12-13, 18-19, 24-25",
+    "FirstActionableFrame": "39",
+    "BaseDamage": "2/1",
+    "Angle": "70",
+    "BaseKnockBackSetKnockback": "13",
+    "LandingLag": "13",
+    "AutoCancel": "1-11, 38&gt;",
+    "KnockbackGrowth": "30",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216846965952fcb51808",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Peach",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "30-31",
-    "firstActionableFrame": "-",
-    "baseDamage": "5",
-    "angle": "60",
-    "baseKnockBackSetKnockback": "60",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "110",
-    "type": 0,
-    "name": "Dair (Hit 4)",
-    "ownerId": 40,
-    "id": 2238
+    "InstanceId": "5968216846965952fcb51809",
+    "Name": "Dair (Hit 4)",
+    "OwnerId": 40,
+    "Owner": "Peach",
+    "HitboxActive": "30-31",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "5",
+    "Angle": "60",
+    "BaseKnockBackSetKnockback": "60",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "110",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216846965952fcb51809",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Peach",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "Counters: 10-34 (Intangible: 11-14)",
-    "firstActionableFrame": "63",
-    "baseDamage": "-",
-    "angle": "-",
-    "baseKnockBackSetKnockback": "-",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "-",
-    "type": 2,
-    "name": "Toad",
-    "ownerId": 40,
-    "id": 2239
+    "InstanceId": "5968216846965952fcb5180a",
+    "Name": "Toad",
+    "OwnerId": 40,
+    "Owner": "Peach",
+    "HitboxActive": "Counters: 10-34 (Intangible: 11-14)",
+    "FirstActionableFrame": "63",
+    "BaseDamage": "-",
+    "Angle": "-",
+    "BaseKnockBackSetKnockback": "-",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "-",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216846965952fcb5180a",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Peach",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "1-22 (Intangible: 1-2, Rehit rate: 3)",
-    "firstActionableFrame": "60",
-    "baseDamage": "2",
-    "angle": "30",
-    "baseKnockBackSetKnockback": "20",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "150",
-    "type": 2,
-    "name": "Toad (Attack)",
-    "ownerId": 40,
-    "id": 2240
+    "InstanceId": "5968216846965952fcb5180b",
+    "Name": "Toad (Attack)",
+    "OwnerId": 40,
+    "Owner": "Peach",
+    "HitboxActive": "1-22 (Intangible: 1-2, Rehit rate: 3)",
+    "FirstActionableFrame": "60",
+    "BaseDamage": "2",
+    "Angle": "30",
+    "BaseKnockBackSetKnockback": "20",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "150",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216846965952fcb5180b",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Peach",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "4-22 (Rehit rate: 3)",
-    "firstActionableFrame": "-",
-    "baseDamage": "2",
-    "angle": "366/361",
-    "baseKnockBackSetKnockback": "W: 20/B: 20",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100/150",
-    "type": 2,
-    "name": "Toad (Attack)",
-    "ownerId": 40,
-    "id": 2241
+    "InstanceId": "5968216846965952fcb5180c",
+    "Name": "Toad (Attack)",
+    "OwnerId": 40,
+    "Owner": "Peach",
+    "HitboxActive": "4-22 (Rehit rate: 3)",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "2",
+    "Angle": "366/361",
+    "BaseKnockBackSetKnockback": "W: 20/B: 20",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100/150",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216846965952fcb5180c",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Peach",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "25-26",
-    "firstActionableFrame": "-",
-    "baseDamage": "2",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "15",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "300",
-    "type": 2,
-    "name": "Toad (Attack, Hit 9)",
-    "ownerId": 40,
-    "id": 2242
+    "InstanceId": "5968216846965952fcb5180d",
+    "Name": "Toad (Attack, Hit 9)",
+    "OwnerId": 40,
+    "Owner": "Peach",
+    "HitboxActive": "25-26",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "2",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "15",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "300",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216846965952fcb5180d",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Peach",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "Inert Detector: 14-29",
-    "firstActionableFrame": "65",
-    "baseDamage": "-",
-    "angle": "-",
-    "baseKnockBackSetKnockback": "-",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "-",
-    "type": 2,
-    "name": "Peach Bomber (Ground)",
-    "ownerId": 40,
-    "id": 2243
+    "InstanceId": "5968216846965952fcb5180e",
+    "Name": "Peach Bomber (Ground)",
+    "OwnerId": 40,
+    "Owner": "Peach",
+    "HitboxActive": "Inert Detector: 14-29",
+    "FirstActionableFrame": "65",
+    "BaseDamage": "-",
+    "Angle": "-",
+    "BaseKnockBackSetKnockback": "-",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "-",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216846965952fcb5180e",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Peach",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "Inert Detector: 20-44",
-    "firstActionableFrame": "95",
-    "baseDamage": "-",
-    "angle": "-",
-    "baseKnockBackSetKnockback": "-",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "-",
-    "type": 2,
-    "name": "Peach Bomber (Aerial)",
-    "ownerId": 40,
-    "id": 2244
+    "InstanceId": "5968216846965952fcb5180f",
+    "Name": "Peach Bomber (Aerial)",
+    "OwnerId": 40,
+    "Owner": "Peach",
+    "HitboxActive": "Inert Detector: 20-44",
+    "FirstActionableFrame": "95",
+    "BaseDamage": "-",
+    "Angle": "-",
+    "BaseKnockBackSetKnockback": "-",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "-",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216846965952fcb5180f",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Peach",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "1-3",
-    "firstActionableFrame": "21",
-    "baseDamage": "10",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "60",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "69",
-    "type": 2,
-    "name": "Peach Bomber (Hitbox)",
-    "ownerId": 40,
-    "id": 2245
+    "InstanceId": "5968216846965952fcb51810",
+    "Name": "Peach Bomber (Hitbox)",
+    "OwnerId": 40,
+    "Owner": "Peach",
+    "HitboxActive": "1-3",
+    "FirstActionableFrame": "21",
+    "BaseDamage": "10",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "60",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "69",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216846965952fcb51810",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Peach",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "7-9",
-    "firstActionableFrame": "-",
-    "baseDamage": "3",
-    "angle": "80/98",
-    "baseKnockBackSetKnockback": "W: 180/160",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 2,
-    "name": "Parasol",
-    "ownerId": 40,
-    "id": 2246
+    "InstanceId": "5968216846965952fcb51811",
+    "Name": "Parasol",
+    "OwnerId": 40,
+    "Owner": "Peach",
+    "HitboxActive": "7-9",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "3",
+    "Angle": "80/98",
+    "BaseKnockBackSetKnockback": "W: 180/160",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216846965952fcb51811",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Peach",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "11-27 (Rehit rate: 5)",
-    "firstActionableFrame": "-",
-    "baseDamage": "1",
-    "angle": "366",
-    "baseKnockBackSetKnockback": "W: 90",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 2,
-    "name": "Parasol",
-    "ownerId": 40,
-    "id": 2247
+    "InstanceId": "5968216846965952fcb51812",
+    "Name": "Parasol",
+    "OwnerId": 40,
+    "Owner": "Peach",
+    "HitboxActive": "11-27 (Rehit rate: 5)",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "1",
+    "Angle": "366",
+    "BaseKnockBackSetKnockback": "W: 90",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216846965952fcb51812",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Peach",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "31-32",
-    "firstActionableFrame": "-",
-    "baseDamage": "4",
-    "angle": "81",
-    "baseKnockBackSetKnockback": "90",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "70",
-    "type": 2,
-    "name": "Parasol (Final Hit)",
-    "ownerId": 40,
-    "id": 2248
+    "InstanceId": "5968216846965952fcb51813",
+    "Name": "Parasol (Final Hit)",
+    "OwnerId": 40,
+    "Owner": "Peach",
+    "HitboxActive": "31-32",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "4",
+    "Angle": "81",
+    "BaseKnockBackSetKnockback": "90",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "70",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216846965952fcb51813",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Peach",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "11-12",
-    "firstActionableFrame": "-",
-    "baseDamage": "3",
-    "angle": "80",
-    "baseKnockBackSetKnockback": "90",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 2,
-    "name": "Parasol (Open)",
-    "ownerId": 40,
-    "id": 2249
+    "InstanceId": "5968216846965952fcb51814",
+    "Name": "Parasol (Open)",
+    "OwnerId": 40,
+    "Owner": "Peach",
+    "HitboxActive": "11-12",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "3",
+    "Angle": "80",
+    "BaseKnockBackSetKnockback": "90",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216846965952fcb51814",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Peach",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "Generates Item on: Frame 1",
-    "firstActionableFrame": "43",
-    "baseDamage": "-",
-    "angle": "30",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "35",
-    "type": 2,
-    "name": "Vegetable",
-    "ownerId": 40,
-    "id": 2250
+    "InstanceId": "5968216846965952fcb51815",
+    "Name": "Vegetable",
+    "OwnerId": 40,
+    "Owner": "Peach",
+    "HitboxActive": "Generates Item on: Frame 1",
+    "FirstActionableFrame": "43",
+    "BaseDamage": "-",
+    "Angle": "30",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "35",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216846965952fcb51815",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Peach",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968216846965952fcb51816",
+    "Name": "Fthrow",
+    "OwnerId": 40,
+    "Owner": "Peach",
+    "HitboxActive": null,
+    "FirstActionableFrame": null,
+    "BaseDamage": "2, 8",
+    "Angle": "45",
+    "BaseKnockBackSetKnockback": "48",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "83",
+    "MoveType": "throw",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216846965952fcb51816",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Peach",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968216846965952fcb51817",
+    "Name": "Bthrow",
+    "OwnerId": 40,
+    "Owner": "Peach",
+    "HitboxActive": null,
+    "FirstActionableFrame": null,
+    "BaseDamage": "2, 9",
+    "Angle": "140",
+    "BaseKnockBackSetKnockback": "35",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "95",
+    "MoveType": "throw",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216846965952fcb51817",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Peach",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968216846965952fcb51818",
+    "Name": "Uthrow",
+    "OwnerId": 40,
+    "Owner": "Peach",
+    "HitboxActive": null,
+    "FirstActionableFrame": null,
+    "BaseDamage": "2, 6",
+    "Angle": "88",
+    "BaseKnockBackSetKnockback": "72",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "80",
+    "MoveType": "throw",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216846965952fcb51818",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Peach",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968216846965952fcb51819",
+    "Name": "Dthrow",
+    "OwnerId": 40,
+    "Owner": "Peach",
+    "HitboxActive": null,
+    "FirstActionableFrame": null,
+    "BaseDamage": "1, 7",
+    "Angle": "106",
+    "BaseKnockBackSetKnockback": "60",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "60",
+    "MoveType": "throw",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216846965952fcb51819",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Peach",
+        "Title": ""
+      }
+    ]
   }
 ]

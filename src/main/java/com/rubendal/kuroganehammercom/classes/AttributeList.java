@@ -3,8 +3,15 @@ package com.rubendal.kuroganehammercom.classes;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.graphics.Color;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.widget.TableRow;
+import android.widget.TextView;
 
+import com.rubendal.kuroganehammercom.R;
 import com.rubendal.kuroganehammercom.util.Storage;
+import com.rubendal.kuroganehammercom.util.params.Params;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -18,12 +25,15 @@ import java.util.List;
 
 public class AttributeList implements Serializable {
 
-    public int id;
+    public String id;
     public String name;
+    public List<Attribute> attributes;
+    public int ownerId;
 
-    private AttributeList(int id, String name){
+    private AttributeList(String id, String name, List<Attribute> attributes){
         this.id = id;
         this.name = name;
+        this.attributes = attributes;
     }
 
     public Bitmap getImage(Context context){
@@ -43,23 +53,62 @@ public class AttributeList implements Serializable {
         return thumb;
     }
 
-    public static LinkedList<AttributeList> list = new LinkedList<>();
-
-    public static LinkedList<AttributeList> getList(Context context){
-        if(!list.isEmpty()){
-            return list;
-        }else{
-            try{
-                String data = Storage.read("data","smashAttributes.json",context);
-                JSONArray jsonArray = new JSONArray(data);
-                for(int i=0;i<jsonArray.length();i++){
-                    JSONObject o = jsonArray.getJSONObject(i);
-                    list.add(new AttributeList(o.getInt("id"), o.getString("name")));
-                }
-            }catch(Exception e){
-
+    public static AttributeList getFromJson(Context context, JSONObject jsonObject){
+        try {
+            String id = jsonObject.getString("InstanceId");
+            int owner = jsonObject.getInt(("OwnerId"));
+            String name = jsonObject.getString("Name");
+            LinkedList<Attribute> attributes = new LinkedList<>();
+            JSONArray values = jsonObject.getJSONArray("Values");
+            for(int i=0;i<values.length();i++){
+                attributes.add(Attribute.getFromJson(context, values.getJSONObject(i)));
             }
-            return list;
+
+
+            /*for(AttributeList al : attributeList){
+                if(attribute.attributeId == al.id){
+                    if(attribute.formattedName.equals("VALUE") || attribute.formattedName.equals("INTANGIBILITY") || attribute.formattedName.equals("INTANGIBLE") || attribute.formattedName.equals("FAF") || attribute.formattedName.equals("HEIGHT") || attribute.formattedName.equals("SIZE")){
+                        if(!attribute.name.equals("VALUE")) {
+                            attribute.formattedName = al.name + " " + attribute.name;
+                        }else{
+                            attribute.formattedName = al.name;
+                        }
+                        return attribute;
+                    }
+                }
+            }*/
+            return new AttributeList(id, name, attributes);
+        }catch(Exception e){
+
         }
+        return null;
     }
+
+    public TableRow asRow(Context context, boolean odd){
+        LayoutInflater vi = (LayoutInflater)context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+        View v = vi.inflate(R.layout.attribute_row, null);
+        TableRow tableRow = (TableRow)v.findViewById(R.id.row);
+
+        TextView attributeView = (TextView)tableRow.findViewById(R.id.attribute);
+        TextView valueView = (TextView)tableRow.findViewById(R.id.value);
+        TextView rankView = (TextView)tableRow.findViewById(R.id.rank);
+
+        attributeView.setText(name);
+        //valueView.setText(value);
+
+        int padding = Params.PADDING;
+        attributeView.setPadding(padding,padding,padding,padding);
+        valueView.setPadding(padding,padding,padding,padding);
+        rankView.setPadding(padding,padding,padding,padding);
+
+
+        if(!odd){
+            attributeView.setBackgroundColor(Color.parseColor("#D9D9D9"));
+            valueView.setBackgroundColor(Color.parseColor("#D9D9D9"));
+            rankView.setBackgroundColor(Color.parseColor("#D9D9D9"));
+        }
+
+        return tableRow;
+    }
+
 }

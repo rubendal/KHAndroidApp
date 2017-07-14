@@ -5,6 +5,7 @@ import android.os.AsyncTask;
 import android.util.Log;
 
 import com.rubendal.kuroganehammercom.classes.Attribute;
+import com.rubendal.kuroganehammercom.classes.AttributeList;
 import com.rubendal.kuroganehammercom.classes.AttributeRank;
 import com.rubendal.kuroganehammercom.fragments.CharacterDataFragment;
 import com.rubendal.kuroganehammercom.MainActivity;
@@ -92,7 +93,7 @@ public class CharacterDataAsyncTask extends AsyncTask<String, String, CharacterD
                         list.add(Move.getFromJson(jsonArray.getJSONObject(i)));
                         break;
                     case Throw:
-                        list.add(ThrowMove.getFromJson(jsonArray.getJSONObject(i), t));
+                        list.add(ThrowMove.getFromJson(jsonArray.getJSONObject(i)));
                         break;
                 }
             }
@@ -104,14 +105,12 @@ public class CharacterDataAsyncTask extends AsyncTask<String, String, CharacterD
                 movements.add(Movement.fromJson(jsonArray.getJSONObject(i)));
             }
 
+            LinkedList<AttributeList> attributes = new LinkedList<>();
             json = Storage.read(String.valueOf(character.id), "smashAttributes.json", context.getActivity());
-            LinkedList<Attribute> attributes = new LinkedList<>();
             jsonArray = new JSONArray(json);
             for (int i = 0; i < jsonArray.length(); i++) {
-                Attribute a = Attribute.getFromJson(context.getActivity(), jsonArray.getJSONObject(i));
-                if(a.formattedName.contains("AIRDODGE") || a.formattedName.contains("ROLLS") || a.formattedName.contains("SPOTDODGE")) {
-                    attributes.add(a);
-                }
+                AttributeList a = AttributeList.getFromJson(context.getActivity(), jsonArray.getJSONObject(i));
+                attributes.add(a);
             }
 
             return new CharacterData(character, movements, list, attributes);

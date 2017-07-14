@@ -1,786 +1,1682 @@
 ﻿[
   {
-    "hitboxActive": "5-6",
-    "firstActionableFrame": "26",
-    "baseDamage": "3.5",
-    "angle": "70/60/88",
-    "baseKnockBackSetKnockback": "W: 40",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Jab 1",
-    "ownerId": 50,
-    "id": 2778
+    "InstanceId": "5968218346965952fcb51b71",
+    "Name": "Jab 1",
+    "OwnerId": 50,
+    "Owner": "Shulk",
+    "HitboxActive": "5-6",
+    "FirstActionableFrame": "26",
+    "BaseDamage": "3.5",
+    "Angle": "70/60/88",
+    "BaseKnockBackSetKnockback": "W: 40",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218346965952fcb51b71",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Shulk",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "5-7",
-    "firstActionableFrame": "34",
-    "baseDamage": "3.5",
-    "angle": "66/70/80",
-    "baseKnockBackSetKnockback": "W: 52",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Jab 2",
-    "ownerId": 50,
-    "id": 2779
+    "InstanceId": "5968218346965952fcb51b72",
+    "Name": "Jab 2",
+    "OwnerId": 50,
+    "Owner": "Shulk",
+    "HitboxActive": "5-7",
+    "FirstActionableFrame": "34",
+    "BaseDamage": "3.5",
+    "Angle": "66/70/80",
+    "BaseKnockBackSetKnockback": "W: 52",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218346965952fcb51b72",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Shulk",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "12-13",
-    "firstActionableFrame": "45",
-    "baseDamage": "5.3",
-    "angle": "50",
-    "baseKnockBackSetKnockback": "60",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Jab 3",
-    "ownerId": 50,
-    "id": 2780
+    "InstanceId": "5968218346965952fcb51b73",
+    "Name": "Jab 3",
+    "OwnerId": 50,
+    "Owner": "Shulk",
+    "HitboxActive": "12-13",
+    "FirstActionableFrame": "45",
+    "BaseDamage": "5.3",
+    "Angle": "50",
+    "BaseKnockBackSetKnockback": "60",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218346965952fcb51b73",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Shulk",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "14",
-    "firstActionableFrame": "-",
-    "baseDamage": "4.2",
-    "angle": "70",
-    "baseKnockBackSetKnockback": "70",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Jab 3 (Late)",
-    "ownerId": 50,
-    "id": 2781
+    "InstanceId": "5968218346965952fcb51b74",
+    "Name": "Jab 3 (Late)",
+    "OwnerId": 50,
+    "Owner": "Shulk",
+    "HitboxActive": "14",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "4.2",
+    "Angle": "70",
+    "BaseKnockBackSetKnockback": "70",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218346965952fcb51b74",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Shulk",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "15-16",
-    "firstActionableFrame": "53",
-    "baseDamage": "11.5",
-    "angle": "60",
-    "baseKnockBackSetKnockback": "70",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "80",
-    "type": 1,
-    "name": "Dash Attack",
-    "ownerId": 50,
-    "id": 2782
+    "InstanceId": "5968218346965952fcb51b75",
+    "Name": "Dash Attack",
+    "OwnerId": 50,
+    "Owner": "Shulk",
+    "HitboxActive": "15-16",
+    "FirstActionableFrame": "53",
+    "BaseDamage": "11.5",
+    "Angle": "60",
+    "BaseKnockBackSetKnockback": "70",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "80",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218346965952fcb51b75",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Shulk",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "12-13",
-    "firstActionableFrame": "44",
-    "baseDamage": "13.5/13.5/13.5/12",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "92",
-    "type": 1,
-    "name": "Ftilt",
-    "ownerId": 50,
-    "id": 2783
+    "InstanceId": "5968218346965952fcb51b76",
+    "Name": "Ftilt",
+    "OwnerId": 50,
+    "Owner": "Shulk",
+    "HitboxActive": "12-13",
+    "FirstActionableFrame": "44",
+    "BaseDamage": "13.5/13.5/13.5/12",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "92",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218346965952fcb51b76",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Shulk",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "11-12",
-    "firstActionableFrame": "40",
-    "baseDamage": "8.5",
-    "angle": "85",
-    "baseKnockBackSetKnockback": "70",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "90",
-    "type": 1,
-    "name": "Utilt",
-    "ownerId": 50,
-    "id": 2784
+    "InstanceId": "5968218346965952fcb51b77",
+    "Name": "Utilt",
+    "OwnerId": 50,
+    "Owner": "Shulk",
+    "HitboxActive": "11-12",
+    "FirstActionableFrame": "40",
+    "BaseDamage": "8.5",
+    "Angle": "85",
+    "BaseKnockBackSetKnockback": "70",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "90",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218346965952fcb51b77",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Shulk",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "13-23",
-    "firstActionableFrame": "-",
-    "baseDamage": "8.5/8.5/7.5/7.5",
-    "angle": "85/85/108/108",
-    "baseKnockBackSetKnockback": "70/70/65/65",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "90/90/85/85",
-    "type": 1,
-    "name": "Utilt (Late)",
-    "ownerId": 50,
-    "id": 2785
+    "InstanceId": "5968218346965952fcb51b78",
+    "Name": "Utilt (Late)",
+    "OwnerId": 50,
+    "Owner": "Shulk",
+    "HitboxActive": "13-23",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "8.5/8.5/7.5/7.5",
+    "Angle": "85/85/108/108",
+    "BaseKnockBackSetKnockback": "70/70/65/65",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "90/90/85/85",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218346965952fcb51b78",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Shulk",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "10-11",
-    "firstActionableFrame": "32",
-    "baseDamage": "9.5/9.5/9.5/7.5",
-    "angle": "60",
-    "baseKnockBackSetKnockback": "45",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "90",
-    "type": 1,
-    "name": "Dtilt",
-    "ownerId": 50,
-    "id": 2786
+    "InstanceId": "5968218346965952fcb51b79",
+    "Name": "Dtilt",
+    "OwnerId": 50,
+    "Owner": "Shulk",
+    "HitboxActive": "10-11",
+    "FirstActionableFrame": "32",
+    "BaseDamage": "9.5/9.5/9.5/7.5",
+    "Angle": "60",
+    "BaseKnockBackSetKnockback": "45",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "90",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218346965952fcb51b79",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Shulk",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "14-16",
-    "firstActionableFrame": "68",
-    "baseDamage": "5.5",
-    "angle": "78/10/40",
-    "baseKnockBackSetKnockback": "W: 28",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Fsmash (Hit 1, Angled Up)",
-    "ownerId": 50,
-    "id": 2787
+    "InstanceId": "5968218346965952fcb51b7a",
+    "Name": "Fsmash (Hit 1, Angled Up)",
+    "OwnerId": 50,
+    "Owner": "Shulk",
+    "HitboxActive": "14-16",
+    "FirstActionableFrame": "68",
+    "BaseDamage": "5.5",
+    "Angle": "78/10/40",
+    "BaseKnockBackSetKnockback": "W: 28",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218346965952fcb51b7a",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Shulk",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "23",
-    "firstActionableFrame": "-",
-    "baseDamage": "13/11.5",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "125",
-    "type": 1,
-    "name": "Fsmash (Hit 2, Angled Up)",
-    "ownerId": 50,
-    "id": 2788
+    "InstanceId": "5968218346965952fcb51b7b",
+    "Name": "Fsmash (Hit 2, Angled Up)",
+    "OwnerId": 50,
+    "Owner": "Shulk",
+    "HitboxActive": "23",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "13/11.5",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "125",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218346965952fcb51b7b",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Shulk",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "14-15",
-    "firstActionableFrame": "68",
-    "baseDamage": "5.5",
-    "angle": "78/10/40",
-    "baseKnockBackSetKnockback": "W: 28",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Fsmash (Hit 1)",
-    "ownerId": 50,
-    "id": 2789
+    "InstanceId": "5968218346965952fcb51b7c",
+    "Name": "Fsmash (Hit 1)",
+    "OwnerId": 50,
+    "Owner": "Shulk",
+    "HitboxActive": "14-15",
+    "FirstActionableFrame": "68",
+    "BaseDamage": "5.5",
+    "Angle": "78/10/40",
+    "BaseKnockBackSetKnockback": "W: 28",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218346965952fcb51b7c",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Shulk",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "23",
-    "firstActionableFrame": "-",
-    "baseDamage": "13/11.5",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "115",
-    "type": 1,
-    "name": "Fsmash (Hit 2)",
-    "ownerId": 50,
-    "id": 2790
+    "InstanceId": "5968218346965952fcb51b7d",
+    "Name": "Fsmash (Hit 2)",
+    "OwnerId": 50,
+    "Owner": "Shulk",
+    "HitboxActive": "23",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "13/11.5",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "115",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218346965952fcb51b7d",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Shulk",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "14-16",
-    "firstActionableFrame": "68",
-    "baseDamage": "5.5",
-    "angle": "78/10/40",
-    "baseKnockBackSetKnockback": "W: 28",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Fsmash (Hit 1, Angled Down)",
-    "ownerId": 50,
-    "id": 2791
+    "InstanceId": "5968218346965952fcb51b7e",
+    "Name": "Fsmash (Hit 1, Angled Down)",
+    "OwnerId": 50,
+    "Owner": "Shulk",
+    "HitboxActive": "14-16",
+    "FirstActionableFrame": "68",
+    "BaseDamage": "5.5",
+    "Angle": "78/10/40",
+    "BaseKnockBackSetKnockback": "W: 28",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218346965952fcb51b7e",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Shulk",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "23",
-    "firstActionableFrame": "-",
-    "baseDamage": "13/11.5",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "115",
-    "type": 1,
-    "name": "Fsmash (Hit 2, Angled Down)",
-    "ownerId": 50,
-    "id": 2792
+    "InstanceId": "5968218346965952fcb51b7f",
+    "Name": "Fsmash (Hit 2, Angled Down)",
+    "OwnerId": 50,
+    "Owner": "Shulk",
+    "HitboxActive": "23",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "13/11.5",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "115",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218346965952fcb51b7f",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Shulk",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "18-21 (Ground only)",
-    "firstActionableFrame": "68",
-    "baseDamage": "4.5",
-    "angle": "105",
-    "baseKnockBackSetKnockback": "W: 110",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Usmash (Hit 1)",
-    "ownerId": 50,
-    "id": 2793
+    "InstanceId": "5968218346965952fcb51b80",
+    "Name": "Usmash (Hit 1)",
+    "OwnerId": 50,
+    "Owner": "Shulk",
+    "HitboxActive": "18-21 (Ground only)",
+    "FirstActionableFrame": "68",
+    "BaseDamage": "4.5",
+    "Angle": "105",
+    "BaseKnockBackSetKnockback": "W: 110",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218346965952fcb51b80",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Shulk",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "18-29",
-    "firstActionableFrame": "-",
-    "baseDamage": "4.5",
-    "angle": "92",
-    "baseKnockBackSetKnockback": "W: 70/60",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "40/100",
-    "type": 1,
-    "name": "Usmash (Hit 1)",
-    "ownerId": 50,
-    "id": 2794
+    "InstanceId": "5968218346965952fcb51b81",
+    "Name": "Usmash (Hit 1)",
+    "OwnerId": 50,
+    "Owner": "Shulk",
+    "HitboxActive": "18-29",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "4.5",
+    "Angle": "92",
+    "BaseKnockBackSetKnockback": "W: 70/60",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "40/100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218346965952fcb51b81",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Shulk",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "30-33",
-    "firstActionableFrame": "-",
-    "baseDamage": "13.5",
-    "angle": "89",
-    "baseKnockBackSetKnockback": "45",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "98",
-    "type": 1,
-    "name": "Usmash (Hit 2)",
-    "ownerId": 50,
-    "id": 2795
+    "InstanceId": "5968218346965952fcb51b82",
+    "Name": "Usmash (Hit 2)",
+    "OwnerId": 50,
+    "Owner": "Shulk",
+    "HitboxActive": "30-33",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "13.5",
+    "Angle": "89",
+    "BaseKnockBackSetKnockback": "45",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "98",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218346965952fcb51b82",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Shulk",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "18-19",
-    "firstActionableFrame": "83",
-    "baseDamage": "14/14/14/11",
-    "angle": "361/45/55/361",
-    "baseKnockBackSetKnockback": "50",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "95",
-    "type": 1,
-    "name": "Dsmash (Hit 1)",
-    "ownerId": 50,
-    "id": 2796
+    "InstanceId": "5968218346965952fcb51b83",
+    "Name": "Dsmash (Hit 1)",
+    "OwnerId": 50,
+    "Owner": "Shulk",
+    "HitboxActive": "18-19",
+    "FirstActionableFrame": "83",
+    "BaseDamage": "14/14/14/11",
+    "Angle": "361/45/55/361",
+    "BaseKnockBackSetKnockback": "50",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "95",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218346965952fcb51b83",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Shulk",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "23-24",
-    "firstActionableFrame": "-",
-    "baseDamage": "12/12/12/10",
-    "angle": "361/45/55/361",
-    "baseKnockBackSetKnockback": "50",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "95",
-    "type": 1,
-    "name": "Dsmash (Hit 2)",
-    "ownerId": 50,
-    "id": 2797
+    "InstanceId": "5968218346965952fcb51b84",
+    "Name": "Dsmash (Hit 2)",
+    "OwnerId": 50,
+    "Owner": "Shulk",
+    "HitboxActive": "23-24",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "12/12/12/10",
+    "Angle": "361/45/55/361",
+    "BaseKnockBackSetKnockback": "50",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "95",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218346965952fcb51b84",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Shulk",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "28-29",
-    "firstActionableFrame": "-",
-    "baseDamage": "10/10/10/8",
-    "angle": "361/45/55/361",
-    "baseKnockBackSetKnockback": "55",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "90",
-    "type": 1,
-    "name": "Dsmash (Hit 3)",
-    "ownerId": 50,
-    "id": 2798
+    "InstanceId": "5968218346965952fcb51b85",
+    "Name": "Dsmash (Hit 3)",
+    "OwnerId": 50,
+    "Owner": "Shulk",
+    "HitboxActive": "28-29",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "10/10/10/8",
+    "Angle": "361/45/55/361",
+    "BaseKnockBackSetKnockback": "55",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "90",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218346965952fcb51b85",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Shulk",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "35-36",
-    "firstActionableFrame": "-",
-    "baseDamage": "8/8/8/6",
-    "angle": "361/361/361/361",
-    "baseKnockBackSetKnockback": "60",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "90",
-    "type": 1,
-    "name": "Dsmash (Hit 4)",
-    "ownerId": 50,
-    "id": 2799
+    "InstanceId": "5968218346965952fcb51b86",
+    "Name": "Dsmash (Hit 4)",
+    "OwnerId": 50,
+    "Owner": "Shulk",
+    "HitboxActive": "35-36",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "8/8/8/6",
+    "Angle": "361/361/361/361",
+    "BaseKnockBackSetKnockback": "60",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "90",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218346965952fcb51b86",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Shulk",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "41-42",
-    "firstActionableFrame": "-",
-    "baseDamage": "6/6/6/4",
-    "angle": "361/361/361/361",
-    "baseKnockBackSetKnockback": "60",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "90",
-    "type": 1,
-    "name": "Dsmash (Hit 5)",
-    "ownerId": 50,
-    "id": 2800
+    "InstanceId": "5968218346965952fcb51b87",
+    "Name": "Dsmash (Hit 5)",
+    "OwnerId": 50,
+    "Owner": "Shulk",
+    "HitboxActive": "41-42",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "6/6/6/4",
+    "Angle": "361/361/361/361",
+    "BaseKnockBackSetKnockback": "60",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "90",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218346965952fcb51b87",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Shulk",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "7-8",
-    "firstActionableFrame": "30",
-    "baseDamage": "",
-    "angle": "",
-    "baseKnockBackSetKnockback": "",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "",
-    "type": 1,
-    "name": "Standing Grab",
-    "ownerId": 50,
-    "id": 2802
+    "InstanceId": "5968218346965952fcb51b88",
+    "Name": "Standing Grab",
+    "OwnerId": 50,
+    "Owner": "Shulk",
+    "HitboxActive": "7-8",
+    "FirstActionableFrame": "30",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218346965952fcb51b88",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Shulk",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "9-10",
-    "firstActionableFrame": "37",
-    "baseDamage": "",
-    "angle": "",
-    "baseKnockBackSetKnockback": "",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "",
-    "type": 1,
-    "name": "Dash Grab",
-    "ownerId": 50,
-    "id": 2803
+    "InstanceId": "5968218346965952fcb51b89",
+    "Name": "Dash Grab",
+    "OwnerId": 50,
+    "Owner": "Shulk",
+    "HitboxActive": "9-10",
+    "FirstActionableFrame": "37",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218346965952fcb51b89",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Shulk",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "10-11",
-    "firstActionableFrame": "35",
-    "baseDamage": "",
-    "angle": "",
-    "baseKnockBackSetKnockback": "",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "",
-    "type": 1,
-    "name": "Pivot Grab",
-    "ownerId": 50,
-    "id": 2804
+    "InstanceId": "5968218346965952fcb51b8a",
+    "Name": "Pivot Grab",
+    "OwnerId": 50,
+    "Owner": "Shulk",
+    "HitboxActive": "10-11",
+    "FirstActionableFrame": "35",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218346965952fcb51b8a",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Shulk",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "3, 8",
-    "angle": "45",
-    "baseKnockBackSetKnockback": "60",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "70",
-    "type": 3,
-    "name": "Fthrow",
-    "ownerId": 50,
-    "id": 2806
+    "InstanceId": "5968218346965952fcb51b8b",
+    "Name": "Spotdodge",
+    "OwnerId": 50,
+    "Owner": "Shulk",
+    "HitboxActive": "3-18",
+    "FirstActionableFrame": "28",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218346965952fcb51b8b",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Shulk",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "3, 9",
-    "angle": "135",
-    "baseKnockBackSetKnockback": "70",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "63",
-    "type": 3,
-    "name": "Bthrow",
-    "ownerId": 50,
-    "id": 2807
+    "InstanceId": "5968218346965952fcb51b8c",
+    "Name": "Forward Roll",
+    "OwnerId": 50,
+    "Owner": "Shulk",
+    "HitboxActive": "4-17",
+    "FirstActionableFrame": "31",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218346965952fcb51b8c",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Shulk",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "3, 4",
-    "angle": "88",
-    "baseKnockBackSetKnockback": "60",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "80",
-    "type": 3,
-    "name": "Uthrow",
-    "ownerId": 50,
-    "id": 2808
+    "InstanceId": "5968218346965952fcb51b8d",
+    "Name": "Back Roll",
+    "OwnerId": 50,
+    "Owner": "Shulk",
+    "HitboxActive": "4-17",
+    "FirstActionableFrame": "31",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218346965952fcb51b8d",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Shulk",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "3, 4",
-    "angle": "50",
-    "baseKnockBackSetKnockback": "75",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "115",
-    "type": 3,
-    "name": "Dthrow",
-    "ownerId": 50,
-    "id": 2809
+    "InstanceId": "5968218346965952fcb51b8e",
+    "Name": "Airdodge",
+    "OwnerId": 50,
+    "Owner": "Shulk",
+    "HitboxActive": "3-28",
+    "FirstActionableFrame": "34",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218346965952fcb51b8e",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Shulk",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "13-30",
-    "firstActionableFrame": "71",
-    "baseDamage": "7.5/7.5/8.5",
-    "angle": "50",
-    "baseKnockBackSetKnockback": "40",
-    "landingLag": "10",
-    "autoCancel": "80&gt;",
-    "knockbackGrowth": "100",
-    "type": 0,
-    "name": "Nair",
-    "ownerId": 50,
-    "id": 2815
+    "InstanceId": "5968218346965952fcb51b8f",
+    "Name": "Nair",
+    "OwnerId": 50,
+    "Owner": "Shulk",
+    "HitboxActive": "13-30",
+    "FirstActionableFrame": "71",
+    "BaseDamage": "7.5/7.5/8.5",
+    "Angle": "50",
+    "BaseKnockBackSetKnockback": "40",
+    "LandingLag": "10",
+    "AutoCancel": "80&gt;",
+    "KnockbackGrowth": "100",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218346965952fcb51b8f",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Shulk",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "14-18",
-    "firstActionableFrame": "42",
-    "baseDamage": "8/8/6.5",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "46",
-    "landingLag": "16",
-    "autoCancel": "57&gt;",
-    "knockbackGrowth": "100",
-    "type": 0,
-    "name": "Fair",
-    "ownerId": 50,
-    "id": 2816
+    "InstanceId": "5968218346965952fcb51b90",
+    "Name": "Fair",
+    "OwnerId": 50,
+    "Owner": "Shulk",
+    "HitboxActive": "14-18",
+    "FirstActionableFrame": "42",
+    "BaseDamage": "8/8/6.5",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "46",
+    "LandingLag": "16",
+    "AutoCancel": "57&gt;",
+    "KnockbackGrowth": "100",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218346965952fcb51b90",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Shulk",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "18-20",
-    "firstActionableFrame": "55",
-    "baseDamage": "12.5",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "35",
-    "landingLag": "19",
-    "autoCancel": "79&gt;",
-    "knockbackGrowth": "100",
-    "type": 0,
-    "name": "Bair",
-    "ownerId": 50,
-    "id": 2817
+    "InstanceId": "5968218346965952fcb51b91",
+    "Name": "Bair",
+    "OwnerId": 50,
+    "Owner": "Shulk",
+    "HitboxActive": "18-20",
+    "FirstActionableFrame": "55",
+    "BaseDamage": "12.5",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "35",
+    "LandingLag": "19",
+    "AutoCancel": "79&gt;",
+    "KnockbackGrowth": "100",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218346965952fcb51b91",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Shulk",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "21-22",
-    "firstActionableFrame": "-",
-    "baseDamage": "12.5/8.5",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "35",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "100",
-    "type": 0,
-    "name": "Bair (Late)",
-    "ownerId": 50,
-    "id": 2818
+    "InstanceId": "5968218346965952fcb51b92",
+    "Name": "Bair (Late)",
+    "OwnerId": 50,
+    "Owner": "Shulk",
+    "HitboxActive": "21-22",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "12.5/8.5",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "35",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "100",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218346965952fcb51b92",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Shulk",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "14-15",
-    "firstActionableFrame": "60",
-    "baseDamage": "5.5",
-    "angle": "100/96",
-    "baseKnockBackSetKnockback": "W: 80/60",
-    "landingLag": "15",
-    "autoCancel": "79&gt;",
-    "knockbackGrowth": "100",
-    "type": 0,
-    "name": "Uair (Hit 1)",
-    "ownerId": 50,
-    "id": 2819
+    "InstanceId": "5968218346965952fcb51b93",
+    "Name": "Uair (Hit 1)",
+    "OwnerId": 50,
+    "Owner": "Shulk",
+    "HitboxActive": "14-15",
+    "FirstActionableFrame": "60",
+    "BaseDamage": "5.5",
+    "Angle": "100/96",
+    "BaseKnockBackSetKnockback": "W: 80/60",
+    "LandingLag": "15",
+    "AutoCancel": "79&gt;",
+    "KnockbackGrowth": "100",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218346965952fcb51b93",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Shulk",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "24-25",
-    "firstActionableFrame": "-",
-    "baseDamage": "10.5/8",
-    "angle": "88",
-    "baseKnockBackSetKnockback": "55",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "100",
-    "type": 0,
-    "name": "Uair (Hit 2)",
-    "ownerId": 50,
-    "id": 2820
+    "InstanceId": "5968218346965952fcb51b94",
+    "Name": "Uair (Hit 2)",
+    "OwnerId": 50,
+    "Owner": "Shulk",
+    "HitboxActive": "24-25",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "10.5/8",
+    "Angle": "88",
+    "BaseKnockBackSetKnockback": "55",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "100",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218346965952fcb51b94",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Shulk",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "14-15",
-    "firstActionableFrame": "61",
-    "baseDamage": "6/7.5",
-    "angle": "172/160",
-    "baseKnockBackSetKnockback": "W: 20",
-    "landingLag": "23",
-    "autoCancel": "78&gt;",
-    "knockbackGrowth": "100",
-    "type": 0,
-    "name": "Dair (Hit 1)",
-    "ownerId": 50,
-    "id": 2821
+    "InstanceId": "5968218346965952fcb51b95",
+    "Name": "Dair (Hit 1)",
+    "OwnerId": 50,
+    "Owner": "Shulk",
+    "HitboxActive": "14-15",
+    "FirstActionableFrame": "61",
+    "BaseDamage": "6/7.5",
+    "Angle": "172/160",
+    "BaseKnockBackSetKnockback": "W: 20",
+    "LandingLag": "23",
+    "AutoCancel": "78&gt;",
+    "KnockbackGrowth": "100",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218346965952fcb51b95",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Shulk",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "23-24",
-    "firstActionableFrame": "-",
-    "baseDamage": "11.5/11.5/10.5",
-    "angle": "270/361/361",
-    "baseKnockBackSetKnockback": "10/10/55",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "90/85/85",
-    "type": 0,
-    "name": "Dair (Hit 2)",
-    "ownerId": 50,
-    "id": 2822
+    "InstanceId": "5968218346965952fcb51b96",
+    "Name": "Dair (Hit 2)",
+    "OwnerId": 50,
+    "Owner": "Shulk",
+    "HitboxActive": "23-24",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "11.5/11.5/10.5",
+    "Angle": "270/361/361",
+    "BaseKnockBackSetKnockback": "10/10/55",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "90/85/85",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218346965952fcb51b96",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Shulk",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "Intangible: 1-14",
-    "firstActionableFrame": "6",
-    "baseDamage": "-",
-    "angle": "-",
-    "baseKnockBackSetKnockback": "-",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "-",
-    "type": 2,
-    "name": "Monado Arts Activation",
-    "ownerId": 50,
-    "id": 2823
+    "InstanceId": "5968218346965952fcb51b97",
+    "Name": "Monado Arts Activation",
+    "OwnerId": 50,
+    "Owner": "Shulk",
+    "HitboxActive": "Intangible: 1-14",
+    "FirstActionableFrame": "6",
+    "BaseDamage": "-",
+    "Angle": "-",
+    "BaseKnockBackSetKnockback": "-",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "-",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218346965952fcb51b97",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Shulk",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "960 Frames (16 seconds)",
-    "firstActionableFrame": "-",
-    "baseDamage": "-",
-    "angle": "-",
-    "baseKnockBackSetKnockback": "-",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "-",
-    "type": 2,
-    "name": "Monado Arts Duration",
-    "ownerId": 50,
-    "id": 2824
+    "InstanceId": "5968218346965952fcb51b98",
+    "Name": "Monado Arts Duration",
+    "OwnerId": 50,
+    "Owner": "Shulk",
+    "HitboxActive": "960 Frames (16 seconds)",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "-",
+    "Angle": "-",
+    "BaseKnockBackSetKnockback": "-",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "-",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218346965952fcb51b98",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Shulk",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "600 Frames (10 seconds)",
-    "firstActionableFrame": "-",
-    "baseDamage": "-",
-    "angle": "-",
-    "baseKnockBackSetKnockback": "-",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "-",
-    "type": 2,
-    "name": "Monado Arts Cooldown",
-    "ownerId": 50,
-    "id": 2825
+    "InstanceId": "5968218346965952fcb51b99",
+    "Name": "Monado Arts Cooldown",
+    "OwnerId": 50,
+    "Owner": "Shulk",
+    "HitboxActive": "600 Frames (10 seconds)",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "-",
+    "Angle": "-",
+    "BaseKnockBackSetKnockback": "-",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "-",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218346965952fcb51b99",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Shulk",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "22-",
-    "firstActionableFrame": "-",
-    "baseDamage": "10/9/16/14 (+7)",
-    "angle": "361/361/140/140",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 2,
-    "name": "Backslash",
-    "ownerId": 50,
-    "id": 2826
+    "InstanceId": "5968218346965952fcb51b9a",
+    "Name": "Backslash",
+    "OwnerId": 50,
+    "Owner": "Shulk",
+    "HitboxActive": "22-",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "10/9/16/14 (+7)",
+    "Angle": "361/361/140/140",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218346965952fcb51b9a",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Shulk",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "1-2",
-    "firstActionableFrame": "41",
-    "baseDamage": "10/9/15/13 (+10)",
-    "angle": "361/361/140/140",
-    "baseKnockBackSetKnockback": "25",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 2,
-    "name": "Backslash (Landing)",
-    "ownerId": 50,
-    "id": 2827
+    "InstanceId": "5968218346965952fcb51b9b",
+    "Name": "Backslash (Landing)",
+    "OwnerId": 50,
+    "Owner": "Shulk",
+    "HitboxActive": "1-2",
+    "FirstActionableFrame": "41",
+    "BaseDamage": "10/9/15/13 (+10)",
+    "Angle": "361/361/140/140",
+    "BaseKnockBackSetKnockback": "25",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218346965952fcb51b9b",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Shulk",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "10-11",
-    "firstActionableFrame": "-",
-    "baseDamage": "6",
-    "angle": "78/91/85",
-    "baseKnockBackSetKnockback": "W: 140/135/100",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 2,
-    "name": "Air Slash (Hit 1, Early)",
-    "ownerId": 50,
-    "id": 2828
+    "InstanceId": "5968218346965952fcb51b9c",
+    "Name": "Air Slash (Hit 1, Early)",
+    "OwnerId": 50,
+    "Owner": "Shulk",
+    "HitboxActive": "10-11",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "6",
+    "Angle": "78/91/85",
+    "BaseKnockBackSetKnockback": "W: 140/135/100",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218346965952fcb51b9c",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Shulk",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "12-14",
-    "firstActionableFrame": "-",
-    "baseDamage": "5",
-    "angle": "85/86",
-    "baseKnockBackSetKnockback": "W: 80/78",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 2,
-    "name": "Air Slash (Hit 1)",
-    "ownerId": 50,
-    "id": 2829
+    "InstanceId": "5968218346965952fcb51b9d",
+    "Name": "Air Slash (Hit 1)",
+    "OwnerId": 50,
+    "Owner": "Shulk",
+    "HitboxActive": "12-14",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "5",
+    "Angle": "85/86",
+    "BaseKnockBackSetKnockback": "W: 80/78",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218346965952fcb51b9d",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Shulk",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "15-17",
-    "firstActionableFrame": "-",
-    "baseDamage": "5",
-    "angle": "52/70",
-    "baseKnockBackSetKnockback": "W: 43",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 2,
-    "name": "Air Slash (Hit 1, Late)",
-    "ownerId": 50,
-    "id": 2830
+    "InstanceId": "5968218346965952fcb51b9e",
+    "Name": "Air Slash (Hit 1, Late)",
+    "OwnerId": 50,
+    "Owner": "Shulk",
+    "HitboxActive": "15-17",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "5",
+    "Angle": "52/70",
+    "BaseKnockBackSetKnockback": "W: 43",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218346965952fcb51b9e",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Shulk",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "15-16",
-    "firstActionableFrame": "-",
-    "baseDamage": "5.5",
-    "angle": "48",
-    "baseKnockBackSetKnockback": "35",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "170",
-    "type": 2,
-    "name": "Air Slash (Hit 2)",
-    "ownerId": 50,
-    "id": 2831
+    "InstanceId": "5968218346965952fcb51b9f",
+    "Name": "Air Slash (Hit 2)",
+    "OwnerId": 50,
+    "Owner": "Shulk",
+    "HitboxActive": "15-16",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "5.5",
+    "Angle": "48",
+    "BaseKnockBackSetKnockback": "35",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "170",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218346965952fcb51b9f",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Shulk",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "Counters: 7-41 (Intangible: 6-7, Air: 7-8)",
-    "firstActionableFrame": "70",
-    "baseDamage": "-",
-    "angle": "-",
-    "baseKnockBackSetKnockback": "-",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "-",
-    "type": 2,
-    "name": "Vision",
-    "ownerId": 50,
-    "id": 2832
+    "InstanceId": "5968218346965952fcb51ba0",
+    "Name": "Vision",
+    "OwnerId": 50,
+    "Owner": "Shulk",
+    "HitboxActive": "Counters: 7-41 (Intangible: 6-7, Air: 7-8)",
+    "FirstActionableFrame": "70",
+    "BaseDamage": "-",
+    "Angle": "-",
+    "BaseKnockBackSetKnockback": "-",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "-",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218346965952fcb51ba0",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Shulk",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "Counters: 7-30 (Intangible: 6-7, Air: 7-8)",
-    "firstActionableFrame": "70",
-    "baseDamage": "-",
-    "angle": "-",
-    "baseKnockBackSetKnockback": "-",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "-",
-    "type": 2,
-    "name": "Vision (Depreciated)",
-    "ownerId": 50,
-    "id": 2833
+    "InstanceId": "5968218346965952fcb51ba1",
+    "Name": "Vision (Depreciated)",
+    "OwnerId": 50,
+    "Owner": "Shulk",
+    "HitboxActive": "Counters: 7-30 (Intangible: 6-7, Air: 7-8)",
+    "FirstActionableFrame": "70",
+    "BaseDamage": "-",
+    "Angle": "-",
+    "BaseKnockBackSetKnockback": "-",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "-",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218346965952fcb51ba1",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Shulk",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "Counters: 7-22 (Intangible: 6-7, Air: 7-8)",
-    "firstActionableFrame": "70",
-    "baseDamage": "-",
-    "angle": "-",
-    "baseKnockBackSetKnockback": "-",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "-",
-    "type": 2,
-    "name": "Vision (Depreciated)",
-    "ownerId": 50,
-    "id": 2834
+    "InstanceId": "5968218346965952fcb51ba2",
+    "Name": "Vision (Depreciated)",
+    "OwnerId": 50,
+    "Owner": "Shulk",
+    "HitboxActive": "Counters: 7-22 (Intangible: 6-7, Air: 7-8)",
+    "FirstActionableFrame": "70",
+    "BaseDamage": "-",
+    "Angle": "-",
+    "BaseKnockBackSetKnockback": "-",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "-",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218346965952fcb51ba2",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Shulk",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "Counters: 7-17 (Intangible: 6-7, Air: 7-8)",
-    "firstActionableFrame": "70",
-    "baseDamage": "-",
-    "angle": "-",
-    "baseKnockBackSetKnockback": "-",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "-",
-    "type": 2,
-    "name": "Vision (Depreciated)",
-    "ownerId": 50,
-    "id": 2835
+    "InstanceId": "5968218346965952fcb51ba3",
+    "Name": "Vision (Depreciated)",
+    "OwnerId": 50,
+    "Owner": "Shulk",
+    "HitboxActive": "Counters: 7-17 (Intangible: 6-7, Air: 7-8)",
+    "FirstActionableFrame": "70",
+    "BaseDamage": "-",
+    "Angle": "-",
+    "BaseKnockBackSetKnockback": "-",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "-",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218346965952fcb51ba3",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Shulk",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "Counters: 7-13 (Intangible: 6-7, Air: 7-8)",
-    "firstActionableFrame": "70",
-    "baseDamage": "-",
-    "angle": "-",
-    "baseKnockBackSetKnockback": "-",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "-",
-    "type": 2,
-    "name": "Vision (Depreciated)",
-    "ownerId": 50,
-    "id": 2836
+    "InstanceId": "5968218346965952fcb51ba4",
+    "Name": "Vision (Depreciated)",
+    "OwnerId": 50,
+    "Owner": "Shulk",
+    "HitboxActive": "Counters: 7-13 (Intangible: 6-7, Air: 7-8)",
+    "FirstActionableFrame": "70",
+    "BaseDamage": "-",
+    "Angle": "-",
+    "BaseKnockBackSetKnockback": "-",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "-",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218346965952fcb51ba4",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Shulk",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "Counters: 7-11 (Intangible: 6-7, Air: 7-8)",
-    "firstActionableFrame": "70",
-    "baseDamage": "-",
-    "angle": "-",
-    "baseKnockBackSetKnockback": "-",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "-",
-    "type": 2,
-    "name": "Vision (Depreciated)",
-    "ownerId": 50,
-    "id": 2837
+    "InstanceId": "5968218346965952fcb51ba5",
+    "Name": "Vision (Depreciated)",
+    "OwnerId": 50,
+    "Owner": "Shulk",
+    "HitboxActive": "Counters: 7-11 (Intangible: 6-7, Air: 7-8)",
+    "FirstActionableFrame": "70",
+    "BaseDamage": "-",
+    "Angle": "-",
+    "BaseKnockBackSetKnockback": "-",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "-",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218346965952fcb51ba5",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Shulk",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "45-46 (Intangible: 1-45)",
-    "firstActionableFrame": "97",
-    "baseDamage": "10/7 (1.3&#215;)",
-    "angle": "50",
-    "baseKnockBackSetKnockback": "70",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "84",
-    "type": 2,
-    "name": "Vision (Grounded, Attack)",
-    "ownerId": 50,
-    "id": 2838
+    "InstanceId": "5968218346965952fcb51ba6",
+    "Name": "Vision (Grounded, Attack)",
+    "OwnerId": 50,
+    "Owner": "Shulk",
+    "HitboxActive": "45-46 (Intangible: 1-45)",
+    "FirstActionableFrame": "97",
+    "BaseDamage": "10/7 (1.3&#215;)",
+    "Angle": "50",
+    "BaseKnockBackSetKnockback": "70",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "84",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218346965952fcb51ba6",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Shulk",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "45-46 (Intangible: 9-44)",
-    "firstActionableFrame": "97",
-    "baseDamage": "10/7 (1.3&#215;)",
-    "angle": "50",
-    "baseKnockBackSetKnockback": "70",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "84",
-    "type": 2,
-    "name": "Vision (Aerial, Attack)",
-    "ownerId": 50,
-    "id": 2839
+    "InstanceId": "5968218346965952fcb51ba7",
+    "Name": "Vision (Aerial, Attack)",
+    "OwnerId": 50,
+    "Owner": "Shulk",
+    "HitboxActive": "45-46 (Intangible: 9-44)",
+    "FirstActionableFrame": "97",
+    "BaseDamage": "10/7 (1.3&#215;)",
+    "Angle": "50",
+    "BaseKnockBackSetKnockback": "70",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "84",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218346965952fcb51ba7",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Shulk",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "29-30 (Intangible: 1-36)",
-    "firstActionableFrame": "65",
-    "baseDamage": "13/10 (1.3&#215;)",
-    "angle": "50",
-    "baseKnockBackSetKnockback": "70",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "94",
-    "type": 2,
-    "name": "Vision (Forward Attack)",
-    "ownerId": 50,
-    "id": 2840
+    "InstanceId": "5968218346965952fcb51ba8",
+    "Name": "Vision (Forward Attack)",
+    "OwnerId": 50,
+    "Owner": "Shulk",
+    "HitboxActive": "29-30 (Intangible: 1-36)",
+    "FirstActionableFrame": "65",
+    "BaseDamage": "13/10 (1.3&#215;)",
+    "Angle": "50",
+    "BaseKnockBackSetKnockback": "70",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "94",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218346965952fcb51ba8",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Shulk",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968218346965952fcb51ba9",
+    "Name": "Fthrow",
+    "OwnerId": 50,
+    "Owner": "Shulk",
+    "HitboxActive": null,
+    "FirstActionableFrame": null,
+    "BaseDamage": "3, 8",
+    "Angle": "45",
+    "BaseKnockBackSetKnockback": "60",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "70",
+    "MoveType": "throw",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218346965952fcb51ba9",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Shulk",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968218346965952fcb51baa",
+    "Name": "Bthrow",
+    "OwnerId": 50,
+    "Owner": "Shulk",
+    "HitboxActive": null,
+    "FirstActionableFrame": null,
+    "BaseDamage": "3, 9",
+    "Angle": "135",
+    "BaseKnockBackSetKnockback": "70",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "63",
+    "MoveType": "throw",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218346965952fcb51baa",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Shulk",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968218346965952fcb51bab",
+    "Name": "Uthrow",
+    "OwnerId": 50,
+    "Owner": "Shulk",
+    "HitboxActive": null,
+    "FirstActionableFrame": null,
+    "BaseDamage": "3, 4",
+    "Angle": "88",
+    "BaseKnockBackSetKnockback": "60",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "80",
+    "MoveType": "throw",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218346965952fcb51bab",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Shulk",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968218346965952fcb51bac",
+    "Name": "Dthrow",
+    "OwnerId": 50,
+    "Owner": "Shulk",
+    "HitboxActive": null,
+    "FirstActionableFrame": null,
+    "BaseDamage": "3, 4",
+    "Angle": "50",
+    "BaseKnockBackSetKnockback": "75",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "115",
+    "MoveType": "throw",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968218346965952fcb51bac",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Shulk",
+        "Title": ""
+      }
+    ]
   }
 ]

@@ -1,730 +1,1570 @@
 ﻿[
   {
-    "hitboxActive": "5",
-    "firstActionableFrame": "28",
-    "baseDamage": "2/2/3",
-    "angle": "60/60/92",
-    "baseKnockBackSetKnockback": "W: 35/20/30",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Jab 1",
-    "ownerId": 7,
-    "id": 367
+    "InstanceId": "5968210d46965952fcb50d10",
+    "Name": "Jab 1",
+    "OwnerId": 7,
+    "Owner": "Corrin",
+    "HitboxActive": "5",
+    "FirstActionableFrame": "28",
+    "BaseDamage": "2/2/3",
+    "Angle": "60/60/92",
+    "BaseKnockBackSetKnockback": "W: 35/20/30",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210d46965952fcb50d10",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Corrin",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "6",
-    "firstActionableFrame": "-",
-    "baseDamage": "2/2/3",
-    "angle": "60/60/110",
-    "baseKnockBackSetKnockback": "W: 35/20/30",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Jab 1 (Late)",
-    "ownerId": 7,
-    "id": 368
+    "InstanceId": "5968210d46965952fcb50d11",
+    "Name": "Jab 1 (Late)",
+    "OwnerId": 7,
+    "Owner": "Corrin",
+    "HitboxActive": "6",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "2/2/3",
+    "Angle": "60/60/110",
+    "BaseKnockBackSetKnockback": "W: 35/20/30",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210d46965952fcb50d11",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Corrin",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "4-5",
-    "firstActionableFrame": "30",
-    "baseDamage": "2",
-    "angle": "64/79/90",
-    "baseKnockBackSetKnockback": "35/35/30",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "22",
-    "type": 1,
-    "name": "Jab 2",
-    "ownerId": 7,
-    "id": 369
+    "InstanceId": "5968210d46965952fcb50d12",
+    "Name": "Jab 2",
+    "OwnerId": 7,
+    "Owner": "Corrin",
+    "HitboxActive": "4-5",
+    "FirstActionableFrame": "30",
+    "BaseDamage": "2",
+    "Angle": "64/79/90",
+    "BaseKnockBackSetKnockback": "35/35/30",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "22",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210d46965952fcb50d12",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Corrin",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "6-8",
-    "firstActionableFrame": "36",
-    "baseDamage": "3.3/5",
-    "angle": "50",
-    "baseKnockBackSetKnockback": "50",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "160/140",
-    "type": 1,
-    "name": "Jab 3",
-    "ownerId": 7,
-    "id": 370
+    "InstanceId": "5968210d46965952fcb50d13",
+    "Name": "Jab 3",
+    "OwnerId": 7,
+    "Owner": "Corrin",
+    "HitboxActive": "6-8",
+    "FirstActionableFrame": "36",
+    "BaseDamage": "3.3/5",
+    "Angle": "50",
+    "BaseKnockBackSetKnockback": "50",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "160/140",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210d46965952fcb50d13",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Corrin",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "0.9",
-    "angle": "361/94",
-    "baseKnockBackSetKnockback": "8",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "40",
-    "type": 1,
-    "name": "Rapid Jab",
-    "ownerId": 7,
-    "id": 371
+    "InstanceId": "5968210d46965952fcb50d14",
+    "Name": "Rapid Jab",
+    "OwnerId": 7,
+    "Owner": "Corrin",
+    "HitboxActive": "-",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "0.9",
+    "Angle": "361/94",
+    "BaseKnockBackSetKnockback": "8",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "40",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210d46965952fcb50d14",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Corrin",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "3-4",
-    "firstActionableFrame": "40",
-    "baseDamage": "3",
-    "angle": "50",
-    "baseKnockBackSetKnockback": "52",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "150",
-    "type": 1,
-    "name": "Rapid Jab Finisher",
-    "ownerId": 7,
-    "id": 372
+    "InstanceId": "5968210d46965952fcb50d15",
+    "Name": "Rapid Jab Finisher",
+    "OwnerId": 7,
+    "Owner": "Corrin",
+    "HitboxActive": "3-4",
+    "FirstActionableFrame": "40",
+    "BaseDamage": "3",
+    "Angle": "50",
+    "BaseKnockBackSetKnockback": "52",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "150",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210d46965952fcb50d15",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Corrin",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "11, 14, 17, 20, 23",
-    "firstActionableFrame": "56",
-    "baseDamage": "2",
-    "angle": "15",
-    "baseKnockBackSetKnockback": "W: 55/12/5",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Dash Attack (Hits 1-5)",
-    "ownerId": 7,
-    "id": 373
+    "InstanceId": "5968210d46965952fcb50d16",
+    "Name": "Dash Attack (Hits 1-5)",
+    "OwnerId": 7,
+    "Owner": "Corrin",
+    "HitboxActive": "11, 14, 17, 20, 23",
+    "FirstActionableFrame": "56",
+    "BaseDamage": "2",
+    "Angle": "15",
+    "BaseKnockBackSetKnockback": "W: 55/12/5",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210d46965952fcb50d16",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Corrin",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "26",
-    "firstActionableFrame": "-",
-    "baseDamage": "3",
-    "angle": "60",
-    "baseKnockBackSetKnockback": "40",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "160",
-    "type": 1,
-    "name": "Dash Attack (Hit 6)",
-    "ownerId": 7,
-    "id": 374
+    "InstanceId": "5968210d46965952fcb50d17",
+    "Name": "Dash Attack (Hit 6)",
+    "OwnerId": 7,
+    "Owner": "Corrin",
+    "HitboxActive": "26",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "3",
+    "Angle": "60",
+    "BaseKnockBackSetKnockback": "40",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "160",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210d46965952fcb50d17",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Corrin",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "8-10",
-    "firstActionableFrame": "35",
-    "baseDamage": "10.5",
-    "angle": "70",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Ftilt",
-    "ownerId": 7,
-    "id": 375
+    "InstanceId": "5968210d46965952fcb50d18",
+    "Name": "Ftilt",
+    "OwnerId": 7,
+    "Owner": "Corrin",
+    "HitboxActive": "8-10",
+    "FirstActionableFrame": "35",
+    "BaseDamage": "10.5",
+    "Angle": "70",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210d46965952fcb50d18",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Corrin",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "7-8",
-    "firstActionableFrame": "36",
-    "baseDamage": "9",
-    "angle": "88",
-    "baseKnockBackSetKnockback": "65",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "53",
-    "type": 1,
-    "name": "Utilt",
-    "ownerId": 7,
-    "id": 376
+    "InstanceId": "5968210d46965952fcb50d19",
+    "Name": "Utilt",
+    "OwnerId": 7,
+    "Owner": "Corrin",
+    "HitboxActive": "7-8",
+    "FirstActionableFrame": "36",
+    "BaseDamage": "9",
+    "Angle": "88",
+    "BaseKnockBackSetKnockback": "65",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "53",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210d46965952fcb50d19",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Corrin",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "9-16",
-    "firstActionableFrame": "-",
-    "baseDamage": "9/9/9/6",
-    "angle": "88",
-    "baseKnockBackSetKnockback": "65",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "53",
-    "type": 1,
-    "name": "Utilt (Late)",
-    "ownerId": 7,
-    "id": 377
+    "InstanceId": "5968210d46965952fcb50d1a",
+    "Name": "Utilt (Late)",
+    "OwnerId": 7,
+    "Owner": "Corrin",
+    "HitboxActive": "9-16",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "9/9/9/6",
+    "Angle": "88",
+    "BaseKnockBackSetKnockback": "65",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "53",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210d46965952fcb50d1a",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Corrin",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "5-7",
-    "firstActionableFrame": "31",
-    "baseDamage": "7.5",
-    "angle": "100",
-    "baseKnockBackSetKnockback": "50",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "80",
-    "type": 1,
-    "name": "Dtilt",
-    "ownerId": 7,
-    "id": 378
+    "InstanceId": "5968210d46965952fcb50d1b",
+    "Name": "Dtilt",
+    "OwnerId": 7,
+    "Owner": "Corrin",
+    "HitboxActive": "5-7",
+    "FirstActionableFrame": "31",
+    "BaseDamage": "7.5",
+    "Angle": "100",
+    "BaseKnockBackSetKnockback": "50",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "80",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210d46965952fcb50d1b",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Corrin",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "12-68 (Rehit rate: 5)",
-    "firstActionableFrame": "-",
-    "baseDamage": "0.5",
-    "angle": "80",
-    "baseKnockBackSetKnockback": "20",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "1",
-    "type": 1,
-    "name": "Fsmash (Charge)",
-    "ownerId": 7,
-    "id": 379
+    "InstanceId": "5968210d46965952fcb50d1c",
+    "Name": "Fsmash (Charge)",
+    "OwnerId": 7,
+    "Owner": "Corrin",
+    "HitboxActive": "12-68 (Rehit rate: 5)",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "0.5",
+    "Angle": "80",
+    "BaseKnockBackSetKnockback": "20",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "1",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210d46965952fcb50d1c",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Corrin",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "17 (Low Priority)",
-    "firstActionableFrame": "57",
-    "baseDamage": "12/11",
-    "angle": "50",
-    "baseKnockBackSetKnockback": "35",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "99",
-    "type": 1,
-    "name": "Fsmash (Early)",
-    "ownerId": 7,
-    "id": 380
+    "InstanceId": "5968210d46965952fcb50d1d",
+    "Name": "Fsmash (Early)",
+    "OwnerId": 7,
+    "Owner": "Corrin",
+    "HitboxActive": "17 (Low Priority)",
+    "FirstActionableFrame": "57",
+    "BaseDamage": "12/11",
+    "Angle": "50",
+    "BaseKnockBackSetKnockback": "35",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "99",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210d46965952fcb50d1d",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Corrin",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "18 (Low Priority)",
-    "firstActionableFrame": "-",
-    "baseDamage": "12/11/15.2",
-    "angle": "50",
-    "baseKnockBackSetKnockback": "35",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "99/99/105",
-    "type": 1,
-    "name": "Fsmash",
-    "ownerId": 7,
-    "id": 381
+    "InstanceId": "5968210d46965952fcb50d1e",
+    "Name": "Fsmash",
+    "OwnerId": 7,
+    "Owner": "Corrin",
+    "HitboxActive": "18 (Low Priority)",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "12/11/15.2",
+    "Angle": "50",
+    "BaseKnockBackSetKnockback": "35",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "99/99/105",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210d46965952fcb50d1e",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Corrin",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "19-22 (Low Priority)",
-    "firstActionableFrame": "-",
-    "baseDamage": "12/11/16.5",
-    "angle": "50",
-    "baseKnockBackSetKnockback": "35",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "99/99/105",
-    "type": 1,
-    "name": "Fsmash (Late)",
-    "ownerId": 7,
-    "id": 382
+    "InstanceId": "5968210d46965952fcb50d1f",
+    "Name": "Fsmash (Late)",
+    "OwnerId": 7,
+    "Owner": "Corrin",
+    "HitboxActive": "19-22 (Low Priority)",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "12/11/16.5",
+    "Angle": "50",
+    "BaseKnockBackSetKnockback": "35",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "99/99/105",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210d46965952fcb50d1f",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Corrin",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "13-15",
-    "firstActionableFrame": "52",
-    "baseDamage": "13/13/15/10",
-    "angle": "93/93/93/95",
-    "baseKnockBackSetKnockback": "50/50/50/75",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "86/86/86/75",
-    "type": 1,
-    "name": "Usmash",
-    "ownerId": 7,
-    "id": 383
+    "InstanceId": "5968210d46965952fcb50d20",
+    "Name": "Usmash",
+    "OwnerId": 7,
+    "Owner": "Corrin",
+    "HitboxActive": "13-15",
+    "FirstActionableFrame": "52",
+    "BaseDamage": "13/13/15/10",
+    "Angle": "93/93/93/95",
+    "BaseKnockBackSetKnockback": "50/50/50/75",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "86/86/86/75",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210d46965952fcb50d20",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Corrin",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "13-15",
-    "firstActionableFrame": "54",
-    "baseDamage": "11/9/14",
-    "angle": "32/35/35",
-    "baseKnockBackSetKnockback": "40/50/50",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "95",
-    "type": 1,
-    "name": "Dsmash",
-    "ownerId": 7,
-    "id": 384
+    "InstanceId": "5968210d46965952fcb50d21",
+    "Name": "Dsmash",
+    "OwnerId": 7,
+    "Owner": "Corrin",
+    "HitboxActive": "13-15",
+    "FirstActionableFrame": "54",
+    "BaseDamage": "11/9/14",
+    "Angle": "32/35/35",
+    "BaseKnockBackSetKnockback": "40/50/50",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "95",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210d46965952fcb50d21",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Corrin",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "7-8",
-    "firstActionableFrame": "31",
-    "baseDamage": "",
-    "angle": "",
-    "baseKnockBackSetKnockback": "",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "",
-    "type": 1,
-    "name": "Standing Grab",
-    "ownerId": 7,
-    "id": 386
+    "InstanceId": "5968210d46965952fcb50d22",
+    "Name": "Standing Grab",
+    "OwnerId": 7,
+    "Owner": "Corrin",
+    "HitboxActive": "7-8",
+    "FirstActionableFrame": "31",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210d46965952fcb50d22",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Corrin",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "8-9",
-    "firstActionableFrame": "38",
-    "baseDamage": "",
-    "angle": "",
-    "baseKnockBackSetKnockback": "",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "",
-    "type": 1,
-    "name": "Dash Grab",
-    "ownerId": 7,
-    "id": 387
+    "InstanceId": "5968210d46965952fcb50d23",
+    "Name": "Dash Grab",
+    "OwnerId": 7,
+    "Owner": "Corrin",
+    "HitboxActive": "8-9",
+    "FirstActionableFrame": "38",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210d46965952fcb50d23",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Corrin",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "9-10",
-    "firstActionableFrame": "36",
-    "baseDamage": "",
-    "angle": "",
-    "baseKnockBackSetKnockback": "",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "",
-    "type": 1,
-    "name": "Pivot Grab",
-    "ownerId": 7,
-    "id": 388
+    "InstanceId": "5968210d46965952fcb50d24",
+    "Name": "Pivot Grab",
+    "OwnerId": 7,
+    "Owner": "Corrin",
+    "HitboxActive": "9-10",
+    "FirstActionableFrame": "36",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210d46965952fcb50d24",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Corrin",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "5, 2",
-    "angle": "50",
-    "baseKnockBackSetKnockback": "80",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "70",
-    "type": 3,
-    "name": "Fthrow",
-    "ownerId": 7,
-    "id": 390
+    "InstanceId": "5968210d46965952fcb50d25",
+    "Name": "Spotdodge",
+    "OwnerId": 7,
+    "Owner": "Corrin",
+    "HitboxActive": "3-17",
+    "FirstActionableFrame": "27",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210d46965952fcb50d25",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Corrin",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "6.5, 2",
-    "angle": "130",
-    "baseKnockBackSetKnockback": "60",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "110",
-    "type": 3,
-    "name": "Bthrow",
-    "ownerId": 7,
-    "id": 391
+    "InstanceId": "5968210d46965952fcb50d26",
+    "Name": "Forward Roll",
+    "OwnerId": 7,
+    "Owner": "Corrin",
+    "HitboxActive": "4-14",
+    "FirstActionableFrame": "31",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210d46965952fcb50d26",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Corrin",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "6.5, 3",
-    "angle": "85",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "198",
-    "type": 3,
-    "name": "Uthrow",
-    "ownerId": 7,
-    "id": 392
+    "InstanceId": "5968210d46965952fcb50d27",
+    "Name": "Back Roll",
+    "OwnerId": 7,
+    "Owner": "Corrin",
+    "HitboxActive": "4-14",
+    "FirstActionableFrame": "31",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210d46965952fcb50d27",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Corrin",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "6.5, 3",
-    "angle": "70",
-    "baseKnockBackSetKnockback": "80",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "150",
-    "type": 3,
-    "name": "Dthrow",
-    "ownerId": 7,
-    "id": 393
+    "InstanceId": "5968210d46965952fcb50d28",
+    "Name": "Airdodge",
+    "OwnerId": 7,
+    "Owner": "Corrin",
+    "HitboxActive": "3-27",
+    "FirstActionableFrame": "33",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210d46965952fcb50d28",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Corrin",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "6-7",
-    "firstActionableFrame": "47",
-    "baseDamage": "7",
-    "angle": "70",
-    "baseKnockBackSetKnockback": "45",
-    "landingLag": "13",
-    "autoCancel": "1-5, 50&gt;",
-    "knockbackGrowth": "105",
-    "type": 0,
-    "name": "Nair",
-    "ownerId": 7,
-    "id": 399
+    "InstanceId": "5968210d46965952fcb50d29",
+    "Name": "Nair",
+    "OwnerId": 7,
+    "Owner": "Corrin",
+    "HitboxActive": "6-7",
+    "FirstActionableFrame": "47",
+    "BaseDamage": "7",
+    "Angle": "70",
+    "BaseKnockBackSetKnockback": "45",
+    "LandingLag": "13",
+    "AutoCancel": "1-5, 50&gt;",
+    "KnockbackGrowth": "105",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210d46965952fcb50d29",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Corrin",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "8-19",
-    "firstActionableFrame": "-",
-    "baseDamage": "5.5",
-    "angle": "70",
-    "baseKnockBackSetKnockback": "45",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "105",
-    "type": 0,
-    "name": "Nair (Late)",
-    "ownerId": 7,
-    "id": 400
+    "InstanceId": "5968210d46965952fcb50d2a",
+    "Name": "Nair (Late)",
+    "OwnerId": 7,
+    "Owner": "Corrin",
+    "HitboxActive": "8-19",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "5.5",
+    "Angle": "70",
+    "BaseKnockBackSetKnockback": "45",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "105",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210d46965952fcb50d2a",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Corrin",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "7-10",
-    "firstActionableFrame": "36",
-    "baseDamage": "7.5",
-    "angle": "65",
-    "baseKnockBackSetKnockback": "40",
-    "landingLag": "14",
-    "autoCancel": "1-6, 30&gt;",
-    "knockbackGrowth": "99",
-    "type": 0,
-    "name": "Fair",
-    "ownerId": 7,
-    "id": 401
+    "InstanceId": "5968210d46965952fcb50d2b",
+    "Name": "Fair",
+    "OwnerId": 7,
+    "Owner": "Corrin",
+    "HitboxActive": "7-10",
+    "FirstActionableFrame": "36",
+    "BaseDamage": "7.5",
+    "Angle": "65",
+    "BaseKnockBackSetKnockback": "40",
+    "LandingLag": "14",
+    "AutoCancel": "1-6, 30&gt;",
+    "KnockbackGrowth": "99",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210d46965952fcb50d2b",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Corrin",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "13",
-    "firstActionableFrame": "42",
-    "baseDamage": "11",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "40",
-    "landingLag": "14",
-    "autoCancel": "1-5, 42&gt;",
-    "knockbackGrowth": "100",
-    "type": 0,
-    "name": "Bair",
-    "ownerId": 7,
-    "id": 402
+    "InstanceId": "5968210d46965952fcb50d2c",
+    "Name": "Bair",
+    "OwnerId": 7,
+    "Owner": "Corrin",
+    "HitboxActive": "13",
+    "FirstActionableFrame": "42",
+    "BaseDamage": "11",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "40",
+    "LandingLag": "14",
+    "AutoCancel": "1-5, 42&gt;",
+    "KnockbackGrowth": "100",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210d46965952fcb50d2c",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Corrin",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "14-16",
-    "firstActionableFrame": "-",
-    "baseDamage": "9",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "40",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "100",
-    "type": 0,
-    "name": "Bair (Late)",
-    "ownerId": 7,
-    "id": 403
+    "InstanceId": "5968210d46965952fcb50d2d",
+    "Name": "Bair (Late)",
+    "OwnerId": 7,
+    "Owner": "Corrin",
+    "HitboxActive": "14-16",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "9",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "40",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "100",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210d46965952fcb50d2d",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Corrin",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "7-12",
-    "firstActionableFrame": "38",
-    "baseDamage": "9",
-    "angle": "70",
-    "baseKnockBackSetKnockback": "55",
-    "landingLag": "15",
-    "autoCancel": "1-3, 40&gt;",
-    "knockbackGrowth": "99",
-    "type": 0,
-    "name": "Uair",
-    "ownerId": 7,
-    "id": 404
+    "InstanceId": "5968210d46965952fcb50d2e",
+    "Name": "Uair",
+    "OwnerId": 7,
+    "Owner": "Corrin",
+    "HitboxActive": "7-12",
+    "FirstActionableFrame": "38",
+    "BaseDamage": "9",
+    "Angle": "70",
+    "BaseKnockBackSetKnockback": "55",
+    "LandingLag": "15",
+    "AutoCancel": "1-3, 40&gt;",
+    "KnockbackGrowth": "99",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210d46965952fcb50d2e",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Corrin",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "12-28 (Rehit rate: 2)",
-    "firstActionableFrame": "52",
-    "baseDamage": "2",
-    "angle": "120/260/120",
-    "baseKnockBackSetKnockback": "W: 15/80/35",
-    "landingLag": "26",
-    "autoCancel": "1-11, 41&gt;",
-    "knockbackGrowth": "100",
-    "type": 0,
-    "name": "Dair",
-    "ownerId": 7,
-    "id": 405
+    "InstanceId": "5968210d46965952fcb50d2f",
+    "Name": "Dair",
+    "OwnerId": 7,
+    "Owner": "Corrin",
+    "HitboxActive": "12-28 (Rehit rate: 2)",
+    "FirstActionableFrame": "52",
+    "BaseDamage": "2",
+    "Angle": "120/260/120",
+    "BaseKnockBackSetKnockback": "W: 15/80/35",
+    "LandingLag": "26",
+    "AutoCancel": "1-11, 41&gt;",
+    "KnockbackGrowth": "100",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210d46965952fcb50d2f",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Corrin",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "1-4",
-    "firstActionableFrame": "-",
-    "baseDamage": "3",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "50",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "110",
-    "type": 0,
-    "name": "Dair (Landing)",
-    "ownerId": 7,
-    "id": 406
+    "InstanceId": "5968210d46965952fcb50d30",
+    "Name": "Dair (Landing)",
+    "OwnerId": 7,
+    "Owner": "Corrin",
+    "HitboxActive": "1-4",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "3",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "50",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "110",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210d46965952fcb50d30",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Corrin",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "15-68 (Low Priority)",
-    "firstActionableFrame": "60",
-    "baseDamage": "4",
-    "angle": "55",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "80",
-    "type": 2,
-    "name": "Dragon Fang Shot (Shot, No Charge)",
-    "ownerId": 7,
-    "id": 407
+    "InstanceId": "5968210d46965952fcb50d31",
+    "Name": "Dragon Fang Shot (Shot, No Charge)",
+    "OwnerId": 7,
+    "Owner": "Corrin",
+    "HitboxActive": "15-68 (Low Priority)",
+    "FirstActionableFrame": "60",
+    "BaseDamage": "4",
+    "Angle": "55",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "80",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210d46965952fcb50d31",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Corrin",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "24-25 (Low Priority)",
-    "firstActionableFrame": "-",
-    "baseDamage": "10 (+3)",
-    "angle": "50",
-    "baseKnockBackSetKnockback": "50",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 2,
-    "name": "Dragon Fang Shot (Bite, No Charge)",
-    "ownerId": 7,
-    "id": 408
+    "InstanceId": "5968210d46965952fcb50d32",
+    "Name": "Dragon Fang Shot (Bite, No Charge)",
+    "OwnerId": 7,
+    "Owner": "Corrin",
+    "HitboxActive": "24-25 (Low Priority)",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "10 (+3)",
+    "Angle": "50",
+    "BaseKnockBackSetKnockback": "50",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210d46965952fcb50d32",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Corrin",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "45-96 (Low Priority)",
-    "firstActionableFrame": "121",
-    "baseDamage": "8~",
-    "angle": "55",
-    "baseKnockBackSetKnockback": "50",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "80",
-    "type": 2,
-    "name": "Dragon Fang Shot (Shot, Fully Charged)",
-    "ownerId": 7,
-    "id": 409
+    "InstanceId": "5968210d46965952fcb50d33",
+    "Name": "Dragon Fang Shot (Shot, Fully Charged)",
+    "OwnerId": 7,
+    "Owner": "Corrin",
+    "HitboxActive": "45-96 (Low Priority)",
+    "FirstActionableFrame": "121",
+    "BaseDamage": "8~",
+    "Angle": "55",
+    "BaseKnockBackSetKnockback": "50",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "80",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210d46965952fcb50d33",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Corrin",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "85-86 (Low Priority)",
-    "firstActionableFrame": "-",
-    "baseDamage": "20 (+3)",
-    "angle": "50",
-    "baseKnockBackSetKnockback": "10",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 2,
-    "name": "Dragon Fang Shot (Bite, Fully Charged)",
-    "ownerId": 7,
-    "id": 410
+    "InstanceId": "5968210d46965952fcb50d34",
+    "Name": "Dragon Fang Shot (Bite, Fully Charged)",
+    "OwnerId": 7,
+    "Owner": "Corrin",
+    "HitboxActive": "85-86 (Low Priority)",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "20 (+3)",
+    "Angle": "50",
+    "BaseKnockBackSetKnockback": "10",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210d46965952fcb50d34",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Corrin",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "10-11 (Low Priority)",
-    "firstActionableFrame": "42",
-    "baseDamage": "8/15",
-    "angle": "50/40",
-    "baseKnockBackSetKnockback": "25/30",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 2,
-    "name": "Dragon Lunge (Aerial)",
-    "ownerId": 7,
-    "id": 411
+    "InstanceId": "5968210d46965952fcb50d35",
+    "Name": "Dragon Lunge (Aerial)",
+    "OwnerId": 7,
+    "Owner": "Corrin",
+    "HitboxActive": "10-11 (Low Priority)",
+    "FirstActionableFrame": "42",
+    "BaseDamage": "8/15",
+    "Angle": "50/40",
+    "BaseKnockBackSetKnockback": "25/30",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210d46965952fcb50d35",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Corrin",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "4",
-    "firstActionableFrame": "72",
-    "baseDamage": "-",
-    "angle": "-",
-    "baseKnockBackSetKnockback": "-",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "-",
-    "type": 2,
-    "name": "Dragon Lunge (Special Hop)",
-    "ownerId": 7,
-    "id": 412
+    "InstanceId": "5968210d46965952fcb50d36",
+    "Name": "Dragon Lunge (Special Hop)",
+    "OwnerId": 7,
+    "Owner": "Corrin",
+    "HitboxActive": "4",
+    "FirstActionableFrame": "72",
+    "BaseDamage": "-",
+    "Angle": "-",
+    "BaseKnockBackSetKnockback": "-",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "-",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210d46965952fcb50d36",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Corrin",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "4-5 (Low Priority)",
-    "firstActionableFrame": "42",
-    "baseDamage": "7/15",
-    "angle": "50/40",
-    "baseKnockBackSetKnockback": "25/30",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 2,
-    "name": "Dragon Lunge (Out of Special Hop)",
-    "ownerId": 7,
-    "id": 413
+    "InstanceId": "5968210d46965952fcb50d37",
+    "Name": "Dragon Lunge (Out of Special Hop)",
+    "OwnerId": 7,
+    "Owner": "Corrin",
+    "HitboxActive": "4-5 (Low Priority)",
+    "FirstActionableFrame": "42",
+    "BaseDamage": "7/15",
+    "Angle": "50/40",
+    "BaseKnockBackSetKnockback": "25/30",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210d46965952fcb50d37",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Corrin",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "10-17",
-    "firstActionableFrame": "46",
-    "baseDamage": "12",
-    "angle": "55",
-    "baseKnockBackSetKnockback": "70",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "90",
-    "type": 2,
-    "name": "Dragon Lunge (Pin, Forward)",
-    "ownerId": 7,
-    "id": 414
+    "InstanceId": "5968210d46965952fcb50d38",
+    "Name": "Dragon Lunge (Pin, Forward)",
+    "OwnerId": 7,
+    "Owner": "Corrin",
+    "HitboxActive": "10-17",
+    "FirstActionableFrame": "46",
+    "BaseDamage": "12",
+    "Angle": "55",
+    "BaseKnockBackSetKnockback": "70",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "90",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210d46965952fcb50d38",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Corrin",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "18-24",
-    "firstActionableFrame": "-",
-    "baseDamage": "7",
-    "angle": "55",
-    "baseKnockBackSetKnockback": "70",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "90",
-    "type": 2,
-    "name": "Dragon Lunge (Pin, Forward)",
-    "ownerId": 7,
-    "id": 415
+    "InstanceId": "5968210d46965952fcb50d39",
+    "Name": "Dragon Lunge (Pin, Forward)",
+    "OwnerId": 7,
+    "Owner": "Corrin",
+    "HitboxActive": "18-24",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "7",
+    "Angle": "55",
+    "BaseKnockBackSetKnockback": "70",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "90",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210d46965952fcb50d39",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Corrin",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "6-7",
-    "firstActionableFrame": "46",
-    "baseDamage": "5",
-    "angle": "48",
-    "baseKnockBackSetKnockback": "70",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "110",
-    "type": 2,
-    "name": "Dragon Lunge (Pin, Behind, Early)",
-    "ownerId": 7,
-    "id": 416
+    "InstanceId": "5968210d46965952fcb50d3a",
+    "Name": "Dragon Lunge (Pin, Behind, Early)",
+    "OwnerId": 7,
+    "Owner": "Corrin",
+    "HitboxActive": "6-7",
+    "FirstActionableFrame": "46",
+    "BaseDamage": "5",
+    "Angle": "48",
+    "BaseKnockBackSetKnockback": "70",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "110",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210d46965952fcb50d3a",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Corrin",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "14-21",
-    "firstActionableFrame": "-",
-    "baseDamage": "12",
-    "angle": "55",
-    "baseKnockBackSetKnockback": "70",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "90",
-    "type": 2,
-    "name": "Dragon Lunge (Pin, Behind)",
-    "ownerId": 7,
-    "id": 417
+    "InstanceId": "5968210d46965952fcb50d3b",
+    "Name": "Dragon Lunge (Pin, Behind)",
+    "OwnerId": 7,
+    "Owner": "Corrin",
+    "HitboxActive": "14-21",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "12",
+    "Angle": "55",
+    "BaseKnockBackSetKnockback": "70",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "90",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210d46965952fcb50d3b",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Corrin",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "22-28",
-    "firstActionableFrame": "-",
-    "baseDamage": "7",
-    "angle": "55",
-    "baseKnockBackSetKnockback": "70",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "90",
-    "type": 2,
-    "name": "Dragon Lunge (Pin, Behind, Late)",
-    "ownerId": 7,
-    "id": 418
+    "InstanceId": "5968210d46965952fcb50d3c",
+    "Name": "Dragon Lunge (Pin, Behind, Late)",
+    "OwnerId": 7,
+    "Owner": "Corrin",
+    "HitboxActive": "22-28",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "7",
+    "Angle": "55",
+    "BaseKnockBackSetKnockback": "70",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "90",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210d46965952fcb50d3c",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Corrin",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "Intangible: 2-5",
-    "firstActionableFrame": "44",
-    "baseDamage": "-",
-    "angle": "-",
-    "baseKnockBackSetKnockback": "-",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "-",
-    "type": 2,
-    "name": "Dragon Lunge (Pin, Jump)",
-    "ownerId": 7,
-    "id": 419
+    "InstanceId": "5968210d46965952fcb50d3d",
+    "Name": "Dragon Lunge (Pin, Jump)",
+    "OwnerId": 7,
+    "Owner": "Corrin",
+    "HitboxActive": "Intangible: 2-5",
+    "FirstActionableFrame": "44",
+    "BaseDamage": "-",
+    "Angle": "-",
+    "BaseKnockBackSetKnockback": "-",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "-",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210d46965952fcb50d3d",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Corrin",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "18 (Intangible: 10-17)",
-    "firstActionableFrame": "-",
-    "baseDamage": "4.5/0",
-    "angle": "85/0",
-    "baseKnockBackSetKnockback": "W: 150/35",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 2,
-    "name": "Dragon Ascent (Hit 1)",
-    "ownerId": 7,
-    "id": 420
+    "InstanceId": "5968210d46965952fcb50d3e",
+    "Name": "Dragon Ascent (Hit 1)",
+    "OwnerId": 7,
+    "Owner": "Corrin",
+    "HitboxActive": "18-19 (Intangible: 10-17)",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "4.5/0",
+    "Angle": "85/0",
+    "BaseKnockBackSetKnockback": "W: 150/35",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210d46965952fcb50d3e",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Corrin",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "20, 22, 24, 26, 28, 30",
-    "firstActionableFrame": "-",
-    "baseDamage": "1",
-    "angle": "80/105/68",
-    "baseKnockBackSetKnockback": "W: 150",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 2,
-    "name": "Dragon Ascent (Hits 2-7)",
-    "ownerId": 7,
-    "id": 421
+    "InstanceId": "5968210d46965952fcb50d3f",
+    "Name": "Dragon Ascent (Hits 2-7)",
+    "OwnerId": 7,
+    "Owner": "Corrin",
+    "HitboxActive": "20, 21, 22, 23-24, 25-26, 27-28",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "1",
+    "Angle": "80/105/68",
+    "BaseKnockBackSetKnockback": "W: 150",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210d46965952fcb50d3f",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Corrin",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "32",
-    "firstActionableFrame": "-",
-    "baseDamage": "3",
-    "angle": "65",
-    "baseKnockBackSetKnockback": "70",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "155",
-    "type": 2,
-    "name": "Dragon Ascent (Hit 8)",
-    "ownerId": 7,
-    "id": 422
+    "InstanceId": "5968210d46965952fcb50d40",
+    "Name": "Dragon Ascent (Hit 8)",
+    "OwnerId": 7,
+    "Owner": "Corrin",
+    "HitboxActive": "29-30",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "3",
+    "Angle": "65",
+    "BaseKnockBackSetKnockback": "70",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "155",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210d46965952fcb50d40",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Corrin",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "Counter: 7-24 (Intangible: 6-7)",
-    "firstActionableFrame": "64",
-    "baseDamage": "-",
-    "angle": "-",
-    "baseKnockBackSetKnockback": "-",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "-",
-    "type": 2,
-    "name": "Counter Surge",
-    "ownerId": 7,
-    "id": 423
+    "InstanceId": "5968210d46965952fcb50d41",
+    "Name": "Counter Surge",
+    "OwnerId": 7,
+    "Owner": "Corrin",
+    "HitboxActive": "Counter: 7-24 (Intangible: 6-7)",
+    "FirstActionableFrame": "64",
+    "BaseDamage": "-",
+    "Angle": "-",
+    "BaseKnockBackSetKnockback": "-",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "-",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210d46965952fcb50d41",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Corrin",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "26 (Intangible: 1-49)",
-    "firstActionableFrame": "50",
-    "baseDamage": "8 (1.2&#215;)",
-    "angle": "80",
-    "baseKnockBackSetKnockback": "90",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "74",
-    "type": 2,
-    "name": "Counter Surge (Attack)",
-    "ownerId": 7,
-    "id": 424
+    "InstanceId": "5968210d46965952fcb50d42",
+    "Name": "Counter Surge (Attack)",
+    "OwnerId": 7,
+    "Owner": "Corrin",
+    "HitboxActive": "26 (Intangible: 1-49)",
+    "FirstActionableFrame": "50",
+    "BaseDamage": "8 (1.2&#215;)",
+    "Angle": "80",
+    "BaseKnockBackSetKnockback": "90",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "74",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210d46965952fcb50d42",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Corrin",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "27-30",
-    "firstActionableFrame": "-",
-    "baseDamage": "8 (1.3&#215;)",
-    "angle": "90",
-    "baseKnockBackSetKnockback": "90",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "68",
-    "type": 2,
-    "name": "Counter Surge (Attack, Late)",
-    "ownerId": 7,
-    "id": 425
+    "InstanceId": "5968210d46965952fcb50d43",
+    "Name": "Counter Surge (Attack, Late)",
+    "OwnerId": 7,
+    "Owner": "Corrin",
+    "HitboxActive": "27-30",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "8 (1.3&#215;)",
+    "Angle": "90",
+    "BaseKnockBackSetKnockback": "90",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "68",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210d46965952fcb50d43",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Corrin",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968210d46965952fcb50d44",
+    "Name": "Fthrow",
+    "OwnerId": 7,
+    "Owner": "Corrin",
+    "HitboxActive": null,
+    "FirstActionableFrame": null,
+    "BaseDamage": "5, 2",
+    "Angle": "50",
+    "BaseKnockBackSetKnockback": "80",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "70",
+    "MoveType": "throw",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210d46965952fcb50d44",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Corrin",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968210d46965952fcb50d45",
+    "Name": "Bthrow",
+    "OwnerId": 7,
+    "Owner": "Corrin",
+    "HitboxActive": null,
+    "FirstActionableFrame": null,
+    "BaseDamage": "6.5, 2",
+    "Angle": "130",
+    "BaseKnockBackSetKnockback": "60",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "110",
+    "MoveType": "throw",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210d46965952fcb50d45",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Corrin",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968210d46965952fcb50d46",
+    "Name": "Uthrow",
+    "OwnerId": 7,
+    "Owner": "Corrin",
+    "HitboxActive": null,
+    "FirstActionableFrame": null,
+    "BaseDamage": "6.5, 3",
+    "Angle": "85",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "198",
+    "MoveType": "throw",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210d46965952fcb50d46",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Corrin",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968210d46965952fcb50d47",
+    "Name": "Dthrow",
+    "OwnerId": 7,
+    "Owner": "Corrin",
+    "HitboxActive": null,
+    "FirstActionableFrame": null,
+    "BaseDamage": "6.5, 3",
+    "Angle": "70",
+    "BaseKnockBackSetKnockback": "80",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "150",
+    "MoveType": "throw",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968210d46965952fcb50d47",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Corrin",
+        "Title": ""
+      }
+    ]
   }
 ]

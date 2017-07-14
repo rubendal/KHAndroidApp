@@ -1,786 +1,1682 @@
 ﻿[
   {
-    "hitboxActive": "7-8",
-    "firstActionableFrame": "28",
-    "baseDamage": "2.5",
-    "angle": "95/80/361/361",
-    "baseKnockBackSetKnockback": "35/35/30/30",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "37",
-    "type": 1,
-    "name": "Jab 1",
-    "ownerId": 21,
-    "id": 1112
+    "InstanceId": "5968213446965952fcb5117b",
+    "Name": "Jab 1",
+    "OwnerId": 21,
+    "Owner": "Link",
+    "HitboxActive": "7-8",
+    "FirstActionableFrame": "28",
+    "BaseDamage": "2.5",
+    "Angle": "95/80/361/361",
+    "BaseKnockBackSetKnockback": "35/35/30/30",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "37",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213446965952fcb5117b",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Link",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "6-7",
-    "firstActionableFrame": "21",
-    "baseDamage": "2.5",
-    "angle": "90/78/60/50",
-    "baseKnockBackSetKnockback": "38",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "10",
-    "type": 1,
-    "name": "Jab 2",
-    "ownerId": 21,
-    "id": 1113
+    "InstanceId": "5968213446965952fcb5117c",
+    "Name": "Jab 2",
+    "OwnerId": 21,
+    "Owner": "Link",
+    "HitboxActive": "6-7",
+    "FirstActionableFrame": "21",
+    "BaseDamage": "2.5",
+    "Angle": "90/78/60/50",
+    "BaseKnockBackSetKnockback": "38",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "10",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213446965952fcb5117c",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Link",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "6-10",
-    "firstActionableFrame": "37",
-    "baseDamage": "5",
-    "angle": "30",
-    "baseKnockBackSetKnockback": "70",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "50",
-    "type": 1,
-    "name": "Jab 3",
-    "ownerId": 21,
-    "id": 1114
+    "InstanceId": "5968213446965952fcb5117d",
+    "Name": "Jab 3",
+    "OwnerId": 21,
+    "Owner": "Link",
+    "HitboxActive": "6-10",
+    "FirstActionableFrame": "37",
+    "BaseDamage": "5",
+    "Angle": "30",
+    "BaseKnockBackSetKnockback": "70",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "50",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213446965952fcb5117d",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Link",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "20-23",
-    "firstActionableFrame": "57",
-    "baseDamage": "14/13/12",
-    "angle": "45/50/55",
-    "baseKnockBackSetKnockback": "70/85/85",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "85/85/77",
-    "type": 1,
-    "name": "Dash Attack",
-    "ownerId": 21,
-    "id": 1115
+    "InstanceId": "5968213446965952fcb5117e",
+    "Name": "Dash Attack",
+    "OwnerId": 21,
+    "Owner": "Link",
+    "HitboxActive": "20-23",
+    "FirstActionableFrame": "57",
+    "BaseDamage": "14/13/12",
+    "Angle": "45/50/55",
+    "BaseKnockBackSetKnockback": "70/85/85",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "85/85/77",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213446965952fcb5117e",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Link",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "15-19",
-    "firstActionableFrame": "38",
-    "baseDamage": "13",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "55",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "82",
-    "type": 1,
-    "name": "Ftilt",
-    "ownerId": 21,
-    "id": 1116
+    "InstanceId": "5968213446965952fcb5117f",
+    "Name": "Ftilt",
+    "OwnerId": 21,
+    "Owner": "Link",
+    "HitboxActive": "15-19",
+    "FirstActionableFrame": "38",
+    "BaseDamage": "13",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "55",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "82",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213446965952fcb5117f",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Link",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "8-12",
-    "firstActionableFrame": "36",
-    "baseDamage": "9",
-    "angle": "95/85/85/85",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "122/130/123/124",
-    "type": 1,
-    "name": "Utilt",
-    "ownerId": 21,
-    "id": 1117
+    "InstanceId": "5968213446965952fcb51180",
+    "Name": "Utilt",
+    "OwnerId": 21,
+    "Owner": "Link",
+    "HitboxActive": "8-12",
+    "FirstActionableFrame": "36",
+    "BaseDamage": "9",
+    "Angle": "95/85/85/85",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "122/130/123/124",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213446965952fcb51180",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Link",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "11-12",
-    "firstActionableFrame": "29",
-    "baseDamage": "11",
-    "angle": "280/80",
-    "baseKnockBackSetKnockback": "0/90",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "62/30",
-    "type": 1,
-    "name": "Dtilt",
-    "ownerId": 21,
-    "id": 1118
+    "InstanceId": "5968213446965952fcb51181",
+    "Name": "Dtilt",
+    "OwnerId": 21,
+    "Owner": "Link",
+    "HitboxActive": "11-12",
+    "FirstActionableFrame": "29",
+    "BaseDamage": "11",
+    "Angle": "280/80",
+    "BaseKnockBackSetKnockback": "0/90",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "62/30",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213446965952fcb51181",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Link",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "15-16",
-    "firstActionableFrame": "52",
-    "baseDamage": "7/14/7",
-    "angle": "75/361/55",
-    "baseKnockBackSetKnockback": "47/30/47",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "15/100/15",
-    "type": 1,
-    "name": "Fsmash (Hit 1)",
-    "ownerId": 21,
-    "id": 1119
+    "InstanceId": "5968213446965952fcb51182",
+    "Name": "Fsmash (Hit 1)",
+    "OwnerId": 21,
+    "Owner": "Link",
+    "HitboxActive": "15-16",
+    "FirstActionableFrame": "52",
+    "BaseDamage": "7/14/7",
+    "Angle": "75/361/55",
+    "BaseKnockBackSetKnockback": "47/30/47",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "15/100/15",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213446965952fcb51182",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Link",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "12-13",
-    "firstActionableFrame": "68",
-    "baseDamage": "13/13/12/12",
-    "angle": "48",
-    "baseKnockBackSetKnockback": "85",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "89",
-    "type": 1,
-    "name": "Fsmash (Hit 2)",
-    "ownerId": 21,
-    "id": 1120
+    "InstanceId": "5968213446965952fcb51183",
+    "Name": "Fsmash (Hit 2)",
+    "OwnerId": 21,
+    "Owner": "Link",
+    "HitboxActive": "12-13",
+    "FirstActionableFrame": "68",
+    "BaseDamage": "13/13/12/12",
+    "Angle": "48",
+    "BaseKnockBackSetKnockback": "85",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "89",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213446965952fcb51183",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Link",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "10-13",
-    "firstActionableFrame": "78",
-    "baseDamage": "4",
-    "angle": "105/130/140/105",
-    "baseKnockBackSetKnockback": "W: 55/38/28/65",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Usmash (Hit 1)",
-    "ownerId": 21,
-    "id": 1121
+    "InstanceId": "5968213446965952fcb51184",
+    "Name": "Usmash (Hit 1)",
+    "OwnerId": 21,
+    "Owner": "Link",
+    "HitboxActive": "10-13",
+    "FirstActionableFrame": "78",
+    "BaseDamage": "4",
+    "Angle": "105/130/140/105",
+    "BaseKnockBackSetKnockback": "W: 55/38/28/65",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213446965952fcb51184",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Link",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "14-15",
-    "firstActionableFrame": "-",
-    "baseDamage": "4",
-    "angle": "105/130/135/105",
-    "baseKnockBackSetKnockback": "W: 55/38/45/65",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Usmash (Hit 1, Late)",
-    "ownerId": 21,
-    "id": 1122
+    "InstanceId": "5968213446965952fcb51185",
+    "Name": "Usmash (Hit 1, Late)",
+    "OwnerId": 21,
+    "Owner": "Link",
+    "HitboxActive": "14-15",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "4",
+    "Angle": "105/130/135/105",
+    "BaseKnockBackSetKnockback": "W: 55/38/45/65",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213446965952fcb51185",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Link",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "25-28",
-    "firstActionableFrame": "-",
-    "baseDamage": "3",
-    "angle": "105/130/140/105",
-    "baseKnockBackSetKnockback": "W: 55/38/28/65",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Usmash (Hit 2)",
-    "ownerId": 21,
-    "id": 1123
+    "InstanceId": "5968213446965952fcb51186",
+    "Name": "Usmash (Hit 2)",
+    "OwnerId": 21,
+    "Owner": "Link",
+    "HitboxActive": "25-28",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "3",
+    "Angle": "105/130/140/105",
+    "BaseKnockBackSetKnockback": "W: 55/38/28/65",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213446965952fcb51186",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Link",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "29-30",
-    "firstActionableFrame": "-",
-    "baseDamage": "3",
-    "angle": "105/130/135/105",
-    "baseKnockBackSetKnockback": "W: 55/38/40/65",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Usmash (Hit 2, Late)",
-    "ownerId": 21,
-    "id": 1124
+    "InstanceId": "5968213446965952fcb51187",
+    "Name": "Usmash (Hit 2, Late)",
+    "OwnerId": 21,
+    "Owner": "Link",
+    "HitboxActive": "29-30",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "3",
+    "Angle": "105/130/135/105",
+    "BaseKnockBackSetKnockback": "W: 55/38/40/65",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213446965952fcb51187",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Link",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "41-45",
-    "firstActionableFrame": "-",
-    "baseDamage": "11/11/10/9",
-    "angle": "80/90/90/90",
-    "baseKnockBackSetKnockback": "60",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "96",
-    "type": 1,
-    "name": "Usmash (Hit 3)",
-    "ownerId": 21,
-    "id": 1125
+    "InstanceId": "5968213446965952fcb51188",
+    "Name": "Usmash (Hit 3)",
+    "OwnerId": 21,
+    "Owner": "Link",
+    "HitboxActive": "41-45",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "11/11/10/9",
+    "Angle": "80/90/90/90",
+    "BaseKnockBackSetKnockback": "60",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "96",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213446965952fcb51188",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Link",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "9-10",
-    "firstActionableFrame": "50",
-    "baseDamage": "14/16/17/16",
-    "angle": "78",
-    "baseKnockBackSetKnockback": "40",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "88",
-    "type": 1,
-    "name": "Dsmash (Hit 1)",
-    "ownerId": 21,
-    "id": 1126
+    "InstanceId": "5968213446965952fcb51189",
+    "Name": "Dsmash (Hit 1)",
+    "OwnerId": 21,
+    "Owner": "Link",
+    "HitboxActive": "9-10",
+    "FirstActionableFrame": "50",
+    "BaseDamage": "14/16/17/16",
+    "Angle": "78",
+    "BaseKnockBackSetKnockback": "40",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "88",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213446965952fcb51189",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Link",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "21-22",
-    "firstActionableFrame": "-",
-    "baseDamage": "12/12/11/10",
-    "angle": "30",
-    "baseKnockBackSetKnockback": "80",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "63",
-    "type": 1,
-    "name": "Dsmash (Hit 2)",
-    "ownerId": 21,
-    "id": 1127
+    "InstanceId": "5968213446965952fcb5118a",
+    "Name": "Dsmash (Hit 2)",
+    "OwnerId": 21,
+    "Owner": "Link",
+    "HitboxActive": "21-22",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "12/12/11/10",
+    "Angle": "30",
+    "BaseKnockBackSetKnockback": "80",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "63",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213446965952fcb5118a",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Link",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "12-17",
-    "firstActionableFrame": "62",
-    "baseDamage": "",
-    "angle": "",
-    "baseKnockBackSetKnockback": "",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "",
-    "type": 1,
-    "name": "Standing Grab",
-    "ownerId": 21,
-    "id": 1129
+    "InstanceId": "5968213446965952fcb5118b",
+    "Name": "Standing Grab",
+    "OwnerId": 21,
+    "Owner": "Link",
+    "HitboxActive": "12-17",
+    "FirstActionableFrame": "62",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213446965952fcb5118b",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Link",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "14-21",
-    "firstActionableFrame": "66",
-    "baseDamage": "",
-    "angle": "",
-    "baseKnockBackSetKnockback": "",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "",
-    "type": 1,
-    "name": "Dash Grab",
-    "ownerId": 21,
-    "id": 1130
+    "InstanceId": "5968213446965952fcb5118c",
+    "Name": "Dash Grab",
+    "OwnerId": 21,
+    "Owner": "Link",
+    "HitboxActive": "14-21",
+    "FirstActionableFrame": "66",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213446965952fcb5118c",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Link",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "15-22",
-    "firstActionableFrame": "67",
-    "baseDamage": "",
-    "angle": "",
-    "baseKnockBackSetKnockback": "",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "",
-    "type": 1,
-    "name": "Pivot Grab",
-    "ownerId": 21,
-    "id": 1131
+    "InstanceId": "5968213446965952fcb5118d",
+    "Name": "Pivot Grab",
+    "OwnerId": 21,
+    "Owner": "Link",
+    "HitboxActive": "15-22",
+    "FirstActionableFrame": "67",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213446965952fcb5118d",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Link",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "3, 4",
-    "angle": "50",
-    "baseKnockBackSetKnockback": "50",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "120",
-    "type": 3,
-    "name": "Fthrow",
-    "ownerId": 21,
-    "id": 1133
+    "InstanceId": "5968213446965952fcb5118e",
+    "Name": "Spotdodge",
+    "OwnerId": 21,
+    "Owner": "Link",
+    "HitboxActive": "3-18",
+    "FirstActionableFrame": "28",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213446965952fcb5118e",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Link",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "3, 4",
-    "angle": "130",
-    "baseKnockBackSetKnockback": "50",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "110",
-    "type": 3,
-    "name": "Bthrow",
-    "ownerId": 21,
-    "id": 1134
+    "InstanceId": "5968213446965952fcb5118f",
+    "Name": "Forward Roll",
+    "OwnerId": 21,
+    "Owner": "Link",
+    "HitboxActive": "4-17",
+    "FirstActionableFrame": "31",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213446965952fcb5118f",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Link",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "5/4, 2",
-    "angle": "90",
-    "baseKnockBackSetKnockback": "24",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "230",
-    "type": 3,
-    "name": "Uthrow",
-    "ownerId": 21,
-    "id": 1135
+    "InstanceId": "5968213446965952fcb51190",
+    "Name": "Back Roll",
+    "OwnerId": 21,
+    "Owner": "Link",
+    "HitboxActive": "4-17",
+    "FirstActionableFrame": "31",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213446965952fcb51190",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Link",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "3, 3",
-    "angle": "83",
-    "baseKnockBackSetKnockback": "60",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "85",
-    "type": 3,
-    "name": "Dthrow",
-    "ownerId": 21,
-    "id": 1136
+    "InstanceId": "5968213446965952fcb51191",
+    "Name": "Airdodge",
+    "OwnerId": 21,
+    "Owner": "Link",
+    "HitboxActive": "3-28",
+    "FirstActionableFrame": "34",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213446965952fcb51191",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Link",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "7-8",
-    "firstActionableFrame": "39",
-    "baseDamage": "11/9/9",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "22",
-    "landingLag": "10",
-    "autoCancel": "1-3, 36&gt;",
-    "knockbackGrowth": "100",
-    "type": 0,
-    "name": "Nair",
-    "ownerId": 21,
-    "id": 1142
+    "InstanceId": "5968213446965952fcb51192",
+    "Name": "Nair",
+    "OwnerId": 21,
+    "Owner": "Link",
+    "HitboxActive": "7-8",
+    "FirstActionableFrame": "39",
+    "BaseDamage": "11/9/9",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "22",
+    "LandingLag": "10",
+    "AutoCancel": "1-3, 36&gt;",
+    "KnockbackGrowth": "100",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213446965952fcb51192",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Link",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "9-31",
-    "firstActionableFrame": "-",
-    "baseDamage": "6",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "15",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "100",
-    "type": 0,
-    "name": "Nair (Late)",
-    "ownerId": 21,
-    "id": 1143
+    "InstanceId": "5968213446965952fcb51193",
+    "Name": "Nair (Late)",
+    "OwnerId": 21,
+    "Owner": "Link",
+    "HitboxActive": "9-31",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "6",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "15",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "100",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213446965952fcb51193",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Link",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "14-15",
-    "firstActionableFrame": "50",
-    "baseDamage": "11",
-    "angle": "45",
-    "baseKnockBackSetKnockback": "20",
-    "landingLag": "12",
-    "autoCancel": "51&gt;",
-    "knockbackGrowth": "130",
-    "type": 0,
-    "name": "Fair (Hit 1)",
-    "ownerId": 21,
-    "id": 1144
+    "InstanceId": "5968213446965952fcb51194",
+    "Name": "Fair (Hit 1)",
+    "OwnerId": 21,
+    "Owner": "Link",
+    "HitboxActive": "14-15",
+    "FirstActionableFrame": "50",
+    "BaseDamage": "11",
+    "Angle": "45",
+    "BaseKnockBackSetKnockback": "20",
+    "LandingLag": "12",
+    "AutoCancel": "51&gt;",
+    "KnockbackGrowth": "130",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213446965952fcb51194",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Link",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "26-27",
-    "firstActionableFrame": "-",
-    "baseDamage": "13",
-    "angle": "45",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "100",
-    "type": 0,
-    "name": "Fair (Hit 2)",
-    "ownerId": 21,
-    "id": 1145
+    "InstanceId": "5968213446965952fcb51195",
+    "Name": "Fair (Hit 2)",
+    "OwnerId": 21,
+    "Owner": "Link",
+    "HitboxActive": "26-27",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "13",
+    "Angle": "45",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "100",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213446965952fcb51195",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Link",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "6-8",
-    "firstActionableFrame": "31",
-    "baseDamage": "3",
-    "angle": "72/68/68",
-    "baseKnockBackSetKnockback": "W: 40",
-    "landingLag": "10",
-    "autoCancel": "29&gt;",
-    "knockbackGrowth": "100",
-    "type": 0,
-    "name": "Bair (Hit 1)",
-    "ownerId": 21,
-    "id": 1146
+    "InstanceId": "5968213446965952fcb51196",
+    "Name": "Bair (Hit 1)",
+    "OwnerId": 21,
+    "Owner": "Link",
+    "HitboxActive": "6-8",
+    "FirstActionableFrame": "31",
+    "BaseDamage": "3",
+    "Angle": "72/68/68",
+    "BaseKnockBackSetKnockback": "W: 40",
+    "LandingLag": "10",
+    "AutoCancel": "29&gt;",
+    "KnockbackGrowth": "100",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213446965952fcb51196",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Link",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "18-22",
-    "firstActionableFrame": "-",
-    "baseDamage": "5",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "70",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "70",
-    "type": 0,
-    "name": "Bair (Hit 2)",
-    "ownerId": 21,
-    "id": 1147
+    "InstanceId": "5968213446965952fcb51197",
+    "Name": "Bair (Hit 2)",
+    "OwnerId": 21,
+    "Owner": "Link",
+    "HitboxActive": "18-22",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "5",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "70",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "70",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213446965952fcb51197",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Link",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "11-13",
-    "firstActionableFrame": "60",
-    "baseDamage": "15",
-    "angle": "85",
-    "baseKnockBackSetKnockback": "18",
-    "landingLag": "23",
-    "autoCancel": "1-10, 47&gt;",
-    "knockbackGrowth": "88",
-    "type": 0,
-    "name": "Uair",
-    "ownerId": 21,
-    "id": 1148
+    "InstanceId": "5968213446965952fcb51198",
+    "Name": "Uair",
+    "OwnerId": 21,
+    "Owner": "Link",
+    "HitboxActive": "11-13",
+    "FirstActionableFrame": "60",
+    "BaseDamage": "15",
+    "Angle": "85",
+    "BaseKnockBackSetKnockback": "18",
+    "LandingLag": "23",
+    "AutoCancel": "1-10, 47&gt;",
+    "KnockbackGrowth": "88",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213446965952fcb51198",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Link",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "14-40",
-    "firstActionableFrame": "-",
-    "baseDamage": "13",
-    "angle": "85",
-    "baseKnockBackSetKnockback": "18",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "88",
-    "type": 0,
-    "name": "Uair (Late)",
-    "ownerId": 21,
-    "id": 1149
+    "InstanceId": "5968213446965952fcb51199",
+    "Name": "Uair (Late)",
+    "OwnerId": 21,
+    "Owner": "Link",
+    "HitboxActive": "14-40",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "13",
+    "Angle": "85",
+    "BaseKnockBackSetKnockback": "18",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "88",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213446965952fcb51199",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Link",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "14-17",
-    "firstActionableFrame": "80",
-    "baseDamage": "15",
-    "angle": "270/55",
-    "baseKnockBackSetKnockback": "30/25",
-    "landingLag": "32",
-    "autoCancel": "1-9, 65&gt;",
-    "knockbackGrowth": "80/40",
-    "type": 0,
-    "name": "Dair (Early)",
-    "ownerId": 21,
-    "id": 1150
+    "InstanceId": "5968213446965952fcb5119a",
+    "Name": "Dair (Early)",
+    "OwnerId": 21,
+    "Owner": "Link",
+    "HitboxActive": "14-17",
+    "FirstActionableFrame": "80",
+    "BaseDamage": "15",
+    "Angle": "270/55",
+    "BaseKnockBackSetKnockback": "30/25",
+    "LandingLag": "32",
+    "AutoCancel": "1-9, 65&gt;",
+    "KnockbackGrowth": "80/40",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213446965952fcb5119a",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Link",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "18-20",
-    "firstActionableFrame": "-",
-    "baseDamage": "18",
-    "angle": "65",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "80",
-    "type": 0,
-    "name": "Dair",
-    "ownerId": 21,
-    "id": 1151
+    "InstanceId": "5968213446965952fcb5119b",
+    "Name": "Dair",
+    "OwnerId": 21,
+    "Owner": "Link",
+    "HitboxActive": "18-20",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "18",
+    "Angle": "65",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "80",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213446965952fcb5119b",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Link",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "21-64",
-    "firstActionableFrame": "-",
-    "baseDamage": "15",
-    "angle": "65",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "80",
-    "type": 0,
-    "name": "Dair (Late)",
-    "ownerId": 21,
-    "id": 1152
+    "InstanceId": "5968213446965952fcb5119c",
+    "Name": "Dair (Late)",
+    "OwnerId": 21,
+    "Owner": "Link",
+    "HitboxActive": "21-64",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "15",
+    "Angle": "65",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "80",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213446965952fcb5119c",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Link",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "12-21",
-    "firstActionableFrame": "60",
-    "baseDamage": "2.5",
-    "angle": "35",
-    "baseKnockBackSetKnockback": "50",
-    "landingLag": "8",
-    "autoCancel": "-",
-    "knockbackGrowth": "30",
-    "type": 0,
-    "name": "Zair (Hit 1)",
-    "ownerId": 21,
-    "id": 1153
+    "InstanceId": "5968213446965952fcb5119d",
+    "Name": "Zair (Hit 1)",
+    "OwnerId": 21,
+    "Owner": "Link",
+    "HitboxActive": "12-21",
+    "FirstActionableFrame": "60",
+    "BaseDamage": "2.5",
+    "Angle": "35",
+    "BaseKnockBackSetKnockback": "50",
+    "LandingLag": "8",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "30",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213446965952fcb5119d",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Link",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "22-23",
-    "firstActionableFrame": "-",
-    "baseDamage": "4",
-    "angle": "45",
-    "baseKnockBackSetKnockback": "50",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "30",
-    "type": 0,
-    "name": "Zair (Hit 2)",
-    "ownerId": 21,
-    "id": 1154
+    "InstanceId": "5968213446965952fcb5119e",
+    "Name": "Zair (Hit 2)",
+    "OwnerId": 21,
+    "Owner": "Link",
+    "HitboxActive": "22-23",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "4",
+    "Angle": "45",
+    "BaseKnockBackSetKnockback": "50",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "30",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213446965952fcb5119e",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Link",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "18-",
-    "firstActionableFrame": "47",
-    "baseDamage": "5",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "10",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "66",
-    "type": 2,
-    "name": "Hero's Bow (No Charge)",
-    "ownerId": 21,
-    "id": 1155
+    "InstanceId": "5968213446965952fcb5119f",
+    "Name": "Hero's Bow (No Charge)",
+    "OwnerId": 21,
+    "Owner": "Link",
+    "HitboxActive": "18-",
+    "FirstActionableFrame": "47",
+    "BaseDamage": "5",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "10",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "66",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213446965952fcb5119f",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Link",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "54-",
-    "firstActionableFrame": "83",
-    "baseDamage": "5",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "10",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "66",
-    "type": 2,
-    "name": "Hero's Bow (Full Charge)",
-    "ownerId": 21,
-    "id": 1156
+    "InstanceId": "5968213446965952fcb511a0",
+    "Name": "Hero's Bow (Full Charge)",
+    "OwnerId": 21,
+    "Owner": "Link",
+    "HitboxActive": "54-",
+    "FirstActionableFrame": "83",
+    "BaseDamage": "5",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "10",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "66",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213446965952fcb511a0",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Link",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "27-35",
-    "firstActionableFrame": "46",
-    "baseDamage": "7",
-    "angle": "70",
-    "baseKnockBackSetKnockback": "80",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "40",
-    "type": 2,
-    "name": "Gale Boomerang",
-    "ownerId": 21,
-    "id": 1157
+    "InstanceId": "5968213446965952fcb511a1",
+    "Name": "Gale Boomerang",
+    "OwnerId": 21,
+    "Owner": "Link",
+    "HitboxActive": "27-35",
+    "FirstActionableFrame": "46",
+    "BaseDamage": "7",
+    "Angle": "70",
+    "BaseKnockBackSetKnockback": "80",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "40",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213446965952fcb511a1",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Link",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "36-63",
-    "firstActionableFrame": "-",
-    "baseDamage": "5",
-    "angle": "65",
-    "baseKnockBackSetKnockback": "60",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "40",
-    "type": 2,
-    "name": "Gale Boomerang (Late)",
-    "ownerId": 21,
-    "id": 1158
+    "InstanceId": "5968213446965952fcb511a2",
+    "Name": "Gale Boomerang (Late)",
+    "OwnerId": 21,
+    "Owner": "Link",
+    "HitboxActive": "36-63",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "5",
+    "Angle": "65",
+    "BaseKnockBackSetKnockback": "60",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "40",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213446965952fcb511a2",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Link",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "64-",
-    "firstActionableFrame": "-",
-    "baseDamage": "0",
-    "angle": "60",
-    "baseKnockBackSetKnockback": "W: 60",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 2,
-    "name": "Gale Boomerang (Windboxes)",
-    "ownerId": 21,
-    "id": 1159
+    "InstanceId": "5968213446965952fcb511a3",
+    "Name": "Gale Boomerang (Windboxes)",
+    "OwnerId": 21,
+    "Owner": "Link",
+    "HitboxActive": "64-",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "0",
+    "Angle": "60",
+    "BaseKnockBackSetKnockback": "W: 60",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213446965952fcb511a3",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Link",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "8-9",
-    "firstActionableFrame": "82",
-    "baseDamage": "14/14/11.2",
-    "angle": "45",
-    "baseKnockBackSetKnockback": "60",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "86",
-    "type": 2,
-    "name": "Spin Attack (No Charge, Early)",
-    "ownerId": 21,
-    "id": 1160
+    "InstanceId": "5968213446965952fcb511a4",
+    "Name": "Spin Attack (No Charge, Early)",
+    "OwnerId": 21,
+    "Owner": "Link",
+    "HitboxActive": "8-9",
+    "FirstActionableFrame": "82",
+    "BaseDamage": "14/14/11.2",
+    "Angle": "45",
+    "BaseKnockBackSetKnockback": "60",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "86",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213446965952fcb511a4",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Link",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "10-14",
-    "firstActionableFrame": "-",
-    "baseDamage": "12/12/9.6",
-    "angle": "43",
-    "baseKnockBackSetKnockback": "48",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "86",
-    "type": 2,
-    "name": "Spin Attack (No Charge)",
-    "ownerId": 21,
-    "id": 1161
+    "InstanceId": "5968213446965952fcb511a5",
+    "Name": "Spin Attack (No Charge)",
+    "OwnerId": 21,
+    "Owner": "Link",
+    "HitboxActive": "10-14",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "12/12/9.6",
+    "Angle": "43",
+    "BaseKnockBackSetKnockback": "48",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "86",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213446965952fcb511a5",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Link",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "15-24",
-    "firstActionableFrame": "-",
-    "baseDamage": "9/9/7.2",
-    "angle": "43",
-    "baseKnockBackSetKnockback": "48",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "84",
-    "type": 2,
-    "name": "Spin Attack (No Charge, Late)",
-    "ownerId": 21,
-    "id": 1162
+    "InstanceId": "5968213446965952fcb511a6",
+    "Name": "Spin Attack (No Charge, Late)",
+    "OwnerId": 21,
+    "Owner": "Link",
+    "HitboxActive": "15-24",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "9/9/7.2",
+    "Angle": "43",
+    "BaseKnockBackSetKnockback": "48",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "84",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213446965952fcb511a6",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Link",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "25-40",
-    "firstActionableFrame": "-",
-    "baseDamage": "7/7/5.6",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "20",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "82",
-    "type": 2,
-    "name": "Spin Attack (No Charge, Latest)",
-    "ownerId": 21,
-    "id": 1163
+    "InstanceId": "5968213446965952fcb511a7",
+    "Name": "Spin Attack (No Charge, Latest)",
+    "OwnerId": 21,
+    "Owner": "Link",
+    "HitboxActive": "25-40",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "7/7/5.6",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "20",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "82",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213446965952fcb511a7",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Link",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "8",
-    "firstActionableFrame": "-",
-    "baseDamage": "4",
-    "angle": "85/80/366",
-    "baseKnockBackSetKnockback": "W: 70/40/85",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 2,
-    "name": "Spin Attack (Air, Hit 1)",
-    "ownerId": 21,
-    "id": 1164
+    "InstanceId": "5968213446965952fcb511a8",
+    "Name": "Spin Attack (Air, Hit 1)",
+    "OwnerId": 21,
+    "Owner": "Link",
+    "HitboxActive": "8",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "4",
+    "Angle": "85/80/366",
+    "BaseKnockBackSetKnockback": "W: 70/40/85",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213446965952fcb511a8",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Link",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "11",
-    "firstActionableFrame": "-",
-    "baseDamage": "2",
-    "angle": "120",
-    "baseKnockBackSetKnockback": "W: 90",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 2,
-    "name": "Spin Attack (Air, Hit 2)",
-    "ownerId": 21,
-    "id": 1165
+    "InstanceId": "5968213446965952fcb511a9",
+    "Name": "Spin Attack (Air, Hit 2)",
+    "OwnerId": 21,
+    "Owner": "Link",
+    "HitboxActive": "11",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "2",
+    "Angle": "120",
+    "BaseKnockBackSetKnockback": "W: 90",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213446965952fcb511a9",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Link",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "16",
-    "firstActionableFrame": "-",
-    "baseDamage": "2",
-    "angle": "366/82/45",
-    "baseKnockBackSetKnockback": "W: 60/50/85",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 2,
-    "name": "Spin Attack (Air, Hit 3)",
-    "ownerId": 21,
-    "id": 1166
+    "InstanceId": "5968213446965952fcb511aa",
+    "Name": "Spin Attack (Air, Hit 3)",
+    "OwnerId": 21,
+    "Owner": "Link",
+    "HitboxActive": "16",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "2",
+    "Angle": "366/82/45",
+    "BaseKnockBackSetKnockback": "W: 60/50/85",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213446965952fcb511aa",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Link",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "19",
-    "firstActionableFrame": "-",
-    "baseDamage": "2",
-    "angle": "120",
-    "baseKnockBackSetKnockback": "W: 90",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 2,
-    "name": "Spin Attack (Air, Hit 4)",
-    "ownerId": 21,
-    "id": 1167
+    "InstanceId": "5968213446965952fcb511ab",
+    "Name": "Spin Attack (Air, Hit 4)",
+    "OwnerId": 21,
+    "Owner": "Link",
+    "HitboxActive": "19",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "2",
+    "Angle": "120",
+    "BaseKnockBackSetKnockback": "W: 90",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213446965952fcb511ab",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Link",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "22",
-    "firstActionableFrame": "-",
-    "baseDamage": "2",
-    "angle": "366/90/45",
-    "baseKnockBackSetKnockback": "W: 50/55/85",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 2,
-    "name": "Spin Attack (Air, Hit 5)",
-    "ownerId": 21,
-    "id": 1168
+    "InstanceId": "5968213446965952fcb511ac",
+    "Name": "Spin Attack (Air, Hit 5)",
+    "OwnerId": 21,
+    "Owner": "Link",
+    "HitboxActive": "22",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "2",
+    "Angle": "366/90/45",
+    "BaseKnockBackSetKnockback": "W: 50/55/85",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213446965952fcb511ac",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Link",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "26",
-    "firstActionableFrame": "-",
-    "baseDamage": "2",
-    "angle": "120",
-    "baseKnockBackSetKnockback": "W: 90",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 2,
-    "name": "Spin Attack (Air, Hit 6)",
-    "ownerId": 21,
-    "id": 1169
+    "InstanceId": "5968213446965952fcb511ad",
+    "Name": "Spin Attack (Air, Hit 6)",
+    "OwnerId": 21,
+    "Owner": "Link",
+    "HitboxActive": "26",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "2",
+    "Angle": "120",
+    "BaseKnockBackSetKnockback": "W: 90",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213446965952fcb511ad",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Link",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "31",
-    "firstActionableFrame": "-",
-    "baseDamage": "2",
-    "angle": "90/90/50",
-    "baseKnockBackSetKnockback": "W: 60/50/85",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 2,
-    "name": "Spin Attack (Air, Hit 7)",
-    "ownerId": 21,
-    "id": 1170
+    "InstanceId": "5968213446965952fcb511ae",
+    "Name": "Spin Attack (Air, Hit 7)",
+    "OwnerId": 21,
+    "Owner": "Link",
+    "HitboxActive": "31",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "2",
+    "Angle": "90/90/50",
+    "BaseKnockBackSetKnockback": "W: 60/50/85",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213446965952fcb511ae",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Link",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "38",
-    "firstActionableFrame": "-",
-    "baseDamage": "2",
-    "angle": "120",
-    "baseKnockBackSetKnockback": "W: 90",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 2,
-    "name": "Spin Attack (Air, Hit 8)",
-    "ownerId": 21,
-    "id": 1171
+    "InstanceId": "5968213446965952fcb511af",
+    "Name": "Spin Attack (Air, Hit 8)",
+    "OwnerId": 21,
+    "Owner": "Link",
+    "HitboxActive": "38",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "2",
+    "Angle": "120",
+    "BaseKnockBackSetKnockback": "W: 90",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213446965952fcb511af",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Link",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "47-48",
-    "firstActionableFrame": "-",
-    "baseDamage": "4",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "200",
-    "type": 2,
-    "name": "Spin Attack (Air, Hit 9)",
-    "ownerId": 21,
-    "id": 1172
+    "InstanceId": "5968213446965952fcb511b0",
+    "Name": "Spin Attack (Air, Hit 9)",
+    "OwnerId": 21,
+    "Owner": "Link",
+    "HitboxActive": "47-48",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "4",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "200",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213446965952fcb511b0",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Link",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "Bomb Generated: Frame 17",
-    "firstActionableFrame": "40",
-    "baseDamage": "-",
-    "angle": "-",
-    "baseKnockBackSetKnockback": "-",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "-",
-    "type": 2,
-    "name": "Bomb",
-    "ownerId": 21,
-    "id": 1173
+    "InstanceId": "5968213446965952fcb511b1",
+    "Name": "Bomb",
+    "OwnerId": 21,
+    "Owner": "Link",
+    "HitboxActive": "Bomb Generated: Frame 17",
+    "FirstActionableFrame": "40",
+    "BaseDamage": "-",
+    "Angle": "-",
+    "BaseKnockBackSetKnockback": "-",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "-",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213446965952fcb511b1",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Link",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "Explodes 220 Frames from Generation",
-    "firstActionableFrame": "-",
-    "baseDamage": "-",
-    "angle": "70",
-    "baseKnockBackSetKnockback": "40",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "90",
-    "type": 2,
-    "name": "Bomb",
-    "ownerId": 21,
-    "id": 1174
+    "InstanceId": "5968213446965952fcb511b2",
+    "Name": "Bomb",
+    "OwnerId": 21,
+    "Owner": "Link",
+    "HitboxActive": "Explodes 220 Frames from Generation",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "-",
+    "Angle": "70",
+    "BaseKnockBackSetKnockback": "40",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "90",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213446965952fcb511b2",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Link",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968213446965952fcb511b3",
+    "Name": "Fthrow",
+    "OwnerId": 21,
+    "Owner": "Link",
+    "HitboxActive": null,
+    "FirstActionableFrame": null,
+    "BaseDamage": "3, 4",
+    "Angle": "50",
+    "BaseKnockBackSetKnockback": "50",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "120",
+    "MoveType": "throw",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213446965952fcb511b3",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Link",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968213446965952fcb511b4",
+    "Name": "Bthrow",
+    "OwnerId": 21,
+    "Owner": "Link",
+    "HitboxActive": null,
+    "FirstActionableFrame": null,
+    "BaseDamage": "3, 4",
+    "Angle": "130",
+    "BaseKnockBackSetKnockback": "50",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "110",
+    "MoveType": "throw",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213446965952fcb511b4",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Link",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968213446965952fcb511b5",
+    "Name": "Uthrow",
+    "OwnerId": 21,
+    "Owner": "Link",
+    "HitboxActive": null,
+    "FirstActionableFrame": null,
+    "BaseDamage": "5/4, 2",
+    "Angle": "90",
+    "BaseKnockBackSetKnockback": "24",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "230",
+    "MoveType": "throw",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213446965952fcb511b5",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Link",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968213446965952fcb511b6",
+    "Name": "Dthrow",
+    "OwnerId": 21,
+    "Owner": "Link",
+    "HitboxActive": null,
+    "FirstActionableFrame": null,
+    "BaseDamage": "3, 3",
+    "Angle": "83",
+    "BaseKnockBackSetKnockback": "60",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "85",
+    "MoveType": "throw",
+    "IsWeightDependent": true,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968213446965952fcb511b6",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Link",
+        "Title": ""
+      }
+    ]
   }
 ]

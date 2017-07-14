@@ -14,6 +14,7 @@ import android.widget.TextView;
 import com.rubendal.kuroganehammercom.R;
 import com.rubendal.kuroganehammercom.asynctask.character.AttributeAsyncTask;
 import com.rubendal.kuroganehammercom.classes.Attribute;
+import com.rubendal.kuroganehammercom.classes.AttributeList;
 import com.rubendal.kuroganehammercom.classes.Character;
 import com.rubendal.kuroganehammercom.util.params.Params;
 
@@ -22,7 +23,7 @@ import java.util.LinkedList;
 public class AttributeFragment extends KHFragment {
 
     private Character character;
-    private LinkedList<Attribute> attributes;
+    private LinkedList<AttributeList> attributes;
 
     public AttributeFragment() {
 
@@ -44,11 +45,11 @@ public class AttributeFragment extends KHFragment {
         super.onCreate(savedInstanceState);
         if(getArguments() != null){
             this.character = (Character)getArguments().getSerializable("character");
-            this.attributes = (LinkedList<Attribute>)getArguments().getSerializable("attributes");
+            this.attributes = (LinkedList<AttributeList>)getArguments().getSerializable("attributes");
         }
     }
 
-    public static AttributeFragment newInstance(Character character, LinkedList<Attribute> attributes){
+    public static AttributeFragment newInstance(Character character, LinkedList<AttributeList> attributes){
         AttributeFragment fragment = new AttributeFragment();
         Bundle args = new Bundle();
         args.putSerializable("character", character);
@@ -90,7 +91,7 @@ public class AttributeFragment extends KHFragment {
 
         int o = 0;
 
-        for(Attribute a : attributes){
+        for(AttributeList a : attributes){
             if(a!=null){
                 o++;
                 layout.addView(a.asRow(this.getActivity(),o % 2 == 1));

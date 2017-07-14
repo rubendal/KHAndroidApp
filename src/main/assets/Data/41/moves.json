@@ -1,618 +1,1346 @@
 ﻿[
   {
-    "hitboxActive": "2-3",
-    "firstActionableFrame": "22",
-    "baseDamage": "1.4/1.2/1",
-    "angle": "0",
-    "baseKnockBackSetKnockback": "10/9/8",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "45",
-    "type": 1,
-    "name": "Jab 1",
-    "ownerId": 41,
-    "id": 2251
+    "InstanceId": "5968216b46965952fcb5183e",
+    "Name": "Jab 1",
+    "OwnerId": 41,
+    "Owner": "Pikachu",
+    "HitboxActive": "2-3",
+    "FirstActionableFrame": "22",
+    "BaseDamage": "1.4/1.2/1",
+    "Angle": "0",
+    "BaseKnockBackSetKnockback": "10/9/8",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "45",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216b46965952fcb5183e",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Pikachu",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "6-9",
-    "firstActionableFrame": "50",
-    "baseDamage": "10",
-    "angle": "60",
-    "baseKnockBackSetKnockback": "70",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "90",
-    "type": 1,
-    "name": "Dash Attack",
-    "ownerId": 41,
-    "id": 2252
+    "InstanceId": "5968216b46965952fcb5183f",
+    "Name": "Dash Attack",
+    "OwnerId": 41,
+    "Owner": "Pikachu",
+    "HitboxActive": "6-9",
+    "FirstActionableFrame": "50",
+    "BaseDamage": "10",
+    "Angle": "60",
+    "BaseKnockBackSetKnockback": "70",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "90",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216b46965952fcb5183f",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Pikachu",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "10-16",
-    "firstActionableFrame": "-",
-    "baseDamage": "6",
-    "angle": "70",
-    "baseKnockBackSetKnockback": "100",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "50",
-    "type": 1,
-    "name": "Dash Attack (Late)",
-    "ownerId": 41,
-    "id": 2253
+    "InstanceId": "5968216b46965952fcb51840",
+    "Name": "Dash Attack (Late)",
+    "OwnerId": 41,
+    "Owner": "Pikachu",
+    "HitboxActive": "10-16",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "6",
+    "Angle": "70",
+    "BaseKnockBackSetKnockback": "100",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "50",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216b46965952fcb51840",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Pikachu",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "6-8",
-    "firstActionableFrame": "30",
-    "baseDamage": "10",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "15",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Ftilt (Angled Up)",
-    "ownerId": 41,
-    "id": 2254
+    "InstanceId": "5968216b46965952fcb51841",
+    "Name": "Ftilt (Angled Up)",
+    "OwnerId": 41,
+    "Owner": "Pikachu",
+    "HitboxActive": "6-8",
+    "FirstActionableFrame": "30",
+    "BaseDamage": "10",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "15",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216b46965952fcb51841",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Pikachu",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "6-8",
-    "firstActionableFrame": "-",
-    "baseDamage": "9",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "15",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Ftilt",
-    "ownerId": 41,
-    "id": 2255
+    "InstanceId": "5968216b46965952fcb51842",
+    "Name": "Ftilt",
+    "OwnerId": 41,
+    "Owner": "Pikachu",
+    "HitboxActive": "6-8",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "9",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "15",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216b46965952fcb51842",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Pikachu",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "6-8",
-    "firstActionableFrame": "-",
-    "baseDamage": "8",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "15",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Ftilt (Angled Down)",
-    "ownerId": 41,
-    "id": 2256
+    "InstanceId": "5968216b46965952fcb51843",
+    "Name": "Ftilt (Angled Down)",
+    "OwnerId": 41,
+    "Owner": "Pikachu",
+    "HitboxActive": "6-8",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "8",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "15",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216b46965952fcb51843",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Pikachu",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "7-13",
-    "firstActionableFrame": "27",
-    "baseDamage": "5",
-    "angle": "105/105/110",
-    "baseKnockBackSetKnockback": "40/45/45",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "120",
-    "type": 1,
-    "name": "Utilt",
-    "ownerId": 41,
-    "id": 2257
+    "InstanceId": "5968216b46965952fcb51844",
+    "Name": "Utilt",
+    "OwnerId": 41,
+    "Owner": "Pikachu",
+    "HitboxActive": "7-13",
+    "FirstActionableFrame": "27",
+    "BaseDamage": "5",
+    "Angle": "105/105/110",
+    "BaseKnockBackSetKnockback": "40/45/45",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "120",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216b46965952fcb51844",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Pikachu",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "7-8",
-    "firstActionableFrame": "19",
-    "baseDamage": "6",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "12",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Dtilt",
-    "ownerId": 41,
-    "id": 2258
+    "InstanceId": "5968216b46965952fcb51845",
+    "Name": "Dtilt",
+    "OwnerId": 41,
+    "Owner": "Pikachu",
+    "HitboxActive": "7-8",
+    "FirstActionableFrame": "19",
+    "BaseDamage": "6",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "12",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216b46965952fcb51845",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Pikachu",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "15-17",
-    "firstActionableFrame": "49",
-    "baseDamage": "15",
-    "angle": "45",
-    "baseKnockBackSetKnockback": "50",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "73",
-    "type": 1,
-    "name": "Fsmash (Early)",
-    "ownerId": 41,
-    "id": 2259
+    "InstanceId": "5968216b46965952fcb51846",
+    "Name": "Fsmash (Early)",
+    "OwnerId": 41,
+    "Owner": "Pikachu",
+    "HitboxActive": "15-17",
+    "FirstActionableFrame": "49",
+    "BaseDamage": "15",
+    "Angle": "45",
+    "BaseKnockBackSetKnockback": "50",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "73",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216b46965952fcb51846",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Pikachu",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "18-20",
-    "firstActionableFrame": "-",
-    "baseDamage": "18",
-    "angle": "45",
-    "baseKnockBackSetKnockback": "60",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "75",
-    "type": 1,
-    "name": "Fsmash",
-    "ownerId": 41,
-    "id": 2260
+    "InstanceId": "5968216b46965952fcb51847",
+    "Name": "Fsmash",
+    "OwnerId": 41,
+    "Owner": "Pikachu",
+    "HitboxActive": "18-20",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "18",
+    "Angle": "45",
+    "BaseKnockBackSetKnockback": "60",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "75",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216b46965952fcb51847",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Pikachu",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "21-22",
-    "firstActionableFrame": "-",
-    "baseDamage": "12",
-    "angle": "45",
-    "baseKnockBackSetKnockback": "40",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "102",
-    "type": 1,
-    "name": "Fsmash (Late)",
-    "ownerId": 41,
-    "id": 2261
+    "InstanceId": "5968216b46965952fcb51848",
+    "Name": "Fsmash (Late)",
+    "OwnerId": 41,
+    "Owner": "Pikachu",
+    "HitboxActive": "21-22",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "12",
+    "Angle": "45",
+    "BaseKnockBackSetKnockback": "40",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "102",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216b46965952fcb51848",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Pikachu",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "10-11",
-    "firstActionableFrame": "45",
-    "baseDamage": "14/13/13",
-    "angle": "87",
-    "baseKnockBackSetKnockback": "50",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "89",
-    "type": 1,
-    "name": "Usmash (Early)",
-    "ownerId": 41,
-    "id": 2262
+    "InstanceId": "5968216b46965952fcb51849",
+    "Name": "Usmash (Early)",
+    "OwnerId": 41,
+    "Owner": "Pikachu",
+    "HitboxActive": "10-11",
+    "FirstActionableFrame": "45",
+    "BaseDamage": "14/13/13",
+    "Angle": "87",
+    "BaseKnockBackSetKnockback": "50",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "89",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216b46965952fcb51849",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Pikachu",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "12-13",
-    "firstActionableFrame": "-",
-    "baseDamage": "11",
-    "angle": "85",
-    "baseKnockBackSetKnockback": "30/30/10",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "90",
-    "type": 1,
-    "name": "Usmash",
-    "ownerId": 41,
-    "id": 2263
+    "InstanceId": "5968216b46965952fcb5184a",
+    "Name": "Usmash",
+    "OwnerId": 41,
+    "Owner": "Pikachu",
+    "HitboxActive": "12-13",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "11",
+    "Angle": "85",
+    "BaseKnockBackSetKnockback": "30/30/10",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "90",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216b46965952fcb5184a",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Pikachu",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "14-17",
-    "firstActionableFrame": "-",
-    "baseDamage": "7",
-    "angle": "80",
-    "baseKnockBackSetKnockback": "55",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "48",
-    "type": 1,
-    "name": "Usmash (Late)",
-    "ownerId": 41,
-    "id": 2264
+    "InstanceId": "5968216b46965952fcb5184b",
+    "Name": "Usmash (Late)",
+    "OwnerId": 41,
+    "Owner": "Pikachu",
+    "HitboxActive": "14-17",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "7",
+    "Angle": "80",
+    "BaseKnockBackSetKnockback": "55",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "48",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216b46965952fcb5184b",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Pikachu",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "8-9, 11-12, 14-15, 17-18, 20-21",
-    "firstActionableFrame": "66",
-    "baseDamage": "2",
-    "angle": "170/170/90",
-    "baseKnockBackSetKnockback": "65/65/30",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "30",
-    "type": 1,
-    "name": "Dsmash (Hits 1-5)",
-    "ownerId": 41,
-    "id": 2265
+    "InstanceId": "5968216b46965952fcb5184c",
+    "Name": "Dsmash (Hits 1-5)",
+    "OwnerId": 41,
+    "Owner": "Pikachu",
+    "HitboxActive": "8-9, 11-12, 14-15, 17-18, 20-21",
+    "FirstActionableFrame": "66",
+    "BaseDamage": "2",
+    "Angle": "170/170/90",
+    "BaseKnockBackSetKnockback": "65/65/30",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "30",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216b46965952fcb5184c",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Pikachu",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "23",
-    "firstActionableFrame": "-",
-    "baseDamage": "3",
-    "angle": "50",
-    "baseKnockBackSetKnockback": "55",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "190",
-    "type": 1,
-    "name": "Dsmash (Hit 6)",
-    "ownerId": 41,
-    "id": 2266
+    "InstanceId": "5968216b46965952fcb5184d",
+    "Name": "Dsmash (Hit 6)",
+    "OwnerId": 41,
+    "Owner": "Pikachu",
+    "HitboxActive": "23",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "3",
+    "Angle": "50",
+    "BaseKnockBackSetKnockback": "55",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "190",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216b46965952fcb5184d",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Pikachu",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "6-7",
-    "firstActionableFrame": "28",
-    "baseDamage": "",
-    "angle": "",
-    "baseKnockBackSetKnockback": "",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "",
-    "type": 1,
-    "name": "Standing Grab",
-    "ownerId": 41,
-    "id": 2268
+    "InstanceId": "5968216b46965952fcb5184e",
+    "Name": "Standing Grab",
+    "OwnerId": 41,
+    "Owner": "Pikachu",
+    "HitboxActive": "6-7",
+    "FirstActionableFrame": "28",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216b46965952fcb5184e",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Pikachu",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "8-9",
-    "firstActionableFrame": "35",
-    "baseDamage": "",
-    "angle": "",
-    "baseKnockBackSetKnockback": "",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "",
-    "type": 1,
-    "name": "Dash Grab",
-    "ownerId": 41,
-    "id": 2269
+    "InstanceId": "5968216b46965952fcb5184f",
+    "Name": "Dash Grab",
+    "OwnerId": 41,
+    "Owner": "Pikachu",
+    "HitboxActive": "8-9",
+    "FirstActionableFrame": "35",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216b46965952fcb5184f",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Pikachu",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "9-10",
-    "firstActionableFrame": "33",
-    "baseDamage": "",
-    "angle": "",
-    "baseKnockBackSetKnockback": "",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "",
-    "type": 1,
-    "name": "Pivot Grab",
-    "ownerId": 41,
-    "id": 2270
+    "InstanceId": "5968216b46965952fcb51850",
+    "Name": "Pivot Grab",
+    "OwnerId": 41,
+    "Owner": "Pikachu",
+    "HitboxActive": "9-10",
+    "FirstActionableFrame": "33",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216b46965952fcb51850",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Pikachu",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "2&#37;&#215;4, 2",
-    "angle": "45",
-    "baseKnockBackSetKnockback": "55",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "110",
-    "type": 3,
-    "name": "Fthrow",
-    "ownerId": 41,
-    "id": 2272
+    "InstanceId": "5968216b46965952fcb51851",
+    "Name": "Spotdodge",
+    "OwnerId": 41,
+    "Owner": "Pikachu",
+    "HitboxActive": "2-15",
+    "FirstActionableFrame": "25",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216b46965952fcb51851",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Pikachu",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "9",
-    "angle": "135",
-    "baseKnockBackSetKnockback": "85",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "50",
-    "type": 3,
-    "name": "Bthrow",
-    "ownerId": 41,
-    "id": 2273
+    "InstanceId": "5968216b46965952fcb51852",
+    "Name": "Forward Roll",
+    "OwnerId": 41,
+    "Owner": "Pikachu",
+    "HitboxActive": "4-14",
+    "FirstActionableFrame": "27",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216b46965952fcb51852",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Pikachu",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "1, 3",
-    "angle": "90",
-    "baseKnockBackSetKnockback": "48",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "150",
-    "type": 3,
-    "name": "Uthrow",
-    "ownerId": 41,
-    "id": 2274
+    "InstanceId": "5968216b46965952fcb51853",
+    "Name": "Back Roll",
+    "OwnerId": 41,
+    "Owner": "Pikachu",
+    "HitboxActive": "4-14",
+    "FirstActionableFrame": "27",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216b46965952fcb51853",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Pikachu",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "3, 5",
-    "angle": "80",
-    "baseKnockBackSetKnockback": "60",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 3,
-    "name": "Dthrow",
-    "ownerId": 41,
-    "id": 2275
+    "InstanceId": "5968216b46965952fcb51854",
+    "Name": "Airdodge",
+    "OwnerId": 41,
+    "Owner": "Pikachu",
+    "HitboxActive": "2-25",
+    "FirstActionableFrame": "31",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216b46965952fcb51854",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Pikachu",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "3-5",
-    "firstActionableFrame": "39",
-    "baseDamage": "8.5",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "25",
-    "autoCancel": "35&gt;",
-    "knockbackGrowth": "104",
-    "type": 0,
-    "name": "Nair",
-    "ownerId": 41,
-    "id": 2281
+    "InstanceId": "5968216b46965952fcb51855",
+    "Name": "Nair",
+    "OwnerId": 41,
+    "Owner": "Pikachu",
+    "HitboxActive": "3-5",
+    "FirstActionableFrame": "39",
+    "BaseDamage": "8.5",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": "25",
+    "AutoCancel": "35&gt;",
+    "KnockbackGrowth": "104",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216b46965952fcb51855",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Pikachu",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "6-20",
-    "firstActionableFrame": "-",
-    "baseDamage": "5.5",
-    "angle": "45",
-    "baseKnockBackSetKnockback": "20",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "100",
-    "type": 0,
-    "name": "Nair (Late)",
-    "ownerId": 41,
-    "id": 2282
+    "InstanceId": "5968216b46965952fcb51856",
+    "Name": "Nair (Late)",
+    "OwnerId": 41,
+    "Owner": "Pikachu",
+    "HitboxActive": "6-20",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "5.5",
+    "Angle": "45",
+    "BaseKnockBackSetKnockback": "20",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "100",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216b46965952fcb51856",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Pikachu",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "10-12, 14-16, 18-20, 22-24",
-    "firstActionableFrame": "42",
-    "baseDamage": "1.7",
-    "angle": "74/280",
-    "baseKnockBackSetKnockback": "W: 50",
-    "landingLag": "15",
-    "autoCancel": "1-4, 32&gt;",
-    "knockbackGrowth": "100",
-    "type": 0,
-    "name": "Fair (Hits 1-4)",
-    "ownerId": 41,
-    "id": 2283
+    "InstanceId": "5968216b46965952fcb51857",
+    "Name": "Fair (Hits 1-4)",
+    "OwnerId": 41,
+    "Owner": "Pikachu",
+    "HitboxActive": "10-12, 14-16, 18-20, 22-24",
+    "FirstActionableFrame": "42",
+    "BaseDamage": "1.7",
+    "Angle": "74/280",
+    "BaseKnockBackSetKnockback": "W: 50",
+    "LandingLag": "15",
+    "AutoCancel": "1-4, 32&gt;",
+    "KnockbackGrowth": "100",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216b46965952fcb51857",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Pikachu",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "26",
-    "firstActionableFrame": "-",
-    "baseDamage": "3",
-    "angle": "48",
-    "baseKnockBackSetKnockback": "50",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "150",
-    "type": 0,
-    "name": "Fair",
-    "ownerId": 41,
-    "id": 2284
+    "InstanceId": "5968216b46965952fcb51858",
+    "Name": "Fair",
+    "OwnerId": 41,
+    "Owner": "Pikachu",
+    "HitboxActive": "26",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "3",
+    "Angle": "48",
+    "BaseKnockBackSetKnockback": "50",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "150",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216b46965952fcb51858",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Pikachu",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "4-5, 8-9, 12-13, 16-17, 20-21, 24-25, 28-29",
-    "firstActionableFrame": "59",
-    "baseDamage": "0.8",
-    "angle": "366",
-    "baseKnockBackSetKnockback": "W: 40",
-    "landingLag": "30",
-    "autoCancel": "1-3, 48&gt;",
-    "knockbackGrowth": "100",
-    "type": 0,
-    "name": "Bair (Hits 1-7)",
-    "ownerId": 41,
-    "id": 2285
+    "InstanceId": "5968216b46965952fcb51859",
+    "Name": "Bair (Hits 1-7)",
+    "OwnerId": 41,
+    "Owner": "Pikachu",
+    "HitboxActive": "4-5, 8-9, 12-13, 16-17, 20-21, 24-25, 28-29",
+    "FirstActionableFrame": "59",
+    "BaseDamage": "0.8",
+    "Angle": "366",
+    "BaseKnockBackSetKnockback": "W: 40",
+    "LandingLag": "30",
+    "AutoCancel": "1-3, 48&gt;",
+    "KnockbackGrowth": "100",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216b46965952fcb51859",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Pikachu",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "32-33",
-    "firstActionableFrame": "-",
-    "baseDamage": "3",
-    "angle": "45",
-    "baseKnockBackSetKnockback": "40",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "180",
-    "type": 0,
-    "name": "Bair (Hit 8)",
-    "ownerId": 41,
-    "id": 2286
+    "InstanceId": "5968216b46965952fcb5185a",
+    "Name": "Bair (Hit 8)",
+    "OwnerId": 41,
+    "Owner": "Pikachu",
+    "HitboxActive": "32-33",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "3",
+    "Angle": "45",
+    "BaseKnockBackSetKnockback": "40",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "180",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216b46965952fcb5185a",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Pikachu",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "1-2",
-    "firstActionableFrame": "-",
-    "baseDamage": "4",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "50",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "80",
-    "type": 0,
-    "name": "Bair (Landing)",
-    "ownerId": 41,
-    "id": 2287
+    "InstanceId": "5968216b46965952fcb5185b",
+    "Name": "Bair (Landing)",
+    "OwnerId": 41,
+    "Owner": "Pikachu",
+    "HitboxActive": "1-2",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "4",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "50",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "80",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216b46965952fcb5185b",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Pikachu",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "4-6",
-    "firstActionableFrame": "27",
-    "baseDamage": "5/5/4",
-    "angle": "68",
-    "baseKnockBackSetKnockback": "50",
-    "landingLag": "24",
-    "autoCancel": "1-3, 18&gt;",
-    "knockbackGrowth": "113",
-    "type": 0,
-    "name": "Uair",
-    "ownerId": 41,
-    "id": 2288
+    "InstanceId": "5968216b46965952fcb5185c",
+    "Name": "Uair",
+    "OwnerId": 41,
+    "Owner": "Pikachu",
+    "HitboxActive": "4-6",
+    "FirstActionableFrame": "27",
+    "BaseDamage": "5/5/4",
+    "Angle": "68",
+    "BaseKnockBackSetKnockback": "50",
+    "LandingLag": "24",
+    "AutoCancel": "1-3, 18&gt;",
+    "KnockbackGrowth": "113",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216b46965952fcb5185c",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Pikachu",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "7-8",
-    "firstActionableFrame": "-",
-    "baseDamage": "4",
-    "angle": "55",
-    "baseKnockBackSetKnockback": "40",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "80",
-    "type": 0,
-    "name": "Uair (Late)",
-    "ownerId": 41,
-    "id": 2289
+    "InstanceId": "5968216b46965952fcb5185d",
+    "Name": "Uair (Late)",
+    "OwnerId": 41,
+    "Owner": "Pikachu",
+    "HitboxActive": "7-8",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "4",
+    "Angle": "55",
+    "BaseKnockBackSetKnockback": "40",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "80",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216b46965952fcb5185d",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Pikachu",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "14-26",
-    "firstActionableFrame": "48",
-    "baseDamage": "12",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "20",
-    "landingLag": "40",
-    "autoCancel": "39&gt;",
-    "knockbackGrowth": "84",
-    "type": 0,
-    "name": "Dair",
-    "ownerId": 41,
-    "id": 2290
+    "InstanceId": "5968216b46965952fcb5185e",
+    "Name": "Dair",
+    "OwnerId": 41,
+    "Owner": "Pikachu",
+    "HitboxActive": "14-26",
+    "FirstActionableFrame": "48",
+    "BaseDamage": "12",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "20",
+    "LandingLag": "40",
+    "AutoCancel": "39&gt;",
+    "KnockbackGrowth": "84",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216b46965952fcb5185e",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Pikachu",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "1-2",
-    "firstActionableFrame": "-",
-    "baseDamage": "4",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "50",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "100",
-    "type": 0,
-    "name": "Dair (Landing)",
-    "ownerId": 41,
-    "id": 2291
+    "InstanceId": "5968216b46965952fcb5185f",
+    "Name": "Dair (Landing)",
+    "OwnerId": 41,
+    "Owner": "Pikachu",
+    "HitboxActive": "1-2",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "4",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "50",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "100",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216b46965952fcb5185f",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Pikachu",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "19-116",
-    "firstActionableFrame": "58",
-    "baseDamage": "4.8",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "45",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "30",
-    "type": 2,
-    "name": "Thunder Jolt (Air)",
-    "ownerId": 41,
-    "id": 2292
+    "InstanceId": "5968216b46965952fcb51860",
+    "Name": "Thunder Jolt (Air)",
+    "OwnerId": 41,
+    "Owner": "Pikachu",
+    "HitboxActive": "19-116",
+    "FirstActionableFrame": "58",
+    "BaseDamage": "4.8",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "45",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "30",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216b46965952fcb51860",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Pikachu",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "1-30",
-    "firstActionableFrame": "-",
-    "baseDamage": "6/5",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "25/13",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "20",
-    "type": 2,
-    "name": "Thunder Jolt (Arc, Early)",
-    "ownerId": 41,
-    "id": 2293
+    "InstanceId": "5968216b46965952fcb51861",
+    "Name": "Thunder Jolt (Arc, Early)",
+    "OwnerId": 41,
+    "Owner": "Pikachu",
+    "HitboxActive": "1-30",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "6/5",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "25/13",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "20",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216b46965952fcb51861",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Pikachu",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "31-60",
-    "firstActionableFrame": "-",
-    "baseDamage": "5/4",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "25/13",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "20",
-    "type": 2,
-    "name": "Thunder Jolt (Arc)",
-    "ownerId": 41,
-    "id": 2294
+    "InstanceId": "5968216b46965952fcb51862",
+    "Name": "Thunder Jolt (Arc)",
+    "OwnerId": 41,
+    "Owner": "Pikachu",
+    "HitboxActive": "31-60",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "5/4",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "25/13",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "20",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216b46965952fcb51862",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Pikachu",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "61-81?",
-    "firstActionableFrame": "-",
-    "baseDamage": "4/3",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "25/13",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "20",
-    "type": 2,
-    "name": "Thunder Jolt (Arc, Late)",
-    "ownerId": 41,
-    "id": 2295
+    "InstanceId": "5968216b46965952fcb51863",
+    "Name": "Thunder Jolt (Arc, Late)",
+    "OwnerId": 41,
+    "Owner": "Pikachu",
+    "HitboxActive": "61-81?",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "4/3",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "25/13",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "20",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216b46965952fcb51863",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Pikachu",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "18-53",
-    "firstActionableFrame": "97",
-    "baseDamage": "6",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "40",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "62",
-    "type": 2,
-    "name": "Skull Bash",
-    "ownerId": 41,
-    "id": 2296
+    "InstanceId": "5968216b46965952fcb51864",
+    "Name": "Skull Bash",
+    "OwnerId": 41,
+    "Owner": "Pikachu",
+    "HitboxActive": "18-53",
+    "FirstActionableFrame": "97",
+    "BaseDamage": "6",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "40",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "62",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216b46965952fcb51864",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Pikachu",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "15-",
-    "firstActionableFrame": "-",
-    "baseDamage": "2",
-    "angle": "",
-    "baseKnockBackSetKnockback": "",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "",
-    "type": 2,
-    "name": "Quick Attack (Hit 1)",
-    "ownerId": 41,
-    "id": 2297
+    "InstanceId": "5968216b46965952fcb51865",
+    "Name": "Quick Attack (Hit 1)",
+    "OwnerId": 41,
+    "Owner": "Pikachu",
+    "HitboxActive": "15- (Cannot Rebound)",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "2 (+5)",
+    "Angle": "70",
+    "BaseKnockBackSetKnockback": "20",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "50",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216b46965952fcb51865",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Pikachu",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "43-",
-    "firstActionableFrame": "-",
-    "baseDamage": "3",
-    "angle": "",
-    "baseKnockBackSetKnockback": "",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "",
-    "type": 2,
-    "name": "Quick Attack (Hit 2)",
-    "ownerId": 41,
-    "id": 2298
+    "InstanceId": "5968216b46965952fcb51866",
+    "Name": "Quick Attack (Hit 2)",
+    "OwnerId": 41,
+    "Owner": "Pikachu",
+    "HitboxActive": "43-",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "3 (+5)",
+    "Angle": "70",
+    "BaseKnockBackSetKnockback": "20",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "150",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216b46965952fcb51866",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Pikachu",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "13-15",
-    "firstActionableFrame": "-",
-    "baseDamage": "6",
-    "angle": "270",
-    "baseKnockBackSetKnockback": "74",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "60",
-    "type": 2,
-    "name": "Thunder (Cloud)",
-    "ownerId": 41,
-    "id": 2299
+    "InstanceId": "5968216b46965952fcb51867",
+    "Name": "Thunder (Cloud)",
+    "OwnerId": 41,
+    "Owner": "Pikachu",
+    "HitboxActive": "13-15",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "6",
+    "Angle": "270",
+    "BaseKnockBackSetKnockback": "74",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "60",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216b46965952fcb51867",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Pikachu",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "16-85",
-    "firstActionableFrame": "-",
-    "baseDamage": "8",
-    "angle": "70",
-    "baseKnockBackSetKnockback": "74",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "60",
-    "type": 2,
-    "name": "Thunder (Projectile)",
-    "ownerId": 41,
-    "id": 2300
+    "InstanceId": "5968216b46965952fcb51868",
+    "Name": "Thunder (Projectile)",
+    "OwnerId": 41,
+    "Owner": "Pikachu",
+    "HitboxActive": "16-85",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "8",
+    "Angle": "70",
+    "BaseKnockBackSetKnockback": "74",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "60",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216b46965952fcb51868",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Pikachu",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "34-36 (Invincible: 34-44)",
-    "firstActionableFrame": "75",
-    "baseDamage": "15",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "70",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "66",
-    "type": 2,
-    "name": "Thunder (Contact)",
-    "ownerId": 41,
-    "id": 2301
+    "InstanceId": "5968216b46965952fcb51869",
+    "Name": "Thunder (Contact)",
+    "OwnerId": 41,
+    "Owner": "Pikachu",
+    "HitboxActive": "34-36 (Invincible: 34-44)",
+    "FirstActionableFrame": "75",
+    "BaseDamage": "15",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "70",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "66",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216b46965952fcb51869",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Pikachu",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968216b46965952fcb5186a",
+    "Name": "Fthrow",
+    "OwnerId": 41,
+    "Owner": "Pikachu",
+    "HitboxActive": null,
+    "FirstActionableFrame": null,
+    "BaseDamage": "2&#37;&#215;4, 2",
+    "Angle": "45",
+    "BaseKnockBackSetKnockback": "55",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "110",
+    "MoveType": "throw",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216b46965952fcb5186a",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Pikachu",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968216b46965952fcb5186b",
+    "Name": "Bthrow",
+    "OwnerId": 41,
+    "Owner": "Pikachu",
+    "HitboxActive": null,
+    "FirstActionableFrame": null,
+    "BaseDamage": "9",
+    "Angle": "135",
+    "BaseKnockBackSetKnockback": "85",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "50",
+    "MoveType": "throw",
+    "IsWeightDependent": true,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216b46965952fcb5186b",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Pikachu",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968216b46965952fcb5186c",
+    "Name": "Uthrow",
+    "OwnerId": 41,
+    "Owner": "Pikachu",
+    "HitboxActive": null,
+    "FirstActionableFrame": null,
+    "BaseDamage": "1, 3",
+    "Angle": "90",
+    "BaseKnockBackSetKnockback": "48",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "150",
+    "MoveType": "throw",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216b46965952fcb5186c",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Pikachu",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968216b46965952fcb5186d",
+    "Name": "Dthrow",
+    "OwnerId": 41,
+    "Owner": "Pikachu",
+    "HitboxActive": null,
+    "FirstActionableFrame": null,
+    "BaseDamage": "3, 5",
+    "Angle": "80",
+    "BaseKnockBackSetKnockback": "60",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "throw",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968216b46965952fcb5186d",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Pikachu",
+        "Title": ""
+      }
+    ]
   }
 ]

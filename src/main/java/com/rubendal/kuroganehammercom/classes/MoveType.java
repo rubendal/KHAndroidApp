@@ -28,4 +28,17 @@ public enum MoveType implements Serializable {
                 return Aerial;
         }
     }
+
+    public static MoveType fromValue(String value){
+        switch(value){
+            case "ground":
+                return Ground;
+            case "special":
+                return Special;
+            case "throw":
+                return Throw;
+            default:
+                return Aerial;
+        }
+    }
 }

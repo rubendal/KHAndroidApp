@@ -1,660 +1,1430 @@
 ﻿[
   {
-    "hitboxActive": "10-11",
-    "firstActionableFrame": "38",
-    "baseDamage": "4",
-    "angle": "70/105/361",
-    "baseKnockBackSetKnockback": "50/48/W: 25",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "10/10/100",
-    "type": 1,
-    "name": "Jab 1",
-    "ownerId": 19,
-    "id": 996
+    "InstanceId": "5968212f46965952fcb510cb",
+    "Name": "Jab 1",
+    "OwnerId": 19,
+    "Owner": "KingDedede",
+    "HitboxActive": "10-11",
+    "FirstActionableFrame": "38",
+    "BaseDamage": "4",
+    "Angle": "70/105/361",
+    "BaseKnockBackSetKnockback": "50/48/W: 25",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "10/10/100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212f46965952fcb510cb",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/KingDedede",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "11-12",
-    "firstActionableFrame": "28",
-    "baseDamage": "4",
-    "angle": "115/105/100",
-    "baseKnockBackSetKnockback": "50/50/30",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "10/10/45",
-    "type": 1,
-    "name": "Jab 2",
-    "ownerId": 19,
-    "id": 997
+    "InstanceId": "5968212f46965952fcb510cc",
+    "Name": "Jab 2",
+    "OwnerId": 19,
+    "Owner": "KingDedede",
+    "HitboxActive": "11-12",
+    "FirstActionableFrame": "28",
+    "BaseDamage": "4",
+    "Angle": "115/105/100",
+    "BaseKnockBackSetKnockback": "50/50/30",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "10/10/45",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212f46965952fcb510cc",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/KingDedede",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "1",
-    "angle": "20/20/68",
-    "baseKnockBackSetKnockback": "W: 60/20/2",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Rapid Jab",
-    "ownerId": 19,
-    "id": 998
+    "InstanceId": "5968212f46965952fcb510cd",
+    "Name": "Rapid Jab",
+    "OwnerId": 19,
+    "Owner": "KingDedede",
+    "HitboxActive": "-",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "1",
+    "Angle": "20/20/68",
+    "BaseKnockBackSetKnockback": "W: 60/20/2",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212f46965952fcb510cd",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/KingDedede",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "6",
-    "firstActionableFrame": "47",
-    "baseDamage": "3",
-    "angle": "70",
-    "baseKnockBackSetKnockback": "80",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "150",
-    "type": 1,
-    "name": "Rapid Jab Finisher",
-    "ownerId": 19,
-    "id": 999
+    "InstanceId": "5968212f46965952fcb510ce",
+    "Name": "Rapid Jab Finisher",
+    "OwnerId": 19,
+    "Owner": "KingDedede",
+    "HitboxActive": "6",
+    "FirstActionableFrame": "47",
+    "BaseDamage": "3",
+    "Angle": "70",
+    "BaseKnockBackSetKnockback": "80",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "150",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212f46965952fcb510ce",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/KingDedede",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "26-27",
-    "firstActionableFrame": "67",
-    "baseDamage": "16 (+3)",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "40",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Dash Attack",
-    "ownerId": 19,
-    "id": 1000
+    "InstanceId": "5968212f46965952fcb510cf",
+    "Name": "Dash Attack",
+    "OwnerId": 19,
+    "Owner": "KingDedede",
+    "HitboxActive": "26-27",
+    "FirstActionableFrame": "67",
+    "BaseDamage": "16 (+3)",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "40",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212f46965952fcb510cf",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/KingDedede",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "28-35",
-    "firstActionableFrame": "-",
-    "baseDamage": "13 (+3)",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "35",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Dash Attack (Late)",
-    "ownerId": 19,
-    "id": 1001
+    "InstanceId": "5968212f46965952fcb510d0",
+    "Name": "Dash Attack (Late)",
+    "OwnerId": 19,
+    "Owner": "KingDedede",
+    "HitboxActive": "28-35",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "13 (+3)",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "35",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212f46965952fcb510d0",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/KingDedede",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "12-21 (Rehit rate: 4/4/3/3)",
-    "firstActionableFrame": "49",
-    "baseDamage": "2",
-    "angle": "25/25/96/250",
-    "baseKnockBackSetKnockback": "90/80/24/24",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Ftilt",
-    "ownerId": 19,
-    "id": 1002
+    "InstanceId": "5968212f46965952fcb510d1",
+    "Name": "Ftilt",
+    "OwnerId": 19,
+    "Owner": "KingDedede",
+    "HitboxActive": "12-21 (Rehit rate: 4/4/3/3)",
+    "FirstActionableFrame": "49",
+    "BaseDamage": "2",
+    "Angle": "25/25/96/250",
+    "BaseKnockBackSetKnockback": "90/80/24/24",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212f46965952fcb510d1",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/KingDedede",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "23",
-    "firstActionableFrame": "-",
-    "baseDamage": "3",
-    "angle": "50",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "190",
-    "type": 1,
-    "name": "Ftilt (Final Hit)",
-    "ownerId": 19,
-    "id": 1003
+    "InstanceId": "5968212f46965952fcb510d2",
+    "Name": "Ftilt (Final Hit)",
+    "OwnerId": 19,
+    "Owner": "KingDedede",
+    "HitboxActive": "23",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "3",
+    "Angle": "50",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "190",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212f46965952fcb510d2",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/KingDedede",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "9-15 (Head and Left Arm Intangibility: 9-15)",
-    "firstActionableFrame": "44",
-    "baseDamage": "12/10",
-    "angle": "96",
-    "baseKnockBackSetKnockback": "50",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "80",
-    "type": 1,
-    "name": "Utilt",
-    "ownerId": 19,
-    "id": 1004
+    "InstanceId": "5968212f46965952fcb510d3",
+    "Name": "Utilt",
+    "OwnerId": 19,
+    "Owner": "KingDedede",
+    "HitboxActive": "9-15 (Head and Left Arm Intangibility: 9-15)",
+    "FirstActionableFrame": "44",
+    "BaseDamage": "12/10",
+    "Angle": "96",
+    "BaseKnockBackSetKnockback": "50",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "80",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212f46965952fcb510d3",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/KingDedede",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "6-8",
-    "firstActionableFrame": "38",
-    "baseDamage": "10",
-    "angle": "45",
-    "baseKnockBackSetKnockback": "60",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "75",
-    "type": 1,
-    "name": "Dtilt",
-    "ownerId": 19,
-    "id": 1005
+    "InstanceId": "5968212f46965952fcb510d4",
+    "Name": "Dtilt",
+    "OwnerId": 19,
+    "Owner": "KingDedede",
+    "HitboxActive": "6-8",
+    "FirstActionableFrame": "38",
+    "BaseDamage": "10",
+    "Angle": "45",
+    "BaseKnockBackSetKnockback": "60",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "75",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212f46965952fcb510d4",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/KingDedede",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "9-13",
-    "firstActionableFrame": "-",
-    "baseDamage": "6",
-    "angle": "45",
-    "baseKnockBackSetKnockback": "60",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "75",
-    "type": 1,
-    "name": "Dtilt (Late)",
-    "ownerId": 19,
-    "id": 1006
+    "InstanceId": "5968212f46965952fcb510d5",
+    "Name": "Dtilt (Late)",
+    "OwnerId": 19,
+    "Owner": "KingDedede",
+    "HitboxActive": "9-13",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "6",
+    "Angle": "45",
+    "BaseKnockBackSetKnockback": "60",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "75",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212f46965952fcb510d5",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/KingDedede",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "42-44",
-    "firstActionableFrame": "82",
-    "baseDamage": "15",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "93",
-    "type": 1,
-    "name": "Fsmash",
-    "ownerId": 19,
-    "id": 1007
+    "InstanceId": "5968212f46965952fcb510d6",
+    "Name": "Fsmash",
+    "OwnerId": 19,
+    "Owner": "KingDedede",
+    "HitboxActive": "42-44",
+    "FirstActionableFrame": "82",
+    "BaseDamage": "15",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "93",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212f46965952fcb510d6",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/KingDedede",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "45-47",
-    "firstActionableFrame": "-",
-    "baseDamage": "24 (+4)",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "93",
-    "type": 1,
-    "name": "Fsmash (Late)",
-    "ownerId": 19,
-    "id": 1008
+    "InstanceId": "5968212f46965952fcb510d7",
+    "Name": "Fsmash (Late)",
+    "OwnerId": 19,
+    "Owner": "KingDedede",
+    "HitboxActive": "45-47",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "24 (+4)",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "93",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212f46965952fcb510d7",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/KingDedede",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "48-49 (Grounded Only)",
-    "firstActionableFrame": "-",
-    "baseDamage": "6",
-    "angle": "60",
-    "baseKnockBackSetKnockback": "100",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "30",
-    "type": 1,
-    "name": "Fsmash (Shockwave)",
-    "ownerId": 19,
-    "id": 1009
+    "InstanceId": "5968212f46965952fcb510d8",
+    "Name": "Fsmash (Shockwave)",
+    "OwnerId": 19,
+    "Owner": "KingDedede",
+    "HitboxActive": "48-49 (Grounded Only)",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "6",
+    "Angle": "60",
+    "BaseKnockBackSetKnockback": "100",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "30",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212f46965952fcb510d8",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/KingDedede",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "17-24",
-    "firstActionableFrame": "68",
-    "baseDamage": "14/14/14/9",
-    "angle": "80",
-    "baseKnockBackSetKnockback": "40",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "95/96/96/96",
-    "type": 1,
-    "name": "Usmash",
-    "ownerId": 19,
-    "id": 1010
+    "InstanceId": "5968212f46965952fcb510d9",
+    "Name": "Usmash",
+    "OwnerId": 19,
+    "Owner": "KingDedede",
+    "HitboxActive": "17-24",
+    "FirstActionableFrame": "68",
+    "BaseDamage": "14/14/14/9",
+    "Angle": "80",
+    "BaseKnockBackSetKnockback": "40",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "95/96/96/96",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212f46965952fcb510d9",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/KingDedede",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "14-22",
-    "firstActionableFrame": "53",
-    "baseDamage": "13",
-    "angle": "30/361",
-    "baseKnockBackSetKnockback": "60",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "80",
-    "type": 1,
-    "name": "Dsmash",
-    "ownerId": 19,
-    "id": 1011
+    "InstanceId": "5968212f46965952fcb510da",
+    "Name": "Dsmash",
+    "OwnerId": 19,
+    "Owner": "KingDedede",
+    "HitboxActive": "14-22",
+    "FirstActionableFrame": "53",
+    "BaseDamage": "13",
+    "Angle": "30/361",
+    "BaseKnockBackSetKnockback": "60",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "80",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212f46965952fcb510da",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/KingDedede",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "7-8",
-    "firstActionableFrame": "36",
-    "baseDamage": "",
-    "angle": "",
-    "baseKnockBackSetKnockback": "",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "",
-    "type": 1,
-    "name": "Standing Grab",
-    "ownerId": 19,
-    "id": 1013
+    "InstanceId": "5968212f46965952fcb510db",
+    "Name": "Standing Grab",
+    "OwnerId": 19,
+    "Owner": "KingDedede",
+    "HitboxActive": "7-8",
+    "FirstActionableFrame": "36",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212f46965952fcb510db",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/KingDedede",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "9-10",
-    "firstActionableFrame": "45",
-    "baseDamage": "",
-    "angle": "",
-    "baseKnockBackSetKnockback": "",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "",
-    "type": 1,
-    "name": "Dash Grab",
-    "ownerId": 19,
-    "id": 1014
+    "InstanceId": "5968212f46965952fcb510dc",
+    "Name": "Dash Grab",
+    "OwnerId": 19,
+    "Owner": "KingDedede",
+    "HitboxActive": "9-10",
+    "FirstActionableFrame": "45",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212f46965952fcb510dc",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/KingDedede",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "10-11",
-    "firstActionableFrame": "42",
-    "baseDamage": "",
-    "angle": "",
-    "baseKnockBackSetKnockback": "",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "",
-    "type": 1,
-    "name": "Pivot Grab",
-    "ownerId": 19,
-    "id": 1015
+    "InstanceId": "5968212f46965952fcb510dd",
+    "Name": "Pivot Grab",
+    "OwnerId": 19,
+    "Owner": "KingDedede",
+    "HitboxActive": "10-11",
+    "FirstActionableFrame": "42",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212f46965952fcb510dd",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/KingDedede",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "4, 6",
-    "angle": "45",
-    "baseKnockBackSetKnockback": "70",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "80",
-    "type": 3,
-    "name": "Fthrow",
-    "ownerId": 19,
-    "id": 1017
+    "InstanceId": "5968212f46965952fcb510de",
+    "Name": "Spotdodge",
+    "OwnerId": 19,
+    "Owner": "KingDedede",
+    "HitboxActive": "4-19",
+    "FirstActionableFrame": "29",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212f46965952fcb510de",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/KingDedede",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "4, 9",
-    "angle": "60",
-    "baseKnockBackSetKnockback": "60",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "79",
-    "type": 3,
-    "name": "Bthrow",
-    "ownerId": 19,
-    "id": 1018
+    "InstanceId": "5968212f46965952fcb510df",
+    "Name": "Forward Roll",
+    "OwnerId": 19,
+    "Owner": "KingDedede",
+    "HitboxActive": "4-19",
+    "FirstActionableFrame": "34",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212f46965952fcb510df",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/KingDedede",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "4, 5",
-    "angle": "90",
-    "baseKnockBackSetKnockback": "70",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "72",
-    "type": 3,
-    "name": "Uthrow",
-    "ownerId": 19,
-    "id": 1019
+    "InstanceId": "5968212f46965952fcb510e0",
+    "Name": "Back Roll",
+    "OwnerId": 19,
+    "Owner": "KingDedede",
+    "HitboxActive": "4-19",
+    "FirstActionableFrame": "34",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212f46965952fcb510e0",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/KingDedede",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "6",
-    "angle": "80",
-    "baseKnockBackSetKnockback": "70",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "82",
-    "type": 3,
-    "name": "Dthrow",
-    "ownerId": 19,
-    "id": 1020
+    "InstanceId": "5968212f46965952fcb510e1",
+    "Name": "Airdodge",
+    "OwnerId": 19,
+    "Owner": "KingDedede",
+    "HitboxActive": "4-29",
+    "FirstActionableFrame": "35",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212f46965952fcb510e1",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/KingDedede",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "7-8",
-    "firstActionableFrame": "40",
-    "baseDamage": "12",
-    "angle": "60",
-    "baseKnockBackSetKnockback": "40",
-    "landingLag": "15",
-    "autoCancel": "1-2, 35&gt;",
-    "knockbackGrowth": "95",
-    "type": 0,
-    "name": "Nair",
-    "ownerId": 19,
-    "id": 1026
+    "InstanceId": "5968212f46965952fcb510e2",
+    "Name": "Nair",
+    "OwnerId": 19,
+    "Owner": "KingDedede",
+    "HitboxActive": "7-8",
+    "FirstActionableFrame": "40",
+    "BaseDamage": "12",
+    "Angle": "60",
+    "BaseKnockBackSetKnockback": "40",
+    "LandingLag": "15",
+    "AutoCancel": "1-2, 35&gt;",
+    "KnockbackGrowth": "95",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212f46965952fcb510e2",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/KingDedede",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "9-29",
-    "firstActionableFrame": "-",
-    "baseDamage": "7",
-    "angle": "80",
-    "baseKnockBackSetKnockback": "40",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "95",
-    "type": 0,
-    "name": "Nair (Late)",
-    "ownerId": 19,
-    "id": 1027
+    "InstanceId": "5968212f46965952fcb510e3",
+    "Name": "Nair (Late)",
+    "OwnerId": 19,
+    "Owner": "KingDedede",
+    "HitboxActive": "9-29",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "7",
+    "Angle": "80",
+    "BaseKnockBackSetKnockback": "40",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "95",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212f46965952fcb510e3",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/KingDedede",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "13-15",
-    "firstActionableFrame": "42",
-    "baseDamage": "12",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "15",
-    "landingLag": "30",
-    "autoCancel": "1-4, 40&gt;",
-    "knockbackGrowth": "90",
-    "type": 0,
-    "name": "Fair",
-    "ownerId": 19,
-    "id": 1028
+    "InstanceId": "5968212f46965952fcb510e4",
+    "Name": "Fair",
+    "OwnerId": 19,
+    "Owner": "KingDedede",
+    "HitboxActive": "13-15",
+    "FirstActionableFrame": "42",
+    "BaseDamage": "12",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "15",
+    "LandingLag": "30",
+    "AutoCancel": "1-4, 40&gt;",
+    "KnockbackGrowth": "90",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212f46965952fcb510e4",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/KingDedede",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "17-19",
-    "firstActionableFrame": "38",
-    "baseDamage": "16",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "21",
-    "autoCancel": "1-4, 33&gt;",
-    "knockbackGrowth": "88",
-    "type": 0,
-    "name": "Bair",
-    "ownerId": 19,
-    "id": 1029
+    "InstanceId": "5968212f46965952fcb510e5",
+    "Name": "Bair",
+    "OwnerId": 19,
+    "Owner": "KingDedede",
+    "HitboxActive": "17-19",
+    "FirstActionableFrame": "38",
+    "BaseDamage": "16",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": "21",
+    "AutoCancel": "1-4, 33&gt;",
+    "KnockbackGrowth": "88",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212f46965952fcb510e5",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/KingDedede",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "10, 12, 14, 16, 18, 20, 22",
-    "firstActionableFrame": "45",
-    "baseDamage": "1",
-    "angle": "366/366/90/90",
-    "baseKnockBackSetKnockback": "W: 20/20/40/40",
-    "landingLag": "22",
-    "autoCancel": "1-4, 42&gt;",
-    "knockbackGrowth": "100",
-    "type": 0,
-    "name": "Uair (Hits 1-6)",
-    "ownerId": 19,
-    "id": 1030
+    "InstanceId": "5968212f46965952fcb510e6",
+    "Name": "Uair (Hits 1-6)",
+    "OwnerId": 19,
+    "Owner": "KingDedede",
+    "HitboxActive": "10, 12, 14, 16, 18, 20, 22",
+    "FirstActionableFrame": "45",
+    "BaseDamage": "1",
+    "Angle": "366/366/90/90",
+    "BaseKnockBackSetKnockback": "W: 20/20/40/40",
+    "LandingLag": "22",
+    "AutoCancel": "1-4, 42&gt;",
+    "KnockbackGrowth": "100",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212f46965952fcb510e6",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/KingDedede",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "24-25",
-    "firstActionableFrame": "-",
-    "baseDamage": "5",
-    "angle": "70/80/70/70",
-    "baseKnockBackSetKnockback": "50",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "150",
-    "type": 0,
-    "name": "Uair (Hit 7)",
-    "ownerId": 19,
-    "id": 1031
+    "InstanceId": "5968212f46965952fcb510e7",
+    "Name": "Uair (Hit 7)",
+    "OwnerId": 19,
+    "Owner": "KingDedede",
+    "HitboxActive": "24-25",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "5",
+    "Angle": "70/80/70/70",
+    "BaseKnockBackSetKnockback": "50",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "150",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212f46965952fcb510e7",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/KingDedede",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "22-23",
-    "firstActionableFrame": "48",
-    "baseDamage": "15/15/8",
-    "angle": "270/361/361",
-    "baseKnockBackSetKnockback": "20",
-    "landingLag": "30",
-    "autoCancel": "1-6, 44&gt;",
-    "knockbackGrowth": "90/100/100",
-    "type": 0,
-    "name": "Dair",
-    "ownerId": 19,
-    "id": 1032
+    "InstanceId": "5968212f46965952fcb510e8",
+    "Name": "Dair",
+    "OwnerId": 19,
+    "Owner": "KingDedede",
+    "HitboxActive": "22-23",
+    "FirstActionableFrame": "48",
+    "BaseDamage": "15/15/8",
+    "Angle": "270/361/361",
+    "BaseKnockBackSetKnockback": "20",
+    "LandingLag": "30",
+    "AutoCancel": "1-6, 44&gt;",
+    "KnockbackGrowth": "90/100/100",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212f46965952fcb510e8",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/KingDedede",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "17-",
-    "firstActionableFrame": "78",
-    "baseDamage": "-",
-    "angle": "-",
-    "baseKnockBackSetKnockback": "-",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "-",
-    "type": 2,
-    "name": "Inhale",
-    "ownerId": 19,
-    "id": 1033
+    "InstanceId": "5968212f46965952fcb510e9",
+    "Name": "Inhale",
+    "OwnerId": 19,
+    "Owner": "KingDedede",
+    "HitboxActive": "17-",
+    "FirstActionableFrame": "78",
+    "BaseDamage": "-",
+    "Angle": "-",
+    "BaseKnockBackSetKnockback": "-",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "-",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212f46965952fcb510e9",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/KingDedede",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "6-",
-    "firstActionableFrame": "30",
-    "baseDamage": "10",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "0",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "0",
-    "type": 2,
-    "name": "Inhale (Spit)",
-    "ownerId": 19,
-    "id": 1034
+    "InstanceId": "5968212f46965952fcb510ea",
+    "Name": "Inhale (Spit)",
+    "OwnerId": 19,
+    "Owner": "KingDedede",
+    "HitboxActive": "6-",
+    "FirstActionableFrame": "30",
+    "BaseDamage": "10",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "0",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "0",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212f46965952fcb510ea",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/KingDedede",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "29",
-    "firstActionableFrame": "64",
-    "baseDamage": "10",
-    "angle": "?",
-    "baseKnockBackSetKnockback": "?",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "?",
-    "type": 2,
-    "name": "Gordo Throw (Hammer)",
-    "ownerId": 19,
-    "id": 1035
+    "InstanceId": "5968212f46965952fcb510eb",
+    "Name": "Gordo Throw (Hammer)",
+    "OwnerId": 19,
+    "Owner": "KingDedede",
+    "HitboxActive": "29",
+    "FirstActionableFrame": "64",
+    "BaseDamage": "10",
+    "Angle": "?",
+    "BaseKnockBackSetKnockback": "?",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "?",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212f46965952fcb510eb",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/KingDedede",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "29-58 (Gordo Generated: Frame 6)",
-    "firstActionableFrame": "-",
-    "baseDamage": "14",
-    "angle": "60",
-    "baseKnockBackSetKnockback": "70",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "66",
-    "type": 2,
-    "name": "Gordo Throw (Gordo, Early)",
-    "ownerId": 19,
-    "id": 1036
+    "InstanceId": "5968212f46965952fcb510ec",
+    "Name": "Gordo Throw (Gordo, Early)",
+    "OwnerId": 19,
+    "Owner": "KingDedede",
+    "HitboxActive": "29-58 (Gordo Generated: Frame 6)",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "14",
+    "Angle": "60",
+    "BaseKnockBackSetKnockback": "70",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "66",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212f46965952fcb510ec",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/KingDedede",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "88-116",
-    "firstActionableFrame": "-",
-    "baseDamage": "12.5",
-    "angle": "60",
-    "baseKnockBackSetKnockback": "70",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "66",
-    "type": 2,
-    "name": "Gordo Throw (Gordo)",
-    "ownerId": 19,
-    "id": 1037
+    "InstanceId": "5968212f46965952fcb510ed",
+    "Name": "Gordo Throw (Gordo)",
+    "OwnerId": 19,
+    "Owner": "KingDedede",
+    "HitboxActive": "88-116",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "12.5",
+    "Angle": "60",
+    "BaseKnockBackSetKnockback": "70",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "66",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212f46965952fcb510ed",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/KingDedede",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "117-145",
-    "firstActionableFrame": "-",
-    "baseDamage": "11",
-    "angle": "60",
-    "baseKnockBackSetKnockback": "70",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "66",
-    "type": 2,
-    "name": "Gordo Throw (Gordo, Late)",
-    "ownerId": 19,
-    "id": 1038
+    "InstanceId": "5968212f46965952fcb510ee",
+    "Name": "Gordo Throw (Gordo, Late)",
+    "OwnerId": 19,
+    "Owner": "KingDedede",
+    "HitboxActive": "117-145",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "11",
+    "Angle": "60",
+    "BaseKnockBackSetKnockback": "70",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "66",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212f46965952fcb510ee",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/KingDedede",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "146-",
-    "firstActionableFrame": "-",
-    "baseDamage": "9.5",
-    "angle": "60",
-    "baseKnockBackSetKnockback": "70",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "66",
-    "type": 2,
-    "name": "Gordo Throw (Gordo, Latest)",
-    "ownerId": 19,
-    "id": 1039
+    "InstanceId": "5968212f46965952fcb510ef",
+    "Name": "Gordo Throw (Gordo, Latest)",
+    "OwnerId": 19,
+    "Owner": "KingDedede",
+    "HitboxActive": "146-",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "9.5",
+    "Angle": "60",
+    "BaseKnockBackSetKnockback": "70",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "66",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212f46965952fcb510ef",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/KingDedede",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "10",
-    "angle": "75",
-    "baseKnockBackSetKnockback": "50",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "50",
-    "type": 2,
-    "name": "Gordo Throw (Wall)",
-    "ownerId": 19,
-    "id": 1040
+    "InstanceId": "5968212f46965952fcb510f0",
+    "Name": "Gordo Throw (Wall)",
+    "OwnerId": 19,
+    "Owner": "KingDedede",
+    "HitboxActive": "-",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "10",
+    "Angle": "75",
+    "BaseKnockBackSetKnockback": "50",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "50",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212f46965952fcb510f0",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/KingDedede",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "Super Armor: 26-32, 73-80",
-    "firstActionableFrame": "-",
-    "baseDamage": "-",
-    "angle": "-",
-    "baseKnockBackSetKnockback": "-",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "-",
-    "type": 2,
-    "name": "Super Dedede Jump (Super Armor)",
-    "ownerId": 19,
-    "id": 1041
+    "InstanceId": "5968212f46965952fcb510f1",
+    "Name": "Super Dedede Jump (Super Armor)",
+    "OwnerId": 19,
+    "Owner": "KingDedede",
+    "HitboxActive": "Super Armor: 26-32, 73-80",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "-",
+    "Angle": "-",
+    "BaseKnockBackSetKnockback": "-",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "-",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212f46965952fcb510f1",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/KingDedede",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "Feet: 73-, Body: 22-25",
-    "firstActionableFrame": "-",
-    "baseDamage": "-",
-    "angle": "-",
-    "baseKnockBackSetKnockback": "-",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "-",
-    "type": 2,
-    "name": "Super Dedede Jump (Intangibility)",
-    "ownerId": 19,
-    "id": 1042
+    "InstanceId": "5968212f46965952fcb510f2",
+    "Name": "Super Dedede Jump (Intangibility)",
+    "OwnerId": 19,
+    "Owner": "KingDedede",
+    "HitboxActive": "Feet: 73-, Body: 22-25",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "-",
+    "Angle": "-",
+    "BaseKnockBackSetKnockback": "-",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "-",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212f46965952fcb510f2",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/KingDedede",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "73-",
-    "firstActionableFrame": "-",
-    "baseDamage": "15 (+3)",
-    "angle": "60/270",
-    "baseKnockBackSetKnockback": "60",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "90/80",
-    "type": 2,
-    "name": "Super Dedede Jump",
-    "ownerId": 19,
-    "id": 1043
+    "InstanceId": "5968212f46965952fcb510f3",
+    "Name": "Super Dedede Jump",
+    "OwnerId": 19,
+    "Owner": "KingDedede",
+    "HitboxActive": "73-",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "15 (+3)",
+    "Angle": "60/270",
+    "BaseKnockBackSetKnockback": "60",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "90/80",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212f46965952fcb510f3",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/KingDedede",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "3-4",
-    "firstActionableFrame": "61",
-    "baseDamage": "11",
-    "angle": "90/70",
-    "baseKnockBackSetKnockback": "80",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100/80",
-    "type": 2,
-    "name": "Super Dedede Jump (Landing)",
-    "ownerId": 19,
-    "id": 1044
+    "InstanceId": "5968212f46965952fcb510f4",
+    "Name": "Super Dedede Jump (Landing)",
+    "OwnerId": 19,
+    "Owner": "KingDedede",
+    "HitboxActive": "3-4",
+    "FirstActionableFrame": "61",
+    "BaseDamage": "11",
+    "Angle": "90/70",
+    "BaseKnockBackSetKnockback": "80",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100/80",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212f46965952fcb510f4",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/KingDedede",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "5-20",
-    "firstActionableFrame": "-",
-    "baseDamage": "5",
-    "angle": "70",
-    "baseKnockBackSetKnockback": "8",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "65",
-    "type": 2,
-    "name": "Super Dedede Jump (Stars)",
-    "ownerId": 19,
-    "id": 1045
+    "InstanceId": "5968212f46965952fcb510f5",
+    "Name": "Super Dedede Jump (Stars)",
+    "OwnerId": 19,
+    "Owner": "KingDedede",
+    "HitboxActive": "5-20",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "5",
+    "Angle": "70",
+    "BaseKnockBackSetKnockback": "8",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "65",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212f46965952fcb510f5",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/KingDedede",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "27-28",
-    "firstActionableFrame": "77",
-    "baseDamage": "11",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 2,
-    "name": "Jet Hammer (Ground, Uncharged)",
-    "ownerId": 19,
-    "id": 1046
+    "InstanceId": "5968212f46965952fcb510f6",
+    "Name": "Jet Hammer (Ground, Uncharged)",
+    "OwnerId": 19,
+    "Owner": "KingDedede",
+    "HitboxActive": "27-28",
+    "FirstActionableFrame": "77",
+    "BaseDamage": "11",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212f46965952fcb510f6",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/KingDedede",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "9-11 (Self Damage on: Frame 167)",
-    "firstActionableFrame": "70",
-    "baseDamage": "38/28",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "5",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "66",
-    "type": 2,
-    "name": "Jet Hammer (Ground, Fully Charged)",
-    "ownerId": 19,
-    "id": 1047
+    "InstanceId": "5968212f46965952fcb510f7",
+    "Name": "Jet Hammer (Ground, Fully Charged)",
+    "OwnerId": 19,
+    "Owner": "KingDedede",
+    "HitboxActive": "9-11 (Self Damage on: Frame 167)",
+    "FirstActionableFrame": "70",
+    "BaseDamage": "38/28",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "5",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "66",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212f46965952fcb510f7",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/KingDedede",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "27-28",
-    "firstActionableFrame": "77",
-    "baseDamage": "10",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 2,
-    "name": "Jet Hammer (Air, Uncharged)",
-    "ownerId": 19,
-    "id": 1048
+    "InstanceId": "5968212f46965952fcb510f8",
+    "Name": "Jet Hammer (Air, Uncharged)",
+    "OwnerId": 19,
+    "Owner": "KingDedede",
+    "HitboxActive": "27-28",
+    "FirstActionableFrame": "77",
+    "BaseDamage": "10",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212f46965952fcb510f8",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/KingDedede",
+        "Title": ""
+      }
+    ]
   },
   {
-    "hitboxActive": "9-11",
-    "firstActionableFrame": "70",
-    "baseDamage": "27/16",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "10",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "70",
-    "type": 2,
-    "name": "Jet Hammer (Air, Fully Charged)",
-    "ownerId": 19,
-    "id": 1049
+    "InstanceId": "5968212f46965952fcb510f9",
+    "Name": "Jet Hammer (Air, Fully Charged)",
+    "OwnerId": 19,
+    "Owner": "KingDedede",
+    "HitboxActive": "9-11",
+    "FirstActionableFrame": "70",
+    "BaseDamage": "27/16",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "10",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "70",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212f46965952fcb510f9",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/KingDedede",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968212f46965952fcb510fa",
+    "Name": "Fthrow",
+    "OwnerId": 19,
+    "Owner": "KingDedede",
+    "HitboxActive": null,
+    "FirstActionableFrame": null,
+    "BaseDamage": "4, 6",
+    "Angle": "45",
+    "BaseKnockBackSetKnockback": "70",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "80",
+    "MoveType": "throw",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212f46965952fcb510fa",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/KingDedede",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968212f46965952fcb510fb",
+    "Name": "Bthrow",
+    "OwnerId": 19,
+    "Owner": "KingDedede",
+    "HitboxActive": null,
+    "FirstActionableFrame": null,
+    "BaseDamage": "4, 9",
+    "Angle": "60",
+    "BaseKnockBackSetKnockback": "60",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "79",
+    "MoveType": "throw",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212f46965952fcb510fb",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/KingDedede",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968212f46965952fcb510fc",
+    "Name": "Uthrow",
+    "OwnerId": 19,
+    "Owner": "KingDedede",
+    "HitboxActive": null,
+    "FirstActionableFrame": null,
+    "BaseDamage": "4, 5",
+    "Angle": "90",
+    "BaseKnockBackSetKnockback": "70",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "72",
+    "MoveType": "throw",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212f46965952fcb510fc",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/KingDedede",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968212f46965952fcb510fd",
+    "Name": "Dthrow",
+    "OwnerId": 19,
+    "Owner": "KingDedede",
+    "HitboxActive": null,
+    "FirstActionableFrame": null,
+    "BaseDamage": "6",
+    "Angle": "80",
+    "BaseKnockBackSetKnockback": "70",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "82",
+    "MoveType": "throw",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/5968212f46965952fcb510fd",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/KingDedede",
+        "Title": ""
+      }
+    ]
   }
 ]

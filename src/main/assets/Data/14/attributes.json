@@ -1,110 +1,344 @@
 ﻿[
   {
-    "name": "Weight",
-    "ownerId": 14,
-    "id": 235,
-    "value": "79"
+    "InstanceId": "5968212046965952fcb50f1b",
+    "Name": "Weight",
+    "OwnerId": 14,
+    "Owner": "Fox",
+    "Value": "79 ",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968212046965952fcb50f1b",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Fox",
+        "Title": ""
+      }
+    ]
   },
   {
-    "name": "Max Jumps",
-    "ownerId": 14,
-    "id": 236,
-    "value": "2"
+    "InstanceId": "5968212046965952fcb50f1c",
+    "Name": "Max Jumps",
+    "OwnerId": 14,
+    "Owner": "Fox",
+    "Value": "2",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968212046965952fcb50f1c",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Fox",
+        "Title": ""
+      }
+    ]
   },
   {
-    "name": "Run Speed",
-    "ownerId": 14,
-    "id": 237,
-    "value": "2.184"
+    "InstanceId": "5968212046965952fcb50f1d",
+    "Name": "Run Speed",
+    "OwnerId": 14,
+    "Owner": "Fox",
+    "Value": "2.184 ",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968212046965952fcb50f1d",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Fox",
+        "Title": ""
+      }
+    ]
   },
   {
-    "name": "Wall Jump",
-    "ownerId": 14,
-    "id": 238,
-    "value": "Yes"
+    "InstanceId": "5968212046965952fcb50f1e",
+    "Name": "Wall Jump",
+    "OwnerId": 14,
+    "Owner": "Fox",
+    "Value": "Yes",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968212046965952fcb50f1e",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Fox",
+        "Title": ""
+      }
+    ]
   },
   {
-    "name": "Walk Speed",
-    "ownerId": 14,
-    "id": 239,
-    "value": "1.45"
+    "InstanceId": "5968212046965952fcb50f1f",
+    "Name": "Walk Speed",
+    "OwnerId": 14,
+    "Owner": "Fox",
+    "Value": "1.45 ",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968212046965952fcb50f1f",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Fox",
+        "Title": ""
+      }
+    ]
   },
   {
-    "name": "Wall Cling",
-    "ownerId": 14,
-    "id": 240,
-    "value": "No"
+    "InstanceId": "5968212046965952fcb50f20",
+    "Name": "Wall Cling",
+    "OwnerId": 14,
+    "Owner": "Fox",
+    "Value": "No",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968212046965952fcb50f20",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Fox",
+        "Title": ""
+      }
+    ]
   },
   {
-    "name": "Air Speed",
-    "ownerId": 14,
-    "id": 241,
-    "value": "0.96"
+    "InstanceId": "5968212046965952fcb50f21",
+    "Name": "Air Speed",
+    "OwnerId": 14,
+    "Owner": "Fox",
+    "Value": "0.96 ",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968212046965952fcb50f21",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Fox",
+        "Title": ""
+      }
+    ]
   },
   {
-    "name": "Crawl",
-    "ownerId": 14,
-    "id": 242,
-    "value": "No"
+    "InstanceId": "5968212046965952fcb50f22",
+    "Name": "Crawl",
+    "OwnerId": 14,
+    "Owner": "Fox",
+    "Value": "No",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968212046965952fcb50f22",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Fox",
+        "Title": ""
+      }
+    ]
   },
   {
-    "name": "Fall Speed",
-    "ownerId": 14,
-    "id": 243,
-    "value": "2.05"
+    "InstanceId": "5968212046965952fcb50f23",
+    "Name": "Fall Speed",
+    "OwnerId": 14,
+    "Owner": "Fox",
+    "Value": "2.05 ",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968212046965952fcb50f23",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Fox",
+        "Title": ""
+      }
+    ]
   },
   {
-    "name": "Tether",
-    "ownerId": 14,
-    "id": 244,
-    "value": "No"
+    "InstanceId": "5968212046965952fcb50f24",
+    "Name": "Tether",
+    "OwnerId": 14,
+    "Owner": "Fox",
+    "Value": "No",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968212046965952fcb50f24",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Fox",
+        "Title": ""
+      }
+    ]
   },
   {
-    "name": "Fast Fall Speed",
-    "ownerId": 14,
-    "id": 245,
-    "value": "3.28"
+    "InstanceId": "5968212046965952fcb50f25",
+    "Name": "Fast Fall Speed",
+    "OwnerId": 14,
+    "Owner": "Fox",
+    "Value": "3.28 ",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968212046965952fcb50f25",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Fox",
+        "Title": ""
+      }
+    ]
   },
   {
-    "name": "Jumpsquat",
-    "ownerId": 14,
-    "id": 246,
-    "value": "4frames"
+    "InstanceId": "5968212046965952fcb50f26",
+    "Name": "Jumpsquat",
+    "OwnerId": 14,
+    "Owner": "Fox",
+    "Value": "4 frames",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968212046965952fcb50f26",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Fox",
+        "Title": ""
+      }
+    ]
   },
   {
-    "name": "Air Acceleration",
-    "ownerId": 14,
-    "id": 247,
-    "value": "0.08"
+    "InstanceId": "5968212046965952fcb50f27",
+    "Name": "Air Acceleration",
+    "OwnerId": 14,
+    "Owner": "Fox",
+    "Value": "0.08",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968212046965952fcb50f27",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Fox",
+        "Title": ""
+      }
+    ]
   },
   {
-    "name": "Soft Landing Lag",
-    "ownerId": 14,
-    "id": 248,
-    "value": "2frames"
+    "InstanceId": "5968212046965952fcb50f28",
+    "Name": "Soft Landing Lag",
+    "OwnerId": 14,
+    "Owner": "Fox",
+    "Value": "2 frames",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968212046965952fcb50f28",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Fox",
+        "Title": ""
+      }
+    ]
   },
   {
-    "name": "Gravity",
-    "ownerId": 14,
-    "id": 249,
-    "value": "0.19"
+    "InstanceId": "5968212046965952fcb50f29",
+    "Name": "Gravity",
+    "OwnerId": 14,
+    "Owner": "Fox",
+    "Value": "0.19",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968212046965952fcb50f29",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Fox",
+        "Title": ""
+      }
+    ]
   },
   {
-    "name": "Hard Landing Lag",
-    "ownerId": 14,
-    "id": 250,
-    "value": "4frames"
+    "InstanceId": "5968212046965952fcb50f2a",
+    "Name": "Hard Landing Lag",
+    "OwnerId": 14,
+    "Owner": "Fox",
+    "Value": "4 frames",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968212046965952fcb50f2a",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Fox",
+        "Title": ""
+      }
+    ]
   },
   {
-    "name": "SH Air Time",
-    "ownerId": 14,
-    "id": 251,
-    "value": "26frames"
+    "InstanceId": "5968212046965952fcb50f2b",
+    "Name": "SH Air Time",
+    "OwnerId": 14,
+    "Owner": "Fox",
+    "Value": "26 frames",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968212046965952fcb50f2b",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Fox",
+        "Title": ""
+      }
+    ]
   },
   {
-    "name": "FH Air Time",
-    "ownerId": 14,
-    "id": 252,
-    "value": "41frames"
+    "InstanceId": "5968212046965952fcb50f2c",
+    "Name": "FH Air Time",
+    "OwnerId": 14,
+    "Owner": "Fox",
+    "Value": "41 frames",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968212046965952fcb50f2c",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Fox",
+        "Title": ""
+      }
+    ]
   }
 ]
