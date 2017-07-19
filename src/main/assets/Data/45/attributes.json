@@ -1,14 +1,21 @@
 ﻿[
   {
-    "InstanceId": "5968217646965952fcb51989",
-    "Name": "Weight",
+    "InstanceId": "5968217646965952fcb519dc",
+    "Name": "AerialJump",
     "OwnerId": 45,
     "Owner": "RosalinaLuma",
-    "Value": "77 ",
+    "Values": [
+      {
+        "Value": "40",
+        "Owner": "RosalinaLuma",
+        "OwnerId": 45,
+        "Name": "HEIGHT"
+      }
+    ],
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968217646965952fcb51989",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968217646965952fcb519dc",
         "Title": ""
       },
       {
@@ -19,15 +26,22 @@
     ]
   },
   {
-    "InstanceId": "5968217646965952fcb5198a",
-    "Name": "Max Jumps",
+    "InstanceId": "5968217646965952fcb519dd",
+    "Name": "AirAcceleration",
     "OwnerId": 45,
     "Owner": "RosalinaLuma",
-    "Value": "2",
+    "Values": [
+      {
+        "Value": "0.1",
+        "Owner": "RosalinaLuma",
+        "OwnerId": 45,
+        "Name": "VALUE"
+      }
+    ],
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968217646965952fcb5198a",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968217646965952fcb519dd",
         "Title": ""
       },
       {
@@ -38,15 +52,22 @@
     ]
   },
   {
-    "InstanceId": "5968217646965952fcb5198b",
-    "Name": "Run Speed",
+    "InstanceId": "5968217646965952fcb519de",
+    "Name": "AirDeceleration",
     "OwnerId": 45,
     "Owner": "RosalinaLuma",
-    "Value": "1.632 ",
+    "Values": [
+      {
+        "Value": "0.01",
+        "Owner": "RosalinaLuma",
+        "OwnerId": 45,
+        "Name": "VALUE"
+      }
+    ],
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968217646965952fcb5198b",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968217646965952fcb519de",
         "Title": ""
       },
       {
@@ -57,15 +78,22 @@
     ]
   },
   {
-    "InstanceId": "5968217646965952fcb5198c",
-    "Name": "Wall Jump",
+    "InstanceId": "5968217646965952fcb519df",
+    "Name": "AirFriction",
     "OwnerId": 45,
     "Owner": "RosalinaLuma",
-    "Value": "No",
+    "Values": [
+      {
+        "Value": "0.01",
+        "Owner": "RosalinaLuma",
+        "OwnerId": 45,
+        "Name": "VALUE"
+      }
+    ],
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968217646965952fcb5198c",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968217646965952fcb519df",
         "Title": ""
       },
       {
@@ -76,15 +104,22 @@
     ]
   },
   {
-    "InstanceId": "5968217646965952fcb5198d",
-    "Name": "Walk Speed",
+    "InstanceId": "5968217646965952fcb519e0",
+    "Name": "DashLength",
     "OwnerId": 45,
     "Owner": "RosalinaLuma",
-    "Value": "1.0835 ",
+    "Values": [
+      {
+        "Value": "16",
+        "Owner": "RosalinaLuma",
+        "OwnerId": 45,
+        "Name": "LENGTH IN FRAMES"
+      }
+    ],
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968217646965952fcb5198d",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968217646965952fcb519e0",
         "Title": ""
       },
       {
@@ -95,15 +130,34 @@
     ]
   },
   {
-    "InstanceId": "5968217646965952fcb5198e",
-    "Name": "Wall Cling",
+    "InstanceId": "5968217646965952fcb519e1",
+    "Name": "FallSpeed",
     "OwnerId": 45,
     "Owner": "RosalinaLuma",
-    "Value": "No",
+    "Values": [
+      {
+        "Value": "1.2",
+        "Owner": "RosalinaLuma",
+        "OwnerId": 45,
+        "Name": "MAX FALL SPEED"
+      },
+      {
+        "Value": "1.92",
+        "Owner": "RosalinaLuma",
+        "OwnerId": 45,
+        "Name": "FAST FALL SPEED"
+      },
+      {
+        "Value": "60%",
+        "Owner": "RosalinaLuma",
+        "OwnerId": 45,
+        "Name": "SPEED INCREASE"
+      }
+    ],
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968217646965952fcb5198e",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968217646965952fcb519e1",
         "Title": ""
       },
       {
@@ -114,15 +168,22 @@
     ]
   },
   {
-    "InstanceId": "5968217646965952fcb5198f",
-    "Name": "Air Speed",
+    "InstanceId": "5968217646965952fcb519e2",
+    "Name": "FullHop",
     "OwnerId": 45,
     "Owner": "RosalinaLuma",
-    "Value": "1 ",
+    "Values": [
+      {
+        "Value": "40",
+        "Owner": "RosalinaLuma",
+        "OwnerId": 45,
+        "Name": "HEIGHT"
+      }
+    ],
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968217646965952fcb5198f",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968217646965952fcb519e2",
         "Title": ""
       },
       {
@@ -133,148 +194,22 @@
     ]
   },
   {
-    "InstanceId": "5968217646965952fcb51990",
-    "Name": "Crawl",
-    "OwnerId": 45,
-    "Owner": "RosalinaLuma",
-    "Value": "Yes",
-    "Links": [
-      {
-        "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968217646965952fcb51990",
-        "Title": ""
-      },
-      {
-        "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/RosalinaLuma",
-        "Title": ""
-      }
-    ]
-  },
-  {
-    "InstanceId": "5968217646965952fcb51991",
-    "Name": "Fall Speed",
-    "OwnerId": 45,
-    "Owner": "RosalinaLuma",
-    "Value": "1.2 ",
-    "Links": [
-      {
-        "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968217646965952fcb51991",
-        "Title": ""
-      },
-      {
-        "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/RosalinaLuma",
-        "Title": ""
-      }
-    ]
-  },
-  {
-    "InstanceId": "5968217646965952fcb51992",
-    "Name": "Tether",
-    "OwnerId": 45,
-    "Owner": "RosalinaLuma",
-    "Value": "No",
-    "Links": [
-      {
-        "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968217646965952fcb51992",
-        "Title": ""
-      },
-      {
-        "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/RosalinaLuma",
-        "Title": ""
-      }
-    ]
-  },
-  {
-    "InstanceId": "5968217646965952fcb51993",
-    "Name": "Fast Fall Speed",
-    "OwnerId": 45,
-    "Owner": "RosalinaLuma",
-    "Value": "1.92 ",
-    "Links": [
-      {
-        "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968217646965952fcb51993",
-        "Title": ""
-      },
-      {
-        "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/RosalinaLuma",
-        "Title": ""
-      }
-    ]
-  },
-  {
-    "InstanceId": "5968217646965952fcb51994",
-    "Name": "Jumpsquat",
-    "OwnerId": 45,
-    "Owner": "RosalinaLuma",
-    "Value": "5 frames",
-    "Links": [
-      {
-        "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968217646965952fcb51994",
-        "Title": ""
-      },
-      {
-        "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/RosalinaLuma",
-        "Title": ""
-      }
-    ]
-  },
-  {
-    "InstanceId": "5968217646965952fcb51995",
-    "Name": "Air Acceleration",
-    "OwnerId": 45,
-    "Owner": "RosalinaLuma",
-    "Value": "0.1",
-    "Links": [
-      {
-        "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968217646965952fcb51995",
-        "Title": ""
-      },
-      {
-        "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/RosalinaLuma",
-        "Title": ""
-      }
-    ]
-  },
-  {
-    "InstanceId": "5968217646965952fcb51996",
-    "Name": "Soft Landing Lag",
-    "OwnerId": 45,
-    "Owner": "RosalinaLuma",
-    "Value": "2 frames",
-    "Links": [
-      {
-        "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968217646965952fcb51996",
-        "Title": ""
-      },
-      {
-        "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/RosalinaLuma",
-        "Title": ""
-      }
-    ]
-  },
-  {
-    "InstanceId": "5968217646965952fcb51997",
+    "InstanceId": "5968217646965952fcb519e3",
     "Name": "Gravity",
     "OwnerId": 45,
     "Owner": "RosalinaLuma",
-    "Value": "0.062",
+    "Values": [
+      {
+        "Value": "0.062",
+        "Owner": "RosalinaLuma",
+        "OwnerId": 45,
+        "Name": "VALUE"
+      }
+    ],
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968217646965952fcb51997",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968217646965952fcb519e3",
         "Title": ""
       },
       {
@@ -285,15 +220,22 @@
     ]
   },
   {
-    "InstanceId": "5968217646965952fcb51998",
-    "Name": "Hard Landing Lag",
+    "InstanceId": "5968217646965952fcb519e4",
+    "Name": "JumpSquat",
     "OwnerId": 45,
     "Owner": "RosalinaLuma",
-    "Value": "4 frames",
+    "Values": [
+      {
+        "Value": "5",
+        "Owner": "RosalinaLuma",
+        "OwnerId": 45,
+        "Name": "VALUE"
+      }
+    ],
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968217646965952fcb51998",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968217646965952fcb519e4",
         "Title": ""
       },
       {
@@ -304,15 +246,22 @@
     ]
   },
   {
-    "InstanceId": "5968217646965952fcb51999",
-    "Name": "SH Air Time",
+    "InstanceId": "5968217646965952fcb519e5",
+    "Name": "LedgeHop",
     "OwnerId": 45,
     "Owner": "RosalinaLuma",
-    "Value": "50 frames",
+    "Values": [
+      {
+        "Value": "40",
+        "Owner": "RosalinaLuma",
+        "OwnerId": 45,
+        "Name": "HEIGHT"
+      }
+    ],
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968217646965952fcb51999",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968217646965952fcb519e5",
         "Title": ""
       },
       {
@@ -323,15 +272,164 @@
     ]
   },
   {
-    "InstanceId": "5968217646965952fcb5199a",
-    "Name": "FH Air Time",
+    "InstanceId": "5968217646965952fcb519e6",
+    "Name": "ShortHop",
     "OwnerId": 45,
     "Owner": "RosalinaLuma",
-    "Value": "78 frames",
+    "Values": [
+      {
+        "Value": "19.370632",
+        "Owner": "RosalinaLuma",
+        "OwnerId": 45,
+        "Name": "HEIGHT"
+      }
+    ],
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968217646965952fcb5199a",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968217646965952fcb519e6",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/RosalinaLuma",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968217646965952fcb519e7",
+    "Name": "Spotdodge",
+    "OwnerId": 45,
+    "Owner": "RosalinaLuma",
+    "Values": [
+      {
+        "Value": "2-17",
+        "Owner": "RosalinaLuma",
+        "OwnerId": 45,
+        "Name": "INTANGIBLE"
+      },
+      {
+        "Value": "27",
+        "Owner": "RosalinaLuma",
+        "OwnerId": 45,
+        "Name": "FAF"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968217646965952fcb519e7",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/RosalinaLuma",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968217646965952fcb519e8",
+    "Name": "Traction",
+    "OwnerId": 45,
+    "Owner": "RosalinaLuma",
+    "Values": [
+      {
+        "Value": "0.068",
+        "Owner": "RosalinaLuma",
+        "OwnerId": 45,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968217646965952fcb519e8",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/RosalinaLuma",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968217646965952fcb519e9",
+    "Name": "WalkSpeed",
+    "OwnerId": 45,
+    "Owner": "RosalinaLuma",
+    "Values": [
+      {
+        "Value": "1.0835",
+        "Owner": "RosalinaLuma",
+        "OwnerId": 45,
+        "Name": "MAX WALK SPEED VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968217646965952fcb519e9",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/RosalinaLuma",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968217646965952fcb519ea",
+    "Name": "AirSpeed",
+    "OwnerId": 45,
+    "Owner": "RosalinaLuma",
+    "Values": [
+      {
+        "Value": "1",
+        "Owner": "RosalinaLuma",
+        "OwnerId": 45,
+        "Name": "MAX AIR SPEED VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968217646965952fcb519ea",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/RosalinaLuma",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968217646965952fcb519eb",
+    "Name": "AirDodge",
+    "OwnerId": 45,
+    "Owner": "RosalinaLuma",
+    "Values": [
+      {
+        "Value": "3-27",
+        "Owner": "RosalinaLuma",
+        "OwnerId": 45,
+        "Name": "INTANGIBLE"
+      },
+      {
+        "Value": "33",
+        "Owner": "RosalinaLuma",
+        "OwnerId": 45,
+        "Name": "FAF"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968217646965952fcb519eb",
         "Title": ""
       },
       {

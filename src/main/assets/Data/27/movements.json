@@ -1,0 +1,344 @@
+﻿[
+  {
+    "InstanceId": "5968214446965952fcb5136e",
+    "Name": "Weight",
+    "OwnerId": 27,
+    "Owner": "Mario",
+    "Value": "98 ",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968214446965952fcb5136e",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Mario",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968214446965952fcb5136f",
+    "Name": "Max Jumps",
+    "OwnerId": 27,
+    "Owner": "Mario",
+    "Value": "2",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968214446965952fcb5136f",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Mario",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968214446965952fcb51370",
+    "Name": "Run Speed",
+    "OwnerId": 27,
+    "Owner": "Mario",
+    "Value": "1.6 ",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968214446965952fcb51370",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Mario",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968214446965952fcb51371",
+    "Name": "Wall Jump",
+    "OwnerId": 27,
+    "Owner": "Mario",
+    "Value": "Yes",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968214446965952fcb51371",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Mario",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968214446965952fcb51372",
+    "Name": "Walk Speed",
+    "OwnerId": 27,
+    "Owner": "Mario",
+    "Value": "1.1 ",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968214446965952fcb51372",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Mario",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968214446965952fcb51373",
+    "Name": "Wall Cling",
+    "OwnerId": 27,
+    "Owner": "Mario",
+    "Value": "No",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968214446965952fcb51373",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Mario",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968214446965952fcb51374",
+    "Name": "Air Speed",
+    "OwnerId": 27,
+    "Owner": "Mario",
+    "Value": "1.15 ",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968214446965952fcb51374",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Mario",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968214446965952fcb51375",
+    "Name": "Crawl",
+    "OwnerId": 27,
+    "Owner": "Mario",
+    "Value": "No",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968214446965952fcb51375",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Mario",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968214446965952fcb51376",
+    "Name": "Fall Speed",
+    "OwnerId": 27,
+    "Owner": "Mario",
+    "Value": "1.5 ",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968214446965952fcb51376",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Mario",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968214446965952fcb51377",
+    "Name": "Tether",
+    "OwnerId": 27,
+    "Owner": "Mario",
+    "Value": "No",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968214446965952fcb51377",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Mario",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968214446965952fcb51378",
+    "Name": "Fast Fall Speed",
+    "OwnerId": 27,
+    "Owner": "Mario",
+    "Value": "2.4 ",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968214446965952fcb51378",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Mario",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968214446965952fcb51379",
+    "Name": "Jumpsquat",
+    "OwnerId": 27,
+    "Owner": "Mario",
+    "Value": "5 frames",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968214446965952fcb51379",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Mario",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968214446965952fcb5137a",
+    "Name": "Air Acceleration",
+    "OwnerId": 27,
+    "Owner": "Mario",
+    "Value": "0.07",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968214446965952fcb5137a",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Mario",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968214446965952fcb5137b",
+    "Name": "Soft Landing Lag",
+    "OwnerId": 27,
+    "Owner": "Mario",
+    "Value": "2 frames",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968214446965952fcb5137b",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Mario",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968214446965952fcb5137c",
+    "Name": "Gravity",
+    "OwnerId": 27,
+    "Owner": "Mario",
+    "Value": "0.08715",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968214446965952fcb5137c",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Mario",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968214446965952fcb5137d",
+    "Name": "Hard Landing Lag",
+    "OwnerId": 27,
+    "Owner": "Mario",
+    "Value": "4 frames",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968214446965952fcb5137d",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Mario",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968214446965952fcb5137e",
+    "Name": "SH Air Time",
+    "OwnerId": 27,
+    "Owner": "Mario",
+    "Value": "40 frames",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968214446965952fcb5137e",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Mario",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968214446965952fcb5137f",
+    "Name": "FH Air Time",
+    "OwnerId": 27,
+    "Owner": "Mario",
+    "Value": "61 frames",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968214446965952fcb5137f",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Mario",
+        "Title": ""
+      }
+    ]
+  }
+]

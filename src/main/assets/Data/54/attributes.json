@@ -1,14 +1,21 @@
 ﻿[
   {
-    "InstanceId": "5968218e46965952fcb51cb8",
-    "Name": "Weight",
+    "InstanceId": "5968218e46965952fcb51cf9",
+    "Name": "AerialJump",
     "OwnerId": 54,
     "Owner": "Wario",
-    "Value": "107 ",
+    "Values": [
+      {
+        "Value": "30.5",
+        "Owner": "Wario",
+        "OwnerId": 54,
+        "Name": "HEIGHT"
+      }
+    ],
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968218e46965952fcb51cb8",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968218e46965952fcb51cf9",
         "Title": ""
       },
       {
@@ -19,15 +26,22 @@
     ]
   },
   {
-    "InstanceId": "5968218e46965952fcb51cb9",
-    "Name": "Max Jumps",
+    "InstanceId": "5968218e46965952fcb51cfa",
+    "Name": "AirAcceleration",
     "OwnerId": 54,
     "Owner": "Wario",
-    "Value": "2",
+    "Values": [
+      {
+        "Value": "0.08",
+        "Owner": "Wario",
+        "OwnerId": 54,
+        "Name": "VALUE"
+      }
+    ],
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968218e46965952fcb51cb9",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968218e46965952fcb51cfa",
         "Title": ""
       },
       {
@@ -38,15 +52,22 @@
     ]
   },
   {
-    "InstanceId": "5968218e46965952fcb51cba",
-    "Name": "Run Speed",
+    "InstanceId": "5968218e46965952fcb51cfb",
+    "Name": "AirDeceleration",
     "OwnerId": 54,
     "Owner": "Wario",
-    "Value": "1.5 ",
+    "Values": [
+      {
+        "Value": "0.04",
+        "Owner": "Wario",
+        "OwnerId": 54,
+        "Name": "VALUE"
+      }
+    ],
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968218e46965952fcb51cba",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968218e46965952fcb51cfb",
         "Title": ""
       },
       {
@@ -57,15 +78,22 @@
     ]
   },
   {
-    "InstanceId": "5968218e46965952fcb51cbb",
-    "Name": "Wall Jump",
+    "InstanceId": "5968218e46965952fcb51cfc",
+    "Name": "AirFriction",
     "OwnerId": 54,
     "Owner": "Wario",
-    "Value": "No",
+    "Values": [
+      {
+        "Value": "0.04",
+        "Owner": "Wario",
+        "OwnerId": 54,
+        "Name": "VALUE"
+      }
+    ],
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968218e46965952fcb51cbb",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968218e46965952fcb51cfc",
         "Title": ""
       },
       {
@@ -76,15 +104,22 @@
     ]
   },
   {
-    "InstanceId": "5968218e46965952fcb51cbc",
-    "Name": "Walk Speed",
+    "InstanceId": "5968218e46965952fcb51cfd",
+    "Name": "DashLength",
     "OwnerId": 54,
     "Owner": "Wario",
-    "Value": "0.847 ",
+    "Values": [
+      {
+        "Value": "13",
+        "Owner": "Wario",
+        "OwnerId": 54,
+        "Name": "LENGTH IN FRAMES"
+      }
+    ],
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968218e46965952fcb51cbc",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968218e46965952fcb51cfd",
         "Title": ""
       },
       {
@@ -95,15 +130,34 @@
     ]
   },
   {
-    "InstanceId": "5968218e46965952fcb51cbd",
-    "Name": "Wall Cling",
+    "InstanceId": "5968218e46965952fcb51cfe",
+    "Name": "FallSpeed",
     "OwnerId": 54,
     "Owner": "Wario",
-    "Value": "No",
+    "Values": [
+      {
+        "Value": "1.61",
+        "Owner": "Wario",
+        "OwnerId": 54,
+        "Name": "MAX FALL SPEED"
+      },
+      {
+        "Value": "2.576",
+        "Owner": "Wario",
+        "OwnerId": 54,
+        "Name": "FAST FALL SPEED"
+      },
+      {
+        "Value": "60%",
+        "Owner": "Wario",
+        "OwnerId": 54,
+        "Name": "SPEED INCREASE"
+      }
+    ],
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968218e46965952fcb51cbd",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968218e46965952fcb51cfe",
         "Title": ""
       },
       {
@@ -114,15 +168,22 @@
     ]
   },
   {
-    "InstanceId": "5968218e46965952fcb51cbe",
-    "Name": "Air Speed",
+    "InstanceId": "5968218e46965952fcb51cff",
+    "Name": "FullHop",
     "OwnerId": 54,
     "Owner": "Wario",
-    "Value": "1.21 ",
+    "Values": [
+      {
+        "Value": "30.5",
+        "Owner": "Wario",
+        "OwnerId": 54,
+        "Name": "HEIGHT"
+      }
+    ],
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968218e46965952fcb51cbe",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968218e46965952fcb51cff",
         "Title": ""
       },
       {
@@ -133,148 +194,22 @@
     ]
   },
   {
-    "InstanceId": "5968218e46965952fcb51cbf",
-    "Name": "Crawl",
-    "OwnerId": 54,
-    "Owner": "Wario",
-    "Value": "Yes",
-    "Links": [
-      {
-        "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968218e46965952fcb51cbf",
-        "Title": ""
-      },
-      {
-        "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Wario",
-        "Title": ""
-      }
-    ]
-  },
-  {
-    "InstanceId": "5968218e46965952fcb51cc0",
-    "Name": "Fall Speed",
-    "OwnerId": 54,
-    "Owner": "Wario",
-    "Value": "1.61 ",
-    "Links": [
-      {
-        "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968218e46965952fcb51cc0",
-        "Title": ""
-      },
-      {
-        "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Wario",
-        "Title": ""
-      }
-    ]
-  },
-  {
-    "InstanceId": "5968218e46965952fcb51cc1",
-    "Name": "Tether",
-    "OwnerId": 54,
-    "Owner": "Wario",
-    "Value": "No",
-    "Links": [
-      {
-        "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968218e46965952fcb51cc1",
-        "Title": ""
-      },
-      {
-        "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Wario",
-        "Title": ""
-      }
-    ]
-  },
-  {
-    "InstanceId": "5968218e46965952fcb51cc2",
-    "Name": "Fast Fall Speed",
-    "OwnerId": 54,
-    "Owner": "Wario",
-    "Value": "2.576 ",
-    "Links": [
-      {
-        "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968218e46965952fcb51cc2",
-        "Title": ""
-      },
-      {
-        "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Wario",
-        "Title": ""
-      }
-    ]
-  },
-  {
-    "InstanceId": "5968218e46965952fcb51cc3",
-    "Name": "Jumpsquat",
-    "OwnerId": 54,
-    "Owner": "Wario",
-    "Value": "6 frames",
-    "Links": [
-      {
-        "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968218e46965952fcb51cc3",
-        "Title": ""
-      },
-      {
-        "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Wario",
-        "Title": ""
-      }
-    ]
-  },
-  {
-    "InstanceId": "5968218e46965952fcb51cc4",
-    "Name": "Air Acceleration",
-    "OwnerId": 54,
-    "Owner": "Wario",
-    "Value": "0.08",
-    "Links": [
-      {
-        "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968218e46965952fcb51cc4",
-        "Title": ""
-      },
-      {
-        "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Wario",
-        "Title": ""
-      }
-    ]
-  },
-  {
-    "InstanceId": "5968218e46965952fcb51cc5",
-    "Name": "Soft Landing Lag",
-    "OwnerId": 54,
-    "Owner": "Wario",
-    "Value": "2 frames",
-    "Links": [
-      {
-        "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968218e46965952fcb51cc5",
-        "Title": ""
-      },
-      {
-        "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Wario",
-        "Title": ""
-      }
-    ]
-  },
-  {
-    "InstanceId": "5968218e46965952fcb51cc6",
+    "InstanceId": "5968218e46965952fcb51d00",
     "Name": "Gravity",
     "OwnerId": 54,
     "Owner": "Wario",
-    "Value": "0.092",
+    "Values": [
+      {
+        "Value": "0.092",
+        "Owner": "Wario",
+        "OwnerId": 54,
+        "Name": "VALUE"
+      }
+    ],
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968218e46965952fcb51cc6",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968218e46965952fcb51d00",
         "Title": ""
       },
       {
@@ -285,15 +220,22 @@
     ]
   },
   {
-    "InstanceId": "5968218e46965952fcb51cc7",
-    "Name": "Hard Landing Lag",
+    "InstanceId": "5968218e46965952fcb51d01",
+    "Name": "JumpSquat",
     "OwnerId": 54,
     "Owner": "Wario",
-    "Value": "4 frames",
+    "Values": [
+      {
+        "Value": "6",
+        "Owner": "Wario",
+        "OwnerId": 54,
+        "Name": "VALUE"
+      }
+    ],
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968218e46965952fcb51cc7",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968218e46965952fcb51d01",
         "Title": ""
       },
       {
@@ -304,15 +246,22 @@
     ]
   },
   {
-    "InstanceId": "5968218e46965952fcb51cc8",
-    "Name": "SH Air Time",
+    "InstanceId": "5968218e46965952fcb51d02",
+    "Name": "LedgeHop",
     "OwnerId": 54,
     "Owner": "Wario",
-    "Value": "35 frames",
+    "Values": [
+      {
+        "Value": "35.25",
+        "Owner": "Wario",
+        "OwnerId": 54,
+        "Name": "HEIGHT"
+      }
+    ],
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968218e46965952fcb51cc8",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968218e46965952fcb51d02",
         "Title": ""
       },
       {
@@ -323,15 +272,164 @@
     ]
   },
   {
-    "InstanceId": "5968218e46965952fcb51cc9",
-    "Name": "FH Air Time",
+    "InstanceId": "5968218e46965952fcb51d03",
+    "Name": "ShortHop",
     "OwnerId": 54,
     "Owner": "Wario",
-    "Value": "53 frames",
+    "Values": [
+      {
+        "Value": "14.699989",
+        "Owner": "Wario",
+        "OwnerId": 54,
+        "Name": "HEIGHT"
+      }
+    ],
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968218e46965952fcb51cc9",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968218e46965952fcb51d03",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Wario",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968218e46965952fcb51d04",
+    "Name": "Spotdodge",
+    "OwnerId": 54,
+    "Owner": "Wario",
+    "Values": [
+      {
+        "Value": "2-17",
+        "Owner": "Wario",
+        "OwnerId": 54,
+        "Name": "INTANGIBLE"
+      },
+      {
+        "Value": "27",
+        "Owner": "Wario",
+        "OwnerId": 54,
+        "Name": "FAF"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968218e46965952fcb51d04",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Wario",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968218e46965952fcb51d05",
+    "Name": "Traction",
+    "OwnerId": 54,
+    "Owner": "Wario",
+    "Values": [
+      {
+        "Value": "0.07",
+        "Owner": "Wario",
+        "OwnerId": 54,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968218e46965952fcb51d05",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Wario",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968218e46965952fcb51d06",
+    "Name": "WalkSpeed",
+    "OwnerId": 54,
+    "Owner": "Wario",
+    "Values": [
+      {
+        "Value": "0.847",
+        "Owner": "Wario",
+        "OwnerId": 54,
+        "Name": "MAX WALK SPEED VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968218e46965952fcb51d06",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Wario",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968218e46965952fcb51d07",
+    "Name": "AirSpeed",
+    "OwnerId": 54,
+    "Owner": "Wario",
+    "Values": [
+      {
+        "Value": "1.21",
+        "Owner": "Wario",
+        "OwnerId": 54,
+        "Name": "MAX AIR SPEED VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968218e46965952fcb51d07",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Wario",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968218e46965952fcb51d08",
+    "Name": "AirDodge",
+    "OwnerId": 54,
+    "Owner": "Wario",
+    "Values": [
+      {
+        "Value": "3-27",
+        "Owner": "Wario",
+        "OwnerId": 54,
+        "Name": "INTANGIBLE"
+      },
+      {
+        "Value": "33",
+        "Owner": "Wario",
+        "OwnerId": 54,
+        "Name": "FAF"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968218e46965952fcb51d08",
         "Title": ""
       },
       {

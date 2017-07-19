@@ -1,14 +1,21 @@
 ﻿[
   {
-    "InstanceId": "5968211d46965952fcb50ec8",
-    "Name": "Weight",
+    "InstanceId": "5968211e46965952fcb50f0a",
+    "Name": "AerialJump",
     "OwnerId": 13,
     "Owner": "Falco",
-    "Value": "82 ",
+    "Values": [
+      {
+        "Value": "50.506073",
+        "Owner": "Falco",
+        "OwnerId": 13,
+        "Name": "HEIGHT"
+      }
+    ],
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968211d46965952fcb50ec8",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968211e46965952fcb50f0a",
         "Title": ""
       },
       {
@@ -19,15 +26,22 @@
     ]
   },
   {
-    "InstanceId": "5968211d46965952fcb50ec9",
-    "Name": "Max Jumps",
+    "InstanceId": "5968211e46965952fcb50f0b",
+    "Name": "AirAcceleration",
     "OwnerId": 13,
     "Owner": "Falco",
-    "Value": "2",
+    "Values": [
+      {
+        "Value": "0.09",
+        "Owner": "Falco",
+        "OwnerId": 13,
+        "Name": "VALUE"
+      }
+    ],
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968211d46965952fcb50ec9",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968211e46965952fcb50f0b",
         "Title": ""
       },
       {
@@ -38,15 +52,22 @@
     ]
   },
   {
-    "InstanceId": "5968211d46965952fcb50eca",
-    "Name": "Run Speed",
+    "InstanceId": "5968211e46965952fcb50f0c",
+    "Name": "AirDeceleration",
     "OwnerId": 13,
     "Owner": "Falco",
-    "Value": "1.472 ",
+    "Values": [
+      {
+        "Value": "0.01",
+        "Owner": "Falco",
+        "OwnerId": 13,
+        "Name": "VALUE"
+      }
+    ],
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968211d46965952fcb50eca",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968211e46965952fcb50f0c",
         "Title": ""
       },
       {
@@ -57,15 +78,22 @@
     ]
   },
   {
-    "InstanceId": "5968211d46965952fcb50ecb",
-    "Name": "Wall Jump",
+    "InstanceId": "5968211e46965952fcb50f0d",
+    "Name": "AirFriction",
     "OwnerId": 13,
     "Owner": "Falco",
-    "Value": "Yes",
+    "Values": [
+      {
+        "Value": "0.01",
+        "Owner": "Falco",
+        "OwnerId": 13,
+        "Name": "VALUE"
+      }
+    ],
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968211d46965952fcb50ecb",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968211e46965952fcb50f0d",
         "Title": ""
       },
       {
@@ -76,15 +104,22 @@
     ]
   },
   {
-    "InstanceId": "5968211d46965952fcb50ecc",
-    "Name": "Walk Speed",
+    "InstanceId": "5968211e46965952fcb50f0e",
+    "Name": "DashLength",
     "OwnerId": 13,
     "Owner": "Falco",
-    "Value": "1.28 ",
+    "Values": [
+      {
+        "Value": "12",
+        "Owner": "Falco",
+        "OwnerId": 13,
+        "Name": "LENGTH IN FRAMES"
+      }
+    ],
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968211d46965952fcb50ecc",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968211e46965952fcb50f0e",
         "Title": ""
       },
       {
@@ -95,15 +130,34 @@
     ]
   },
   {
-    "InstanceId": "5968211d46965952fcb50ecd",
-    "Name": "Wall Cling",
+    "InstanceId": "5968211e46965952fcb50f0f",
+    "Name": "FallSpeed",
     "OwnerId": 13,
     "Owner": "Falco",
-    "Value": "No",
+    "Values": [
+      {
+        "Value": "1.8",
+        "Owner": "Falco",
+        "OwnerId": 13,
+        "Name": "MAX FALL SPEED"
+      },
+      {
+        "Value": "2.88",
+        "Owner": "Falco",
+        "OwnerId": 13,
+        "Name": "FAST FALL SPEED"
+      },
+      {
+        "Value": "60%",
+        "Owner": "Falco",
+        "OwnerId": 13,
+        "Name": "SPEED INCREASE"
+      }
+    ],
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968211d46965952fcb50ecd",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968211e46965952fcb50f0f",
         "Title": ""
       },
       {
@@ -114,15 +168,22 @@
     ]
   },
   {
-    "InstanceId": "5968211d46965952fcb50ece",
-    "Name": "Air Speed",
+    "InstanceId": "5968211e46965952fcb50f10",
+    "Name": "FullHop",
     "OwnerId": 13,
     "Owner": "Falco",
-    "Value": "0.93 ",
+    "Values": [
+      {
+        "Value": "50.506073",
+        "Owner": "Falco",
+        "OwnerId": 13,
+        "Name": "HEIGHT"
+      }
+    ],
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968211d46965952fcb50ece",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968211e46965952fcb50f10",
         "Title": ""
       },
       {
@@ -133,148 +194,22 @@
     ]
   },
   {
-    "InstanceId": "5968211d46965952fcb50ecf",
-    "Name": "Crawl",
-    "OwnerId": 13,
-    "Owner": "Falco",
-    "Value": "No",
-    "Links": [
-      {
-        "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968211d46965952fcb50ecf",
-        "Title": ""
-      },
-      {
-        "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Falco",
-        "Title": ""
-      }
-    ]
-  },
-  {
-    "InstanceId": "5968211d46965952fcb50ed0",
-    "Name": "Fall Speed",
-    "OwnerId": 13,
-    "Owner": "Falco",
-    "Value": "1.8 ",
-    "Links": [
-      {
-        "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968211d46965952fcb50ed0",
-        "Title": ""
-      },
-      {
-        "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Falco",
-        "Title": ""
-      }
-    ]
-  },
-  {
-    "InstanceId": "5968211d46965952fcb50ed1",
-    "Name": "Tether",
-    "OwnerId": 13,
-    "Owner": "Falco",
-    "Value": "No",
-    "Links": [
-      {
-        "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968211d46965952fcb50ed1",
-        "Title": ""
-      },
-      {
-        "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Falco",
-        "Title": ""
-      }
-    ]
-  },
-  {
-    "InstanceId": "5968211d46965952fcb50ed2",
-    "Name": "Fast Fall Speed",
-    "OwnerId": 13,
-    "Owner": "Falco",
-    "Value": "2.88 ",
-    "Links": [
-      {
-        "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968211d46965952fcb50ed2",
-        "Title": ""
-      },
-      {
-        "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Falco",
-        "Title": ""
-      }
-    ]
-  },
-  {
-    "InstanceId": "5968211d46965952fcb50ed3",
-    "Name": "Jumpsquat",
-    "OwnerId": 13,
-    "Owner": "Falco",
-    "Value": "6 frames",
-    "Links": [
-      {
-        "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968211d46965952fcb50ed3",
-        "Title": ""
-      },
-      {
-        "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Falco",
-        "Title": ""
-      }
-    ]
-  },
-  {
-    "InstanceId": "5968211d46965952fcb50ed4",
-    "Name": "Air Acceleration",
-    "OwnerId": 13,
-    "Owner": "Falco",
-    "Value": "0.09",
-    "Links": [
-      {
-        "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968211d46965952fcb50ed4",
-        "Title": ""
-      },
-      {
-        "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Falco",
-        "Title": ""
-      }
-    ]
-  },
-  {
-    "InstanceId": "5968211d46965952fcb50ed5",
-    "Name": "Soft Landing Lag",
-    "OwnerId": 13,
-    "Owner": "Falco",
-    "Value": "2 frames",
-    "Links": [
-      {
-        "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968211d46965952fcb50ed5",
-        "Title": ""
-      },
-      {
-        "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Falco",
-        "Title": ""
-      }
-    ]
-  },
-  {
-    "InstanceId": "5968211d46965952fcb50ed6",
+    "InstanceId": "5968211e46965952fcb50f11",
     "Name": "Gravity",
     "OwnerId": 13,
     "Owner": "Falco",
-    "Value": "0.13",
+    "Values": [
+      {
+        "Value": "0.13",
+        "Owner": "Falco",
+        "OwnerId": 13,
+        "Name": "VALUE"
+      }
+    ],
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968211d46965952fcb50ed6",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968211e46965952fcb50f11",
         "Title": ""
       },
       {
@@ -285,15 +220,22 @@
     ]
   },
   {
-    "InstanceId": "5968211d46965952fcb50ed7",
-    "Name": "Hard Landing Lag",
+    "InstanceId": "5968211e46965952fcb50f12",
+    "Name": "JumpSquat",
     "OwnerId": 13,
     "Owner": "Falco",
-    "Value": "4 frames",
+    "Values": [
+      {
+        "Value": "6",
+        "Owner": "Falco",
+        "OwnerId": 13,
+        "Name": "VALUE"
+      }
+    ],
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968211d46965952fcb50ed7",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968211e46965952fcb50f12",
         "Title": ""
       },
       {
@@ -304,15 +246,22 @@
     ]
   },
   {
-    "InstanceId": "5968211d46965952fcb50ed8",
-    "Name": "SH Air Time",
+    "InstanceId": "5968211e46965952fcb50f13",
+    "Name": "LedgeHop",
     "OwnerId": 13,
     "Owner": "Falco",
-    "Value": "32 frames",
+    "Values": [
+      {
+        "Value": "45.253036",
+        "Owner": "Falco",
+        "OwnerId": 13,
+        "Name": "HEIGHT"
+      }
+    ],
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968211d46965952fcb50ed8",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968211e46965952fcb50f13",
         "Title": ""
       },
       {
@@ -323,15 +272,164 @@
     ]
   },
   {
-    "InstanceId": "5968211d46965952fcb50ed9",
-    "Name": "FH Air Time",
+    "InstanceId": "5968211e46965952fcb50f14",
+    "Name": "ShortHop",
     "OwnerId": 13,
     "Owner": "Falco",
-    "Value": "62 frames",
+    "Values": [
+      {
+        "Value": "17.34",
+        "Owner": "Falco",
+        "OwnerId": 13,
+        "Name": "HEIGHT"
+      }
+    ],
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968211d46965952fcb50ed9",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968211e46965952fcb50f14",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Falco",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968211e46965952fcb50f15",
+    "Name": "Spotdodge",
+    "OwnerId": 13,
+    "Owner": "Falco",
+    "Values": [
+      {
+        "Value": "2-16",
+        "Owner": "Falco",
+        "OwnerId": 13,
+        "Name": "INTANGIBLE"
+      },
+      {
+        "Value": "26",
+        "Owner": "Falco",
+        "OwnerId": 13,
+        "Name": "FAF"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968211e46965952fcb50f15",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Falco",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968211e46965952fcb50f16",
+    "Name": "Traction",
+    "OwnerId": 13,
+    "Owner": "Falco",
+    "Values": [
+      {
+        "Value": "0.065",
+        "Owner": "Falco",
+        "OwnerId": 13,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968211e46965952fcb50f16",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Falco",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968211e46965952fcb50f17",
+    "Name": "WalkSpeed",
+    "OwnerId": 13,
+    "Owner": "Falco",
+    "Values": [
+      {
+        "Value": "1.28",
+        "Owner": "Falco",
+        "OwnerId": 13,
+        "Name": "MAX WALK SPEED VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968211e46965952fcb50f17",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Falco",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968211e46965952fcb50f18",
+    "Name": "AirSpeed",
+    "OwnerId": 13,
+    "Owner": "Falco",
+    "Values": [
+      {
+        "Value": "0.93",
+        "Owner": "Falco",
+        "OwnerId": 13,
+        "Name": "MAX AIR SPEED VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968211e46965952fcb50f18",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Falco",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968211e46965952fcb50f19",
+    "Name": "AirDodge",
+    "OwnerId": 13,
+    "Owner": "Falco",
+    "Values": [
+      {
+        "Value": "2-26",
+        "Owner": "Falco",
+        "OwnerId": 13,
+        "Name": "INTANGIBLE"
+      },
+      {
+        "Value": "32",
+        "Owner": "Falco",
+        "OwnerId": 13,
+        "Name": "FAF"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968211e46965952fcb50f19",
         "Title": ""
       },
       {

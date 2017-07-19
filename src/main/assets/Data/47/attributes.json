@@ -1,14 +1,21 @@
 ﻿[
   {
-    "InstanceId": "5968217b46965952fcb51a46",
-    "Name": "Weight",
+    "InstanceId": "5968217b46965952fcb51a9a",
+    "Name": "AerialJump",
     "OwnerId": 47,
     "Owner": "Ryu",
-    "Value": "103 ",
+    "Values": [
+      {
+        "Value": "29.5",
+        "Owner": "Ryu",
+        "OwnerId": 47,
+        "Name": "HEIGHT"
+      }
+    ],
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968217b46965952fcb51a46",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968217b46965952fcb51a9a",
         "Title": ""
       },
       {
@@ -19,15 +26,22 @@
     ]
   },
   {
-    "InstanceId": "5968217b46965952fcb51a47",
-    "Name": "Max Jumps",
+    "InstanceId": "5968217b46965952fcb51a9b",
+    "Name": "AirAcceleration",
     "OwnerId": 47,
     "Owner": "Ryu",
-    "Value": "2",
+    "Values": [
+      {
+        "Value": "0.025",
+        "Owner": "Ryu",
+        "OwnerId": 47,
+        "Name": "VALUE"
+      }
+    ],
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968217b46965952fcb51a47",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968217b46965952fcb51a9b",
         "Title": ""
       },
       {
@@ -38,15 +52,22 @@
     ]
   },
   {
-    "InstanceId": "5968217b46965952fcb51a48",
-    "Name": "Run Speed",
+    "InstanceId": "5968217b46965952fcb51a9c",
+    "Name": "AirDeceleration",
     "OwnerId": 47,
     "Owner": "Ryu",
-    "Value": "1.6 ",
+    "Values": [
+      {
+        "Value": "0.01",
+        "Owner": "Ryu",
+        "OwnerId": 47,
+        "Name": "VALUE"
+      }
+    ],
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968217b46965952fcb51a48",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968217b46965952fcb51a9c",
         "Title": ""
       },
       {
@@ -57,15 +78,22 @@
     ]
   },
   {
-    "InstanceId": "5968217b46965952fcb51a49",
-    "Name": "Wall Jump",
+    "InstanceId": "5968217b46965952fcb51a9d",
+    "Name": "AirFriction",
     "OwnerId": 47,
     "Owner": "Ryu",
-    "Value": "No",
+    "Values": [
+      {
+        "Value": "0.015",
+        "Owner": "Ryu",
+        "OwnerId": 47,
+        "Name": "VALUE"
+      }
+    ],
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968217b46965952fcb51a49",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968217b46965952fcb51a9d",
         "Title": ""
       },
       {
@@ -76,15 +104,22 @@
     ]
   },
   {
-    "InstanceId": "5968217b46965952fcb51a4a",
-    "Name": "Walk Speed",
+    "InstanceId": "5968217b46965952fcb51a9e",
+    "Name": "DashLength",
     "OwnerId": 47,
     "Owner": "Ryu",
-    "Value": "0.75 ",
+    "Values": [
+      {
+        "Value": "11",
+        "Owner": "Ryu",
+        "OwnerId": 47,
+        "Name": "LENGTH IN FRAMES"
+      }
+    ],
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968217b46965952fcb51a4a",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968217b46965952fcb51a9e",
         "Title": ""
       },
       {
@@ -95,15 +130,34 @@
     ]
   },
   {
-    "InstanceId": "5968217b46965952fcb51a4b",
-    "Name": "Wall Cling",
+    "InstanceId": "5968217b46965952fcb51a9f",
+    "Name": "FallSpeed",
     "OwnerId": 47,
     "Owner": "Ryu",
-    "Value": "No",
+    "Values": [
+      {
+        "Value": "1.6",
+        "Owner": "Ryu",
+        "OwnerId": 47,
+        "Name": "MAX FALL SPEED"
+      },
+      {
+        "Value": "2.24",
+        "Owner": "Ryu",
+        "OwnerId": 47,
+        "Name": "FAST FALL SPEED"
+      },
+      {
+        "Value": "40%",
+        "Owner": "Ryu",
+        "OwnerId": 47,
+        "Name": "SPEED INCREASE"
+      }
+    ],
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968217b46965952fcb51a4b",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968217b46965952fcb51a9f",
         "Title": ""
       },
       {
@@ -114,15 +168,22 @@
     ]
   },
   {
-    "InstanceId": "5968217b46965952fcb51a4c",
-    "Name": "Air Speed",
+    "InstanceId": "5968217b46965952fcb51aa0",
+    "Name": "FullHop",
     "OwnerId": 47,
     "Owner": "Ryu",
-    "Value": "1.12 ",
+    "Values": [
+      {
+        "Value": "26",
+        "Owner": "Ryu",
+        "OwnerId": 47,
+        "Name": "HEIGHT"
+      }
+    ],
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968217b46965952fcb51a4c",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968217b46965952fcb51aa0",
         "Title": ""
       },
       {
@@ -133,148 +194,22 @@
     ]
   },
   {
-    "InstanceId": "5968217b46965952fcb51a4d",
-    "Name": "Crawl",
-    "OwnerId": 47,
-    "Owner": "Ryu",
-    "Value": "No",
-    "Links": [
-      {
-        "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968217b46965952fcb51a4d",
-        "Title": ""
-      },
-      {
-        "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ryu",
-        "Title": ""
-      }
-    ]
-  },
-  {
-    "InstanceId": "5968217b46965952fcb51a4e",
-    "Name": "Fall Speed",
-    "OwnerId": 47,
-    "Owner": "Ryu",
-    "Value": "1.6 ",
-    "Links": [
-      {
-        "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968217b46965952fcb51a4e",
-        "Title": ""
-      },
-      {
-        "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ryu",
-        "Title": ""
-      }
-    ]
-  },
-  {
-    "InstanceId": "5968217b46965952fcb51a4f",
-    "Name": "Tether",
-    "OwnerId": 47,
-    "Owner": "Ryu",
-    "Value": "No",
-    "Links": [
-      {
-        "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968217b46965952fcb51a4f",
-        "Title": ""
-      },
-      {
-        "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ryu",
-        "Title": ""
-      }
-    ]
-  },
-  {
-    "InstanceId": "5968217b46965952fcb51a50",
-    "Name": "Fast Fall Speed",
-    "OwnerId": 47,
-    "Owner": "Ryu",
-    "Value": "2.24 ",
-    "Links": [
-      {
-        "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968217b46965952fcb51a50",
-        "Title": ""
-      },
-      {
-        "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ryu",
-        "Title": ""
-      }
-    ]
-  },
-  {
-    "InstanceId": "5968217b46965952fcb51a51",
-    "Name": "Jumpsquat",
-    "OwnerId": 47,
-    "Owner": "Ryu",
-    "Value": "5 frames",
-    "Links": [
-      {
-        "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968217b46965952fcb51a51",
-        "Title": ""
-      },
-      {
-        "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ryu",
-        "Title": ""
-      }
-    ]
-  },
-  {
-    "InstanceId": "5968217b46965952fcb51a52",
-    "Name": "Air Acceleration",
-    "OwnerId": 47,
-    "Owner": "Ryu",
-    "Value": "0.025",
-    "Links": [
-      {
-        "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968217b46965952fcb51a52",
-        "Title": ""
-      },
-      {
-        "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ryu",
-        "Title": ""
-      }
-    ]
-  },
-  {
-    "InstanceId": "5968217b46965952fcb51a53",
-    "Name": "Soft Landing Lag",
-    "OwnerId": 47,
-    "Owner": "Ryu",
-    "Value": "2 frames",
-    "Links": [
-      {
-        "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968217b46965952fcb51a53",
-        "Title": ""
-      },
-      {
-        "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ryu",
-        "Title": ""
-      }
-    ]
-  },
-  {
-    "InstanceId": "5968217b46965952fcb51a54",
+    "InstanceId": "5968217b46965952fcb51aa1",
     "Name": "Gravity",
     "OwnerId": 47,
     "Owner": "Ryu",
-    "Value": "0.12",
+    "Values": [
+      {
+        "Value": "0.12",
+        "Owner": "Ryu",
+        "OwnerId": 47,
+        "Name": "VALUE"
+      }
+    ],
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968217b46965952fcb51a54",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968217b46965952fcb51aa1",
         "Title": ""
       },
       {
@@ -285,15 +220,22 @@
     ]
   },
   {
-    "InstanceId": "5968217b46965952fcb51a55",
-    "Name": "Hard Landing Lag",
+    "InstanceId": "5968217b46965952fcb51aa2",
+    "Name": "JumpSquat",
     "OwnerId": 47,
     "Owner": "Ryu",
-    "Value": "4 frames",
+    "Values": [
+      {
+        "Value": "5",
+        "Owner": "Ryu",
+        "OwnerId": 47,
+        "Name": "VALUE"
+      }
+    ],
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968217b46965952fcb51a55",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968217b46965952fcb51aa2",
         "Title": ""
       },
       {
@@ -304,15 +246,22 @@
     ]
   },
   {
-    "InstanceId": "5968217b46965952fcb51a56",
-    "Name": "SH Air Time",
+    "InstanceId": "5968217b46965952fcb51aa3",
+    "Name": "LedgeHop",
     "OwnerId": 47,
     "Owner": "Ryu",
-    "Value": "31 frames",
+    "Values": [
+      {
+        "Value": "33",
+        "Owner": "Ryu",
+        "OwnerId": 47,
+        "Name": "HEIGHT"
+      }
+    ],
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968217b46965952fcb51a56",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968217b46965952fcb51aa3",
         "Title": ""
       },
       {
@@ -323,15 +272,164 @@
     ]
   },
   {
-    "InstanceId": "5968217b46965952fcb51a57",
-    "Name": "FH Air Time",
+    "InstanceId": "5968217b46965952fcb51aa4",
+    "Name": "ShortHop",
     "OwnerId": 47,
     "Owner": "Ryu",
-    "Value": "43 frames",
+    "Values": [
+      {
+        "Value": "15",
+        "Owner": "Ryu",
+        "OwnerId": 47,
+        "Name": "HEIGHT"
+      }
+    ],
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968217b46965952fcb51a57",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968217b46965952fcb51aa4",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ryu",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968217b46965952fcb51aa5",
+    "Name": "Spotdodge",
+    "OwnerId": 47,
+    "Owner": "Ryu",
+    "Values": [
+      {
+        "Value": "3-17",
+        "Owner": "Ryu",
+        "OwnerId": 47,
+        "Name": "INTANGIBLE"
+      },
+      {
+        "Value": "28",
+        "Owner": "Ryu",
+        "OwnerId": 47,
+        "Name": "FAF"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968217b46965952fcb51aa5",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ryu",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968217b46965952fcb51aa6",
+    "Name": "Traction",
+    "OwnerId": 47,
+    "Owner": "Ryu",
+    "Values": [
+      {
+        "Value": "0.06",
+        "Owner": "Ryu",
+        "OwnerId": 47,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968217b46965952fcb51aa6",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ryu",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968217b46965952fcb51aa7",
+    "Name": "WalkSpeed",
+    "OwnerId": 47,
+    "Owner": "Ryu",
+    "Values": [
+      {
+        "Value": "0.75",
+        "Owner": "Ryu",
+        "OwnerId": 47,
+        "Name": "MAX WALK SPEED VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968217b46965952fcb51aa7",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ryu",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968217b46965952fcb51aa8",
+    "Name": "AirSpeed",
+    "OwnerId": 47,
+    "Owner": "Ryu",
+    "Values": [
+      {
+        "Value": "1.12",
+        "Owner": "Ryu",
+        "OwnerId": 47,
+        "Name": "MAX AIR SPEED VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968217b46965952fcb51aa8",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ryu",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968217b46965952fcb51aa9",
+    "Name": "AirDodge",
+    "OwnerId": 47,
+    "Owner": "Ryu",
+    "Values": [
+      {
+        "Value": "4-25",
+        "Owner": "Ryu",
+        "OwnerId": 47,
+        "Name": "INTANGIBLE"
+      },
+      {
+        "Value": "34",
+        "Owner": "Ryu",
+        "OwnerId": 47,
+        "Name": "FAF"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968217b46965952fcb51aa9",
         "Title": ""
       },
       {

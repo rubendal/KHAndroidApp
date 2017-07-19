@@ -1,0 +1,1172 @@
+﻿[
+  {
+    "InstanceId": "596820f946965952fcb50b37",
+    "Name": "WalkSpeed",
+    "OwnerId": 1,
+    "Owner": "Bayonetta",
+    "Values": [
+      {
+        "Value": "0.9",
+        "Owner": "Bayonetta",
+        "OwnerId": 1,
+        "Name": "MAX WALK SPEED VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/596820f946965952fcb50b37",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Bayonetta",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "596820fd46965952fcb50b8c",
+    "Name": "WalkSpeed",
+    "OwnerId": 2,
+    "Owner": "Bowser",
+    "Values": [
+      {
+        "Value": "0.858",
+        "Owner": "Bowser",
+        "OwnerId": 2,
+        "Name": "MAX WALK SPEED VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/596820fd46965952fcb50b8c",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Bowser",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968210146965952fcb50be6",
+    "Name": "WalkSpeed",
+    "OwnerId": 3,
+    "Owner": "BowserJr",
+    "Values": [
+      {
+        "Value": "0.88",
+        "Owner": "BowserJr",
+        "OwnerId": 3,
+        "Name": "MAX WALK SPEED VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968210146965952fcb50be6",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/BowserJr",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968210646965952fcb50c81",
+    "Name": "WalkSpeed",
+    "OwnerId": 5,
+    "Owner": "Charizard",
+    "Values": [
+      {
+        "Value": "1.2",
+        "Owner": "Charizard",
+        "OwnerId": 5,
+        "Name": "MAX WALK SPEED VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968210646965952fcb50c81",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Charizard",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968210a46965952fcb50cee",
+    "Name": "WalkSpeed",
+    "OwnerId": 6,
+    "Owner": "Cloud",
+    "Values": [
+      {
+        "Value": "1.1",
+        "Owner": "Cloud",
+        "OwnerId": 6,
+        "Name": "MAX WALK SPEED VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968210a46965952fcb50cee",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968210d46965952fcb50d56",
+    "Name": "WalkSpeed",
+    "OwnerId": 7,
+    "Owner": "Corrin",
+    "Values": [
+      {
+        "Value": "1.15",
+        "Owner": "Corrin",
+        "OwnerId": 7,
+        "Name": "MAX WALK SPEED VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968210d46965952fcb50d56",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Corrin",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968211e46965952fcb50f17",
+    "Name": "WalkSpeed",
+    "OwnerId": 13,
+    "Owner": "Falco",
+    "Values": [
+      {
+        "Value": "1.28",
+        "Owner": "Falco",
+        "OwnerId": 13,
+        "Name": "MAX WALK SPEED VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968211e46965952fcb50f17",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Falco",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968212046965952fcb50f6d",
+    "Name": "WalkSpeed",
+    "OwnerId": 14,
+    "Owner": "Fox",
+    "Values": [
+      {
+        "Value": "1.45",
+        "Owner": "Fox",
+        "OwnerId": 14,
+        "Name": "MAX WALK SPEED VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968212046965952fcb50f6d",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Fox",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968212346965952fcb50fc0",
+    "Name": "WalkSpeed",
+    "OwnerId": 15,
+    "Owner": "Ganondorf",
+    "Values": [
+      {
+        "Value": "0.73",
+        "Owner": "Ganondorf",
+        "OwnerId": 15,
+        "Name": "MAX WALK SPEED VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968212346965952fcb50fc0",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ganondorf",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968212746965952fcb51016",
+    "Name": "WalkSpeed",
+    "OwnerId": 16,
+    "Owner": "Greninja",
+    "Values": [
+      {
+        "Value": "1.43",
+        "Owner": "Greninja",
+        "OwnerId": 16,
+        "Name": "MAX WALK SPEED VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968212746965952fcb51016",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Greninja",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968212946965952fcb5106d",
+    "Name": "WalkSpeed",
+    "OwnerId": 17,
+    "Owner": "Ike",
+    "Values": [
+      {
+        "Value": "0.869",
+        "Owner": "Ike",
+        "OwnerId": 17,
+        "Name": "MAX WALK SPEED VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968212946965952fcb5106d",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ike",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968212c46965952fcb510b5",
+    "Name": "WalkSpeed",
+    "OwnerId": 18,
+    "Owner": "Jigglypuff",
+    "Values": [
+      {
+        "Value": "0.7",
+        "Owner": "Jigglypuff",
+        "OwnerId": 18,
+        "Name": "MAX WALK SPEED VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968212c46965952fcb510b5",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Jigglypuff",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968212f46965952fcb51108",
+    "Name": "WalkSpeed",
+    "OwnerId": 19,
+    "Owner": "KingDedede",
+    "Values": [
+      {
+        "Value": "0.98",
+        "Owner": "KingDedede",
+        "OwnerId": 19,
+        "Name": "MAX WALK SPEED VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968212f46965952fcb51108",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/KingDedede",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968213146965952fcb51165",
+    "Name": "WalkSpeed",
+    "OwnerId": 20,
+    "Owner": "Kirby",
+    "Values": [
+      {
+        "Value": "0.93",
+        "Owner": "Kirby",
+        "OwnerId": 20,
+        "Name": "MAX WALK SPEED VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968213146965952fcb51165",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Kirby",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968213446965952fcb511c4",
+    "Name": "WalkSpeed",
+    "OwnerId": 21,
+    "Owner": "Link",
+    "Values": [
+      {
+        "Value": "1.188",
+        "Owner": "Link",
+        "OwnerId": 21,
+        "Name": "MAX WALK SPEED VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968213446965952fcb511c4",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Link",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968213746965952fcb5121f",
+    "Name": "WalkSpeed",
+    "OwnerId": 22,
+    "Owner": "LittleMac",
+    "Values": [
+      {
+        "Value": "1.32",
+        "Owner": "LittleMac",
+        "OwnerId": 22,
+        "Name": "MAX WALK SPEED VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968213746965952fcb5121f",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/LittleMac",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968213946965952fcb5126f",
+    "Name": "WalkSpeed",
+    "OwnerId": 23,
+    "Owner": "Lucario",
+    "Values": [
+      {
+        "Value": "1.05",
+        "Owner": "Lucario",
+        "OwnerId": 23,
+        "Name": "MAX WALK SPEED VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968213946965952fcb5126f",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucario",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968213c46965952fcb512c4",
+    "Name": "WalkSpeed",
+    "OwnerId": 24,
+    "Owner": "Lucas",
+    "Values": [
+      {
+        "Value": "0.85",
+        "Owner": "Lucas",
+        "OwnerId": 24,
+        "Name": "MAX WALK SPEED VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968213c46965952fcb512c4",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucas",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968213f46965952fcb51318",
+    "Name": "WalkSpeed",
+    "OwnerId": 25,
+    "Owner": "Lucina",
+    "Values": [
+      {
+        "Value": "1.5",
+        "Owner": "Lucina",
+        "OwnerId": 25,
+        "Name": "MAX WALK SPEED VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968213f46965952fcb51318",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucina",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968214246965952fcb5136a",
+    "Name": "WalkSpeed",
+    "OwnerId": 26,
+    "Owner": "Luigi",
+    "Values": [
+      {
+        "Value": "1.08",
+        "Owner": "Luigi",
+        "OwnerId": 26,
+        "Name": "MAX WALK SPEED VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968214246965952fcb5136a",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Luigi",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968214446965952fcb513bb",
+    "Name": "WalkSpeed",
+    "OwnerId": 27,
+    "Owner": "Mario",
+    "Values": [
+      {
+        "Value": "1.1",
+        "Owner": "Mario",
+        "OwnerId": 27,
+        "Name": "MAX WALK SPEED VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968214446965952fcb513bb",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Mario",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968214846965952fcb5140f",
+    "Name": "WalkSpeed",
+    "OwnerId": 28,
+    "Owner": "Marth",
+    "Values": [
+      {
+        "Value": "1.5",
+        "Owner": "Marth",
+        "OwnerId": 28,
+        "Name": "MAX WALK SPEED VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968214846965952fcb5140f",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Marth",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968214d46965952fcb514c7",
+    "Name": "WalkSpeed",
+    "OwnerId": 30,
+    "Owner": "MetaKnight",
+    "Values": [
+      {
+        "Value": "1.18",
+        "Owner": "MetaKnight",
+        "OwnerId": 30,
+        "Name": "MAX WALK SPEED VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968214d46965952fcb514c7",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MetaKnight",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968215046965952fcb51510",
+    "Name": "WalkSpeed",
+    "OwnerId": 31,
+    "Owner": "Mewtwo",
+    "Values": [
+      {
+        "Value": "1.2",
+        "Owner": "Mewtwo",
+        "OwnerId": 31,
+        "Name": "MAX WALK SPEED VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968215046965952fcb51510",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Mewtwo",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968215b46965952fcb51688",
+    "Name": "WalkSpeed",
+    "OwnerId": 35,
+    "Owner": "MrGameWatch",
+    "Values": [
+      {
+        "Value": "1.1242",
+        "Owner": "MrGameWatch",
+        "OwnerId": 35,
+        "Name": "MAX WALK SPEED VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968215b46965952fcb51688",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MrGameWatch",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968215e46965952fcb516da",
+    "Name": "WalkSpeed",
+    "OwnerId": 36,
+    "Owner": "Ness",
+    "Values": [
+      {
+        "Value": "0.8635",
+        "Owner": "Ness",
+        "OwnerId": 36,
+        "Name": "MAX WALK SPEED VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968215e46965952fcb516da",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ness",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968216046965952fcb51728",
+    "Name": "WalkSpeed",
+    "OwnerId": 37,
+    "Owner": "Olimar",
+    "Values": [
+      {
+        "Value": "0.9",
+        "Owner": "Olimar",
+        "OwnerId": 37,
+        "Name": "MAX WALK SPEED VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968216046965952fcb51728",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Olimar",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968216346965952fcb51784",
+    "Name": "WalkSpeed",
+    "OwnerId": 38,
+    "Owner": "PAC-MAN",
+    "Values": [
+      {
+        "Value": "1.045",
+        "Owner": "PAC-MAN",
+        "OwnerId": 38,
+        "Name": "MAX WALK SPEED VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968216346965952fcb51784",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/PAC-MAN",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968216646965952fcb517d1",
+    "Name": "WalkSpeed",
+    "OwnerId": 39,
+    "Owner": "Palutena",
+    "Values": [
+      {
+        "Value": "1.21",
+        "Owner": "Palutena",
+        "OwnerId": 39,
+        "Name": "MAX WALK SPEED VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968216646965952fcb517d1",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Palutena",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968216846965952fcb51828",
+    "Name": "WalkSpeed",
+    "OwnerId": 40,
+    "Owner": "Peach",
+    "Values": [
+      {
+        "Value": "0.86",
+        "Owner": "Peach",
+        "OwnerId": 40,
+        "Name": "MAX WALK SPEED VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968216846965952fcb51828",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Peach",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968216b46965952fcb5187b",
+    "Name": "WalkSpeed",
+    "OwnerId": 41,
+    "Owner": "Pikachu",
+    "Values": [
+      {
+        "Value": "1.24",
+        "Owner": "Pikachu",
+        "OwnerId": 41,
+        "Name": "MAX WALK SPEED VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968216b46965952fcb5187b",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Pikachu",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968216e46965952fcb518d0",
+    "Name": "WalkSpeed",
+    "OwnerId": 42,
+    "Owner": "Pit",
+    "Values": [
+      {
+        "Value": "1.199",
+        "Owner": "Pit",
+        "OwnerId": 42,
+        "Name": "MAX WALK SPEED VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968216e46965952fcb518d0",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Pit",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968217146965952fcb5191e",
+    "Name": "WalkSpeed",
+    "OwnerId": 43,
+    "Owner": "Rob",
+    "Values": [
+      {
+        "Value": "1.122",
+        "Owner": "Rob",
+        "OwnerId": 43,
+        "Name": "MAX WALK SPEED VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968217146965952fcb5191e",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Rob",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968217346965952fcb51985",
+    "Name": "WalkSpeed",
+    "OwnerId": 44,
+    "Owner": "Robin",
+    "Values": [
+      {
+        "Value": "0.891",
+        "Owner": "Robin",
+        "OwnerId": 44,
+        "Name": "MAX WALK SPEED VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968217346965952fcb51985",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Robin",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968217646965952fcb519e9",
+    "Name": "WalkSpeed",
+    "OwnerId": 45,
+    "Owner": "RosalinaLuma",
+    "Values": [
+      {
+        "Value": "1.0835",
+        "Owner": "RosalinaLuma",
+        "OwnerId": 45,
+        "Name": "MAX WALK SPEED VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968217646965952fcb519e9",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/RosalinaLuma",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968217946965952fcb51a42",
+    "Name": "WalkSpeed",
+    "OwnerId": 46,
+    "Owner": "Roy",
+    "Values": [
+      {
+        "Value": "1.15",
+        "Owner": "Roy",
+        "OwnerId": 46,
+        "Name": "MAX WALK SPEED VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968217946965952fcb51a42",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Roy",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968217b46965952fcb51aa7",
+    "Name": "WalkSpeed",
+    "OwnerId": 47,
+    "Owner": "Ryu",
+    "Values": [
+      {
+        "Value": "0.75",
+        "Owner": "Ryu",
+        "OwnerId": 47,
+        "Name": "MAX WALK SPEED VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968217b46965952fcb51aa7",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ryu",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968217e46965952fcb51b07",
+    "Name": "WalkSpeed",
+    "OwnerId": 48,
+    "Owner": "Samus",
+    "Values": [
+      {
+        "Value": "1.0615",
+        "Owner": "Samus",
+        "OwnerId": 48,
+        "Name": "MAX WALK SPEED VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968217e46965952fcb51b07",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Samus",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968218146965952fcb51b5b",
+    "Name": "WalkSpeed",
+    "OwnerId": 49,
+    "Owner": "Sheik",
+    "Values": [
+      {
+        "Value": "1.4",
+        "Owner": "Sheik",
+        "OwnerId": 49,
+        "Name": "MAX WALK SPEED VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968218146965952fcb51b5b",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sheik",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968218346965952fcb51bba",
+    "Name": "WalkSpeed",
+    "OwnerId": 50,
+    "Owner": "Shulk",
+    "Values": [
+      {
+        "Value": "1.1",
+        "Owner": "Shulk",
+        "OwnerId": 50,
+        "Name": "MAX WALK SPEED VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968218346965952fcb51bba",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Shulk",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968218646965952fcb51c0b",
+    "Name": "WalkSpeed",
+    "OwnerId": 51,
+    "Owner": "Sonic",
+    "Values": [
+      {
+        "Value": "1.375",
+        "Owner": "Sonic",
+        "OwnerId": 51,
+        "Name": "MAX WALK SPEED VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968218646965952fcb51c0b",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sonic",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968218b46965952fcb51cb4",
+    "Name": "WalkSpeed",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "Values": [
+      {
+        "Value": "1.04",
+        "Owner": "Villager",
+        "OwnerId": 53,
+        "Name": "MAX WALK SPEED VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968218b46965952fcb51cb4",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968218e46965952fcb51d06",
+    "Name": "WalkSpeed",
+    "OwnerId": 54,
+    "Owner": "Wario",
+    "Values": [
+      {
+        "Value": "0.847",
+        "Owner": "Wario",
+        "OwnerId": 54,
+        "Name": "MAX WALK SPEED VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968218e46965952fcb51d06",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Wario",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968219346965952fcb51d98",
+    "Name": "WalkSpeed",
+    "OwnerId": 56,
+    "Owner": "Yoshi",
+    "Values": [
+      {
+        "Value": "1.15",
+        "Owner": "Yoshi",
+        "OwnerId": 56,
+        "Name": "MAX WALK SPEED VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968219346965952fcb51d98",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Yoshi",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968219646965952fcb51de6",
+    "Name": "WalkSpeed",
+    "OwnerId": 57,
+    "Owner": "Zelda",
+    "Values": [
+      {
+        "Value": "0.87",
+        "Owner": "Zelda",
+        "OwnerId": 57,
+        "Name": "MAX WALK SPEED VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968219646965952fcb51de6",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Zelda",
+        "Title": ""
+      }
+    ]
+  }
+]

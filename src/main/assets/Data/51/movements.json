@@ -1,0 +1,344 @@
+﻿[
+  {
+    "InstanceId": "5968218646965952fcb51bbe",
+    "Name": "Weight",
+    "OwnerId": 51,
+    "Owner": "Sonic",
+    "Value": "94 ",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968218646965952fcb51bbe",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sonic",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968218646965952fcb51bbf",
+    "Name": "Max Jumps",
+    "OwnerId": 51,
+    "Owner": "Sonic",
+    "Value": "2",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968218646965952fcb51bbf",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sonic",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968218646965952fcb51bc0",
+    "Name": "Run Speed",
+    "OwnerId": 51,
+    "Owner": "Sonic",
+    "Value": "3.5 ",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968218646965952fcb51bc0",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sonic",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968218646965952fcb51bc1",
+    "Name": "Wall Jump",
+    "OwnerId": 51,
+    "Owner": "Sonic",
+    "Value": "Yes",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968218646965952fcb51bc1",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sonic",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968218646965952fcb51bc2",
+    "Name": "Walk Speed",
+    "OwnerId": 51,
+    "Owner": "Sonic",
+    "Value": "1.375 ",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968218646965952fcb51bc2",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sonic",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968218646965952fcb51bc3",
+    "Name": "Wall Cling",
+    "OwnerId": 51,
+    "Owner": "Sonic",
+    "Value": "No",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968218646965952fcb51bc3",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sonic",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968218646965952fcb51bc4",
+    "Name": "Air Speed",
+    "OwnerId": 51,
+    "Owner": "Sonic",
+    "Value": "1.15 ",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968218646965952fcb51bc4",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sonic",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968218646965952fcb51bc5",
+    "Name": "Crawl",
+    "OwnerId": 51,
+    "Owner": "Sonic",
+    "Value": "No",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968218646965952fcb51bc5",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sonic",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968218646965952fcb51bc6",
+    "Name": "Fall Speed",
+    "OwnerId": 51,
+    "Owner": "Sonic",
+    "Value": "1.45 ",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968218646965952fcb51bc6",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sonic",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968218646965952fcb51bc7",
+    "Name": "Tether",
+    "OwnerId": 51,
+    "Owner": "Sonic",
+    "Value": "No",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968218646965952fcb51bc7",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sonic",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968218646965952fcb51bc8",
+    "Name": "Fast Fall Speed",
+    "OwnerId": 51,
+    "Owner": "Sonic",
+    "Value": "2.32 ",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968218646965952fcb51bc8",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sonic",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968218646965952fcb51bc9",
+    "Name": "Jumpsquat",
+    "OwnerId": 51,
+    "Owner": "Sonic",
+    "Value": "5 frames",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968218646965952fcb51bc9",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sonic",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968218646965952fcb51bca",
+    "Name": "Air Acceleration",
+    "OwnerId": 51,
+    "Owner": "Sonic",
+    "Value": "0.04",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968218646965952fcb51bca",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sonic",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968218646965952fcb51bcb",
+    "Name": "Soft Landing Lag",
+    "OwnerId": 51,
+    "Owner": "Sonic",
+    "Value": "2 frames",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968218646965952fcb51bcb",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sonic",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968218646965952fcb51bcc",
+    "Name": "Gravity",
+    "OwnerId": 51,
+    "Owner": "Sonic",
+    "Value": "0.09",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968218646965952fcb51bcc",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sonic",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968218646965952fcb51bcd",
+    "Name": "Hard Landing Lag",
+    "OwnerId": 51,
+    "Owner": "Sonic",
+    "Value": "4 frames",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968218646965952fcb51bcd",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sonic",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968218646965952fcb51bce",
+    "Name": "SH Air Time",
+    "OwnerId": 51,
+    "Owner": "Sonic",
+    "Value": "39 frames",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968218646965952fcb51bce",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sonic",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968218646965952fcb51bcf",
+    "Name": "FH Air Time",
+    "OwnerId": 51,
+    "Owner": "Sonic",
+    "Value": "60 frames",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968218646965952fcb51bcf",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sonic",
+        "Title": ""
+      }
+    ]
+  }
+]

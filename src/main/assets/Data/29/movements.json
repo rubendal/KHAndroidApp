@@ -1,0 +1,344 @@
+﻿[
+  {
+    "InstanceId": "5968214a46965952fcb51413",
+    "Name": "Weight",
+    "OwnerId": 29,
+    "Owner": "MegaMan",
+    "Value": "102 ",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968214a46965952fcb51413",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MegaMan",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968214a46965952fcb51414",
+    "Name": "Max Jumps",
+    "OwnerId": 29,
+    "Owner": "MegaMan",
+    "Value": "2",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968214a46965952fcb51414",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MegaMan",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968214a46965952fcb51415",
+    "Name": "Run Speed",
+    "OwnerId": 29,
+    "Owner": "MegaMan",
+    "Value": "1.456 ",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968214a46965952fcb51415",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MegaMan",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968214a46965952fcb51416",
+    "Name": "Wall Jump",
+    "OwnerId": 29,
+    "Owner": "MegaMan",
+    "Value": "Yes",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968214a46965952fcb51416",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MegaMan",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968214a46965952fcb51417",
+    "Name": "Walk Speed",
+    "OwnerId": 29,
+    "Owner": "MegaMan",
+    "Value": "1.078 ",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968214a46965952fcb51417",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MegaMan",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968214a46965952fcb51418",
+    "Name": "Wall Cling",
+    "OwnerId": 29,
+    "Owner": "MegaMan",
+    "Value": "No",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968214a46965952fcb51418",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MegaMan",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968214a46965952fcb51419",
+    "Name": "Air Speed",
+    "OwnerId": 29,
+    "Owner": "MegaMan",
+    "Value": "1.1 ",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968214a46965952fcb51419",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MegaMan",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968214a46965952fcb5141a",
+    "Name": "Crawl",
+    "OwnerId": 29,
+    "Owner": "MegaMan",
+    "Value": "No",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968214a46965952fcb5141a",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MegaMan",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968214a46965952fcb5141b",
+    "Name": "Fall Speed",
+    "OwnerId": 29,
+    "Owner": "MegaMan",
+    "Value": "1.8 ",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968214a46965952fcb5141b",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MegaMan",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968214a46965952fcb5141c",
+    "Name": "Tether",
+    "OwnerId": 29,
+    "Owner": "MegaMan",
+    "Value": "No",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968214a46965952fcb5141c",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MegaMan",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968214a46965952fcb5141d",
+    "Name": "Fast Fall Speed",
+    "OwnerId": 29,
+    "Owner": "MegaMan",
+    "Value": "2.88 ",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968214a46965952fcb5141d",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MegaMan",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968214a46965952fcb5141e",
+    "Name": "Jumpsquat",
+    "OwnerId": 29,
+    "Owner": "MegaMan",
+    "Value": "4 frames",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968214a46965952fcb5141e",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MegaMan",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968214a46965952fcb5141f",
+    "Name": "Air Acceleration",
+    "OwnerId": 29,
+    "Owner": "MegaMan",
+    "Value": "0.1",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968214a46965952fcb5141f",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MegaMan",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968214a46965952fcb51420",
+    "Name": "Soft Landing Lag",
+    "OwnerId": 29,
+    "Owner": "MegaMan",
+    "Value": "2 frames",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968214a46965952fcb51420",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MegaMan",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968214a46965952fcb51421",
+    "Name": "Gravity",
+    "OwnerId": 29,
+    "Owner": "MegaMan",
+    "Value": "0.1071",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968214a46965952fcb51421",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MegaMan",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968214a46965952fcb51422",
+    "Name": "Hard Landing Lag",
+    "OwnerId": 29,
+    "Owner": "MegaMan",
+    "Value": "4 frames",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968214a46965952fcb51422",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MegaMan",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968214a46965952fcb51423",
+    "Name": "SH Air Time",
+    "OwnerId": 29,
+    "Owner": "MegaMan",
+    "Value": "29 frames",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968214a46965952fcb51423",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MegaMan",
+        "Title": ""
+      }
+    ]
+  },
+  {
+    "InstanceId": "5968214a46965952fcb51424",
+    "Name": "FH Air Time",
+    "OwnerId": 29,
+    "Owner": "MegaMan",
+    "Value": "51 frames",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968214a46965952fcb51424",
+        "Title": ""
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MegaMan",
+        "Title": ""
+      }
+    ]
+  }
+]

@@ -1,14 +1,21 @@
 ﻿[
   {
-    "InstanceId": "5968218846965952fcb51c0f",
-    "Name": "Weight",
+    "InstanceId": "5968218946965952fcb51c53",
+    "Name": "AirDeceleration",
     "OwnerId": 52,
     "Owner": "ToonLink",
-    "Value": "93 ",
+    "Values": [
+      {
+        "Value": "0.01",
+        "Owner": "ToonLink",
+        "OwnerId": 52,
+        "Name": "VALUE"
+      }
+    ],
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968218846965952fcb51c0f",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968218946965952fcb51c53",
         "Title": ""
       },
       {
@@ -19,15 +26,22 @@
     ]
   },
   {
-    "InstanceId": "5968218846965952fcb51c10",
-    "Name": "Max Jumps",
+    "InstanceId": "5968218946965952fcb51c54",
+    "Name": "AirFriction",
     "OwnerId": 52,
     "Owner": "ToonLink",
-    "Value": "2",
+    "Values": [
+      {
+        "Value": "0.015",
+        "Owner": "ToonLink",
+        "OwnerId": 52,
+        "Name": "VALUE"
+      }
+    ],
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968218846965952fcb51c10",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968218946965952fcb51c54",
         "Title": ""
       },
       {
@@ -38,300 +52,22 @@
     ]
   },
   {
-    "InstanceId": "5968218846965952fcb51c11",
-    "Name": "Run Speed",
+    "InstanceId": "5968218946965952fcb51c55",
+    "Name": "DashLength",
     "OwnerId": 52,
     "Owner": "ToonLink",
-    "Value": "1.7325 ",
-    "Links": [
+    "Values": [
       {
-        "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968218846965952fcb51c11",
-        "Title": ""
-      },
-      {
-        "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/ToonLink",
-        "Title": ""
+        "Value": "11",
+        "Owner": "ToonLink",
+        "OwnerId": 52,
+        "Name": "LENGTH IN FRAMES"
       }
-    ]
-  },
-  {
-    "InstanceId": "5968218846965952fcb51c12",
-    "Name": "Wall Jump",
-    "OwnerId": 52,
-    "Owner": "ToonLink",
-    "Value": "Yes",
+    ],
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968218846965952fcb51c12",
-        "Title": ""
-      },
-      {
-        "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/ToonLink",
-        "Title": ""
-      }
-    ]
-  },
-  {
-    "InstanceId": "5968218846965952fcb51c13",
-    "Name": "Walk Speed",
-    "OwnerId": 52,
-    "Owner": "ToonLink",
-    "Value": "1.2265 ",
-    "Links": [
-      {
-        "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968218846965952fcb51c13",
-        "Title": ""
-      },
-      {
-        "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/ToonLink",
-        "Title": ""
-      }
-    ]
-  },
-  {
-    "InstanceId": "5968218846965952fcb51c14",
-    "Name": "Wall Cling",
-    "OwnerId": 52,
-    "Owner": "ToonLink",
-    "Value": "No",
-    "Links": [
-      {
-        "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968218846965952fcb51c14",
-        "Title": ""
-      },
-      {
-        "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/ToonLink",
-        "Title": ""
-      }
-    ]
-  },
-  {
-    "InstanceId": "5968218846965952fcb51c15",
-    "Name": "Air Speed",
-    "OwnerId": 52,
-    "Owner": "ToonLink",
-    "Value": "0.94 ",
-    "Links": [
-      {
-        "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968218846965952fcb51c15",
-        "Title": ""
-      },
-      {
-        "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/ToonLink",
-        "Title": ""
-      }
-    ]
-  },
-  {
-    "InstanceId": "5968218846965952fcb51c16",
-    "Name": "Crawl",
-    "OwnerId": 52,
-    "Owner": "ToonLink",
-    "Value": "No",
-    "Links": [
-      {
-        "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968218846965952fcb51c16",
-        "Title": ""
-      },
-      {
-        "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/ToonLink",
-        "Title": ""
-      }
-    ]
-  },
-  {
-    "InstanceId": "5968218846965952fcb51c17",
-    "Name": "Fall Speed",
-    "OwnerId": 52,
-    "Owner": "ToonLink",
-    "Value": "1.28 ",
-    "Links": [
-      {
-        "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968218846965952fcb51c17",
-        "Title": ""
-      },
-      {
-        "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/ToonLink",
-        "Title": ""
-      }
-    ]
-  },
-  {
-    "InstanceId": "5968218846965952fcb51c18",
-    "Name": "Tether",
-    "OwnerId": 52,
-    "Owner": "ToonLink",
-    "Value": "Yes",
-    "Links": [
-      {
-        "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968218846965952fcb51c18",
-        "Title": ""
-      },
-      {
-        "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/ToonLink",
-        "Title": ""
-      }
-    ]
-  },
-  {
-    "InstanceId": "5968218846965952fcb51c19",
-    "Name": "Fast Fall Speed",
-    "OwnerId": 52,
-    "Owner": "ToonLink",
-    "Value": "2.048 ",
-    "Links": [
-      {
-        "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968218846965952fcb51c19",
-        "Title": ""
-      },
-      {
-        "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/ToonLink",
-        "Title": ""
-      }
-    ]
-  },
-  {
-    "InstanceId": "5968218846965952fcb51c1a",
-    "Name": "Jumpsquat",
-    "OwnerId": 52,
-    "Owner": "ToonLink",
-    "Value": "5 frames",
-    "Links": [
-      {
-        "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968218846965952fcb51c1a",
-        "Title": ""
-      },
-      {
-        "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/ToonLink",
-        "Title": ""
-      }
-    ]
-  },
-  {
-    "InstanceId": "5968218846965952fcb51c1b",
-    "Name": "Air Acceleration",
-    "OwnerId": 52,
-    "Owner": "ToonLink",
-    "Value": "0.08",
-    "Links": [
-      {
-        "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968218846965952fcb51c1b",
-        "Title": ""
-      },
-      {
-        "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/ToonLink",
-        "Title": ""
-      }
-    ]
-  },
-  {
-    "InstanceId": "5968218846965952fcb51c1c",
-    "Name": "Soft Landing Lag",
-    "OwnerId": 52,
-    "Owner": "ToonLink",
-    "Value": "2 frames",
-    "Links": [
-      {
-        "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968218846965952fcb51c1c",
-        "Title": ""
-      },
-      {
-        "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/ToonLink",
-        "Title": ""
-      }
-    ]
-  },
-  {
-    "InstanceId": "5968218846965952fcb51c1d",
-    "Name": "Gravity",
-    "OwnerId": 52,
-    "Owner": "ToonLink",
-    "Value": "0.079",
-    "Links": [
-      {
-        "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968218846965952fcb51c1d",
-        "Title": ""
-      },
-      {
-        "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/ToonLink",
-        "Title": ""
-      }
-    ]
-  },
-  {
-    "InstanceId": "5968218846965952fcb51c1e",
-    "Name": "Hard Landing Lag",
-    "OwnerId": 52,
-    "Owner": "ToonLink",
-    "Value": "4 frames",
-    "Links": [
-      {
-        "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968218846965952fcb51c1e",
-        "Title": ""
-      },
-      {
-        "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/ToonLink",
-        "Title": ""
-      }
-    ]
-  },
-  {
-    "InstanceId": "5968218846965952fcb51c1f",
-    "Name": "SH Air Time",
-    "OwnerId": 52,
-    "Owner": "ToonLink",
-    "Value": "41 frames",
-    "Links": [
-      {
-        "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968218846965952fcb51c1f",
-        "Title": ""
-      },
-      {
-        "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/ToonLink",
-        "Title": ""
-      }
-    ]
-  },
-  {
-    "InstanceId": "5968218846965952fcb51c20",
-    "Name": "FH Air Time",
-    "OwnerId": 52,
-    "Owner": "ToonLink",
-    "Value": "63 frames",
-    "Links": [
-      {
-        "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968218846965952fcb51c20",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968218946965952fcb51c55",
         "Title": ""
       },
       {

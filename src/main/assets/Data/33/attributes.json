@@ -1,14 +1,21 @@
 ﻿[
   {
-    "InstanceId": "5968215846965952fcb515e7",
-    "Name": "Weight",
+    "InstanceId": "5968215846965952fcb51634",
+    "Name": "AirDeceleration",
     "OwnerId": 33,
     "Owner": "MiiGunner",
-    "Value": "100 ",
+    "Values": [
+      {
+        "Value": "0.01",
+        "Owner": "MiiGunner",
+        "OwnerId": 33,
+        "Name": "VALUE"
+      }
+    ],
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968215846965952fcb515e7",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968215846965952fcb51634",
         "Title": ""
       },
       {
@@ -19,15 +26,22 @@
     ]
   },
   {
-    "InstanceId": "5968215846965952fcb515e8",
-    "Name": "Max Jumps",
+    "InstanceId": "5968215846965952fcb51635",
+    "Name": "AirFriction",
     "OwnerId": 33,
     "Owner": "MiiGunner",
-    "Value": "2",
+    "Values": [
+      {
+        "Value": "0.015",
+        "Owner": "MiiGunner",
+        "OwnerId": 33,
+        "Name": "VALUE"
+      }
+    ],
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968215846965952fcb515e8",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968215846965952fcb51635",
         "Title": ""
       },
       {
@@ -38,300 +52,22 @@
     ]
   },
   {
-    "InstanceId": "5968215846965952fcb515e9",
-    "Name": "Run Speed",
+    "InstanceId": "5968215846965952fcb51636",
+    "Name": "DashLength",
     "OwnerId": 33,
     "Owner": "MiiGunner",
-    "Value": "1.3 ",
-    "Links": [
+    "Values": [
       {
-        "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968215846965952fcb515e9",
-        "Title": ""
-      },
-      {
-        "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiGunner",
-        "Title": ""
+        "Value": "11",
+        "Owner": "MiiGunner",
+        "OwnerId": 33,
+        "Name": "LENGTH IN FRAMES"
       }
-    ]
-  },
-  {
-    "InstanceId": "5968215846965952fcb515ea",
-    "Name": "Wall Jump",
-    "OwnerId": 33,
-    "Owner": "MiiGunner",
-    "Value": "Yes",
+    ],
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968215846965952fcb515ea",
-        "Title": ""
-      },
-      {
-        "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiGunner",
-        "Title": ""
-      }
-    ]
-  },
-  {
-    "InstanceId": "5968215846965952fcb515eb",
-    "Name": "Walk Speed",
-    "OwnerId": 33,
-    "Owner": "MiiGunner",
-    "Value": "1.05 ",
-    "Links": [
-      {
-        "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968215846965952fcb515eb",
-        "Title": ""
-      },
-      {
-        "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiGunner",
-        "Title": ""
-      }
-    ]
-  },
-  {
-    "InstanceId": "5968215846965952fcb515ec",
-    "Name": "Wall Cling",
-    "OwnerId": 33,
-    "Owner": "MiiGunner",
-    "Value": "No",
-    "Links": [
-      {
-        "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968215846965952fcb515ec",
-        "Title": ""
-      },
-      {
-        "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiGunner",
-        "Title": ""
-      }
-    ]
-  },
-  {
-    "InstanceId": "5968215846965952fcb515ed",
-    "Name": "Air Speed",
-    "OwnerId": 33,
-    "Owner": "MiiGunner",
-    "Value": "1.05 ",
-    "Links": [
-      {
-        "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968215846965952fcb515ed",
-        "Title": ""
-      },
-      {
-        "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiGunner",
-        "Title": ""
-      }
-    ]
-  },
-  {
-    "InstanceId": "5968215846965952fcb515ee",
-    "Name": "Crawl",
-    "OwnerId": 33,
-    "Owner": "MiiGunner",
-    "Value": "No",
-    "Links": [
-      {
-        "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968215846965952fcb515ee",
-        "Title": ""
-      },
-      {
-        "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiGunner",
-        "Title": ""
-      }
-    ]
-  },
-  {
-    "InstanceId": "5968215846965952fcb515ef",
-    "Name": "Fall Speed",
-    "OwnerId": 33,
-    "Owner": "MiiGunner",
-    "Value": "1.45 ",
-    "Links": [
-      {
-        "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968215846965952fcb515ef",
-        "Title": ""
-      },
-      {
-        "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiGunner",
-        "Title": ""
-      }
-    ]
-  },
-  {
-    "InstanceId": "5968215846965952fcb515f0",
-    "Name": "Tether",
-    "OwnerId": 33,
-    "Owner": "MiiGunner",
-    "Value": "No",
-    "Links": [
-      {
-        "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968215846965952fcb515f0",
-        "Title": ""
-      },
-      {
-        "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiGunner",
-        "Title": ""
-      }
-    ]
-  },
-  {
-    "InstanceId": "5968215846965952fcb515f1",
-    "Name": "Fast Fall Speed",
-    "OwnerId": 33,
-    "Owner": "MiiGunner",
-    "Value": "2.32 ",
-    "Links": [
-      {
-        "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968215846965952fcb515f1",
-        "Title": ""
-      },
-      {
-        "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiGunner",
-        "Title": ""
-      }
-    ]
-  },
-  {
-    "InstanceId": "5968215846965952fcb515f2",
-    "Name": "Jumpsquat",
-    "OwnerId": 33,
-    "Owner": "MiiGunner",
-    "Value": "? frames",
-    "Links": [
-      {
-        "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968215846965952fcb515f2",
-        "Title": ""
-      },
-      {
-        "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiGunner",
-        "Title": ""
-      }
-    ]
-  },
-  {
-    "InstanceId": "5968215846965952fcb515f3",
-    "Name": "Air Acceleration",
-    "OwnerId": 33,
-    "Owner": "MiiGunner",
-    "Value": "0.07",
-    "Links": [
-      {
-        "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968215846965952fcb515f3",
-        "Title": ""
-      },
-      {
-        "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiGunner",
-        "Title": ""
-      }
-    ]
-  },
-  {
-    "InstanceId": "5968215846965952fcb515f4",
-    "Name": "Soft Landing Lag",
-    "OwnerId": 33,
-    "Owner": "MiiGunner",
-    "Value": "? frames",
-    "Links": [
-      {
-        "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968215846965952fcb515f4",
-        "Title": ""
-      },
-      {
-        "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiGunner",
-        "Title": ""
-      }
-    ]
-  },
-  {
-    "InstanceId": "5968215846965952fcb515f5",
-    "Name": "Gravity",
-    "OwnerId": 33,
-    "Owner": "MiiGunner",
-    "Value": "0.08715",
-    "Links": [
-      {
-        "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968215846965952fcb515f5",
-        "Title": ""
-      },
-      {
-        "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiGunner",
-        "Title": ""
-      }
-    ]
-  },
-  {
-    "InstanceId": "5968215846965952fcb515f6",
-    "Name": "Hard Landing Lag",
-    "OwnerId": 33,
-    "Owner": "MiiGunner",
-    "Value": "? frames",
-    "Links": [
-      {
-        "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968215846965952fcb515f6",
-        "Title": ""
-      },
-      {
-        "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiGunner",
-        "Title": ""
-      }
-    ]
-  },
-  {
-    "InstanceId": "5968215846965952fcb515f7",
-    "Name": "SH Air Time",
-    "OwnerId": 33,
-    "Owner": "MiiGunner",
-    "Value": "40 frames",
-    "Links": [
-      {
-        "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968215846965952fcb515f7",
-        "Title": ""
-      },
-      {
-        "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiGunner",
-        "Title": ""
-      }
-    ]
-  },
-  {
-    "InstanceId": "5968215846965952fcb515f8",
-    "Name": "FH Air Time",
-    "OwnerId": 33,
-    "Owner": "MiiGunner",
-    "Value": "57 frames",
-    "Links": [
-      {
-        "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968215846965952fcb515f8",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968215846965952fcb51636",
         "Title": ""
       },
       {

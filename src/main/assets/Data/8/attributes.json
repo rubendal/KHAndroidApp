@@ -1,14 +1,21 @@
 ﻿[
   {
-    "InstanceId": "5968210f46965952fcb50d5a",
-    "Name": "Weight",
+    "InstanceId": "5968210f46965952fcb50d9e",
+    "Name": "AirDeceleration",
     "OwnerId": 8,
     "Owner": "DarkPit",
-    "Value": "96 ",
+    "Values": [
+      {
+        "Value": "0.01",
+        "Owner": "DarkPit",
+        "OwnerId": 8,
+        "Name": "VALUE"
+      }
+    ],
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968210f46965952fcb50d5a",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968210f46965952fcb50d9e",
         "Title": ""
       },
       {
@@ -19,15 +26,22 @@
     ]
   },
   {
-    "InstanceId": "5968210f46965952fcb50d5b",
-    "Name": "Max Jumps",
+    "InstanceId": "5968210f46965952fcb50d9f",
+    "Name": "AirFriction",
     "OwnerId": 8,
     "Owner": "DarkPit",
-    "Value": "4",
+    "Values": [
+      {
+        "Value": "0.015",
+        "Owner": "DarkPit",
+        "OwnerId": 8,
+        "Name": "VALUE"
+      }
+    ],
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968210f46965952fcb50d5b",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968210f46965952fcb50d9f",
         "Title": ""
       },
       {
@@ -38,300 +52,22 @@
     ]
   },
   {
-    "InstanceId": "5968210f46965952fcb50d5c",
-    "Name": "Run Speed",
+    "InstanceId": "5968210f46965952fcb50da0",
+    "Name": "DashLength",
     "OwnerId": 8,
     "Owner": "DarkPit",
-    "Value": "1.66215 ",
-    "Links": [
+    "Values": [
       {
-        "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968210f46965952fcb50d5c",
-        "Title": ""
-      },
-      {
-        "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DarkPit",
-        "Title": ""
+        "Value": "11",
+        "Owner": "DarkPit",
+        "OwnerId": 8,
+        "Name": "LENGTH IN FRAMES"
       }
-    ]
-  },
-  {
-    "InstanceId": "5968210f46965952fcb50d5d",
-    "Name": "Wall Jump",
-    "OwnerId": 8,
-    "Owner": "DarkPit",
-    "Value": "No",
+    ],
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968210f46965952fcb50d5d",
-        "Title": ""
-      },
-      {
-        "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DarkPit",
-        "Title": ""
-      }
-    ]
-  },
-  {
-    "InstanceId": "5968210f46965952fcb50d5e",
-    "Name": "Walk Speed",
-    "OwnerId": 8,
-    "Owner": "DarkPit",
-    "Value": "1.199 ",
-    "Links": [
-      {
-        "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968210f46965952fcb50d5e",
-        "Title": ""
-      },
-      {
-        "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DarkPit",
-        "Title": ""
-      }
-    ]
-  },
-  {
-    "InstanceId": "5968210f46965952fcb50d5f",
-    "Name": "Wall Cling",
-    "OwnerId": 8,
-    "Owner": "DarkPit",
-    "Value": "No",
-    "Links": [
-      {
-        "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968210f46965952fcb50d5f",
-        "Title": ""
-      },
-      {
-        "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DarkPit",
-        "Title": ""
-      }
-    ]
-  },
-  {
-    "InstanceId": "5968210f46965952fcb50d60",
-    "Name": "Air Speed",
-    "OwnerId": 8,
-    "Owner": "DarkPit",
-    "Value": "0.89 ",
-    "Links": [
-      {
-        "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968210f46965952fcb50d60",
-        "Title": ""
-      },
-      {
-        "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DarkPit",
-        "Title": ""
-      }
-    ]
-  },
-  {
-    "InstanceId": "5968210f46965952fcb50d61",
-    "Name": "Crawl",
-    "OwnerId": 8,
-    "Owner": "DarkPit",
-    "Value": "No",
-    "Links": [
-      {
-        "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968210f46965952fcb50d61",
-        "Title": ""
-      },
-      {
-        "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DarkPit",
-        "Title": ""
-      }
-    ]
-  },
-  {
-    "InstanceId": "5968210f46965952fcb50d62",
-    "Name": "Fall Speed",
-    "OwnerId": 8,
-    "Owner": "DarkPit",
-    "Value": "1.48 ",
-    "Links": [
-      {
-        "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968210f46965952fcb50d62",
-        "Title": ""
-      },
-      {
-        "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DarkPit",
-        "Title": ""
-      }
-    ]
-  },
-  {
-    "InstanceId": "5968210f46965952fcb50d63",
-    "Name": "Tether",
-    "OwnerId": 8,
-    "Owner": "DarkPit",
-    "Value": "No",
-    "Links": [
-      {
-        "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968210f46965952fcb50d63",
-        "Title": ""
-      },
-      {
-        "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DarkPit",
-        "Title": ""
-      }
-    ]
-  },
-  {
-    "InstanceId": "5968210f46965952fcb50d64",
-    "Name": "Fast Fall Speed",
-    "OwnerId": 8,
-    "Owner": "DarkPit",
-    "Value": "2.368 ",
-    "Links": [
-      {
-        "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968210f46965952fcb50d64",
-        "Title": ""
-      },
-      {
-        "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DarkPit",
-        "Title": ""
-      }
-    ]
-  },
-  {
-    "InstanceId": "5968210f46965952fcb50d65",
-    "Name": "Jumpsquat",
-    "OwnerId": 8,
-    "Owner": "DarkPit",
-    "Value": "5 frames",
-    "Links": [
-      {
-        "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968210f46965952fcb50d65",
-        "Title": ""
-      },
-      {
-        "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DarkPit",
-        "Title": ""
-      }
-    ]
-  },
-  {
-    "InstanceId": "5968210f46965952fcb50d66",
-    "Name": "Air Acceleration",
-    "OwnerId": 8,
-    "Owner": "DarkPit",
-    "Value": "0.065",
-    "Links": [
-      {
-        "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968210f46965952fcb50d66",
-        "Title": ""
-      },
-      {
-        "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DarkPit",
-        "Title": ""
-      }
-    ]
-  },
-  {
-    "InstanceId": "5968210f46965952fcb50d67",
-    "Name": "Soft Landing Lag",
-    "OwnerId": 8,
-    "Owner": "DarkPit",
-    "Value": "2 frames",
-    "Links": [
-      {
-        "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968210f46965952fcb50d67",
-        "Title": ""
-      },
-      {
-        "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DarkPit",
-        "Title": ""
-      }
-    ]
-  },
-  {
-    "InstanceId": "5968210f46965952fcb50d68",
-    "Name": "Gravity",
-    "OwnerId": 8,
-    "Owner": "DarkPit",
-    "Value": "0.081",
-    "Links": [
-      {
-        "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968210f46965952fcb50d68",
-        "Title": ""
-      },
-      {
-        "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DarkPit",
-        "Title": ""
-      }
-    ]
-  },
-  {
-    "InstanceId": "5968210f46965952fcb50d69",
-    "Name": "Hard Landing Lag",
-    "OwnerId": 8,
-    "Owner": "DarkPit",
-    "Value": "5 frames",
-    "Links": [
-      {
-        "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968210f46965952fcb50d69",
-        "Title": ""
-      },
-      {
-        "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DarkPit",
-        "Title": ""
-      }
-    ]
-  },
-  {
-    "InstanceId": "5968210f46965952fcb50d6a",
-    "Name": "SH Air Time",
-    "OwnerId": 8,
-    "Owner": "DarkPit",
-    "Value": "38 frames",
-    "Links": [
-      {
-        "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968210f46965952fcb50d6a",
-        "Title": ""
-      },
-      {
-        "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DarkPit",
-        "Title": ""
-      }
-    ]
-  },
-  {
-    "InstanceId": "5968210f46965952fcb50d6b",
-    "Name": "FH Air Time",
-    "OwnerId": 8,
-    "Owner": "DarkPit",
-    "Value": "57 frames",
-    "Links": [
-      {
-        "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/5968210f46965952fcb50d6b",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968210f46965952fcb50da0",
         "Title": ""
       },
       {
