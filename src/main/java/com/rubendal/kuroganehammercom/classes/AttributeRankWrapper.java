@@ -4,12 +4,10 @@ import java.io.Serializable;
 import java.util.LinkedList;
 
 public class AttributeRankWrapper implements Serializable {
-    public AttributeList attributeList;
     public LinkedList<String> valueTypes = new LinkedList<>();
     public LinkedList<AttributeRank> attributes = new LinkedList<>();
 
-    public AttributeRankWrapper(AttributeList attributeList, LinkedList<AttributeRank> attributes, LinkedList<String> valueTypes){
-        this.attributeList = attributeList;
+    public AttributeRankWrapper(LinkedList<AttributeRank> attributes, LinkedList<String> valueTypes){
         this.valueTypes = valueTypes;
         this.attributes = attributes;
     }

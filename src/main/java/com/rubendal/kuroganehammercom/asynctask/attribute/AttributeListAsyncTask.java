@@ -9,7 +9,6 @@ import com.rubendal.kuroganehammercom.MainActivity;
 import com.rubendal.kuroganehammercom.adapter.AttributeAdapter;
 import com.rubendal.kuroganehammercom.adapter.CharacterAdapter;
 import com.rubendal.kuroganehammercom.classes.Attribute;
-import com.rubendal.kuroganehammercom.classes.AttributeList;
 import com.rubendal.kuroganehammercom.classes.Character;
 import com.rubendal.kuroganehammercom.fragments.AttributeMainFragment;
 import com.rubendal.kuroganehammercom.fragments.CharacterFragment;
@@ -19,6 +18,8 @@ import org.json.JSONArray;
 
 import java.util.LinkedList;
 
+public class AttributeListAsyncTask{
+/*
 public class AttributeListAsyncTask extends AsyncTask<String, String, LinkedList<AttributeList>> {
 
     private AttributeMainFragment context;
@@ -87,5 +88,5 @@ public class AttributeListAsyncTask extends AsyncTask<String, String, LinkedList
                 }
             });
         }
-    }
+    }*/
 }

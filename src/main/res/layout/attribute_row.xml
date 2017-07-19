@@ -10,10 +10,10 @@
         android:id="@+id/attribute" />
 
     <TextView
-        android:text="Rank"
+        android:text="Type"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/rank" />
+        android:id="@+id/type" />
 
     <TextView
         android:text="Value"

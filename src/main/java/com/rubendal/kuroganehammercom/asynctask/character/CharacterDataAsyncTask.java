@@ -5,8 +5,6 @@ import android.os.AsyncTask;
 import android.util.Log;
 
 import com.rubendal.kuroganehammercom.classes.Attribute;
-import com.rubendal.kuroganehammercom.classes.AttributeList;
-import com.rubendal.kuroganehammercom.classes.AttributeRank;
 import com.rubendal.kuroganehammercom.fragments.CharacterDataFragment;
 import com.rubendal.kuroganehammercom.MainActivity;
 import com.rubendal.kuroganehammercom.classes.CharacterData;
@@ -98,24 +96,24 @@ public class CharacterDataAsyncTask extends AsyncTask<String, String, CharacterD
                 }
             }
 
-            json = Storage.read(String.valueOf(character.id),"attributes.json",context.getActivity());
+            json = Storage.read(String.valueOf(character.id),"movements.json",context.getActivity());
             LinkedList<Movement> movements = new LinkedList<>();
             jsonArray = new JSONArray(json);
             for(int i=0;i<jsonArray.length();i++){
                 movements.add(Movement.fromJson(jsonArray.getJSONObject(i)));
             }
 
-            LinkedList<AttributeList> attributes = new LinkedList<>();
-            json = Storage.read(String.valueOf(character.id), "smashAttributes.json", context.getActivity());
+            LinkedList<Attribute> attributes = new LinkedList<>();
+            json = Storage.read(String.valueOf(character.id), "attributes.json", context.getActivity());
             jsonArray = new JSONArray(json);
             for (int i = 0; i < jsonArray.length(); i++) {
-                AttributeList a = AttributeList.getFromJson(context.getActivity(), jsonArray.getJSONObject(i));
+                Attribute a = Attribute.getFromJson(context.getActivity(), jsonArray.getJSONObject(i));
                 attributes.add(a);
             }
 
             return new CharacterData(character, movements, list, attributes);
         } catch (Exception e) {
-            Log.d("nedfvnjf",e.getMessage());
+            Log.d("error",e.getMessage());
         }
         return null;
     }

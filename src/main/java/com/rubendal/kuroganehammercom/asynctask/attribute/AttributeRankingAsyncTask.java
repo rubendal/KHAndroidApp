@@ -6,7 +6,6 @@ import android.util.Log;
 
 import com.rubendal.kuroganehammercom.MainActivity;
 import com.rubendal.kuroganehammercom.classes.Attribute;
-import com.rubendal.kuroganehammercom.classes.AttributeList;
 import com.rubendal.kuroganehammercom.classes.AttributeRank;
 import com.rubendal.kuroganehammercom.classes.AttributeRankWrapper;
 import com.rubendal.kuroganehammercom.classes.Character;
@@ -25,19 +24,19 @@ public class AttributeRankingAsyncTask extends AsyncTask<String, String, Attribu
     private KHFragment context;
     private ProgressDialog dialog;
     private String title;
-    private AttributeList attribute;
+    private Attribute attribute;
     private LinkedList<Character> characters = new LinkedList<>();
 
     private boolean replace = false;
 
-    public AttributeRankingAsyncTask(KHFragment context, AttributeList attribute) {
+    public AttributeRankingAsyncTask(KHFragment context, Attribute attribute) {
         this.context = context;
         this.attribute = attribute;
         this.title = null;
         this.dialog = null;
     }
 
-    public AttributeRankingAsyncTask(KHFragment context, AttributeList attribute, boolean replace) {
+    public AttributeRankingAsyncTask(KHFragment context, Attribute attribute, boolean replace) {
         this.context = context;
         this.attribute = attribute;
         this.replace = replace;
@@ -45,7 +44,7 @@ public class AttributeRankingAsyncTask extends AsyncTask<String, String, Attribu
         this.dialog = null;
     }
 
-    public AttributeRankingAsyncTask(KHFragment context, AttributeList attribute, boolean replace, String title) {
+    public AttributeRankingAsyncTask(KHFragment context, Attribute attribute, boolean replace, String title) {
         this(context, attribute, replace);
         this.title = title;
         this.dialog = new ProgressDialog(context.getActivity());
@@ -105,7 +104,7 @@ public class AttributeRankingAsyncTask extends AsyncTask<String, String, Attribu
             Collections.sort(list, AttributeRank.getComparator());
 
 
-            return new AttributeRankWrapper(attribute, list, types);
+            return new AttributeRankWrapper(list, types);
         } catch (Exception e) {
 
         }
@@ -118,6 +117,7 @@ public class AttributeRankingAsyncTask extends AsyncTask<String, String, Attribu
         if (dialog != null) {
             dialog.dismiss();
         }
+        /*
         try {
             if (replace) {
                 ((MainActivity) context.getActivity()).replaceFragment(AttributeRankingFragment.newInstance(s));
@@ -127,5 +127,6 @@ public class AttributeRankingAsyncTask extends AsyncTask<String, String, Attribu
         }catch(Exception e){
             //The user pressed back while fragment asynctask is being executed and makes the app crash, that's why here is a try catch lol
         }
+        */
     }
 }

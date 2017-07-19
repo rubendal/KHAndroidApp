@@ -57,8 +57,8 @@ public class AttributeMainFragment extends NavigationFragment {
 
         grid.setNumColumns(width / x);
 
-        AttributeListAsyncTask a = new AttributeListAsyncTask(this, x);
-        a.execute();
+        /*AttributeListAsyncTask a = new AttributeListAsyncTask(this, x);
+        a.execute();*/
     }
 
     @Override

@@ -13,16 +13,17 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.rubendal.kuroganehammercom.R;
-import com.rubendal.kuroganehammercom.classes.Attribute;
-import com.rubendal.kuroganehammercom.classes.AttributeList;
-import com.rubendal.kuroganehammercom.classes.Character;
+
+import com.rubendal.kuroganehammercom.classes.*;
 
 import java.util.LinkedList;
 import java.util.List;
 
-public class AttributeAdapter extends BaseAdapter {
+//Removed due to ranking removal
+public class AttributeAdapter{
+//public class AttributeAdapter extends BaseAdapter {
 
-    private Context context;
+    /*private Context context;
     private List<AttributeList> list;
     private int x;
 
@@ -117,4 +118,5 @@ public class AttributeAdapter extends BaseAdapter {
 
         return convertView;
     }
+    */
 }

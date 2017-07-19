@@ -21,7 +21,7 @@ import java.util.LinkedList;
 public class Storage {
 
     //Initial storage assets version, will change when new assets that are stored in internal storage are added
-    private static final String STORAGE_DATA_VERSION = "1";
+    private static final String STORAGE_DATA_VERSION = "0";
 
     //Write file in internal storage
     public static void write (String directory, String filename, Context context, String string) throws IOException {
@@ -67,11 +67,16 @@ public class Storage {
         }else{
             try{
                 String ver = read("init","temp.bin",context);
-                if(!ver.trim().equals(STORAGE_DATA_VERSION)){
+                if(STORAGE_DATA_VERSION.equals("0")){
+                    //Debug, restart storage always when set to zero
                     writeInitialData(context);
+                }else {
+                    if (!ver.trim().equals(STORAGE_DATA_VERSION)) {
+                        writeInitialData(context);
+                    }
                 }
             }catch(Exception e){
-
+                System.out.println("Error initializing storage: " + e.getMessage());
             }
         }
 
@@ -94,8 +99,8 @@ public class Storage {
             write("data","formulas.json",context,json);
             //json = Assets.getAsset(assets, "Data/smashAttributes.json");
             //write("data","smashAttributes.json",context,json);
-            json = Assets.getAsset(assets, "Data/attributes.json");
-            write("data","attributes.json",context,json);
+            json = Assets.getAsset(assets, "Data/attributeNames.json");
+            write("data","attributeNames.json",context,json);
             for(Character c : list){
                 json = Assets.getAsset(assets, "Data/" + c.id + "/moves.json");
                 write(String.valueOf(c.id),"moves.json",context,json);
@@ -103,18 +108,18 @@ public class Storage {
                 //write(String.valueOf(c.id),"throws.json",context,json);
                 json = Assets.getAsset(assets, "Data/" + c.id + "/attributes.json");
                 write(String.valueOf(c.id),"attributes.json",context,json);
-                json = Assets.getAsset(assets, "Data/" + c.id + "/smashAttributes.json");
-                write(String.valueOf(c.id),"smashAttributes.json",context,json);
+                json = Assets.getAsset(assets, "Data/" + c.id + "/movements.json");
+                write(String.valueOf(c.id),"movements.json",context,json);
                 try{
                     json = Assets.getAsset(assets, "Data/" + c.id + "/specificAttributes.json");
                     write(String.valueOf(c.id),"specificAttributes.json",context,json);
                 }catch(Exception ei){
-
+                    System.out.println("Error initializing storage: " + ei.getMessage());
                 }
             }
             write("init","temp.bin",context,STORAGE_DATA_VERSION);
         } catch (Exception e) {
-
+            System.out.println("Error initializing storage: " + e.getMessage());
         }
     }
 }

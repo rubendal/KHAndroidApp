@@ -14,7 +14,6 @@ import android.widget.TextView;
 import com.rubendal.kuroganehammercom.R;
 import com.rubendal.kuroganehammercom.asynctask.character.AttributeAsyncTask;
 import com.rubendal.kuroganehammercom.classes.Attribute;
-import com.rubendal.kuroganehammercom.classes.AttributeList;
 import com.rubendal.kuroganehammercom.classes.Character;
 import com.rubendal.kuroganehammercom.util.params.Params;
 
@@ -23,7 +22,7 @@ import java.util.LinkedList;
 public class AttributeFragment extends KHFragment {
 
     private Character character;
-    private LinkedList<AttributeList> attributes;
+    private LinkedList<Attribute> attributes;
 
     public AttributeFragment() {
 
@@ -37,7 +36,7 @@ public class AttributeFragment extends KHFragment {
 
     @Override
     public String getTitle() {
-        return String.format("%s/%s",character.getCharacterTitleName(), "Attributes Ranking");
+        return String.format("%s/%s",character.getCharacterTitleName(), "Attributes");
     }
 
     @Override
@@ -45,11 +44,11 @@ public class AttributeFragment extends KHFragment {
         super.onCreate(savedInstanceState);
         if(getArguments() != null){
             this.character = (Character)getArguments().getSerializable("character");
-            this.attributes = (LinkedList<AttributeList>)getArguments().getSerializable("attributes");
+            this.attributes = (LinkedList<Attribute>)getArguments().getSerializable("attributes");
         }
     }
 
-    public static AttributeFragment newInstance(Character character, LinkedList<AttributeList> attributes){
+    public static AttributeFragment newInstance(Character character, LinkedList<Attribute> attributes){
         AttributeFragment fragment = new AttributeFragment();
         Bundle args = new Bundle();
         args.putSerializable("character", character);
@@ -91,10 +90,14 @@ public class AttributeFragment extends KHFragment {
 
         int o = 0;
 
-        for(AttributeList a : attributes){
+        for(Attribute a : attributes){
             if(a!=null){
-                o++;
-                layout.addView(a.asRow(this.getActivity(),o % 2 == 1));
+                LinkedList<TableRow> rows = a.asRow(this.getContext(), o);
+                for(TableRow row : rows){
+                    layout.addView(row);
+                    o++;
+                }
+
             }
         }
     }

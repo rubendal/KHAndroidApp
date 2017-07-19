@@ -16,6 +16,8 @@ import com.rubendal.kuroganehammercom.classes.AttributeRank;
 import com.rubendal.kuroganehammercom.classes.AttributeRankWrapper;
 import com.rubendal.kuroganehammercom.util.params.Params;
 
+public class AttributeRankingFragment {
+/*
 public class AttributeRankingFragment extends KHFragment {
 
     private AttributeRankWrapper attribute;
@@ -27,7 +29,7 @@ public class AttributeRankingFragment extends KHFragment {
     @Override
     public void updateData() {
         /*AttributeRankingAsyncTask a = new AttributeRankingAsyncTask(this, attribute.attributeList, true);
-        a.execute();*/
+        a.execute();
     }
 
     @Override
@@ -92,6 +94,6 @@ public class AttributeRankingFragment extends KHFragment {
                 layout.addView(a.asRow(this.getActivity(),attribute.valueTypes, attribute.attributeList.name, o % 2 == 1));
             }
         }
-    }
+    }*/
 
 }

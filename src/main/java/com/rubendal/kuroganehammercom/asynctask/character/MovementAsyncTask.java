@@ -58,7 +58,7 @@ public class MovementAsyncTask extends AsyncTask<String, String, LinkedList<Move
     @Override
     protected LinkedList<Movement> doInBackground(String... params) {
         try {
-            String json = Storage.read(String.valueOf(character.id),"attributes.json",context.getActivity());
+            String json = Storage.read(String.valueOf(character.id),"movements.json",context.getActivity());
             LinkedList<Movement> list = new LinkedList<>();
             JSONArray jsonArray = new JSONArray(json);
             for(int i=0;i<jsonArray.length();i++){

@@ -18,24 +18,23 @@ import java.util.LinkedList;
 public class AttributeRank implements Serializable {
 
     public Character character;
-    public int id, frank, attributeId;
-    public String name, rank;
+    public int id, rank;
+    public String name, attribute;
     public HashMap<String, String> values = new HashMap<>();
 
-    public AttributeRank(int id, int attributeId, String name, Character character, String rank){
+    public AttributeRank(int id, String attribute, String name, Character character){
         this.id = id;
-        this.attributeId = attributeId;
+        this.attribute = attribute;
         this.name = name;
         this.character = character;
-        this.rank = rank;
-        this.frank = Integer.parseInt(rank.split("-")[0]);
+        this.rank = -1;
     }
 
     public void add(String type, String value){
         values.put(type, value);
     }
 
-    public TableRow asRow(Context context, LinkedList<String> types, String attributeName, boolean odd){
+    public TableRow asRow(Context context, LinkedList<String> types, boolean odd){
         LayoutInflater vi = (LayoutInflater)context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         View v = vi.inflate(R.layout.attribute_ranking_row, null);
         TableRow tableRow = (TableRow)v.findViewById(R.id.row);
@@ -55,8 +54,8 @@ public class AttributeRank implements Serializable {
             tableRow.addView(valueView);
         }
 
-        rankView.setText(rank);
-        if(attributeName.equals("GRAVITY")){
+        rankView.setText(String.valueOf(rank));
+        if(attribute.equals("Gravity")){
             String name = character.name;
             switch (name){
                 case "Marth":
@@ -68,19 +67,26 @@ public class AttributeRank implements Serializable {
                 default:
                     characterView.setText(character.name);
             }
-        }else {
-            if(attributeName.equals("RUNSPEED")){
-                String name = character.name;
-                switch (name){
-                    case "Ness":
-                        characterView.setText("Ebola Back Throw");
-                        break;
-                    default:
-                        characterView.setText(character.name);
-                }
-            }else {
-                characterView.setText(character.name);
+        }else if(attribute.equals("RunSpeed")) {
+            String name = character.name;
+            switch (name){
+                case "Ness":
+                    characterView.setText("Ebola Back Throw");
+                    break;
+                default:
+                    characterView.setText(character.name);
             }
+        }else if(attribute.equals("Gravity")) {
+            String name = character.name;
+            switch (name){
+                case "Mii Swordfighter":
+                    characterView.setText("Mii Swordspider");
+                    break;
+                default:
+                    characterView.setText(character.name);
+            }
+        }else {
+            characterView.setText(character.name);
         }
 
         characterView.setPadding(padding,padding,padding,padding);
@@ -102,10 +108,10 @@ public class AttributeRank implements Serializable {
         Comparator<AttributeRank> comparator = new Comparator<AttributeRank>() {
             @Override
             public int compare(AttributeRank a, AttributeRank b) {
-                if(a.frank < b.frank){
+                if(a.rank < b.rank){
                     return -1;
                 }
-                if(a.frank > b.frank){
+                if(a.rank > b.rank){
                     return 1;
                 }
                 return 0;
@@ -118,7 +124,7 @@ public class AttributeRank implements Serializable {
     public boolean equals(Object o) {
         if(o instanceof AttributeRank){
             AttributeRank or = (AttributeRank)o;
-            if(or.character.id == character.id && or.attributeId == attributeId){
+            if(or.character.id == character.id && or.attribute.equals(attribute)){
                 return true;
             }
         }

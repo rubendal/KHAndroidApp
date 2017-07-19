@@ -4,7 +4,6 @@ import android.app.ProgressDialog;
 import android.os.AsyncTask;
 
 import com.rubendal.kuroganehammercom.MainActivity;
-import com.rubendal.kuroganehammercom.classes.AttributeList;
 import com.rubendal.kuroganehammercom.fragments.AttributeFragment;
 import com.rubendal.kuroganehammercom.fragments.KHFragment;
 import com.rubendal.kuroganehammercom.util.Storage;
@@ -16,7 +15,7 @@ import org.json.JSONArray;
 import java.util.LinkedList;
 
 
-public class AttributeAsyncTask extends AsyncTask<String, String, LinkedList<AttributeList>> {
+public class AttributeAsyncTask extends AsyncTask<String, String, LinkedList<Attribute>> {
 
     private KHFragment context;
     private ProgressDialog dialog;
@@ -57,13 +56,13 @@ public class AttributeAsyncTask extends AsyncTask<String, String, LinkedList<Att
     }
 
     @Override
-    protected LinkedList<AttributeList> doInBackground(String... params) {
+    protected LinkedList<Attribute> doInBackground(String... params) {
         try {
-            String json = Storage.read(String.valueOf(character.id),"smashAttributes.json",context.getActivity());
-            LinkedList<AttributeList> list = new LinkedList<>();
+            String json = Storage.read(String.valueOf(character.id),"attributes.json",context.getActivity());
+            LinkedList<Attribute> list = new LinkedList<>();
             JSONArray jsonArray = new JSONArray(json);
             for(int i=0;i<jsonArray.length();i++){
-                list.add(AttributeList.getFromJson(context.getActivity(), jsonArray.getJSONObject(i)));
+                list.add(Attribute.getFromJson(context.getActivity(), jsonArray.getJSONObject(i)));
             }
             return list;
         } catch (Exception e) {
@@ -73,7 +72,7 @@ public class AttributeAsyncTask extends AsyncTask<String, String, LinkedList<Att
     }
 
     @Override
-    protected void onPostExecute(LinkedList<AttributeList> s) {
+    protected void onPostExecute(LinkedList<Attribute> s) {
         super.onPostExecute(s);
         if(dialog!=null){
             dialog.dismiss();
