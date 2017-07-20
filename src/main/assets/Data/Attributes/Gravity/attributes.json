@@ -1,6 +1,6 @@
 ﻿[
   {
-    "InstanceId": "596820f946965952fcb50b31",
+    "InstanceId": "5970244746965900ac9f997e",
     "Name": "Gravity",
     "OwnerId": 1,
     "Owner": "Bayonetta",
@@ -15,18 +15,16 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/596820f946965952fcb50b31",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5970244746965900ac9f997e"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Bayonetta",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Bayonetta"
       }
     ]
   },
   {
-    "InstanceId": "596820fd46965952fcb50b86",
+    "InstanceId": "5970244946965900ac9f99d3",
     "Name": "Gravity",
     "OwnerId": 2,
     "Owner": "Bowser",
@@ -41,18 +39,16 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/596820fd46965952fcb50b86",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5970244946965900ac9f99d3"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Bowser",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Bowser"
       }
     ]
   },
   {
-    "InstanceId": "5968210146965952fcb50be0",
+    "InstanceId": "5970244d46965900ac9f9a2d",
     "Name": "Gravity",
     "OwnerId": 3,
     "Owner": "BowserJr",
@@ -67,18 +63,40 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968210146965952fcb50be0",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5970244d46965900ac9f9a2d"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/BowserJr",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/BowserJr"
       }
     ]
   },
   {
-    "InstanceId": "5968210646965952fcb50c7b",
+    "InstanceId": "5970244f46965900ac9f9a89",
+    "Name": "Gravity",
+    "OwnerId": 4,
+    "Owner": "CaptainFalcon",
+    "Values": [
+      {
+        "Value": "0.12",
+        "Owner": "CaptainFalcon",
+        "OwnerId": 4,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5970244f46965900ac9f9a89"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/CaptainFalcon"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5970245246965900ac9f9ad5",
     "Name": "Gravity",
     "OwnerId": 5,
     "Owner": "Charizard",
@@ -93,18 +111,16 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968210646965952fcb50c7b",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5970245246965900ac9f9ad5"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Charizard",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Charizard"
       }
     ]
   },
   {
-    "InstanceId": "5968210a46965952fcb50ce8",
+    "InstanceId": "5970245546965900ac9f9b42",
     "Name": "Gravity",
     "OwnerId": 6,
     "Owner": "Cloud",
@@ -119,18 +135,16 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968210a46965952fcb50ce8",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5970245546965900ac9f9b42"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud"
       }
     ]
   },
   {
-    "InstanceId": "5968210d46965952fcb50d50",
+    "InstanceId": "5970245746965900ac9f9baa",
     "Name": "Gravity",
     "OwnerId": 7,
     "Owner": "Corrin",
@@ -145,18 +159,112 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968210d46965952fcb50d50",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5970245746965900ac9f9baa"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Corrin",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Corrin"
       }
     ]
   },
   {
-    "InstanceId": "5968211b46965952fcb50ec5",
+    "InstanceId": "5970245a46965900ac9f9bff",
+    "Name": "Gravity",
+    "OwnerId": 8,
+    "Owner": "DarkPit",
+    "Values": [
+      {
+        "Value": "0.081",
+        "Owner": "DarkPit",
+        "OwnerId": 8,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5970245a46965900ac9f9bff"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DarkPit"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5970245d46965900ac9f9c54",
+    "Name": "Gravity",
+    "OwnerId": 9,
+    "Owner": "DiddyKong",
+    "Values": [
+      {
+        "Value": "0.105",
+        "Owner": "DiddyKong",
+        "OwnerId": 9,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5970245d46965900ac9f9c54"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DiddyKong"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5970245f46965900ac9f9cae",
+    "Name": "Gravity",
+    "OwnerId": 10,
+    "Owner": "DonkeyKong",
+    "Values": [
+      {
+        "Value": "0.08505",
+        "Owner": "DonkeyKong",
+        "OwnerId": 10,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5970245f46965900ac9f9cae"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DonkeyKong"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5970246246965900ac9f9cff",
+    "Name": "Gravity",
+    "OwnerId": 11,
+    "Owner": "DrMario",
+    "Values": [
+      {
+        "Value": "0.08715",
+        "Owner": "DrMario",
+        "OwnerId": 11,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5970246246965900ac9f9cff"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DrMario"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5970246546965900ac9f9d57",
     "Name": "Gravity",
     "OwnerId": 12,
     "Owner": "DuckHunt",
@@ -171,18 +279,16 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968211b46965952fcb50ec5",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5970246546965900ac9f9d57"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DuckHunt",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DuckHunt"
       }
     ]
   },
   {
-    "InstanceId": "5968211e46965952fcb50f11",
+    "InstanceId": "5970246846965900ac9f9daa",
     "Name": "Gravity",
     "OwnerId": 13,
     "Owner": "Falco",
@@ -197,18 +303,16 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968211e46965952fcb50f11",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5970246846965900ac9f9daa"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Falco",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Falco"
       }
     ]
   },
   {
-    "InstanceId": "5968212046965952fcb50f67",
+    "InstanceId": "5970246b46965900ac9f9e00",
     "Name": "Gravity",
     "OwnerId": 14,
     "Owner": "Fox",
@@ -223,18 +327,16 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968212046965952fcb50f67",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5970246b46965900ac9f9e00"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Fox",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Fox"
       }
     ]
   },
   {
-    "InstanceId": "5968212346965952fcb50fba",
+    "InstanceId": "5970246d46965900ac9f9e53",
     "Name": "Gravity",
     "OwnerId": 15,
     "Owner": "Ganondorf",
@@ -249,18 +351,16 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968212346965952fcb50fba",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5970246d46965900ac9f9e53"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ganondorf",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ganondorf"
       }
     ]
   },
   {
-    "InstanceId": "5968212746965952fcb51010",
+    "InstanceId": "5970247046965900ac9f9ea9",
     "Name": "Gravity",
     "OwnerId": 16,
     "Owner": "Greninja",
@@ -275,18 +375,16 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968212746965952fcb51010",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5970247046965900ac9f9ea9"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Greninja",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Greninja"
       }
     ]
   },
   {
-    "InstanceId": "5968212946965952fcb51067",
+    "InstanceId": "5970247246965900ac9f9f00",
     "Name": "Gravity",
     "OwnerId": 17,
     "Owner": "Ike",
@@ -301,18 +399,16 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968212946965952fcb51067",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5970247246965900ac9f9f00"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ike",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ike"
       }
     ]
   },
   {
-    "InstanceId": "5968212c46965952fcb510af",
+    "InstanceId": "5970247546965900ac9f9f48",
     "Name": "Gravity",
     "OwnerId": 18,
     "Owner": "Jigglypuff",
@@ -327,18 +423,40 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968212c46965952fcb510af",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5970247546965900ac9f9f48"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Jigglypuff",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Jigglypuff"
       }
     ]
   },
   {
-    "InstanceId": "5968213146965952fcb5115f",
+    "InstanceId": "5970247746965900ac9f9f9e",
+    "Name": "Gravity",
+    "OwnerId": 19,
+    "Owner": "KingDedede",
+    "Values": [
+      {
+        "Value": "0.08788",
+        "Owner": "KingDedede",
+        "OwnerId": 19,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5970247746965900ac9f9f9e"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/KingDedede"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5970247a46965900ac9f9ffc",
     "Name": "Gravity",
     "OwnerId": 20,
     "Owner": "Kirby",
@@ -353,18 +471,16 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968213146965952fcb5115f",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5970247a46965900ac9f9ffc"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Kirby",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Kirby"
       }
     ]
   },
   {
-    "InstanceId": "5968213446965952fcb511be",
+    "InstanceId": "5970247c46965900ac9fa05b",
     "Name": "Gravity",
     "OwnerId": 21,
     "Owner": "Link",
@@ -379,18 +495,16 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968213446965952fcb511be",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5970247c46965900ac9fa05b"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Link",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Link"
       }
     ]
   },
   {
-    "InstanceId": "5968213746965952fcb51219",
+    "InstanceId": "5970247f46965900ac9fa0b6",
     "Name": "Gravity",
     "OwnerId": 22,
     "Owner": "LittleMac",
@@ -405,18 +519,16 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968213746965952fcb51219",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5970247f46965900ac9fa0b6"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/LittleMac",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/LittleMac"
       }
     ]
   },
   {
-    "InstanceId": "5968213946965952fcb51269",
+    "InstanceId": "5970248246965900ac9fa106",
     "Name": "Gravity",
     "OwnerId": 23,
     "Owner": "Lucario",
@@ -431,18 +543,16 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968213946965952fcb51269",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5970248246965900ac9fa106"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucario",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucario"
       }
     ]
   },
   {
-    "InstanceId": "5968213c46965952fcb512be",
+    "InstanceId": "5970248546965900ac9fa15b",
     "Name": "Gravity",
     "OwnerId": 24,
     "Owner": "Lucas",
@@ -457,18 +567,16 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968213c46965952fcb512be",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5970248546965900ac9fa15b"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucas",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucas"
       }
     ]
   },
   {
-    "InstanceId": "5968213f46965952fcb51312",
+    "InstanceId": "5970248746965900ac9fa1af",
     "Name": "Gravity",
     "OwnerId": 25,
     "Owner": "Lucina",
@@ -483,18 +591,16 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968213f46965952fcb51312",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5970248746965900ac9fa1af"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucina",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucina"
       }
     ]
   },
   {
-    "InstanceId": "5968214246965952fcb51364",
+    "InstanceId": "5970248a46965900ac9fa201",
     "Name": "Gravity",
     "OwnerId": 26,
     "Owner": "Luigi",
@@ -509,18 +615,16 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968214246965952fcb51364",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5970248a46965900ac9fa201"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Luigi",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Luigi"
       }
     ]
   },
   {
-    "InstanceId": "5968214446965952fcb513b5",
+    "InstanceId": "5970248c46965900ac9fa252",
     "Name": "Gravity",
     "OwnerId": 27,
     "Owner": "Mario",
@@ -535,18 +639,16 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968214446965952fcb513b5",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5970248c46965900ac9fa252"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Mario",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Mario"
       }
     ]
   },
   {
-    "InstanceId": "5968214846965952fcb51409",
+    "InstanceId": "5970248f46965900ac9fa2a6",
     "Name": "Gravity",
     "OwnerId": 28,
     "Owner": "Marth",
@@ -561,18 +663,40 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968214846965952fcb51409",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5970248f46965900ac9fa2a6"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Marth",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Marth"
       }
     ]
   },
   {
-    "InstanceId": "5968214d46965952fcb514c1",
+    "InstanceId": "5970249246965900ac9fa317",
+    "Name": "Gravity",
+    "OwnerId": 29,
+    "Owner": "MegaMan",
+    "Values": [
+      {
+        "Value": "0.1071",
+        "Owner": "MegaMan",
+        "OwnerId": 29,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5970249246965900ac9fa317"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MegaMan"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5970249446965900ac9fa36a",
     "Name": "Gravity",
     "OwnerId": 30,
     "Owner": "MetaKnight",
@@ -587,18 +711,16 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968214d46965952fcb514c1",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5970249446965900ac9fa36a"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MetaKnight",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MetaKnight"
       }
     ]
   },
   {
-    "InstanceId": "5968215046965952fcb5150a",
+    "InstanceId": "5970249746965900ac9fa3b3",
     "Name": "Gravity",
     "OwnerId": 31,
     "Owner": "Mewtwo",
@@ -613,18 +735,112 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968215046965952fcb5150a",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5970249746965900ac9fa3b3"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Mewtwo",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Mewtwo"
       }
     ]
   },
   {
-    "InstanceId": "5968215e46965952fcb516d4",
+    "InstanceId": "5970249a46965900ac9fa429",
+    "Name": "Gravity",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "Values": [
+      {
+        "Value": "0.096",
+        "Owner": "MiiSwordfighter",
+        "OwnerId": 34,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5970249a46965900ac9fa429"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5970249c46965900ac9fa4a0",
+    "Name": "Gravity",
+    "OwnerId": 32,
+    "Owner": "MiiBrawler",
+    "Values": [
+      {
+        "Value": "0.1",
+        "Owner": "MiiBrawler",
+        "OwnerId": 32,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5970249c46965900ac9fa4a0"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiBrawler"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5970249f46965900ac9fa4fe",
+    "Name": "Gravity",
+    "OwnerId": 33,
+    "Owner": "MiiGunner",
+    "Values": [
+      {
+        "Value": "0.08715",
+        "Owner": "MiiGunner",
+        "OwnerId": 33,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5970249f46965900ac9fa4fe"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiGunner"
+      }
+    ]
+  },
+  {
+    "InstanceId": "597024a246965900ac9fa557",
+    "Name": "Gravity",
+    "OwnerId": 35,
+    "Owner": "MrGameWatch",
+    "Values": [
+      {
+        "Value": "0.08",
+        "Owner": "MrGameWatch",
+        "OwnerId": 35,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597024a246965900ac9fa557"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MrGameWatch"
+      }
+    ]
+  },
+  {
+    "InstanceId": "597024a446965900ac9fa5aa",
     "Name": "Gravity",
     "OwnerId": 36,
     "Owner": "Ness",
@@ -639,18 +855,16 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968215e46965952fcb516d4",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597024a446965900ac9fa5aa"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ness",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ness"
       }
     ]
   },
   {
-    "InstanceId": "5968216046965952fcb51722",
+    "InstanceId": "597024a746965900ac9fa5f8",
     "Name": "Gravity",
     "OwnerId": 37,
     "Owner": "Olimar",
@@ -665,18 +879,16 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968216046965952fcb51722",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597024a746965900ac9fa5f8"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Olimar",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Olimar"
       }
     ]
   },
   {
-    "InstanceId": "5968216346965952fcb5177e",
+    "InstanceId": "597024a946965900ac9fa654",
     "Name": "Gravity",
     "OwnerId": 38,
     "Owner": "PAC-MAN",
@@ -691,18 +903,16 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968216346965952fcb5177e",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597024a946965900ac9fa654"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/PAC-MAN",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/PAC-MAN"
       }
     ]
   },
   {
-    "InstanceId": "5968216646965952fcb517cb",
+    "InstanceId": "597024ac46965900ac9fa6a1",
     "Name": "Gravity",
     "OwnerId": 39,
     "Owner": "Palutena",
@@ -717,18 +927,16 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968216646965952fcb517cb",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597024ac46965900ac9fa6a1"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Palutena",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Palutena"
       }
     ]
   },
   {
-    "InstanceId": "5968216846965952fcb51822",
+    "InstanceId": "597024af46965900ac9fa6f8",
     "Name": "Gravity",
     "OwnerId": 40,
     "Owner": "Peach",
@@ -743,18 +951,16 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968216846965952fcb51822",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597024af46965900ac9fa6f8"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Peach",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Peach"
       }
     ]
   },
   {
-    "InstanceId": "5968216b46965952fcb51875",
+    "InstanceId": "597024b146965900ac9fa74b",
     "Name": "Gravity",
     "OwnerId": 41,
     "Owner": "Pikachu",
@@ -769,18 +975,16 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968216b46965952fcb51875",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597024b146965900ac9fa74b"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Pikachu",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Pikachu"
       }
     ]
   },
   {
-    "InstanceId": "5968216e46965952fcb518ca",
+    "InstanceId": "597024b446965900ac9fa7a0",
     "Name": "Gravity",
     "OwnerId": 42,
     "Owner": "Pit",
@@ -795,18 +999,16 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968216e46965952fcb518ca",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597024b446965900ac9fa7a0"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Pit",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Pit"
       }
     ]
   },
   {
-    "InstanceId": "5968217146965952fcb51918",
+    "InstanceId": "597024b746965900ac9fa7ee",
     "Name": "Gravity",
     "OwnerId": 43,
     "Owner": "Rob",
@@ -821,18 +1023,16 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968217146965952fcb51918",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597024b746965900ac9fa7ee"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Rob",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Rob"
       }
     ]
   },
   {
-    "InstanceId": "5968217346965952fcb5197f",
+    "InstanceId": "597024ba46965900ac9fa855",
     "Name": "Gravity",
     "OwnerId": 44,
     "Owner": "Robin",
@@ -847,18 +1047,16 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968217346965952fcb5197f",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597024ba46965900ac9fa855"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Robin",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Robin"
       }
     ]
   },
   {
-    "InstanceId": "5968217646965952fcb519e3",
+    "InstanceId": "597024bd46965900ac9fa8b9",
     "Name": "Gravity",
     "OwnerId": 45,
     "Owner": "RosalinaLuma",
@@ -873,18 +1071,16 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968217646965952fcb519e3",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597024bd46965900ac9fa8b9"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/RosalinaLuma",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/RosalinaLuma"
       }
     ]
   },
   {
-    "InstanceId": "5968217946965952fcb51a3c",
+    "InstanceId": "597024c046965900ac9fa912",
     "Name": "Gravity",
     "OwnerId": 46,
     "Owner": "Roy",
@@ -899,18 +1095,16 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968217946965952fcb51a3c",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597024c046965900ac9fa912"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Roy",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Roy"
       }
     ]
   },
   {
-    "InstanceId": "5968217b46965952fcb51aa1",
+    "InstanceId": "597024c246965900ac9fa977",
     "Name": "Gravity",
     "OwnerId": 47,
     "Owner": "Ryu",
@@ -925,18 +1119,16 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968217b46965952fcb51aa1",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597024c246965900ac9fa977"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ryu",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ryu"
       }
     ]
   },
   {
-    "InstanceId": "5968217e46965952fcb51b01",
+    "InstanceId": "597024c546965900ac9fa9d7",
     "Name": "Gravity",
     "OwnerId": 48,
     "Owner": "Samus",
@@ -951,18 +1143,16 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968217e46965952fcb51b01",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597024c546965900ac9fa9d7"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Samus",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Samus"
       }
     ]
   },
   {
-    "InstanceId": "5968218146965952fcb51b55",
+    "InstanceId": "597024c846965900ac9faa2b",
     "Name": "Gravity",
     "OwnerId": 49,
     "Owner": "Sheik",
@@ -977,18 +1167,16 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968218146965952fcb51b55",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597024c846965900ac9faa2b"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sheik",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sheik"
       }
     ]
   },
   {
-    "InstanceId": "5968218346965952fcb51bb4",
+    "InstanceId": "597024cb46965900ac9faa8a",
     "Name": "Gravity",
     "OwnerId": 50,
     "Owner": "Shulk",
@@ -1003,18 +1191,16 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968218346965952fcb51bb4",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597024cb46965900ac9faa8a"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Shulk",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Shulk"
       }
     ]
   },
   {
-    "InstanceId": "5968218646965952fcb51c05",
+    "InstanceId": "597024cd46965900ac9faadb",
     "Name": "Gravity",
     "OwnerId": 51,
     "Owner": "Sonic",
@@ -1029,18 +1215,40 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968218646965952fcb51c05",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597024cd46965900ac9faadb"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sonic",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sonic"
       }
     ]
   },
   {
-    "InstanceId": "5968218b46965952fcb51cae",
+    "InstanceId": "597024d046965900ac9fab30",
+    "Name": "Gravity",
+    "OwnerId": 52,
+    "Owner": "ToonLink",
+    "Values": [
+      {
+        "Value": "0.079",
+        "Owner": "ToonLink",
+        "OwnerId": 52,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597024d046965900ac9fab30"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/ToonLink"
+      }
+    ]
+  },
+  {
+    "InstanceId": "597024d246965900ac9fab91",
     "Name": "Gravity",
     "OwnerId": 53,
     "Owner": "Villager",
@@ -1055,18 +1263,16 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968218b46965952fcb51cae",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597024d246965900ac9fab91"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
       }
     ]
   },
   {
-    "InstanceId": "5968218e46965952fcb51d00",
+    "InstanceId": "597024d546965900ac9fabe3",
     "Name": "Gravity",
     "OwnerId": 54,
     "Owner": "Wario",
@@ -1081,18 +1287,40 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968218e46965952fcb51d00",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597024d546965900ac9fabe3"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Wario",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Wario"
       }
     ]
   },
   {
-    "InstanceId": "5968219346965952fcb51d92",
+    "InstanceId": "597024d746965900ac9fac33",
+    "Name": "Gravity",
+    "OwnerId": 55,
+    "Owner": "WiiFitTrainer",
+    "Values": [
+      {
+        "Value": "0.09",
+        "Owner": "WiiFitTrainer",
+        "OwnerId": 55,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597024d746965900ac9fac33"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/WiiFitTrainer"
+      }
+    ]
+  },
+  {
+    "InstanceId": "597024db46965900ac9fac82",
     "Name": "Gravity",
     "OwnerId": 56,
     "Owner": "Yoshi",
@@ -1107,18 +1335,16 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968219346965952fcb51d92",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597024db46965900ac9fac82"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Yoshi",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Yoshi"
       }
     ]
   },
   {
-    "InstanceId": "5968219646965952fcb51de0",
+    "InstanceId": "597024dd46965900ac9facd0",
     "Name": "Gravity",
     "OwnerId": 57,
     "Owner": "Zelda",
@@ -1133,13 +1359,35 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968219646965952fcb51de0",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597024dd46965900ac9facd0"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Zelda",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Zelda"
+      }
+    ]
+  },
+  {
+    "InstanceId": "597024e146965900ac9fad26",
+    "Name": "Gravity",
+    "OwnerId": 58,
+    "Owner": "ZeroSuitSamus",
+    "Values": [
+      {
+        "Value": "0.12",
+        "Owner": "ZeroSuitSamus",
+        "OwnerId": 58,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597024e146965900ac9fad26"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/ZeroSuitSamus"
       }
     ]
   }

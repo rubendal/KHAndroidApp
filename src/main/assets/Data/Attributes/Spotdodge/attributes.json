@@ -1,6 +1,6 @@
 ﻿[
   {
-    "InstanceId": "596820f946965952fcb50b35",
+    "InstanceId": "5970244746965900ac9f9982",
     "Name": "Spotdodge",
     "OwnerId": 1,
     "Owner": "Bayonetta",
@@ -21,18 +21,16 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/596820f946965952fcb50b35",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5970244746965900ac9f9982"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Bayonetta",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Bayonetta"
       }
     ]
   },
   {
-    "InstanceId": "596820fd46965952fcb50b8a",
+    "InstanceId": "5970244946965900ac9f99d7",
     "Name": "Spotdodge",
     "OwnerId": 2,
     "Owner": "Bowser",
@@ -53,18 +51,16 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/596820fd46965952fcb50b8a",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5970244946965900ac9f99d7"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Bowser",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Bowser"
       }
     ]
   },
   {
-    "InstanceId": "5968210146965952fcb50be4",
+    "InstanceId": "5970244d46965900ac9f9a31",
     "Name": "Spotdodge",
     "OwnerId": 3,
     "Owner": "BowserJr",
@@ -85,18 +81,46 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968210146965952fcb50be4",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5970244d46965900ac9f9a31"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/BowserJr",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/BowserJr"
       }
     ]
   },
   {
-    "InstanceId": "5968210646965952fcb50c7f",
+    "InstanceId": "5970244f46965900ac9f9a8d",
+    "Name": "Spotdodge",
+    "OwnerId": 4,
+    "Owner": "CaptainFalcon",
+    "Values": [
+      {
+        "Value": "3-18",
+        "Owner": "CaptainFalcon",
+        "OwnerId": 4,
+        "Name": "INTANGIBLE"
+      },
+      {
+        "Value": "28",
+        "Owner": "CaptainFalcon",
+        "OwnerId": 4,
+        "Name": "FAF"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5970244f46965900ac9f9a8d"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/CaptainFalcon"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5970245246965900ac9f9ad9",
     "Name": "Spotdodge",
     "OwnerId": 5,
     "Owner": "Charizard",
@@ -117,18 +141,16 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968210646965952fcb50c7f",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5970245246965900ac9f9ad9"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Charizard",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Charizard"
       }
     ]
   },
   {
-    "InstanceId": "5968210a46965952fcb50cec",
+    "InstanceId": "5970245546965900ac9f9b46",
     "Name": "Spotdodge",
     "OwnerId": 6,
     "Owner": "Cloud",
@@ -149,18 +171,16 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968210a46965952fcb50cec",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5970245546965900ac9f9b46"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud"
       }
     ]
   },
   {
-    "InstanceId": "5968210d46965952fcb50d54",
+    "InstanceId": "5970245746965900ac9f9bae",
     "Name": "Spotdodge",
     "OwnerId": 7,
     "Owner": "Corrin",
@@ -181,18 +201,166 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968210d46965952fcb50d54",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5970245746965900ac9f9bae"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Corrin",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Corrin"
       }
     ]
   },
   {
-    "InstanceId": "5968211e46965952fcb50f15",
+    "InstanceId": "5970245a46965900ac9f9c03",
+    "Name": "Spotdodge",
+    "OwnerId": 8,
+    "Owner": "DarkPit",
+    "Values": [
+      {
+        "Value": "2-16",
+        "Owner": "DarkPit",
+        "OwnerId": 8,
+        "Name": "INTANGIBLE"
+      },
+      {
+        "Value": "26",
+        "Owner": "DarkPit",
+        "OwnerId": 8,
+        "Name": "FAF"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5970245a46965900ac9f9c03"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DarkPit"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5970245d46965900ac9f9c58",
+    "Name": "Spotdodge",
+    "OwnerId": 9,
+    "Owner": "DiddyKong",
+    "Values": [
+      {
+        "Value": "2-16",
+        "Owner": "DiddyKong",
+        "OwnerId": 9,
+        "Name": "INTANGIBLE"
+      },
+      {
+        "Value": "26",
+        "Owner": "DiddyKong",
+        "OwnerId": 9,
+        "Name": "FAF"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5970245d46965900ac9f9c58"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DiddyKong"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5970245f46965900ac9f9cb2",
+    "Name": "Spotdodge",
+    "OwnerId": 10,
+    "Owner": "DonkeyKong",
+    "Values": [
+      {
+        "Value": "4-19",
+        "Owner": "DonkeyKong",
+        "OwnerId": 10,
+        "Name": "INTANGIBLE"
+      },
+      {
+        "Value": "29",
+        "Owner": "DonkeyKong",
+        "OwnerId": 10,
+        "Name": "FAF"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5970245f46965900ac9f9cb2"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DonkeyKong"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5970246246965900ac9f9d03",
+    "Name": "Spotdodge",
+    "OwnerId": 11,
+    "Owner": "DrMario",
+    "Values": [
+      {
+        "Value": "2-17",
+        "Owner": "DrMario",
+        "OwnerId": 11,
+        "Name": "INTANGIBLE"
+      },
+      {
+        "Value": "27",
+        "Owner": "DrMario",
+        "OwnerId": 11,
+        "Name": "FAF"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5970246246965900ac9f9d03"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DrMario"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5970246546965900ac9f9d5b",
+    "Name": "Spotdodge",
+    "OwnerId": 12,
+    "Owner": "DuckHunt",
+    "Values": [
+      {
+        "Value": "2-16",
+        "Owner": "DuckHunt",
+        "OwnerId": 12,
+        "Name": "INTANGIBLE"
+      },
+      {
+        "Value": "25",
+        "Owner": "DuckHunt",
+        "OwnerId": 12,
+        "Name": "FAF"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5970246546965900ac9f9d5b"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DuckHunt"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5970246846965900ac9f9dae",
     "Name": "Spotdodge",
     "OwnerId": 13,
     "Owner": "Falco",
@@ -213,18 +381,16 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968211e46965952fcb50f15",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5970246846965900ac9f9dae"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Falco",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Falco"
       }
     ]
   },
   {
-    "InstanceId": "5968212046965952fcb50f6b",
+    "InstanceId": "5970246b46965900ac9f9e04",
     "Name": "Spotdodge",
     "OwnerId": 14,
     "Owner": "Fox",
@@ -245,18 +411,16 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968212046965952fcb50f6b",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5970246b46965900ac9f9e04"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Fox",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Fox"
       }
     ]
   },
   {
-    "InstanceId": "5968212346965952fcb50fbe",
+    "InstanceId": "5970246d46965900ac9f9e57",
     "Name": "Spotdodge",
     "OwnerId": 15,
     "Owner": "Ganondorf",
@@ -277,18 +441,16 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968212346965952fcb50fbe",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5970246d46965900ac9f9e57"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ganondorf",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ganondorf"
       }
     ]
   },
   {
-    "InstanceId": "5968212746965952fcb51014",
+    "InstanceId": "5970247046965900ac9f9ead",
     "Name": "Spotdodge",
     "OwnerId": 16,
     "Owner": "Greninja",
@@ -309,18 +471,16 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968212746965952fcb51014",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5970247046965900ac9f9ead"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Greninja",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Greninja"
       }
     ]
   },
   {
-    "InstanceId": "5968212946965952fcb5106b",
+    "InstanceId": "5970247246965900ac9f9f04",
     "Name": "Spotdodge",
     "OwnerId": 17,
     "Owner": "Ike",
@@ -341,18 +501,16 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968212946965952fcb5106b",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5970247246965900ac9f9f04"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ike",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ike"
       }
     ]
   },
   {
-    "InstanceId": "5968212c46965952fcb510b3",
+    "InstanceId": "5970247546965900ac9f9f4c",
     "Name": "Spotdodge",
     "OwnerId": 18,
     "Owner": "Jigglypuff",
@@ -373,18 +531,46 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968212c46965952fcb510b3",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5970247546965900ac9f9f4c"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Jigglypuff",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Jigglypuff"
       }
     ]
   },
   {
-    "InstanceId": "5968213146965952fcb51163",
+    "InstanceId": "5970247746965900ac9f9fa2",
+    "Name": "Spotdodge",
+    "OwnerId": 19,
+    "Owner": "KingDedede",
+    "Values": [
+      {
+        "Value": "4-19",
+        "Owner": "KingDedede",
+        "OwnerId": 19,
+        "Name": "INTANGIBLE"
+      },
+      {
+        "Value": "29",
+        "Owner": "KingDedede",
+        "OwnerId": 19,
+        "Name": "FAF"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5970247746965900ac9f9fa2"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/KingDedede"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5970247a46965900ac9fa000",
     "Name": "Spotdodge",
     "OwnerId": 20,
     "Owner": "Kirby",
@@ -405,18 +591,16 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968213146965952fcb51163",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5970247a46965900ac9fa000"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Kirby",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Kirby"
       }
     ]
   },
   {
-    "InstanceId": "5968213446965952fcb511c2",
+    "InstanceId": "5970247c46965900ac9fa05f",
     "Name": "Spotdodge",
     "OwnerId": 21,
     "Owner": "Link",
@@ -437,18 +621,16 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968213446965952fcb511c2",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5970247c46965900ac9fa05f"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Link",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Link"
       }
     ]
   },
   {
-    "InstanceId": "5968213746965952fcb5121d",
+    "InstanceId": "5970247f46965900ac9fa0ba",
     "Name": "Spotdodge",
     "OwnerId": 22,
     "Owner": "LittleMac",
@@ -469,18 +651,16 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968213746965952fcb5121d",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5970247f46965900ac9fa0ba"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/LittleMac",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/LittleMac"
       }
     ]
   },
   {
-    "InstanceId": "5968213946965952fcb5126d",
+    "InstanceId": "5970248246965900ac9fa10a",
     "Name": "Spotdodge",
     "OwnerId": 23,
     "Owner": "Lucario",
@@ -501,18 +681,16 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968213946965952fcb5126d",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5970248246965900ac9fa10a"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucario",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucario"
       }
     ]
   },
   {
-    "InstanceId": "5968213c46965952fcb512c2",
+    "InstanceId": "5970248546965900ac9fa15f",
     "Name": "Spotdodge",
     "OwnerId": 24,
     "Owner": "Lucas",
@@ -533,18 +711,16 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968213c46965952fcb512c2",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5970248546965900ac9fa15f"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucas",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucas"
       }
     ]
   },
   {
-    "InstanceId": "5968213f46965952fcb51316",
+    "InstanceId": "5970248746965900ac9fa1b3",
     "Name": "Spotdodge",
     "OwnerId": 25,
     "Owner": "Lucina",
@@ -565,18 +741,16 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968213f46965952fcb51316",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5970248746965900ac9fa1b3"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucina",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucina"
       }
     ]
   },
   {
-    "InstanceId": "5968214246965952fcb51368",
+    "InstanceId": "5970248a46965900ac9fa205",
     "Name": "Spotdodge",
     "OwnerId": 26,
     "Owner": "Luigi",
@@ -597,18 +771,16 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968214246965952fcb51368",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5970248a46965900ac9fa205"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Luigi",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Luigi"
       }
     ]
   },
   {
-    "InstanceId": "5968214446965952fcb513b9",
+    "InstanceId": "5970248c46965900ac9fa256",
     "Name": "Spotdodge",
     "OwnerId": 27,
     "Owner": "Mario",
@@ -629,18 +801,16 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968214446965952fcb513b9",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5970248c46965900ac9fa256"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Mario",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Mario"
       }
     ]
   },
   {
-    "InstanceId": "5968214846965952fcb5140d",
+    "InstanceId": "5970248f46965900ac9fa2aa",
     "Name": "Spotdodge",
     "OwnerId": 28,
     "Owner": "Marth",
@@ -661,18 +831,46 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968214846965952fcb5140d",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5970248f46965900ac9fa2aa"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Marth",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Marth"
       }
     ]
   },
   {
-    "InstanceId": "5968214d46965952fcb514c5",
+    "InstanceId": "5970249246965900ac9fa31b",
+    "Name": "Spotdodge",
+    "OwnerId": 29,
+    "Owner": "MegaMan",
+    "Values": [
+      {
+        "Value": "3-18",
+        "Owner": "MegaMan",
+        "OwnerId": 29,
+        "Name": "INTANGIBLE"
+      },
+      {
+        "Value": "28",
+        "Owner": "MegaMan",
+        "OwnerId": 29,
+        "Name": "FAF"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5970249246965900ac9fa31b"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MegaMan"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5970249446965900ac9fa36e",
     "Name": "Spotdodge",
     "OwnerId": 30,
     "Owner": "MetaKnight",
@@ -693,18 +891,16 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968214d46965952fcb514c5",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5970249446965900ac9fa36e"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MetaKnight",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MetaKnight"
       }
     ]
   },
   {
-    "InstanceId": "5968215046965952fcb5150e",
+    "InstanceId": "5970249746965900ac9fa3b7",
     "Name": "Spotdodge",
     "OwnerId": 31,
     "Owner": "Mewtwo",
@@ -725,18 +921,136 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968215046965952fcb5150e",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5970249746965900ac9fa3b7"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Mewtwo",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Mewtwo"
       }
     ]
   },
   {
-    "InstanceId": "5968215e46965952fcb516d8",
+    "InstanceId": "5970249a46965900ac9fa42d",
+    "Name": "Spotdodge",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "Values": [
+      {
+        "Value": "3-18",
+        "Owner": "MiiSwordfighter",
+        "OwnerId": 34,
+        "Name": "INTANGIBLE"
+      },
+      {
+        "Value": "28",
+        "Owner": "MiiSwordfighter",
+        "OwnerId": 34,
+        "Name": "FAF"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5970249a46965900ac9fa42d"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5970249c46965900ac9fa4a4",
+    "Name": "Spotdodge",
+    "OwnerId": 32,
+    "Owner": "MiiBrawler",
+    "Values": [
+      {
+        "Value": "2-17",
+        "Owner": "MiiBrawler",
+        "OwnerId": 32,
+        "Name": "INTANGIBLE"
+      },
+      {
+        "Value": "27",
+        "Owner": "MiiBrawler",
+        "OwnerId": 32,
+        "Name": "FAF"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5970249c46965900ac9fa4a4"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiBrawler"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5970249f46965900ac9fa502",
+    "Name": "Spotdodge",
+    "OwnerId": 33,
+    "Owner": "MiiGunner",
+    "Values": [
+      {
+        "Value": "2-17",
+        "Owner": "MiiGunner",
+        "OwnerId": 33,
+        "Name": "INTANGIBLE"
+      },
+      {
+        "Value": "27",
+        "Owner": "MiiGunner",
+        "OwnerId": 33,
+        "Name": "FAF"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5970249f46965900ac9fa502"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiGunner"
+      }
+    ]
+  },
+  {
+    "InstanceId": "597024a246965900ac9fa55b",
+    "Name": "Spotdodge",
+    "OwnerId": 35,
+    "Owner": "MrGameWatch",
+    "Values": [
+      {
+        "Value": "2-16",
+        "Owner": "MrGameWatch",
+        "OwnerId": 35,
+        "Name": "INTANGIBLE"
+      },
+      {
+        "Value": "26",
+        "Owner": "MrGameWatch",
+        "OwnerId": 35,
+        "Name": "FAF"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597024a246965900ac9fa55b"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MrGameWatch"
+      }
+    ]
+  },
+  {
+    "InstanceId": "597024a446965900ac9fa5ae",
     "Name": "Spotdodge",
     "OwnerId": 36,
     "Owner": "Ness",
@@ -757,18 +1071,16 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968215e46965952fcb516d8",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597024a446965900ac9fa5ae"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ness",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ness"
       }
     ]
   },
   {
-    "InstanceId": "5968216046965952fcb51726",
+    "InstanceId": "597024a746965900ac9fa5fc",
     "Name": "Spotdodge",
     "OwnerId": 37,
     "Owner": "Olimar",
@@ -789,18 +1101,16 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968216046965952fcb51726",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597024a746965900ac9fa5fc"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Olimar",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Olimar"
       }
     ]
   },
   {
-    "InstanceId": "5968216346965952fcb51782",
+    "InstanceId": "597024a946965900ac9fa658",
     "Name": "Spotdodge",
     "OwnerId": 38,
     "Owner": "PAC-MAN",
@@ -821,18 +1131,16 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968216346965952fcb51782",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597024a946965900ac9fa658"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/PAC-MAN",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/PAC-MAN"
       }
     ]
   },
   {
-    "InstanceId": "5968216646965952fcb517cf",
+    "InstanceId": "597024ac46965900ac9fa6a5",
     "Name": "Spotdodge",
     "OwnerId": 39,
     "Owner": "Palutena",
@@ -853,18 +1161,16 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968216646965952fcb517cf",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597024ac46965900ac9fa6a5"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Palutena",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Palutena"
       }
     ]
   },
   {
-    "InstanceId": "5968216846965952fcb51826",
+    "InstanceId": "597024af46965900ac9fa6fc",
     "Name": "Spotdodge",
     "OwnerId": 40,
     "Owner": "Peach",
@@ -885,18 +1191,16 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968216846965952fcb51826",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597024af46965900ac9fa6fc"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Peach",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Peach"
       }
     ]
   },
   {
-    "InstanceId": "5968216b46965952fcb51879",
+    "InstanceId": "597024b146965900ac9fa74f",
     "Name": "Spotdodge",
     "OwnerId": 41,
     "Owner": "Pikachu",
@@ -917,18 +1221,16 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968216b46965952fcb51879",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597024b146965900ac9fa74f"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Pikachu",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Pikachu"
       }
     ]
   },
   {
-    "InstanceId": "5968216e46965952fcb518ce",
+    "InstanceId": "597024b446965900ac9fa7a4",
     "Name": "Spotdodge",
     "OwnerId": 42,
     "Owner": "Pit",
@@ -949,18 +1251,16 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968216e46965952fcb518ce",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597024b446965900ac9fa7a4"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Pit",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Pit"
       }
     ]
   },
   {
-    "InstanceId": "5968217146965952fcb5191c",
+    "InstanceId": "597024b746965900ac9fa7f2",
     "Name": "Spotdodge",
     "OwnerId": 43,
     "Owner": "Rob",
@@ -981,18 +1281,16 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968217146965952fcb5191c",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597024b746965900ac9fa7f2"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Rob",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Rob"
       }
     ]
   },
   {
-    "InstanceId": "5968217346965952fcb51983",
+    "InstanceId": "597024ba46965900ac9fa859",
     "Name": "Spotdodge",
     "OwnerId": 44,
     "Owner": "Robin",
@@ -1013,18 +1311,16 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968217346965952fcb51983",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597024ba46965900ac9fa859"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Robin",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Robin"
       }
     ]
   },
   {
-    "InstanceId": "5968217646965952fcb519e7",
+    "InstanceId": "597024bd46965900ac9fa8bd",
     "Name": "Spotdodge",
     "OwnerId": 45,
     "Owner": "RosalinaLuma",
@@ -1045,18 +1341,16 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968217646965952fcb519e7",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597024bd46965900ac9fa8bd"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/RosalinaLuma",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/RosalinaLuma"
       }
     ]
   },
   {
-    "InstanceId": "5968217946965952fcb51a40",
+    "InstanceId": "597024c046965900ac9fa916",
     "Name": "Spotdodge",
     "OwnerId": 46,
     "Owner": "Roy",
@@ -1077,18 +1371,16 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968217946965952fcb51a40",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597024c046965900ac9fa916"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Roy",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Roy"
       }
     ]
   },
   {
-    "InstanceId": "5968217b46965952fcb51aa5",
+    "InstanceId": "597024c246965900ac9fa97b",
     "Name": "Spotdodge",
     "OwnerId": 47,
     "Owner": "Ryu",
@@ -1109,18 +1401,16 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968217b46965952fcb51aa5",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597024c246965900ac9fa97b"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ryu",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ryu"
       }
     ]
   },
   {
-    "InstanceId": "5968217e46965952fcb51b05",
+    "InstanceId": "597024c546965900ac9fa9db",
     "Name": "Spotdodge",
     "OwnerId": 48,
     "Owner": "Samus",
@@ -1141,18 +1431,16 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968217e46965952fcb51b05",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597024c546965900ac9fa9db"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Samus",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Samus"
       }
     ]
   },
   {
-    "InstanceId": "5968218146965952fcb51b59",
+    "InstanceId": "597024c846965900ac9faa2f",
     "Name": "Spotdodge",
     "OwnerId": 49,
     "Owner": "Sheik",
@@ -1173,18 +1461,16 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968218146965952fcb51b59",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597024c846965900ac9faa2f"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sheik",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sheik"
       }
     ]
   },
   {
-    "InstanceId": "5968218346965952fcb51bb8",
+    "InstanceId": "597024cb46965900ac9faa8e",
     "Name": "Spotdodge",
     "OwnerId": 50,
     "Owner": "Shulk",
@@ -1205,18 +1491,16 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968218346965952fcb51bb8",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597024cb46965900ac9faa8e"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Shulk",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Shulk"
       }
     ]
   },
   {
-    "InstanceId": "5968218646965952fcb51c09",
+    "InstanceId": "597024cd46965900ac9faadf",
     "Name": "Spotdodge",
     "OwnerId": 51,
     "Owner": "Sonic",
@@ -1237,18 +1521,46 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968218646965952fcb51c09",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597024cd46965900ac9faadf"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sonic",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sonic"
       }
     ]
   },
   {
-    "InstanceId": "5968218b46965952fcb51cb2",
+    "InstanceId": "597024d046965900ac9fab34",
+    "Name": "Spotdodge",
+    "OwnerId": 52,
+    "Owner": "ToonLink",
+    "Values": [
+      {
+        "Value": "2-15",
+        "Owner": "ToonLink",
+        "OwnerId": 52,
+        "Name": "INTANGIBLE"
+      },
+      {
+        "Value": "25",
+        "Owner": "ToonLink",
+        "OwnerId": 52,
+        "Name": "FAF"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597024d046965900ac9fab34"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/ToonLink"
+      }
+    ]
+  },
+  {
+    "InstanceId": "597024d246965900ac9fab95",
     "Name": "Spotdodge",
     "OwnerId": 53,
     "Owner": "Villager",
@@ -1269,18 +1581,16 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968218b46965952fcb51cb2",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597024d246965900ac9fab95"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
       }
     ]
   },
   {
-    "InstanceId": "5968218e46965952fcb51d04",
+    "InstanceId": "597024d546965900ac9fabe7",
     "Name": "Spotdodge",
     "OwnerId": 54,
     "Owner": "Wario",
@@ -1301,18 +1611,46 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968218e46965952fcb51d04",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597024d546965900ac9fabe7"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Wario",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Wario"
       }
     ]
   },
   {
-    "InstanceId": "5968219346965952fcb51d96",
+    "InstanceId": "597024d746965900ac9fac37",
+    "Name": "Spotdodge",
+    "OwnerId": 55,
+    "Owner": "WiiFitTrainer",
+    "Values": [
+      {
+        "Value": "2-16",
+        "Owner": "WiiFitTrainer",
+        "OwnerId": 55,
+        "Name": "INTANGIBLE"
+      },
+      {
+        "Value": "26",
+        "Owner": "WiiFitTrainer",
+        "OwnerId": 55,
+        "Name": "FAF"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597024d746965900ac9fac37"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/WiiFitTrainer"
+      }
+    ]
+  },
+  {
+    "InstanceId": "597024db46965900ac9fac86",
     "Name": "Spotdodge",
     "OwnerId": 56,
     "Owner": "Yoshi",
@@ -1333,18 +1671,16 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968219346965952fcb51d96",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597024db46965900ac9fac86"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Yoshi",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Yoshi"
       }
     ]
   },
   {
-    "InstanceId": "5968219646965952fcb51de4",
+    "InstanceId": "597024dd46965900ac9facd4",
     "Name": "Spotdodge",
     "OwnerId": 57,
     "Owner": "Zelda",
@@ -1365,13 +1701,41 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968219646965952fcb51de4",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597024dd46965900ac9facd4"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Zelda",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Zelda"
+      }
+    ]
+  },
+  {
+    "InstanceId": "597024e146965900ac9fad2a",
+    "Name": "Spotdodge",
+    "OwnerId": 58,
+    "Owner": "ZeroSuitSamus",
+    "Values": [
+      {
+        "Value": "2-15",
+        "Owner": "ZeroSuitSamus",
+        "OwnerId": 58,
+        "Name": "INTANGIBLE"
+      },
+      {
+        "Value": "25",
+        "Owner": "ZeroSuitSamus",
+        "OwnerId": 58,
+        "Name": "FAF"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597024e146965900ac9fad2a"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/ZeroSuitSamus"
       }
     ]
   }

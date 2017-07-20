@@ -1,6 +1,102 @@
 ﻿[
   {
-    "InstanceId": "5968215346965952fcb51578",
+    "InstanceId": "5970249a46965900ac9fa421",
+    "Name": "AerialJump",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "Values": [
+      {
+        "Value": "28.299999",
+        "Owner": "MiiSwordfighter",
+        "OwnerId": 34,
+        "Name": "HEIGHT"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5970249a46965900ac9fa421"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5970249a46965900ac9fa422",
+    "Name": "Counters",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "Values": [
+      {
+        "Value": "6-29",
+        "Owner": "MiiSwordfighter",
+        "OwnerId": 34,
+        "Name": "COUNTER FRAMES"
+      },
+      {
+        "Value": "5-6",
+        "Owner": "MiiSwordfighter",
+        "OwnerId": 34,
+        "Name": "INTANGIBLE ON"
+      },
+      {
+        "Value": "60",
+        "Owner": "MiiSwordfighter",
+        "OwnerId": 34,
+        "Name": "FAF"
+      },
+      {
+        "Value": "1.25&#215;",
+        "Owner": "MiiSwordfighter",
+        "OwnerId": 34,
+        "Name": "DAMAGE (MULTIPLIER)"
+      },
+      {
+        "Value": "90 | 70",
+        "Owner": "MiiSwordfighter",
+        "OwnerId": 34,
+        "Name": "BKB | KBG"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5970249a46965900ac9fa422"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5970249a46965900ac9fa423",
+    "Name": "AirAcceleration",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "Values": [
+      {
+        "Value": "0.04",
+        "Owner": "MiiSwordfighter",
+        "OwnerId": 34,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5970249a46965900ac9fa423"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5970249a46965900ac9fa424",
     "Name": "AirDeceleration",
     "OwnerId": 34,
     "Owner": "MiiSwordfighter",
@@ -15,24 +111,22 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968215346965952fcb51578",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5970249a46965900ac9fa424"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter"
       }
     ]
   },
   {
-    "InstanceId": "5968215346965952fcb51579",
+    "InstanceId": "5970249a46965900ac9fa425",
     "Name": "AirFriction",
     "OwnerId": 34,
     "Owner": "MiiSwordfighter",
     "Values": [
       {
-        "Value": "0.015",
+        "Value": "0.0038",
         "Owner": "MiiSwordfighter",
         "OwnerId": 34,
         "Name": "VALUE"
@@ -41,24 +135,22 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968215346965952fcb51579",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5970249a46965900ac9fa425"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter"
       }
     ]
   },
   {
-    "InstanceId": "5968215346965952fcb5157a",
+    "InstanceId": "5970249a46965900ac9fa426",
     "Name": "DashLength",
     "OwnerId": 34,
     "Owner": "MiiSwordfighter",
     "Values": [
       {
-        "Value": "11",
+        "Value": "13",
         "Owner": "MiiSwordfighter",
         "OwnerId": 34,
         "Name": "LENGTH IN FRAMES"
@@ -67,13 +159,299 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968215346965952fcb5157a",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5970249a46965900ac9fa426"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5970249a46965900ac9fa427",
+    "Name": "FallSpeed",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "Values": [
+      {
+        "Value": "1.6",
+        "Owner": "MiiSwordfighter",
+        "OwnerId": 34,
+        "Name": "MAX FALL SPEED"
+      },
+      {
+        "Value": "2.56",
+        "Owner": "MiiSwordfighter",
+        "OwnerId": 34,
+        "Name": "FAST FALL SPEED"
+      },
+      {
+        "Value": "60%",
+        "Owner": "MiiSwordfighter",
+        "OwnerId": 34,
+        "Name": "SPEED INCREASE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5970249a46965900ac9fa427"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5970249a46965900ac9fa428",
+    "Name": "FullHop",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "Values": [
+      {
+        "Value": "28.299999",
+        "Owner": "MiiSwordfighter",
+        "OwnerId": 34,
+        "Name": "HEIGHT"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5970249a46965900ac9fa428"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5970249a46965900ac9fa429",
+    "Name": "Gravity",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "Values": [
+      {
+        "Value": "0.096",
+        "Owner": "MiiSwordfighter",
+        "OwnerId": 34,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5970249a46965900ac9fa429"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5970249a46965900ac9fa42a",
+    "Name": "JumpSquat",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "Values": [
+      {
+        "Value": "7",
+        "Owner": "MiiSwordfighter",
+        "OwnerId": 34,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5970249a46965900ac9fa42a"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5970249a46965900ac9fa42b",
+    "Name": "LedgeHop",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "Values": [
+      {
+        "Value": "34.150002",
+        "Owner": "MiiSwordfighter",
+        "OwnerId": 34,
+        "Name": "HEIGHT"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5970249a46965900ac9fa42b"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5970249a46965900ac9fa42c",
+    "Name": "ShortHop",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "Values": [
+      {
+        "Value": "15",
+        "Owner": "MiiSwordfighter",
+        "OwnerId": 34,
+        "Name": "HEIGHT"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5970249a46965900ac9fa42c"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5970249a46965900ac9fa42d",
+    "Name": "Spotdodge",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "Values": [
+      {
+        "Value": "3-18",
+        "Owner": "MiiSwordfighter",
+        "OwnerId": 34,
+        "Name": "INTANGIBLE"
+      },
+      {
+        "Value": "28",
+        "Owner": "MiiSwordfighter",
+        "OwnerId": 34,
+        "Name": "FAF"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5970249a46965900ac9fa42d"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5970249a46965900ac9fa42e",
+    "Name": "Traction",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "Values": [
+      {
+        "Value": "0.064",
+        "Owner": "MiiSwordfighter",
+        "OwnerId": 34,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5970249a46965900ac9fa42e"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5970249a46965900ac9fa42f",
+    "Name": "WalkSpeed",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "Values": [
+      {
+        "Value": "1.188",
+        "Owner": "MiiSwordfighter",
+        "OwnerId": 34,
+        "Name": "MAX WALK SPEED VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5970249a46965900ac9fa42f"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5970249a46965900ac9fa430",
+    "Name": "AirSpeed",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "Values": [
+      {
+        "Value": "0.96",
+        "Owner": "MiiSwordfighter",
+        "OwnerId": 34,
+        "Name": "MAX AIR SPEED VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5970249a46965900ac9fa430"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5970249a46965900ac9fa431",
+    "Name": "AirDodge",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "Values": [
+      {
+        "Value": "3-28",
+        "Owner": "MiiSwordfighter",
+        "OwnerId": 34,
+        "Name": "INTANGIBLE"
+      },
+      {
+        "Value": "34",
+        "Owner": "MiiSwordfighter",
+        "OwnerId": 34,
+        "Name": "FAF"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5970249a46965900ac9fa431"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter"
       }
     ]
   }

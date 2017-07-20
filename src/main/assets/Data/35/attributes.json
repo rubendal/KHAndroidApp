@@ -1,6 +1,6 @@
 ﻿[
   {
-    "InstanceId": "5968215b46965952fcb51680",
+    "InstanceId": "597024a246965900ac9fa550",
     "Name": "AerialJump",
     "OwnerId": 35,
     "Owner": "MrGameWatch",
@@ -15,18 +15,16 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968215b46965952fcb51680",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597024a246965900ac9fa550"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MrGameWatch",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MrGameWatch"
       }
     ]
   },
   {
-    "InstanceId": "5968215b46965952fcb51681",
+    "InstanceId": "597024a246965900ac9fa551",
     "Name": "AirAcceleration",
     "OwnerId": 35,
     "Owner": "MrGameWatch",
@@ -41,24 +39,22 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968215b46965952fcb51681",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597024a246965900ac9fa551"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MrGameWatch",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MrGameWatch"
       }
     ]
   },
   {
-    "InstanceId": "5968215b46965952fcb51682",
+    "InstanceId": "597024a246965900ac9fa552",
     "Name": "AirDeceleration",
     "OwnerId": 35,
     "Owner": "MrGameWatch",
     "Values": [
       {
-        "Value": "0.01",
+        "Value": "0.07",
         "Owner": "MrGameWatch",
         "OwnerId": 35,
         "Name": "VALUE"
@@ -67,24 +63,22 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968215b46965952fcb51682",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597024a246965900ac9fa552"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MrGameWatch",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MrGameWatch"
       }
     ]
   },
   {
-    "InstanceId": "5968215b46965952fcb51683",
+    "InstanceId": "597024a246965900ac9fa553",
     "Name": "AirFriction",
     "OwnerId": 35,
     "Owner": "MrGameWatch",
     "Values": [
       {
-        "Value": "0.015",
+        "Value": "0.012",
         "Owner": "MrGameWatch",
         "OwnerId": 35,
         "Name": "VALUE"
@@ -93,24 +87,22 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968215b46965952fcb51683",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597024a246965900ac9fa553"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MrGameWatch",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MrGameWatch"
       }
     ]
   },
   {
-    "InstanceId": "5968215b46965952fcb51684",
+    "InstanceId": "597024a246965900ac9fa554",
     "Name": "DashLength",
     "OwnerId": 35,
     "Owner": "MrGameWatch",
     "Values": [
       {
-        "Value": "11",
+        "Value": "9",
         "Owner": "MrGameWatch",
         "OwnerId": 35,
         "Name": "LENGTH IN FRAMES"
@@ -119,18 +111,16 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968215b46965952fcb51684",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597024a246965900ac9fa554"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MrGameWatch",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MrGameWatch"
       }
     ]
   },
   {
-    "InstanceId": "5968215b46965952fcb51685",
+    "InstanceId": "597024a246965900ac9fa555",
     "Name": "FallSpeed",
     "OwnerId": 35,
     "Owner": "MrGameWatch",
@@ -157,18 +147,16 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968215b46965952fcb51685",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597024a246965900ac9fa555"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MrGameWatch",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MrGameWatch"
       }
     ]
   },
   {
-    "InstanceId": "5968215b46965952fcb51686",
+    "InstanceId": "597024a246965900ac9fa556",
     "Name": "FullHop",
     "OwnerId": 35,
     "Owner": "MrGameWatch",
@@ -183,18 +171,64 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968215b46965952fcb51686",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597024a246965900ac9fa556"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MrGameWatch",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MrGameWatch"
       }
     ]
   },
   {
-    "InstanceId": "5968215b46965952fcb51687",
+    "InstanceId": "597024a246965900ac9fa557",
+    "Name": "Gravity",
+    "OwnerId": 35,
+    "Owner": "MrGameWatch",
+    "Values": [
+      {
+        "Value": "0.08",
+        "Owner": "MrGameWatch",
+        "OwnerId": 35,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597024a246965900ac9fa557"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MrGameWatch"
+      }
+    ]
+  },
+  {
+    "InstanceId": "597024a246965900ac9fa558",
+    "Name": "JumpSquat",
+    "OwnerId": 35,
+    "Owner": "MrGameWatch",
+    "Values": [
+      {
+        "Value": "5",
+        "Owner": "MrGameWatch",
+        "OwnerId": 35,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597024a246965900ac9fa558"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MrGameWatch"
+      }
+    ]
+  },
+  {
+    "InstanceId": "597024a246965900ac9fa559",
     "Name": "LedgeHop",
     "OwnerId": 35,
     "Owner": "MrGameWatch",
@@ -209,18 +243,94 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968215b46965952fcb51687",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597024a246965900ac9fa559"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MrGameWatch",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MrGameWatch"
       }
     ]
   },
   {
-    "InstanceId": "5968215b46965952fcb51688",
+    "InstanceId": "597024a246965900ac9fa55a",
+    "Name": "ShortHop",
+    "OwnerId": 35,
+    "Owner": "MrGameWatch",
+    "Values": [
+      {
+        "Value": "13.261467",
+        "Owner": "MrGameWatch",
+        "OwnerId": 35,
+        "Name": "HEIGHT"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597024a246965900ac9fa55a"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MrGameWatch"
+      }
+    ]
+  },
+  {
+    "InstanceId": "597024a246965900ac9fa55b",
+    "Name": "Spotdodge",
+    "OwnerId": 35,
+    "Owner": "MrGameWatch",
+    "Values": [
+      {
+        "Value": "2-16",
+        "Owner": "MrGameWatch",
+        "OwnerId": 35,
+        "Name": "INTANGIBLE"
+      },
+      {
+        "Value": "26",
+        "Owner": "MrGameWatch",
+        "OwnerId": 35,
+        "Name": "FAF"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597024a246965900ac9fa55b"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MrGameWatch"
+      }
+    ]
+  },
+  {
+    "InstanceId": "597024a246965900ac9fa55c",
+    "Name": "Traction",
+    "OwnerId": 35,
+    "Owner": "MrGameWatch",
+    "Values": [
+      {
+        "Value": "0.06",
+        "Owner": "MrGameWatch",
+        "OwnerId": 35,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597024a246965900ac9fa55c"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MrGameWatch"
+      }
+    ]
+  },
+  {
+    "InstanceId": "597024a246965900ac9fa55d",
     "Name": "WalkSpeed",
     "OwnerId": 35,
     "Owner": "MrGameWatch",
@@ -235,18 +345,16 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968215b46965952fcb51688",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597024a246965900ac9fa55d"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MrGameWatch",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MrGameWatch"
       }
     ]
   },
   {
-    "InstanceId": "5968215b46965952fcb51689",
+    "InstanceId": "597024a246965900ac9fa55e",
     "Name": "AirSpeed",
     "OwnerId": 35,
     "Owner": "MrGameWatch",
@@ -261,13 +369,41 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5968215b46965952fcb51689",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597024a246965900ac9fa55e"
       },
       {
         "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MrGameWatch",
-        "Title": ""
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MrGameWatch"
+      }
+    ]
+  },
+  {
+    "InstanceId": "597024a246965900ac9fa55f",
+    "Name": "AirDodge",
+    "OwnerId": 35,
+    "Owner": "MrGameWatch",
+    "Values": [
+      {
+        "Value": "2-26",
+        "Owner": "MrGameWatch",
+        "OwnerId": 35,
+        "Name": "INTANGIBLE"
+      },
+      {
+        "Value": "32",
+        "Owner": "MrGameWatch",
+        "OwnerId": 35,
+        "Name": "FAF"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597024a246965900ac9fa55f"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MrGameWatch"
       }
     ]
   }
