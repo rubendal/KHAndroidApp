@@ -42,11 +42,11 @@ public class Attribute implements Serializable {
         InputStream is;
         Bitmap thumb = null;
         try {
-            is = context.getAssets().open("Images/attributes/" + id + "/image.png");
+            is = context.getAssets().open("Images/attributes/" + name + "/image.png");
             thumb = BitmapFactory.decodeStream(is);
         } catch (IOException e) {
             try {
-                is = context.getAssets().open("Images/attributes/" + id + "/image.jpg");
+                is = context.getAssets().open("Images/attributes/" + name + "/image.jpg");
                 thumb = BitmapFactory.decodeStream(is);
             } catch (IOException e2) {
                 thumb = null;

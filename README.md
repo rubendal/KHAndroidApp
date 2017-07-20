@@ -3,8 +3,10 @@ KuroganeHammer.com Android app to view character frame data offline
 
 https://play.google.com/store/apps/details?id=com.rubendal.kuroganehammercom
 
-### Current version
-1.5.1
+### Update version on this branch
+2.0
+
+[Project progress and stuff to do for this update](https://github.com/rubendal/KHAndroidApp/projects/1)
 
 ### Features
 * View frame data without an Internet connection on your Android device
