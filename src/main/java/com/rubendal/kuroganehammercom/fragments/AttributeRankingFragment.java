@@ -15,7 +15,6 @@ import com.rubendal.kuroganehammercom.R;
 import com.rubendal.kuroganehammercom.asynctask.attribute.AttributeRankingAsyncTask;
 import com.rubendal.kuroganehammercom.classes.AttributeName;
 import com.rubendal.kuroganehammercom.classes.AttributeRank;
-import com.rubendal.kuroganehammercom.classes.AttributeRankWrapper;
 import com.rubendal.kuroganehammercom.util.params.Params;
 
 import java.util.LinkedList;

@@ -2,23 +2,18 @@ package com.rubendal.kuroganehammercom.asynctask.attribute;
 
 import android.app.ProgressDialog;
 import android.os.AsyncTask;
-import android.util.Log;
 
 import com.rubendal.kuroganehammercom.MainActivity;
 import com.rubendal.kuroganehammercom.classes.Attribute;
 import com.rubendal.kuroganehammercom.classes.AttributeName;
 import com.rubendal.kuroganehammercom.classes.AttributeRank;
 import com.rubendal.kuroganehammercom.classes.AttributeRankMaker;
-import com.rubendal.kuroganehammercom.classes.AttributeRankWrapper;
-import com.rubendal.kuroganehammercom.classes.Character;
-import com.rubendal.kuroganehammercom.fragments.AttributeFragment;
 import com.rubendal.kuroganehammercom.fragments.AttributeRankingFragment;
 import com.rubendal.kuroganehammercom.fragments.KHFragment;
 import com.rubendal.kuroganehammercom.util.Storage;
 
 import org.json.JSONArray;
 
-import java.util.Collections;
 import java.util.LinkedList;
 
 public class AttributeRankingAsyncTask extends AsyncTask<String, String, LinkedList<AttributeRank>> {

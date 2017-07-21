@@ -14,6 +14,30 @@ public class AttributeRankMaker {
 
     private static LinkedList<Character> characters = null;
 
+    private static String[] ASC_ATTRIBUTES_SORT = new String[]{
+            "AerialJump",
+            "AirAcceleration",
+            "AirDeceleration",
+            "AirFriction",
+            "FallSpeed",
+            "FullHop",
+            "Gravity",
+            "LedgeHop",
+            "ShortHop",
+            "Traction",
+            "WalkSpeed",
+            "AirSpeed"
+
+    };
+
+    private static boolean usesAsc(String name){
+        for(String s : ASC_ATTRIBUTES_SORT){
+            if(s.equals(name))
+                return true;
+        }
+        return false;
+    }
+
     private static void Initialize(Context context){
         if(characters != null)
             return;
@@ -50,17 +74,65 @@ public class AttributeRankMaker {
         LinkedList<AttributeRank> ranks = new LinkedList<>();
 
         try {
-            Collections.sort(list,new Comparator<Attribute>() {
-                @Override
-                public int compare(Attribute attribute, Attribute t1) {
-                    //To Do: change comparator so it takes into account other values of attribute (end frames, FAF)
-                    if(Float.parseFloat(attribute.attributes.get(0).value.split("-")[0]) < Float.parseFloat(t1.attributes.get(0).value.split("-")[0]))
-                        return -1;
-                    if(Float.parseFloat(attribute.attributes.get(0).value.split("-")[0]) > Float.parseFloat(t1.attributes.get(0).value.split("-")[0]))
-                        return 1;
-                    return 0;
-                }
-            });
+
+            if(usesAsc(list.get(0).name)){
+
+                Collections.sort(list, new Comparator<Attribute>() {
+                    @Override
+                    public int compare(Attribute attribute, Attribute t1) {
+                        boolean containsEndFrame = attribute.attributes.get(0).value.contains("-");
+                        if (Float.parseFloat(attribute.attributes.get(0).value.split("-")[0]) < Float.parseFloat(t1.attributes.get(0).value.split("-")[0]))
+                            return 1;
+                        if (Float.parseFloat(attribute.attributes.get(0).value.split("-")[0]) > Float.parseFloat(t1.attributes.get(0).value.split("-")[0]))
+                            return -1;
+
+                        if(containsEndFrame){
+                            if (Float.parseFloat(attribute.attributes.get(0).value.split("-")[1]) < Float.parseFloat(t1.attributes.get(0).value.split("-")[1]))
+                                return -1;
+                            if (Float.parseFloat(attribute.attributes.get(0).value.split("-")[1]) > Float.parseFloat(t1.attributes.get(0).value.split("-")[1]))
+                                return 1;
+                        }
+
+                        if(attribute.attributes.size()>=2){
+                            if (Float.parseFloat(attribute.attributes.get(1).value.split("-")[0]) < Float.parseFloat(t1.attributes.get(1).value.split("-")[0]))
+                                return 1;
+                            if (Float.parseFloat(attribute.attributes.get(1).value.split("-")[0]) > Float.parseFloat(t1.attributes.get(1).value.split("-")[0]))
+                                return -1;
+                        }
+
+                        return 0;
+                    }
+                });
+
+            }else {
+
+                Collections.sort(list, new Comparator<Attribute>() {
+                    @Override
+                    public int compare(Attribute attribute, Attribute t1) {
+                        boolean containsEndFrame = attribute.attributes.get(0).value.contains("-");
+                        if (Float.parseFloat(attribute.attributes.get(0).value.split("-")[0]) < Float.parseFloat(t1.attributes.get(0).value.split("-")[0]))
+                            return -1;
+                        if (Float.parseFloat(attribute.attributes.get(0).value.split("-")[0]) > Float.parseFloat(t1.attributes.get(0).value.split("-")[0]))
+                            return 1;
+
+                        if(containsEndFrame){
+                            if (Float.parseFloat(attribute.attributes.get(0).value.split("-")[1]) < Float.parseFloat(t1.attributes.get(0).value.split("-")[1]))
+                                return 1;
+                            if (Float.parseFloat(attribute.attributes.get(0).value.split("-")[1]) > Float.parseFloat(t1.attributes.get(0).value.split("-")[1]))
+                                return -1;
+                        }
+
+                        if(attribute.attributes.size()>=2){
+                            if (Float.parseFloat(attribute.attributes.get(1).value.split("-")[0]) < Float.parseFloat(t1.attributes.get(1).value.split("-")[0]))
+                                return -1;
+                            if (Float.parseFloat(attribute.attributes.get(1).value.split("-")[0]) > Float.parseFloat(t1.attributes.get(1).value.split("-")[0]))
+                                return 1;
+                        }
+
+                        return 0;
+                    }
+                });
+            }
 
             int i=1;
             for(Attribute a : list){
