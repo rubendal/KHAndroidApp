@@ -36,7 +36,7 @@ public class AttributeFragment extends KHFragment {
 
     @Override
     public String getTitle() {
-        return String.format("%s/%s",character.getCharacterTitleName(), "Attributes");
+        return String.format("%s/%s",character.getCharacterTitleName(), "Detailed attributes");
     }
 
     @Override

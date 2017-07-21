@@ -87,7 +87,7 @@ public class AttributeAdapter extends BaseAdapter {
 
 
         if(attribute != null) {
-            name.setText(attribute.name);
+            name.setText(attribute.formattedName);
             Bitmap image = attribute.getImage(context);
             if(image != null) {
                 img.setImageBitmap(image);

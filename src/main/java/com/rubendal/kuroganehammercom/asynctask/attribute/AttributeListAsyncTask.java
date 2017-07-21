@@ -17,6 +17,7 @@ import com.rubendal.kuroganehammercom.util.Storage;
 
 import org.json.JSONArray;
 
+import java.util.Collections;
 import java.util.LinkedList;
 
 public class AttributeListAsyncTask extends AsyncTask<String, String, LinkedList<AttributeName>> {
@@ -58,6 +59,7 @@ public class AttributeListAsyncTask extends AsyncTask<String, String, LinkedList
             for(int i=0;i<jsonArray.length();i++){
                 attributes.add(AttributeName.getFromJson(jsonArray.getJSONObject(i)));
             }
+            Collections.sort(attributes);
             return attributes;
         } catch (Exception e) {
 

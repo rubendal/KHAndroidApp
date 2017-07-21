@@ -26,12 +26,18 @@ import java.util.List;
 
 public class Attribute implements Serializable {
 
-    public String name;
+    public String name, formattedName="";
     public List<AttributeValue> attributes;
     public int ownerId;
 
     private Attribute(String name, List<AttributeValue> attributes, int ownerId){
         this.name = name;
+        String[] w = name.split("(?<=.)(?=\\p{Lu})");
+        for(String s : w){
+            if(s!=null)
+                this.formattedName += s + " ";
+        }
+        this.formattedName = this.formattedName.trim();
         this.attributes = attributes;
         this.ownerId = ownerId;
     }
@@ -61,7 +67,7 @@ public class Attribute implements Serializable {
 
             return new Attribute(name, attributes, owner);
         }catch(Exception e){
-            System.out.println(e.getMessage());
+
         }
         return null;
     }
@@ -78,7 +84,7 @@ public class Attribute implements Serializable {
             TextView valueView = (TextView)tableRow.findViewById(R.id.value);
             TextView typeView = (TextView)tableRow.findViewById(R.id.type);
 
-            attributeView.setText(name);
+            attributeView.setText(formattedName);
             typeView.setText(a.name);
             valueView.setText(a.value);
 

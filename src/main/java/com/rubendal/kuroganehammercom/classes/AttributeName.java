@@ -4,19 +4,27 @@ package com.rubendal.kuroganehammercom.classes;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.support.annotation.NonNull;
 
 import org.json.JSONObject;
 
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.Serializable;
+import java.util.Comparator;
 
-public class AttributeName implements Serializable {
+public class AttributeName implements Serializable, Comparable<AttributeName> {
 
-    public String name;
+    public String name, formattedName ="";
 
     public AttributeName(String name){
         this.name = name;
+        String[] w = name.split("(?<=.)(?=\\p{Lu})");
+        for(String s : w){
+            if(s!=null)
+                this.formattedName += s + " ";
+        }
+        this.formattedName = this.formattedName.trim();
     }
 
     public static AttributeName getFromJson(JSONObject jsonObject){
@@ -43,5 +51,10 @@ public class AttributeName implements Serializable {
             }
         }
         return thumb;
+    }
+
+    @Override
+    public int compareTo(@NonNull AttributeName attributeName) {
+        return name.compareTo(attributeName.name);
     }
 }

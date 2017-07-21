@@ -111,15 +111,15 @@ public class ResultFragment extends Fragment {
             }else{
                 if(response.shield_hitlag != null){
                     o++;
-                    layout.addView(buildRow("Shield Hitlag", response.shield_hitlag, o % 2 == 1));
+                    layout.addView(buildRow("Shield Hitlag", String.valueOf(response.shield_hitlag) + " frames", o % 2 == 1));
                 }
                 if(response.shield_stun != null){
                     o++;
-                    layout.addView(buildRow("Shield Stun", response.shield_stun, o % 2 == 1));
+                    layout.addView(buildRow("Shield Stun", String.valueOf(response.shield_stun) + " frames", o % 2 == 1));
                 }
                 if(response.shield_advantage != null){
                     o++;
-                    layout.addView(buildRow("Shield Advantage", response.shield_advantage, o % 2 == 1));
+                    layout.addView(buildRow("Shield Advantage", String.valueOf(response.shield_advantage) + " frames", o % 2 == 1));
                 }
             }
         }

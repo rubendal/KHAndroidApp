@@ -36,7 +36,7 @@ public class AttributeRankingFragment extends KHFragment {
 
     @Override
     public String getTitle() {
-        return String.format("%s", attributeName.name);
+        return String.format("%s", attributeName.formattedName);
     }
 
     public static AttributeRankingFragment newInstance(AttributeName attributeName, LinkedList<AttributeRank> ranks){
