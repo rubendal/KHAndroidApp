@@ -4,6 +4,7 @@ import android.app.ProgressDialog;
 import android.os.AsyncTask;
 import android.widget.Toast;
 
+import com.rubendal.kuroganehammercom.classes.AttributeName;
 import com.rubendal.kuroganehammercom.fragments.KHFragment;
 import com.rubendal.kuroganehammercom.util.Storage;
 import com.rubendal.kuroganehammercom.classes.Character;
@@ -117,6 +118,22 @@ public class KHUpdate extends AsyncTask<String, String, Boolean> {
                 Storage.write(String.valueOf(c.id),"attributes.json",context.getActivity(),attributes);
                 Storage.write(String.valueOf(c.id),"movements.json",context.getActivity(),movements);
             }
+
+            LinkedList<AttributeName> attrNames = new LinkedList<>();
+            jsonArray = new JSONArray(attributeNames);
+            for(int i=0;i<jsonArray.length();i++){
+                attrNames.add(AttributeName.getFromJson(jsonArray.getJSONObject(i)));
+            }
+
+            for(AttributeName a : attrNames){
+                String attrData = sendRequest(HOST + "/api/characterattributes/name/" + a.name);
+
+                if(attrData.isEmpty())
+                    return false;
+
+                Storage.write(a.name.toLowerCase(),"attributes.json", context.getActivity(), attrData);
+            }
+
             return true;
         }catch(Exception e){
 

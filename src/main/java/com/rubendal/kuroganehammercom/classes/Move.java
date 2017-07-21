@@ -17,7 +17,6 @@ import java.io.Serializable;
 
 public class Move implements Serializable {
 
-    public String id;
     public MoveType moveType;
     public String name;
     public String hitboxActive;
@@ -27,8 +26,7 @@ public class Move implements Serializable {
     public String bkb;
     public String kbg;
 
-    public Move(String id, MoveType moveType, String name, String hitboxActive, String FAF, String baseDamage, String angle, String bkb, String kbg) {
-        this.id = id;
+    public Move(MoveType moveType, String name, String hitboxActive, String FAF, String baseDamage, String angle, String bkb, String kbg) {
         this.moveType = moveType;
         this.name = name;
         this.hitboxActive = hitboxActive;
@@ -91,7 +89,6 @@ public class Move implements Serializable {
 
     public static Move getFromJson(JSONObject jsonObject){
         try {
-            String id = jsonObject.getString("InstanceId");
             MoveType moveType = MoveType.fromValue(jsonObject.getString("MoveType"));
             String name = StringEscapeUtils.unescapeHtml4(jsonObject.getString("Name"));
             String hitboxActive = StringEscapeUtils.unescapeHtml4(jsonObject.getString("HitboxActive"));
@@ -112,7 +109,7 @@ public class Move implements Serializable {
                 bkb = "";
             if(jsonObject.isNull("KnockbackGrowth"))
                 kbg = "";
-            return new Move(id, moveType, name, hitboxActive, FAF, baseDamage, angle, bkb, kbg);
+            return new Move(moveType, name, hitboxActive, FAF, baseDamage, angle, bkb, kbg);
         }catch(Exception e){
             return null;
         }

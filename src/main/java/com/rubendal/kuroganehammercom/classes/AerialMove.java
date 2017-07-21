@@ -19,8 +19,8 @@ public class AerialMove extends Move {
     public String landingLag;
     public String autoCancel;
 
-    public AerialMove(String id, MoveType moveType, String name, String hitboxActive, String FAF, String baseDamage, String angle, String bkb, String kbg, String landingLag, String autoCancel) {
-        super(id, moveType, name, hitboxActive, FAF, baseDamage, angle, bkb, kbg);
+    public AerialMove(MoveType moveType, String name, String hitboxActive, String FAF, String baseDamage, String angle, String bkb, String kbg, String landingLag, String autoCancel) {
+        super(moveType, name, hitboxActive, FAF, baseDamage, angle, bkb, kbg);
         this.landingLag = landingLag;
         this.autoCancel = autoCancel;
     }
@@ -80,7 +80,6 @@ public class AerialMove extends Move {
 
     public static AerialMove getFromJson(JSONObject jsonObject){
         try {
-            String id = jsonObject.getString("InstanceId");
             MoveType moveType = MoveType.fromValue(jsonObject.getString("MoveType"));
             String name = StringEscapeUtils.unescapeHtml4(jsonObject.getString("Name"));
             String hitboxActive = StringEscapeUtils.unescapeHtml4(jsonObject.getString("HitboxActive"));
@@ -107,7 +106,7 @@ public class AerialMove extends Move {
                 landingLag = "";
             if(jsonObject.isNull("AutoCancel"))
                 autoCancel = "";
-            return new AerialMove(id, moveType, name, hitboxActive, FAF, baseDamage, angle, bkb, kbg, landingLag, autoCancel);
+            return new AerialMove(moveType, name, hitboxActive, FAF, baseDamage, angle, bkb, kbg, landingLag, autoCancel);
         }catch(Exception e){
             return null;
         }

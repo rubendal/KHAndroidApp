@@ -26,34 +26,17 @@ import java.util.List;
 
 public class Attribute implements Serializable {
 
-    public String id;
     public String name;
     public List<AttributeValue> attributes;
     public int ownerId;
 
-    private Attribute(String id, String name, List<AttributeValue> attributes, int ownerId){
-        this.id = id;
+    private Attribute(String name, List<AttributeValue> attributes, int ownerId){
         this.name = name;
         this.attributes = attributes;
         this.ownerId = ownerId;
     }
 
-    public Bitmap getImage(Context context){
-        InputStream is;
-        Bitmap thumb = null;
-        try {
-            is = context.getAssets().open("Images/attributes/" + name + "/image.png");
-            thumb = BitmapFactory.decodeStream(is);
-        } catch (IOException e) {
-            try {
-                is = context.getAssets().open("Images/attributes/" + name + "/image.jpg");
-                thumb = BitmapFactory.decodeStream(is);
-            } catch (IOException e2) {
-                thumb = null;
-            }
-        }
-        return thumb;
-    }
+
 
     public LinkedList<String> getAttributeValues(){
         if(attributes.size()==0)
@@ -68,7 +51,6 @@ public class Attribute implements Serializable {
 
     public static Attribute getFromJson(Context context, JSONObject jsonObject){
         try {
-            String id = jsonObject.getString("InstanceId");
             int owner = jsonObject.getInt(("OwnerId"));
             String name = StringEscapeUtils.unescapeHtml4(jsonObject.getString("Name"));
             LinkedList<AttributeValue> attributes = new LinkedList<>();
@@ -77,20 +59,7 @@ public class Attribute implements Serializable {
                 attributes.add(AttributeValue.getFromJson(context, values.getJSONObject(i)));
             }
 
-
-            /*for(AttributeList al : attributeList){
-                if(attribute.attributeId == al.id){
-                    if(attribute.formattedName.equals("VALUE") || attribute.formattedName.equals("INTANGIBILITY") || attribute.formattedName.equals("INTANGIBLE") || attribute.formattedName.equals("FAF") || attribute.formattedName.equals("HEIGHT") || attribute.formattedName.equals("SIZE")){
-                        if(!attribute.name.equals("VALUE")) {
-                            attribute.formattedName = al.name + " " + attribute.name;
-                        }else{
-                            attribute.formattedName = al.name;
-                        }
-                        return attribute;
-                    }
-                }
-            }*/
-            return new Attribute(id, name, attributes, owner);
+            return new Attribute(name, attributes, owner);
         }catch(Exception e){
             System.out.println(e.getMessage());
         }

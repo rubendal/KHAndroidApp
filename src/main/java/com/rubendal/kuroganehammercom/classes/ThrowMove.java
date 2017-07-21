@@ -19,8 +19,8 @@ public class ThrowMove extends Move {
 
     public boolean weightDependent;
 
-    public ThrowMove(String id, MoveType moveType, String name, String hitboxActive, String FAF, String baseDamage, String angle, String bkb, String kbg, boolean weightDependent) {
-        super(id, moveType, name, hitboxActive, FAF, baseDamage, angle, bkb, kbg);
+    public ThrowMove(MoveType moveType, String name, String hitboxActive, String FAF, String baseDamage, String angle, String bkb, String kbg, boolean weightDependent) {
+        super(moveType, name, hitboxActive, FAF, baseDamage, angle, bkb, kbg);
         this.weightDependent = weightDependent;
     }
 
@@ -67,7 +67,6 @@ public class ThrowMove extends Move {
 
     public static ThrowMove getFromJson(JSONObject moveData){
         try {
-            String id = moveData.getString("InstanceId");
             MoveType moveType = MoveType.fromValue(moveData.getString("MoveType"));
             String name = StringEscapeUtils.unescapeHtml4(moveData.getString("Name"));
             String hitboxActive = StringEscapeUtils.unescapeHtml4(moveData.getString("HitboxActive"));
@@ -89,7 +88,7 @@ public class ThrowMove extends Move {
                 bkb = "";
             if(moveData.isNull("KnockbackGrowth"))
                 kbg = "";
-            return new ThrowMove(id, moveType, name, hitboxActive, FAF, baseDamage, angle, bkb, kbg, weightDependent);
+            return new ThrowMove(moveType, name, hitboxActive, FAF, baseDamage, angle, bkb, kbg, weightDependent);
         }catch(Exception e){
             return null;
         }

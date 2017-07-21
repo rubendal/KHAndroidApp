@@ -9,6 +9,7 @@ import com.rubendal.kuroganehammercom.MainActivity;
 import com.rubendal.kuroganehammercom.adapter.AttributeAdapter;
 import com.rubendal.kuroganehammercom.adapter.CharacterAdapter;
 import com.rubendal.kuroganehammercom.classes.Attribute;
+import com.rubendal.kuroganehammercom.classes.AttributeName;
 import com.rubendal.kuroganehammercom.classes.Character;
 import com.rubendal.kuroganehammercom.fragments.AttributeMainFragment;
 import com.rubendal.kuroganehammercom.fragments.CharacterFragment;
@@ -18,15 +19,13 @@ import org.json.JSONArray;
 
 import java.util.LinkedList;
 
-public class AttributeListAsyncTask{
-/*
-public class AttributeListAsyncTask extends AsyncTask<String, String, LinkedList<AttributeList>> {
+public class AttributeListAsyncTask extends AsyncTask<String, String, LinkedList<AttributeName>> {
 
     private AttributeMainFragment context;
     private ProgressDialog dialog;
     private String title;
     private int x;
-    private LinkedList<AttributeList> attributes = new LinkedList<>();
+    private LinkedList<AttributeName> attributes = new LinkedList<>();
 
     public AttributeListAsyncTask(AttributeMainFragment context, int x){
         this.context = context;
@@ -52,12 +51,12 @@ public class AttributeListAsyncTask extends AsyncTask<String, String, LinkedList
     }
 
     @Override
-    protected LinkedList<AttributeList> doInBackground(String... params) {
+    protected LinkedList<AttributeName> doInBackground(String... params) {
         try {
-            String json = Storage.read("data","attributes.json",context.getActivity());
+            String json = Storage.read("data","attributeNames.json",context.getActivity());
             JSONArray jsonArray = new JSONArray(json);
             for(int i=0;i<jsonArray.length();i++){
-                attributes.add(AttributeList.getFromJson(context.getActivity(), jsonArray.getJSONObject(i)));
+                attributes.add(AttributeName.getFromJson(jsonArray.getJSONObject(i)));
             }
             return attributes;
         } catch (Exception e) {
@@ -67,7 +66,7 @@ public class AttributeListAsyncTask extends AsyncTask<String, String, LinkedList
     }
 
     @Override
-    protected void onPostExecute(LinkedList<AttributeList> s) {
+    protected void onPostExecute(LinkedList<AttributeName> s) {
         super.onPostExecute(s);
         if(dialog!=null){
             dialog.dismiss();
@@ -82,11 +81,11 @@ public class AttributeListAsyncTask extends AsyncTask<String, String, LinkedList
                 @Override
                 public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                     context.selectedItem = position;
-                    AttributeList attribute = (AttributeList) parent.getItemAtPosition(position);
+                    AttributeName attribute = (AttributeName) parent.getItemAtPosition(position);
                     AttributeRankingAsyncTask a = new AttributeRankingAsyncTask(context, attribute);
                     a.execute();
                 }
             });
         }
-    }*/
+    }
 }

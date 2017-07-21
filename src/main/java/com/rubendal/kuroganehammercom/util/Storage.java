@@ -4,6 +4,7 @@ import android.content.Context;
 import android.content.res.AssetManager;
 import android.util.Log;
 
+import com.rubendal.kuroganehammercom.classes.AttributeName;
 import com.rubendal.kuroganehammercom.classes.Character;
 
 import org.json.JSONArray;
@@ -101,6 +102,12 @@ public class Storage {
             //write("data","smashAttributes.json",context,json);
             json = Assets.getAsset(assets, "Data/attributeNames.json");
             write("data","attributeNames.json",context,json);
+            LinkedList<AttributeName> attrNames = new LinkedList<>();
+            jsonArray = new JSONArray(json);
+            for(int i=0;i<jsonArray.length();i++){
+                attrNames.add(AttributeName.getFromJson(jsonArray.getJSONObject(i)));
+            }
+
             for(Character c : list){
                 json = Assets.getAsset(assets, "Data/" + c.id + "/moves.json");
                 write(String.valueOf(c.id),"moves.json",context,json);
@@ -114,8 +121,14 @@ public class Storage {
                     json = Assets.getAsset(assets, "Data/" + c.id + "/specificAttributes.json");
                     write(String.valueOf(c.id),"specificAttributes.json",context,json);
                 }catch(Exception ei){
-                    System.out.println("Error initializing storage: " + ei.getMessage());
+
                 }
+
+            }
+
+            for(AttributeName a : attrNames){
+                json = Assets.getAsset(assets, "Data/Attributes/" + a.name.toLowerCase() + "/attributes.json");
+                write(a.name.toLowerCase(),"attributes.json",context,json);
             }
             write("init","temp.bin",context,STORAGE_DATA_VERSION);
         } catch (Exception e) {

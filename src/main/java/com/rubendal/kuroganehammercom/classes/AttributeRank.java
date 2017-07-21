@@ -18,23 +18,34 @@ import java.util.LinkedList;
 public class AttributeRank implements Serializable {
 
     public Character character;
-    public int id, rank;
-    public String name, attribute;
+    public Attribute attribute;
+    public int rank;
+    public String name;
+    public LinkedList<String> types = new LinkedList<>();
     public HashMap<String, String> values = new HashMap<>();
 
-    public AttributeRank(int id, String attribute, String name, Character character){
-        this.id = id;
+    public AttributeRank(String name, Attribute attribute, Character character){
         this.attribute = attribute;
         this.name = name;
         this.character = character;
         this.rank = -1;
+
+        for(AttributeValue v : attribute.attributes){
+            types.add(v.name);
+            values.put(v.name, v.value);
+        }
+    }
+
+    public AttributeRank(String name, Attribute attribute, Character character, int rank){
+        this(name, attribute, character);
+        this.rank = rank;
     }
 
     public void add(String type, String value){
         values.put(type, value);
     }
 
-    public TableRow asRow(Context context, LinkedList<String> types, boolean odd){
+    public TableRow asRow(Context context, boolean odd){
         LayoutInflater vi = (LayoutInflater)context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         View v = vi.inflate(R.layout.attribute_ranking_row, null);
         TableRow tableRow = (TableRow)v.findViewById(R.id.row);

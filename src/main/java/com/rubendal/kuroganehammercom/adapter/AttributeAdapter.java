@@ -19,38 +19,18 @@ import com.rubendal.kuroganehammercom.classes.*;
 import java.util.LinkedList;
 import java.util.List;
 
-//Removed due to ranking removal
-public class AttributeAdapter{
-//public class AttributeAdapter extends BaseAdapter {
+public class AttributeAdapter extends BaseAdapter {
 
-    /*private Context context;
-    private List<AttributeList> list;
+    private Context context;
+    private List<AttributeName> list;
     private int x;
 
-    public AttributeAdapter(Context context, LinkedList<AttributeList> attributes, int x)
+    public AttributeAdapter(Context context, LinkedList<AttributeName> attributes, int x)
     {
         this.context = context;
         this.x = x;
         this.list = attributes;
 
-        //Remove all attributes that don't have data
-        LinkedList<AttributeList> emptyAttributeList = new LinkedList<>();
-
-        boolean hasOne = false;
-        for(AttributeList a : this.list){
-            hasOne = false;
-            for(AttributeList attr : attributes){
-                if(attr.name == a.name){
-                    hasOne = true;
-                    break;
-                }
-            }
-            if(!hasOne){
-                emptyAttributeList.add(a);
-            }
-        }
-
-        this.list.removeAll(emptyAttributeList);
     }
 
     @Override
@@ -70,7 +50,7 @@ public class AttributeAdapter{
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-        AttributeList attribute = list.get(position);
+        AttributeName attribute = list.get(position);
 
         if(convertView == null){
             convertView =  LayoutInflater.from(context).inflate(R.layout.character_grid_layout, parent, false);
@@ -118,5 +98,5 @@ public class AttributeAdapter{
 
         return convertView;
     }
-    */
+
 }

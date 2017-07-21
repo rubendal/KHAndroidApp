@@ -16,11 +16,9 @@ import java.io.Serializable;
 
 public class Movement implements Serializable {
 
-    public String id;
     public String name, value;
 
-    public Movement(String id, String name, String value){
-        this.id = id;
+    public Movement(String name, String value){
         this.name = name;
         this.value = value; //.replace("frames"," frames");
     }
@@ -28,8 +26,7 @@ public class Movement implements Serializable {
     public static Movement fromJson(JSONObject jsonObject){
         try {
             String name = jsonObject.getString("Name"), value = jsonObject.getString("Value");
-            String id = jsonObject.getString("InstanceId");
-            return new Movement(id,name,value);
+            return new Movement(name,value);
         }catch(Exception e){
             return null;
         }
