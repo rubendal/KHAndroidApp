@@ -30,7 +30,7 @@ public class Attribute implements Serializable {
     public List<AttributeValue> attributes;
     public int ownerId;
 
-    private Attribute(String name, List<AttributeValue> attributes, int ownerId){
+    public Attribute(String name, List<AttributeValue> attributes, int ownerId){
         this.name = name;
         String[] w = name.split("(?<=.)(?=\\p{Lu})");
         for(String s : w){
