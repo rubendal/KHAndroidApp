@@ -26,12 +26,30 @@ public class AttributeRankMaker {
             "ShortHop",
             "Traction",
             "WalkSpeed",
-            "AirSpeed"
+            "AirSpeed",
+            "RunSpeed",
+            "ShieldSize",
+            "Weight"
+
+    };
+
+    private static String[] FAF_SORT = new String[]{
+            "AirDodge",
+            "Rolls",
+            "Spotdodge"
 
     };
 
     private static boolean usesAsc(String name){
         for(String s : ASC_ATTRIBUTES_SORT){
+            if(s.equals(name))
+                return true;
+        }
+        return false;
+    }
+
+    private static boolean usesFAFDesc(String name){
+        for(String s : FAF_SORT){
             if(s.equals(name))
                 return true;
         }
@@ -75,29 +93,48 @@ public class AttributeRankMaker {
 
         try {
 
+            final boolean usesFAF = usesFAFDesc(list.get(0).name);
+
             if(usesAsc(list.get(0).name)){
 
                 Collections.sort(list, new Comparator<Attribute>() {
                     @Override
                     public int compare(Attribute attribute, Attribute t1) {
                         boolean containsEndFrame = attribute.attributes.get(0).value.contains("-");
-                        if (Float.parseFloat(attribute.attributes.get(0).value.split("-")[0]) < Float.parseFloat(t1.attributes.get(0).value.split("-")[0]))
-                            return 1;
-                        if (Float.parseFloat(attribute.attributes.get(0).value.split("-")[0]) > Float.parseFloat(t1.attributes.get(0).value.split("-")[0]))
-                            return -1;
-
-                        if(containsEndFrame){
-                            if (Float.parseFloat(attribute.attributes.get(0).value.split("-")[1]) < Float.parseFloat(t1.attributes.get(0).value.split("-")[1]))
-                                return -1;
-                            if (Float.parseFloat(attribute.attributes.get(0).value.split("-")[1]) > Float.parseFloat(t1.attributes.get(0).value.split("-")[1]))
+                        if(!usesFAF) {
+                            if (Float.parseFloat(attribute.attributes.get(0).value.split("-")[0]) < Float.parseFloat(t1.attributes.get(0).value.split("-")[0]))
                                 return 1;
-                        }
-
-                        if(attribute.attributes.size()>=2){
-                            if (Float.parseFloat(attribute.attributes.get(1).value.split("-")[0]) < Float.parseFloat(t1.attributes.get(1).value.split("-")[0]))
-                                return 1;
-                            if (Float.parseFloat(attribute.attributes.get(1).value.split("-")[0]) > Float.parseFloat(t1.attributes.get(1).value.split("-")[0]))
+                            if (Float.parseFloat(attribute.attributes.get(0).value.split("-")[0]) > Float.parseFloat(t1.attributes.get(0).value.split("-")[0]))
                                 return -1;
+
+                            if (containsEndFrame) {
+                                if (Float.parseFloat(attribute.attributes.get(0).value.split("-")[1]) < Float.parseFloat(t1.attributes.get(0).value.split("-")[1]))
+                                    return -1;
+                                if (Float.parseFloat(attribute.attributes.get(0).value.split("-")[1]) > Float.parseFloat(t1.attributes.get(0).value.split("-")[1]))
+                                    return 1;
+                            }
+
+
+                        }else{
+                            if (attribute.attributes.size() >= 2) {
+                                if (Float.parseFloat(attribute.attributes.get(1).value.split("-")[0]) < Float.parseFloat(t1.attributes.get(1).value.split("-")[0]))
+                                    return 1;
+                                if (Float.parseFloat(attribute.attributes.get(1).value.split("-")[0]) > Float.parseFloat(t1.attributes.get(1).value.split("-")[0]))
+                                    return -1;
+                            }
+
+
+                            if (Float.parseFloat(attribute.attributes.get(0).value.split("-")[0]) < Float.parseFloat(t1.attributes.get(0).value.split("-")[0]))
+                                return 1;
+                            if (Float.parseFloat(attribute.attributes.get(0).value.split("-")[0]) > Float.parseFloat(t1.attributes.get(0).value.split("-")[0]))
+                                return -1;
+
+                            if(containsEndFrame){
+                                if (Float.parseFloat(attribute.attributes.get(0).value.split("-")[1]) < Float.parseFloat(t1.attributes.get(0).value.split("-")[1]))
+                                    return -1;
+                                if (Float.parseFloat(attribute.attributes.get(0).value.split("-")[1]) > Float.parseFloat(t1.attributes.get(0).value.split("-")[1]))
+                                    return 1;
+                            }
                         }
 
                         return 0;
@@ -110,23 +147,47 @@ public class AttributeRankMaker {
                     @Override
                     public int compare(Attribute attribute, Attribute t1) {
                         boolean containsEndFrame = attribute.attributes.get(0).value.contains("-");
-                        if (Float.parseFloat(attribute.attributes.get(0).value.split("-")[0]) < Float.parseFloat(t1.attributes.get(0).value.split("-")[0]))
-                            return -1;
-                        if (Float.parseFloat(attribute.attributes.get(0).value.split("-")[0]) > Float.parseFloat(t1.attributes.get(0).value.split("-")[0]))
-                            return 1;
 
-                        if(containsEndFrame){
-                            if (Float.parseFloat(attribute.attributes.get(0).value.split("-")[1]) < Float.parseFloat(t1.attributes.get(0).value.split("-")[1]))
-                                return 1;
-                            if (Float.parseFloat(attribute.attributes.get(0).value.split("-")[1]) > Float.parseFloat(t1.attributes.get(0).value.split("-")[1]))
+                        if(!usesFAF){
+                            if (Float.parseFloat(attribute.attributes.get(0).value.split("-")[0]) < Float.parseFloat(t1.attributes.get(0).value.split("-")[0]))
                                 return -1;
-                        }
+                            if (Float.parseFloat(attribute.attributes.get(0).value.split("-")[0]) > Float.parseFloat(t1.attributes.get(0).value.split("-")[0]))
+                                return 1;
 
-                        if(attribute.attributes.size()>=2){
-                            if (Float.parseFloat(attribute.attributes.get(1).value.split("-")[0]) < Float.parseFloat(t1.attributes.get(1).value.split("-")[0]))
+                            if(containsEndFrame){
+                                if (Float.parseFloat(attribute.attributes.get(0).value.split("-")[1]) < Float.parseFloat(t1.attributes.get(0).value.split("-")[1]))
+                                    return 1;
+                                if (Float.parseFloat(attribute.attributes.get(0).value.split("-")[1]) > Float.parseFloat(t1.attributes.get(0).value.split("-")[1]))
+                                    return -1;
+                            }
+
+                            if(attribute.attributes.size()>=2){
+                                if (Float.parseFloat(attribute.attributes.get(1).value.split("-")[0]) < Float.parseFloat(t1.attributes.get(1).value.split("-")[0]))
+                                    return -1;
+                                if (Float.parseFloat(attribute.attributes.get(1).value.split("-")[0]) > Float.parseFloat(t1.attributes.get(1).value.split("-")[0]))
+                                    return 1;
+                            }
+                        }else{
+                            if(attribute.attributes.size()>=2){
+                                if (Float.parseFloat(attribute.attributes.get(1).value.split("-")[0]) < Float.parseFloat(t1.attributes.get(1).value.split("-")[0]))
+                                    return -1;
+                                if (Float.parseFloat(attribute.attributes.get(1).value.split("-")[0]) > Float.parseFloat(t1.attributes.get(1).value.split("-")[0]))
+                                    return 1;
+                            }
+
+                            if (Float.parseFloat(attribute.attributes.get(0).value.split("-")[0]) < Float.parseFloat(t1.attributes.get(0).value.split("-")[0]))
                                 return -1;
-                            if (Float.parseFloat(attribute.attributes.get(1).value.split("-")[0]) > Float.parseFloat(t1.attributes.get(1).value.split("-")[0]))
+                            if (Float.parseFloat(attribute.attributes.get(0).value.split("-")[0]) > Float.parseFloat(t1.attributes.get(0).value.split("-")[0]))
                                 return 1;
+
+                            if(containsEndFrame){
+                                if (Float.parseFloat(attribute.attributes.get(0).value.split("-")[1]) < Float.parseFloat(t1.attributes.get(0).value.split("-")[1]))
+                                    return 1;
+                                if (Float.parseFloat(attribute.attributes.get(0).value.split("-")[1]) > Float.parseFloat(t1.attributes.get(0).value.split("-")[1]))
+                                    return -1;
+                            }
+
+
                         }
 
                         return 0;

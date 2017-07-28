@@ -111,8 +111,6 @@ public class Storage {
             for(Character c : list){
                 json = Assets.getAsset(assets, "Data/" + c.id + "/moves.json");
                 write(String.valueOf(c.id),"moves.json",context,json);
-                //json = Assets.getAsset(assets, "Data/" + c.id + "/throws.json");
-                //write(String.valueOf(c.id),"throws.json",context,json);
                 json = Assets.getAsset(assets, "Data/" + c.id + "/attributes.json");
                 write(String.valueOf(c.id),"attributes.json",context,json);
                 json = Assets.getAsset(assets, "Data/" + c.id + "/movements.json");

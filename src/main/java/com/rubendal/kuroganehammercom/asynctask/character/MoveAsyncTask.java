@@ -25,7 +25,7 @@ public class MoveAsyncTask extends AsyncTask<String, String, LinkedList<Move>> {
     private String title;
     private MoveType type;
     private Character character;
-    private LinkedList<Attribute> attributes;
+    private LinkedList<Move> evasion;
 
     private boolean replace = false;
 
@@ -65,12 +65,12 @@ public class MoveAsyncTask extends AsyncTask<String, String, LinkedList<Move>> {
 
     /*private void getAttributes(){
         try {
-            String json = Storage.read(String.valueOf(character.id), "smashAttributes.json", context.getActivity());
+            String json = Storage.read(String.valueOf(character.id), "attributes.json", context.getActivity());
             attributes = new LinkedList<>();
             JSONArray jsonArray = new JSONArray(json);
             for (int i = 0; i < jsonArray.length(); i++) {
                 Attribute a = Attribute.getFromJson(context.getActivity(), jsonArray.getJSONObject(i));
-                if(a.formattedName.contains("AIRDODGE") || a.formattedName.contains("ROLLS") || a.formattedName.contains("SPOTDODGE")) {
+                if(a.name.contains("AirDodge") || a.name.contains("Rolls") || a.name.contains("Spotdodge")) {
                     attributes.add(a);
                 }
             }
@@ -85,7 +85,7 @@ public class MoveAsyncTask extends AsyncTask<String, String, LinkedList<Move>> {
             String json = Storage.read(String.valueOf(character.id),"moves.json",context.getActivity());
             LinkedList<Move> list = new LinkedList<>();
             JSONArray jsonArray = new JSONArray(json);
-            JSONArray t = null;
+            evasion = new LinkedList<>();
             for(int i=0;i<jsonArray.length();i++){
                 Move move = Move.getFromJson(jsonArray.getJSONObject(i));
                 if(type == MoveType.Any){
@@ -101,6 +101,9 @@ public class MoveAsyncTask extends AsyncTask<String, String, LinkedList<Move>> {
                             break;
                         case Throw:
                             list.add(ThrowMove.getFromJson(jsonArray.getJSONObject(i)));
+                            break;
+                        case Evasion:
+                            evasion.add(Move.getFromJson(jsonArray.getJSONObject(i)));
                             break;
                     }
                     //getAttributes();
@@ -121,6 +124,8 @@ public class MoveAsyncTask extends AsyncTask<String, String, LinkedList<Move>> {
                                 list.add(ThrowMove.getFromJson(jsonArray.getJSONObject(i)));
                                 break;
                         }
+                    }else if(move.moveType == MoveType.Evasion && type == MoveType.Ground){
+                        evasion.add(Move.getFromJson(jsonArray.getJSONObject(i)));
                     }
                 }
 
@@ -139,9 +144,9 @@ public class MoveAsyncTask extends AsyncTask<String, String, LinkedList<Move>> {
             dialog.dismiss();
         }
         if(replace){
-            ((MainActivity)context.getActivity()).replaceFragment(AttackListFragment.newInstance(character,type,s, attributes));
+            ((MainActivity)context.getActivity()).replaceFragment(AttackListFragment.newInstance(character,type,s, evasion));
         }else {
-            ((MainActivity) context.getActivity()).loadFragment(AttackListFragment.newInstance(character, type, s, attributes));
+            ((MainActivity) context.getActivity()).loadFragment(AttackListFragment.newInstance(character, type, s, evasion));
         }
     }
 }
