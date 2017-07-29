@@ -67,7 +67,7 @@ public class ResultFragment extends Fragment {
                 o++;
                 layout.addView(buildRow("Paralysis time", String.valueOf(response.paralysis_time) + " frames", o % 2 == 1));
             }
-            if(response.rage!=1){
+            if(response.rage != 1){
                 o++;
                 layout.addView(buildRow("Rage", response.rage, o % 2 == 1));
             }
@@ -97,12 +97,16 @@ public class ResultFragment extends Fragment {
             }
             o++;
             layout.addView(buildRow("Horizontal Launch Speed", response.horizontal_launch_speed, o % 2 == 1));
-            if(response.gravity_boost != 1) {
+            if(response.gravity_boost != 0) {
                 o++;
                 layout.addView(buildRow("Gravity boost", response.gravity_boost, o % 2 == 1));
             }
             o++;
             layout.addView(buildRow("Vertical Launch Speed", response.vertical_launch_speed, o % 2 == 1));
+            if(response.hit_advantage != null){
+                o++;
+                layout.addView(buildRow("Hit advantage", String.valueOf(response.hit_advantage) + " frames", o % 2 == 1));
+            }
             o++;
             layout.addView(buildRow("Can jab lock", response.can_jab_lock ? "Yes" : "No", o % 2 == 1));
             if(response.unblockable){
