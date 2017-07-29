@@ -12,6 +12,7 @@ https://play.google.com/store/apps/details?id=com.rubendal.kuroganehammercom
 * View frame data without an Internet connection on your Android device
 * Favorite characters to put them on top of the list
 * Manual sync with the KH API to get updates from the site
+* Memes
 
 ### Issues and Feedback
 You can [open an Issue here](https://github.com/rubendal/KHAndroidApp/issues) or DM me on [Twitter](https://twitter.com/Ruben_dal) your issues and feedback
