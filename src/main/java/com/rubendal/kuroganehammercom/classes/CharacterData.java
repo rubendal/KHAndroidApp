@@ -8,12 +8,12 @@ public class CharacterData implements Serializable {
     public Character character;
     public LinkedList<Movement> movement;
     public LinkedList<Move> moveList;
-    public LinkedList<Attribute> attributes;
+    public LinkedList<Move> evasion;
 
-    public CharacterData(Character character, LinkedList<Movement> movement, LinkedList<Move> moves, LinkedList<Attribute> attributes){
+    public CharacterData(Character character, LinkedList<Movement> movement, LinkedList<Move> moves, LinkedList<Move> evasion){
         this.character = character;
         this.movement = movement;
         this.moveList = moves;
-        this.attributes = attributes;
+        this.evasion = evasion;
     }
 }

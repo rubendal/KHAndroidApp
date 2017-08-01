@@ -157,7 +157,7 @@ public class AttackListFragment extends KHFragment {
                 for (Move move : evasion) {
                     if (move != null) {
                         o++;
-                        layout.addView(move.asRow(this.getActivity(), o % 2 == 1));
+                        layout.addView(new DodgeData(move).asRow(this.getActivity(), o % 2 == 1));
                     }
                 }
 
@@ -220,7 +220,7 @@ public class AttackListFragment extends KHFragment {
             for (Move move : evasion) {
                 if (move != null) {
                     o++;
-                    layout.addView(move.asRow(this.getActivity(), o % 2 == 1));
+                    layout.addView(new DodgeData(move).asRow(this.getActivity(), o % 2 == 1));
                 }
             }
 

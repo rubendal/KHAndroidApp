@@ -79,6 +79,11 @@ public class MoveAsyncTask extends AsyncTask<String, String, LinkedList<Move>> {
         }
     }*/
 
+    //Used for now until API removes MoveType:"ground" for rolls/spotdodge/airdodge
+    private boolean isEvasion(String name){
+        return name.equals("Forward Roll") || name.equals("Back Roll") || name.equals("Spotdodge") || name.equals("Airdodge");
+    }
+
     @Override
     protected LinkedList<Move> doInBackground(String... params) {
         try {
@@ -94,16 +99,20 @@ public class MoveAsyncTask extends AsyncTask<String, String, LinkedList<Move>> {
                             list.add(AerialMove.getFromJson(jsonArray.getJSONObject(i)));
                             break;
                         case Ground:
-                            list.add(Move.getFromJson(jsonArray.getJSONObject(i)));
+                            if(!isEvasion(move.name)) {
+                                list.add(move);
+                            }else{
+                                evasion.add(move);
+                            }
                             break;
                         case Special:
-                            list.add(Move.getFromJson(jsonArray.getJSONObject(i)));
+                            list.add(move);
                             break;
                         case Throw:
                             list.add(ThrowMove.getFromJson(jsonArray.getJSONObject(i)));
                             break;
                         case Evasion:
-                            evasion.add(Move.getFromJson(jsonArray.getJSONObject(i)));
+                            evasion.add(move);
                             break;
                     }
                     //getAttributes();
@@ -114,18 +123,21 @@ public class MoveAsyncTask extends AsyncTask<String, String, LinkedList<Move>> {
                                 list.add(AerialMove.getFromJson(jsonArray.getJSONObject(i)));
                                 break;
                             case Ground:
-                                list.add(Move.getFromJson(jsonArray.getJSONObject(i)));
-                                //getAttributes();
+                                if(!isEvasion(move.name)) {
+                                    list.add(move);
+                                }else{
+                                    evasion.add(move);
+                                }
                                 break;
                             case Special:
-                                list.add(Move.getFromJson(jsonArray.getJSONObject(i)));
+                                list.add(move);
                                 break;
                             case Throw:
                                 list.add(ThrowMove.getFromJson(jsonArray.getJSONObject(i)));
                                 break;
                         }
                     }else if(move.moveType == MoveType.Evasion && type == MoveType.Ground){
-                        evasion.add(Move.getFromJson(jsonArray.getJSONObject(i)));
+                        evasion.add(move);
                     }
                 }
 

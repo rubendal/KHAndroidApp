@@ -22,7 +22,7 @@ public class ResultFragment extends Fragment {
     private KBResponse response;
 
     public ResultFragment() {
-        // Required empty public constructor
+
     }
 
 

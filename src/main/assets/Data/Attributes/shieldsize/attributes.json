@@ -1,0 +1,1394 @@
+﻿[
+  {
+    "InstanceId": "597948a84696597030a840fa",
+    "Name": "ShieldSize",
+    "OwnerId": 1,
+    "Owner": "Bayonetta",
+    "Values": [
+      {
+        "Value": "11.13",
+        "Owner": "Bayonetta",
+        "OwnerId": 1,
+        "Name": "SIZE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597948a84696597030a840fa"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Bayonetta"
+      }
+    ]
+  },
+  {
+    "InstanceId": "597948ac4696597030a84152",
+    "Name": "ShieldSize",
+    "OwnerId": 2,
+    "Owner": "Bowser",
+    "Values": [
+      {
+        "Value": "16.8",
+        "Owner": "Bowser",
+        "OwnerId": 2,
+        "Name": "SIZE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597948ac4696597030a84152"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Bowser"
+      }
+    ]
+  },
+  {
+    "InstanceId": "597948af4696597030a841af",
+    "Name": "ShieldSize",
+    "OwnerId": 3,
+    "Owner": "BowserJr",
+    "Values": [
+      {
+        "Value": "10.815",
+        "Owner": "BowserJr",
+        "OwnerId": 3,
+        "Name": "SIZE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597948af4696597030a841af"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/BowserJr"
+      }
+    ]
+  },
+  {
+    "InstanceId": "597948b14696597030a8420e",
+    "Name": "ShieldSize",
+    "OwnerId": 4,
+    "Owner": "CaptainFalcon",
+    "Values": [
+      {
+        "Value": "10.5",
+        "Owner": "CaptainFalcon",
+        "OwnerId": 4,
+        "Name": "SIZE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597948b14696597030a8420e"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/CaptainFalcon"
+      }
+    ]
+  },
+  {
+    "InstanceId": "597948b44696597030a8425d",
+    "Name": "ShieldSize",
+    "OwnerId": 5,
+    "Owner": "Charizard",
+    "Values": [
+      {
+        "Value": "12.327",
+        "Owner": "Charizard",
+        "OwnerId": 5,
+        "Name": "SIZE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597948b44696597030a8425d"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Charizard"
+      }
+    ]
+  },
+  {
+    "InstanceId": "597948b74696597030a842cd",
+    "Name": "ShieldSize",
+    "OwnerId": 6,
+    "Owner": "Cloud",
+    "Values": [
+      {
+        "Value": "11.445",
+        "Owner": "Cloud",
+        "OwnerId": 6,
+        "Name": "SIZE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597948b74696597030a842cd"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud"
+      }
+    ]
+  },
+  {
+    "InstanceId": "597948ba4696597030a84338",
+    "Name": "ShieldSize",
+    "OwnerId": 7,
+    "Owner": "Corrin",
+    "Values": [
+      {
+        "Value": "11.13",
+        "Owner": "Corrin",
+        "OwnerId": 7,
+        "Name": "SIZE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597948ba4696597030a84338"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Corrin"
+      }
+    ]
+  },
+  {
+    "InstanceId": "597948bc4696597030a84390",
+    "Name": "ShieldSize",
+    "OwnerId": 8,
+    "Owner": "DarkPit",
+    "Values": [
+      {
+        "Value": "11.025",
+        "Owner": "DarkPit",
+        "OwnerId": 8,
+        "Name": "SIZE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597948bc4696597030a84390"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DarkPit"
+      }
+    ]
+  },
+  {
+    "InstanceId": "597948c04696597030a843e8",
+    "Name": "ShieldSize",
+    "OwnerId": 9,
+    "Owner": "DiddyKong",
+    "Values": [
+      {
+        "Value": "8.4",
+        "Owner": "DiddyKong",
+        "OwnerId": 9,
+        "Name": "SIZE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597948c04696597030a843e8"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DiddyKong"
+      }
+    ]
+  },
+  {
+    "InstanceId": "597948c34696597030a84445",
+    "Name": "ShieldSize",
+    "OwnerId": 10,
+    "Owner": "DonkeyKong",
+    "Values": [
+      {
+        "Value": "13.545",
+        "Owner": "DonkeyKong",
+        "OwnerId": 10,
+        "Name": "SIZE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597948c34696597030a84445"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DonkeyKong"
+      }
+    ]
+  },
+  {
+    "InstanceId": "597948c64696597030a84499",
+    "Name": "ShieldSize",
+    "OwnerId": 11,
+    "Owner": "DrMario",
+    "Values": [
+      {
+        "Value": "9.702",
+        "Owner": "DrMario",
+        "OwnerId": 11,
+        "Name": "SIZE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597948c64696597030a84499"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DrMario"
+      }
+    ]
+  },
+  {
+    "InstanceId": "597948c84696597030a844f4",
+    "Name": "ShieldSize",
+    "OwnerId": 12,
+    "Owner": "DuckHunt",
+    "Values": [
+      {
+        "Value": "8.925",
+        "Owner": "DuckHunt",
+        "OwnerId": 12,
+        "Name": "SIZE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597948c84696597030a844f4"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DuckHunt"
+      }
+    ]
+  },
+  {
+    "InstanceId": "597948cb4696597030a8454a",
+    "Name": "ShieldSize",
+    "OwnerId": 13,
+    "Owner": "Falco",
+    "Values": [
+      {
+        "Value": "9.975",
+        "Owner": "Falco",
+        "OwnerId": 13,
+        "Name": "SIZE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597948cb4696597030a8454a"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Falco"
+      }
+    ]
+  },
+  {
+    "InstanceId": "597948ce4696597030a845a3",
+    "Name": "ShieldSize",
+    "OwnerId": 14,
+    "Owner": "Fox",
+    "Values": [
+      {
+        "Value": "10.08",
+        "Owner": "Fox",
+        "OwnerId": 14,
+        "Name": "SIZE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597948ce4696597030a845a3"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Fox"
+      }
+    ]
+  },
+  {
+    "InstanceId": "597948d04696597030a845f9",
+    "Name": "ShieldSize",
+    "OwnerId": 15,
+    "Owner": "Ganondorf",
+    "Values": [
+      {
+        "Value": "13.23",
+        "Owner": "Ganondorf",
+        "OwnerId": 15,
+        "Name": "SIZE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597948d04696597030a845f9"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ganondorf"
+      }
+    ]
+  },
+  {
+    "InstanceId": "597948d34696597030a84653",
+    "Name": "ShieldSize",
+    "OwnerId": 16,
+    "Owner": "Greninja",
+    "Values": [
+      {
+        "Value": "9.66",
+        "Owner": "Greninja",
+        "OwnerId": 16,
+        "Name": "SIZE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597948d34696597030a84653"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Greninja"
+      }
+    ]
+  },
+  {
+    "InstanceId": "597948d64696597030a846ad",
+    "Name": "ShieldSize",
+    "OwnerId": 17,
+    "Owner": "Ike",
+    "Values": [
+      {
+        "Value": "11.445",
+        "Owner": "Ike",
+        "OwnerId": 17,
+        "Name": "SIZE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597948d64696597030a846ad"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ike"
+      }
+    ]
+  },
+  {
+    "InstanceId": "597948d84696597030a846f8",
+    "Name": "ShieldSize",
+    "OwnerId": 18,
+    "Owner": "Jigglypuff",
+    "Values": [
+      {
+        "Value": "9.555",
+        "Owner": "Jigglypuff",
+        "OwnerId": 18,
+        "Name": "SIZE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597948d84696597030a846f8"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Jigglypuff"
+      }
+    ]
+  },
+  {
+    "InstanceId": "597948db4696597030a84751",
+    "Name": "ShieldSize",
+    "OwnerId": 19,
+    "Owner": "KingDedede",
+    "Values": [
+      {
+        "Value": "14.07",
+        "Owner": "KingDedede",
+        "OwnerId": 19,
+        "Name": "SIZE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597948db4696597030a84751"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/KingDedede"
+      }
+    ]
+  },
+  {
+    "InstanceId": "597948de4696597030a847b2",
+    "Name": "ShieldSize",
+    "OwnerId": 20,
+    "Owner": "Kirby",
+    "Values": [
+      {
+        "Value": "8.82",
+        "Owner": "Kirby",
+        "OwnerId": 20,
+        "Name": "SIZE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597948de4696597030a847b2"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Kirby"
+      }
+    ]
+  },
+  {
+    "InstanceId": "597948e14696597030a84814",
+    "Name": "ShieldSize",
+    "OwnerId": 21,
+    "Owner": "Link",
+    "Values": [
+      {
+        "Value": "10.29",
+        "Owner": "Link",
+        "OwnerId": 21,
+        "Name": "SIZE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597948e14696597030a84814"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Link"
+      }
+    ]
+  },
+  {
+    "InstanceId": "597948e44696597030a84872",
+    "Name": "ShieldSize",
+    "OwnerId": 22,
+    "Owner": "LittleMac",
+    "Values": [
+      {
+        "Value": "9.8175",
+        "Owner": "LittleMac",
+        "OwnerId": 22,
+        "Name": "SIZE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597948e44696597030a84872"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/LittleMac"
+      }
+    ]
+  },
+  {
+    "InstanceId": "597948e74696597030a848c5",
+    "Name": "ShieldSize",
+    "OwnerId": 23,
+    "Owner": "Lucario",
+    "Values": [
+      {
+        "Value": "9.408",
+        "Owner": "Lucario",
+        "OwnerId": 23,
+        "Name": "SIZE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597948e74696597030a848c5"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucario"
+      }
+    ]
+  },
+  {
+    "InstanceId": "597948e94696597030a8491d",
+    "Name": "ShieldSize",
+    "OwnerId": 24,
+    "Owner": "Lucas",
+    "Values": [
+      {
+        "Value": "8.295",
+        "Owner": "Lucas",
+        "OwnerId": 24,
+        "Name": "SIZE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597948e94696597030a8491d"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucas"
+      }
+    ]
+  },
+  {
+    "InstanceId": "597948ec4696597030a84974",
+    "Name": "ShieldSize",
+    "OwnerId": 25,
+    "Owner": "Lucina",
+    "Values": [
+      {
+        "Value": "12.033",
+        "Owner": "Lucina",
+        "OwnerId": 25,
+        "Name": "SIZE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597948ec4696597030a84974"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucina"
+      }
+    ]
+  },
+  {
+    "InstanceId": "597948ef4696597030a849c9",
+    "Name": "ShieldSize",
+    "OwnerId": 26,
+    "Owner": "Luigi",
+    "Values": [
+      {
+        "Value": "10.836",
+        "Owner": "Luigi",
+        "OwnerId": 26,
+        "Name": "SIZE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597948ef4696597030a849c9"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Luigi"
+      }
+    ]
+  },
+  {
+    "InstanceId": "597948f24696597030a84a1d",
+    "Name": "ShieldSize",
+    "OwnerId": 27,
+    "Owner": "Mario",
+    "Values": [
+      {
+        "Value": "9.702",
+        "Owner": "Mario",
+        "OwnerId": 27,
+        "Name": "SIZE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597948f24696597030a84a1d"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Mario"
+      }
+    ]
+  },
+  {
+    "InstanceId": "597948f54696597030a84a74",
+    "Name": "ShieldSize",
+    "OwnerId": 28,
+    "Owner": "Marth",
+    "Values": [
+      {
+        "Value": "12.033",
+        "Owner": "Marth",
+        "OwnerId": 28,
+        "Name": "SIZE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597948f54696597030a84a74"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Marth"
+      }
+    ]
+  },
+  {
+    "InstanceId": "597948f84696597030a84ae8",
+    "Name": "ShieldSize",
+    "OwnerId": 29,
+    "Owner": "MegaMan",
+    "Values": [
+      {
+        "Value": "9.45",
+        "Owner": "MegaMan",
+        "OwnerId": 29,
+        "Name": "SIZE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597948f84696597030a84ae8"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MegaMan"
+      }
+    ]
+  },
+  {
+    "InstanceId": "597948fb4696597030a84b3e",
+    "Name": "ShieldSize",
+    "OwnerId": 30,
+    "Owner": "MetaKnight",
+    "Values": [
+      {
+        "Value": "9.345",
+        "Owner": "MetaKnight",
+        "OwnerId": 30,
+        "Name": "SIZE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597948fb4696597030a84b3e"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MetaKnight"
+      }
+    ]
+  },
+  {
+    "InstanceId": "597948fd4696597030a84b8a",
+    "Name": "ShieldSize",
+    "OwnerId": 31,
+    "Owner": "Mewtwo",
+    "Values": [
+      {
+        "Value": "11.865",
+        "Owner": "Mewtwo",
+        "OwnerId": 31,
+        "Name": "SIZE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597948fd4696597030a84b8a"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Mewtwo"
+      }
+    ]
+  },
+  {
+    "InstanceId": "597949004696597030a84c03",
+    "Name": "ShieldSize",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "Values": [
+      {
+        "Value": "9.975",
+        "Owner": "MiiSwordfighter",
+        "OwnerId": 34,
+        "Name": "SIZE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597949004696597030a84c03"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter"
+      }
+    ]
+  },
+  {
+    "InstanceId": "597949034696597030a84c7d",
+    "Name": "ShieldSize",
+    "OwnerId": 32,
+    "Owner": "MiiBrawler",
+    "Values": [
+      {
+        "Value": "9.975",
+        "Owner": "MiiBrawler",
+        "OwnerId": 32,
+        "Name": "SIZE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597949034696597030a84c7d"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiBrawler"
+      }
+    ]
+  },
+  {
+    "InstanceId": "597949054696597030a84cde",
+    "Name": "ShieldSize",
+    "OwnerId": 33,
+    "Owner": "MiiGunner",
+    "Values": [
+      {
+        "Value": "9.975",
+        "Owner": "MiiGunner",
+        "OwnerId": 33,
+        "Name": "SIZE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597949054696597030a84cde"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiGunner"
+      }
+    ]
+  },
+  {
+    "InstanceId": "597949084696597030a84d3a",
+    "Name": "ShieldSize",
+    "OwnerId": 35,
+    "Owner": "MrGameWatch",
+    "Values": [
+      {
+        "Value": "9.345",
+        "Owner": "MrGameWatch",
+        "OwnerId": 35,
+        "Name": "SIZE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597949084696597030a84d3a"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MrGameWatch"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5979490b4696597030a84d8f",
+    "Name": "ShieldSize",
+    "OwnerId": 36,
+    "Owner": "Ness",
+    "Values": [
+      {
+        "Value": "8.715",
+        "Owner": "Ness",
+        "OwnerId": 36,
+        "Name": "SIZE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5979490b4696597030a84d8f"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ness"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5979490d4696597030a84de0",
+    "Name": "ShieldSize",
+    "OwnerId": 37,
+    "Owner": "Olimar",
+    "Values": [
+      {
+        "Value": "8.19",
+        "Owner": "Olimar",
+        "OwnerId": 37,
+        "Name": "SIZE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5979490d4696597030a84de0"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Olimar"
+      }
+    ]
+  },
+  {
+    "InstanceId": "597949104696597030a84e3f",
+    "Name": "ShieldSize",
+    "OwnerId": 38,
+    "Owner": "PAC-MAN",
+    "Values": [
+      {
+        "Value": "9.345",
+        "Owner": "PAC-MAN",
+        "OwnerId": 38,
+        "Name": "SIZE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597949104696597030a84e3f"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/PAC-MAN"
+      }
+    ]
+  },
+  {
+    "InstanceId": "597949124696597030a84e8f",
+    "Name": "ShieldSize",
+    "OwnerId": 39,
+    "Owner": "Palutena",
+    "Values": [
+      {
+        "Value": "12.075",
+        "Owner": "Palutena",
+        "OwnerId": 39,
+        "Name": "SIZE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597949124696597030a84e8f"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Palutena"
+      }
+    ]
+  },
+  {
+    "InstanceId": "597949154696597030a84ee9",
+    "Name": "ShieldSize",
+    "OwnerId": 40,
+    "Owner": "Peach",
+    "Values": [
+      {
+        "Value": "10.5",
+        "Owner": "Peach",
+        "OwnerId": 40,
+        "Name": "SIZE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597949154696597030a84ee9"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Peach"
+      }
+    ]
+  },
+  {
+    "InstanceId": "597949174696597030a84f3f",
+    "Name": "ShieldSize",
+    "OwnerId": 41,
+    "Owner": "Pikachu",
+    "Values": [
+      {
+        "Value": "8.82",
+        "Owner": "Pikachu",
+        "OwnerId": 41,
+        "Name": "SIZE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597949174696597030a84f3f"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Pikachu"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5979491a4696597030a84f97",
+    "Name": "ShieldSize",
+    "OwnerId": 42,
+    "Owner": "Pit",
+    "Values": [
+      {
+        "Value": "11.025",
+        "Owner": "Pit",
+        "OwnerId": 42,
+        "Name": "SIZE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5979491a4696597030a84f97"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Pit"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5979491d4696597030a84fe8",
+    "Name": "ShieldSize",
+    "OwnerId": 43,
+    "Owner": "Rob",
+    "Values": [
+      {
+        "Value": "13.104",
+        "Owner": "Rob",
+        "OwnerId": 43,
+        "Name": "SIZE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5979491d4696597030a84fe8"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Rob"
+      }
+    ]
+  },
+  {
+    "InstanceId": "597949204696597030a85052",
+    "Name": "ShieldSize",
+    "OwnerId": 44,
+    "Owner": "Robin",
+    "Values": [
+      {
+        "Value": "11.235",
+        "Owner": "Robin",
+        "OwnerId": 44,
+        "Name": "SIZE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597949204696597030a85052"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Robin"
+      }
+    ]
+  },
+  {
+    "InstanceId": "597949234696597030a850b9",
+    "Name": "ShieldSize",
+    "OwnerId": 45,
+    "Owner": "RosalinaLuma",
+    "Values": [
+      {
+        "Value": "11.655",
+        "Owner": "RosalinaLuma",
+        "OwnerId": 45,
+        "Name": "SIZE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597949234696597030a850b9"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/RosalinaLuma"
+      }
+    ]
+  },
+  {
+    "InstanceId": "597949254696597030a85115",
+    "Name": "ShieldSize",
+    "OwnerId": 46,
+    "Owner": "Roy",
+    "Values": [
+      {
+        "Value": "12.075",
+        "Owner": "Roy",
+        "OwnerId": 46,
+        "Name": "SIZE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597949254696597030a85115"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Roy"
+      }
+    ]
+  },
+  {
+    "InstanceId": "597949284696597030a8517d",
+    "Name": "ShieldSize",
+    "OwnerId": 47,
+    "Owner": "Ryu",
+    "Values": [
+      {
+        "Value": "11.13",
+        "Owner": "Ryu",
+        "OwnerId": 47,
+        "Name": "SIZE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597949284696597030a8517d"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ryu"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5979492b4696597030a851e0",
+    "Name": "ShieldSize",
+    "OwnerId": 48,
+    "Owner": "Samus",
+    "Values": [
+      {
+        "Value": "11.655",
+        "Owner": "Samus",
+        "OwnerId": 48,
+        "Name": "SIZE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5979492b4696597030a851e0"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Samus"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5979492d4696597030a85237",
+    "Name": "ShieldSize",
+    "OwnerId": 49,
+    "Owner": "Sheik",
+    "Values": [
+      {
+        "Value": "11.025",
+        "Owner": "Sheik",
+        "OwnerId": 49,
+        "Name": "SIZE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5979492d4696597030a85237"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sheik"
+      }
+    ]
+  },
+  {
+    "InstanceId": "597949314696597030a8529b",
+    "Name": "ShieldSize",
+    "OwnerId": 50,
+    "Owner": "Shulk",
+    "Values": [
+      {
+        "Value": "10.9515",
+        "Owner": "Shulk",
+        "OwnerId": 50,
+        "Name": "SIZE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597949314696597030a8529b"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Shulk"
+      }
+    ]
+  },
+  {
+    "InstanceId": "597949344696597030a852ef",
+    "Name": "ShieldSize",
+    "OwnerId": 51,
+    "Owner": "Sonic",
+    "Values": [
+      {
+        "Value": "9.87",
+        "Owner": "Sonic",
+        "OwnerId": 51,
+        "Name": "SIZE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597949344696597030a852ef"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sonic"
+      }
+    ]
+  },
+  {
+    "InstanceId": "597949374696597030a85347",
+    "Name": "ShieldSize",
+    "OwnerId": 52,
+    "Owner": "ToonLink",
+    "Values": [
+      {
+        "Value": "8.61",
+        "Owner": "ToonLink",
+        "OwnerId": 52,
+        "Name": "SIZE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597949374696597030a85347"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/ToonLink"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5979493a4696597030a853ab",
+    "Name": "ShieldSize",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "Values": [
+      {
+        "Value": "8.715",
+        "Owner": "Villager",
+        "OwnerId": 53,
+        "Name": "SIZE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5979493a4696597030a853ab"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5979493c4696597030a85400",
+    "Name": "ShieldSize",
+    "OwnerId": 54,
+    "Owner": "Wario",
+    "Values": [
+      {
+        "Value": "9.765",
+        "Owner": "Wario",
+        "OwnerId": 54,
+        "Name": "SIZE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5979493c4696597030a85400"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Wario"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5979493f4696597030a85453",
+    "Name": "ShieldSize",
+    "OwnerId": 55,
+    "Owner": "WiiFitTrainer",
+    "Values": [
+      {
+        "Value": "11.76",
+        "Owner": "WiiFitTrainer",
+        "OwnerId": 55,
+        "Name": "SIZE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5979493f4696597030a85453"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/WiiFitTrainer"
+      }
+    ]
+  },
+  {
+    "InstanceId": "597949414696597030a854a5",
+    "Name": "ShieldSize",
+    "OwnerId": 56,
+    "Owner": "Yoshi",
+    "Values": [
+      {
+        "Value": "7.56",
+        "Owner": "Yoshi",
+        "OwnerId": 56,
+        "Name": "SIZE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597949414696597030a854a5"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Yoshi"
+      }
+    ]
+  },
+  {
+    "InstanceId": "597949444696597030a854f6",
+    "Name": "ShieldSize",
+    "OwnerId": 57,
+    "Owner": "Zelda",
+    "Values": [
+      {
+        "Value": "11.55",
+        "Owner": "Zelda",
+        "OwnerId": 57,
+        "Name": "SIZE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597949444696597030a854f6"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Zelda"
+      }
+    ]
+  },
+  {
+    "InstanceId": "597949474696597030a8554f",
+    "Name": "ShieldSize",
+    "OwnerId": 58,
+    "Owner": "ZeroSuitSamus",
+    "Values": [
+      {
+        "Value": "11.13",
+        "Owner": "ZeroSuitSamus",
+        "OwnerId": 58,
+        "Name": "SIZE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/597949474696597030a8554f"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/ZeroSuitSamus"
+      }
+    ]
+  }
+]

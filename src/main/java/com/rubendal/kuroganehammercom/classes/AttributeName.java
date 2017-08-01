@@ -6,6 +6,8 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.support.annotation.NonNull;
 
+import com.rubendal.kuroganehammercom.util.UserPref;
+
 import org.json.JSONObject;
 
 import java.io.IOException;
@@ -16,6 +18,7 @@ import java.util.Comparator;
 public class AttributeName implements Serializable, Comparable<AttributeName> {
 
     public String name, formattedName ="";
+    public boolean favorite = false;
 
     public AttributeName(String name){
         this.name = name;
@@ -29,7 +32,9 @@ public class AttributeName implements Serializable, Comparable<AttributeName> {
 
     public static AttributeName getFromJson(JSONObject jsonObject){
         try{
-            return new AttributeName(jsonObject.getString("Name"));
+            AttributeName a = new AttributeName(jsonObject.getString("Name"));
+            a.favorite = UserPref.checkAttributeFavorites(a.name);
+            return a;
         }catch(Exception e){
 
         }
@@ -56,5 +61,24 @@ public class AttributeName implements Serializable, Comparable<AttributeName> {
     @Override
     public int compareTo(@NonNull AttributeName attributeName) {
         return name.compareTo(attributeName.name);
+    }
+
+    public static Comparator<AttributeName> getComparator(){
+        Comparator<AttributeName> comparator = new Comparator<AttributeName>() {
+            @Override
+            public int compare(AttributeName c1, AttributeName c2) {
+                if(c1.favorite == c2.favorite){
+                    return c1.name.compareTo(c2.name);
+                }
+                if(c1.favorite){
+                    return -1;
+                }
+                if(c2.favorite){
+                    return 1;
+                }
+                return 0;
+            }
+        };
+        return comparator;
     }
 }

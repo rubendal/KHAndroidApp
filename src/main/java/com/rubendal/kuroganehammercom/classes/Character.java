@@ -94,7 +94,7 @@ public class Character implements Serializable {
             String name = jsonObject.getString("DisplayName"), thumbnail = jsonObject.getString("ThumbnailUrl"), color = jsonObject.getString("ColorTheme");
             int id = jsonObject.getInt("OwnerId");
             Character c = new Character(context, id, name, thumbnail, color);
-            c.favorite = UserPref.checkFavorites(name);
+            c.favorite = UserPref.checkCharacterFavorites(name);
             return c;
         }catch(Exception e){
             return null;

@@ -4,8 +4,10 @@ import android.app.ProgressDialog;
 import android.os.AsyncTask;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.ImageView;
 
 import com.rubendal.kuroganehammercom.MainActivity;
+import com.rubendal.kuroganehammercom.R;
 import com.rubendal.kuroganehammercom.adapter.AttributeAdapter;
 import com.rubendal.kuroganehammercom.adapter.CharacterAdapter;
 import com.rubendal.kuroganehammercom.classes.Attribute;
@@ -14,6 +16,7 @@ import com.rubendal.kuroganehammercom.classes.Character;
 import com.rubendal.kuroganehammercom.fragments.AttributeMainFragment;
 import com.rubendal.kuroganehammercom.fragments.CharacterFragment;
 import com.rubendal.kuroganehammercom.util.Storage;
+import com.rubendal.kuroganehammercom.util.UserPref;
 
 import org.json.JSONArray;
 
@@ -59,7 +62,7 @@ public class AttributeListAsyncTask extends AsyncTask<String, String, LinkedList
             for(int i=0;i<jsonArray.length();i++){
                 attributes.add(AttributeName.getFromJson(jsonArray.getJSONObject(i)));
             }
-            Collections.sort(attributes);
+            Collections.sort(attributes, AttributeName.getComparator());
             return attributes;
         } catch (Exception e) {
 
@@ -86,6 +89,23 @@ public class AttributeListAsyncTask extends AsyncTask<String, String, LinkedList
                     AttributeName attribute = (AttributeName) parent.getItemAtPosition(position);
                     AttributeRankingAsyncTask a = new AttributeRankingAsyncTask(context, attribute);
                     a.execute();
+                }
+            });
+            context.grid.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
+                @Override
+                public boolean onItemLongClick(AdapterView<?> adapterView, View view, int i, long l) {
+                    AttributeName attribute = (AttributeName) adapterView.getItemAtPosition(i);
+                    ImageView fav = (ImageView)view.findViewById(R.id.fav);
+                    if(UserPref.checkAttributeFavorites(attribute.name)){
+                        UserPref.removeFavoriteAttribute(context.getActivity(),attribute.name);
+                        fav.setVisibility(View.INVISIBLE);
+                        attribute.favorite = false;
+                    }else{
+                        UserPref.addFavoriteAttribute(context.getActivity(),attribute.name);
+                        fav.setVisibility(View.VISIBLE);
+                        attribute.favorite = true;
+                    }
+                    return true;
                 }
             });
         }

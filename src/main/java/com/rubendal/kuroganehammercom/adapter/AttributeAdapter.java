@@ -94,6 +94,12 @@ public class AttributeAdapter extends BaseAdapter {
             }else{
                 img.setImageDrawable(ResourcesCompat.getDrawable(context.getResources(), R.drawable.row_shape, null));
             }
+
+            if(attribute.favorite){
+                fav.setVisibility(View.VISIBLE);
+            }else{
+                fav.setVisibility(View.INVISIBLE);
+            }
         }
 
         return convertView;

@@ -60,15 +60,10 @@ public class CharacterDataAsyncTask extends AsyncTask<String, String, CharacterD
         }
     }
 
-    private String getThrow(){
-        try {
-            String json = Storage.read(String.valueOf(character.id),"throws.json",context.getActivity());
-            return json;
-        }
-        catch(Exception e){
 
-        }
-        return null;
+    //Used for now until API removes MoveType:"ground" for rolls/spotdodge/airdodge
+    private boolean isEvasion(String name){
+        return name.equals("Forward Roll") || name.equals("Back Roll") || name.equals("Spotdodge") || name.equals("Airdodge");
     }
 
     @Override
@@ -76,8 +71,8 @@ public class CharacterDataAsyncTask extends AsyncTask<String, String, CharacterD
         try {
             String json = Storage.read(String.valueOf(character.id),"moves.json",context.getActivity());
             LinkedList<Move> list = new LinkedList<>();
+            LinkedList<Move> evasion = new LinkedList<>();
             JSONArray jsonArray = new JSONArray(json);
-            JSONArray t = new JSONArray(getThrow());
             for(int i=0;i<jsonArray.length();i++){
                 Move move = Move.getFromJson(jsonArray.getJSONObject(i));
                 switch (move.moveType) {
@@ -85,13 +80,20 @@ public class CharacterDataAsyncTask extends AsyncTask<String, String, CharacterD
                         list.add(AerialMove.getFromJson(jsonArray.getJSONObject(i)));
                         break;
                     case Ground:
-                        list.add(Move.getFromJson(jsonArray.getJSONObject(i)));
+                        if(!isEvasion(move.name)) {
+                            list.add(move);
+                        }else{
+                            evasion.add(move);
+                        }
                         break;
                     case Special:
-                        list.add(Move.getFromJson(jsonArray.getJSONObject(i)));
+                        list.add(move);
                         break;
                     case Throw:
                         list.add(ThrowMove.getFromJson(jsonArray.getJSONObject(i)));
+                        break;
+                    case Evasion:
+                        evasion.add(move);
                         break;
                 }
             }
@@ -103,15 +105,7 @@ public class CharacterDataAsyncTask extends AsyncTask<String, String, CharacterD
                 movements.add(Movement.fromJson(jsonArray.getJSONObject(i)));
             }
 
-            LinkedList<Attribute> attributes = new LinkedList<>();
-            json = Storage.read(String.valueOf(character.id), "attributes.json", context.getActivity());
-            jsonArray = new JSONArray(json);
-            for (int i = 0; i < jsonArray.length(); i++) {
-                Attribute a = Attribute.getFromJson(context.getActivity(), jsonArray.getJSONObject(i));
-                attributes.add(a);
-            }
-
-            return new CharacterData(character, movements, list, attributes);
+            return new CharacterData(character, movements, list, evasion);
         } catch (Exception e) {
             Log.d("error",e.getMessage());
         }

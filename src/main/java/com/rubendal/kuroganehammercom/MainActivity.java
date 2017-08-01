@@ -108,10 +108,10 @@ public class MainActivity extends AppCompatActivity
                 StartCalculatorAsyncTask s = new StartCalculatorAsyncTask(this, currentFragment instanceof NavigationFragment, "Loading calculator");
                 s.execute();
             }
-        }/*
+        }
         else if (id == R.id.about_credits) {
             startActivity(new Intent(this,AboutActivity.class));
-        }*/
+        }
 
 
         drawer.closeDrawer(GravityCompat.START);

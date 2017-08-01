@@ -20,6 +20,12 @@ public class DodgeData {
         this.faf = faf;
     }
 
+    public DodgeData(Move move){
+        this.attribute = move.name;
+        this.intangibility = move.hitboxActive;
+        this.faf = move.FAF;
+    }
+
     public TableRow asRow(Context context, boolean odd){
         LayoutInflater vi = (LayoutInflater)context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         View v = vi.inflate(R.layout.dodge_row, null);
