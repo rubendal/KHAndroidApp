@@ -4,28 +4,32 @@ import android.app.ProgressDialog;
 import android.os.AsyncTask;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.ImageView;
 
 import com.rubendal.kuroganehammercom.MainActivity;
+import com.rubendal.kuroganehammercom.R;
 import com.rubendal.kuroganehammercom.adapter.AttributeAdapter;
 import com.rubendal.kuroganehammercom.adapter.CharacterAdapter;
 import com.rubendal.kuroganehammercom.classes.Attribute;
-import com.rubendal.kuroganehammercom.classes.AttributeList;
+import com.rubendal.kuroganehammercom.classes.AttributeName;
 import com.rubendal.kuroganehammercom.classes.Character;
 import com.rubendal.kuroganehammercom.fragments.AttributeMainFragment;
 import com.rubendal.kuroganehammercom.fragments.CharacterFragment;
 import com.rubendal.kuroganehammercom.util.Storage;
+import com.rubendal.kuroganehammercom.util.UserPref;
 
 import org.json.JSONArray;
 
+import java.util.Collections;
 import java.util.LinkedList;
 
-public class AttributeListAsyncTask extends AsyncTask<String, String, LinkedList<AttributeList>> {
+public class AttributeListAsyncTask extends AsyncTask<String, String, LinkedList<AttributeName>> {
 
     private AttributeMainFragment context;
     private ProgressDialog dialog;
     private String title;
     private int x;
-    private LinkedList<Attribute> attributes = new LinkedList<>();
+    private LinkedList<AttributeName> attributes = new LinkedList<>();
 
     public AttributeListAsyncTask(AttributeMainFragment context, int x){
         this.context = context;
@@ -51,14 +55,15 @@ public class AttributeListAsyncTask extends AsyncTask<String, String, LinkedList
     }
 
     @Override
-    protected LinkedList<AttributeList> doInBackground(String... params) {
+    protected LinkedList<AttributeName> doInBackground(String... params) {
         try {
-            String json = Storage.read("data","attributes.json",context.getActivity());
+            String json = Storage.read("data","attributeNames.json",context.getActivity());
             JSONArray jsonArray = new JSONArray(json);
             for(int i=0;i<jsonArray.length();i++){
-                attributes.add(Attribute.getFromJson(context.getActivity(), jsonArray.getJSONObject(i)));
+                attributes.add(AttributeName.getFromJson(jsonArray.getJSONObject(i)));
             }
-            return AttributeList.getList(context.getActivity());
+            Collections.sort(attributes, AttributeName.getComparator());
+            return attributes;
         } catch (Exception e) {
 
         }
@@ -66,12 +71,12 @@ public class AttributeListAsyncTask extends AsyncTask<String, String, LinkedList
     }
 
     @Override
-    protected void onPostExecute(LinkedList<AttributeList> s) {
+    protected void onPostExecute(LinkedList<AttributeName> s) {
         super.onPostExecute(s);
         if(dialog!=null){
             dialog.dismiss();
         }
-        AttributeAdapter adapter = new AttributeAdapter(context.getActivity(), s, x, attributes);
+        AttributeAdapter adapter = new AttributeAdapter(context.getActivity(), attributes, x);
         if(s != null) {
             context.grid.setAdapter(adapter);
             if(context.selectedItem != -1){
@@ -81,9 +86,26 @@ public class AttributeListAsyncTask extends AsyncTask<String, String, LinkedList
                 @Override
                 public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                     context.selectedItem = position;
-                    AttributeList attribute = (AttributeList) parent.getItemAtPosition(position);
+                    AttributeName attribute = (AttributeName) parent.getItemAtPosition(position);
                     AttributeRankingAsyncTask a = new AttributeRankingAsyncTask(context, attribute);
                     a.execute();
+                }
+            });
+            context.grid.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
+                @Override
+                public boolean onItemLongClick(AdapterView<?> adapterView, View view, int i, long l) {
+                    AttributeName attribute = (AttributeName) adapterView.getItemAtPosition(i);
+                    ImageView fav = (ImageView)view.findViewById(R.id.fav);
+                    if(UserPref.checkAttributeFavorites(attribute.name)){
+                        UserPref.removeFavoriteAttribute(context.getActivity(),attribute.name);
+                        fav.setVisibility(View.INVISIBLE);
+                        attribute.favorite = false;
+                    }else{
+                        UserPref.addFavoriteAttribute(context.getActivity(),attribute.name);
+                        fav.setVisibility(View.VISIBLE);
+                        attribute.favorite = true;
+                    }
+                    return true;
                 }
             });
         }

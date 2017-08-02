@@ -1,110 +1,584 @@
 ﻿[
   {
-    "name": "Weight",
-    "ownerId": 50,
-    "id": 883,
-    "value": "102"
+    "InstanceId": "59812b094696593ccc99d311",
+    "Name": "AerialJump",
+    "OwnerId": 50,
+    "Owner": "Shulk",
+    "Values": [
+      {
+        "Value": "34.799999",
+        "Owner": "Shulk",
+        "OwnerId": 50,
+        "Name": "HEIGHT"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812b094696593ccc99d311"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Shulk"
+      }
+    ]
   },
   {
-    "name": "Max Jumps",
-    "ownerId": 50,
-    "id": 884,
-    "value": "2"
+    "InstanceId": "59812b094696593ccc99d312",
+    "Name": "Counters",
+    "OwnerId": 50,
+    "Owner": "Shulk",
+    "Values": [
+      {
+        "Value": "7-41",
+        "Owner": "Shulk",
+        "OwnerId": 50,
+        "Name": "COUNTER FRAMES"
+      },
+      {
+        "Value": "6-7",
+        "Owner": "Shulk",
+        "OwnerId": 50,
+        "Name": "INTANGIBLE ON"
+      },
+      {
+        "Value": "70",
+        "Owner": "Shulk",
+        "OwnerId": 50,
+        "Name": "FAF"
+      },
+      {
+        "Value": "1.3x",
+        "Owner": "Shulk",
+        "OwnerId": 50,
+        "Name": "DAMAGE (MULTIPLIER)"
+      },
+      {
+        "Value": "70 | 84/94",
+        "Owner": "Shulk",
+        "OwnerId": 50,
+        "Name": "BKB | KBG"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812b094696593ccc99d312"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Shulk"
+      }
+    ]
   },
   {
-    "name": "Run Speed",
-    "ownerId": 50,
-    "id": 885,
-    "value": "1.52"
+    "InstanceId": "59812b094696593ccc99d313",
+    "Name": "Counters",
+    "OwnerId": 50,
+    "Owner": "Shulk",
+    "Values": [
+      {
+        "Value": "7-41",
+        "Owner": "Shulk",
+        "OwnerId": 50,
+        "Name": "COUNTER FRAMES"
+      },
+      {
+        "Value": "7-8",
+        "Owner": "Shulk",
+        "OwnerId": 50,
+        "Name": "INTANGIBLE ON"
+      },
+      {
+        "Value": "70",
+        "Owner": "Shulk",
+        "OwnerId": 50,
+        "Name": "FAF"
+      },
+      {
+        "Value": "1.3x",
+        "Owner": "Shulk",
+        "OwnerId": 50,
+        "Name": "DAMAGE (MULTIPLIER)"
+      },
+      {
+        "Value": "70 | 84/94",
+        "Owner": "Shulk",
+        "OwnerId": 50,
+        "Name": "BKB | KBG"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812b094696593ccc99d313"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Shulk"
+      }
+    ]
   },
   {
-    "name": "Wall Jump",
-    "ownerId": 50,
-    "id": 886,
-    "value": "No"
+    "InstanceId": "59812b094696593ccc99d314",
+    "Name": "AirAcceleration",
+    "OwnerId": 50,
+    "Owner": "Shulk",
+    "Values": [
+      {
+        "Value": "0.04",
+        "Owner": "Shulk",
+        "OwnerId": 50,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812b094696593ccc99d314"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Shulk"
+      }
+    ]
   },
   {
-    "name": "Walk Speed",
-    "ownerId": 50,
-    "id": 887,
-    "value": "1.1"
+    "InstanceId": "59812b094696593ccc99d315",
+    "Name": "AirDeceleration",
+    "OwnerId": 50,
+    "Owner": "Shulk",
+    "Values": [
+      {
+        "Value": "0.01",
+        "Owner": "Shulk",
+        "OwnerId": 50,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812b094696593ccc99d315"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Shulk"
+      }
+    ]
   },
   {
-    "name": "Wall Cling",
-    "ownerId": 50,
-    "id": 888,
-    "value": "No"
+    "InstanceId": "59812b094696593ccc99d316",
+    "Name": "AirFriction",
+    "OwnerId": 50,
+    "Owner": "Shulk",
+    "Values": [
+      {
+        "Value": "0.009",
+        "Owner": "Shulk",
+        "OwnerId": 50,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812b094696593ccc99d316"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Shulk"
+      }
+    ]
   },
   {
-    "name": "Air Speed",
-    "ownerId": 50,
-    "id": 889,
-    "value": "1.06"
+    "InstanceId": "59812b094696593ccc99d317",
+    "Name": "DashLength",
+    "OwnerId": 50,
+    "Owner": "Shulk",
+    "Values": [
+      {
+        "Value": "11",
+        "Owner": "Shulk",
+        "OwnerId": 50,
+        "Name": "LENGTH IN FRAMES"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812b094696593ccc99d317"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Shulk"
+      }
+    ]
   },
   {
-    "name": "Crawl",
-    "ownerId": 50,
-    "id": 890,
-    "value": "No"
+    "InstanceId": "59812b094696593ccc99d318",
+    "Name": "FallSpeed",
+    "OwnerId": 50,
+    "Owner": "Shulk",
+    "Values": [
+      {
+        "Value": "1.5",
+        "Owner": "Shulk",
+        "OwnerId": 50,
+        "Name": "MAX FALL SPEED"
+      },
+      {
+        "Value": "2.4",
+        "Owner": "Shulk",
+        "OwnerId": 50,
+        "Name": "FAST FALL SPEED"
+      },
+      {
+        "Value": "60%",
+        "Owner": "Shulk",
+        "OwnerId": 50,
+        "Name": "SPEED INCREASE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812b094696593ccc99d318"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Shulk"
+      }
+    ]
   },
   {
-    "name": "Fall Speed",
-    "ownerId": 50,
-    "id": 891,
-    "value": "1.5"
+    "InstanceId": "59812b094696593ccc99d319",
+    "Name": "FullHop",
+    "OwnerId": 50,
+    "Owner": "Shulk",
+    "Values": [
+      {
+        "Value": "34.799999",
+        "Owner": "Shulk",
+        "OwnerId": 50,
+        "Name": "HEIGHT"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812b094696593ccc99d319"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Shulk"
+      }
+    ]
   },
   {
-    "name": "Tether",
-    "ownerId": 50,
-    "id": 892,
-    "value": "No"
+    "InstanceId": "59812b094696593ccc99d31a",
+    "Name": "Gravity",
+    "OwnerId": 50,
+    "Owner": "Shulk",
+    "Values": [
+      {
+        "Value": "0.085",
+        "Owner": "Shulk",
+        "OwnerId": 50,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812b094696593ccc99d31a"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Shulk"
+      }
+    ]
   },
   {
-    "name": "Fast Fall Speed",
-    "ownerId": 50,
-    "id": 893,
-    "value": "2.4"
+    "InstanceId": "59812b094696593ccc99d31b",
+    "Name": "JumpSquat",
+    "OwnerId": 50,
+    "Owner": "Shulk",
+    "Values": [
+      {
+        "Value": "5",
+        "Owner": "Shulk",
+        "OwnerId": 50,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812b094696593ccc99d31b"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Shulk"
+      }
+    ]
   },
   {
-    "name": "Jumpsquat",
-    "ownerId": 50,
-    "id": 894,
-    "value": "5frames"
+    "InstanceId": "59812b094696593ccc99d31c",
+    "Name": "LedgeHop",
+    "OwnerId": 50,
+    "Owner": "Shulk",
+    "Values": [
+      {
+        "Value": "37.400002",
+        "Owner": "Shulk",
+        "OwnerId": 50,
+        "Name": "HEIGHT"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812b094696593ccc99d31c"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Shulk"
+      }
+    ]
   },
   {
-    "name": "Air Acceleration",
-    "ownerId": 50,
-    "id": 895,
-    "value": "0.04"
+    "InstanceId": "59812b094696593ccc99d31d",
+    "Name": "ShortHop",
+    "OwnerId": 50,
+    "Owner": "Shulk",
+    "Values": [
+      {
+        "Value": "16.887465",
+        "Owner": "Shulk",
+        "OwnerId": 50,
+        "Name": "HEIGHT"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812b094696593ccc99d31d"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Shulk"
+      }
+    ]
   },
   {
-    "name": "Soft Landing Lag",
-    "ownerId": 50,
-    "id": 896,
-    "value": "2frames"
+    "InstanceId": "59812b094696593ccc99d31e",
+    "Name": "Spotdodge",
+    "OwnerId": 50,
+    "Owner": "Shulk",
+    "Values": [
+      {
+        "Value": "3-18",
+        "Owner": "Shulk",
+        "OwnerId": 50,
+        "Name": "INTANGIBLE"
+      },
+      {
+        "Value": "28",
+        "Owner": "Shulk",
+        "OwnerId": 50,
+        "Name": "FAF"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812b094696593ccc99d31e"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Shulk"
+      }
+    ]
   },
   {
-    "name": "Gravity",
-    "ownerId": 50,
-    "id": 897,
-    "value": "0.085"
+    "InstanceId": "59812b094696593ccc99d31f",
+    "Name": "Traction",
+    "OwnerId": 50,
+    "Owner": "Shulk",
+    "Values": [
+      {
+        "Value": "0.044",
+        "Owner": "Shulk",
+        "OwnerId": 50,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812b094696593ccc99d31f"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Shulk"
+      }
+    ]
   },
   {
-    "name": "Hard Landing Lag",
-    "ownerId": 50,
-    "id": 898,
-    "value": "4frames"
+    "InstanceId": "59812b094696593ccc99d320",
+    "Name": "WalkSpeed",
+    "OwnerId": 50,
+    "Owner": "Shulk",
+    "Values": [
+      {
+        "Value": "1.1",
+        "Owner": "Shulk",
+        "OwnerId": 50,
+        "Name": "MAX WALK SPEED VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812b094696593ccc99d320"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Shulk"
+      }
+    ]
   },
   {
-    "name": "SH Air Time",
-    "ownerId": 50,
-    "id": 899,
-    "value": "39frames"
+    "InstanceId": "59812b094696593ccc99d321",
+    "Name": "AirSpeed",
+    "OwnerId": 50,
+    "Owner": "Shulk",
+    "Values": [
+      {
+        "Value": "1.06",
+        "Owner": "Shulk",
+        "OwnerId": 50,
+        "Name": "MAX AIR SPEED VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812b094696593ccc99d321"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Shulk"
+      }
+    ]
   },
   {
-    "name": "FH Air Time",
-    "ownerId": 50,
-    "id": 900,
-    "value": "60frames"
+    "InstanceId": "59812b094696593ccc99d322",
+    "Name": "AirDodge",
+    "OwnerId": 50,
+    "Owner": "Shulk",
+    "Values": [
+      {
+        "Value": "3-28",
+        "Owner": "Shulk",
+        "OwnerId": 50,
+        "Name": "INTANGIBLE"
+      },
+      {
+        "Value": "34",
+        "Owner": "Shulk",
+        "OwnerId": 50,
+        "Name": "FAF"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812b094696593ccc99d322"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Shulk"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812b094696593ccc99d323",
+    "Name": "Rolls",
+    "OwnerId": 50,
+    "Owner": "Shulk",
+    "Values": [
+      {
+        "Value": "4-17",
+        "Owner": "Shulk",
+        "OwnerId": 50,
+        "Name": "INTANGIBLE"
+      },
+      {
+        "Value": "31",
+        "Owner": "Shulk",
+        "OwnerId": 50,
+        "Name": "FAF"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812b094696593ccc99d323"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Shulk"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812b094696593ccc99d324",
+    "Name": "RunSpeed",
+    "OwnerId": 50,
+    "Owner": "Shulk",
+    "Values": [
+      {
+        "Value": "1.52",
+        "Owner": "Shulk",
+        "OwnerId": 50,
+        "Name": "MAX RUN SPEED VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812b094696593ccc99d324"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Shulk"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812b094696593ccc99d325",
+    "Name": "ShieldSize",
+    "OwnerId": 50,
+    "Owner": "Shulk",
+    "Values": [
+      {
+        "Value": "10.9515",
+        "Owner": "Shulk",
+        "OwnerId": 50,
+        "Name": "SIZE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812b094696593ccc99d325"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Shulk"
+      }
+    ]
   }
 ]

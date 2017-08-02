@@ -1,464 +1,964 @@
 ﻿[
   {
-    "hitboxActive": "5-6",
-    "firstActionableFrame": "17",
-    "baseDamage": "3",
-    "angle": "60/78",
-    "baseKnockBackSetKnockback": "12",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "50",
-    "type": 1,
-    "name": "Jab 1",
-    "ownerId": 18,
-    "id": 956
+    "InstanceId": "59812ab34696593ccc99c74a",
+    "Name": "Jab 1",
+    "OwnerId": 18,
+    "Owner": "Jigglypuff",
+    "HitboxActive": "5-6",
+    "FirstActionableFrame": "17",
+    "BaseDamage": "3",
+    "Angle": "60/78",
+    "BaseKnockBackSetKnockback": "12",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "50",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812ab34696593ccc99c74a"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Jigglypuff"
+      }
+    ]
   },
   {
-    "hitboxActive": "5-6",
-    "firstActionableFrame": "20",
-    "baseDamage": "3",
-    "angle": "55/65",
-    "baseKnockBackSetKnockback": "22",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "50",
-    "type": 1,
-    "name": "Jab 2",
-    "ownerId": 18,
-    "id": 957
+    "InstanceId": "59812ab34696593ccc99c74b",
+    "Name": "Jab 2",
+    "OwnerId": 18,
+    "Owner": "Jigglypuff",
+    "HitboxActive": "5-6",
+    "FirstActionableFrame": "20",
+    "BaseDamage": "3",
+    "Angle": "55/65",
+    "BaseKnockBackSetKnockback": "22",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "50",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812ab34696593ccc99c74b"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Jigglypuff"
+      }
+    ]
   },
   {
-    "hitboxActive": "5-9 (Cannot Rebound)",
-    "firstActionableFrame": "40",
-    "baseDamage": "12",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "16",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Dash Attack",
-    "ownerId": 18,
-    "id": 958
+    "InstanceId": "59812ab34696593ccc99c74c",
+    "Name": "Dash Attack",
+    "OwnerId": 18,
+    "Owner": "Jigglypuff",
+    "HitboxActive": "5-9 (Cannot Rebound)",
+    "FirstActionableFrame": "40",
+    "BaseDamage": "12",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "16",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812ab34696593ccc99c74c"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Jigglypuff"
+      }
+    ]
   },
   {
-    "hitboxActive": "10-20 (Cannot Rebound)",
-    "firstActionableFrame": "-",
-    "baseDamage": "8",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "8",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Dash Attack (Late)",
-    "ownerId": 18,
-    "id": 959
+    "InstanceId": "59812ab34696593ccc99c74d",
+    "Name": "Dash Attack (Late)",
+    "OwnerId": 18,
+    "Owner": "Jigglypuff",
+    "HitboxActive": "10-20 (Cannot Rebound)",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "8",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "8",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812ab34696593ccc99c74d"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Jigglypuff"
+      }
+    ]
   },
   {
-    "hitboxActive": "7-10",
-    "firstActionableFrame": "28",
-    "baseDamage": "10",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "8",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Ftilt (All Angles)",
-    "ownerId": 18,
-    "id": 960
+    "InstanceId": "59812ab34696593ccc99c74e",
+    "Name": "Ftilt (All Angles)",
+    "OwnerId": 18,
+    "Owner": "Jigglypuff",
+    "HitboxActive": "7-10",
+    "FirstActionableFrame": "28",
+    "BaseDamage": "10",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "8",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812ab34696593ccc99c74e"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Jigglypuff"
+      }
+    ]
   },
   {
-    "hitboxActive": "9-10",
-    "firstActionableFrame": "24",
-    "baseDamage": "9",
-    "angle": "96",
-    "baseKnockBackSetKnockback": "40",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "120",
-    "type": 1,
-    "name": "Utilt",
-    "ownerId": 18,
-    "id": 961
+    "InstanceId": "59812ab34696593ccc99c74f",
+    "Name": "Utilt",
+    "OwnerId": 18,
+    "Owner": "Jigglypuff",
+    "HitboxActive": "9-10",
+    "FirstActionableFrame": "24",
+    "BaseDamage": "9",
+    "Angle": "96",
+    "BaseKnockBackSetKnockback": "40",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "120",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812ab34696593ccc99c74f"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Jigglypuff"
+      }
+    ]
   },
   {
-    "hitboxActive": "11-13",
-    "firstActionableFrame": "-",
-    "baseDamage": "8",
-    "angle": "88",
-    "baseKnockBackSetKnockback": "40",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "120",
-    "type": 1,
-    "name": "Utilt (Late)",
-    "ownerId": 18,
-    "id": 962
+    "InstanceId": "59812ab34696593ccc99c750",
+    "Name": "Utilt (Late)",
+    "OwnerId": 18,
+    "Owner": "Jigglypuff",
+    "HitboxActive": "11-13",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "8",
+    "Angle": "88",
+    "BaseKnockBackSetKnockback": "40",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "120",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812ab34696593ccc99c750"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Jigglypuff"
+      }
+    ]
   },
   {
-    "hitboxActive": "10-12",
-    "firstActionableFrame": "31",
-    "baseDamage": "10",
-    "angle": "20",
-    "baseKnockBackSetKnockback": "50",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "55",
-    "type": 1,
-    "name": "Dtilt",
-    "ownerId": 18,
-    "id": 963
+    "InstanceId": "59812ab34696593ccc99c751",
+    "Name": "Dtilt",
+    "OwnerId": 18,
+    "Owner": "Jigglypuff",
+    "HitboxActive": "10-12",
+    "FirstActionableFrame": "31",
+    "BaseDamage": "10",
+    "Angle": "20",
+    "BaseKnockBackSetKnockback": "50",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "55",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812ab34696593ccc99c751"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Jigglypuff"
+      }
+    ]
   },
   {
-    "hitboxActive": "16-19",
-    "firstActionableFrame": "50",
-    "baseDamage": "15",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "10",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "115",
-    "type": 1,
-    "name": "Fsmash",
-    "ownerId": 18,
-    "id": 964
+    "InstanceId": "59812ab34696593ccc99c752",
+    "Name": "Fsmash",
+    "OwnerId": 18,
+    "Owner": "Jigglypuff",
+    "HitboxActive": "16-19",
+    "FirstActionableFrame": "50",
+    "BaseDamage": "15",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "10",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "115",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812ab34696593ccc99c752"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Jigglypuff"
+      }
+    ]
   },
   {
-    "hitboxActive": "20-24",
-    "firstActionableFrame": "-",
-    "baseDamage": "12",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "6",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "85",
-    "type": 1,
-    "name": "Fsmash (Late)",
-    "ownerId": 18,
-    "id": 965
+    "InstanceId": "59812ab34696593ccc99c753",
+    "Name": "Fsmash (Late)",
+    "OwnerId": 18,
+    "Owner": "Jigglypuff",
+    "HitboxActive": "20-24",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "12",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "6",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "85",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812ab34696593ccc99c753"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Jigglypuff"
+      }
+    ]
   },
   {
-    "hitboxActive": "16-19",
-    "firstActionableFrame": "46",
-    "baseDamage": "14/12",
-    "angle": "87",
-    "baseKnockBackSetKnockback": "20",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "105",
-    "type": 1,
-    "name": "Usmash",
-    "ownerId": 18,
-    "id": 966
+    "InstanceId": "59812ab34696593ccc99c754",
+    "Name": "Usmash",
+    "OwnerId": 18,
+    "Owner": "Jigglypuff",
+    "HitboxActive": "16-19",
+    "FirstActionableFrame": "46",
+    "BaseDamage": "14/12",
+    "Angle": "87",
+    "BaseKnockBackSetKnockback": "20",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "105",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812ab34696593ccc99c754"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Jigglypuff"
+      }
+    ]
   },
   {
-    "hitboxActive": "14-15 (Legs Intangible: 14-15)",
-    "firstActionableFrame": "49",
-    "baseDamage": "11",
-    "angle": "0",
-    "baseKnockBackSetKnockback": "34",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "69",
-    "type": 1,
-    "name": "Dsmash",
-    "ownerId": 18,
-    "id": 967
+    "InstanceId": "59812ab34696593ccc99c755",
+    "Name": "Dsmash",
+    "OwnerId": 18,
+    "Owner": "Jigglypuff",
+    "HitboxActive": "14-15 (Legs Intangible: 14-15)",
+    "FirstActionableFrame": "49",
+    "BaseDamage": "11",
+    "Angle": "0",
+    "BaseKnockBackSetKnockback": "34",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "69",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812ab34696593ccc99c755"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Jigglypuff"
+      }
+    ]
   },
   {
-    "hitboxActive": "6-7",
-    "firstActionableFrame": "27",
-    "baseDamage": "",
-    "angle": "",
-    "baseKnockBackSetKnockback": "",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "",
-    "type": 1,
-    "name": "Standing Grab",
-    "ownerId": 18,
-    "id": 969
+    "InstanceId": "59812ab34696593ccc99c756",
+    "Name": "Standing Grab",
+    "OwnerId": 18,
+    "Owner": "Jigglypuff",
+    "HitboxActive": "6-7",
+    "FirstActionableFrame": "27",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812ab34696593ccc99c756"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Jigglypuff"
+      }
+    ]
   },
   {
-    "hitboxActive": "8-9",
-    "firstActionableFrame": "33",
-    "baseDamage": "",
-    "angle": "",
-    "baseKnockBackSetKnockback": "",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "",
-    "type": 1,
-    "name": "Dash Grab",
-    "ownerId": 18,
-    "id": 970
+    "InstanceId": "59812ab34696593ccc99c757",
+    "Name": "Dash Grab",
+    "OwnerId": 18,
+    "Owner": "Jigglypuff",
+    "HitboxActive": "8-9",
+    "FirstActionableFrame": "33",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812ab34696593ccc99c757"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Jigglypuff"
+      }
+    ]
   },
   {
-    "hitboxActive": "9-10",
-    "firstActionableFrame": "32",
-    "baseDamage": "",
-    "angle": "",
-    "baseKnockBackSetKnockback": "",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "",
-    "type": 1,
-    "name": "Pivot Grab",
-    "ownerId": 18,
-    "id": 971
+    "InstanceId": "59812ab34696593ccc99c758",
+    "Name": "Pivot Grab",
+    "OwnerId": 18,
+    "Owner": "Jigglypuff",
+    "HitboxActive": "9-10",
+    "FirstActionableFrame": "32",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812ab34696593ccc99c758"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Jigglypuff"
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "5, 5",
-    "angle": "55",
-    "baseKnockBackSetKnockback": "100",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "30",
-    "type": 3,
-    "name": "Fthrow",
-    "ownerId": 18,
-    "id": 973
+    "InstanceId": "59812ab34696593ccc99c759",
+    "Name": "Spotdodge",
+    "OwnerId": 18,
+    "Owner": "Jigglypuff",
+    "HitboxActive": "4-19",
+    "FirstActionableFrame": "29",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812ab34696593ccc99c759"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Jigglypuff"
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "10",
-    "angle": "45",
-    "baseKnockBackSetKnockback": "90",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "25",
-    "type": 3,
-    "name": "Bthrow",
-    "ownerId": 18,
-    "id": 974
+    "InstanceId": "59812ab34696593ccc99c75a",
+    "Name": "Forward Roll",
+    "OwnerId": 18,
+    "Owner": "Jigglypuff",
+    "HitboxActive": "4-17",
+    "FirstActionableFrame": "31",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812ab34696593ccc99c75a"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Jigglypuff"
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "10",
-    "angle": "90",
-    "baseKnockBackSetKnockback": "110",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "30",
-    "type": 3,
-    "name": "Uthrow",
-    "ownerId": 18,
-    "id": 975
+    "InstanceId": "59812ab34696593ccc99c75b",
+    "Name": "Back Roll",
+    "OwnerId": 18,
+    "Owner": "Jigglypuff",
+    "HitboxActive": "4-17",
+    "FirstActionableFrame": "31",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812ab34696593ccc99c75b"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Jigglypuff"
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "4, 6",
-    "angle": "80",
-    "baseKnockBackSetKnockback": "100",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "45",
-    "type": 3,
-    "name": "Dthrow",
-    "ownerId": 18,
-    "id": 976
+    "InstanceId": "59812ab34696593ccc99c75c",
+    "Name": "Airdodge",
+    "OwnerId": 18,
+    "Owner": "Jigglypuff",
+    "HitboxActive": "4-29",
+    "FirstActionableFrame": "35",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812ab34696593ccc99c75c"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Jigglypuff"
+      }
+    ]
   },
   {
-    "hitboxActive": "6-7",
-    "firstActionableFrame": "44",
-    "baseDamage": "11",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "15",
-    "autoCancel": "1-3, 40&gt;",
-    "knockbackGrowth": "100",
-    "type": 0,
-    "name": "Nair",
-    "ownerId": 18,
-    "id": 982
+    "InstanceId": "59812ab34696593ccc99c75d",
+    "Name": "Nair",
+    "OwnerId": 18,
+    "Owner": "Jigglypuff",
+    "HitboxActive": "6-7",
+    "FirstActionableFrame": "44",
+    "BaseDamage": "11",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": "15",
+    "AutoCancel": "1-3, 40&gt;",
+    "KnockbackGrowth": "100",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812ab34696593ccc99c75d"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Jigglypuff"
+      }
+    ]
   },
   {
-    "hitboxActive": "8-30",
-    "firstActionableFrame": "-",
-    "baseDamage": "6",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "50",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "70",
-    "type": 0,
-    "name": "Nair (Late)",
-    "ownerId": 18,
-    "id": 983
+    "InstanceId": "59812ab34696593ccc99c75e",
+    "Name": "Nair (Late)",
+    "OwnerId": 18,
+    "Owner": "Jigglypuff",
+    "HitboxActive": "8-30",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "6",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "50",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "70",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812ab34696593ccc99c75e"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Jigglypuff"
+      }
+    ]
   },
   {
-    "hitboxActive": "8-9",
-    "firstActionableFrame": "37",
-    "baseDamage": "9",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "15",
-    "autoCancel": "1-3, 28&gt;",
-    "knockbackGrowth": "98",
-    "type": 0,
-    "name": "Fair",
-    "ownerId": 18,
-    "id": 984
+    "InstanceId": "59812ab34696593ccc99c75f",
+    "Name": "Fair",
+    "OwnerId": 18,
+    "Owner": "Jigglypuff",
+    "HitboxActive": "8-9",
+    "FirstActionableFrame": "37",
+    "BaseDamage": "9",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": "15",
+    "AutoCancel": "1-3, 28&gt;",
+    "KnockbackGrowth": "98",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812ab34696593ccc99c75f"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Jigglypuff"
+      }
+    ]
   },
   {
-    "hitboxActive": "10-20",
-    "firstActionableFrame": "-",
-    "baseDamage": "6",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "70",
-    "type": 0,
-    "name": "Fair (Late)",
-    "ownerId": 18,
-    "id": 985
+    "InstanceId": "59812ab34696593ccc99c760",
+    "Name": "Fair (Late)",
+    "OwnerId": 18,
+    "Owner": "Jigglypuff",
+    "HitboxActive": "10-20",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "6",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "70",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812ab34696593ccc99c760"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Jigglypuff"
+      }
+    ]
   },
   {
-    "hitboxActive": "12-13",
-    "firstActionableFrame": "40",
-    "baseDamage": "13",
-    "angle": "42",
-    "baseKnockBackSetKnockback": "0/30",
-    "landingLag": "18",
-    "autoCancel": "1-3, 28&gt;",
-    "knockbackGrowth": "120",
-    "type": 0,
-    "name": "Bair",
-    "ownerId": 18,
-    "id": 986
+    "InstanceId": "59812ab34696593ccc99c761",
+    "Name": "Bair",
+    "OwnerId": 18,
+    "Owner": "Jigglypuff",
+    "HitboxActive": "12-13",
+    "FirstActionableFrame": "40",
+    "BaseDamage": "13",
+    "Angle": "42",
+    "BaseKnockBackSetKnockback": "0/30",
+    "LandingLag": "18",
+    "AutoCancel": "1-3, 28&gt;",
+    "KnockbackGrowth": "120",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812ab34696593ccc99c761"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Jigglypuff"
+      }
+    ]
   },
   {
-    "hitboxActive": "9-21",
-    "firstActionableFrame": "45",
-    "baseDamage": "9",
-    "angle": "88",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "15",
-    "autoCancel": "1-3, 35&gt;",
-    "knockbackGrowth": "100",
-    "type": 0,
-    "name": "Uair",
-    "ownerId": 18,
-    "id": 987
+    "InstanceId": "59812ab34696593ccc99c762",
+    "Name": "Uair",
+    "OwnerId": 18,
+    "Owner": "Jigglypuff",
+    "HitboxActive": "9-21",
+    "FirstActionableFrame": "45",
+    "BaseDamage": "9",
+    "Angle": "88",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": "15",
+    "AutoCancel": "1-3, 35&gt;",
+    "KnockbackGrowth": "100",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812ab34696593ccc99c762"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Jigglypuff"
+      }
+    ]
   },
   {
-    "hitboxActive": "7-8, 10-11, 13-14, 16-17, 19-20, 22-23, 25-26, 28-29",
-    "firstActionableFrame": "53",
-    "baseDamage": "1.5",
-    "angle": "145/280",
-    "baseKnockBackSetKnockback": "B: 10/W: 30",
-    "landingLag": "30",
-    "autoCancel": "45&gt;",
-    "knockbackGrowth": "100",
-    "type": 0,
-    "name": "Dair (Hits 1-8)",
-    "ownerId": 18,
-    "id": 988
+    "InstanceId": "59812ab34696593ccc99c763",
+    "Name": "Dair (Hits 1-8)",
+    "OwnerId": 18,
+    "Owner": "Jigglypuff",
+    "HitboxActive": "7-8, 10-11, 13-14, 16-17, 19-20, 22-23, 25-26, 28-29",
+    "FirstActionableFrame": "53",
+    "BaseDamage": "1.5",
+    "Angle": "145/280",
+    "BaseKnockBackSetKnockback": "B: 10/W: 30",
+    "LandingLag": "30",
+    "AutoCancel": "45&gt;",
+    "KnockbackGrowth": "100",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812ab34696593ccc99c763"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Jigglypuff"
+      }
+    ]
   },
   {
-    "hitboxActive": "31-32",
-    "firstActionableFrame": "-",
-    "baseDamage": "2",
-    "angle": "42",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "150",
-    "type": 0,
-    "name": "Dair (Hit 9)",
-    "ownerId": 18,
-    "id": 989
+    "InstanceId": "59812ab34696593ccc99c764",
+    "Name": "Dair (Hit 9)",
+    "OwnerId": 18,
+    "Owner": "Jigglypuff",
+    "HitboxActive": "31-32",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "2",
+    "Angle": "42",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "150",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812ab34696593ccc99c764"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Jigglypuff"
+      }
+    ]
   },
   {
-    "hitboxActive": "Full Charge Time: ~50 Frames",
-    "firstActionableFrame": "-",
-    "baseDamage": "-",
-    "angle": "-",
-    "baseKnockBackSetKnockback": "-",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "-",
-    "type": 2,
-    "name": "Rollout (Charge)",
-    "ownerId": 18,
-    "id": 990
+    "InstanceId": "59812ab34696593ccc99c765",
+    "Name": "Rollout (Charge)",
+    "OwnerId": 18,
+    "Owner": "Jigglypuff",
+    "HitboxActive": "Full Charge Time: ~50 Frames",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "-",
+    "Angle": "-",
+    "BaseKnockBackSetKnockback": "-",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "-",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812ab34696593ccc99c765"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Jigglypuff"
+      }
+    ]
   },
   {
-    "hitboxActive": "1-",
-    "firstActionableFrame": "74 (On hit)",
-    "baseDamage": "7",
-    "angle": "30",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "92",
-    "type": 2,
-    "name": "Rollout (Ground, Release)",
-    "ownerId": 18,
-    "id": 991
+    "InstanceId": "59812ab34696593ccc99c766",
+    "Name": "Rollout (Ground, Release)",
+    "OwnerId": 18,
+    "Owner": "Jigglypuff",
+    "HitboxActive": "1-",
+    "FirstActionableFrame": "74 (On hit)",
+    "BaseDamage": "7",
+    "Angle": "30",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "92",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812ab34696593ccc99c766"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Jigglypuff"
+      }
+    ]
   },
   {
-    "hitboxActive": "1-",
-    "firstActionableFrame": "-",
-    "baseDamage": "10",
-    "angle": "90",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "102",
-    "type": 2,
-    "name": "Rollout (Aerial, Release)",
-    "ownerId": 18,
-    "id": 992
+    "InstanceId": "59812ab34696593ccc99c767",
+    "Name": "Rollout (Aerial, Release)",
+    "OwnerId": 18,
+    "Owner": "Jigglypuff",
+    "HitboxActive": "1-",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "10",
+    "Angle": "90",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "102",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812ab34696593ccc99c767"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Jigglypuff"
+      }
+    ]
   },
   {
-    "hitboxActive": "13-28",
-    "firstActionableFrame": "46",
-    "baseDamage": "11",
-    "angle": "75",
-    "baseKnockBackSetKnockback": "52",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "75",
-    "type": 2,
-    "name": "Pound",
-    "ownerId": 18,
-    "id": 993
+    "InstanceId": "59812ab34696593ccc99c768",
+    "Name": "Pound",
+    "OwnerId": 18,
+    "Owner": "Jigglypuff",
+    "HitboxActive": "13-28",
+    "FirstActionableFrame": "46",
+    "BaseDamage": "11",
+    "Angle": "75",
+    "BaseKnockBackSetKnockback": "52",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "75",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812ab34696593ccc99c768"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Jigglypuff"
+      }
+    ]
   },
   {
-    "hitboxActive": "29-33, 73-77, 122-134",
-    "firstActionableFrame": "180",
-    "baseDamage": "0",
-    "angle": "-",
-    "baseKnockBackSetKnockback": "-",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "-",
-    "type": 2,
-    "name": "Sing",
-    "ownerId": 18,
-    "id": 994
+    "InstanceId": "59812ab34696593ccc99c769",
+    "Name": "Sing",
+    "OwnerId": 18,
+    "Owner": "Jigglypuff",
+    "HitboxActive": "29-33, 73-77, 122-134",
+    "FirstActionableFrame": "180",
+    "BaseDamage": "0",
+    "Angle": "-",
+    "BaseKnockBackSetKnockback": "-",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "-",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812ab34696593ccc99c769"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Jigglypuff"
+      }
+    ]
   },
   {
-    "hitboxActive": "2-4 (Intangible 1-27)",
-    "firstActionableFrame": "230",
-    "baseDamage": "20",
-    "angle": "88",
-    "baseKnockBackSetKnockback": "100",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "66",
-    "type": 2,
-    "name": "Rest",
-    "ownerId": 18,
-    "id": 995
+    "InstanceId": "59812ab34696593ccc99c76a",
+    "Name": "Rest",
+    "OwnerId": 18,
+    "Owner": "Jigglypuff",
+    "HitboxActive": "2-4 (Intangible 1-27)",
+    "FirstActionableFrame": "230",
+    "BaseDamage": "20",
+    "Angle": "88",
+    "BaseKnockBackSetKnockback": "100",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "66",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812ab34696593ccc99c76a"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Jigglypuff"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812ab34696593ccc99c76b",
+    "Name": "Fthrow",
+    "OwnerId": 18,
+    "Owner": "Jigglypuff",
+    "HitboxActive": null,
+    "FirstActionableFrame": null,
+    "BaseDamage": "5, 5",
+    "Angle": "55",
+    "BaseKnockBackSetKnockback": "100",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "30",
+    "MoveType": "throw",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812ab34696593ccc99c76b"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Jigglypuff"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812ab34696593ccc99c76c",
+    "Name": "Bthrow",
+    "OwnerId": 18,
+    "Owner": "Jigglypuff",
+    "HitboxActive": null,
+    "FirstActionableFrame": null,
+    "BaseDamage": "10",
+    "Angle": "45",
+    "BaseKnockBackSetKnockback": "90",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "25",
+    "MoveType": "throw",
+    "IsWeightDependent": true,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812ab34696593ccc99c76c"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Jigglypuff"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812ab34696593ccc99c76d",
+    "Name": "Uthrow",
+    "OwnerId": 18,
+    "Owner": "Jigglypuff",
+    "HitboxActive": null,
+    "FirstActionableFrame": null,
+    "BaseDamage": "10",
+    "Angle": "90",
+    "BaseKnockBackSetKnockback": "110",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "30",
+    "MoveType": "throw",
+    "IsWeightDependent": true,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812ab34696593ccc99c76d"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Jigglypuff"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812ab34696593ccc99c76e",
+    "Name": "Dthrow",
+    "OwnerId": 18,
+    "Owner": "Jigglypuff",
+    "HitboxActive": null,
+    "FirstActionableFrame": null,
+    "BaseDamage": "4, 6",
+    "Angle": "80",
+    "BaseKnockBackSetKnockback": "100",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "45",
+    "MoveType": "throw",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812ab34696593ccc99c76e"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Jigglypuff"
+      }
+    ]
   }
 ]

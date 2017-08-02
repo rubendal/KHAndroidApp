@@ -1,0 +1,308 @@
+﻿[
+  {
+    "InstanceId": "59812ad54696593ccc99cbca",
+    "Name": "Weight",
+    "OwnerId": 31,
+    "Owner": "Mewtwo",
+    "Value": "74 ",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812ad54696593ccc99cbca"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Mewtwo"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812ad54696593ccc99cbcb",
+    "Name": "Max Jumps",
+    "OwnerId": 31,
+    "Owner": "Mewtwo",
+    "Value": "2",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812ad54696593ccc99cbcb"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Mewtwo"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812ad54696593ccc99cbcc",
+    "Name": "Run Speed",
+    "OwnerId": 31,
+    "Owner": "Mewtwo",
+    "Value": "2.05 ",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812ad54696593ccc99cbcc"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Mewtwo"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812ad54696593ccc99cbcd",
+    "Name": "Wall Jump",
+    "OwnerId": 31,
+    "Owner": "Mewtwo",
+    "Value": "Yes",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812ad54696593ccc99cbcd"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Mewtwo"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812ad54696593ccc99cbce",
+    "Name": "Walk Speed",
+    "OwnerId": 31,
+    "Owner": "Mewtwo",
+    "Value": "1.2 ",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812ad54696593ccc99cbce"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Mewtwo"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812ad54696593ccc99cbcf",
+    "Name": "Wall Cling",
+    "OwnerId": 31,
+    "Owner": "Mewtwo",
+    "Value": "No",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812ad54696593ccc99cbcf"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Mewtwo"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812ad54696593ccc99cbd0",
+    "Name": "Air Speed",
+    "OwnerId": 31,
+    "Owner": "Mewtwo",
+    "Value": "1.25 ",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812ad54696593ccc99cbd0"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Mewtwo"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812ad54696593ccc99cbd1",
+    "Name": "Crawl",
+    "OwnerId": 31,
+    "Owner": "Mewtwo",
+    "Value": "No",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812ad54696593ccc99cbd1"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Mewtwo"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812ad54696593ccc99cbd2",
+    "Name": "Fall Speed",
+    "OwnerId": 31,
+    "Owner": "Mewtwo",
+    "Value": "1.5 ",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812ad54696593ccc99cbd2"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Mewtwo"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812ad54696593ccc99cbd3",
+    "Name": "Tether",
+    "OwnerId": 31,
+    "Owner": "Mewtwo",
+    "Value": "No",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812ad54696593ccc99cbd3"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Mewtwo"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812ad54696593ccc99cbd4",
+    "Name": "Fast Fall Speed",
+    "OwnerId": 31,
+    "Owner": "Mewtwo",
+    "Value": "2.4 ",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812ad54696593ccc99cbd4"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Mewtwo"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812ad54696593ccc99cbd5",
+    "Name": "Jumpsquat",
+    "OwnerId": 31,
+    "Owner": "Mewtwo",
+    "Value": "5 frames",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812ad54696593ccc99cbd5"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Mewtwo"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812ad54696593ccc99cbd6",
+    "Name": "Air Acceleration",
+    "OwnerId": 31,
+    "Owner": "Mewtwo",
+    "Value": "0.05",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812ad54696593ccc99cbd6"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Mewtwo"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812ad54696593ccc99cbd7",
+    "Name": "Soft Landing Lag",
+    "OwnerId": 31,
+    "Owner": "Mewtwo",
+    "Value": "2 frames",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812ad54696593ccc99cbd7"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Mewtwo"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812ad54696593ccc99cbd8",
+    "Name": "Gravity",
+    "OwnerId": 31,
+    "Owner": "Mewtwo",
+    "Value": "0.082",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812ad54696593ccc99cbd8"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Mewtwo"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812ad54696593ccc99cbd9",
+    "Name": "Hard Landing Lag",
+    "OwnerId": 31,
+    "Owner": "Mewtwo",
+    "Value": "5 frames",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812ad54696593ccc99cbd9"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Mewtwo"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812ad54696593ccc99cbda",
+    "Name": "SH Air Time",
+    "OwnerId": 31,
+    "Owner": "Mewtwo",
+    "Value": "41 frames",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812ad54696593ccc99cbda"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Mewtwo"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812ad54696593ccc99cbdb",
+    "Name": "FH Air Time",
+    "OwnerId": 31,
+    "Owner": "Mewtwo",
+    "Value": "57 frames",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812ad54696593ccc99cbdb"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Mewtwo"
+      }
+    ]
+  }
+]

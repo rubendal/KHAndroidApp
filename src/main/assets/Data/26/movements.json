@@ -1,0 +1,308 @@
+﻿[
+  {
+    "InstanceId": "59812ac84696593ccc99c9ff",
+    "Name": "Weight",
+    "OwnerId": 26,
+    "Owner": "Luigi",
+    "Value": "97 ",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812ac84696593ccc99c9ff"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Luigi"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812ac84696593ccc99ca00",
+    "Name": "Max Jumps",
+    "OwnerId": 26,
+    "Owner": "Luigi",
+    "Value": "2",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812ac84696593ccc99ca00"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Luigi"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812ac84696593ccc99ca01",
+    "Name": "Run Speed",
+    "OwnerId": 26,
+    "Owner": "Luigi",
+    "Value": "1.5 ",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812ac84696593ccc99ca01"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Luigi"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812ac84696593ccc99ca02",
+    "Name": "Wall Jump",
+    "OwnerId": 26,
+    "Owner": "Luigi",
+    "Value": "No",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812ac84696593ccc99ca02"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Luigi"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812ac84696593ccc99ca03",
+    "Name": "Walk Speed",
+    "OwnerId": 26,
+    "Owner": "Luigi",
+    "Value": "1.08 ",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812ac84696593ccc99ca03"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Luigi"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812ac84696593ccc99ca04",
+    "Name": "Wall Cling",
+    "OwnerId": 26,
+    "Owner": "Luigi",
+    "Value": "No",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812ac84696593ccc99ca04"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Luigi"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812ac84696593ccc99ca05",
+    "Name": "Air Speed",
+    "OwnerId": 26,
+    "Owner": "Luigi",
+    "Value": "0.73418 ",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812ac84696593ccc99ca05"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Luigi"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812ac84696593ccc99ca06",
+    "Name": "Crawl",
+    "OwnerId": 26,
+    "Owner": "Luigi",
+    "Value": "Yes",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812ac84696593ccc99ca06"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Luigi"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812ac84696593ccc99ca07",
+    "Name": "Fall Speed",
+    "OwnerId": 26,
+    "Owner": "Luigi",
+    "Value": "1.25 ",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812ac84696593ccc99ca07"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Luigi"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812ac84696593ccc99ca08",
+    "Name": "Tether",
+    "OwnerId": 26,
+    "Owner": "Luigi",
+    "Value": "No",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812ac84696593ccc99ca08"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Luigi"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812ac84696593ccc99ca09",
+    "Name": "Fast Fall Speed",
+    "OwnerId": 26,
+    "Owner": "Luigi",
+    "Value": "2.0 ",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812ac84696593ccc99ca09"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Luigi"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812ac84696593ccc99ca0a",
+    "Name": "Jumpsquat",
+    "OwnerId": 26,
+    "Owner": "Luigi",
+    "Value": "5 frames",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812ac84696593ccc99ca0a"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Luigi"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812ac84696593ccc99ca0b",
+    "Name": "Air Acceleration",
+    "OwnerId": 26,
+    "Owner": "Luigi",
+    "Value": "0.075",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812ac84696593ccc99ca0b"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Luigi"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812ac84696593ccc99ca0c",
+    "Name": "Soft Landing Lag",
+    "OwnerId": 26,
+    "Owner": "Luigi",
+    "Value": "2 frames",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812ac84696593ccc99ca0c"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Luigi"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812ac84696593ccc99ca0d",
+    "Name": "Gravity",
+    "OwnerId": 26,
+    "Owner": "Luigi",
+    "Value": "0.075",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812ac84696593ccc99ca0d"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Luigi"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812ac84696593ccc99ca0e",
+    "Name": "Hard Landing Lag",
+    "OwnerId": 26,
+    "Owner": "Luigi",
+    "Value": "4 frames",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812ac84696593ccc99ca0e"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Luigi"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812ac84696593ccc99ca0f",
+    "Name": "SH Air Time",
+    "OwnerId": 26,
+    "Owner": "Luigi",
+    "Value": "47 frames",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812ac84696593ccc99ca0f"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Luigi"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812ac84696593ccc99ca10",
+    "Name": "FH Air Time",
+    "OwnerId": 26,
+    "Owner": "Luigi",
+    "Value": "77 frames",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812ac84696593ccc99ca10"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Luigi"
+      }
+    ]
+  }
+]

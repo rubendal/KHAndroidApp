@@ -1,110 +1,536 @@
 ﻿[
   {
-    "name": "Weight",
-    "ownerId": 23,
-    "id": 397,
-    "value": "99"
+    "InstanceId": "59812ac04696593ccc99c93b",
+    "Name": "AerialJump",
+    "OwnerId": 23,
+    "Owner": "Lucario",
+    "Values": [
+      {
+        "Value": "37.619999",
+        "Owner": "Lucario",
+        "OwnerId": 23,
+        "Name": "HEIGHT"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812ac04696593ccc99c93b"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucario"
+      }
+    ]
   },
   {
-    "name": "Max Jumps",
-    "ownerId": 23,
-    "id": 398,
-    "value": "2"
+    "InstanceId": "59812ac04696593ccc99c93c",
+    "Name": "Counters",
+    "OwnerId": 23,
+    "Owner": "Lucario",
+    "Values": [
+      {
+        "Value": "5-39",
+        "Owner": "Lucario",
+        "OwnerId": 23,
+        "Name": "COUNTER FRAMES"
+      },
+      {
+        "Value": "5-39",
+        "Owner": "Lucario",
+        "OwnerId": 23,
+        "Name": "INTANGIBLE ON"
+      },
+      {
+        "Value": "80",
+        "Owner": "Lucario",
+        "OwnerId": 23,
+        "Name": "FAF"
+      },
+      {
+        "Value": "11",
+        "Owner": "Lucario",
+        "OwnerId": 23,
+        "Name": "DAMAGE (MULTIPLIER)"
+      },
+      {
+        "Value": "60 | 108",
+        "Owner": "Lucario",
+        "OwnerId": 23,
+        "Name": "BKB | KBG"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812ac04696593ccc99c93c"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucario"
+      }
+    ]
   },
   {
-    "name": "Run Speed",
-    "ownerId": 23,
-    "id": 399,
-    "value": "1.55"
+    "InstanceId": "59812ac04696593ccc99c93d",
+    "Name": "AirAcceleration",
+    "OwnerId": 23,
+    "Owner": "Lucario",
+    "Values": [
+      {
+        "Value": "0.07",
+        "Owner": "Lucario",
+        "OwnerId": 23,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812ac04696593ccc99c93d"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucario"
+      }
+    ]
   },
   {
-    "name": "Wall Jump",
-    "ownerId": 23,
-    "id": 400,
-    "value": "Yes"
+    "InstanceId": "59812ac04696593ccc99c93e",
+    "Name": "AirDeceleration",
+    "OwnerId": 23,
+    "Owner": "Lucario",
+    "Values": [
+      {
+        "Value": "0",
+        "Owner": "Lucario",
+        "OwnerId": 23,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812ac04696593ccc99c93e"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucario"
+      }
+    ]
   },
   {
-    "name": "Walk Speed",
-    "ownerId": 23,
-    "id": 401,
-    "value": "1.05"
+    "InstanceId": "59812ac04696593ccc99c93f",
+    "Name": "AirFriction",
+    "OwnerId": 23,
+    "Owner": "Lucario",
+    "Values": [
+      {
+        "Value": "0.005",
+        "Owner": "Lucario",
+        "OwnerId": 23,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812ac04696593ccc99c93f"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucario"
+      }
+    ]
   },
   {
-    "name": "Wall Cling",
-    "ownerId": 23,
-    "id": 402,
-    "value": "Yes"
+    "InstanceId": "59812ac04696593ccc99c940",
+    "Name": "DashLength",
+    "OwnerId": 23,
+    "Owner": "Lucario",
+    "Values": [
+      {
+        "Value": "11",
+        "Owner": "Lucario",
+        "OwnerId": 23,
+        "Name": "LENGTH IN FRAMES"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812ac04696593ccc99c940"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucario"
+      }
+    ]
   },
   {
-    "name": "Air Speed",
-    "ownerId": 23,
-    "id": 403,
-    "value": "1.09"
+    "InstanceId": "59812ac04696593ccc99c941",
+    "Name": "FallSpeed",
+    "OwnerId": 23,
+    "Owner": "Lucario",
+    "Values": [
+      {
+        "Value": "1.68",
+        "Owner": "Lucario",
+        "OwnerId": 23,
+        "Name": "MAX FALL SPEED"
+      },
+      {
+        "Value": "2.688",
+        "Owner": "Lucario",
+        "OwnerId": 23,
+        "Name": "FAST FALL SPEED"
+      },
+      {
+        "Value": "60%",
+        "Owner": "Lucario",
+        "OwnerId": 23,
+        "Name": "SPEED INCREASE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812ac04696593ccc99c941"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucario"
+      }
+    ]
   },
   {
-    "name": "Crawl",
-    "ownerId": 23,
-    "id": 404,
-    "value": "Yes"
+    "InstanceId": "59812ac04696593ccc99c942",
+    "Name": "FullHop",
+    "OwnerId": 23,
+    "Owner": "Lucario",
+    "Values": [
+      {
+        "Value": "37.619999",
+        "Owner": "Lucario",
+        "OwnerId": 23,
+        "Name": "HEIGHT"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812ac04696593ccc99c942"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucario"
+      }
+    ]
   },
   {
-    "name": "Fall Speed",
-    "ownerId": 23,
-    "id": 405,
-    "value": "1.68"
+    "InstanceId": "59812ac04696593ccc99c943",
+    "Name": "Gravity",
+    "OwnerId": 23,
+    "Owner": "Lucario",
+    "Values": [
+      {
+        "Value": "0.084",
+        "Owner": "Lucario",
+        "OwnerId": 23,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812ac04696593ccc99c943"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucario"
+      }
+    ]
   },
   {
-    "name": "Tether",
-    "ownerId": 23,
-    "id": 406,
-    "value": "No"
+    "InstanceId": "59812ac04696593ccc99c944",
+    "Name": "JumpSquat",
+    "OwnerId": 23,
+    "Owner": "Lucario",
+    "Values": [
+      {
+        "Value": "5",
+        "Owner": "Lucario",
+        "OwnerId": 23,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812ac04696593ccc99c944"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucario"
+      }
+    ]
   },
   {
-    "name": "Fast Fall Speed",
-    "ownerId": 23,
-    "id": 407,
-    "value": "2.688"
+    "InstanceId": "59812ac04696593ccc99c945",
+    "Name": "LedgeHop",
+    "OwnerId": 23,
+    "Owner": "Lucario",
+    "Values": [
+      {
+        "Value": "38.810001",
+        "Owner": "Lucario",
+        "OwnerId": 23,
+        "Name": "HEIGHT"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812ac04696593ccc99c945"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucario"
+      }
+    ]
   },
   {
-    "name": "Jumpsquat",
-    "ownerId": 23,
-    "id": 408,
-    "value": "5frames"
+    "InstanceId": "59812ac04696593ccc99c946",
+    "Name": "ShortHop",
+    "OwnerId": 23,
+    "Owner": "Lucario",
+    "Values": [
+      {
+        "Value": "18.193617",
+        "Owner": "Lucario",
+        "OwnerId": 23,
+        "Name": "HEIGHT"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812ac04696593ccc99c946"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucario"
+      }
+    ]
   },
   {
-    "name": "Air Acceleration",
-    "ownerId": 23,
-    "id": 409,
-    "value": "0.07"
+    "InstanceId": "59812ac04696593ccc99c947",
+    "Name": "Spotdodge",
+    "OwnerId": 23,
+    "Owner": "Lucario",
+    "Values": [
+      {
+        "Value": "2-15",
+        "Owner": "Lucario",
+        "OwnerId": 23,
+        "Name": "INTANGIBLE"
+      },
+      {
+        "Value": "27",
+        "Owner": "Lucario",
+        "OwnerId": 23,
+        "Name": "FAF"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812ac04696593ccc99c947"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucario"
+      }
+    ]
   },
   {
-    "name": "Soft Landing Lag",
-    "ownerId": 23,
-    "id": 410,
-    "value": "2frames"
+    "InstanceId": "59812ac04696593ccc99c948",
+    "Name": "Traction",
+    "OwnerId": 23,
+    "Owner": "Lucario",
+    "Values": [
+      {
+        "Value": "0.0736",
+        "Owner": "Lucario",
+        "OwnerId": 23,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812ac04696593ccc99c948"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucario"
+      }
+    ]
   },
   {
-    "name": "Gravity",
-    "ownerId": 23,
-    "id": 411,
-    "value": "0.084"
+    "InstanceId": "59812ac04696593ccc99c949",
+    "Name": "WalkSpeed",
+    "OwnerId": 23,
+    "Owner": "Lucario",
+    "Values": [
+      {
+        "Value": "1.05",
+        "Owner": "Lucario",
+        "OwnerId": 23,
+        "Name": "MAX WALK SPEED VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812ac04696593ccc99c949"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucario"
+      }
+    ]
   },
   {
-    "name": "Hard Landing Lag",
-    "ownerId": 23,
-    "id": 412,
-    "value": "4frames"
+    "InstanceId": "59812ac04696593ccc99c94a",
+    "Name": "AirSpeed",
+    "OwnerId": 23,
+    "Owner": "Lucario",
+    "Values": [
+      {
+        "Value": "1.09",
+        "Owner": "Lucario",
+        "OwnerId": 23,
+        "Name": "MAX AIR SPEED VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812ac04696593ccc99c94a"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucario"
+      }
+    ]
   },
   {
-    "name": "SH Air Time",
-    "ownerId": 23,
-    "id": 413,
-    "value": "41frames"
+    "InstanceId": "59812ac04696593ccc99c94b",
+    "Name": "AirDodge",
+    "OwnerId": 23,
+    "Owner": "Lucario",
+    "Values": [
+      {
+        "Value": "2-25",
+        "Owner": "Lucario",
+        "OwnerId": 23,
+        "Name": "INTANGIBLE"
+      },
+      {
+        "Value": "32",
+        "Owner": "Lucario",
+        "OwnerId": 23,
+        "Name": "FAF"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812ac04696593ccc99c94b"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucario"
+      }
+    ]
   },
   {
-    "name": "FH Air Time",
-    "ownerId": 23,
-    "id": 414,
-    "value": "62frames"
+    "InstanceId": "59812ac04696593ccc99c94c",
+    "Name": "Rolls",
+    "OwnerId": 23,
+    "Owner": "Lucario",
+    "Values": [
+      {
+        "Value": "4-12",
+        "Owner": "Lucario",
+        "OwnerId": 23,
+        "Name": "INTANGIBLE"
+      },
+      {
+        "Value": "30",
+        "Owner": "Lucario",
+        "OwnerId": 23,
+        "Name": "FAF"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812ac04696593ccc99c94c"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucario"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812ac04696593ccc99c94d",
+    "Name": "RunSpeed",
+    "OwnerId": 23,
+    "Owner": "Lucario",
+    "Values": [
+      {
+        "Value": "1.55",
+        "Owner": "Lucario",
+        "OwnerId": 23,
+        "Name": "MAX RUN SPEED VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812ac04696593ccc99c94d"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucario"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812ac04696593ccc99c94e",
+    "Name": "ShieldSize",
+    "OwnerId": 23,
+    "Owner": "Lucario",
+    "Values": [
+      {
+        "Value": "9.408",
+        "Owner": "Lucario",
+        "OwnerId": 23,
+        "Name": "SIZE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812ac04696593ccc99c94e"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucario"
+      }
+    ]
   }
 ]

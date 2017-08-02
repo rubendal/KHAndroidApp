@@ -63,7 +63,7 @@ public class CharacterAsyncTask extends AsyncTask<String, String, LinkedList<Cha
             Collections.sort(list, Character.getComparator());
             return list;
         } catch (Exception e) {
-
+            System.out.println(e.getMessage());
         }
         return null;
     }
@@ -93,7 +93,7 @@ public class CharacterAsyncTask extends AsyncTask<String, String, LinkedList<Cha
                 public boolean onItemLongClick(AdapterView<?> adapterView, View view, int i, long l) {
                     Character character = (Character) adapterView.getItemAtPosition(i);
                     ImageView fav = (ImageView)view.findViewById(R.id.fav);
-                    if(UserPref.checkFavorites(character.name)){
+                    if(UserPref.checkCharacterFavorites(character.name)){
                         UserPref.removeFavoriteCharacter(context.getActivity(),character.name);
                         fav.setVisibility(View.INVISIBLE);
                         character.favorite = false;

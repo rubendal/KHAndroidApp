@@ -2,42 +2,37 @@ package com.rubendal.kuroganehammercom.asynctask.attribute;
 
 import android.app.ProgressDialog;
 import android.os.AsyncTask;
-import android.util.Log;
 
 import com.rubendal.kuroganehammercom.MainActivity;
 import com.rubendal.kuroganehammercom.classes.Attribute;
-import com.rubendal.kuroganehammercom.classes.AttributeList;
+import com.rubendal.kuroganehammercom.classes.AttributeName;
 import com.rubendal.kuroganehammercom.classes.AttributeRank;
-import com.rubendal.kuroganehammercom.classes.AttributeRankWrapper;
-import com.rubendal.kuroganehammercom.classes.Character;
-import com.rubendal.kuroganehammercom.fragments.AttributeFragment;
+import com.rubendal.kuroganehammercom.classes.AttributeRankMaker;
 import com.rubendal.kuroganehammercom.fragments.AttributeRankingFragment;
 import com.rubendal.kuroganehammercom.fragments.KHFragment;
 import com.rubendal.kuroganehammercom.util.Storage;
 
 import org.json.JSONArray;
 
-import java.util.Collections;
 import java.util.LinkedList;
 
-public class AttributeRankingAsyncTask extends AsyncTask<String, String, AttributeRankWrapper> {
+public class AttributeRankingAsyncTask extends AsyncTask<String, String, LinkedList<AttributeRank>> {
 
     private KHFragment context;
     private ProgressDialog dialog;
     private String title;
-    private AttributeList attribute;
-    private LinkedList<Character> characters = new LinkedList<>();
+    private AttributeName attribute;
 
     private boolean replace = false;
 
-    public AttributeRankingAsyncTask(KHFragment context, AttributeList attribute) {
+    public AttributeRankingAsyncTask(KHFragment context, AttributeName attribute) {
         this.context = context;
         this.attribute = attribute;
         this.title = null;
         this.dialog = null;
     }
 
-    public AttributeRankingAsyncTask(KHFragment context, AttributeList attribute, boolean replace) {
+    public AttributeRankingAsyncTask(KHFragment context, AttributeName attribute, boolean replace) {
         this.context = context;
         this.attribute = attribute;
         this.replace = replace;
@@ -45,7 +40,7 @@ public class AttributeRankingAsyncTask extends AsyncTask<String, String, Attribu
         this.dialog = null;
     }
 
-    public AttributeRankingAsyncTask(KHFragment context, AttributeList attribute, boolean replace, String title) {
+    public AttributeRankingAsyncTask(KHFragment context, AttributeName attribute, boolean replace, String title) {
         this(context, attribute, replace);
         this.title = title;
         this.dialog = new ProgressDialog(context.getActivity());
@@ -61,71 +56,41 @@ public class AttributeRankingAsyncTask extends AsyncTask<String, String, Attribu
         }
     }
 
-    private Character getCharacter(int id){
-        for(Character character : characters){
-            if(character.id == id){
-                return character;
-            }
-        }
-        return null;
-    }
 
     @Override
-    protected AttributeRankWrapper doInBackground(String... params) {
+    protected LinkedList<AttributeRank> doInBackground(String... params) {
         try {
-            String json = Storage.read("data","characters.json",context.getActivity());
+
+            String json = Storage.read(attribute.name.toLowerCase(), "attributes.json", context.getActivity());
+            LinkedList<Attribute> list = new LinkedList<>();
             JSONArray jsonArray = new JSONArray(json);
-            for(int i=0;i<jsonArray.length();i++){
-                characters.add(Character.fromJson(context.getActivity(), jsonArray.getJSONObject(i)));
-            }
-            json = Storage.read("data", "attributes.json", context.getActivity());
-            LinkedList<AttributeRank> list = new LinkedList<>();
-            LinkedList<String> types = new LinkedList<>();
-            jsonArray = new JSONArray(json);
             for (int i = 0; i < jsonArray.length(); i++) {
-                Attribute a = Attribute.getFromJson(context.getActivity(), jsonArray.getJSONObject(i));
-                if (a.attributeId == attribute.id) {
-                    if (!types.contains(a.name)) {
-                        types.add(a.name);
-                    }
-                    if(!list.contains(new AttributeRank(a.id, a.attributeId, a.name, getCharacter(a.owner), a.rank))) {
-                        AttributeRank ar = new AttributeRank(a.id, a.attributeId, a.name, getCharacter(a.owner), a.rank);
-                        ar.add(a.name, a.value);
-                        list.add(ar);
-                    }else{
-                        for(AttributeRank ar : list){
-                            if(ar.equals(new AttributeRank(a.id, a.attributeId, a.name, getCharacter(a.owner), a.rank))){
-                                ar.add(a.name, a.value);
-                                break;
-                            }
-                        }
-                    }
-                }
+                list.add(Attribute.getFromJson(context.getContext(), jsonArray.getJSONObject(i)));
             }
-            Collections.sort(list, AttributeRank.getComparator());
 
-
-            return new AttributeRankWrapper(attribute, list, types);
+            return AttributeRankMaker.buildRankList(context.getContext(), list);
         } catch (Exception e) {
-
+            System.out.println(e.getMessage());
         }
         return null;
     }
 
     @Override
-    protected void onPostExecute(AttributeRankWrapper s) {
+    protected void onPostExecute(LinkedList<AttributeRank> s) {
         super.onPostExecute(s);
         if (dialog != null) {
             dialog.dismiss();
         }
+
         try {
             if (replace) {
-                ((MainActivity) context.getActivity()).replaceFragment(AttributeRankingFragment.newInstance(s));
+                ((MainActivity) context.getActivity()).replaceFragment(AttributeRankingFragment.newInstance(attribute, s));
             } else {
-                ((MainActivity) context.getActivity()).loadFragment(AttributeRankingFragment.newInstance(s));
+                ((MainActivity) context.getActivity()).loadFragment(AttributeRankingFragment.newInstance(attribute, s));
             }
         }catch(Exception e){
             //The user pressed back while fragment asynctask is being executed and makes the app crash, that's why here is a try catch lol
         }
+
     }
 }

@@ -1,632 +1,1276 @@
 ﻿[
   {
-    "hitboxActive": "2-3",
-    "firstActionableFrame": "18",
-    "baseDamage": "2",
-    "angle": "70",
-    "baseKnockBackSetKnockback": "W: 10",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Jab 1",
-    "ownerId": 49,
-    "id": 2726
+    "InstanceId": "59812b064696593ccc99d27e",
+    "Name": "Jab 1",
+    "OwnerId": 49,
+    "Owner": "Sheik",
+    "HitboxActive": "2-3",
+    "FirstActionableFrame": "18",
+    "BaseDamage": "2",
+    "Angle": "70",
+    "BaseKnockBackSetKnockback": "W: 10",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b064696593ccc99d27e"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sheik"
+      }
+    ]
   },
   {
-    "hitboxActive": "2-4",
-    "firstActionableFrame": "18",
-    "baseDamage": "3",
-    "angle": "70",
-    "baseKnockBackSetKnockback": "20",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "40",
-    "type": 1,
-    "name": "Jab 2",
-    "ownerId": 49,
-    "id": 2727
+    "InstanceId": "59812b064696593ccc99d27f",
+    "Name": "Jab 2",
+    "OwnerId": 49,
+    "Owner": "Sheik",
+    "HitboxActive": "2-4",
+    "FirstActionableFrame": "18",
+    "BaseDamage": "3",
+    "Angle": "70",
+    "BaseKnockBackSetKnockback": "20",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "40",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b064696593ccc99d27f"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sheik"
+      }
+    ]
   },
   {
-    "hitboxActive": "9, 13, 17, 21, 25...",
-    "firstActionableFrame": "-",
-    "baseDamage": "?",
-    "angle": "?",
-    "baseKnockBackSetKnockback": "?",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "?",
-    "type": 1,
-    "name": "Rapid Jab",
-    "ownerId": 49,
-    "id": 2728
+    "InstanceId": "59812b064696593ccc99d280",
+    "Name": "Rapid Jab",
+    "OwnerId": 49,
+    "Owner": "Sheik",
+    "HitboxActive": "9, 13, 17, 21, 25...",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "?",
+    "Angle": "?",
+    "BaseKnockBackSetKnockback": "?",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "?",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b064696593ccc99d280"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sheik"
+      }
+    ]
   },
   {
-    "hitboxActive": "5-6",
-    "firstActionableFrame": "53",
-    "baseDamage": "3",
-    "angle": "40",
-    "baseKnockBackSetKnockback": "60",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "115",
-    "type": 1,
-    "name": "Rapid Jab Finisher",
-    "ownerId": 49,
-    "id": 2729
+    "InstanceId": "59812b064696593ccc99d281",
+    "Name": "Rapid Jab Finisher",
+    "OwnerId": 49,
+    "Owner": "Sheik",
+    "HitboxActive": "5-6",
+    "FirstActionableFrame": "53",
+    "BaseDamage": "3",
+    "Angle": "40",
+    "BaseKnockBackSetKnockback": "60",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "115",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b064696593ccc99d281"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sheik"
+      }
+    ]
   },
   {
-    "hitboxActive": "5-6",
-    "firstActionableFrame": "41",
-    "baseDamage": "6.5 (+1)",
-    "angle": "60",
-    "baseKnockBackSetKnockback": "70",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "90",
-    "type": 1,
-    "name": "Dash Attack",
-    "ownerId": 49,
-    "id": 2730
+    "InstanceId": "59812b064696593ccc99d282",
+    "Name": "Dash Attack",
+    "OwnerId": 49,
+    "Owner": "Sheik",
+    "HitboxActive": "5-6",
+    "FirstActionableFrame": "41",
+    "BaseDamage": "6.5 (+1)",
+    "Angle": "60",
+    "BaseKnockBackSetKnockback": "70",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "90",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b064696593ccc99d282"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sheik"
+      }
+    ]
   },
   {
-    "hitboxActive": "7-8",
-    "firstActionableFrame": "-",
-    "baseDamage": "4.5 (+1)",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "20",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Dash Attack (Late)",
-    "ownerId": 49,
-    "id": 2731
+    "InstanceId": "59812b064696593ccc99d283",
+    "Name": "Dash Attack (Late)",
+    "OwnerId": 49,
+    "Owner": "Sheik",
+    "HitboxActive": "7-8",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "4.5 (+1)",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "20",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b064696593ccc99d283"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sheik"
+      }
+    ]
   },
   {
-    "hitboxActive": "5-8",
-    "firstActionableFrame": "25",
-    "baseDamage": "4",
-    "angle": "84/86/78",
-    "baseKnockBackSetKnockback": "20",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "158/158/165",
-    "type": 1,
-    "name": "Ftilt",
-    "ownerId": 49,
-    "id": 2732
+    "InstanceId": "59812b064696593ccc99d284",
+    "Name": "Ftilt",
+    "OwnerId": 49,
+    "Owner": "Sheik",
+    "HitboxActive": "5-8",
+    "FirstActionableFrame": "25",
+    "BaseDamage": "4",
+    "Angle": "84/86/78",
+    "BaseKnockBackSetKnockback": "20",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "158/158/165",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b064696593ccc99d284"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sheik"
+      }
+    ]
   },
   {
-    "hitboxActive": "5-8",
-    "firstActionableFrame": "36",
-    "baseDamage": "5",
-    "angle": "0/330/75",
-    "baseKnockBackSetKnockback": "W:30/28/40",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "80",
-    "type": 1,
-    "name": "Utilt (Hit 1)",
-    "ownerId": 49,
-    "id": 2733
+    "InstanceId": "59812b064696593ccc99d285",
+    "Name": "Utilt (Hit 1)",
+    "OwnerId": 49,
+    "Owner": "Sheik",
+    "HitboxActive": "5-8",
+    "FirstActionableFrame": "36",
+    "BaseDamage": "5",
+    "Angle": "0/330/75",
+    "BaseKnockBackSetKnockback": "W:30/28/40",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "80",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b064696593ccc99d285"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sheik"
+      }
+    ]
   },
   {
-    "hitboxActive": "19-23",
-    "firstActionableFrame": "-",
-    "baseDamage": "6",
-    "angle": "60",
-    "baseKnockBackSetKnockback": "20",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "125",
-    "type": 1,
-    "name": "Utilt (Hit 2)",
-    "ownerId": 49,
-    "id": 2734
+    "InstanceId": "59812b064696593ccc99d286",
+    "Name": "Utilt (Hit 2)",
+    "OwnerId": 49,
+    "Owner": "Sheik",
+    "HitboxActive": "19-23",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "6",
+    "Angle": "60",
+    "BaseKnockBackSetKnockback": "20",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "125",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b064696593ccc99d286"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sheik"
+      }
+    ]
   },
   {
-    "hitboxActive": "5-6",
-    "firstActionableFrame": "30",
-    "baseDamage": "5",
-    "angle": "70/70/90",
-    "baseKnockBackSetKnockback": "35",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "80",
-    "type": 1,
-    "name": "Dtilt",
-    "ownerId": 49,
-    "id": 2735
+    "InstanceId": "59812b064696593ccc99d287",
+    "Name": "Dtilt",
+    "OwnerId": 49,
+    "Owner": "Sheik",
+    "HitboxActive": "5-6",
+    "FirstActionableFrame": "30",
+    "BaseDamage": "5",
+    "Angle": "70/70/90",
+    "BaseKnockBackSetKnockback": "35",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "80",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b064696593ccc99d287"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sheik"
+      }
+    ]
   },
   {
-    "hitboxActive": "12",
-    "firstActionableFrame": "51",
-    "baseDamage": "5",
-    "angle": "26/45/80",
-    "baseKnockBackSetKnockback": "W: 62/47/45",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Fsmash (Hit 1)",
-    "ownerId": 49,
-    "id": 2736
+    "InstanceId": "59812b064696593ccc99d288",
+    "Name": "Fsmash (Hit 1)",
+    "OwnerId": 49,
+    "Owner": "Sheik",
+    "HitboxActive": "12",
+    "FirstActionableFrame": "51",
+    "BaseDamage": "5",
+    "Angle": "26/45/80",
+    "BaseKnockBackSetKnockback": "W: 62/47/45",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b064696593ccc99d288"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sheik"
+      }
+    ]
   },
   {
-    "hitboxActive": "26-27",
-    "firstActionableFrame": "-",
-    "baseDamage": "8",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "60",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "109",
-    "type": 1,
-    "name": "Fsmash (Hit 2)",
-    "ownerId": 49,
-    "id": 2737
+    "InstanceId": "59812b064696593ccc99d289",
+    "Name": "Fsmash (Hit 2)",
+    "OwnerId": 49,
+    "Owner": "Sheik",
+    "HitboxActive": "26-27",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "8",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "60",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "109",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b064696593ccc99d289"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sheik"
+      }
+    ]
   },
   {
-    "hitboxActive": "11 (Head and Arms Intangible: 8-15)",
-    "firstActionableFrame": "53",
-    "baseDamage": "15",
-    "angle": "93",
-    "baseKnockBackSetKnockback": "50",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "86",
-    "type": 1,
-    "name": "Usmash (Hit 1)",
-    "ownerId": 49,
-    "id": 2738
+    "InstanceId": "59812b064696593ccc99d28a",
+    "Name": "Usmash (Hit 1)",
+    "OwnerId": 49,
+    "Owner": "Sheik",
+    "HitboxActive": "11 (Head and Arms Intangible: 8-15)",
+    "FirstActionableFrame": "53",
+    "BaseDamage": "15",
+    "Angle": "93",
+    "BaseKnockBackSetKnockback": "50",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "86",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b064696593ccc99d28a"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sheik"
+      }
+    ]
   },
   {
-    "hitboxActive": "14-15",
-    "firstActionableFrame": "-",
-    "baseDamage": "11",
-    "angle": "50",
-    "baseKnockBackSetKnockback": "38",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Usmash (Hit 2)",
-    "ownerId": 49,
-    "id": 2739
+    "InstanceId": "59812b064696593ccc99d28b",
+    "Name": "Usmash (Hit 2)",
+    "OwnerId": 49,
+    "Owner": "Sheik",
+    "HitboxActive": "14-15",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "11",
+    "Angle": "50",
+    "BaseKnockBackSetKnockback": "38",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b064696593ccc99d28b"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sheik"
+      }
+    ]
   },
   {
-    "hitboxActive": "11-12",
-    "firstActionableFrame": "55",
-    "baseDamage": "3",
-    "angle": "140",
-    "baseKnockBackSetKnockback": "W: 35",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Dsmash (Hit 1)",
-    "ownerId": 49,
-    "id": 2740
+    "InstanceId": "59812b064696593ccc99d28c",
+    "Name": "Dsmash (Hit 1)",
+    "OwnerId": 49,
+    "Owner": "Sheik",
+    "HitboxActive": "11-12",
+    "FirstActionableFrame": "55",
+    "BaseDamage": "3",
+    "Angle": "140",
+    "BaseKnockBackSetKnockback": "W: 35",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b064696593ccc99d28c"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sheik"
+      }
+    ]
   },
   {
-    "hitboxActive": "18-19",
-    "firstActionableFrame": "-",
-    "baseDamage": "6",
-    "angle": "48",
-    "baseKnockBackSetKnockback": "35",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "155",
-    "type": 1,
-    "name": "Dsmash (Hit 2)",
-    "ownerId": 49,
-    "id": 2741
+    "InstanceId": "59812b064696593ccc99d28d",
+    "Name": "Dsmash (Hit 2)",
+    "OwnerId": 49,
+    "Owner": "Sheik",
+    "HitboxActive": "18-19",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "6",
+    "Angle": "48",
+    "BaseKnockBackSetKnockback": "35",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "165",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b064696593ccc99d28d"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sheik"
+      }
+    ]
   },
   {
-    "hitboxActive": "6-7",
-    "firstActionableFrame": "28",
-    "baseDamage": "",
-    "angle": "",
-    "baseKnockBackSetKnockback": "",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "",
-    "type": 1,
-    "name": "Standing Grab",
-    "ownerId": 49,
-    "id": 2743
+    "InstanceId": "59812b064696593ccc99d28e",
+    "Name": "Standing Grab",
+    "OwnerId": 49,
+    "Owner": "Sheik",
+    "HitboxActive": "6-7",
+    "FirstActionableFrame": "28",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b064696593ccc99d28e"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sheik"
+      }
+    ]
   },
   {
-    "hitboxActive": "8-9",
-    "firstActionableFrame": "35",
-    "baseDamage": "",
-    "angle": "",
-    "baseKnockBackSetKnockback": "",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "",
-    "type": 1,
-    "name": "Dash Grab",
-    "ownerId": 49,
-    "id": 2744
+    "InstanceId": "59812b064696593ccc99d28f",
+    "Name": "Dash Grab",
+    "OwnerId": 49,
+    "Owner": "Sheik",
+    "HitboxActive": "8-9",
+    "FirstActionableFrame": "35",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b064696593ccc99d28f"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sheik"
+      }
+    ]
   },
   {
-    "hitboxActive": "9-10",
-    "firstActionableFrame": "33",
-    "baseDamage": "",
-    "angle": "",
-    "baseKnockBackSetKnockback": "",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "",
-    "type": 1,
-    "name": "Pivot Grab",
-    "ownerId": 49,
-    "id": 2745
+    "InstanceId": "59812b064696593ccc99d290",
+    "Name": "Pivot Grab",
+    "OwnerId": 49,
+    "Owner": "Sheik",
+    "HitboxActive": "9-10",
+    "FirstActionableFrame": "33",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b064696593ccc99d290"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sheik"
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "5, 2",
-    "angle": "72",
-    "baseKnockBackSetKnockback": "80",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "79",
-    "type": 3,
-    "name": "Fthrow",
-    "ownerId": 49,
-    "id": 2747
+    "InstanceId": "59812b064696593ccc99d291",
+    "Name": "Spotdodge",
+    "OwnerId": 49,
+    "Owner": "Sheik",
+    "HitboxActive": "2-15",
+    "FirstActionableFrame": "25",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b064696593ccc99d291"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sheik"
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "5, 2",
-    "angle": "120",
-    "baseKnockBackSetKnockback": "90",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "50",
-    "type": 3,
-    "name": "Bthrow",
-    "ownerId": 49,
-    "id": 2748
+    "InstanceId": "59812b064696593ccc99d292",
+    "Name": "Forward Roll",
+    "OwnerId": 49,
+    "Owner": "Sheik",
+    "HitboxActive": "4-15",
+    "FirstActionableFrame": "28",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b064696593ccc99d292"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sheik"
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "3, 2",
-    "angle": "85",
-    "baseKnockBackSetKnockback": "80",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "60",
-    "type": 3,
-    "name": "Uthrow",
-    "ownerId": 49,
-    "id": 2749
+    "InstanceId": "59812b064696593ccc99d293",
+    "Name": "Back Roll",
+    "OwnerId": 49,
+    "Owner": "Sheik",
+    "HitboxActive": "4-15",
+    "FirstActionableFrame": "28",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b064696593ccc99d293"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sheik"
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "3, 3",
-    "angle": "77",
-    "baseKnockBackSetKnockback": "80",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "90",
-    "type": 3,
-    "name": "Dthrow",
-    "ownerId": 49,
-    "id": 2750
+    "InstanceId": "59812b064696593ccc99d294",
+    "Name": "Airdodge",
+    "OwnerId": 49,
+    "Owner": "Sheik",
+    "HitboxActive": "2-25",
+    "FirstActionableFrame": "31",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b064696593ccc99d294"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sheik"
+      }
+    ]
   },
   {
-    "hitboxActive": "3-6",
-    "firstActionableFrame": "50",
-    "baseDamage": "8/8/7",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "20",
-    "landingLag": "10",
-    "autoCancel": "1-2, 31&gt;",
-    "knockbackGrowth": "100",
-    "type": 0,
-    "name": "Nair",
-    "ownerId": 49,
-    "id": 2756
+    "InstanceId": "59812b064696593ccc99d295",
+    "Name": "Nair",
+    "OwnerId": 49,
+    "Owner": "Sheik",
+    "HitboxActive": "3-6",
+    "FirstActionableFrame": "50",
+    "BaseDamage": "8/8/7",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "20",
+    "LandingLag": "10",
+    "AutoCancel": "1-2, 31&gt;",
+    "KnockbackGrowth": "100",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b064696593ccc99d295"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sheik"
+      }
+    ]
   },
   {
-    "hitboxActive": "7-30",
-    "firstActionableFrame": "-",
-    "baseDamage": "5/5/4",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "20",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "100",
-    "type": 0,
-    "name": "Nair (Late)",
-    "ownerId": 49,
-    "id": 2757
+    "InstanceId": "59812b064696593ccc99d296",
+    "Name": "Nair (Late)",
+    "OwnerId": 49,
+    "Owner": "Sheik",
+    "HitboxActive": "7-30",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "5/5/4",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "20",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "100",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b064696593ccc99d296"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sheik"
+      }
+    ]
   },
   {
-    "hitboxActive": "5-7",
-    "firstActionableFrame": "35",
-    "baseDamage": "4.3/5",
-    "angle": "50",
-    "baseKnockBackSetKnockback": "40",
-    "landingLag": "10",
-    "autoCancel": "1-4, 11&gt;",
-    "knockbackGrowth": "132",
-    "type": 0,
-    "name": "Fair",
-    "ownerId": 49,
-    "id": 2758
+    "InstanceId": "59812b064696593ccc99d297",
+    "Name": "Fair",
+    "OwnerId": 49,
+    "Owner": "Sheik",
+    "HitboxActive": "5-7",
+    "FirstActionableFrame": "35",
+    "BaseDamage": "4.3/5",
+    "Angle": "50",
+    "BaseKnockBackSetKnockback": "40",
+    "LandingLag": "10",
+    "AutoCancel": "1-4, 11&gt;",
+    "KnockbackGrowth": "132",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b064696593ccc99d297"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sheik"
+      }
+    ]
   },
   {
-    "hitboxActive": "4-6",
-    "firstActionableFrame": "38",
-    "baseDamage": "7/7/8",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "12",
-    "autoCancel": "1-3, 31&gt;",
-    "knockbackGrowth": "100",
-    "type": 0,
-    "name": "Bair",
-    "ownerId": 49,
-    "id": 2759
+    "InstanceId": "59812b064696593ccc99d298",
+    "Name": "Bair",
+    "OwnerId": 49,
+    "Owner": "Sheik",
+    "HitboxActive": "4-6",
+    "FirstActionableFrame": "38",
+    "BaseDamage": "7/7/8",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": "12",
+    "AutoCancel": "1-3, 31&gt;",
+    "KnockbackGrowth": "100",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b064696593ccc99d298"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sheik"
+      }
+    ]
   },
   {
-    "hitboxActive": "7-14",
-    "firstActionableFrame": "-",
-    "baseDamage": "5",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "10",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "101",
-    "type": 0,
-    "name": "Bair (Late)",
-    "ownerId": 49,
-    "id": 2760
+    "InstanceId": "59812b064696593ccc99d299",
+    "Name": "Bair (Late)",
+    "OwnerId": 49,
+    "Owner": "Sheik",
+    "HitboxActive": "7-14",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "5",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "10",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "101",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b064696593ccc99d299"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sheik"
+      }
+    ]
   },
   {
-    "hitboxActive": "4-15 (Rehit rate: 4)",
-    "firstActionableFrame": "44",
-    "baseDamage": "1",
-    "angle": "90/366",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "21",
-    "autoCancel": "1-3, 47&gt;",
-    "knockbackGrowth": "100",
-    "type": 0,
-    "name": "Uair",
-    "ownerId": 49,
-    "id": 2761
+    "InstanceId": "59812b064696593ccc99d29a",
+    "Name": "Uair",
+    "OwnerId": 49,
+    "Owner": "Sheik",
+    "HitboxActive": "4-15 (Rehit rate: 4)",
+    "FirstActionableFrame": "44",
+    "BaseDamage": "1",
+    "Angle": "90/366",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": "21",
+    "AutoCancel": "1-3, 47&gt;",
+    "KnockbackGrowth": "100",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b064696593ccc99d29a"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sheik"
+      }
+    ]
   },
   {
-    "hitboxActive": "23-24",
-    "firstActionableFrame": "-",
-    "baseDamage": "4",
-    "angle": "80",
-    "baseKnockBackSetKnockback": "50",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "138",
-    "type": 0,
-    "name": "Uair (Final Hit)",
-    "ownerId": 49,
-    "id": 2762
+    "InstanceId": "59812b064696593ccc99d29b",
+    "Name": "Uair (Final Hit)",
+    "OwnerId": 49,
+    "Owner": "Sheik",
+    "HitboxActive": "23-24",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "4",
+    "Angle": "80",
+    "BaseKnockBackSetKnockback": "50",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "138",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b064696593ccc99d29b"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sheik"
+      }
+    ]
   },
   {
-    "hitboxActive": "15-18",
-    "firstActionableFrame": "55",
-    "baseDamage": "8",
-    "angle": "280",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "30",
-    "autoCancel": "1-2, 53&gt;",
-    "knockbackGrowth": "90",
-    "type": 0,
-    "name": "Dair",
-    "ownerId": 49,
-    "id": 2763
+    "InstanceId": "59812b064696593ccc99d29c",
+    "Name": "Dair",
+    "OwnerId": 49,
+    "Owner": "Sheik",
+    "HitboxActive": "15-18",
+    "FirstActionableFrame": "55",
+    "BaseDamage": "8",
+    "Angle": "280",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": "30",
+    "AutoCancel": "1-2, 53&gt;",
+    "KnockbackGrowth": "90",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b064696593ccc99d29c"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sheik"
+      }
+    ]
   },
   {
-    "hitboxActive": "19-33",
-    "firstActionableFrame": "-",
-    "baseDamage": "8",
-    "angle": "70",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "105",
-    "type": 0,
-    "name": "Dair (Late)",
-    "ownerId": 49,
-    "id": 2764
+    "InstanceId": "59812b064696593ccc99d29d",
+    "Name": "Dair (Late)",
+    "OwnerId": 49,
+    "Owner": "Sheik",
+    "HitboxActive": "19-33",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "8",
+    "Angle": "70",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "105",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b064696593ccc99d29d"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sheik"
+      }
+    ]
   },
   {
-    "hitboxActive": "1-2",
-    "firstActionableFrame": "-",
-    "baseDamage": "2",
-    "angle": "40",
-    "baseKnockBackSetKnockback": "40",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "150",
-    "type": 0,
-    "name": "Dair (Landing)",
-    "ownerId": 49,
-    "id": 2765
+    "InstanceId": "59812b064696593ccc99d29e",
+    "Name": "Dair (Landing)",
+    "OwnerId": 49,
+    "Owner": "Sheik",
+    "HitboxActive": "1-2",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "2",
+    "Angle": "40",
+    "BaseKnockBackSetKnockback": "40",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "150",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b064696593ccc99d29e"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sheik"
+      }
+    ]
   },
   {
-    "hitboxActive": "Generates Needles on: 1, 26, 44, 62, 80, 98",
-    "firstActionableFrame": "-",
-    "baseDamage": "-",
-    "angle": "-",
-    "baseKnockBackSetKnockback": "-",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "-",
-    "type": 2,
-    "name": "Needle Storm",
-    "ownerId": 49,
-    "id": 2766
+    "InstanceId": "59812b064696593ccc99d29f",
+    "Name": "Needle Storm",
+    "OwnerId": 49,
+    "Owner": "Sheik",
+    "HitboxActive": "Generates Needles on: 1, 26, 44, 62, 80, 98",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "-",
+    "Angle": "-",
+    "BaseKnockBackSetKnockback": "-",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "-",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b064696593ccc99d29f"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sheik"
+      }
+    ]
   },
   {
-    "hitboxActive": "11, 14, 17, 20, 23, 26",
-    "firstActionableFrame": "54",
-    "baseDamage": "-",
-    "angle": "-",
-    "baseKnockBackSetKnockback": "-",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "-",
-    "type": 2,
-    "name": "Needle Storm (6 Needles, Thrown On)",
-    "ownerId": 49,
-    "id": 2767
+    "InstanceId": "59812b064696593ccc99d2a0",
+    "Name": "Needle Storm (6 Needles, Thrown On)",
+    "OwnerId": 49,
+    "Owner": "Sheik",
+    "HitboxActive": "11, 14, 17, 20, 23, 26",
+    "FirstActionableFrame": "54",
+    "BaseDamage": "-",
+    "Angle": "-",
+    "BaseKnockBackSetKnockback": "-",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "-",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b064696593ccc99d2a0"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sheik"
+      }
+    ]
   },
   {
-    "hitboxActive": "5, 7, 9, 11, 13",
-    "firstActionableFrame": "48",
-    "baseDamage": "-",
-    "angle": "-",
-    "baseKnockBackSetKnockback": "-",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "-",
-    "type": 2,
-    "name": "Needle Storm (1-5 Needles, Thrown On)",
-    "ownerId": 49,
-    "id": 2768
+    "InstanceId": "59812b064696593ccc99d2a1",
+    "Name": "Needle Storm (1-5 Needles, Thrown On)",
+    "OwnerId": 49,
+    "Owner": "Sheik",
+    "HitboxActive": "5, 7, 9, 11, 13",
+    "FirstActionableFrame": "48",
+    "BaseDamage": "-",
+    "Angle": "-",
+    "BaseKnockBackSetKnockback": "-",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "-",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b064696593ccc99d2a1"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sheik"
+      }
+    ]
   },
   {
-    "hitboxActive": "1-3",
-    "firstActionableFrame": "-",
-    "baseDamage": "1.9",
-    "angle": "60",
-    "baseKnockBackSetKnockback": "0",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "180",
-    "type": 2,
-    "name": "Needle Storm (Hitboxes)",
-    "ownerId": 49,
-    "id": 2769
+    "InstanceId": "59812b064696593ccc99d2a2",
+    "Name": "Needle Storm (Hitboxes)",
+    "OwnerId": 49,
+    "Owner": "Sheik",
+    "HitboxActive": "1-3",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "1.9",
+    "Angle": "60",
+    "BaseKnockBackSetKnockback": "0",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "180",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b064696593ccc99d2a2"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sheik"
+      }
+    ]
   },
   {
-    "hitboxActive": "4-10",
-    "firstActionableFrame": "-",
-    "baseDamage": "1.2",
-    "angle": "60",
-    "baseKnockBackSetKnockback": "0",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "180",
-    "type": 2,
-    "name": "Needle Storm (Hitboxes, Late)",
-    "ownerId": 49,
-    "id": 2770
+    "InstanceId": "59812b064696593ccc99d2a3",
+    "Name": "Needle Storm (Hitboxes, Late)",
+    "OwnerId": 49,
+    "Owner": "Sheik",
+    "HitboxActive": "4-10",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "1.2",
+    "Angle": "60",
+    "BaseKnockBackSetKnockback": "0",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "180",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b064696593ccc99d2a3"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sheik"
+      }
+    ]
   },
   {
-    "hitboxActive": "15-",
-    "firstActionableFrame": "81",
-    "baseDamage": "-",
-    "angle": "-",
-    "baseKnockBackSetKnockback": "-",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "-",
-    "type": 2,
-    "name": "Burst Grenade (Thrown)",
-    "ownerId": 49,
-    "id": 2771
+    "InstanceId": "59812b064696593ccc99d2a4",
+    "Name": "Burst Grenade (Thrown)",
+    "OwnerId": 49,
+    "Owner": "Sheik",
+    "HitboxActive": "15-",
+    "FirstActionableFrame": "81",
+    "BaseDamage": "-",
+    "Angle": "-",
+    "BaseKnockBackSetKnockback": "-",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "-",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b064696593ccc99d2a4"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sheik"
+      }
+    ]
   },
   {
-    "hitboxActive": "28-48",
-    "firstActionableFrame": "40",
-    "baseDamage": "?",
-    "angle": "?",
-    "baseKnockBackSetKnockback": "?",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "?",
-    "type": 2,
-    "name": "Burst Grenade (Detonation)",
-    "ownerId": 49,
-    "id": 2772
+    "InstanceId": "59812b064696593ccc99d2a5",
+    "Name": "Burst Grenade (Detonation)",
+    "OwnerId": 49,
+    "Owner": "Sheik",
+    "HitboxActive": "28-48",
+    "FirstActionableFrame": "40",
+    "BaseDamage": "?",
+    "Angle": "?",
+    "BaseKnockBackSetKnockback": "?",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "?",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b064696593ccc99d2a5"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sheik"
+      }
+    ]
   },
   {
-    "hitboxActive": "49-",
-    "firstActionableFrame": "-",
-    "baseDamage": "12",
-    "angle": "?",
-    "baseKnockBackSetKnockback": "?",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "?",
-    "type": 2,
-    "name": "Burst Grenade (Explosion)",
-    "ownerId": 49,
-    "id": 2773
+    "InstanceId": "59812b064696593ccc99d2a6",
+    "Name": "Burst Grenade (Explosion)",
+    "OwnerId": 49,
+    "Owner": "Sheik",
+    "HitboxActive": "49-",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "12",
+    "Angle": "?",
+    "BaseKnockBackSetKnockback": "?",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "?",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b064696593ccc99d2a6"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sheik"
+      }
+    ]
   },
   {
-    "hitboxActive": "36-38 (Intangible: 19-53)",
-    "firstActionableFrame": "-",
-    "baseDamage": "12",
-    "angle": "55",
-    "baseKnockBackSetKnockback": "50",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "102",
-    "type": 2,
-    "name": "Vanish",
-    "ownerId": 49,
-    "id": 2774
+    "InstanceId": "59812b064696593ccc99d2a7",
+    "Name": "Vanish",
+    "OwnerId": 49,
+    "Owner": "Sheik",
+    "HitboxActive": "36-38 (Intangible: 19-53)",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "12",
+    "Angle": "55",
+    "BaseKnockBackSetKnockback": "50",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "102",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b064696593ccc99d2a7"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sheik"
+      }
+    ]
   },
   {
-    "hitboxActive": "55-57",
-    "firstActionableFrame": "-",
-    "baseDamage": "5/0",
-    "angle": "45/361",
-    "baseKnockBackSetKnockback": "W: 80/50",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 2,
-    "name": "Vanish (Reappear)",
-    "ownerId": 49,
-    "id": 2775
+    "InstanceId": "59812b064696593ccc99d2a8",
+    "Name": "Vanish (Reappear)",
+    "OwnerId": 49,
+    "Owner": "Sheik",
+    "HitboxActive": "55-57",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "5/0",
+    "Angle": "45/361",
+    "BaseKnockBackSetKnockback": "W: 80/50",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b064696593ccc99d2a8"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sheik"
+      }
+    ]
   },
   {
-    "hitboxActive": "17-24 (Intangible: 3-4)",
-    "firstActionableFrame": "-",
-    "baseDamage": "12",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "26",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "90",
-    "type": 2,
-    "name": "Bouncing Fish (Earliest)",
-    "ownerId": 49,
-    "id": 2776
+    "InstanceId": "59812b064696593ccc99d2a9",
+    "Name": "Bouncing Fish (Earliest)",
+    "OwnerId": 49,
+    "Owner": "Sheik",
+    "HitboxActive": "17-24 (Intangible: 3-4)",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "12",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "26",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "90",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b064696593ccc99d2a9"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sheik"
+      }
+    ]
   },
   {
-    "hitboxActive": "26-33 (Intangible: 3-4)",
-    "firstActionableFrame": "-",
-    "baseDamage": "12",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "26",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "90",
-    "type": 2,
-    "name": "Bouncing Fish (Latest)",
-    "ownerId": 49,
-    "id": 2777
+    "InstanceId": "59812b064696593ccc99d2aa",
+    "Name": "Bouncing Fish (Latest)",
+    "OwnerId": 49,
+    "Owner": "Sheik",
+    "HitboxActive": "26-33 (Intangible: 3-4)",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "12",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "26",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "90",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b064696593ccc99d2aa"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sheik"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812b064696593ccc99d2ab",
+    "Name": "Fthrow",
+    "OwnerId": 49,
+    "Owner": "Sheik",
+    "HitboxActive": null,
+    "FirstActionableFrame": null,
+    "BaseDamage": "5, 2",
+    "Angle": "72",
+    "BaseKnockBackSetKnockback": "80",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "79",
+    "MoveType": "throw",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b064696593ccc99d2ab"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sheik"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812b064696593ccc99d2ac",
+    "Name": "Bthrow",
+    "OwnerId": 49,
+    "Owner": "Sheik",
+    "HitboxActive": null,
+    "FirstActionableFrame": null,
+    "BaseDamage": "5, 2",
+    "Angle": "120",
+    "BaseKnockBackSetKnockback": "90",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "50",
+    "MoveType": "throw",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b064696593ccc99d2ac"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sheik"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812b064696593ccc99d2ad",
+    "Name": "Uthrow",
+    "OwnerId": 49,
+    "Owner": "Sheik",
+    "HitboxActive": null,
+    "FirstActionableFrame": null,
+    "BaseDamage": "3, 2",
+    "Angle": "85",
+    "BaseKnockBackSetKnockback": "80",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "60",
+    "MoveType": "throw",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b064696593ccc99d2ad"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sheik"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812b064696593ccc99d2ae",
+    "Name": "Dthrow",
+    "OwnerId": 49,
+    "Owner": "Sheik",
+    "HitboxActive": null,
+    "FirstActionableFrame": null,
+    "BaseDamage": "3, 3",
+    "Angle": "77",
+    "BaseKnockBackSetKnockback": "80",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "90",
+    "MoveType": "throw",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b064696593ccc99d2ae"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sheik"
+      }
+    ]
   }
 ]

@@ -29,7 +29,7 @@ public class AttackListFragment extends KHFragment {
     private Character character;
     private MoveType moveType;
     private LinkedList<Move> moveList;
-    private LinkedList<Attribute> attributes;
+    private LinkedList<Move> evasion;
 
     public AttackListFragment() {
 
@@ -48,7 +48,7 @@ public class AttackListFragment extends KHFragment {
             this.character = (Character)getArguments().getSerializable("character");
             this.moveType = (MoveType)getArguments().getSerializable("type");
             this.moveList = (LinkedList<Move>)getArguments().getSerializable("list");
-            this.attributes = (LinkedList<Attribute>)getArguments().getSerializable("attributes");
+            this.evasion = (LinkedList<Move>)getArguments().getSerializable("evasion");
         }
     }
 
@@ -72,18 +72,18 @@ public class AttackListFragment extends KHFragment {
         return String.format("%s/%s",character.getCharacterTitleName(), getType());
     }
 
-    public static AttackListFragment newInstance(Character character, MoveType type, LinkedList<Move> moveList, LinkedList<Attribute> attributes){
+    public static AttackListFragment newInstance(Character character, MoveType type, LinkedList<Move> moveList, LinkedList<Move> evasion){
         AttackListFragment fragment = new AttackListFragment();
         Bundle args = new Bundle();
         args.putSerializable("character", character);
         args.putSerializable("type", type);
         args.putSerializable("list", moveList);
-        args.putSerializable("attributes",attributes);
+        args.putSerializable("evasion",evasion);
         fragment.setArguments(args);
         fragment.character = character;
         fragment.moveType = type;
         fragment.moveList = moveList;
-        fragment.attributes = attributes;
+        fragment.evasion = evasion;
         return fragment;
     }
 
@@ -154,53 +154,13 @@ public class AttackListFragment extends KHFragment {
                     t.setBackgroundColor(Color.parseColor(character.color));
                 }
 
-                LinkedList<DodgeData> dodgeData = new LinkedList<>();
-
-                for(int i=0;i<attributes.size();i+=2){
-                    String name = attributes.get(i).formattedName;
-                    boolean repeatedRolls = false;
-                    boolean roll = false;
-                    String atrName = "";
-                    if(name.contains("AIRDODGE")){
-                        atrName = "Airdodge";
-                    }else if(name.contains("ROLLS")){
-                        if(i+3<attributes.size()){
-                            if(attributes.get(i+2).formattedName.contains("ROLLS")){
-                                repeatedRolls = true;
-                            }
-                            atrName = "Forward Roll";
-                            roll = true;
-                        }
-                    }else{
-                        //Spotdodge
-                        atrName = "Spotdodge";
-                    }
-                    String intangibility=attributes.get(i).value;
-                    String faf=attributes.get(i+1).value;
-
-                    DodgeData d = new DodgeData(atrName, intangibility, faf);
-                    dodgeData.add(d);
-                    if(roll){
-                        DodgeData d2 = new DodgeData("Back Roll", intangibility, faf);
-                        if(!repeatedRolls){
-                            dodgeData.add(d2);
-                        }else{
-                            //Greninja
-                            i+=2;
-                            d2.intangibility = attributes.get(i).value;
-                            d2.faf = attributes.get(i+1).value;
-                            dodgeData.add(d2);
-
-                        }
+                for (Move move : evasion) {
+                    if (move != null) {
+                        o++;
+                        layout.addView(new DodgeData(move).asRow(this.getActivity(), o % 2 == 1));
                     }
                 }
 
-                Collections.swap(dodgeData,0,3);
-
-                for(DodgeData d : dodgeData){
-                    o++;
-                    layout.addView(d.asRow(this.getActivity(), o % 2 == 1));
-                }
             }
         }else{
             TableLayout layout = (TableLayout)getView().findViewById(R.id.groundtable);
@@ -257,52 +217,11 @@ public class AttackListFragment extends KHFragment {
                 t.setBackgroundColor(Color.parseColor(character.color));
             }
 
-            LinkedList<DodgeData> dodgeData = new LinkedList<>();
-
-            for(int i=0;i<attributes.size();i+=2){
-                String name = attributes.get(i).formattedName;
-                boolean repeatedRolls = false;
-                boolean roll = false;
-                String atrName = "";
-                if(name.contains("AIRDODGE")){
-                    atrName = "Airdodge";
-                }else if(name.contains("ROLLS")){
-                    if(i+3<attributes.size()){
-                        if(attributes.get(i+2).formattedName.contains("ROLLS")){
-                            repeatedRolls = true;
-                        }
-                        atrName = "Forward Roll";
-                        roll = true;
-                    }
-                }else{
-                    //Spotdodge
-                    atrName = "Spotdodge";
+            for (Move move : evasion) {
+                if (move != null) {
+                    o++;
+                    layout.addView(new DodgeData(move).asRow(this.getActivity(), o % 2 == 1));
                 }
-                String intangibility=attributes.get(i).value;
-                String faf=attributes.get(i+1).value;
-
-                DodgeData d = new DodgeData(atrName, intangibility, faf);
-                dodgeData.add(d);
-                if(roll){
-                    DodgeData d2 = new DodgeData("Back Roll", intangibility, faf);
-                    if(!repeatedRolls){
-                        dodgeData.add(d2);
-                    }else{
-                        //Greninja
-                        i+=2;
-                        d2.intangibility = attributes.get(i).value;
-                        d2.faf = attributes.get(i+1).value;
-                        dodgeData.add(d2);
-
-                    }
-                }
-            }
-
-            Collections.swap(dodgeData,0,3);
-
-            for(DodgeData d : dodgeData){
-                o++;
-                layout.addView(d.asRow(this.getActivity(), o % 2 == 1));
             }
 
             o=0;

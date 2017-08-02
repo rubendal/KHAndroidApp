@@ -1,110 +1,488 @@
 ﻿[
   {
-    "name": "Weight",
-    "ownerId": 30,
-    "id": 523,
-    "value": "80"
+    "InstanceId": "59812ad34696593ccc99cbb6",
+    "Name": "AerialJump",
+    "OwnerId": 30,
+    "Owner": "MetaKnight",
+    "Values": [
+      {
+        "Value": "28.925524",
+        "Owner": "MetaKnight",
+        "OwnerId": 30,
+        "Name": "HEIGHT"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812ad34696593ccc99cbb6"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MetaKnight"
+      }
+    ]
   },
   {
-    "name": "Max Jumps",
-    "ownerId": 30,
-    "id": 524,
-    "value": "6"
+    "InstanceId": "59812ad34696593ccc99cbb7",
+    "Name": "AirAcceleration",
+    "OwnerId": 30,
+    "Owner": "MetaKnight",
+    "Values": [
+      {
+        "Value": "0.065",
+        "Owner": "MetaKnight",
+        "OwnerId": 30,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812ad34696593ccc99cbb7"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MetaKnight"
+      }
+    ]
   },
   {
-    "name": "Run Speed",
-    "ownerId": 30,
-    "id": 525,
-    "value": "1.9"
+    "InstanceId": "59812ad34696593ccc99cbb8",
+    "Name": "AirDeceleration",
+    "OwnerId": 30,
+    "Owner": "MetaKnight",
+    "Values": [
+      {
+        "Value": "0.01",
+        "Owner": "MetaKnight",
+        "OwnerId": 30,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812ad34696593ccc99cbb8"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MetaKnight"
+      }
+    ]
   },
   {
-    "name": "Wall Jump",
-    "ownerId": 30,
-    "id": 526,
-    "value": "No"
+    "InstanceId": "59812ad34696593ccc99cbb9",
+    "Name": "AirFriction",
+    "OwnerId": 30,
+    "Owner": "MetaKnight",
+    "Values": [
+      {
+        "Value": "0.012",
+        "Owner": "MetaKnight",
+        "OwnerId": 30,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812ad34696593ccc99cbb9"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MetaKnight"
+      }
+    ]
   },
   {
-    "name": "Walk Speed",
-    "ownerId": 30,
-    "id": 527,
-    "value": "1.18"
+    "InstanceId": "59812ad34696593ccc99cbba",
+    "Name": "DashLength",
+    "OwnerId": 30,
+    "Owner": "MetaKnight",
+    "Values": [
+      {
+        "Value": "13",
+        "Owner": "MetaKnight",
+        "OwnerId": 30,
+        "Name": "LENGTH IN FRAMES"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812ad34696593ccc99cbba"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MetaKnight"
+      }
+    ]
   },
   {
-    "name": "Wall Cling",
-    "ownerId": 30,
-    "id": 528,
-    "value": "No"
+    "InstanceId": "59812ad34696593ccc99cbbb",
+    "Name": "FallSpeed",
+    "OwnerId": 30,
+    "Owner": "MetaKnight",
+    "Values": [
+      {
+        "Value": "1.66",
+        "Owner": "MetaKnight",
+        "OwnerId": 30,
+        "Name": "MAX FALL SPEED"
+      },
+      {
+        "Value": "2.656",
+        "Owner": "MetaKnight",
+        "OwnerId": 30,
+        "Name": "FAST FALL SPEED"
+      },
+      {
+        "Value": "60%",
+        "Owner": "MetaKnight",
+        "OwnerId": 30,
+        "Name": "SPEED INCREASE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812ad34696593ccc99cbbb"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MetaKnight"
+      }
+    ]
   },
   {
-    "name": "Air Speed",
-    "ownerId": 30,
-    "id": 529,
-    "value": "0.99"
+    "InstanceId": "59812ad34696593ccc99cbbc",
+    "Name": "FullHop",
+    "OwnerId": 30,
+    "Owner": "MetaKnight",
+    "Values": [
+      {
+        "Value": "32",
+        "Owner": "MetaKnight",
+        "OwnerId": 30,
+        "Name": "HEIGHT"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812ad34696593ccc99cbbc"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MetaKnight"
+      }
+    ]
   },
   {
-    "name": "Crawl",
-    "ownerId": 30,
-    "id": 530,
-    "value": "No"
+    "InstanceId": "59812ad34696593ccc99cbbd",
+    "Name": "Gravity",
+    "OwnerId": 30,
+    "Owner": "MetaKnight",
+    "Values": [
+      {
+        "Value": "0.11",
+        "Owner": "MetaKnight",
+        "OwnerId": 30,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812ad34696593ccc99cbbd"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MetaKnight"
+      }
+    ]
   },
   {
-    "name": "Fall Speed",
-    "ownerId": 30,
-    "id": 531,
-    "value": "1.66"
+    "InstanceId": "59812ad34696593ccc99cbbe",
+    "Name": "JumpSquat",
+    "OwnerId": 30,
+    "Owner": "MetaKnight",
+    "Values": [
+      {
+        "Value": "4",
+        "Owner": "MetaKnight",
+        "OwnerId": 30,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812ad34696593ccc99cbbe"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MetaKnight"
+      }
+    ]
   },
   {
-    "name": "Tether",
-    "ownerId": 30,
-    "id": 532,
-    "value": "No"
+    "InstanceId": "59812ad34696593ccc99cbbf",
+    "Name": "LedgeHop",
+    "OwnerId": 30,
+    "Owner": "MetaKnight",
+    "Values": [
+      {
+        "Value": "36",
+        "Owner": "MetaKnight",
+        "OwnerId": 30,
+        "Name": "HEIGHT"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812ad34696593ccc99cbbf"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MetaKnight"
+      }
+    ]
   },
   {
-    "name": "Fast Fall Speed",
-    "ownerId": 30,
-    "id": 533,
-    "value": "2.656"
+    "InstanceId": "59812ad34696593ccc99cbc0",
+    "Name": "ShortHop",
+    "OwnerId": 30,
+    "Owner": "MetaKnight",
+    "Values": [
+      {
+        "Value": "13.915902",
+        "Owner": "MetaKnight",
+        "OwnerId": 30,
+        "Name": "HEIGHT"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812ad34696593ccc99cbc0"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MetaKnight"
+      }
+    ]
   },
   {
-    "name": "Jumpsquat",
-    "ownerId": 30,
-    "id": 534,
-    "value": "4frames"
+    "InstanceId": "59812ad34696593ccc99cbc1",
+    "Name": "Spotdodge",
+    "OwnerId": 30,
+    "Owner": "MetaKnight",
+    "Values": [
+      {
+        "Value": "2-15",
+        "Owner": "MetaKnight",
+        "OwnerId": 30,
+        "Name": "INTANGIBLE"
+      },
+      {
+        "Value": "25",
+        "Owner": "MetaKnight",
+        "OwnerId": 30,
+        "Name": "FAF"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812ad34696593ccc99cbc1"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MetaKnight"
+      }
+    ]
   },
   {
-    "name": "Air Acceleration",
-    "ownerId": 30,
-    "id": 535,
-    "value": "0.065"
+    "InstanceId": "59812ad34696593ccc99cbc2",
+    "Name": "Traction",
+    "OwnerId": 30,
+    "Owner": "MetaKnight",
+    "Values": [
+      {
+        "Value": "0.055",
+        "Owner": "MetaKnight",
+        "OwnerId": 30,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812ad34696593ccc99cbc2"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MetaKnight"
+      }
+    ]
   },
   {
-    "name": "Soft Landing Lag",
-    "ownerId": 30,
-    "id": 536,
-    "value": "2frames"
+    "InstanceId": "59812ad34696593ccc99cbc3",
+    "Name": "WalkSpeed",
+    "OwnerId": 30,
+    "Owner": "MetaKnight",
+    "Values": [
+      {
+        "Value": "1.18",
+        "Owner": "MetaKnight",
+        "OwnerId": 30,
+        "Name": "MAX WALK SPEED VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812ad34696593ccc99cbc3"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MetaKnight"
+      }
+    ]
   },
   {
-    "name": "Gravity",
-    "ownerId": 30,
-    "id": 537,
-    "value": "0.11"
+    "InstanceId": "59812ad34696593ccc99cbc4",
+    "Name": "AirSpeed",
+    "OwnerId": 30,
+    "Owner": "MetaKnight",
+    "Values": [
+      {
+        "Value": "0.99",
+        "Owner": "MetaKnight",
+        "OwnerId": 30,
+        "Name": "MAX AIR SPEED VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812ad34696593ccc99cbc4"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MetaKnight"
+      }
+    ]
   },
   {
-    "name": "Hard Landing Lag",
-    "ownerId": 30,
-    "id": 538,
-    "value": "4frames"
+    "InstanceId": "59812ad34696593ccc99cbc5",
+    "Name": "AirDodge",
+    "OwnerId": 30,
+    "Owner": "MetaKnight",
+    "Values": [
+      {
+        "Value": "2-25",
+        "Owner": "MetaKnight",
+        "OwnerId": 30,
+        "Name": "INTANGIBLE"
+      },
+      {
+        "Value": "31",
+        "Owner": "MetaKnight",
+        "OwnerId": 30,
+        "Name": "FAF"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812ad34696593ccc99cbc5"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MetaKnight"
+      }
+    ]
   },
   {
-    "name": "SH Air Time",
-    "ownerId": 30,
-    "id": 539,
-    "value": "31frames"
+    "InstanceId": "59812ad34696593ccc99cbc6",
+    "Name": "Rolls",
+    "OwnerId": 30,
+    "Owner": "MetaKnight",
+    "Values": [
+      {
+        "Value": "4-15",
+        "Owner": "MetaKnight",
+        "OwnerId": 30,
+        "Name": "INTANGIBLE"
+      },
+      {
+        "Value": "28",
+        "Owner": "MetaKnight",
+        "OwnerId": 30,
+        "Name": "FAF"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812ad34696593ccc99cbc6"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MetaKnight"
+      }
+    ]
   },
   {
-    "name": "FH Air Time",
-    "ownerId": 30,
-    "id": 540,
-    "value": "50frames"
+    "InstanceId": "59812ad34696593ccc99cbc7",
+    "Name": "RunSpeed",
+    "OwnerId": 30,
+    "Owner": "MetaKnight",
+    "Values": [
+      {
+        "Value": "1.9",
+        "Owner": "MetaKnight",
+        "OwnerId": 30,
+        "Name": "MAX RUN SPEED VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812ad34696593ccc99cbc7"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MetaKnight"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812ad34696593ccc99cbc8",
+    "Name": "ShieldSize",
+    "OwnerId": 30,
+    "Owner": "MetaKnight",
+    "Values": [
+      {
+        "Value": "9.345",
+        "Owner": "MetaKnight",
+        "OwnerId": 30,
+        "Name": "SIZE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812ad34696593ccc99cbc8"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MetaKnight"
+      }
+    ]
   }
 ]

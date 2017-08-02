@@ -36,7 +36,7 @@ public class AttributeFragment extends KHFragment {
 
     @Override
     public String getTitle() {
-        return String.format("%s/%s",character.getCharacterTitleName(), "Attributes Ranking");
+        return String.format("%s/%s",character.getCharacterTitleName(), "Detailed attributes");
     }
 
     @Override
@@ -92,8 +92,12 @@ public class AttributeFragment extends KHFragment {
 
         for(Attribute a : attributes){
             if(a!=null){
-                o++;
-                layout.addView(a.asRow(this.getActivity(),o % 2 == 1));
+                LinkedList<TableRow> rows = a.asRow(this.getContext(), o);
+                for(TableRow row : rows){
+                    layout.addView(row);
+                    o++;
+                }
+
             }
         }
     }

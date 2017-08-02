@@ -19,8 +19,8 @@ public class AerialMove extends Move {
     public String landingLag;
     public String autoCancel;
 
-    public AerialMove(int id, MoveType moveType, String name, String hitboxActive, String FAF, String baseDamage, String angle, String bkb, String kbg, String landingLag, String autoCancel) {
-        super(id, moveType, name, hitboxActive, FAF, baseDamage, angle, bkb, kbg);
+    public AerialMove(MoveType moveType, String name, String hitboxActive, String FAF, String baseDamage, String angle, String bkb, String kbg, String landingLag, String autoCancel) {
+        super(moveType, name, hitboxActive, FAF, baseDamage, angle, bkb, kbg);
         this.landingLag = landingLag;
         this.autoCancel = autoCancel;
     }
@@ -80,18 +80,33 @@ public class AerialMove extends Move {
 
     public static AerialMove getFromJson(JSONObject jsonObject){
         try {
-            int id = jsonObject.getInt("id");
-            MoveType moveType = MoveType.fromValue(jsonObject.getInt("type"));
-            String name = StringEscapeUtils.unescapeHtml4(jsonObject.getString("name"));
-            String hitboxActive = StringEscapeUtils.unescapeHtml4(jsonObject.getString("hitboxActive"));
-            String FAF = StringEscapeUtils.unescapeHtml4(jsonObject.getString("firstActionableFrame"));
-            String baseDamage = StringEscapeUtils.unescapeHtml4(jsonObject.getString("baseDamage"));
-            String angle = StringEscapeUtils.unescapeHtml4(jsonObject.getString("angle"));
-            String bkb = StringEscapeUtils.unescapeHtml4(jsonObject.getString("baseKnockBackSetKnockback"));
-            String kbg = StringEscapeUtils.unescapeHtml4(jsonObject.getString("knockbackGrowth"));
-            String landingLag = StringEscapeUtils.unescapeHtml4(jsonObject.getString("landingLag"));
-            String autoCancel = StringEscapeUtils.unescapeHtml4(jsonObject.getString("autoCancel"));
-            return new AerialMove(id, moveType, name, hitboxActive, FAF, baseDamage, angle, bkb, kbg, landingLag, autoCancel);
+            MoveType moveType = MoveType.fromValue(jsonObject.getString("MoveType"));
+            String name = StringEscapeUtils.unescapeHtml4(jsonObject.getString("Name"));
+            String hitboxActive = StringEscapeUtils.unescapeHtml4(jsonObject.getString("HitboxActive"));
+            String FAF = StringEscapeUtils.unescapeHtml4(jsonObject.getString("FirstActionableFrame"));
+            String baseDamage = StringEscapeUtils.unescapeHtml4(jsonObject.getString("BaseDamage"));
+            String angle = StringEscapeUtils.unescapeHtml4(jsonObject.getString("Angle"));
+            String bkb = StringEscapeUtils.unescapeHtml4(jsonObject.getString("BaseKnockBackSetKnockback"));
+            String kbg = StringEscapeUtils.unescapeHtml4(jsonObject.getString("KnockbackGrowth"));
+            String landingLag = StringEscapeUtils.unescapeHtml4(jsonObject.getString("LandingLag"));
+            String autoCancel = StringEscapeUtils.unescapeHtml4(jsonObject.getString("AutoCancel"));
+            if(jsonObject.isNull("HitboxActive"))
+                hitboxActive="";
+            if(jsonObject.isNull("FirstActionableFrame"))
+                FAF = "";
+            if(jsonObject.isNull("BaseDamage"))
+                baseDamage = "";
+            if(jsonObject.isNull("Angle"))
+                angle = "";
+            if(jsonObject.isNull("BaseKnockBackSetKnockback"))
+                bkb = "";
+            if(jsonObject.isNull("KnockbackGrowth"))
+                kbg = "";
+            if(jsonObject.isNull("LandingLag"))
+                landingLag = "";
+            if(jsonObject.isNull("AutoCancel"))
+                autoCancel = "";
+            return new AerialMove(moveType, name, hitboxActive, FAF, baseDamage, angle, bkb, kbg, landingLag, autoCancel);
         }catch(Exception e){
             return null;
         }

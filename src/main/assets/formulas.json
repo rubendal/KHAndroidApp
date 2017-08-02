@@ -57,7 +57,7 @@
     {
         "formula":"Pikmin Grab Duration Formula",
         "equation":"Floor((360-p)-i)",
-        "notes":"	p = Target percent\ni = Input\nInput:\nL-stick = 7\nButton = 12.5"
+        "notes":"p = Target percent\ni = Input\nInput:\nL-stick = 7\nButton = 12.5"
     },
     {
         "formula":"Smash Charge Formula",

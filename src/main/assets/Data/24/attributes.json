@@ -1,110 +1,488 @@
 ﻿[
   {
-    "name": "Weight",
-    "ownerId": 24,
-    "id": 415,
-    "value": "94"
+    "InstanceId": "59812ac34696593ccc99c994",
+    "Name": "AerialJump",
+    "OwnerId": 24,
+    "Owner": "Lucas",
+    "Values": [
+      {
+        "Value": "34.48",
+        "Owner": "Lucas",
+        "OwnerId": 24,
+        "Name": "HEIGHT"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812ac34696593ccc99c994"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucas"
+      }
+    ]
   },
   {
-    "name": "Max Jumps",
-    "ownerId": 24,
-    "id": 416,
-    "value": "2"
+    "InstanceId": "59812ac34696593ccc99c995",
+    "Name": "AirAcceleration",
+    "OwnerId": 24,
+    "Owner": "Lucas",
+    "Values": [
+      {
+        "Value": "0.085",
+        "Owner": "Lucas",
+        "OwnerId": 24,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812ac34696593ccc99c995"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucas"
+      }
+    ]
   },
   {
-    "name": "Run Speed",
-    "ownerId": 24,
-    "id": 417,
-    "value": "1.5"
+    "InstanceId": "59812ac34696593ccc99c996",
+    "Name": "AirDeceleration",
+    "OwnerId": 24,
+    "Owner": "Lucas",
+    "Values": [
+      {
+        "Value": "0.01",
+        "Owner": "Lucas",
+        "OwnerId": 24,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812ac34696593ccc99c996"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucas"
+      }
+    ]
   },
   {
-    "name": "Wall Jump",
-    "ownerId": 24,
-    "id": 418,
-    "value": "No"
+    "InstanceId": "59812ac34696593ccc99c997",
+    "Name": "AirFriction",
+    "OwnerId": 24,
+    "Owner": "Lucas",
+    "Values": [
+      {
+        "Value": "0.014",
+        "Owner": "Lucas",
+        "OwnerId": 24,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812ac34696593ccc99c997"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucas"
+      }
+    ]
   },
   {
-    "name": "Walk Speed",
-    "ownerId": 24,
-    "id": 419,
-    "value": "0.85"
+    "InstanceId": "59812ac34696593ccc99c998",
+    "Name": "DashLength",
+    "OwnerId": 24,
+    "Owner": "Lucas",
+    "Values": [
+      {
+        "Value": "11",
+        "Owner": "Lucas",
+        "OwnerId": 24,
+        "Name": "LENGTH IN FRAMES"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812ac34696593ccc99c998"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucas"
+      }
+    ]
   },
   {
-    "name": "Wall Cling",
-    "ownerId": 24,
-    "id": 420,
-    "value": "No"
+    "InstanceId": "59812ac34696593ccc99c999",
+    "Name": "FallSpeed",
+    "OwnerId": 24,
+    "Owner": "Lucas",
+    "Values": [
+      {
+        "Value": "1.37",
+        "Owner": "Lucas",
+        "OwnerId": 24,
+        "Name": "MAX FALL SPEED"
+      },
+      {
+        "Value": "2.192",
+        "Owner": "Lucas",
+        "OwnerId": 24,
+        "Name": "FAST FALL SPEED"
+      },
+      {
+        "Value": "60%",
+        "Owner": "Lucas",
+        "OwnerId": 24,
+        "Name": "SPEED INCREASE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812ac34696593ccc99c999"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucas"
+      }
+    ]
   },
   {
-    "name": "Air Speed",
-    "ownerId": 24,
-    "id": 421,
-    "value": "1.1"
+    "InstanceId": "59812ac34696593ccc99c99a",
+    "Name": "FullHop",
+    "OwnerId": 24,
+    "Owner": "Lucas",
+    "Values": [
+      {
+        "Value": "29.41",
+        "Owner": "Lucas",
+        "OwnerId": 24,
+        "Name": "HEIGHT"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812ac34696593ccc99c99a"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucas"
+      }
+    ]
   },
   {
-    "name": "Crawl",
-    "ownerId": 24,
-    "id": 422,
-    "value": "No"
+    "InstanceId": "59812ac34696593ccc99c99b",
+    "Name": "Gravity",
+    "OwnerId": 24,
+    "Owner": "Lucas",
+    "Values": [
+      {
+        "Value": "0.09",
+        "Owner": "Lucas",
+        "OwnerId": 24,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812ac34696593ccc99c99b"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucas"
+      }
+    ]
   },
   {
-    "name": "Fall Speed",
-    "ownerId": 24,
-    "id": 423,
-    "value": "1.37"
+    "InstanceId": "59812ac34696593ccc99c99c",
+    "Name": "JumpSquat",
+    "OwnerId": 24,
+    "Owner": "Lucas",
+    "Values": [
+      {
+        "Value": "5",
+        "Owner": "Lucas",
+        "OwnerId": 24,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812ac34696593ccc99c99c"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucas"
+      }
+    ]
   },
   {
-    "name": "Tether",
-    "ownerId": 24,
-    "id": 424,
-    "value": "Yes"
+    "InstanceId": "59812ac34696593ccc99c99d",
+    "Name": "LedgeHop",
+    "OwnerId": 24,
+    "Owner": "Lucas",
+    "Values": [
+      {
+        "Value": "45.630001",
+        "Owner": "Lucas",
+        "OwnerId": 24,
+        "Name": "HEIGHT"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812ac34696593ccc99c99d"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucas"
+      }
+    ]
   },
   {
-    "name": "Fast Fall Speed",
-    "ownerId": 24,
-    "id": 425,
-    "value": "2.192"
+    "InstanceId": "59812ac34696593ccc99c99e",
+    "Name": "ShortHop",
+    "OwnerId": 24,
+    "Owner": "Lucas",
+    "Values": [
+      {
+        "Value": "13",
+        "Owner": "Lucas",
+        "OwnerId": 24,
+        "Name": "HEIGHT"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812ac34696593ccc99c99e"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucas"
+      }
+    ]
   },
   {
-    "name": "Jumpsquat",
-    "ownerId": 24,
-    "id": 426,
-    "value": "5frames"
+    "InstanceId": "59812ac34696593ccc99c99f",
+    "Name": "Spotdodge",
+    "OwnerId": 24,
+    "Owner": "Lucas",
+    "Values": [
+      {
+        "Value": "3-18",
+        "Owner": "Lucas",
+        "OwnerId": 24,
+        "Name": "INTANGIBLE"
+      },
+      {
+        "Value": "28",
+        "Owner": "Lucas",
+        "OwnerId": 24,
+        "Name": "FAF"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812ac34696593ccc99c99f"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucas"
+      }
+    ]
   },
   {
-    "name": "Air Acceleration",
-    "ownerId": 24,
-    "id": 427,
-    "value": "0.085"
+    "InstanceId": "59812ac34696593ccc99c9a0",
+    "Name": "Traction",
+    "OwnerId": 24,
+    "Owner": "Lucas",
+    "Values": [
+      {
+        "Value": "0.045",
+        "Owner": "Lucas",
+        "OwnerId": 24,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812ac34696593ccc99c9a0"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucas"
+      }
+    ]
   },
   {
-    "name": "Soft Landing Lag",
-    "ownerId": 24,
-    "id": 428,
-    "value": "2frames"
+    "InstanceId": "59812ac34696593ccc99c9a1",
+    "Name": "WalkSpeed",
+    "OwnerId": 24,
+    "Owner": "Lucas",
+    "Values": [
+      {
+        "Value": "0.85",
+        "Owner": "Lucas",
+        "OwnerId": 24,
+        "Name": "MAX WALK SPEED VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812ac34696593ccc99c9a1"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucas"
+      }
+    ]
   },
   {
-    "name": "Gravity",
-    "ownerId": 24,
-    "id": 429,
-    "value": "0.09"
+    "InstanceId": "59812ac34696593ccc99c9a2",
+    "Name": "AirSpeed",
+    "OwnerId": 24,
+    "Owner": "Lucas",
+    "Values": [
+      {
+        "Value": "1.1",
+        "Owner": "Lucas",
+        "OwnerId": 24,
+        "Name": "MAX AIR SPEED VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812ac34696593ccc99c9a2"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucas"
+      }
+    ]
   },
   {
-    "name": "Hard Landing Lag",
-    "ownerId": 24,
-    "id": 430,
-    "value": "5frames"
+    "InstanceId": "59812ac34696593ccc99c9a3",
+    "Name": "AirDodge",
+    "OwnerId": 24,
+    "Owner": "Lucas",
+    "Values": [
+      {
+        "Value": "3-28",
+        "Owner": "Lucas",
+        "OwnerId": 24,
+        "Name": "INTANGIBLE"
+      },
+      {
+        "Value": "34",
+        "Owner": "Lucas",
+        "OwnerId": 24,
+        "Name": "FAF"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812ac34696593ccc99c9a3"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucas"
+      }
+    ]
   },
   {
-    "name": "SH Air Time",
-    "ownerId": 24,
-    "id": 431,
-    "value": "34frames"
+    "InstanceId": "59812ac34696593ccc99c9a4",
+    "Name": "Rolls",
+    "OwnerId": 24,
+    "Owner": "Lucas",
+    "Values": [
+      {
+        "Value": "4-17",
+        "Owner": "Lucas",
+        "OwnerId": 24,
+        "Name": "INTANGIBLE"
+      },
+      {
+        "Value": "31",
+        "Owner": "Lucas",
+        "OwnerId": 24,
+        "Name": "FAF"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812ac34696593ccc99c9a4"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucas"
+      }
+    ]
   },
   {
-    "name": "FH Air Time",
-    "ownerId": 24,
-    "id": 432,
-    "value": "54frames"
+    "InstanceId": "59812ac34696593ccc99c9a5",
+    "Name": "RunSpeed",
+    "OwnerId": 24,
+    "Owner": "Lucas",
+    "Values": [
+      {
+        "Value": "1.5",
+        "Owner": "Lucas",
+        "OwnerId": 24,
+        "Name": "MAX RUN SPEED VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812ac34696593ccc99c9a5"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucas"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812ac34696593ccc99c9a6",
+    "Name": "ShieldSize",
+    "OwnerId": 24,
+    "Owner": "Lucas",
+    "Values": [
+      {
+        "Value": "8.295",
+        "Owner": "Lucas",
+        "OwnerId": 24,
+        "Name": "SIZE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812ac34696593ccc99c9a6"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucas"
+      }
+    ]
   }
 ]

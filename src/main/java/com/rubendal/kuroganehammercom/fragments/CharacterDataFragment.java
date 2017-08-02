@@ -200,52 +200,11 @@ public class CharacterDataFragment extends KHFragment {
             t.setBackgroundColor(Color.parseColor(data.character.color));
         }
 
-        LinkedList<DodgeData> dodgeData = new LinkedList<>();
-
-        for(int i=0;i<data.attributes.size();i+=2){
-            String name = data.attributes.get(i).formattedName;
-            boolean repeatedRolls = false;
-            boolean roll = false;
-            String atrName = "";
-            if(name.contains("AIRDODGE")){
-                atrName = "Airdodge";
-            }else if(name.contains("ROLLS")){
-                if(i+3<data.attributes.size()){
-                    if(data.attributes.get(i+2).formattedName.contains("ROLLS")){
-                        repeatedRolls = true;
-                    }
-                    atrName = "Forward Roll";
-                    roll = true;
-                }
-            }else{
-                //Spotdodge
-                atrName = "Spotdodge";
+        for (Move move : data.evasion) {
+            if (move != null) {
+                o++;
+                layout.addView(new DodgeData(move).asRow(this.getActivity(), o % 2 == 1));
             }
-            String intangibility=data.attributes.get(i).value;
-            String faf=data.attributes.get(i+1).value;
-
-            DodgeData d = new DodgeData(atrName, intangibility, faf);
-            dodgeData.add(d);
-            if(roll){
-                DodgeData d2 = new DodgeData("Back Roll", intangibility, faf);
-                if(!repeatedRolls){
-                    dodgeData.add(d2);
-                }else{
-                    //Greninja
-                    i+=2;
-                    d2.intangibility = data.attributes.get(i).value;
-                    d2.faf = data.attributes.get(i+1).value;
-                    dodgeData.add(d2);
-
-                }
-            }
-        }
-
-        Collections.swap(dodgeData,0,3);
-
-        for(DodgeData d : dodgeData){
-            o++;
-            layout.addView(d.asRow(this.getActivity(), o % 2 == 1));
         }
 
         o=0;

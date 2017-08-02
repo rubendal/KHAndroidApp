@@ -1,0 +1,308 @@
+﻿[
+  {
+    "InstanceId": "59812aee4696593ccc99cf1b",
+    "Name": "Weight",
+    "OwnerId": 40,
+    "Owner": "Peach",
+    "Value": "89 ",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812aee4696593ccc99cf1b"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Peach"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812aee4696593ccc99cf1c",
+    "Name": "Max Jumps",
+    "OwnerId": 40,
+    "Owner": "Peach",
+    "Value": "2",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812aee4696593ccc99cf1c"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Peach"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812aee4696593ccc99cf1d",
+    "Name": "Run Speed",
+    "OwnerId": 40,
+    "Owner": "Peach",
+    "Value": "1.4175 ",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812aee4696593ccc99cf1d"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Peach"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812aee4696593ccc99cf1e",
+    "Name": "Wall Jump",
+    "OwnerId": 40,
+    "Owner": "Peach",
+    "Value": "No",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812aee4696593ccc99cf1e"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Peach"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812aee4696593ccc99cf1f",
+    "Name": "Walk Speed",
+    "OwnerId": 40,
+    "Owner": "Peach",
+    "Value": "0.86 ",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812aee4696593ccc99cf1f"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Peach"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812aee4696593ccc99cf20",
+    "Name": "Wall Cling",
+    "OwnerId": 40,
+    "Owner": "Peach",
+    "Value": "No",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812aee4696593ccc99cf20"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Peach"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812aee4696593ccc99cf21",
+    "Name": "Air Speed",
+    "OwnerId": 40,
+    "Owner": "Peach",
+    "Value": "0.95 ",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812aee4696593ccc99cf21"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Peach"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812aee4696593ccc99cf22",
+    "Name": "Crawl",
+    "OwnerId": 40,
+    "Owner": "Peach",
+    "Value": "No",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812aee4696593ccc99cf22"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Peach"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812aee4696593ccc99cf23",
+    "Name": "Fall Speed",
+    "OwnerId": 40,
+    "Owner": "Peach",
+    "Value": "1.15 ",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812aee4696593ccc99cf23"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Peach"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812aee4696593ccc99cf24",
+    "Name": "Tether",
+    "OwnerId": 40,
+    "Owner": "Peach",
+    "Value": "No",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812aee4696593ccc99cf24"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Peach"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812aee4696593ccc99cf25",
+    "Name": "Fast Fall Speed",
+    "OwnerId": 40,
+    "Owner": "Peach",
+    "Value": "1.84 ",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812aee4696593ccc99cf25"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Peach"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812aee4696593ccc99cf26",
+    "Name": "Jumpsquat",
+    "OwnerId": 40,
+    "Owner": "Peach",
+    "Value": "5 frames",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812aee4696593ccc99cf26"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Peach"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812aee4696593ccc99cf27",
+    "Name": "Air Acceleration",
+    "OwnerId": 40,
+    "Owner": "Peach",
+    "Value": "0.1",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812aee4696593ccc99cf27"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Peach"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812aee4696593ccc99cf28",
+    "Name": "Soft Landing Lag",
+    "OwnerId": 40,
+    "Owner": "Peach",
+    "Value": "2 frames",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812aee4696593ccc99cf28"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Peach"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812aee4696593ccc99cf29",
+    "Name": "Gravity",
+    "OwnerId": 40,
+    "Owner": "Peach",
+    "Value": "0.068",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812aee4696593ccc99cf29"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Peach"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812aee4696593ccc99cf2a",
+    "Name": "Hard Landing Lag",
+    "OwnerId": 40,
+    "Owner": "Peach",
+    "Value": "4 frames",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812aee4696593ccc99cf2a"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Peach"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812aee4696593ccc99cf2b",
+    "Name": "SH Air Time",
+    "OwnerId": 40,
+    "Owner": "Peach",
+    "Value": "41 frames",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812aee4696593ccc99cf2b"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Peach"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812aee4696593ccc99cf2c",
+    "Name": "FH Air Time",
+    "OwnerId": 40,
+    "Owner": "Peach",
+    "Value": "64 frames",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812aee4696593ccc99cf2c"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Peach"
+      }
+    ]
+  }
+]

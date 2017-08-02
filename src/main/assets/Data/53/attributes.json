@@ -1,110 +1,488 @@
 ﻿[
   {
-    "name": "Weight",
-    "ownerId": 53,
-    "id": 937,
-    "value": "97"
+    "InstanceId": "59812b124696593ccc99d423",
+    "Name": "AerialJump",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "Values": [
+      {
+        "Value": "32",
+        "Owner": "Villager",
+        "OwnerId": 53,
+        "Name": "HEIGHT"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812b124696593ccc99d423"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
   },
   {
-    "name": "Max Jumps",
-    "ownerId": 53,
-    "id": 938,
-    "value": "2"
+    "InstanceId": "59812b124696593ccc99d424",
+    "Name": "AirAcceleration",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "Values": [
+      {
+        "Value": "0.05",
+        "Owner": "Villager",
+        "OwnerId": 53,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812b124696593ccc99d424"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
   },
   {
-    "name": "Run Speed",
-    "ownerId": 53,
-    "id": 939,
-    "value": "1.27"
+    "InstanceId": "59812b124696593ccc99d425",
+    "Name": "AirDeceleration",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "Values": [
+      {
+        "Value": "0.01",
+        "Owner": "Villager",
+        "OwnerId": 53,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812b124696593ccc99d425"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
   },
   {
-    "name": "Wall Jump",
-    "ownerId": 53,
-    "id": 940,
-    "value": "Yes"
+    "InstanceId": "59812b124696593ccc99d426",
+    "Name": "AirFriction",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "Values": [
+      {
+        "Value": "0.01",
+        "Owner": "Villager",
+        "OwnerId": 53,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812b124696593ccc99d426"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
   },
   {
-    "name": "Walk Speed",
-    "ownerId": 53,
-    "id": 941,
-    "value": "1.04"
+    "InstanceId": "59812b124696593ccc99d427",
+    "Name": "DashLength",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "Values": [
+      {
+        "Value": "14",
+        "Owner": "Villager",
+        "OwnerId": 53,
+        "Name": "LENGTH IN FRAMES"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812b124696593ccc99d427"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
   },
   {
-    "name": "Wall Cling",
-    "ownerId": 53,
-    "id": 942,
-    "value": "No"
+    "InstanceId": "59812b124696593ccc99d428",
+    "Name": "FallSpeed",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "Values": [
+      {
+        "Value": "1.32",
+        "Owner": "Villager",
+        "OwnerId": 53,
+        "Name": "MAX FALL SPEED"
+      },
+      {
+        "Value": "2.112",
+        "Owner": "Villager",
+        "OwnerId": 53,
+        "Name": "FAST FALL SPEED"
+      },
+      {
+        "Value": "60%",
+        "Owner": "Villager",
+        "OwnerId": 53,
+        "Name": "SPEED INCREASE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812b124696593ccc99d428"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
   },
   {
-    "name": "Air Speed",
-    "ownerId": 53,
-    "id": 943,
-    "value": "0.94"
+    "InstanceId": "59812b124696593ccc99d429",
+    "Name": "FullHop",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "Values": [
+      {
+        "Value": "32.5",
+        "Owner": "Villager",
+        "OwnerId": 53,
+        "Name": "HEIGHT"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812b124696593ccc99d429"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
   },
   {
-    "name": "Crawl",
-    "ownerId": 53,
-    "id": 944,
-    "value": "No"
+    "InstanceId": "59812b124696593ccc99d42a",
+    "Name": "Gravity",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "Values": [
+      {
+        "Value": "0.078",
+        "Owner": "Villager",
+        "OwnerId": 53,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812b124696593ccc99d42a"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
   },
   {
-    "name": "Fall Speed",
-    "ownerId": 53,
-    "id": 945,
-    "value": "1.32"
+    "InstanceId": "59812b124696593ccc99d42b",
+    "Name": "JumpSquat",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "Values": [
+      {
+        "Value": "5",
+        "Owner": "Villager",
+        "OwnerId": 53,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812b124696593ccc99d42b"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
   },
   {
-    "name": "Tether",
-    "ownerId": 53,
-    "id": 946,
-    "value": "No"
+    "InstanceId": "59812b124696593ccc99d42c",
+    "Name": "LedgeHop",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "Values": [
+      {
+        "Value": "36.25",
+        "Owner": "Villager",
+        "OwnerId": 53,
+        "Name": "HEIGHT"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812b124696593ccc99d42c"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
   },
   {
-    "name": "Fast Fall Speed",
-    "ownerId": 53,
-    "id": 947,
-    "value": "2.112"
+    "InstanceId": "59812b124696593ccc99d42d",
+    "Name": "ShortHop",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "Values": [
+      {
+        "Value": "15.689452",
+        "Owner": "Villager",
+        "OwnerId": 53,
+        "Name": "HEIGHT"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812b124696593ccc99d42d"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
   },
   {
-    "name": "Jumpsquat",
-    "ownerId": 53,
-    "id": 948,
-    "value": "5frames"
+    "InstanceId": "59812b124696593ccc99d42e",
+    "Name": "Spotdodge",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "Values": [
+      {
+        "Value": "3-18",
+        "Owner": "Villager",
+        "OwnerId": 53,
+        "Name": "INTANGIBLE"
+      },
+      {
+        "Value": "28",
+        "Owner": "Villager",
+        "OwnerId": 53,
+        "Name": "FAF"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812b124696593ccc99d42e"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
   },
   {
-    "name": "Air Acceleration",
-    "ownerId": 53,
-    "id": 949,
-    "value": "0.05"
+    "InstanceId": "59812b124696593ccc99d42f",
+    "Name": "Traction",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "Values": [
+      {
+        "Value": "0.06",
+        "Owner": "Villager",
+        "OwnerId": 53,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812b124696593ccc99d42f"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
   },
   {
-    "name": "Soft Landing Lag",
-    "ownerId": 53,
-    "id": 950,
-    "value": "2frames"
+    "InstanceId": "59812b124696593ccc99d430",
+    "Name": "WalkSpeed",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "Values": [
+      {
+        "Value": "1.04",
+        "Owner": "Villager",
+        "OwnerId": 53,
+        "Name": "MAX WALK SPEED VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812b124696593ccc99d430"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
   },
   {
-    "name": "Gravity",
-    "ownerId": 53,
-    "id": 951,
-    "value": "0.078"
+    "InstanceId": "59812b124696593ccc99d431",
+    "Name": "AirSpeed",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "Values": [
+      {
+        "Value": "0.94",
+        "Owner": "Villager",
+        "OwnerId": 53,
+        "Name": "MAX AIR SPEED VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812b124696593ccc99d431"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
   },
   {
-    "name": "Hard Landing Lag",
-    "ownerId": 53,
-    "id": 952,
-    "value": "4frames"
+    "InstanceId": "59812b124696593ccc99d432",
+    "Name": "AirDodge",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "Values": [
+      {
+        "Value": "3-28",
+        "Owner": "Villager",
+        "OwnerId": 53,
+        "Name": "INTANGIBLE"
+      },
+      {
+        "Value": "34",
+        "Owner": "Villager",
+        "OwnerId": 53,
+        "Name": "FAF"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812b124696593ccc99d432"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
   },
   {
-    "name": "SH Air Time",
-    "ownerId": 53,
-    "id": 953,
-    "value": "40frames"
+    "InstanceId": "59812b124696593ccc99d433",
+    "Name": "Rolls",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "Values": [
+      {
+        "Value": "4-17",
+        "Owner": "Villager",
+        "OwnerId": 53,
+        "Name": "INTANGIBLE"
+      },
+      {
+        "Value": "31",
+        "Owner": "Villager",
+        "OwnerId": 53,
+        "Name": "FAF"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812b124696593ccc99d433"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
   },
   {
-    "name": "FH Air Time",
-    "ownerId": 53,
-    "id": 954,
-    "value": "61frames"
+    "InstanceId": "59812b124696593ccc99d434",
+    "Name": "RunSpeed",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "Values": [
+      {
+        "Value": "1.27",
+        "Owner": "Villager",
+        "OwnerId": 53,
+        "Name": "MAX RUN SPEED VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812b124696593ccc99d434"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812b124696593ccc99d435",
+    "Name": "ShieldSize",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "Values": [
+      {
+        "Value": "8.715",
+        "Owner": "Villager",
+        "OwnerId": 53,
+        "Name": "SIZE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812b124696593ccc99d435"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
   }
 ]

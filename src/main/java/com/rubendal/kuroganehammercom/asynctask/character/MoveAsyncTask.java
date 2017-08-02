@@ -25,7 +25,7 @@ public class MoveAsyncTask extends AsyncTask<String, String, LinkedList<Move>> {
     private String title;
     private MoveType type;
     private Character character;
-    private LinkedList<Attribute> attributes;
+    private LinkedList<Move> evasion;
 
     private boolean replace = false;
 
@@ -62,31 +62,26 @@ public class MoveAsyncTask extends AsyncTask<String, String, LinkedList<Move>> {
         }
     }
 
-    private String getThrow(){
-        try {
-            String json = Storage.read(String.valueOf(character.id),"throws.json",context.getActivity());
-            return json;
-        }
-        catch(Exception e){
 
-        }
-        return null;
-    }
-
-    private void getAttributes(){
+    /*private void getAttributes(){
         try {
-            String json = Storage.read(String.valueOf(character.id), "smashAttributes.json", context.getActivity());
+            String json = Storage.read(String.valueOf(character.id), "attributes.json", context.getActivity());
             attributes = new LinkedList<>();
             JSONArray jsonArray = new JSONArray(json);
             for (int i = 0; i < jsonArray.length(); i++) {
                 Attribute a = Attribute.getFromJson(context.getActivity(), jsonArray.getJSONObject(i));
-                if(a.formattedName.contains("AIRDODGE") || a.formattedName.contains("ROLLS") || a.formattedName.contains("SPOTDODGE")) {
+                if(a.name.contains("AirDodge") || a.name.contains("Rolls") || a.name.contains("Spotdodge")) {
                     attributes.add(a);
                 }
             }
         }catch(Exception e){
 
         }
+    }*/
+
+    //Used for now until API removes MoveType:"ground" for rolls/spotdodge/airdodge
+    private boolean isEvasion(String name){
+        return name.equals("Forward Roll") || name.equals("Back Roll") || name.equals("Spotdodge") || name.equals("Airdodge");
     }
 
     @Override
@@ -95,10 +90,7 @@ public class MoveAsyncTask extends AsyncTask<String, String, LinkedList<Move>> {
             String json = Storage.read(String.valueOf(character.id),"moves.json",context.getActivity());
             LinkedList<Move> list = new LinkedList<>();
             JSONArray jsonArray = new JSONArray(json);
-            JSONArray t = null;
-            if(type == MoveType.Throw || type == MoveType.Any){
-                t = new JSONArray(getThrow());
-            }
+            evasion = new LinkedList<>();
             for(int i=0;i<jsonArray.length();i++){
                 Move move = Move.getFromJson(jsonArray.getJSONObject(i));
                 if(type == MoveType.Any){
@@ -107,16 +99,23 @@ public class MoveAsyncTask extends AsyncTask<String, String, LinkedList<Move>> {
                             list.add(AerialMove.getFromJson(jsonArray.getJSONObject(i)));
                             break;
                         case Ground:
-                            list.add(Move.getFromJson(jsonArray.getJSONObject(i)));
+                            if(!isEvasion(move.name)) {
+                                list.add(move);
+                            }else{
+                                evasion.add(move);
+                            }
                             break;
                         case Special:
-                            list.add(Move.getFromJson(jsonArray.getJSONObject(i)));
+                            list.add(move);
                             break;
                         case Throw:
-                            list.add(ThrowMove.getFromJson(jsonArray.getJSONObject(i), t));
+                            list.add(ThrowMove.getFromJson(jsonArray.getJSONObject(i)));
+                            break;
+                        case Evasion:
+                            evasion.add(move);
                             break;
                     }
-                    getAttributes();
+                    //getAttributes();
                 }else{
                     if(move.moveType == type) {
                         switch (type) {
@@ -124,16 +123,21 @@ public class MoveAsyncTask extends AsyncTask<String, String, LinkedList<Move>> {
                                 list.add(AerialMove.getFromJson(jsonArray.getJSONObject(i)));
                                 break;
                             case Ground:
-                                list.add(Move.getFromJson(jsonArray.getJSONObject(i)));
-                                getAttributes();
+                                if(!isEvasion(move.name)) {
+                                    list.add(move);
+                                }else{
+                                    evasion.add(move);
+                                }
                                 break;
                             case Special:
-                                list.add(Move.getFromJson(jsonArray.getJSONObject(i)));
+                                list.add(move);
                                 break;
                             case Throw:
-                                list.add(ThrowMove.getFromJson(jsonArray.getJSONObject(i), t));
+                                list.add(ThrowMove.getFromJson(jsonArray.getJSONObject(i)));
                                 break;
                         }
+                    }else if(move.moveType == MoveType.Evasion && type == MoveType.Ground){
+                        evasion.add(move);
                     }
                 }
 
@@ -152,9 +156,9 @@ public class MoveAsyncTask extends AsyncTask<String, String, LinkedList<Move>> {
             dialog.dismiss();
         }
         if(replace){
-            ((MainActivity)context.getActivity()).replaceFragment(AttackListFragment.newInstance(character,type,s, attributes));
+            ((MainActivity)context.getActivity()).replaceFragment(AttackListFragment.newInstance(character,type,s, evasion));
         }else {
-            ((MainActivity) context.getActivity()).loadFragment(AttackListFragment.newInstance(character, type, s, attributes));
+            ((MainActivity) context.getActivity()).loadFragment(AttackListFragment.newInstance(character, type, s, evasion));
         }
     }
 }

@@ -5,7 +5,6 @@ import android.os.AsyncTask;
 import android.util.Log;
 
 import com.rubendal.kuroganehammercom.classes.Attribute;
-import com.rubendal.kuroganehammercom.classes.AttributeRank;
 import com.rubendal.kuroganehammercom.fragments.CharacterDataFragment;
 import com.rubendal.kuroganehammercom.MainActivity;
 import com.rubendal.kuroganehammercom.classes.CharacterData;
@@ -61,15 +60,10 @@ public class CharacterDataAsyncTask extends AsyncTask<String, String, CharacterD
         }
     }
 
-    private String getThrow(){
-        try {
-            String json = Storage.read(String.valueOf(character.id),"throws.json",context.getActivity());
-            return json;
-        }
-        catch(Exception e){
 
-        }
-        return null;
+    //Used for now until API removes MoveType:"ground" for rolls/spotdodge/airdodge
+    private boolean isEvasion(String name){
+        return name.equals("Forward Roll") || name.equals("Back Roll") || name.equals("Spotdodge") || name.equals("Airdodge");
     }
 
     @Override
@@ -77,8 +71,8 @@ public class CharacterDataAsyncTask extends AsyncTask<String, String, CharacterD
         try {
             String json = Storage.read(String.valueOf(character.id),"moves.json",context.getActivity());
             LinkedList<Move> list = new LinkedList<>();
+            LinkedList<Move> evasion = new LinkedList<>();
             JSONArray jsonArray = new JSONArray(json);
-            JSONArray t = new JSONArray(getThrow());
             for(int i=0;i<jsonArray.length();i++){
                 Move move = Move.getFromJson(jsonArray.getJSONObject(i));
                 switch (move.moveType) {
@@ -86,37 +80,34 @@ public class CharacterDataAsyncTask extends AsyncTask<String, String, CharacterD
                         list.add(AerialMove.getFromJson(jsonArray.getJSONObject(i)));
                         break;
                     case Ground:
-                        list.add(Move.getFromJson(jsonArray.getJSONObject(i)));
+                        if(!isEvasion(move.name)) {
+                            list.add(move);
+                        }else{
+                            evasion.add(move);
+                        }
                         break;
                     case Special:
-                        list.add(Move.getFromJson(jsonArray.getJSONObject(i)));
+                        list.add(move);
                         break;
                     case Throw:
-                        list.add(ThrowMove.getFromJson(jsonArray.getJSONObject(i), t));
+                        list.add(ThrowMove.getFromJson(jsonArray.getJSONObject(i)));
+                        break;
+                    case Evasion:
+                        evasion.add(move);
                         break;
                 }
             }
 
-            json = Storage.read(String.valueOf(character.id),"attributes.json",context.getActivity());
+            json = Storage.read(String.valueOf(character.id),"movements.json",context.getActivity());
             LinkedList<Movement> movements = new LinkedList<>();
             jsonArray = new JSONArray(json);
             for(int i=0;i<jsonArray.length();i++){
                 movements.add(Movement.fromJson(jsonArray.getJSONObject(i)));
             }
 
-            json = Storage.read(String.valueOf(character.id), "smashAttributes.json", context.getActivity());
-            LinkedList<Attribute> attributes = new LinkedList<>();
-            jsonArray = new JSONArray(json);
-            for (int i = 0; i < jsonArray.length(); i++) {
-                Attribute a = Attribute.getFromJson(context.getActivity(), jsonArray.getJSONObject(i));
-                if(a.formattedName.contains("AIRDODGE") || a.formattedName.contains("ROLLS") || a.formattedName.contains("SPOTDODGE")) {
-                    attributes.add(a);
-                }
-            }
-
-            return new CharacterData(character, movements, list, attributes);
+            return new CharacterData(character, movements, list, evasion);
         } catch (Exception e) {
-            Log.d("nedfvnjf",e.getMessage());
+            Log.d("error",e.getMessage());
         }
         return null;
     }

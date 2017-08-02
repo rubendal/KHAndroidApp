@@ -13,13 +13,16 @@ import android.widget.TextView;
 
 import com.rubendal.kuroganehammercom.R;
 import com.rubendal.kuroganehammercom.asynctask.attribute.AttributeRankingAsyncTask;
+import com.rubendal.kuroganehammercom.classes.AttributeName;
 import com.rubendal.kuroganehammercom.classes.AttributeRank;
-import com.rubendal.kuroganehammercom.classes.AttributeRankWrapper;
 import com.rubendal.kuroganehammercom.util.params.Params;
+
+import java.util.LinkedList;
 
 public class AttributeRankingFragment extends KHFragment {
 
-    private AttributeRankWrapper attribute;
+    private LinkedList<AttributeRank> ranks;
+    private AttributeName attributeName;
 
     public AttributeRankingFragment() {
 
@@ -27,20 +30,22 @@ public class AttributeRankingFragment extends KHFragment {
 
     @Override
     public void updateData() {
-        AttributeRankingAsyncTask a = new AttributeRankingAsyncTask(this, attribute.attributeList, true);
+        AttributeRankingAsyncTask a = new AttributeRankingAsyncTask(this, attributeName, true);
         a.execute();
     }
 
     @Override
     public String getTitle() {
-        return String.format("%s", attribute.attributeList.name);
+        return String.format("%s", attributeName.formattedName);
     }
 
-    public static AttributeRankingFragment newInstance(AttributeRankWrapper attribute){
+    public static AttributeRankingFragment newInstance(AttributeName attributeName, LinkedList<AttributeRank> ranks){
         AttributeRankingFragment fragment = new AttributeRankingFragment();
         Bundle args = new Bundle();
-        args.putSerializable("attribute", attribute);
-        fragment.attribute = attribute;
+        args.putSerializable("attributeName", attributeName);
+        args.putSerializable("ranks", ranks);
+        fragment.attributeName = attributeName;
+        fragment.ranks = ranks;
         return fragment;
     }
 
@@ -54,7 +59,8 @@ public class AttributeRankingFragment extends KHFragment {
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         if(getArguments() != null){
-            this.attribute = (AttributeRankWrapper) getArguments().getSerializable("attribute");
+            this.attributeName = (AttributeName) getArguments().getSerializable("attributeName");
+            this.ranks = (LinkedList<AttributeRank>) getArguments().getSerializable("ranks");
         }
     }
 
@@ -72,9 +78,9 @@ public class AttributeRankingFragment extends KHFragment {
 
         TableRow header = (TableRow)layout.findViewById(R.id.header);
 
-        for(int i=0;i<attribute.valueTypes.size();i++){
+        for(int i=0;i<ranks.get(0).types.size();i++){
             TextView a = new TextView(getContext());
-            a.setText(attribute.valueTypes.get(i));
+            a.setText(ranks.get(0).types.get(i));
             a.setPadding(Params.PADDING,Params.PADDING,Params.PADDING,Params.PADDING);
             header.addView(a);
         }
@@ -87,10 +93,10 @@ public class AttributeRankingFragment extends KHFragment {
 
         int o = 0;
 
-        for(AttributeRank a : attribute.attributes){
+        for(AttributeRank a : ranks){
             if(a!=null){
                 o++;
-                layout.addView(a.asRow(this.getActivity(),attribute.valueTypes, attribute.attributeList.name, o % 2 == 1));
+                layout.addView(a.asRow(this.getActivity(), o % 2 == 1));
             }
         }
     }

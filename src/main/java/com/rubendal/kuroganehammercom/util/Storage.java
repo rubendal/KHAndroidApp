@@ -4,6 +4,7 @@ import android.content.Context;
 import android.content.res.AssetManager;
 import android.util.Log;
 
+import com.rubendal.kuroganehammercom.classes.AttributeName;
 import com.rubendal.kuroganehammercom.classes.Character;
 
 import org.json.JSONArray;
@@ -20,8 +21,8 @@ import java.util.LinkedList;
 
 public class Storage {
 
-    //Initial storage assets version, will change when new assets that are stored in internal storage are added
-    private static final String STORAGE_DATA_VERSION = "1.4";
+    //Initial storage assets version, will change when new assets that are stored in internal storage are added or changed
+    private static final String STORAGE_DATA_VERSION = "2.0";
 
     //Write file in internal storage
     public static void write (String directory, String filename, Context context, String string) throws IOException {
@@ -67,11 +68,16 @@ public class Storage {
         }else{
             try{
                 String ver = read("init","temp.bin",context);
-                if(!ver.trim().equals(STORAGE_DATA_VERSION)){
+                if(STORAGE_DATA_VERSION.equals("0")){
+                    //Debug, restart storage always when set to zero
                     writeInitialData(context);
+                }else {
+                    if (!ver.trim().equals(STORAGE_DATA_VERSION)) {
+                        writeInitialData(context);
+                    }
                 }
             }catch(Exception e){
-
+                System.out.println("Error initializing storage: " + e.getMessage());
             }
         }
 
@@ -92,29 +98,39 @@ public class Storage {
             write("data","characters.json",context,json);
             json = Assets.getAsset(assets, "formulas.json");
             write("data","formulas.json",context,json);
-            json = Assets.getAsset(assets, "Data/smashAttributes.json");
-            write("data","smashAttributes.json",context,json);
-            json = Assets.getAsset(assets, "Data/attributes.json");
-            write("data","attributes.json",context,json);
+            //json = Assets.getAsset(assets, "Data/smashAttributes.json");
+            //write("data","smashAttributes.json",context,json);
+            json = Assets.getAsset(assets, "Data/attributeNames.json");
+            write("data","attributeNames.json",context,json);
+            LinkedList<AttributeName> attrNames = new LinkedList<>();
+            jsonArray = new JSONArray(json);
+            for(int i=0;i<jsonArray.length();i++){
+                attrNames.add(AttributeName.getFromJson(jsonArray.getJSONObject(i)));
+            }
+
             for(Character c : list){
                 json = Assets.getAsset(assets, "Data/" + c.id + "/moves.json");
                 write(String.valueOf(c.id),"moves.json",context,json);
-                json = Assets.getAsset(assets, "Data/" + c.id + "/throws.json");
-                write(String.valueOf(c.id),"throws.json",context,json);
                 json = Assets.getAsset(assets, "Data/" + c.id + "/attributes.json");
                 write(String.valueOf(c.id),"attributes.json",context,json);
-                json = Assets.getAsset(assets, "Data/" + c.id + "/smashAttributes.json");
-                write(String.valueOf(c.id),"smashAttributes.json",context,json);
+                json = Assets.getAsset(assets, "Data/" + c.id + "/movements.json");
+                write(String.valueOf(c.id),"movements.json",context,json);
                 try{
                     json = Assets.getAsset(assets, "Data/" + c.id + "/specificAttributes.json");
                     write(String.valueOf(c.id),"specificAttributes.json",context,json);
                 }catch(Exception ei){
 
                 }
+
+            }
+
+            for(AttributeName a : attrNames){
+                json = Assets.getAsset(assets, "Data/Attributes/" + a.name.toLowerCase() + "/attributes.json");
+                write(a.name.toLowerCase(),"attributes.json",context,json);
             }
             write("init","temp.bin",context,STORAGE_DATA_VERSION);
         } catch (Exception e) {
-
+            System.out.println("Error initializing storage: " + e.getMessage());
         }
     }
 }

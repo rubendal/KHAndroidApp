@@ -1,814 +1,1614 @@
 ﻿[
   {
-    "hitboxActive": "3-4",
-    "firstActionableFrame": "22",
-    "baseDamage": "3",
-    "angle": "60/80",
-    "baseKnockBackSetKnockback": "10",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "80",
-    "type": 1,
-    "name": "Jab 1",
-    "ownerId": 53,
-    "id": 2942
+    "InstanceId": "59812b124696593ccc99d3e5",
+    "Name": "Jab 1",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "HitboxActive": "3-4",
+    "FirstActionableFrame": "22",
+    "BaseDamage": "3",
+    "Angle": "60/80",
+    "BaseKnockBackSetKnockback": "10",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "80",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b124696593ccc99d3e5"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
   },
   {
-    "hitboxActive": "3-4",
-    "firstActionableFrame": "24",
-    "baseDamage": "3",
-    "angle": "60/80",
-    "baseKnockBackSetKnockback": "20",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "120",
-    "type": 1,
-    "name": "Jab 2",
-    "ownerId": 53,
-    "id": 2943
+    "InstanceId": "59812b124696593ccc99d3e6",
+    "Name": "Jab 2",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "HitboxActive": "3-4",
+    "FirstActionableFrame": "24",
+    "BaseDamage": "3",
+    "Angle": "60/80",
+    "BaseKnockBackSetKnockback": "20",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "120",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b124696593ccc99d3e6"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
   },
   {
-    "hitboxActive": "14-19",
-    "firstActionableFrame": "55",
-    "baseDamage": "10",
-    "angle": "70",
-    "baseKnockBackSetKnockback": "65",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "60",
-    "type": 1,
-    "name": "Dash Attack",
-    "ownerId": 53,
-    "id": 2944
+    "InstanceId": "59812b124696593ccc99d3e7",
+    "Name": "Dash Attack",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "HitboxActive": "14-19",
+    "FirstActionableFrame": "55",
+    "BaseDamage": "10",
+    "Angle": "70",
+    "BaseKnockBackSetKnockback": "65",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "60",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b124696593ccc99d3e7"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
   },
   {
-    "hitboxActive": "20-28",
-    "firstActionableFrame": "-",
-    "baseDamage": "6",
-    "angle": "70",
-    "baseKnockBackSetKnockback": "65",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "60",
-    "type": 1,
-    "name": "Dash Attack (Late)",
-    "ownerId": 53,
-    "id": 2945
+    "InstanceId": "59812b124696593ccc99d3e8",
+    "Name": "Dash Attack (Late)",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "HitboxActive": "20-28",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "6",
+    "Angle": "70",
+    "BaseKnockBackSetKnockback": "65",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "60",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b124696593ccc99d3e8"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
   },
   {
-    "hitboxActive": "8-11",
-    "firstActionableFrame": "37",
-    "baseDamage": "9",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "90",
-    "type": 1,
-    "name": "Ftilt",
-    "ownerId": 53,
-    "id": 2946
+    "InstanceId": "59812b124696593ccc99d3e9",
+    "Name": "Ftilt",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "HitboxActive": "8-11",
+    "FirstActionableFrame": "37",
+    "BaseDamage": "9",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "90",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b124696593ccc99d3e9"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
   },
   {
-    "hitboxActive": "7-20",
-    "firstActionableFrame": "50",
-    "baseDamage": "6",
-    "angle": "105/105/96",
-    "baseKnockBackSetKnockback": "W: 60/60/12",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Utilt (Hit 1)",
-    "ownerId": 53,
-    "id": 2947
+    "InstanceId": "59812b124696593ccc99d3ea",
+    "Name": "Utilt (Hit 1)",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "HitboxActive": "7-20",
+    "FirstActionableFrame": "50",
+    "BaseDamage": "6",
+    "Angle": "105/105/96",
+    "BaseKnockBackSetKnockback": "W: 60/60/12",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b124696593ccc99d3ea"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
   },
   {
-    "hitboxActive": "24-27",
-    "firstActionableFrame": "-",
-    "baseDamage": "5",
-    "angle": "80",
-    "baseKnockBackSetKnockback": "50",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "160",
-    "type": 1,
-    "name": "Utilt (Hit 2)",
-    "ownerId": 53,
-    "id": 2948
+    "InstanceId": "59812b124696593ccc99d3eb",
+    "Name": "Utilt (Hit 2)",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "HitboxActive": "24-27",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "5",
+    "Angle": "80",
+    "BaseKnockBackSetKnockback": "50",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "160",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b124696593ccc99d3eb"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
   },
   {
-    "hitboxActive": "9-10",
-    "firstActionableFrame": "35",
-    "baseDamage": "13/8",
-    "angle": "80/70",
-    "baseKnockBackSetKnockback": "40",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "90",
-    "type": 1,
-    "name": "Dtilt",
-    "ownerId": 53,
-    "id": 2949
+    "InstanceId": "59812b124696593ccc99d3ec",
+    "Name": "Dtilt",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "HitboxActive": "9-10",
+    "FirstActionableFrame": "35",
+    "BaseDamage": "13/8",
+    "Angle": "80/70",
+    "BaseKnockBackSetKnockback": "40",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "90",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b124696593ccc99d3ec"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
   },
   {
-    "hitboxActive": "25-29",
-    "firstActionableFrame": "50",
-    "baseDamage": "15",
-    "angle": "45",
-    "baseKnockBackSetKnockback": "70",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Fsmash (Flat Ground)",
-    "ownerId": 53,
-    "id": 2950
+    "InstanceId": "59812b124696593ccc99d3ed",
+    "Name": "Fsmash (Flat Ground)",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "HitboxActive": "25-29",
+    "FirstActionableFrame": "50",
+    "BaseDamage": "15",
+    "Angle": "45",
+    "BaseKnockBackSetKnockback": "70",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b124696593ccc99d3ed"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
   },
   {
-    "hitboxActive": "25-29",
-    "firstActionableFrame": "-",
-    "baseDamage": "15",
-    "angle": "45",
-    "baseKnockBackSetKnockback": "70",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Fsmash (Off Ledge)",
-    "ownerId": 53,
-    "id": 2951
+    "InstanceId": "59812b124696593ccc99d3ee",
+    "Name": "Fsmash (Off Ledge)",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "HitboxActive": "25-29",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "15",
+    "Angle": "45",
+    "BaseKnockBackSetKnockback": "70",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b124696593ccc99d3ee"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
   },
   {
-    "hitboxActive": "30-",
-    "firstActionableFrame": "-",
-    "baseDamage": "17",
-    "angle": "45",
-    "baseKnockBackSetKnockback": "70",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Fsmash (Off Ledge, Late)",
-    "ownerId": 53,
-    "id": 2952
+    "InstanceId": "59812b124696593ccc99d3ef",
+    "Name": "Fsmash (Off Ledge, Late)",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "HitboxActive": "30-",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "17",
+    "Angle": "45",
+    "BaseKnockBackSetKnockback": "70",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b124696593ccc99d3ef"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
   },
   {
-    "hitboxActive": "12-13",
-    "firstActionableFrame": "54",
-    "baseDamage": "3",
-    "angle": "95",
-    "baseKnockBackSetKnockback": "W: 140",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Usmash (Hit 1)",
-    "ownerId": 53,
-    "id": 2953
+    "InstanceId": "59812b124696593ccc99d3f0",
+    "Name": "Usmash (Hit 1)",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "HitboxActive": "12-13",
+    "FirstActionableFrame": "54",
+    "BaseDamage": "3",
+    "Angle": "95",
+    "BaseKnockBackSetKnockback": "W: 140",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b124696593ccc99d3f0"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
   },
   {
-    "hitboxActive": "17-18, 21-22, 25-26, 29-30",
-    "firstActionableFrame": "-",
-    "baseDamage": "1",
-    "angle": "100",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "80",
-    "type": 1,
-    "name": "Usmash (Hit 2-5)",
-    "ownerId": 53,
-    "id": 2954
+    "InstanceId": "59812b124696593ccc99d3f1",
+    "Name": "Usmash (Hit 2-5)",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "HitboxActive": "17-18, 21-22, 25-26, 29-30",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "1",
+    "Angle": "100",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "80",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b124696593ccc99d3f1"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
   },
   {
-    "hitboxActive": "33-34",
-    "firstActionableFrame": "-",
-    "baseDamage": "4",
-    "angle": "90",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "205",
-    "type": 1,
-    "name": "Usmash (Hit 6)",
-    "ownerId": 53,
-    "id": 2955
+    "InstanceId": "59812b124696593ccc99d3f2",
+    "Name": "Usmash (Hit 6)",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "HitboxActive": "33-34",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "4",
+    "Angle": "90",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "205",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b124696593ccc99d3f2"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
   },
   {
-    "hitboxActive": "8",
-    "firstActionableFrame": "48",
-    "baseDamage": "6",
-    "angle": "70",
-    "baseKnockBackSetKnockback": "0",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "80",
-    "type": 1,
-    "name": "Dsmash (Hit 1)",
-    "ownerId": 53,
-    "id": 2956
+    "InstanceId": "59812b124696593ccc99d3f3",
+    "Name": "Dsmash (Hit 1)",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "HitboxActive": "8",
+    "FirstActionableFrame": "48",
+    "BaseDamage": "6",
+    "Angle": "70",
+    "BaseKnockBackSetKnockback": "0",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "80",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b124696593ccc99d3f3"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
   },
   {
-    "hitboxActive": "9-10 (Ground Only)",
-    "firstActionableFrame": "-",
-    "baseDamage": "3",
-    "angle": "70",
-    "baseKnockBackSetKnockback": "0",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "50",
-    "type": 1,
-    "name": "Dsmash (Hit 1, Late)",
-    "ownerId": 53,
-    "id": 2957
+    "InstanceId": "59812b124696593ccc99d3f4",
+    "Name": "Dsmash (Hit 1, Late)",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "HitboxActive": "9-10 (Ground Only)",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "3",
+    "Angle": "70",
+    "BaseKnockBackSetKnockback": "0",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "50",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b124696593ccc99d3f4"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
   },
   {
-    "hitboxActive": "29",
-    "firstActionableFrame": "-",
-    "baseDamage": "6",
-    "angle": "70",
-    "baseKnockBackSetKnockback": "0",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "80",
-    "type": 1,
-    "name": "Dsmash (Hit 2)",
-    "ownerId": 53,
-    "id": 2958
+    "InstanceId": "59812b124696593ccc99d3f5",
+    "Name": "Dsmash (Hit 2)",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "HitboxActive": "29",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "6",
+    "Angle": "70",
+    "BaseKnockBackSetKnockback": "0",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "80",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b124696593ccc99d3f5"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
   },
   {
-    "hitboxActive": "30-31 (Ground Only)",
-    "firstActionableFrame": "-",
-    "baseDamage": "3",
-    "angle": "70",
-    "baseKnockBackSetKnockback": "0",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "50",
-    "type": 1,
-    "name": "Dsmash (Hit 2, Late)",
-    "ownerId": 53,
-    "id": 2959
+    "InstanceId": "59812b124696593ccc99d3f6",
+    "Name": "Dsmash (Hit 2, Late)",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "HitboxActive": "30-31 (Ground Only)",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "3",
+    "Angle": "70",
+    "BaseKnockBackSetKnockback": "0",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "50",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b124696593ccc99d3f6"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
   },
   {
-    "hitboxActive": "15-16",
-    "firstActionableFrame": "56",
-    "baseDamage": "",
-    "angle": "",
-    "baseKnockBackSetKnockback": "",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "",
-    "type": 1,
-    "name": "Standing Grab",
-    "ownerId": 53,
-    "id": 2961
+    "InstanceId": "59812b124696593ccc99d3f7",
+    "Name": "Standing Grab",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "HitboxActive": "15-16",
+    "FirstActionableFrame": "56",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b124696593ccc99d3f7"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
   },
   {
-    "hitboxActive": "16-17",
-    "firstActionableFrame": "70",
-    "baseDamage": "",
-    "angle": "",
-    "baseKnockBackSetKnockback": "",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "",
-    "type": 1,
-    "name": "Dash Grab",
-    "ownerId": 53,
-    "id": 2962
+    "InstanceId": "59812b124696593ccc99d3f8",
+    "Name": "Dash Grab",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "HitboxActive": "16-17",
+    "FirstActionableFrame": "70",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b124696593ccc99d3f8"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
   },
   {
-    "hitboxActive": "17-18",
-    "firstActionableFrame": "66",
-    "baseDamage": "",
-    "angle": "",
-    "baseKnockBackSetKnockback": "",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "",
-    "type": 1,
-    "name": "Pivot Grab",
-    "ownerId": 53,
-    "id": 2963
+    "InstanceId": "59812b124696593ccc99d3f9",
+    "Name": "Pivot Grab",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "HitboxActive": "17-18",
+    "FirstActionableFrame": "66",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b124696593ccc99d3f9"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "9",
-    "angle": "45",
-    "baseKnockBackSetKnockback": "100",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "10",
-    "type": 3,
-    "name": "Fthrow",
-    "ownerId": 53,
-    "id": 2965
+    "InstanceId": "59812b124696593ccc99d3fa",
+    "Name": "Spotdodge",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "HitboxActive": "3-18",
+    "FirstActionableFrame": "28",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b124696593ccc99d3fa"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "11",
-    "angle": "135",
-    "baseKnockBackSetKnockback": "15",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "110",
-    "type": 3,
-    "name": "Bthrow",
-    "ownerId": 53,
-    "id": 2966
+    "InstanceId": "59812b124696593ccc99d3fb",
+    "Name": "Forward Roll",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "HitboxActive": "4-17",
+    "FirstActionableFrame": "31",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b124696593ccc99d3fb"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "10",
-    "angle": "90",
-    "baseKnockBackSetKnockback": "105",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "40",
-    "type": 3,
-    "name": "Uthrow",
-    "ownerId": 53,
-    "id": 2967
+    "InstanceId": "59812b124696593ccc99d3fc",
+    "Name": "Back Roll",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "HitboxActive": "4-17",
+    "FirstActionableFrame": "31",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b124696593ccc99d3fc"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "6",
-    "angle": "70",
-    "baseKnockBackSetKnockback": "60",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "80",
-    "type": 3,
-    "name": "Dthrow",
-    "ownerId": 53,
-    "id": 2968
+    "InstanceId": "59812b124696593ccc99d3fd",
+    "Name": "Airdodge",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "HitboxActive": "3-28",
+    "FirstActionableFrame": "34",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b124696593ccc99d3fd"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
   },
   {
-    "hitboxActive": "3-10",
-    "firstActionableFrame": "36",
-    "baseDamage": "9",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "20",
-    "landingLag": "14",
-    "autoCancel": "1-2, 27&gt;",
-    "knockbackGrowth": "100",
-    "type": 0,
-    "name": "Nair",
-    "ownerId": 53,
-    "id": 2974
+    "InstanceId": "59812b124696593ccc99d3fe",
+    "Name": "Nair",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "HitboxActive": "3-10",
+    "FirstActionableFrame": "36",
+    "BaseDamage": "9",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "20",
+    "LandingLag": "14",
+    "AutoCancel": "1-2, 27&gt;",
+    "KnockbackGrowth": "100",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b124696593ccc99d3fe"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
   },
   {
-    "hitboxActive": "11-23",
-    "firstActionableFrame": "-",
-    "baseDamage": "5",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "20",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "100",
-    "type": 0,
-    "name": "Nair (Late)",
-    "ownerId": 53,
-    "id": 2975
+    "InstanceId": "59812b124696593ccc99d3ff",
+    "Name": "Nair (Late)",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "HitboxActive": "11-23",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "5",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "20",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "100",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b124696593ccc99d3ff"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
   },
   {
-    "hitboxActive": "10-11",
-    "firstActionableFrame": "40",
-    "baseDamage": "7",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "55",
-    "landingLag": "23",
-    "autoCancel": "1-7, 30&gt;",
-    "knockbackGrowth": "100",
-    "type": 0,
-    "name": "Fair (Early)",
-    "ownerId": 53,
-    "id": 2976
+    "InstanceId": "59812b124696593ccc99d400",
+    "Name": "Fair (Early)",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "HitboxActive": "10-11",
+    "FirstActionableFrame": "40",
+    "BaseDamage": "7",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "55",
+    "LandingLag": "23",
+    "AutoCancel": "1-7, 30&gt;",
+    "KnockbackGrowth": "100",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b124696593ccc99d400"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
   },
   {
-    "hitboxActive": "12-17",
-    "firstActionableFrame": "-",
-    "baseDamage": "4",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "10",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "100",
-    "type": 0,
-    "name": "Fair",
-    "ownerId": 53,
-    "id": 2977
+    "InstanceId": "59812b124696593ccc99d401",
+    "Name": "Fair",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "HitboxActive": "12-17",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "4",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "10",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "100",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b124696593ccc99d401"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
   },
   {
-    "hitboxActive": "18-23",
-    "firstActionableFrame": "-",
-    "baseDamage": "2.5",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "10",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "100",
-    "type": 0,
-    "name": "Fair (Late)",
-    "ownerId": 53,
-    "id": 2978
+    "InstanceId": "59812b124696593ccc99d402",
+    "Name": "Fair (Late)",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "HitboxActive": "18-23",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "2.5",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "10",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "100",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b124696593ccc99d402"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
   },
   {
-    "hitboxActive": "13-14",
-    "firstActionableFrame": "36",
-    "baseDamage": "9",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "55",
-    "landingLag": "23",
-    "autoCancel": "1-9, 25&gt;",
-    "knockbackGrowth": "100",
-    "type": 0,
-    "name": "Bair (Early)",
-    "ownerId": 53,
-    "id": 2979
+    "InstanceId": "59812b124696593ccc99d403",
+    "Name": "Bair (Early)",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "HitboxActive": "13-14",
+    "FirstActionableFrame": "36",
+    "BaseDamage": "9",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "55",
+    "LandingLag": "23",
+    "AutoCancel": "1-9, 25&gt;",
+    "KnockbackGrowth": "100",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b124696593ccc99d403"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
   },
   {
-    "hitboxActive": "15-20",
-    "firstActionableFrame": "-",
-    "baseDamage": "5",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "10",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "100",
-    "type": 0,
-    "name": "Bair",
-    "ownerId": 53,
-    "id": 2980
+    "InstanceId": "59812b124696593ccc99d404",
+    "Name": "Bair",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "HitboxActive": "15-20",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "5",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "10",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "100",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b124696593ccc99d404"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
   },
   {
-    "hitboxActive": "21-26",
-    "firstActionableFrame": "-",
-    "baseDamage": "3",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "10",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "100",
-    "type": 0,
-    "name": "Bair (Late)",
-    "ownerId": 53,
-    "id": 2981
+    "InstanceId": "59812b124696593ccc99d405",
+    "Name": "Bair (Late)",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "HitboxActive": "21-26",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "3",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "10",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "100",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b124696593ccc99d405"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
   },
   {
-    "hitboxActive": "6-7",
-    "firstActionableFrame": "43",
-    "baseDamage": "13",
-    "angle": "85",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "15",
-    "autoCancel": "1-5, 39&gt;",
-    "knockbackGrowth": "100",
-    "type": 0,
-    "name": "Uair (Triple)",
-    "ownerId": 53,
-    "id": 2982
+    "InstanceId": "59812b124696593ccc99d406",
+    "Name": "Uair (Triple)",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "HitboxActive": "6-7",
+    "FirstActionableFrame": "43",
+    "BaseDamage": "13",
+    "Angle": "85",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": "15",
+    "AutoCancel": "1-5, 39&gt;",
+    "KnockbackGrowth": "100",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b124696593ccc99d406"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
   },
   {
-    "hitboxActive": "8-31",
-    "firstActionableFrame": "-",
-    "baseDamage": "6",
-    "angle": "85",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "100",
-    "type": 0,
-    "name": "Uair (Triple, Late)",
-    "ownerId": 53,
-    "id": 2983
+    "InstanceId": "59812b124696593ccc99d407",
+    "Name": "Uair (Triple, Late)",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "HitboxActive": "8-31",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "6",
+    "Angle": "85",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "100",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b124696593ccc99d407"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
   },
   {
-    "hitboxActive": "6-7",
-    "firstActionableFrame": "-",
-    "baseDamage": "10",
-    "angle": "85",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "100",
-    "type": 0,
-    "name": "Uair (Double)",
-    "ownerId": 53,
-    "id": 2984
+    "InstanceId": "59812b124696593ccc99d408",
+    "Name": "Uair (Double)",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "HitboxActive": "6-7",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "10",
+    "Angle": "85",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "100",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b124696593ccc99d408"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
   },
   {
-    "hitboxActive": "8-31",
-    "firstActionableFrame": "-",
-    "baseDamage": "5",
-    "angle": "85",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "100",
-    "type": 0,
-    "name": "Uair (Double, Late)",
-    "ownerId": 53,
-    "id": 2985
+    "InstanceId": "59812b124696593ccc99d409",
+    "Name": "Uair (Double, Late)",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "HitboxActive": "8-31",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "5",
+    "Angle": "85",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "100",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b124696593ccc99d409"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
   },
   {
-    "hitboxActive": "6-7",
-    "firstActionableFrame": "-",
-    "baseDamage": "8",
-    "angle": "85",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "100",
-    "type": 0,
-    "name": "Uair (Single)",
-    "ownerId": 53,
-    "id": 2986
+    "InstanceId": "59812b124696593ccc99d40a",
+    "Name": "Uair (Single)",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "HitboxActive": "6-7",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "8",
+    "Angle": "85",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "100",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b124696593ccc99d40a"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
   },
   {
-    "hitboxActive": "8-31",
-    "firstActionableFrame": "-",
-    "baseDamage": "4",
-    "angle": "85",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "100",
-    "type": 0,
-    "name": "Uair (Single, Late)",
-    "ownerId": 53,
-    "id": 2987
+    "InstanceId": "59812b124696593ccc99d40b",
+    "Name": "Uair (Single, Late)",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "HitboxActive": "8-31",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "4",
+    "Angle": "85",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "100",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b124696593ccc99d40b"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
   },
   {
-    "hitboxActive": "8-9",
-    "firstActionableFrame": "46",
-    "baseDamage": "13",
-    "angle": "270/45",
-    "baseKnockBackSetKnockback": "20/30",
-    "landingLag": "15",
-    "autoCancel": "1-7, 39&gt;",
-    "knockbackGrowth": "80/100",
-    "type": 0,
-    "name": "Dair (Triple)",
-    "ownerId": 53,
-    "id": 2988
+    "InstanceId": "59812b124696593ccc99d40c",
+    "Name": "Dair (Triple)",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "HitboxActive": "8-9",
+    "FirstActionableFrame": "46",
+    "BaseDamage": "13",
+    "Angle": "270/45",
+    "BaseKnockBackSetKnockback": "20/30",
+    "LandingLag": "15",
+    "AutoCancel": "1-7, 39&gt;",
+    "KnockbackGrowth": "80/100",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b124696593ccc99d40c"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
   },
   {
-    "hitboxActive": "10-31",
-    "firstActionableFrame": "-",
-    "baseDamage": "6",
-    "angle": "45",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "100",
-    "type": 0,
-    "name": "Dair (Triple, Late)",
-    "ownerId": 53,
-    "id": 2989
+    "InstanceId": "59812b124696593ccc99d40d",
+    "Name": "Dair (Triple, Late)",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "HitboxActive": "10-31",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "6",
+    "Angle": "45",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "100",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b124696593ccc99d40d"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
   },
   {
-    "hitboxActive": "8-9",
-    "firstActionableFrame": "-",
-    "baseDamage": "10",
-    "angle": "45",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "100",
-    "type": 0,
-    "name": "Dair (Double)",
-    "ownerId": 53,
-    "id": 2990
+    "InstanceId": "59812b124696593ccc99d40e",
+    "Name": "Dair (Double)",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "HitboxActive": "8-9",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "10",
+    "Angle": "45",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "100",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b124696593ccc99d40e"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
   },
   {
-    "hitboxActive": "10-31",
-    "firstActionableFrame": "-",
-    "baseDamage": "5",
-    "angle": "45",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "100",
-    "type": 0,
-    "name": "Dair (Double, Late)",
-    "ownerId": 53,
-    "id": 2991
+    "InstanceId": "59812b124696593ccc99d40f",
+    "Name": "Dair (Double, Late)",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "HitboxActive": "10-31",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "5",
+    "Angle": "45",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "100",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b124696593ccc99d40f"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
   },
   {
-    "hitboxActive": "8-9",
-    "firstActionableFrame": "-",
-    "baseDamage": "8",
-    "angle": "45",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "100",
-    "type": 0,
-    "name": "Dair (Single)",
-    "ownerId": 53,
-    "id": 2992
+    "InstanceId": "59812b124696593ccc99d410",
+    "Name": "Dair (Single)",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "HitboxActive": "8-9",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "8",
+    "Angle": "45",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "100",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b124696593ccc99d410"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
   },
   {
-    "hitboxActive": "10-31",
-    "firstActionableFrame": "-",
-    "baseDamage": "4",
-    "angle": "45",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "100",
-    "type": 0,
-    "name": "Dair (Single, Late)",
-    "ownerId": 53,
-    "id": 2993
+    "InstanceId": "59812b124696593ccc99d411",
+    "Name": "Dair (Single, Late)",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "HitboxActive": "10-31",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "4",
+    "Angle": "45",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "100",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b124696593ccc99d411"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
   },
   {
-    "hitboxActive": "Grabs: 8- (Intangible: 5-23)",
-    "firstActionableFrame": "51",
-    "baseDamage": "-",
-    "angle": "-",
-    "baseKnockBackSetKnockback": "-",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "-",
-    "type": 2,
-    "name": "Pocket",
-    "ownerId": 53,
-    "id": 2994
+    "InstanceId": "59812b124696593ccc99d412",
+    "Name": "Pocket",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "HitboxActive": "Grabs: 8- (Intangible: 5-23)",
+    "FirstActionableFrame": "51",
+    "BaseDamage": "-",
+    "Angle": "-",
+    "BaseKnockBackSetKnockback": "-",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "-",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b124696593ccc99d412"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
   },
   {
-    "hitboxActive": "52-",
-    "firstActionableFrame": "38",
-    "baseDamage": "7",
-    "angle": "55",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 2,
-    "name": "Lloid Rocket",
-    "ownerId": 53,
-    "id": 2995
+    "InstanceId": "59812b124696593ccc99d413",
+    "Name": "Lloid Rocket",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "HitboxActive": "52-",
+    "FirstActionableFrame": "38",
+    "BaseDamage": "7",
+    "Angle": "55",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b124696593ccc99d413"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
   },
   {
-    "hitboxActive": "?",
-    "firstActionableFrame": "-",
-    "baseDamage": "5",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "20",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "80",
-    "type": 2,
-    "name": "Lloid Rocket (Late)",
-    "ownerId": 53,
-    "id": 2996
+    "InstanceId": "59812b124696593ccc99d414",
+    "Name": "Lloid Rocket (Late)",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "HitboxActive": "?",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "5",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "20",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "80",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b124696593ccc99d414"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "16",
-    "angle": "-",
-    "baseKnockBackSetKnockback": "-",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "-",
-    "type": 2,
-    "name": "Lloid Rocket (Ride)",
-    "ownerId": 53,
-    "id": 2997
+    "InstanceId": "59812b124696593ccc99d415",
+    "Name": "Lloid Rocket (Ride)",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "HitboxActive": "-",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "16",
+    "Angle": "-",
+    "BaseKnockBackSetKnockback": "-",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "-",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b124696593ccc99d415"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "11",
-    "angle": "-",
-    "baseKnockBackSetKnockback": "-",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "-",
-    "type": 2,
-    "name": "Lloid Rocket (Ride, Late)",
-    "ownerId": 53,
-    "id": 2998
+    "InstanceId": "59812b124696593ccc99d416",
+    "Name": "Lloid Rocket (Ride, Late)",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "HitboxActive": "-",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "11",
+    "Angle": "-",
+    "BaseKnockBackSetKnockback": "-",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "-",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b124696593ccc99d416"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "-",
-    "angle": "-",
-    "baseKnockBackSetKnockback": "-",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "-",
-    "type": 2,
-    "name": "Balloon Trip",
-    "ownerId": 53,
-    "id": 2999
+    "InstanceId": "59812b124696593ccc99d417",
+    "Name": "Balloon Trip",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "HitboxActive": "-",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "-",
+    "Angle": "-",
+    "BaseKnockBackSetKnockback": "-",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "-",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b124696593ccc99d417"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
   },
   {
-    "hitboxActive": "Planted on:",
-    "firstActionableFrame": "44",
-    "baseDamage": "-",
-    "angle": "-",
-    "baseKnockBackSetKnockback": "-",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "-",
-    "type": 2,
-    "name": "Timber (Planting)",
-    "ownerId": 53,
-    "id": 3000
+    "InstanceId": "59812b124696593ccc99d418",
+    "Name": "Timber (Planting)",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "HitboxActive": "Planted on:",
+    "FirstActionableFrame": "44",
+    "BaseDamage": "-",
+    "Angle": "-",
+    "BaseKnockBackSetKnockback": "-",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "-",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b124696593ccc99d418"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "55",
-    "baseDamage": "0",
-    "angle": "55",
-    "baseKnockBackSetKnockback": "W: 60",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 2,
-    "name": "Timber (Watering Can)",
-    "ownerId": 53,
-    "id": 3001
+    "InstanceId": "59812b124696593ccc99d419",
+    "Name": "Timber (Watering Can)",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "HitboxActive": "-",
+    "FirstActionableFrame": "55",
+    "BaseDamage": "0",
+    "Angle": "55",
+    "BaseKnockBackSetKnockback": "W: 60",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b124696593ccc99d419"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
   },
   {
-    "hitboxActive": "6-8",
-    "firstActionableFrame": "48",
-    "baseDamage": "14 (+6)",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 2,
-    "name": "Timber (Axe)",
-    "ownerId": 53,
-    "id": 3002
+    "InstanceId": "59812b124696593ccc99d41a",
+    "Name": "Timber (Axe)",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "HitboxActive": "6-8",
+    "FirstActionableFrame": "48",
+    "BaseDamage": "14 (+6)",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b124696593ccc99d41a"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "51",
-    "baseDamage": "-",
-    "angle": "-",
-    "baseKnockBackSetKnockback": "-",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "-",
-    "type": 2,
-    "name": "Timber (Chop)",
-    "ownerId": 53,
-    "id": 3003
+    "InstanceId": "59812b124696593ccc99d41b",
+    "Name": "Timber (Chop)",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "HitboxActive": "-",
+    "FirstActionableFrame": "51",
+    "BaseDamage": "-",
+    "Angle": "-",
+    "BaseKnockBackSetKnockback": "-",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "-",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b124696593ccc99d41b"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
   },
   {
-    "hitboxActive": "13-18 (Low Priority)",
-    "firstActionableFrame": "-",
-    "baseDamage": "18 (+6)",
-    "angle": "80",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 2,
-    "name": "Timber (Growing)",
-    "ownerId": 53,
-    "id": 3004
+    "InstanceId": "59812b124696593ccc99d41c",
+    "Name": "Timber (Growing)",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "HitboxActive": "13-18 (Low Priority)",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "18 (+6)",
+    "Angle": "80",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b124696593ccc99d41c"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
   },
   {
-    "hitboxActive": "19-39 (Low Priority)",
-    "firstActionableFrame": "-",
-    "baseDamage": "13 (+6)",
-    "angle": "80",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 2,
-    "name": "Timber (Growing, Late)",
-    "ownerId": 53,
-    "id": 3005
+    "InstanceId": "59812b124696593ccc99d41d",
+    "Name": "Timber (Growing, Late)",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "HitboxActive": "19-39 (Low Priority)",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "13 (+6)",
+    "Angle": "80",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b124696593ccc99d41d"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
   },
   {
-    "hitboxActive": "14- (Low Priority)",
-    "firstActionableFrame": "-",
-    "baseDamage": "25 (+6)",
-    "angle": "60",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 2,
-    "name": "Timber (Falling)",
-    "ownerId": 53,
-    "id": 3006
+    "InstanceId": "59812b124696593ccc99d41e",
+    "Name": "Timber (Falling)",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "HitboxActive": "14- (Low Priority)",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "25 (+6)",
+    "Angle": "60",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b124696593ccc99d41e"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812b124696593ccc99d41f",
+    "Name": "Fthrow",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "HitboxActive": null,
+    "FirstActionableFrame": null,
+    "BaseDamage": "9",
+    "Angle": "45",
+    "BaseKnockBackSetKnockback": "102",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "10",
+    "MoveType": "throw",
+    "IsWeightDependent": true,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b124696593ccc99d41f"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812b124696593ccc99d420",
+    "Name": "Bthrow",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "HitboxActive": null,
+    "FirstActionableFrame": null,
+    "BaseDamage": "11",
+    "Angle": "135",
+    "BaseKnockBackSetKnockback": "18",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "110",
+    "MoveType": "throw",
+    "IsWeightDependent": true,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b124696593ccc99d420"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812b124696593ccc99d421",
+    "Name": "Uthrow",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "HitboxActive": null,
+    "FirstActionableFrame": null,
+    "BaseDamage": "10",
+    "Angle": "90",
+    "BaseKnockBackSetKnockback": "105",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "40",
+    "MoveType": "throw",
+    "IsWeightDependent": true,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b124696593ccc99d421"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812b124696593ccc99d422",
+    "Name": "Dthrow",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "HitboxActive": null,
+    "FirstActionableFrame": null,
+    "BaseDamage": "6",
+    "Angle": "70",
+    "BaseKnockBackSetKnockback": "60",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "80",
+    "MoveType": "throw",
+    "IsWeightDependent": true,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812b124696593ccc99d422"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
   }
 ]

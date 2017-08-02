@@ -19,7 +19,7 @@ public class AboutActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_about);
 
-        setTitle("About/Credits");
+        setTitle("About");
 
         TextView text = (TextView)findViewById(R.id.about);
         if (Build.VERSION.SDK_INT >= 24) {

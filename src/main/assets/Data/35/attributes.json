@@ -1,110 +1,488 @@
 ﻿[
   {
-    "name": "Weight",
-    "ownerId": 35,
-    "id": 613,
-    "value": "75"
+    "InstanceId": "59812ae14696593ccc99cdb2",
+    "Name": "AerialJump",
+    "OwnerId": 35,
+    "Owner": "MrGameWatch",
+    "Values": [
+      {
+        "Value": "27.511969",
+        "Owner": "MrGameWatch",
+        "OwnerId": 35,
+        "Name": "HEIGHT"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812ae14696593ccc99cdb2"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MrGameWatch"
+      }
+    ]
   },
   {
-    "name": "Max Jumps",
-    "ownerId": 35,
-    "id": 614,
-    "value": "2"
+    "InstanceId": "59812ae14696593ccc99cdb3",
+    "Name": "AirAcceleration",
+    "OwnerId": 35,
+    "Owner": "MrGameWatch",
+    "Values": [
+      {
+        "Value": "0.03",
+        "Owner": "MrGameWatch",
+        "OwnerId": 35,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812ae14696593ccc99cdb3"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MrGameWatch"
+      }
+    ]
   },
   {
-    "name": "Run Speed",
-    "ownerId": 35,
-    "id": 615,
-    "value": "1.5264"
+    "InstanceId": "59812ae14696593ccc99cdb4",
+    "Name": "AirDeceleration",
+    "OwnerId": 35,
+    "Owner": "MrGameWatch",
+    "Values": [
+      {
+        "Value": "0.07",
+        "Owner": "MrGameWatch",
+        "OwnerId": 35,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812ae14696593ccc99cdb4"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MrGameWatch"
+      }
+    ]
   },
   {
-    "name": "Wall Jump",
-    "ownerId": 35,
-    "id": 616,
-    "value": "No"
+    "InstanceId": "59812ae14696593ccc99cdb5",
+    "Name": "AirFriction",
+    "OwnerId": 35,
+    "Owner": "MrGameWatch",
+    "Values": [
+      {
+        "Value": "0.012",
+        "Owner": "MrGameWatch",
+        "OwnerId": 35,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812ae14696593ccc99cdb5"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MrGameWatch"
+      }
+    ]
   },
   {
-    "name": "Walk Speed",
-    "ownerId": 35,
-    "id": 617,
-    "value": "1.1242"
+    "InstanceId": "59812ae14696593ccc99cdb6",
+    "Name": "DashLength",
+    "OwnerId": 35,
+    "Owner": "MrGameWatch",
+    "Values": [
+      {
+        "Value": "9",
+        "Owner": "MrGameWatch",
+        "OwnerId": 35,
+        "Name": "LENGTH IN FRAMES"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812ae14696593ccc99cdb6"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MrGameWatch"
+      }
+    ]
   },
   {
-    "name": "Wall Cling",
-    "ownerId": 35,
-    "id": 618,
-    "value": "No"
+    "InstanceId": "59812ae14696593ccc99cdb7",
+    "Name": "FallSpeed",
+    "OwnerId": 35,
+    "Owner": "MrGameWatch",
+    "Values": [
+      {
+        "Value": "1.24",
+        "Owner": "MrGameWatch",
+        "OwnerId": 35,
+        "Name": "MAX FALL SPEED"
+      },
+      {
+        "Value": "1.984",
+        "Owner": "MrGameWatch",
+        "OwnerId": 35,
+        "Name": "FAST FALL SPEED"
+      },
+      {
+        "Value": "60%",
+        "Owner": "MrGameWatch",
+        "OwnerId": 35,
+        "Name": "SPEED INCREASE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812ae14696593ccc99cdb7"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MrGameWatch"
+      }
+    ]
   },
   {
-    "name": "Air Speed",
-    "ownerId": 35,
-    "id": 619,
-    "value": "1.12"
+    "InstanceId": "59812ae14696593ccc99cdb8",
+    "Name": "FullHop",
+    "OwnerId": 35,
+    "Owner": "MrGameWatch",
+    "Values": [
+      {
+        "Value": "27.511969",
+        "Owner": "MrGameWatch",
+        "OwnerId": 35,
+        "Name": "HEIGHT"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812ae14696593ccc99cdb8"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MrGameWatch"
+      }
+    ]
   },
   {
-    "name": "Crawl",
-    "ownerId": 35,
-    "id": 620,
-    "value": "No"
+    "InstanceId": "59812ae14696593ccc99cdb9",
+    "Name": "Gravity",
+    "OwnerId": 35,
+    "Owner": "MrGameWatch",
+    "Values": [
+      {
+        "Value": "0.08",
+        "Owner": "MrGameWatch",
+        "OwnerId": 35,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812ae14696593ccc99cdb9"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MrGameWatch"
+      }
+    ]
   },
   {
-    "name": "Fall Speed",
-    "ownerId": 35,
-    "id": 621,
-    "value": "1.24"
+    "InstanceId": "59812ae14696593ccc99cdba",
+    "Name": "JumpSquat",
+    "OwnerId": 35,
+    "Owner": "MrGameWatch",
+    "Values": [
+      {
+        "Value": "5",
+        "Owner": "MrGameWatch",
+        "OwnerId": 35,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812ae14696593ccc99cdba"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MrGameWatch"
+      }
+    ]
   },
   {
-    "name": "Tether",
-    "ownerId": 35,
-    "id": 622,
-    "value": "No"
+    "InstanceId": "59812ae14696593ccc99cdbb",
+    "Name": "LedgeHop",
+    "OwnerId": 35,
+    "Owner": "MrGameWatch",
+    "Values": [
+      {
+        "Value": "33.755985",
+        "Owner": "MrGameWatch",
+        "OwnerId": 35,
+        "Name": "HEIGHT"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812ae14696593ccc99cdbb"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MrGameWatch"
+      }
+    ]
   },
   {
-    "name": "Fast Fall Speed",
-    "ownerId": 35,
-    "id": 623,
-    "value": "1.984"
+    "InstanceId": "59812ae14696593ccc99cdbc",
+    "Name": "ShortHop",
+    "OwnerId": 35,
+    "Owner": "MrGameWatch",
+    "Values": [
+      {
+        "Value": "13.261467",
+        "Owner": "MrGameWatch",
+        "OwnerId": 35,
+        "Name": "HEIGHT"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812ae14696593ccc99cdbc"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MrGameWatch"
+      }
+    ]
   },
   {
-    "name": "Jumpsquat",
-    "ownerId": 35,
-    "id": 624,
-    "value": "5frames"
+    "InstanceId": "59812ae14696593ccc99cdbd",
+    "Name": "Spotdodge",
+    "OwnerId": 35,
+    "Owner": "MrGameWatch",
+    "Values": [
+      {
+        "Value": "2-16",
+        "Owner": "MrGameWatch",
+        "OwnerId": 35,
+        "Name": "INTANGIBLE"
+      },
+      {
+        "Value": "26",
+        "Owner": "MrGameWatch",
+        "OwnerId": 35,
+        "Name": "FAF"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812ae14696593ccc99cdbd"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MrGameWatch"
+      }
+    ]
   },
   {
-    "name": "Air Acceleration",
-    "ownerId": 35,
-    "id": 625,
-    "value": "0.03"
+    "InstanceId": "59812ae14696593ccc99cdbe",
+    "Name": "Traction",
+    "OwnerId": 35,
+    "Owner": "MrGameWatch",
+    "Values": [
+      {
+        "Value": "0.06",
+        "Owner": "MrGameWatch",
+        "OwnerId": 35,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812ae14696593ccc99cdbe"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MrGameWatch"
+      }
+    ]
   },
   {
-    "name": "Soft Landing Lag",
-    "ownerId": 35,
-    "id": 626,
-    "value": "2frames"
+    "InstanceId": "59812ae14696593ccc99cdbf",
+    "Name": "WalkSpeed",
+    "OwnerId": 35,
+    "Owner": "MrGameWatch",
+    "Values": [
+      {
+        "Value": "1.1242",
+        "Owner": "MrGameWatch",
+        "OwnerId": 35,
+        "Name": "MAX WALK SPEED VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812ae14696593ccc99cdbf"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MrGameWatch"
+      }
+    ]
   },
   {
-    "name": "Gravity",
-    "ownerId": 35,
-    "id": 627,
-    "value": "0.08"
+    "InstanceId": "59812ae14696593ccc99cdc0",
+    "Name": "AirSpeed",
+    "OwnerId": 35,
+    "Owner": "MrGameWatch",
+    "Values": [
+      {
+        "Value": "1.12",
+        "Owner": "MrGameWatch",
+        "OwnerId": 35,
+        "Name": "MAX AIR SPEED VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812ae14696593ccc99cdc0"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MrGameWatch"
+      }
+    ]
   },
   {
-    "name": "Hard Landing Lag",
-    "ownerId": 35,
-    "id": 628,
-    "value": "4frames"
+    "InstanceId": "59812ae14696593ccc99cdc1",
+    "Name": "AirDodge",
+    "OwnerId": 35,
+    "Owner": "MrGameWatch",
+    "Values": [
+      {
+        "Value": "2-26",
+        "Owner": "MrGameWatch",
+        "OwnerId": 35,
+        "Name": "INTANGIBLE"
+      },
+      {
+        "Value": "32",
+        "Owner": "MrGameWatch",
+        "OwnerId": 35,
+        "Name": "FAF"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812ae14696593ccc99cdc1"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MrGameWatch"
+      }
+    ]
   },
   {
-    "name": "SH Air Time",
-    "ownerId": 35,
-    "id": 629,
-    "value": "36frames"
+    "InstanceId": "59812ae14696593ccc99cdc2",
+    "Name": "Rolls",
+    "OwnerId": 35,
+    "Owner": "MrGameWatch",
+    "Values": [
+      {
+        "Value": "4-16",
+        "Owner": "MrGameWatch",
+        "OwnerId": 35,
+        "Name": "INTANGIBLE"
+      },
+      {
+        "Value": "30",
+        "Owner": "MrGameWatch",
+        "OwnerId": 35,
+        "Name": "FAF"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812ae14696593ccc99cdc2"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MrGameWatch"
+      }
+    ]
   },
   {
-    "name": "FH Air Time",
-    "ownerId": 35,
-    "id": 630,
-    "value": "56frames"
+    "InstanceId": "59812ae14696593ccc99cdc3",
+    "Name": "RunSpeed",
+    "OwnerId": 35,
+    "Owner": "MrGameWatch",
+    "Values": [
+      {
+        "Value": "1.5264",
+        "Owner": "MrGameWatch",
+        "OwnerId": 35,
+        "Name": "MAX RUN SPEED VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812ae14696593ccc99cdc3"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MrGameWatch"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812ae14696593ccc99cdc4",
+    "Name": "ShieldSize",
+    "OwnerId": 35,
+    "Owner": "MrGameWatch",
+    "Values": [
+      {
+        "Value": "9.345",
+        "Owner": "MrGameWatch",
+        "OwnerId": 35,
+        "Name": "SIZE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812ae14696593ccc99cdc4"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MrGameWatch"
+      }
+    ]
   }
 ]

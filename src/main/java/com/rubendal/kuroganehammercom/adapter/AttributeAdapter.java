@@ -13,9 +13,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.rubendal.kuroganehammercom.R;
-import com.rubendal.kuroganehammercom.classes.Attribute;
-import com.rubendal.kuroganehammercom.classes.AttributeList;
-import com.rubendal.kuroganehammercom.classes.Character;
+
+import com.rubendal.kuroganehammercom.classes.*;
 
 import java.util.LinkedList;
 import java.util.List;
@@ -23,33 +22,15 @@ import java.util.List;
 public class AttributeAdapter extends BaseAdapter {
 
     private Context context;
-    private List<AttributeList> list;
+    private List<AttributeName> list;
     private int x;
 
-    public AttributeAdapter(Context context, List<AttributeList> list, int x, LinkedList<Attribute> attributes)
+    public AttributeAdapter(Context context, LinkedList<AttributeName> attributes, int x)
     {
         this.context = context;
-        this.list = list;
         this.x = x;
+        this.list = attributes;
 
-        //Remove all attributes that don't have data
-        LinkedList<AttributeList> emptyAttributeList = new LinkedList<>();
-
-        boolean hasOne = false;
-        for(AttributeList a : this.list){
-            hasOne = false;
-            for(Attribute attr : attributes){
-                if(attr.attributeId == a.id){
-                    hasOne = true;
-                    break;
-                }
-            }
-            if(!hasOne){
-                emptyAttributeList.add(a);
-            }
-        }
-
-        this.list.removeAll(emptyAttributeList);
     }
 
     @Override
@@ -69,7 +50,7 @@ public class AttributeAdapter extends BaseAdapter {
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-        AttributeList attribute = list.get(position);
+        AttributeName attribute = list.get(position);
 
         if(convertView == null){
             convertView =  LayoutInflater.from(context).inflate(R.layout.character_grid_layout, parent, false);
@@ -106,15 +87,22 @@ public class AttributeAdapter extends BaseAdapter {
 
 
         if(attribute != null) {
-            name.setText(attribute.name);
+            name.setText(attribute.formattedName);
             Bitmap image = attribute.getImage(context);
             if(image != null) {
                 img.setImageBitmap(image);
             }else{
                 img.setImageDrawable(ResourcesCompat.getDrawable(context.getResources(), R.drawable.row_shape, null));
             }
+
+            if(attribute.favorite){
+                fav.setVisibility(View.VISIBLE);
+            }else{
+                fav.setVisibility(View.INVISIBLE);
+            }
         }
 
         return convertView;
     }
+
 }

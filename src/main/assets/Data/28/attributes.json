@@ -1,110 +1,536 @@
 ﻿[
   {
-    "name": "Weight",
-    "ownerId": 28,
-    "id": 487,
-    "value": "90"
+    "InstanceId": "59812ace4696593ccc99caeb",
+    "Name": "AerialJump",
+    "OwnerId": 28,
+    "Owner": "Marth",
+    "Values": [
+      {
+        "Value": "33.660133",
+        "Owner": "Marth",
+        "OwnerId": 28,
+        "Name": "HEIGHT"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812ace4696593ccc99caeb"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Marth"
+      }
+    ]
   },
   {
-    "name": "Max Jumps",
-    "ownerId": 28,
-    "id": 488,
-    "value": "2"
+    "InstanceId": "59812ace4696593ccc99caec",
+    "Name": "Counters",
+    "OwnerId": 28,
+    "Owner": "Marth",
+    "Values": [
+      {
+        "Value": "6-27",
+        "Owner": "Marth",
+        "OwnerId": 28,
+        "Name": "COUNTER FRAMES"
+      },
+      {
+        "Value": "5-6",
+        "Owner": "Marth",
+        "OwnerId": 28,
+        "Name": "INTANGIBLE ON"
+      },
+      {
+        "Value": "60",
+        "Owner": "Marth",
+        "OwnerId": 28,
+        "Name": "FAF"
+      },
+      {
+        "Value": "1.2x",
+        "Owner": "Marth",
+        "OwnerId": 28,
+        "Name": "DAMAGE (MULTIPLIER)"
+      },
+      {
+        "Value": "60 | 90",
+        "Owner": "Marth",
+        "OwnerId": 28,
+        "Name": "BKB | KBG"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812ace4696593ccc99caec"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Marth"
+      }
+    ]
   },
   {
-    "name": "Run Speed",
-    "ownerId": 28,
-    "id": 489,
-    "value": "1.785"
+    "InstanceId": "59812ace4696593ccc99caed",
+    "Name": "AirAcceleration",
+    "OwnerId": 28,
+    "Owner": "Marth",
+    "Values": [
+      {
+        "Value": "0.07",
+        "Owner": "Marth",
+        "OwnerId": 28,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812ace4696593ccc99caed"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Marth"
+      }
+    ]
   },
   {
-    "name": "Wall Jump",
-    "ownerId": 28,
-    "id": 490,
-    "value": "No"
+    "InstanceId": "59812ace4696593ccc99caee",
+    "Name": "AirDeceleration",
+    "OwnerId": 28,
+    "Owner": "Marth",
+    "Values": [
+      {
+        "Value": "0.01",
+        "Owner": "Marth",
+        "OwnerId": 28,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812ace4696593ccc99caee"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Marth"
+      }
+    ]
   },
   {
-    "name": "Walk Speed",
-    "ownerId": 28,
-    "id": 491,
-    "value": "1.5"
+    "InstanceId": "59812ace4696593ccc99caef",
+    "Name": "AirFriction",
+    "OwnerId": 28,
+    "Owner": "Marth",
+    "Values": [
+      {
+        "Value": "0.00375",
+        "Owner": "Marth",
+        "OwnerId": 28,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812ace4696593ccc99caef"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Marth"
+      }
+    ]
   },
   {
-    "name": "Wall Cling",
-    "ownerId": 28,
-    "id": 492,
-    "value": "No"
+    "InstanceId": "59812ace4696593ccc99caf0",
+    "Name": "DashLength",
+    "OwnerId": 28,
+    "Owner": "Marth",
+    "Values": [
+      {
+        "Value": "17",
+        "Owner": "Marth",
+        "OwnerId": 28,
+        "Name": "LENGTH IN FRAMES"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812ace4696593ccc99caf0"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Marth"
+      }
+    ]
   },
   {
-    "name": "Air Speed",
-    "ownerId": 28,
-    "id": 493,
-    "value": "1.02"
+    "InstanceId": "59812ace4696593ccc99caf1",
+    "Name": "FallSpeed",
+    "OwnerId": 28,
+    "Owner": "Marth",
+    "Values": [
+      {
+        "Value": "1.58",
+        "Owner": "Marth",
+        "OwnerId": 28,
+        "Name": "MAX FALL SPEED"
+      },
+      {
+        "Value": "2.528",
+        "Owner": "Marth",
+        "OwnerId": 28,
+        "Name": "FAST FALL SPEED"
+      },
+      {
+        "Value": "60%",
+        "Owner": "Marth",
+        "OwnerId": 28,
+        "Name": "SPEED INCREASE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812ace4696593ccc99caf1"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Marth"
+      }
+    ]
   },
   {
-    "name": "Crawl",
-    "ownerId": 28,
-    "id": 494,
-    "value": "No"
+    "InstanceId": "59812ace4696593ccc99caf2",
+    "Name": "FullHop",
+    "OwnerId": 28,
+    "Owner": "Marth",
+    "Values": [
+      {
+        "Value": "33.660133",
+        "Owner": "Marth",
+        "OwnerId": 28,
+        "Name": "HEIGHT"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812ace4696593ccc99caf2"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Marth"
+      }
+    ]
   },
   {
-    "name": "Fall Speed",
-    "ownerId": 28,
-    "id": 495,
-    "value": "1.58"
+    "InstanceId": "59812ace4696593ccc99caf3",
+    "Name": "Gravity",
+    "OwnerId": 28,
+    "Owner": "Marth",
+    "Values": [
+      {
+        "Value": "0.075",
+        "Owner": "Marth",
+        "OwnerId": 28,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812ace4696593ccc99caf3"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Marth"
+      }
+    ]
   },
   {
-    "name": "Tether",
-    "ownerId": 28,
-    "id": 496,
-    "value": "No"
+    "InstanceId": "59812ace4696593ccc99caf4",
+    "Name": "JumpSquat",
+    "OwnerId": 28,
+    "Owner": "Marth",
+    "Values": [
+      {
+        "Value": "5",
+        "Owner": "Marth",
+        "OwnerId": 28,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812ace4696593ccc99caf4"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Marth"
+      }
+    ]
   },
   {
-    "name": "Fast Fall Speed",
-    "ownerId": 28,
-    "id": 497,
-    "value": "2.528"
+    "InstanceId": "59812ace4696593ccc99caf5",
+    "Name": "LedgeHop",
+    "OwnerId": 28,
+    "Owner": "Marth",
+    "Values": [
+      {
+        "Value": "36.830067",
+        "Owner": "Marth",
+        "OwnerId": 28,
+        "Name": "HEIGHT"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812ace4696593ccc99caf5"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Marth"
+      }
+    ]
   },
   {
-    "name": "Jumpsquat",
-    "ownerId": 28,
-    "id": 498,
-    "value": "5frames"
+    "InstanceId": "59812ace4696593ccc99caf6",
+    "Name": "ShortHop",
+    "OwnerId": 28,
+    "Owner": "Marth",
+    "Values": [
+      {
+        "Value": "16.263107",
+        "Owner": "Marth",
+        "OwnerId": 28,
+        "Name": "HEIGHT"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812ace4696593ccc99caf6"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Marth"
+      }
+    ]
   },
   {
-    "name": "Air Acceleration",
-    "ownerId": 28,
-    "id": 499,
-    "value": "0.07"
+    "InstanceId": "59812ace4696593ccc99caf7",
+    "Name": "Spotdodge",
+    "OwnerId": 28,
+    "Owner": "Marth",
+    "Values": [
+      {
+        "Value": "2-17",
+        "Owner": "Marth",
+        "OwnerId": 28,
+        "Name": "INTANGIBLE"
+      },
+      {
+        "Value": "27",
+        "Owner": "Marth",
+        "OwnerId": 28,
+        "Name": "FAF"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812ace4696593ccc99caf7"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Marth"
+      }
+    ]
   },
   {
-    "name": "Soft Landing Lag",
-    "ownerId": 28,
-    "id": 500,
-    "value": "2frames"
+    "InstanceId": "59812ace4696593ccc99caf8",
+    "Name": "Traction",
+    "OwnerId": 28,
+    "Owner": "Marth",
+    "Values": [
+      {
+        "Value": "0.055",
+        "Owner": "Marth",
+        "OwnerId": 28,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812ace4696593ccc99caf8"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Marth"
+      }
+    ]
   },
   {
-    "name": "Gravity",
-    "ownerId": 28,
-    "id": 501,
-    "value": "0.075"
+    "InstanceId": "59812ace4696593ccc99caf9",
+    "Name": "WalkSpeed",
+    "OwnerId": 28,
+    "Owner": "Marth",
+    "Values": [
+      {
+        "Value": "1.5",
+        "Owner": "Marth",
+        "OwnerId": 28,
+        "Name": "MAX WALK SPEED VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812ace4696593ccc99caf9"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Marth"
+      }
+    ]
   },
   {
-    "name": "Hard Landing Lag",
-    "ownerId": 28,
-    "id": 502,
-    "value": "4frames"
+    "InstanceId": "59812ace4696593ccc99cafa",
+    "Name": "AirSpeed",
+    "OwnerId": 28,
+    "Owner": "Marth",
+    "Values": [
+      {
+        "Value": "1.02",
+        "Owner": "Marth",
+        "OwnerId": 28,
+        "Name": "MAX AIR SPEED VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812ace4696593ccc99cafa"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Marth"
+      }
+    ]
   },
   {
-    "name": "SH Air Time",
-    "ownerId": 28,
-    "id": 503,
-    "value": "41frames"
+    "InstanceId": "59812ace4696593ccc99cafb",
+    "Name": "AirDodge",
+    "OwnerId": 28,
+    "Owner": "Marth",
+    "Values": [
+      {
+        "Value": "3-27",
+        "Owner": "Marth",
+        "OwnerId": 28,
+        "Name": "INTANGIBLE"
+      },
+      {
+        "Value": "33",
+        "Owner": "Marth",
+        "OwnerId": 28,
+        "Name": "FAF"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812ace4696593ccc99cafb"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Marth"
+      }
+    ]
   },
   {
-    "name": "FH Air Time",
-    "ownerId": 28,
-    "id": 504,
-    "value": "61frames"
+    "InstanceId": "59812ace4696593ccc99cafc",
+    "Name": "Rolls",
+    "OwnerId": 28,
+    "Owner": "Marth",
+    "Values": [
+      {
+        "Value": "4-17",
+        "Owner": "Marth",
+        "OwnerId": 28,
+        "Name": "INTANGIBLE"
+      },
+      {
+        "Value": "31",
+        "Owner": "Marth",
+        "OwnerId": 28,
+        "Name": "FAF"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812ace4696593ccc99cafc"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Marth"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812ace4696593ccc99cafd",
+    "Name": "RunSpeed",
+    "OwnerId": 28,
+    "Owner": "Marth",
+    "Values": [
+      {
+        "Value": "1.785",
+        "Owner": "Marth",
+        "OwnerId": 28,
+        "Name": "MAX RUN SPEED VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812ace4696593ccc99cafd"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Marth"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812ace4696593ccc99cafe",
+    "Name": "ShieldSize",
+    "OwnerId": 28,
+    "Owner": "Marth",
+    "Values": [
+      {
+        "Value": "12.033",
+        "Owner": "Marth",
+        "OwnerId": 28,
+        "Name": "SIZE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812ace4696593ccc99cafe"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Marth"
+      }
+    ]
   }
 ]

@@ -16,20 +16,17 @@ import java.io.Serializable;
 
 public class Movement implements Serializable {
 
-    public int id;
     public String name, value;
 
-    public Movement(int id, String name, String value){
-        this.id = id;
+    public Movement(String name, String value){
         this.name = name;
-        this.value = value.replace("frames"," frames");
+        this.value = value; //.replace("frames"," frames");
     }
 
     public static Movement fromJson(JSONObject jsonObject){
         try {
-            String name = jsonObject.getString("name"), value = jsonObject.getString("value");
-            int id = jsonObject.getInt("id");
-            return new Movement(id,name,value);
+            String name = jsonObject.getString("Name"), value = jsonObject.getString("Value");
+            return new Movement(name,value);
         }catch(Exception e){
             return null;
         }

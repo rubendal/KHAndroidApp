@@ -1,0 +1,308 @@
+﻿[
+  {
+    "InstanceId": "59812ab84696593ccc99c7dc",
+    "Name": "Weight",
+    "OwnerId": 20,
+    "Owner": "Kirby",
+    "Value": "79 ",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812ab84696593ccc99c7dc"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Kirby"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812ab84696593ccc99c7dd",
+    "Name": "Max Jumps",
+    "OwnerId": 20,
+    "Owner": "Kirby",
+    "Value": "6",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812ab84696593ccc99c7dd"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Kirby"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812ab84696593ccc99c7de",
+    "Name": "Run Speed",
+    "OwnerId": 20,
+    "Owner": "Kirby",
+    "Value": "1.57 ",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812ab84696593ccc99c7de"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Kirby"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812ab84696593ccc99c7df",
+    "Name": "Wall Jump",
+    "OwnerId": 20,
+    "Owner": "Kirby",
+    "Value": "No",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812ab84696593ccc99c7df"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Kirby"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812ab84696593ccc99c7e0",
+    "Name": "Walk Speed",
+    "OwnerId": 20,
+    "Owner": "Kirby",
+    "Value": "0.93 ",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812ab84696593ccc99c7e0"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Kirby"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812ab84696593ccc99c7e1",
+    "Name": "Wall Cling",
+    "OwnerId": 20,
+    "Owner": "Kirby",
+    "Value": "No",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812ab84696593ccc99c7e1"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Kirby"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812ab84696593ccc99c7e2",
+    "Name": "Air Speed",
+    "OwnerId": 20,
+    "Owner": "Kirby",
+    "Value": "0.8 ",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812ab84696593ccc99c7e2"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Kirby"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812ab84696593ccc99c7e3",
+    "Name": "Crawl",
+    "OwnerId": 20,
+    "Owner": "Kirby",
+    "Value": "No",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812ab84696593ccc99c7e3"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Kirby"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812ab84696593ccc99c7e4",
+    "Name": "Fall Speed",
+    "OwnerId": 20,
+    "Owner": "Kirby",
+    "Value": "1.23 ",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812ab84696593ccc99c7e4"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Kirby"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812ab84696593ccc99c7e5",
+    "Name": "Tether",
+    "OwnerId": 20,
+    "Owner": "Kirby",
+    "Value": "No",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812ab84696593ccc99c7e5"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Kirby"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812ab84696593ccc99c7e6",
+    "Name": "Fast Fall Speed",
+    "OwnerId": 20,
+    "Owner": "Kirby",
+    "Value": "1.968 ",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812ab84696593ccc99c7e6"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Kirby"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812ab84696593ccc99c7e7",
+    "Name": "Jumpsquat",
+    "OwnerId": 20,
+    "Owner": "Kirby",
+    "Value": "4 frames",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812ab84696593ccc99c7e7"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Kirby"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812ab84696593ccc99c7e8",
+    "Name": "Air Acceleration",
+    "OwnerId": 20,
+    "Owner": "Kirby",
+    "Value": "0.065",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812ab84696593ccc99c7e8"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Kirby"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812ab84696593ccc99c7e9",
+    "Name": "Soft Landing Lag",
+    "OwnerId": 20,
+    "Owner": "Kirby",
+    "Value": "2 frames",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812ab84696593ccc99c7e9"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Kirby"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812ab84696593ccc99c7ea",
+    "Name": "Gravity",
+    "OwnerId": 20,
+    "Owner": "Kirby",
+    "Value": "0.06405",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812ab84696593ccc99c7ea"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Kirby"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812ab84696593ccc99c7eb",
+    "Name": "Hard Landing Lag",
+    "OwnerId": 20,
+    "Owner": "Kirby",
+    "Value": "4 frames",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812ab84696593ccc99c7eb"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Kirby"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812ab84696593ccc99c7ec",
+    "Name": "SH Air Time",
+    "OwnerId": 20,
+    "Owner": "Kirby",
+    "Value": "39 frames",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812ab84696593ccc99c7ec"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Kirby"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812ab84696593ccc99c7ed",
+    "Name": "FH Air Time",
+    "OwnerId": 20,
+    "Owner": "Kirby",
+    "Value": "58 frames",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812ab84696593ccc99c7ed"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Kirby"
+      }
+    ]
+  }
+]

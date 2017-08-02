@@ -1,688 +1,1380 @@
 ﻿[
   {
-    "hitboxActive": "4-6",
-    "firstActionableFrame": "26",
-    "baseDamage": "2.5",
-    "angle": "68/82",
-    "baseKnockBackSetKnockback": "W: 30/25",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Jab 1",
-    "ownerId": 12,
-    "id": 637
+    "InstanceId": "59812aa34696593ccc99c536",
+    "Name": "Jab 1",
+    "OwnerId": 12,
+    "Owner": "DuckHunt",
+    "HitboxActive": "4-6",
+    "FirstActionableFrame": "26",
+    "BaseDamage": "2.5",
+    "Angle": "68/82",
+    "BaseKnockBackSetKnockback": "W: 30/25",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812aa34696593ccc99c536"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DuckHunt"
+      }
+    ]
   },
   {
-    "hitboxActive": "5-7",
-    "firstActionableFrame": "28",
-    "baseDamage": "2.5",
-    "angle": "60/70",
-    "baseKnockBackSetKnockback": "W: 35/25",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Jab 2",
-    "ownerId": 12,
-    "id": 638
+    "InstanceId": "59812aa34696593ccc99c537",
+    "Name": "Jab 2",
+    "OwnerId": 12,
+    "Owner": "DuckHunt",
+    "HitboxActive": "5-7",
+    "FirstActionableFrame": "28",
+    "BaseDamage": "2.5",
+    "Angle": "60/70",
+    "BaseKnockBackSetKnockback": "W: 35/25",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812aa34696593ccc99c537"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DuckHunt"
+      }
+    ]
   },
   {
-    "hitboxActive": "6-9",
-    "firstActionableFrame": "34",
-    "baseDamage": "5",
-    "angle": "60",
-    "baseKnockBackSetKnockback": "50",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "130",
-    "type": 1,
-    "name": "Jab 3",
-    "ownerId": 12,
-    "id": 639
+    "InstanceId": "59812aa34696593ccc99c538",
+    "Name": "Jab 3",
+    "OwnerId": 12,
+    "Owner": "DuckHunt",
+    "HitboxActive": "6-9",
+    "FirstActionableFrame": "34",
+    "BaseDamage": "5",
+    "Angle": "60",
+    "BaseKnockBackSetKnockback": "50",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "130",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812aa34696593ccc99c538"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DuckHunt"
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "1",
-    "angle": "80",
-    "baseKnockBackSetKnockback": "W: 16",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Rapid Jab",
-    "ownerId": 12,
-    "id": 640
+    "InstanceId": "59812aa34696593ccc99c539",
+    "Name": "Rapid Jab",
+    "OwnerId": 12,
+    "Owner": "DuckHunt",
+    "HitboxActive": "-",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "1",
+    "Angle": "80",
+    "BaseKnockBackSetKnockback": "W: 16",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812aa34696593ccc99c539"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DuckHunt"
+      }
+    ]
   },
   {
-    "hitboxActive": "6",
-    "firstActionableFrame": "40",
-    "baseDamage": "3",
-    "angle": "74",
-    "baseKnockBackSetKnockback": "70",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "140",
-    "type": 1,
-    "name": "Rapid Jab Finisher",
-    "ownerId": 12,
-    "id": 641
+    "InstanceId": "59812aa34696593ccc99c53a",
+    "Name": "Rapid Jab Finisher",
+    "OwnerId": 12,
+    "Owner": "DuckHunt",
+    "HitboxActive": "6",
+    "FirstActionableFrame": "40",
+    "BaseDamage": "3",
+    "Angle": "74",
+    "BaseKnockBackSetKnockback": "70",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "140",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812aa34696593ccc99c53a"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DuckHunt"
+      }
+    ]
   },
   {
-    "hitboxActive": "10-13",
-    "firstActionableFrame": "44",
-    "baseDamage": "10",
-    "angle": "60",
-    "baseKnockBackSetKnockback": "100",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "40",
-    "type": 1,
-    "name": "Dash Attack",
-    "ownerId": 12,
-    "id": 642
+    "InstanceId": "59812aa34696593ccc99c53b",
+    "Name": "Dash Attack",
+    "OwnerId": 12,
+    "Owner": "DuckHunt",
+    "HitboxActive": "10-13",
+    "FirstActionableFrame": "44",
+    "BaseDamage": "10",
+    "Angle": "60",
+    "BaseKnockBackSetKnockback": "100",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "40",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812aa34696593ccc99c53b"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DuckHunt"
+      }
+    ]
   },
   {
-    "hitboxActive": "14-19",
-    "firstActionableFrame": "-",
-    "baseDamage": "7",
-    "angle": "110",
-    "baseKnockBackSetKnockback": "100",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "40",
-    "type": 1,
-    "name": "Dash Attack (Late)",
-    "ownerId": 12,
-    "id": 643
+    "InstanceId": "59812aa34696593ccc99c53c",
+    "Name": "Dash Attack (Late)",
+    "OwnerId": 12,
+    "Owner": "DuckHunt",
+    "HitboxActive": "14-19",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "7",
+    "Angle": "110",
+    "BaseKnockBackSetKnockback": "100",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "40",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812aa34696593ccc99c53c"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DuckHunt"
+      }
+    ]
   },
   {
-    "hitboxActive": "8-11",
-    "firstActionableFrame": "32",
-    "baseDamage": "8",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "15",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Ftilt (All Angles)",
-    "ownerId": 12,
-    "id": 644
+    "InstanceId": "59812aa34696593ccc99c53d",
+    "Name": "Ftilt (All Angles)",
+    "OwnerId": 12,
+    "Owner": "DuckHunt",
+    "HitboxActive": "8-11",
+    "FirstActionableFrame": "32",
+    "BaseDamage": "8",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "15",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812aa34696593ccc99c53d"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DuckHunt"
+      }
+    ]
   },
   {
-    "hitboxActive": "8-12",
-    "firstActionableFrame": "34",
-    "baseDamage": "7",
-    "angle": "96",
-    "baseKnockBackSetKnockback": "35",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "130",
-    "type": 1,
-    "name": "Utilt",
-    "ownerId": 12,
-    "id": 645
+    "InstanceId": "59812aa34696593ccc99c53e",
+    "Name": "Utilt",
+    "OwnerId": 12,
+    "Owner": "DuckHunt",
+    "HitboxActive": "8-12",
+    "FirstActionableFrame": "34",
+    "BaseDamage": "7",
+    "Angle": "96",
+    "BaseKnockBackSetKnockback": "35",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "130",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812aa34696593ccc99c53e"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DuckHunt"
+      }
+    ]
   },
   {
-    "hitboxActive": "6-7",
-    "firstActionableFrame": "35",
-    "baseDamage": "8",
-    "angle": "30",
-    "baseKnockBackSetKnockback": "50",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "60",
-    "type": 1,
-    "name": "Dtilt",
-    "ownerId": 12,
-    "id": 646
+    "InstanceId": "59812aa34696593ccc99c53f",
+    "Name": "Dtilt",
+    "OwnerId": 12,
+    "Owner": "DuckHunt",
+    "HitboxActive": "6-7",
+    "FirstActionableFrame": "35",
+    "BaseDamage": "8",
+    "Angle": "30",
+    "BaseKnockBackSetKnockback": "50",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "60",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812aa34696593ccc99c53f"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DuckHunt"
+      }
+    ]
   },
   {
-    "hitboxActive": "17-18, 23-24",
-    "firstActionableFrame": "67",
-    "baseDamage": "4",
-    "angle": "5",
-    "baseKnockBackSetKnockback": "W: 60",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Fsmash (Hits 1-2)",
-    "ownerId": 12,
-    "id": 647
+    "InstanceId": "59812aa34696593ccc99c540",
+    "Name": "Fsmash (Hits 1-2)",
+    "OwnerId": 12,
+    "Owner": "DuckHunt",
+    "HitboxActive": "17-18, 23-24",
+    "FirstActionableFrame": "67",
+    "BaseDamage": "4",
+    "Angle": "5",
+    "BaseKnockBackSetKnockback": "W: 60",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812aa34696593ccc99c540"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DuckHunt"
+      }
+    ]
   },
   {
-    "hitboxActive": "29-30",
-    "firstActionableFrame": "-",
-    "baseDamage": "9",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "50",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "125",
-    "type": 1,
-    "name": "Fsmash (Hit 3)",
-    "ownerId": 12,
-    "id": 648
+    "InstanceId": "59812aa34696593ccc99c541",
+    "Name": "Fsmash (Hit 3)",
+    "OwnerId": 12,
+    "Owner": "DuckHunt",
+    "HitboxActive": "29-30",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "9",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "50",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "125",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812aa34696593ccc99c541"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DuckHunt"
+      }
+    ]
   },
   {
-    "hitboxActive": "12-13",
-    "firstActionableFrame": "58",
-    "baseDamage": "2",
-    "angle": "140/150",
-    "baseKnockBackSetKnockback": "W: 72/60",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "110/100",
-    "type": 1,
-    "name": "Usmash (Hit 1)",
-    "ownerId": 12,
-    "id": 649
+    "InstanceId": "59812aa34696593ccc99c542",
+    "Name": "Usmash (Hit 1)",
+    "OwnerId": 12,
+    "Owner": "DuckHunt",
+    "HitboxActive": "12-13",
+    "FirstActionableFrame": "58",
+    "BaseDamage": "2",
+    "Angle": "140/150",
+    "BaseKnockBackSetKnockback": "W: 72/60",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "110/100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812aa34696593ccc99c542"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DuckHunt"
+      }
+    ]
   },
   {
-    "hitboxActive": "20-21",
-    "firstActionableFrame": "-",
-    "baseDamage": "2.4",
-    "angle": "115",
-    "baseKnockBackSetKnockback": "W: 72",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Usmash (Hit 2)",
-    "ownerId": 12,
-    "id": 650
+    "InstanceId": "59812aa34696593ccc99c543",
+    "Name": "Usmash (Hit 2)",
+    "OwnerId": 12,
+    "Owner": "DuckHunt",
+    "HitboxActive": "20-21",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "2.4",
+    "Angle": "115",
+    "BaseKnockBackSetKnockback": "W: 72",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812aa34696593ccc99c543"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DuckHunt"
+      }
+    ]
   },
   {
-    "hitboxActive": "28-29",
-    "firstActionableFrame": "-",
-    "baseDamage": "10",
-    "angle": "85",
-    "baseKnockBackSetKnockback": "40",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "112",
-    "type": 1,
-    "name": "Usmash (Hit 3)",
-    "ownerId": 12,
-    "id": 651
+    "InstanceId": "59812aa34696593ccc99c544",
+    "Name": "Usmash (Hit 3)",
+    "OwnerId": 12,
+    "Owner": "DuckHunt",
+    "HitboxActive": "28-29",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "10",
+    "Angle": "85",
+    "BaseKnockBackSetKnockback": "40",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "112",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812aa34696593ccc99c544"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DuckHunt"
+      }
+    ]
   },
   {
-    "hitboxActive": "12-13",
-    "firstActionableFrame": "59",
-    "baseDamage": "5",
-    "angle": "165",
-    "baseKnockBackSetKnockback": "W: 115",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "105",
-    "type": 1,
-    "name": "Dsmash (Hit 1)",
-    "ownerId": 12,
-    "id": 652
+    "InstanceId": "59812aa34696593ccc99c545",
+    "Name": "Dsmash (Hit 1)",
+    "OwnerId": 12,
+    "Owner": "DuckHunt",
+    "HitboxActive": "12-13",
+    "FirstActionableFrame": "59",
+    "BaseDamage": "5",
+    "Angle": "165",
+    "BaseKnockBackSetKnockback": "W: 115",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "105",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812aa34696593ccc99c545"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DuckHunt"
+      }
+    ]
   },
   {
-    "hitboxActive": "20-21",
-    "firstActionableFrame": "-",
-    "baseDamage": "5",
-    "angle": "165",
-    "baseKnockBackSetKnockback": "W: 115",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Dsmash (Hit 2)",
-    "ownerId": 12,
-    "id": 653
+    "InstanceId": "59812aa34696593ccc99c546",
+    "Name": "Dsmash (Hit 2)",
+    "OwnerId": 12,
+    "Owner": "DuckHunt",
+    "HitboxActive": "20-21",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "5",
+    "Angle": "165",
+    "BaseKnockBackSetKnockback": "W: 115",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812aa34696593ccc99c546"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DuckHunt"
+      }
+    ]
   },
   {
-    "hitboxActive": "28-29",
-    "firstActionableFrame": "-",
-    "baseDamage": "6",
-    "angle": "150",
-    "baseKnockBackSetKnockback": "32",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "155",
-    "type": 1,
-    "name": "Dsmash (Hit 3)",
-    "ownerId": 12,
-    "id": 654
+    "InstanceId": "59812aa34696593ccc99c547",
+    "Name": "Dsmash (Hit 3)",
+    "OwnerId": 12,
+    "Owner": "DuckHunt",
+    "HitboxActive": "28-29",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "6",
+    "Angle": "150",
+    "BaseKnockBackSetKnockback": "32",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "155",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812aa34696593ccc99c547"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DuckHunt"
+      }
+    ]
   },
   {
-    "hitboxActive": "8-9",
-    "firstActionableFrame": "29",
-    "baseDamage": "",
-    "angle": "",
-    "baseKnockBackSetKnockback": "",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "",
-    "type": 1,
-    "name": "Standing Grab",
-    "ownerId": 12,
-    "id": 656
+    "InstanceId": "59812aa34696593ccc99c548",
+    "Name": "Standing Grab",
+    "OwnerId": 12,
+    "Owner": "DuckHunt",
+    "HitboxActive": "8-9",
+    "FirstActionableFrame": "29",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812aa34696593ccc99c548"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DuckHunt"
+      }
+    ]
   },
   {
-    "hitboxActive": "10-11",
-    "firstActionableFrame": "36",
-    "baseDamage": "",
-    "angle": "",
-    "baseKnockBackSetKnockback": "",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "",
-    "type": 1,
-    "name": "Dash Grab",
-    "ownerId": 12,
-    "id": 657
+    "InstanceId": "59812aa34696593ccc99c549",
+    "Name": "Dash Grab",
+    "OwnerId": 12,
+    "Owner": "DuckHunt",
+    "HitboxActive": "10-11",
+    "FirstActionableFrame": "36",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812aa34696593ccc99c549"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DuckHunt"
+      }
+    ]
   },
   {
-    "hitboxActive": "10-11",
-    "firstActionableFrame": "34",
-    "baseDamage": "",
-    "angle": "",
-    "baseKnockBackSetKnockback": "",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "",
-    "type": 1,
-    "name": "Pivot Grab",
-    "ownerId": 12,
-    "id": 658
+    "InstanceId": "59812aa34696593ccc99c54a",
+    "Name": "Pivot Grab",
+    "OwnerId": 12,
+    "Owner": "DuckHunt",
+    "HitboxActive": "10-11",
+    "FirstActionableFrame": "34",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812aa34696593ccc99c54a"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DuckHunt"
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "8",
-    "angle": "45",
-    "baseKnockBackSetKnockback": "60",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "65",
-    "type": 3,
-    "name": "Fthrow",
-    "ownerId": 12,
-    "id": 660
+    "InstanceId": "59812aa34696593ccc99c54b",
+    "Name": "Spotdodge",
+    "OwnerId": 12,
+    "Owner": "DuckHunt",
+    "HitboxActive": "2-16",
+    "FirstActionableFrame": "25",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812aa34696593ccc99c54b"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DuckHunt"
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "9",
-    "angle": "45",
-    "baseKnockBackSetKnockback": "62",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "50",
-    "type": 3,
-    "name": "Bthrow",
-    "ownerId": 12,
-    "id": 661
+    "InstanceId": "59812aa34696593ccc99c54c",
+    "Name": "Forward Roll",
+    "OwnerId": 12,
+    "Owner": "DuckHunt",
+    "HitboxActive": "4-15",
+    "FirstActionableFrame": "27",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812aa34696593ccc99c54c"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DuckHunt"
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "6",
-    "angle": "88",
-    "baseKnockBackSetKnockback": "70",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "80",
-    "type": 3,
-    "name": "Uthrow",
-    "ownerId": 12,
-    "id": 662
+    "InstanceId": "59812aa34696593ccc99c54d",
+    "Name": "Back Roll",
+    "OwnerId": 12,
+    "Owner": "DuckHunt",
+    "HitboxActive": "4-15",
+    "FirstActionableFrame": "27",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812aa34696593ccc99c54d"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DuckHunt"
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "5",
-    "angle": "80",
-    "baseKnockBackSetKnockback": "70",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "50",
-    "type": 3,
-    "name": "Dthrow",
-    "ownerId": 12,
-    "id": 663
+    "InstanceId": "59812aa34696593ccc99c54e",
+    "Name": "Airdodge",
+    "OwnerId": 12,
+    "Owner": "DuckHunt",
+    "HitboxActive": "2-25",
+    "FirstActionableFrame": "31",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812aa34696593ccc99c54e"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DuckHunt"
+      }
+    ]
   },
   {
-    "hitboxActive": "6-8",
-    "firstActionableFrame": "56",
-    "baseDamage": "11",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "17",
-    "autoCancel": "1-3, 44&gt;",
-    "knockbackGrowth": "100",
-    "type": 0,
-    "name": "Nair",
-    "ownerId": 12,
-    "id": 669
+    "InstanceId": "59812aa34696593ccc99c54f",
+    "Name": "Nair",
+    "OwnerId": 12,
+    "Owner": "DuckHunt",
+    "HitboxActive": "6-8",
+    "FirstActionableFrame": "56",
+    "BaseDamage": "11",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": "17",
+    "AutoCancel": "1-3, 44&gt;",
+    "KnockbackGrowth": "100",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812aa34696593ccc99c54f"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DuckHunt"
+      }
+    ]
   },
   {
-    "hitboxActive": "9-37",
-    "firstActionableFrame": "-",
-    "baseDamage": "5",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "22",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "90",
-    "type": 0,
-    "name": "Nair (Late)",
-    "ownerId": 12,
-    "id": 670
+    "InstanceId": "59812aa34696593ccc99c550",
+    "Name": "Nair (Late)",
+    "OwnerId": 12,
+    "Owner": "DuckHunt",
+    "HitboxActive": "9-37",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "5",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "22",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "90",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812aa34696593ccc99c550"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DuckHunt"
+      }
+    ]
   },
   {
-    "hitboxActive": "7-8",
-    "firstActionableFrame": "46",
-    "baseDamage": "6.5",
-    "angle": "48",
-    "baseKnockBackSetKnockback": "40",
-    "landingLag": "15",
-    "autoCancel": "1-4, 46&gt;",
-    "knockbackGrowth": "80",
-    "type": 0,
-    "name": "Fair (Early)",
-    "ownerId": 12,
-    "id": 671
+    "InstanceId": "59812aa34696593ccc99c551",
+    "Name": "Fair (Early)",
+    "OwnerId": 12,
+    "Owner": "DuckHunt",
+    "HitboxActive": "7-8",
+    "FirstActionableFrame": "46",
+    "BaseDamage": "6.5",
+    "Angle": "48",
+    "BaseKnockBackSetKnockback": "40",
+    "LandingLag": "15",
+    "AutoCancel": "1-4, 46&gt;",
+    "KnockbackGrowth": "80",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812aa34696593ccc99c551"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DuckHunt"
+      }
+    ]
   },
   {
-    "hitboxActive": "9-10",
-    "firstActionableFrame": "-",
-    "baseDamage": "10/6.5",
-    "angle": "48",
-    "baseKnockBackSetKnockback": "30/40",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "80",
-    "type": 0,
-    "name": "Fair",
-    "ownerId": 12,
-    "id": 672
+    "InstanceId": "59812aa34696593ccc99c552",
+    "Name": "Fair",
+    "OwnerId": 12,
+    "Owner": "DuckHunt",
+    "HitboxActive": "9-10",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "10/6.5",
+    "Angle": "48",
+    "BaseKnockBackSetKnockback": "30/40",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "80",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812aa34696593ccc99c552"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DuckHunt"
+      }
+    ]
   },
   {
-    "hitboxActive": "11-12",
-    "firstActionableFrame": "-",
-    "baseDamage": "7.5",
-    "angle": "48",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "80",
-    "type": 0,
-    "name": "Fair (Late)",
-    "ownerId": 12,
-    "id": 673
+    "InstanceId": "59812aa34696593ccc99c553",
+    "Name": "Fair (Late)",
+    "OwnerId": 12,
+    "Owner": "DuckHunt",
+    "HitboxActive": "11-12",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "7.5",
+    "Angle": "48",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "80",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812aa34696593ccc99c553"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DuckHunt"
+      }
+    ]
   },
   {
-    "hitboxActive": "7-8",
-    "firstActionableFrame": "42",
-    "baseDamage": "10/12",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "40/30",
-    "landingLag": "24",
-    "autoCancel": "1-3, 35&gt;",
-    "knockbackGrowth": "90",
-    "type": 0,
-    "name": "Bair",
-    "ownerId": 12,
-    "id": 674
+    "InstanceId": "59812aa34696593ccc99c554",
+    "Name": "Bair",
+    "OwnerId": 12,
+    "Owner": "DuckHunt",
+    "HitboxActive": "7-8",
+    "FirstActionableFrame": "42",
+    "BaseDamage": "10/12",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "40/30",
+    "LandingLag": "24",
+    "AutoCancel": "1-3, 35&gt;",
+    "KnockbackGrowth": "90",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812aa34696593ccc99c554"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DuckHunt"
+      }
+    ]
   },
   {
-    "hitboxActive": "9-10",
-    "firstActionableFrame": "-",
-    "baseDamage": "10.5",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "90",
-    "type": 0,
-    "name": "Bair (Late)",
-    "ownerId": 12,
-    "id": 675
+    "InstanceId": "59812aa34696593ccc99c555",
+    "Name": "Bair (Late)",
+    "OwnerId": 12,
+    "Owner": "DuckHunt",
+    "HitboxActive": "9-10",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "10.5",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "90",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812aa34696593ccc99c555"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DuckHunt"
+      }
+    ]
   },
   {
-    "hitboxActive": "6-7, 12-13",
-    "firstActionableFrame": "40",
-    "baseDamage": "3",
-    "angle": "145",
-    "baseKnockBackSetKnockback": "W: 40 B: 9",
-    "landingLag": "18",
-    "autoCancel": "32&gt;",
-    "knockbackGrowth": "100",
-    "type": 0,
-    "name": "Uair (Hits 1-2)",
-    "ownerId": 12,
-    "id": 676
+    "InstanceId": "59812aa34696593ccc99c556",
+    "Name": "Uair (Hits 1-2)",
+    "OwnerId": 12,
+    "Owner": "DuckHunt",
+    "HitboxActive": "6-7, 12-13",
+    "FirstActionableFrame": "40",
+    "BaseDamage": "3",
+    "Angle": "145",
+    "BaseKnockBackSetKnockback": "W: 40 B: 9",
+    "LandingLag": "18",
+    "AutoCancel": "32&gt;",
+    "KnockbackGrowth": "100",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812aa34696593ccc99c556"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DuckHunt"
+      }
+    ]
   },
   {
-    "hitboxActive": "20-21",
-    "firstActionableFrame": "-",
-    "baseDamage": "6",
-    "angle": "91",
-    "baseKnockBackSetKnockback": "50",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "120",
-    "type": 0,
-    "name": "Uair (Hit 3)",
-    "ownerId": 12,
-    "id": 677
+    "InstanceId": "59812aa34696593ccc99c557",
+    "Name": "Uair (Hit 3)",
+    "OwnerId": 12,
+    "Owner": "DuckHunt",
+    "HitboxActive": "20-21",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "6",
+    "Angle": "91",
+    "BaseKnockBackSetKnockback": "50",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "120",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812aa34696593ccc99c557"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DuckHunt"
+      }
+    ]
   },
   {
-    "hitboxActive": "14",
-    "firstActionableFrame": "60",
-    "baseDamage": "5",
-    "angle": "130/255",
-    "baseKnockBackSetKnockback": "20",
-    "landingLag": "34",
-    "autoCancel": "1-3, 33&gt;",
-    "knockbackGrowth": "20",
-    "type": 0,
-    "name": "Dair (Hit 1)",
-    "ownerId": 12,
-    "id": 678
+    "InstanceId": "59812aa34696593ccc99c558",
+    "Name": "Dair (Hit 1)",
+    "OwnerId": 12,
+    "Owner": "DuckHunt",
+    "HitboxActive": "14",
+    "FirstActionableFrame": "60",
+    "BaseDamage": "5",
+    "Angle": "130/255",
+    "BaseKnockBackSetKnockback": "20",
+    "LandingLag": "34",
+    "AutoCancel": "1-3, 33&gt;",
+    "KnockbackGrowth": "20",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812aa34696593ccc99c558"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DuckHunt"
+      }
+    ]
   },
   {
-    "hitboxActive": "20",
-    "firstActionableFrame": "-",
-    "baseDamage": "10",
-    "angle": "270/70",
-    "baseKnockBackSetKnockback": "10",
-    "landingLag": "-",
-    "autoCancel": "-",
-    "knockbackGrowth": "80/90",
-    "type": 0,
-    "name": "Dair (Hit 2)",
-    "ownerId": 12,
-    "id": 679
+    "InstanceId": "59812aa34696593ccc99c559",
+    "Name": "Dair (Hit 2)",
+    "OwnerId": 12,
+    "Owner": "DuckHunt",
+    "HitboxActive": "20",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "10",
+    "Angle": "270/70",
+    "BaseKnockBackSetKnockback": "10",
+    "LandingLag": "-",
+    "AutoCancel": "-",
+    "KnockbackGrowth": "80/90",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812aa34696593ccc99c559"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DuckHunt"
+      }
+    ]
   },
   {
-    "hitboxActive": "16-",
-    "firstActionableFrame": "46",
-    "baseDamage": "2",
-    "angle": "80",
-    "baseKnockBackSetKnockback": "50",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "40",
-    "type": 2,
-    "name": "Trick Shot",
-    "ownerId": 12,
-    "id": 680
+    "InstanceId": "59812aa34696593ccc99c55a",
+    "Name": "Trick Shot",
+    "OwnerId": 12,
+    "Owner": "DuckHunt",
+    "HitboxActive": "16-",
+    "FirstActionableFrame": "46",
+    "BaseDamage": "2",
+    "Angle": "80",
+    "BaseKnockBackSetKnockback": "50",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "40",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812aa34696593ccc99c55a"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DuckHunt"
+      }
+    ]
   },
   {
-    "hitboxActive": "1-2",
-    "firstActionableFrame": "-",
-    "baseDamage": "1.8",
-    "angle": "60",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 2,
-    "name": "Trick Shot (Reticle Hit)",
-    "ownerId": 12,
-    "id": 681
+    "InstanceId": "59812aa34696593ccc99c55b",
+    "Name": "Trick Shot (Reticle Hit)",
+    "OwnerId": 12,
+    "Owner": "DuckHunt",
+    "HitboxActive": "1-2",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "1.8",
+    "Angle": "60",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812aa34696593ccc99c55b"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DuckHunt"
+      }
+    ]
   },
   {
-    "hitboxActive": "1-2",
-    "firstActionableFrame": "-",
-    "baseDamage": "8",
-    "angle": "80",
-    "baseKnockBackSetKnockback": "40",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "110",
-    "type": 2,
-    "name": "Trick Shot (Explosion)",
-    "ownerId": 12,
-    "id": 682
+    "InstanceId": "59812aa34696593ccc99c55c",
+    "Name": "Trick Shot (Explosion)",
+    "OwnerId": 12,
+    "Owner": "DuckHunt",
+    "HitboxActive": "1-2",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "8",
+    "Angle": "80",
+    "BaseKnockBackSetKnockback": "40",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "110",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812aa34696593ccc99c55c"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DuckHunt"
+      }
+    ]
   },
   {
-    "hitboxActive": "17-",
-    "firstActionableFrame": "66",
-    "baseDamage": "2",
-    "angle": "75",
-    "baseKnockBackSetKnockback": "40",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "70",
-    "type": 2,
-    "name": "Clay Shooting (Pidgeon)",
-    "ownerId": 12,
-    "id": 683
+    "InstanceId": "59812aa34696593ccc99c55d",
+    "Name": "Clay Shooting (Pidgeon)",
+    "OwnerId": 12,
+    "Owner": "DuckHunt",
+    "HitboxActive": "17-",
+    "FirstActionableFrame": "66",
+    "BaseDamage": "2",
+    "Angle": "75",
+    "BaseKnockBackSetKnockback": "40",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "70",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812aa34696593ccc99c55d"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DuckHunt"
+      }
+    ]
   },
   {
-    "hitboxActive": "6, 14, 17",
-    "firstActionableFrame": "-",
-    "baseDamage": "1.8",
-    "angle": "60",
-    "baseKnockBackSetKnockback": "10",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "10",
-    "type": 2,
-    "name": "Clay Shooting (Reticle Hits 1-3)",
-    "ownerId": 12,
-    "id": 684
+    "InstanceId": "59812aa34696593ccc99c55e",
+    "Name": "Clay Shooting (Reticle Hits 1-3)",
+    "OwnerId": 12,
+    "Owner": "DuckHunt",
+    "HitboxActive": "6, 14, 17",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "1.8",
+    "Angle": "60",
+    "BaseKnockBackSetKnockback": "10",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "10",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812aa34696593ccc99c55e"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DuckHunt"
+      }
+    ]
   },
   {
-    "hitboxActive": "18",
-    "firstActionableFrame": "-",
-    "baseDamage": "5",
-    "angle": "60",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 2,
-    "name": "Clay Shooting (Reticle Hit 4)",
-    "ownerId": 12,
-    "id": 685
+    "InstanceId": "59812aa34696593ccc99c55f",
+    "Name": "Clay Shooting (Reticle Hit 4)",
+    "OwnerId": 12,
+    "Owner": "DuckHunt",
+    "HitboxActive": "18",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "5",
+    "Angle": "60",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812aa34696593ccc99c55f"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DuckHunt"
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "-",
-    "angle": "-",
-    "baseKnockBackSetKnockback": "-",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "-",
-    "type": 2,
-    "name": "Duck Jump",
-    "ownerId": 12,
-    "id": 686
+    "InstanceId": "59812aa34696593ccc99c560",
+    "Name": "Duck Jump",
+    "OwnerId": 12,
+    "Owner": "DuckHunt",
+    "HitboxActive": "-",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "-",
+    "Angle": "-",
+    "BaseKnockBackSetKnockback": "-",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "-",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812aa34696593ccc99c560"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DuckHunt"
+      }
+    ]
   },
   {
-    "hitboxActive": "Gunman Generated: 6, 5% HP",
-    "firstActionableFrame": "45",
-    "baseDamage": "-",
-    "angle": "-",
-    "baseKnockBackSetKnockback": "-",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "-",
-    "type": 2,
-    "name": "Wild Gunman",
-    "ownerId": 12,
-    "id": 687
+    "InstanceId": "59812aa34696593ccc99c561",
+    "Name": "Wild Gunman",
+    "OwnerId": 12,
+    "Owner": "DuckHunt",
+    "HitboxActive": "Gunman Generated: 6, 5% HP",
+    "FirstActionableFrame": "45",
+    "BaseDamage": "-",
+    "Angle": "-",
+    "BaseKnockBackSetKnockback": "-",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "-",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812aa34696593ccc99c561"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DuckHunt"
+      }
+    ]
   },
   {
-    "hitboxActive": "71",
-    "firstActionableFrame": "-",
-    "baseDamage": "7",
-    "angle": "70",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "105",
-    "type": 2,
-    "name": "Wild Gunman (Sombrero)",
-    "ownerId": 12,
-    "id": 688
+    "InstanceId": "59812aa34696593ccc99c562",
+    "Name": "Wild Gunman (Sombrero)",
+    "OwnerId": 12,
+    "Owner": "DuckHunt",
+    "HitboxActive": "71",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "7",
+    "Angle": "70",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "105",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812aa34696593ccc99c562"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DuckHunt"
+      }
+    ]
   },
   {
-    "hitboxActive": "53",
-    "firstActionableFrame": "-",
-    "baseDamage": "6",
-    "angle": "65",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "105",
-    "type": 2,
-    "name": "Wild Gunman (Brown Coat & Hat)",
-    "ownerId": 12,
-    "id": 689
+    "InstanceId": "59812aa34696593ccc99c563",
+    "Name": "Wild Gunman (Brown Coat & Hat)",
+    "OwnerId": 12,
+    "Owner": "DuckHunt",
+    "HitboxActive": "53",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "6",
+    "Angle": "65",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "105",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812aa34696593ccc99c563"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DuckHunt"
+      }
+    ]
   },
   {
-    "hitboxActive": "65",
-    "firstActionableFrame": "-",
-    "baseDamage": "5",
-    "angle": "50",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "105",
-    "type": 2,
-    "name": "Wild Gunman (Black Coat & Hat)",
-    "ownerId": 12,
-    "id": 690
+    "InstanceId": "59812aa34696593ccc99c564",
+    "Name": "Wild Gunman (Black Coat & Hat)",
+    "OwnerId": 12,
+    "Owner": "DuckHunt",
+    "HitboxActive": "65",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "5",
+    "Angle": "50",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "105",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812aa34696593ccc99c564"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DuckHunt"
+      }
+    ]
   },
   {
-    "hitboxActive": "89",
-    "firstActionableFrame": "-",
-    "baseDamage": "4",
-    "angle": "65",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "112",
-    "type": 2,
-    "name": "Wild Gunman (White Shirt & Brown Hat)",
-    "ownerId": 12,
-    "id": 691
+    "InstanceId": "59812aa34696593ccc99c565",
+    "Name": "Wild Gunman (White Shirt & Brown Hat)",
+    "OwnerId": 12,
+    "Owner": "DuckHunt",
+    "HitboxActive": "89",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "4",
+    "Angle": "65",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "112",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812aa34696593ccc99c565"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DuckHunt"
+      }
+    ]
   },
   {
-    "hitboxActive": "77",
-    "firstActionableFrame": "-",
-    "baseDamage": "4",
-    "angle": "50",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "105",
-    "type": 2,
-    "name": "Wild Gunman (Black Vest & Brown Hat)",
-    "ownerId": 12,
-    "id": 692
+    "InstanceId": "59812aa34696593ccc99c566",
+    "Name": "Wild Gunman (Black Vest & Brown Hat)",
+    "OwnerId": 12,
+    "Owner": "DuckHunt",
+    "HitboxActive": "77",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "4",
+    "Angle": "50",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "105",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812aa34696593ccc99c566"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DuckHunt"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812aa34696593ccc99c567",
+    "Name": "Fthrow",
+    "OwnerId": 12,
+    "Owner": "DuckHunt",
+    "HitboxActive": null,
+    "FirstActionableFrame": null,
+    "BaseDamage": "8",
+    "Angle": "45",
+    "BaseKnockBackSetKnockback": "60",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "65",
+    "MoveType": "throw",
+    "IsWeightDependent": true,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812aa34696593ccc99c567"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DuckHunt"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812aa34696593ccc99c568",
+    "Name": "Bthrow",
+    "OwnerId": 12,
+    "Owner": "DuckHunt",
+    "HitboxActive": null,
+    "FirstActionableFrame": null,
+    "BaseDamage": "9",
+    "Angle": "45",
+    "BaseKnockBackSetKnockback": "62",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "50",
+    "MoveType": "throw",
+    "IsWeightDependent": true,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812aa34696593ccc99c568"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DuckHunt"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812aa34696593ccc99c569",
+    "Name": "Uthrow",
+    "OwnerId": 12,
+    "Owner": "DuckHunt",
+    "HitboxActive": null,
+    "FirstActionableFrame": null,
+    "BaseDamage": "6",
+    "Angle": "88",
+    "BaseKnockBackSetKnockback": "70",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "80",
+    "MoveType": "throw",
+    "IsWeightDependent": true,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812aa34696593ccc99c569"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DuckHunt"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812aa34696593ccc99c56a",
+    "Name": "Dthrow",
+    "OwnerId": 12,
+    "Owner": "DuckHunt",
+    "HitboxActive": null,
+    "FirstActionableFrame": null,
+    "BaseDamage": "5",
+    "Angle": "80",
+    "BaseKnockBackSetKnockback": "70",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "50",
+    "MoveType": "throw",
+    "IsWeightDependent": true,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812aa34696593ccc99c56a"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DuckHunt"
+      }
+    ]
   }
 ]

@@ -12,6 +12,7 @@ import android.widget.ListView;
 import com.rubendal.kuroganehammercom.MainActivity;
 import com.rubendal.kuroganehammercom.R;
 import com.rubendal.kuroganehammercom.adapter.CharacterOptionsAdapter;
+//import com.rubendal.kuroganehammercom.asynctask.character.AttributeAsyncTask;
 import com.rubendal.kuroganehammercom.asynctask.character.AttributeAsyncTask;
 import com.rubendal.kuroganehammercom.asynctask.character.CharacterDataAsyncTask;
 import com.rubendal.kuroganehammercom.asynctask.character.MoveAsyncTask;
@@ -87,7 +88,7 @@ public class CharacterFragment extends KHFragment {
         list = new LinkedList<>();
         list.add(new CharacterOption("All data"));
         list.add(new CharacterOption("Attributes"));
-        list.add(new CharacterOption("Attribute ranking"));
+        list.add(new CharacterOption("Detailed attributes"));
         list.add(new CharacterOption("All Moves"));
         list.add(new CharacterOption("Ground Moves"));
         list.add(new CharacterOption("Throws"));
@@ -130,7 +131,7 @@ public class CharacterFragment extends KHFragment {
                         MovementAsyncTask at = new MovementAsyncTask(ref, character);
                         at.execute();
                         break;
-                    case "Attribute ranking":
+                    case "Detailed attributes":
                         AttributeAsyncTask a = new AttributeAsyncTask(ref, character);
                         a.execute();
                         break;

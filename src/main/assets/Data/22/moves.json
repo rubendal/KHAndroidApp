@@ -1,702 +1,1432 @@
 ﻿[
   {
-    "hitboxActive": "1",
-    "firstActionableFrame": "22",
-    "baseDamage": "2",
-    "angle": "85",
-    "baseKnockBackSetKnockback": "10",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "80",
-    "type": 1,
-    "name": "Jab 1",
-    "ownerId": 22,
-    "id": 1175
+    "InstanceId": "59812abe4696593ccc99c8b1",
+    "Name": "Jab 1",
+    "OwnerId": 22,
+    "Owner": "LittleMac",
+    "HitboxActive": "1",
+    "FirstActionableFrame": "22",
+    "BaseDamage": "2",
+    "Angle": "85",
+    "BaseKnockBackSetKnockback": "10",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "80",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812abe4696593ccc99c8b1"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/LittleMac"
+      }
+    ]
   },
   {
-    "hitboxActive": "1-2",
-    "firstActionableFrame": "22",
-    "baseDamage": "2",
-    "angle": "80",
-    "baseKnockBackSetKnockback": "10",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "80",
-    "type": 1,
-    "name": "Jab 2",
-    "ownerId": 22,
-    "id": 1176
+    "InstanceId": "59812abe4696593ccc99c8b2",
+    "Name": "Jab 2",
+    "OwnerId": 22,
+    "Owner": "LittleMac",
+    "HitboxActive": "1-2",
+    "FirstActionableFrame": "22",
+    "BaseDamage": "2",
+    "Angle": "80",
+    "BaseKnockBackSetKnockback": "10",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "80",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812abe4696593ccc99c8b2"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/LittleMac"
+      }
+    ]
   },
   {
-    "hitboxActive": "4",
-    "firstActionableFrame": "32",
-    "baseDamage": "7",
-    "angle": "60",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Jab 3",
-    "ownerId": 22,
-    "id": 1177
+    "InstanceId": "59812abe4696593ccc99c8b3",
+    "Name": "Jab 3",
+    "OwnerId": 22,
+    "Owner": "LittleMac",
+    "HitboxActive": "4",
+    "FirstActionableFrame": "32",
+    "BaseDamage": "7",
+    "Angle": "60",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812abe4696593ccc99c8b3"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/LittleMac"
+      }
+    ]
   },
   {
-    "hitboxActive": "",
-    "firstActionableFrame": "",
-    "baseDamage": "",
-    "angle": "",
-    "baseKnockBackSetKnockback": "",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "",
-    "type": 1,
-    "name": "Rapid Jab",
-    "ownerId": 22,
-    "id": 1178
+    "InstanceId": "59812abe4696593ccc99c8b4",
+    "Name": "Rapid Jab",
+    "OwnerId": 22,
+    "Owner": "LittleMac",
+    "HitboxActive": "",
+    "FirstActionableFrame": "",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812abe4696593ccc99c8b4"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/LittleMac"
+      }
+    ]
   },
   {
-    "hitboxActive": "5",
-    "firstActionableFrame": "35",
-    "baseDamage": "3",
-    "angle": "75",
-    "baseKnockBackSetKnockback": "90",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "123",
-    "type": 1,
-    "name": "Rapid Jab Finisher",
-    "ownerId": 22,
-    "id": 1179
+    "InstanceId": "59812abe4696593ccc99c8b5",
+    "Name": "Rapid Jab Finisher",
+    "OwnerId": 22,
+    "Owner": "LittleMac",
+    "HitboxActive": "5",
+    "FirstActionableFrame": "35",
+    "BaseDamage": "3",
+    "Angle": "75",
+    "BaseKnockBackSetKnockback": "90",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "123",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812abe4696593ccc99c8b5"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/LittleMac"
+      }
+    ]
   },
   {
-    "hitboxActive": "1-4",
-    "firstActionableFrame": "34",
-    "baseDamage": "0",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "W: 20",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Dash Attack (Windbox)",
-    "ownerId": 22,
-    "id": 1180
+    "InstanceId": "59812abe4696593ccc99c8b6",
+    "Name": "Dash Attack (Windbox)",
+    "OwnerId": 22,
+    "Owner": "LittleMac",
+    "HitboxActive": "1-4",
+    "FirstActionableFrame": "34",
+    "BaseDamage": "0",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "W: 20",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812abe4696593ccc99c8b6"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/LittleMac"
+      }
+    ]
   },
   {
-    "hitboxActive": "7-9",
-    "firstActionableFrame": "-",
-    "baseDamage": "10",
-    "angle": "50/60/70",
-    "baseKnockBackSetKnockback": "80",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "70",
-    "type": 1,
-    "name": "Dash Attack",
-    "ownerId": 22,
-    "id": 1181
+    "InstanceId": "59812abe4696593ccc99c8b7",
+    "Name": "Dash Attack",
+    "OwnerId": 22,
+    "Owner": "LittleMac",
+    "HitboxActive": "7-9",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "10",
+    "Angle": "50/60/70",
+    "BaseKnockBackSetKnockback": "80",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "70",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812abe4696593ccc99c8b7"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/LittleMac"
+      }
+    ]
   },
   {
-    "hitboxActive": "4-5 (Cannot Rebound)",
-    "firstActionableFrame": "38",
-    "baseDamage": "4",
-    "angle": "60/28/28",
-    "baseKnockBackSetKnockback": "W: 50/60/80",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Ftilt (Hit 1)",
-    "ownerId": 22,
-    "id": 1182
+    "InstanceId": "59812abe4696593ccc99c8b8",
+    "Name": "Ftilt (Hit 1)",
+    "OwnerId": 22,
+    "Owner": "LittleMac",
+    "HitboxActive": "4-5 (Cannot Rebound)",
+    "FirstActionableFrame": "38",
+    "BaseDamage": "4",
+    "Angle": "60/28/28",
+    "BaseKnockBackSetKnockback": "W: 50/60/80",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812abe4696593ccc99c8b8"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/LittleMac"
+      }
+    ]
   },
   {
-    "hitboxActive": "12-13 (Cannot Rebound)",
-    "firstActionableFrame": "-",
-    "baseDamage": "8",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "40",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "130",
-    "type": 1,
-    "name": "Ftilt (Hit 2)",
-    "ownerId": 22,
-    "id": 1183
+    "InstanceId": "59812abe4696593ccc99c8b9",
+    "Name": "Ftilt (Hit 2)",
+    "OwnerId": 22,
+    "Owner": "LittleMac",
+    "HitboxActive": "12-13 (Cannot Rebound)",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "8",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "40",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "130",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812abe4696593ccc99c8b9"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/LittleMac"
+      }
+    ]
   },
   {
-    "hitboxActive": "4-10 (Cannot Rebound)",
-    "firstActionableFrame": "30",
-    "baseDamage": "9",
-    "angle": "88",
-    "baseKnockBackSetKnockback": "50",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "80",
-    "type": 1,
-    "name": "Utilt",
-    "ownerId": 22,
-    "id": 1184
+    "InstanceId": "59812abe4696593ccc99c8ba",
+    "Name": "Utilt",
+    "OwnerId": 22,
+    "Owner": "LittleMac",
+    "HitboxActive": "4-10 (Cannot Rebound)",
+    "FirstActionableFrame": "30",
+    "BaseDamage": "9",
+    "Angle": "88",
+    "BaseKnockBackSetKnockback": "50",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "80",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812abe4696593ccc99c8ba"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/LittleMac"
+      }
+    ]
   },
   {
-    "hitboxActive": "3-4",
-    "firstActionableFrame": "22",
-    "baseDamage": "8",
-    "angle": "80",
-    "baseKnockBackSetKnockback": "50",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "50",
-    "type": 1,
-    "name": "Dtilt",
-    "ownerId": 22,
-    "id": 1185
+    "InstanceId": "59812abe4696593ccc99c8bb",
+    "Name": "Dtilt",
+    "OwnerId": 22,
+    "Owner": "LittleMac",
+    "HitboxActive": "3-4",
+    "FirstActionableFrame": "22",
+    "BaseDamage": "8",
+    "Angle": "80",
+    "BaseKnockBackSetKnockback": "50",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "50",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812abe4696593ccc99c8bb"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/LittleMac"
+      }
+    ]
   },
   {
-    "hitboxActive": "6-12",
-    "firstActionableFrame": "44",
-    "baseDamage": "0",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "24",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 1,
-    "name": "Fsmash (Windbox, All Angles)",
-    "ownerId": 22,
-    "id": 1186
+    "InstanceId": "59812abe4696593ccc99c8bc",
+    "Name": "Fsmash (Windbox, All Angles)",
+    "OwnerId": 22,
+    "Owner": "LittleMac",
+    "HitboxActive": "6-12",
+    "FirstActionableFrame": "44",
+    "BaseDamage": "0",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "24",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812abe4696593ccc99c8bc"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/LittleMac"
+      }
+    ]
   },
   {
-    "hitboxActive": "14-15 (Super Armor: 8-15)",
-    "firstActionableFrame": "-",
-    "baseDamage": "20/18",
-    "angle": "78/85",
-    "baseKnockBackSetKnockback": "30",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "81",
-    "type": 1,
-    "name": "Fsmash (Angled Up)",
-    "ownerId": 22,
-    "id": 1187
+    "InstanceId": "59812abe4696593ccc99c8bd",
+    "Name": "Fsmash (Angled Up)",
+    "OwnerId": 22,
+    "Owner": "LittleMac",
+    "HitboxActive": "14-15 (Super Armor: 8-15)",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "20/18",
+    "Angle": "78/85",
+    "BaseKnockBackSetKnockback": "30",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "81",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812abe4696593ccc99c8bd"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/LittleMac"
+      }
+    ]
   },
   {
-    "hitboxActive": "14-15 (Super Armor: 8-15)",
-    "firstActionableFrame": "-",
-    "baseDamage": "20/18",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "31",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "91",
-    "type": 1,
-    "name": "Fsmash",
-    "ownerId": 22,
-    "id": 1188
+    "InstanceId": "59812abe4696593ccc99c8be",
+    "Name": "Fsmash",
+    "OwnerId": 22,
+    "Owner": "LittleMac",
+    "HitboxActive": "14-15 (Super Armor: 8-15)",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "20/18",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "31",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "91",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812abe4696593ccc99c8be"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/LittleMac"
+      }
+    ]
   },
   {
-    "hitboxActive": "15 (Super Armor: 9-15)",
-    "firstActionableFrame": "-",
-    "baseDamage": "24",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "50",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "21",
-    "type": 1,
-    "name": "Fsmash (Angled Down)",
-    "ownerId": 22,
-    "id": 1189
+    "InstanceId": "59812abe4696593ccc99c8bf",
+    "Name": "Fsmash (Angled Down)",
+    "OwnerId": 22,
+    "Owner": "LittleMac",
+    "HitboxActive": "15 (Super Armor: 9-15)",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "24",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "50",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "21",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812abe4696593ccc99c8bf"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/LittleMac"
+      }
+    ]
   },
   {
-    "hitboxActive": "10 (Super Armor: 8-11)",
-    "firstActionableFrame": "48",
-    "baseDamage": "21",
-    "angle": "86",
-    "baseKnockBackSetKnockback": "40",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "76",
-    "type": 1,
-    "name": "Usmash",
-    "ownerId": 22,
-    "id": 1190
+    "InstanceId": "59812abe4696593ccc99c8c0",
+    "Name": "Usmash",
+    "OwnerId": 22,
+    "Owner": "LittleMac",
+    "HitboxActive": "10 (Super Armor: 8-11)",
+    "FirstActionableFrame": "48",
+    "BaseDamage": "21",
+    "Angle": "86",
+    "BaseKnockBackSetKnockback": "40",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "76",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812abe4696593ccc99c8c0"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/LittleMac"
+      }
+    ]
   },
   {
-    "hitboxActive": "11-14",
-    "firstActionableFrame": "-",
-    "baseDamage": "16",
-    "angle": "85",
-    "baseKnockBackSetKnockback": "25",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "96",
-    "type": 1,
-    "name": "Usmash (Late)",
-    "ownerId": 22,
-    "id": 1191
+    "InstanceId": "59812abe4696593ccc99c8c1",
+    "Name": "Usmash (Late)",
+    "OwnerId": 22,
+    "Owner": "LittleMac",
+    "HitboxActive": "11-14",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "16",
+    "Angle": "85",
+    "BaseKnockBackSetKnockback": "25",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "96",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812abe4696593ccc99c8c1"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/LittleMac"
+      }
+    ]
   },
   {
-    "hitboxActive": "10-11 (Super Armor: 7-10)",
-    "firstActionableFrame": "43",
-    "baseDamage": "13",
-    "angle": "30",
-    "baseKnockBackSetKnockback": "25",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "94",
-    "type": 1,
-    "name": "Dsmash (Hit 1)",
-    "ownerId": 22,
-    "id": 1192
+    "InstanceId": "59812abe4696593ccc99c8c2",
+    "Name": "Dsmash (Hit 1)",
+    "OwnerId": 22,
+    "Owner": "LittleMac",
+    "HitboxActive": "10-11 (Super Armor: 7-10)",
+    "FirstActionableFrame": "43",
+    "BaseDamage": "13",
+    "Angle": "30",
+    "BaseKnockBackSetKnockback": "25",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "94",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812abe4696593ccc99c8c2"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/LittleMac"
+      }
+    ]
   },
   {
-    "hitboxActive": "17-18 (Super Armor: 15-17)",
-    "firstActionableFrame": "-",
-    "baseDamage": "13",
-    "angle": "30",
-    "baseKnockBackSetKnockback": "25",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "94",
-    "type": 1,
-    "name": "Dsmash (Hit 2)",
-    "ownerId": 22,
-    "id": 1193
+    "InstanceId": "59812abe4696593ccc99c8c3",
+    "Name": "Dsmash (Hit 2)",
+    "OwnerId": 22,
+    "Owner": "LittleMac",
+    "HitboxActive": "17-18 (Super Armor: 15-17)",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "13",
+    "Angle": "30",
+    "BaseKnockBackSetKnockback": "25",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "94",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812abe4696593ccc99c8c3"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/LittleMac"
+      }
+    ]
   },
   {
-    "hitboxActive": "9-10",
-    "firstActionableFrame": "33",
-    "baseDamage": "",
-    "angle": "",
-    "baseKnockBackSetKnockback": "",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "",
-    "type": 1,
-    "name": "Standing Grab",
-    "ownerId": 22,
-    "id": 1195
+    "InstanceId": "59812abe4696593ccc99c8c4",
+    "Name": "Standing Grab",
+    "OwnerId": 22,
+    "Owner": "LittleMac",
+    "HitboxActive": "9-10",
+    "FirstActionableFrame": "33",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812abe4696593ccc99c8c4"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/LittleMac"
+      }
+    ]
   },
   {
-    "hitboxActive": "10-11",
-    "firstActionableFrame": "41",
-    "baseDamage": "",
-    "angle": "",
-    "baseKnockBackSetKnockback": "",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "",
-    "type": 1,
-    "name": "Dash Grab",
-    "ownerId": 22,
-    "id": 1196
+    "InstanceId": "59812abe4696593ccc99c8c5",
+    "Name": "Dash Grab",
+    "OwnerId": 22,
+    "Owner": "LittleMac",
+    "HitboxActive": "10-11",
+    "FirstActionableFrame": "41",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812abe4696593ccc99c8c5"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/LittleMac"
+      }
+    ]
   },
   {
-    "hitboxActive": "11-12",
-    "firstActionableFrame": "34",
-    "baseDamage": "",
-    "angle": "",
-    "baseKnockBackSetKnockback": "",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "",
-    "type": 1,
-    "name": "Pivot Grab",
-    "ownerId": 22,
-    "id": 1197
+    "InstanceId": "59812abe4696593ccc99c8c6",
+    "Name": "Pivot Grab",
+    "OwnerId": 22,
+    "Owner": "LittleMac",
+    "HitboxActive": "11-12",
+    "FirstActionableFrame": "34",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812abe4696593ccc99c8c6"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/LittleMac"
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "4, 4",
-    "angle": "45",
-    "baseKnockBackSetKnockback": "45",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "104",
-    "type": 3,
-    "name": "Fthrow",
-    "ownerId": 22,
-    "id": 1199
+    "InstanceId": "59812abe4696593ccc99c8c7",
+    "Name": "Spotdodge",
+    "OwnerId": 22,
+    "Owner": "LittleMac",
+    "HitboxActive": "2-16",
+    "FirstActionableFrame": "25",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812abe4696593ccc99c8c7"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/LittleMac"
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "4, 5",
-    "angle": "45",
-    "baseKnockBackSetKnockback": "42",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "130",
-    "type": 3,
-    "name": "Bthrow",
-    "ownerId": 22,
-    "id": 1200
+    "InstanceId": "59812abe4696593ccc99c8c8",
+    "Name": "Forward Roll",
+    "OwnerId": 22,
+    "Owner": "LittleMac",
+    "HitboxActive": "4-12",
+    "FirstActionableFrame": "27",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812abe4696593ccc99c8c8"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/LittleMac"
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "4, 3",
-    "angle": "85",
-    "baseKnockBackSetKnockback": "70",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "104",
-    "type": 3,
-    "name": "Uthrow",
-    "ownerId": 22,
-    "id": 1201
+    "InstanceId": "59812abe4696593ccc99c8c9",
+    "Name": "Back Roll",
+    "OwnerId": 22,
+    "Owner": "LittleMac",
+    "HitboxActive": "4-12",
+    "FirstActionableFrame": "27",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812abe4696593ccc99c8c9"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/LittleMac"
+      }
+    ]
   },
   {
-    "hitboxActive": "-",
-    "firstActionableFrame": "-",
-    "baseDamage": "4, 5",
-    "angle": "85",
-    "baseKnockBackSetKnockback": "78",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "40",
-    "type": 3,
-    "name": "Dthrow",
-    "ownerId": 22,
-    "id": 1202
+    "InstanceId": "59812abe4696593ccc99c8ca",
+    "Name": "Airdodge",
+    "OwnerId": 22,
+    "Owner": "LittleMac",
+    "HitboxActive": "2-25",
+    "FirstActionableFrame": "31",
+    "BaseDamage": "",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "ground",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812abe4696593ccc99c8ca"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/LittleMac"
+      }
+    ]
   },
   {
-    "hitboxActive": "2",
-    "firstActionableFrame": "16",
-    "baseDamage": "2",
-    "angle": "366/80/80",
-    "baseKnockBackSetKnockback": "W: 9/B: 5/5",
-    "landingLag": "16",
-    "autoCancel": "25&gt;",
-    "knockbackGrowth": "100",
-    "type": 0,
-    "name": "Nair",
-    "ownerId": 22,
-    "id": 1208
+    "InstanceId": "59812abe4696593ccc99c8cb",
+    "Name": "Nair",
+    "OwnerId": 22,
+    "Owner": "LittleMac",
+    "HitboxActive": "2",
+    "FirstActionableFrame": "16",
+    "BaseDamage": "2",
+    "Angle": "366/80/80",
+    "BaseKnockBackSetKnockback": "W: 9/B: 5/5",
+    "LandingLag": "16",
+    "AutoCancel": "25&gt;",
+    "KnockbackGrowth": "100",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812abe4696593ccc99c8cb"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/LittleMac"
+      }
+    ]
   },
   {
-    "hitboxActive": "10-12",
-    "firstActionableFrame": "37",
-    "baseDamage": "5/4/4",
-    "angle": "30",
-    "baseKnockBackSetKnockback": "25",
-    "landingLag": "22",
-    "autoCancel": "35&gt;",
-    "knockbackGrowth": "100",
-    "type": 0,
-    "name": "Fair",
-    "ownerId": 22,
-    "id": 1209
+    "InstanceId": "59812abe4696593ccc99c8cc",
+    "Name": "Fair",
+    "OwnerId": 22,
+    "Owner": "LittleMac",
+    "HitboxActive": "10-12",
+    "FirstActionableFrame": "37",
+    "BaseDamage": "5/4/4",
+    "Angle": "30",
+    "BaseKnockBackSetKnockback": "25",
+    "LandingLag": "22",
+    "AutoCancel": "35&gt;",
+    "KnockbackGrowth": "100",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812abe4696593ccc99c8cc"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/LittleMac"
+      }
+    ]
   },
   {
-    "hitboxActive": "11-12",
-    "firstActionableFrame": "38",
-    "baseDamage": "6/4/4",
-    "angle": "30",
-    "baseKnockBackSetKnockback": "25",
-    "landingLag": "26",
-    "autoCancel": "36&gt;",
-    "knockbackGrowth": "100",
-    "type": 0,
-    "name": "Bair",
-    "ownerId": 22,
-    "id": 1210
+    "InstanceId": "59812abe4696593ccc99c8cd",
+    "Name": "Bair",
+    "OwnerId": 22,
+    "Owner": "LittleMac",
+    "HitboxActive": "11-12",
+    "FirstActionableFrame": "38",
+    "BaseDamage": "6/4/4",
+    "Angle": "30",
+    "BaseKnockBackSetKnockback": "25",
+    "LandingLag": "26",
+    "AutoCancel": "36&gt;",
+    "KnockbackGrowth": "100",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812abe4696593ccc99c8cd"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/LittleMac"
+      }
+    ]
   },
   {
-    "hitboxActive": "5-8",
-    "firstActionableFrame": "42",
-    "baseDamage": "5/4/4",
-    "angle": "80",
-    "baseKnockBackSetKnockback": "25",
-    "landingLag": "22",
-    "autoCancel": "40&gt;",
-    "knockbackGrowth": "100",
-    "type": 0,
-    "name": "Uair",
-    "ownerId": 22,
-    "id": 1211
+    "InstanceId": "59812abe4696593ccc99c8ce",
+    "Name": "Uair",
+    "OwnerId": 22,
+    "Owner": "LittleMac",
+    "HitboxActive": "5-8",
+    "FirstActionableFrame": "42",
+    "BaseDamage": "5/4/4",
+    "Angle": "80",
+    "BaseKnockBackSetKnockback": "25",
+    "LandingLag": "22",
+    "AutoCancel": "40&gt;",
+    "KnockbackGrowth": "100",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812abe4696593ccc99c8ce"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/LittleMac"
+      }
+    ]
   },
   {
-    "hitboxActive": "7-10",
-    "firstActionableFrame": "28",
-    "baseDamage": "5/4/4",
-    "angle": "361/270/361",
-    "baseKnockBackSetKnockback": "0",
-    "landingLag": "30",
-    "autoCancel": "25&gt;",
-    "knockbackGrowth": "80",
-    "type": 0,
-    "name": "Dair",
-    "ownerId": 22,
-    "id": 1212
+    "InstanceId": "59812abe4696593ccc99c8cf",
+    "Name": "Dair",
+    "OwnerId": 22,
+    "Owner": "LittleMac",
+    "HitboxActive": "7-10",
+    "FirstActionableFrame": "28",
+    "BaseDamage": "5/4/4",
+    "Angle": "361/270/361",
+    "BaseKnockBackSetKnockback": "0",
+    "LandingLag": "30",
+    "AutoCancel": "25&gt;",
+    "KnockbackGrowth": "80",
+    "MoveType": "aerial",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812abe4696593ccc99c8cf"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/LittleMac"
+      }
+    ]
   },
   {
-    "hitboxActive": "9-11 (Super Armor: 8-9)",
-    "firstActionableFrame": "97",
-    "baseDamage": "35",
-    "angle": "80",
-    "baseKnockBackSetKnockback": "25",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 2,
-    "name": "KO Punch",
-    "ownerId": 22,
-    "id": 1213
+    "InstanceId": "59812abe4696593ccc99c8d0",
+    "Name": "KO Punch",
+    "OwnerId": 22,
+    "Owner": "LittleMac",
+    "HitboxActive": "9-11 (Super Armor: 8-9)",
+    "FirstActionableFrame": "97",
+    "BaseDamage": "35",
+    "Angle": "80",
+    "BaseKnockBackSetKnockback": "25",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812abe4696593ccc99c8d0"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/LittleMac"
+      }
+    ]
   },
   {
-    "hitboxActive": "9-12",
-    "firstActionableFrame": "76",
-    "baseDamage": "13",
-    "angle": "80",
-    "baseKnockBackSetKnockback": "40",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "80",
-    "type": 2,
-    "name": "KO Punch (Aerial)",
-    "ownerId": 22,
-    "id": 1214
+    "InstanceId": "59812abe4696593ccc99c8d1",
+    "Name": "KO Punch (Aerial)",
+    "OwnerId": 22,
+    "Owner": "LittleMac",
+    "HitboxActive": "9-12",
+    "FirstActionableFrame": "76",
+    "BaseDamage": "13",
+    "Angle": "80",
+    "BaseKnockBackSetKnockback": "40",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "80",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812abe4696593ccc99c8d1"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/LittleMac"
+      }
+    ]
   },
   {
-    "hitboxActive": "36-37",
-    "firstActionableFrame": "82",
-    "baseDamage": "14",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "50",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "90",
-    "type": 2,
-    "name": "Straight Lunge (No Charge)",
-    "ownerId": 22,
-    "id": 1215
+    "InstanceId": "59812abe4696593ccc99c8d2",
+    "Name": "Straight Lunge",
+    "OwnerId": 22,
+    "Owner": "LittleMac",
+    "HitboxActive": "Damage Based Armor: 1-",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "-",
+    "Angle": "-",
+    "BaseKnockBackSetKnockback": "-",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "-",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812abe4696593ccc99c8d2"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/LittleMac"
+      }
+    ]
   },
   {
-    "hitboxActive": "38-41",
-    "firstActionableFrame": "-",
-    "baseDamage": "12",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "50",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "90",
-    "type": 2,
-    "name": "Straight Lunge (No Charge)",
-    "ownerId": 22,
-    "id": 1216
+    "InstanceId": "59812abe4696593ccc99c8d3",
+    "Name": "Straight Lunge (No Charge)",
+    "OwnerId": 22,
+    "Owner": "LittleMac",
+    "HitboxActive": "36-37",
+    "FirstActionableFrame": "82",
+    "BaseDamage": "14",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "50",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "90",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812abe4696593ccc99c8d3"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/LittleMac"
+      }
+    ]
   },
   {
-    "hitboxActive": "42-49",
-    "firstActionableFrame": "-",
-    "baseDamage": "9",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "50",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "90",
-    "type": 2,
-    "name": "Straight Lunge (No Charge, Late)",
-    "ownerId": 22,
-    "id": 1217
+    "InstanceId": "59812abe4696593ccc99c8d4",
+    "Name": "Straight Lunge (No Charge)",
+    "OwnerId": 22,
+    "Owner": "LittleMac",
+    "HitboxActive": "38-41",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "12",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "50",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "90",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812abe4696593ccc99c8d4"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/LittleMac"
+      }
+    ]
   },
   {
-    "hitboxActive": "123-125",
-    "firstActionableFrame": "232",
-    "baseDamage": "25",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "55",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "86",
-    "type": 2,
-    "name": "Straight Lunge (Full Charge, Early)",
-    "ownerId": 22,
-    "id": 1218
+    "InstanceId": "59812abe4696593ccc99c8d5",
+    "Name": "Straight Lunge (No Charge, Late)",
+    "OwnerId": 22,
+    "Owner": "LittleMac",
+    "HitboxActive": "42-49",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "9",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "50",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "90",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812abe4696593ccc99c8d5"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/LittleMac"
+      }
+    ]
   },
   {
-    "hitboxActive": "126-132",
-    "firstActionableFrame": "-",
-    "baseDamage": "25",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "55",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "86",
-    "type": 2,
-    "name": "Straight Lunge (Full Charge)",
-    "ownerId": 22,
-    "id": 1219
+    "InstanceId": "59812abe4696593ccc99c8d6",
+    "Name": "Straight Lunge (Full Charge, Early)",
+    "OwnerId": 22,
+    "Owner": "LittleMac",
+    "HitboxActive": "123-125",
+    "FirstActionableFrame": "232",
+    "BaseDamage": "25",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "55",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "86",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812abe4696593ccc99c8d6"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/LittleMac"
+      }
+    ]
   },
   {
-    "hitboxActive": "133-157",
-    "firstActionableFrame": "-",
-    "baseDamage": "20",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "55",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "86",
-    "type": 2,
-    "name": "Straight Lunge (Full Charge, Late)",
-    "ownerId": 22,
-    "id": 1220
+    "InstanceId": "59812abe4696593ccc99c8d7",
+    "Name": "Straight Lunge (Full Charge)",
+    "OwnerId": 22,
+    "Owner": "LittleMac",
+    "HitboxActive": "126-132",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "25",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "55",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "86",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812abe4696593ccc99c8d7"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/LittleMac"
+      }
+    ]
   },
   {
-    "hitboxActive": "?",
-    "firstActionableFrame": "?",
-    "baseDamage": "10",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "25",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "95",
-    "type": 2,
-    "name": "Straight Lunge (No Charge, Aerial)",
-    "ownerId": 22,
-    "id": 1221
+    "InstanceId": "59812abe4696593ccc99c8d8",
+    "Name": "Straight Lunge (Full Charge, Late)",
+    "OwnerId": 22,
+    "Owner": "LittleMac",
+    "HitboxActive": "133-157",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "20",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "55",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "86",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812abe4696593ccc99c8d8"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/LittleMac"
+      }
+    ]
   },
   {
-    "hitboxActive": "?",
-    "firstActionableFrame": "?",
-    "baseDamage": "7",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "25",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "95",
-    "type": 2,
-    "name": "Straight Lunge (No Charge, Late, Aerial)",
-    "ownerId": 22,
-    "id": 1222
+    "InstanceId": "59812abe4696593ccc99c8d9",
+    "Name": "Straight Lunge (No Charge, Aerial)",
+    "OwnerId": 22,
+    "Owner": "LittleMac",
+    "HitboxActive": "?",
+    "FirstActionableFrame": "?",
+    "BaseDamage": "10",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "25",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "95",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812abe4696593ccc99c8d9"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/LittleMac"
+      }
+    ]
   },
   {
-    "hitboxActive": "?",
-    "firstActionableFrame": "?",
-    "baseDamage": "15",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "25",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 2,
-    "name": "Straight Lunge (Full Charge, Aerial)",
-    "ownerId": 22,
-    "id": 1223
+    "InstanceId": "59812abe4696593ccc99c8da",
+    "Name": "Straight Lunge (No Charge, Late, Aerial)",
+    "OwnerId": 22,
+    "Owner": "LittleMac",
+    "HitboxActive": "?",
+    "FirstActionableFrame": "?",
+    "BaseDamage": "7",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "25",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "95",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812abe4696593ccc99c8da"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/LittleMac"
+      }
+    ]
   },
   {
-    "hitboxActive": "7-17",
-    "firstActionableFrame": "-",
-    "baseDamage": "0",
-    "angle": "",
-    "baseKnockBackSetKnockback": "",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "",
-    "type": 2,
-    "name": "Jolt Haymaker (Windbox)",
-    "ownerId": 22,
-    "id": 1224
+    "InstanceId": "59812abe4696593ccc99c8db",
+    "Name": "Straight Lunge (Full Charge, Aerial)",
+    "OwnerId": 22,
+    "Owner": "LittleMac",
+    "HitboxActive": "?",
+    "FirstActionableFrame": "?",
+    "BaseDamage": "15",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "25",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812abe4696593ccc99c8db"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/LittleMac"
+      }
+    ]
   },
   {
-    "hitboxActive": "9-15 (Partial Intangibility: 5-8)",
-    "firstActionableFrame": "-",
-    "baseDamage": "14",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "33",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "98",
-    "type": 2,
-    "name": "Jolt Haymaker (Earliest)",
-    "ownerId": 22,
-    "id": 1225
+    "InstanceId": "59812abe4696593ccc99c8dc",
+    "Name": "Jolt Haymaker (Windbox)",
+    "OwnerId": 22,
+    "Owner": "LittleMac",
+    "HitboxActive": "7-17",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "0",
+    "Angle": "",
+    "BaseKnockBackSetKnockback": "",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812abe4696593ccc99c8dc"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/LittleMac"
+      }
+    ]
   },
   {
-    "hitboxActive": "30-36 (Partial Intangibility: 5-14)",
-    "firstActionableFrame": "-",
-    "baseDamage": "14",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "33",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "98",
-    "type": 2,
-    "name": "Jolt Haymaker (Latest)",
-    "ownerId": 22,
-    "id": 1226
+    "InstanceId": "59812abe4696593ccc99c8dd",
+    "Name": "Jolt Haymaker (Earliest)",
+    "OwnerId": 22,
+    "Owner": "LittleMac",
+    "HitboxActive": "9-15 (Partial Intangibility: 5-8)",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "14",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "33",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "98",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812abe4696593ccc99c8dd"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/LittleMac"
+      }
+    ]
   },
   {
-    "hitboxActive": "3 (Intangible: 1-3)",
-    "firstActionableFrame": "-",
-    "baseDamage": "3",
-    "angle": "107/95",
-    "baseKnockBackSetKnockback": "W: 170/160",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "100",
-    "type": 2,
-    "name": "Rising Uppercut (Hit 1)",
-    "ownerId": 22,
-    "id": 1227
+    "InstanceId": "59812abe4696593ccc99c8de",
+    "Name": "Jolt Haymaker (Latest)",
+    "OwnerId": 22,
+    "Owner": "LittleMac",
+    "HitboxActive": "30-36 (Partial Intangibility: 5-14)",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "14",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "33",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "98",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812abe4696593ccc99c8de"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/LittleMac"
+      }
+    ]
   },
   {
-    "hitboxActive": "7-22 (Rehit rate: 4)",
-    "firstActionableFrame": "-",
-    "baseDamage": "1",
-    "angle": "366",
-    "baseKnockBackSetKnockback": "40",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "50",
-    "type": 2,
-    "name": "Rising Uppercut",
-    "ownerId": 22,
-    "id": 1228
+    "InstanceId": "59812abe4696593ccc99c8df",
+    "Name": "Rising Uppercut (Hit 1)",
+    "OwnerId": 22,
+    "Owner": "LittleMac",
+    "HitboxActive": "3 (Intangible: 1-3)",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "3",
+    "Angle": "107/95",
+    "BaseKnockBackSetKnockback": "W: 170/160",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "100",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812abe4696593ccc99c8df"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/LittleMac"
+      }
+    ]
   },
   {
-    "hitboxActive": "27",
-    "firstActionableFrame": "-",
-    "baseDamage": "3",
-    "angle": "80",
-    "baseKnockBackSetKnockback": "45",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "190",
-    "type": 2,
-    "name": "Rising Uppercut (Final Hit)",
-    "ownerId": 22,
-    "id": 1229
+    "InstanceId": "59812abe4696593ccc99c8e0",
+    "Name": "Rising Uppercut",
+    "OwnerId": 22,
+    "Owner": "LittleMac",
+    "HitboxActive": "7-22 (Rehit rate: 4)",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "1",
+    "Angle": "366",
+    "BaseKnockBackSetKnockback": "40",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "50",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812abe4696593ccc99c8e0"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/LittleMac"
+      }
+    ]
   },
   {
-    "hitboxActive": "Counters: 5-29 (Intangible: 5-6)",
-    "firstActionableFrame": "63",
-    "baseDamage": "-",
-    "angle": "-",
-    "baseKnockBackSetKnockback": "-",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "-",
-    "type": 2,
-    "name": "Slip Counter",
-    "ownerId": 22,
-    "id": 1230
+    "InstanceId": "59812abe4696593ccc99c8e1",
+    "Name": "Rising Uppercut (Final Hit)",
+    "OwnerId": 22,
+    "Owner": "LittleMac",
+    "HitboxActive": "27",
+    "FirstActionableFrame": "-",
+    "BaseDamage": "3",
+    "Angle": "80",
+    "BaseKnockBackSetKnockback": "45",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "190",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812abe4696593ccc99c8e1"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/LittleMac"
+      }
+    ]
   },
   {
-    "hitboxActive": "16-21 (Intangible: 1-18)",
-    "firstActionableFrame": "62",
-    "baseDamage": "10 (1.3&#215;)",
-    "angle": "361",
-    "baseKnockBackSetKnockback": "90",
-    "landingLag": "",
-    "autoCancel": "",
-    "knockbackGrowth": "50",
-    "type": 2,
-    "name": "Slip Counter (Attack)",
-    "ownerId": 22,
-    "id": 1231
+    "InstanceId": "59812abe4696593ccc99c8e2",
+    "Name": "Slip Counter",
+    "OwnerId": 22,
+    "Owner": "LittleMac",
+    "HitboxActive": "Counters: 5-29 (Intangible: 5-6)",
+    "FirstActionableFrame": "63",
+    "BaseDamage": "-",
+    "Angle": "-",
+    "BaseKnockBackSetKnockback": "-",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "-",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812abe4696593ccc99c8e2"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/LittleMac"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812abe4696593ccc99c8e3",
+    "Name": "Slip Counter (Attack)",
+    "OwnerId": 22,
+    "Owner": "LittleMac",
+    "HitboxActive": "16-21 (Intangible: 1-18)",
+    "FirstActionableFrame": "62",
+    "BaseDamage": "10 (1.3&#215;)",
+    "Angle": "361",
+    "BaseKnockBackSetKnockback": "90",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "50",
+    "MoveType": "special",
+    "IsWeightDependent": false,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812abe4696593ccc99c8e3"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/LittleMac"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812abe4696593ccc99c8e4",
+    "Name": "Fthrow",
+    "OwnerId": 22,
+    "Owner": "LittleMac",
+    "HitboxActive": null,
+    "FirstActionableFrame": null,
+    "BaseDamage": "4, 4",
+    "Angle": "45",
+    "BaseKnockBackSetKnockback": "45",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "104",
+    "MoveType": "throw",
+    "IsWeightDependent": true,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812abe4696593ccc99c8e4"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/LittleMac"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812abe4696593ccc99c8e5",
+    "Name": "Bthrow",
+    "OwnerId": 22,
+    "Owner": "LittleMac",
+    "HitboxActive": null,
+    "FirstActionableFrame": null,
+    "BaseDamage": "4, 5",
+    "Angle": "45",
+    "BaseKnockBackSetKnockback": "42",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "130",
+    "MoveType": "throw",
+    "IsWeightDependent": true,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812abe4696593ccc99c8e5"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/LittleMac"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812abe4696593ccc99c8e6",
+    "Name": "Uthrow",
+    "OwnerId": 22,
+    "Owner": "LittleMac",
+    "HitboxActive": null,
+    "FirstActionableFrame": null,
+    "BaseDamage": "4, 3",
+    "Angle": "85",
+    "BaseKnockBackSetKnockback": "70",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "104",
+    "MoveType": "throw",
+    "IsWeightDependent": true,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812abe4696593ccc99c8e6"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/LittleMac"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812abe4696593ccc99c8e7",
+    "Name": "Dthrow",
+    "OwnerId": 22,
+    "Owner": "LittleMac",
+    "HitboxActive": null,
+    "FirstActionableFrame": null,
+    "BaseDamage": "4, 5",
+    "Angle": "85",
+    "BaseKnockBackSetKnockback": "78",
+    "LandingLag": null,
+    "AutoCancel": null,
+    "KnockbackGrowth": "40",
+    "MoveType": "throw",
+    "IsWeightDependent": true,
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/moves/59812abe4696593ccc99c8e7"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/LittleMac"
+      }
+    ]
   }
 ]

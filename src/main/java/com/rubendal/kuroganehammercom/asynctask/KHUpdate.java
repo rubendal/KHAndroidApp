@@ -4,6 +4,7 @@ import android.app.ProgressDialog;
 import android.os.AsyncTask;
 import android.widget.Toast;
 
+import com.rubendal.kuroganehammercom.classes.AttributeName;
 import com.rubendal.kuroganehammercom.fragments.KHFragment;
 import com.rubendal.kuroganehammercom.util.Storage;
 import com.rubendal.kuroganehammercom.classes.Character;
@@ -20,6 +21,8 @@ public class KHUpdate extends AsyncTask<String, String, Boolean> {
     private KHFragment context;
     private ProgressDialog dialog;
     private String title;
+
+    private static String HOST = "http://beta-api-kuroganehammer.azurewebsites.net";
 
     public KHUpdate(KHFragment context, String title){
         this.context = context;
@@ -78,23 +81,18 @@ public class KHUpdate extends AsyncTask<String, String, Boolean> {
     protected Boolean doInBackground(String... params) {
         //Get all data needed from the API
         try {
-            String characters = sendRequest("http://api.kuroganehammer.com/api/Characters");
-            String smashAttributes = sendRequest("http://api.kuroganehammer.com/api/smashattributetypes");
-            String all_attributes = sendRequest("http://api.kuroganehammer.com/api/characterattributes");
+            String characters = sendRequest(HOST + "/api/Characters");
+            String attributeNames = sendRequest(HOST +"/api/characterattributes/types");
 
             if(characters.isEmpty()){
                 return false;
             }
-            if(smashAttributes.isEmpty()){
-                return false;
-            }
-            if(all_attributes.isEmpty()){
+            if(attributeNames.isEmpty()){
                 return false;
             }
 
             Storage.write("data","characters.json",context.getActivity(),characters);
-            Storage.write("data","smashAttributes.json",context.getActivity(),smashAttributes);
-            Storage.write("data","attributes.json", context.getActivity(), all_attributes);
+            Storage.write("data","attributeNames.json", context.getActivity(), attributeNames);
 
             LinkedList<Character> list = new LinkedList<>();
             JSONArray jsonArray = new JSONArray(characters);
@@ -103,27 +101,39 @@ public class KHUpdate extends AsyncTask<String, String, Boolean> {
             }
 
             for(Character c : list){
-                String moves = sendRequest("http://api.kuroganehammer.com/api/Characters/" + c.id + "/moves");
-                String t = sendRequest("http://api.kuroganehammer.com/api/Characters/" + c.id + "/throws");
-                String smashattributes = sendRequest("http://api.kuroganehammer.com/api/Characters/" + c.id + "/characterattributes");
-                String attributes = sendRequest("http://api.kuroganehammer.com/api/Characters/" + c.id + "/movements");
+                String moves = sendRequest(HOST +"/api/Characters/" + c.id + "/moves");
+                String attributes = sendRequest(HOST +"/api/Characters/" + c.id + "/characterattributes");
+                String movements = sendRequest(HOST +"/api/Characters/" + c.id + "/movements");
                 if(moves.isEmpty()){
-                    return false;
-                }
-                if(t.isEmpty()){
                     return false;
                 }
                 if(attributes.isEmpty()){
                     return false;
                 }
-                if(smashAttributes.isEmpty()){
+                if(movements.isEmpty()){
                     return false;
                 }
+
                 Storage.write(String.valueOf(c.id),"moves.json",context.getActivity(),moves);
-                Storage.write(String.valueOf(c.id),"throws.json",context.getActivity(),t);
-                Storage.write(String.valueOf(c.id),"smashAttributes.json",context.getActivity(),smashattributes);
                 Storage.write(String.valueOf(c.id),"attributes.json",context.getActivity(),attributes);
+                Storage.write(String.valueOf(c.id),"movements.json",context.getActivity(),movements);
             }
+
+            LinkedList<AttributeName> attrNames = new LinkedList<>();
+            jsonArray = new JSONArray(attributeNames);
+            for(int i=0;i<jsonArray.length();i++){
+                attrNames.add(AttributeName.getFromJson(jsonArray.getJSONObject(i)));
+            }
+
+            for(AttributeName a : attrNames){
+                String attrData = sendRequest(HOST + "/api/characterattributes/name/" + a.name);
+
+                if(attrData.isEmpty())
+                    return false;
+
+                Storage.write(a.name.toLowerCase(),"attributes.json", context.getActivity(), attrData);
+            }
+
             return true;
         }catch(Exception e){
 

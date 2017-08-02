@@ -1,110 +1,488 @@
 ﻿[
   {
-    "name": "Weight",
-    "ownerId": 42,
-    "id": 739,
-    "value": "96"
+    "InstanceId": "59812af44696593ccc99d00f",
+    "Name": "AerialJump",
+    "OwnerId": 42,
+    "Owner": "Pit",
+    "Values": [
+      {
+        "Value": "31",
+        "Owner": "Pit",
+        "OwnerId": 42,
+        "Name": "HEIGHT"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812af44696593ccc99d00f"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Pit"
+      }
+    ]
   },
   {
-    "name": "Max Jumps",
-    "ownerId": 42,
-    "id": 740,
-    "value": "4"
+    "InstanceId": "59812af44696593ccc99d010",
+    "Name": "AirAcceleration",
+    "OwnerId": 42,
+    "Owner": "Pit",
+    "Values": [
+      {
+        "Value": "0.065",
+        "Owner": "Pit",
+        "OwnerId": 42,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812af44696593ccc99d010"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Pit"
+      }
+    ]
   },
   {
-    "name": "Run Speed",
-    "ownerId": 42,
-    "id": 741,
-    "value": "1.66215"
+    "InstanceId": "59812af44696593ccc99d011",
+    "Name": "AirDeceleration",
+    "OwnerId": 42,
+    "Owner": "Pit",
+    "Values": [
+      {
+        "Value": "0.01",
+        "Owner": "Pit",
+        "OwnerId": 42,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812af44696593ccc99d011"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Pit"
+      }
+    ]
   },
   {
-    "name": "Wall Jump",
-    "ownerId": 42,
-    "id": 742,
-    "value": "No"
+    "InstanceId": "59812af44696593ccc99d012",
+    "Name": "AirFriction",
+    "OwnerId": 42,
+    "Owner": "Pit",
+    "Values": [
+      {
+        "Value": "0.008",
+        "Owner": "Pit",
+        "OwnerId": 42,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812af44696593ccc99d012"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Pit"
+      }
+    ]
   },
   {
-    "name": "Walk Speed",
-    "ownerId": 42,
-    "id": 743,
-    "value": "1.199"
+    "InstanceId": "59812af44696593ccc99d013",
+    "Name": "DashLength",
+    "OwnerId": 42,
+    "Owner": "Pit",
+    "Values": [
+      {
+        "Value": "13",
+        "Owner": "Pit",
+        "OwnerId": 42,
+        "Name": "LENGTH IN FRAMES"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812af44696593ccc99d013"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Pit"
+      }
+    ]
   },
   {
-    "name": "Wall Cling",
-    "ownerId": 42,
-    "id": 744,
-    "value": "No"
+    "InstanceId": "59812af44696593ccc99d014",
+    "Name": "FallSpeed",
+    "OwnerId": 42,
+    "Owner": "Pit",
+    "Values": [
+      {
+        "Value": "1.48",
+        "Owner": "Pit",
+        "OwnerId": 42,
+        "Name": "MAX FALL SPEED"
+      },
+      {
+        "Value": "2.368",
+        "Owner": "Pit",
+        "OwnerId": 42,
+        "Name": "FAST FALL SPEED"
+      },
+      {
+        "Value": "60%",
+        "Owner": "Pit",
+        "OwnerId": 42,
+        "Name": "SPEED INCREASE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812af44696593ccc99d014"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Pit"
+      }
+    ]
   },
   {
-    "name": "Air Speed",
-    "ownerId": 42,
-    "id": 745,
-    "value": "0.89"
+    "InstanceId": "59812af44696593ccc99d015",
+    "Name": "FullHop",
+    "OwnerId": 42,
+    "Owner": "Pit",
+    "Values": [
+      {
+        "Value": "31",
+        "Owner": "Pit",
+        "OwnerId": 42,
+        "Name": "HEIGHT"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812af44696593ccc99d015"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Pit"
+      }
+    ]
   },
   {
-    "name": "Crawl",
-    "ownerId": 42,
-    "id": 746,
-    "value": "No"
+    "InstanceId": "59812af44696593ccc99d016",
+    "Name": "Gravity",
+    "OwnerId": 42,
+    "Owner": "Pit",
+    "Values": [
+      {
+        "Value": "0.081",
+        "Owner": "Pit",
+        "OwnerId": 42,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812af44696593ccc99d016"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Pit"
+      }
+    ]
   },
   {
-    "name": "Fall Speed",
-    "ownerId": 42,
-    "id": 747,
-    "value": "1.48"
+    "InstanceId": "59812af44696593ccc99d017",
+    "Name": "JumpSquat",
+    "OwnerId": 42,
+    "Owner": "Pit",
+    "Values": [
+      {
+        "Value": "5",
+        "Owner": "Pit",
+        "OwnerId": 42,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812af44696593ccc99d017"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Pit"
+      }
+    ]
   },
   {
-    "name": "Tether",
-    "ownerId": 42,
-    "id": 748,
-    "value": "No"
+    "InstanceId": "59812af44696593ccc99d018",
+    "Name": "LedgeHop",
+    "OwnerId": 42,
+    "Owner": "Pit",
+    "Values": [
+      {
+        "Value": "35.5",
+        "Owner": "Pit",
+        "OwnerId": 42,
+        "Name": "HEIGHT"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812af44696593ccc99d018"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Pit"
+      }
+    ]
   },
   {
-    "name": "Fast Fall Speed",
-    "ownerId": 42,
-    "id": 749,
-    "value": "2.368"
+    "InstanceId": "59812af44696593ccc99d019",
+    "Name": "ShortHop",
+    "OwnerId": 42,
+    "Owner": "Pit",
+    "Values": [
+      {
+        "Value": "14.955608",
+        "Owner": "Pit",
+        "OwnerId": 42,
+        "Name": "HEIGHT"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812af44696593ccc99d019"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Pit"
+      }
+    ]
   },
   {
-    "name": "Jumpsquat",
-    "ownerId": 42,
-    "id": 750,
-    "value": "5frames"
+    "InstanceId": "59812af44696593ccc99d01a",
+    "Name": "Spotdodge",
+    "OwnerId": 42,
+    "Owner": "Pit",
+    "Values": [
+      {
+        "Value": "2-16",
+        "Owner": "Pit",
+        "OwnerId": 42,
+        "Name": "INTANGIBLE"
+      },
+      {
+        "Value": "26",
+        "Owner": "Pit",
+        "OwnerId": 42,
+        "Name": "FAF"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812af44696593ccc99d01a"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Pit"
+      }
+    ]
   },
   {
-    "name": "Air Acceleration",
-    "ownerId": 42,
-    "id": 751,
-    "value": "0.065"
+    "InstanceId": "59812af44696593ccc99d01b",
+    "Name": "Traction",
+    "OwnerId": 42,
+    "Owner": "Pit",
+    "Values": [
+      {
+        "Value": "0.0505",
+        "Owner": "Pit",
+        "OwnerId": 42,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812af44696593ccc99d01b"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Pit"
+      }
+    ]
   },
   {
-    "name": "Soft Landing Lag",
-    "ownerId": 42,
-    "id": 752,
-    "value": "2frames"
+    "InstanceId": "59812af44696593ccc99d01c",
+    "Name": "WalkSpeed",
+    "OwnerId": 42,
+    "Owner": "Pit",
+    "Values": [
+      {
+        "Value": "1.199",
+        "Owner": "Pit",
+        "OwnerId": 42,
+        "Name": "MAX WALK SPEED VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812af44696593ccc99d01c"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Pit"
+      }
+    ]
   },
   {
-    "name": "Gravity",
-    "ownerId": 42,
-    "id": 753,
-    "value": "0.081"
+    "InstanceId": "59812af44696593ccc99d01d",
+    "Name": "AirSpeed",
+    "OwnerId": 42,
+    "Owner": "Pit",
+    "Values": [
+      {
+        "Value": "0.89",
+        "Owner": "Pit",
+        "OwnerId": 42,
+        "Name": "MAX AIR SPEED VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812af44696593ccc99d01d"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Pit"
+      }
+    ]
   },
   {
-    "name": "Hard Landing Lag",
-    "ownerId": 42,
-    "id": 754,
-    "value": "5frames"
+    "InstanceId": "59812af44696593ccc99d01e",
+    "Name": "AirDodge",
+    "OwnerId": 42,
+    "Owner": "Pit",
+    "Values": [
+      {
+        "Value": "2-26",
+        "Owner": "Pit",
+        "OwnerId": 42,
+        "Name": "INTANGIBLE"
+      },
+      {
+        "Value": "32",
+        "Owner": "Pit",
+        "OwnerId": 42,
+        "Name": "FAF"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812af44696593ccc99d01e"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Pit"
+      }
+    ]
   },
   {
-    "name": "SH Air Time",
-    "ownerId": 42,
-    "id": 755,
-    "value": "38frames"
+    "InstanceId": "59812af44696593ccc99d01f",
+    "Name": "Rolls",
+    "OwnerId": 42,
+    "Owner": "Pit",
+    "Values": [
+      {
+        "Value": "4-15",
+        "Owner": "Pit",
+        "OwnerId": 42,
+        "Name": "INTANGIBLE"
+      },
+      {
+        "Value": "28",
+        "Owner": "Pit",
+        "OwnerId": 42,
+        "Name": "FAF"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812af44696593ccc99d01f"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Pit"
+      }
+    ]
   },
   {
-    "name": "FH Air Time",
-    "ownerId": 42,
-    "id": 756,
-    "value": "57frames"
+    "InstanceId": "59812af44696593ccc99d020",
+    "Name": "RunSpeed",
+    "OwnerId": 42,
+    "Owner": "Pit",
+    "Values": [
+      {
+        "Value": "1.66215",
+        "Owner": "Pit",
+        "OwnerId": 42,
+        "Name": "MAX RUN SPEED VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812af44696593ccc99d020"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Pit"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812af44696593ccc99d021",
+    "Name": "ShieldSize",
+    "OwnerId": 42,
+    "Owner": "Pit",
+    "Values": [
+      {
+        "Value": "11.025",
+        "Owner": "Pit",
+        "OwnerId": 42,
+        "Name": "SIZE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812af44696593ccc99d021"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Pit"
+      }
+    ]
   }
 ]

@@ -1,0 +1,308 @@
+﻿[
+  {
+    "InstanceId": "59812b114696593ccc99d3d3",
+    "Name": "Weight",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "Value": "97 ",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812b114696593ccc99d3d3"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812b114696593ccc99d3d4",
+    "Name": "Max Jumps",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "Value": "2",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812b114696593ccc99d3d4"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812b114696593ccc99d3d5",
+    "Name": "Run Speed",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "Value": "1.27 ",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812b114696593ccc99d3d5"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812b114696593ccc99d3d6",
+    "Name": "Wall Jump",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "Value": "Yes",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812b114696593ccc99d3d6"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812b114696593ccc99d3d7",
+    "Name": "Walk Speed",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "Value": "1.04 ",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812b114696593ccc99d3d7"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812b114696593ccc99d3d8",
+    "Name": "Wall Cling",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "Value": "No",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812b114696593ccc99d3d8"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812b114696593ccc99d3d9",
+    "Name": "Air Speed",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "Value": "0.94 ",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812b114696593ccc99d3d9"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812b114696593ccc99d3da",
+    "Name": "Crawl",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "Value": "No",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812b114696593ccc99d3da"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812b114696593ccc99d3db",
+    "Name": "Fall Speed",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "Value": "1.32 ",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812b114696593ccc99d3db"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812b114696593ccc99d3dc",
+    "Name": "Tether",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "Value": "No",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812b114696593ccc99d3dc"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812b114696593ccc99d3dd",
+    "Name": "Fast Fall Speed",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "Value": "2.112 ",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812b114696593ccc99d3dd"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812b114696593ccc99d3de",
+    "Name": "Jumpsquat",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "Value": "5 frames",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812b114696593ccc99d3de"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812b114696593ccc99d3df",
+    "Name": "Air Acceleration",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "Value": "0.05",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812b114696593ccc99d3df"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812b114696593ccc99d3e0",
+    "Name": "Soft Landing Lag",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "Value": "2 frames",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812b114696593ccc99d3e0"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812b114696593ccc99d3e1",
+    "Name": "Gravity",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "Value": "0.078",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812b114696593ccc99d3e1"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812b114696593ccc99d3e2",
+    "Name": "Hard Landing Lag",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "Value": "4 frames",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812b114696593ccc99d3e2"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812b114696593ccc99d3e3",
+    "Name": "SH Air Time",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "Value": "40 frames",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812b114696593ccc99d3e3"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812b114696593ccc99d3e4",
+    "Name": "FH Air Time",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "Value": "61 frames",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812b114696593ccc99d3e4"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
+  }
+]

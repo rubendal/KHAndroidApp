@@ -1,110 +1,536 @@
 ﻿[
   {
-    "name": "Weight",
-    "ownerId": 7,
-    "id": 109,
-    "value": "98"
+    "InstanceId": "59812a964696593ccc99c3aa",
+    "Name": "AerialJump",
+    "OwnerId": 7,
+    "Owner": "Corrin",
+    "Values": [
+      {
+        "Value": "31",
+        "Owner": "Corrin",
+        "OwnerId": 7,
+        "Name": "HEIGHT"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812a964696593ccc99c3aa"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Corrin"
+      }
+    ]
   },
   {
-    "name": "Max Jumps",
-    "ownerId": 7,
-    "id": 110,
-    "value": "2"
+    "InstanceId": "59812a964696593ccc99c3ab",
+    "Name": "Counters",
+    "OwnerId": 7,
+    "Owner": "Corrin",
+    "Values": [
+      {
+        "Value": "7-24",
+        "Owner": "Corrin",
+        "OwnerId": 7,
+        "Name": "COUNTER FRAMES"
+      },
+      {
+        "Value": "6-7",
+        "Owner": "Corrin",
+        "OwnerId": 7,
+        "Name": "INTANGIBLE ON"
+      },
+      {
+        "Value": "64",
+        "Owner": "Corrin",
+        "OwnerId": 7,
+        "Name": "FAF"
+      },
+      {
+        "Value": "1.2x",
+        "Owner": "Corrin",
+        "OwnerId": 7,
+        "Name": "DAMAGE (MULTIPLIER)"
+      },
+      {
+        "Value": "90 | 74",
+        "Owner": "Corrin",
+        "OwnerId": 7,
+        "Name": "BKB | KBG"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812a964696593ccc99c3ab"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Corrin"
+      }
+    ]
   },
   {
-    "name": "Run Speed",
-    "ownerId": 7,
-    "id": 111,
-    "value": "1.45"
+    "InstanceId": "59812a964696593ccc99c3ac",
+    "Name": "AirAcceleration",
+    "OwnerId": 7,
+    "Owner": "Corrin",
+    "Values": [
+      {
+        "Value": "0.04",
+        "Owner": "Corrin",
+        "OwnerId": 7,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812a964696593ccc99c3ac"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Corrin"
+      }
+    ]
   },
   {
-    "name": "Wall Jump",
-    "ownerId": 7,
-    "id": 112,
-    "value": "No"
+    "InstanceId": "59812a964696593ccc99c3ad",
+    "Name": "AirDeceleration",
+    "OwnerId": 7,
+    "Owner": "Corrin",
+    "Values": [
+      {
+        "Value": "0.01",
+        "Owner": "Corrin",
+        "OwnerId": 7,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812a964696593ccc99c3ad"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Corrin"
+      }
+    ]
   },
   {
-    "name": "Walk Speed",
-    "ownerId": 7,
-    "id": 113,
-    "value": "1.15"
+    "InstanceId": "59812a964696593ccc99c3ae",
+    "Name": "AirFriction",
+    "OwnerId": 7,
+    "Owner": "Corrin",
+    "Values": [
+      {
+        "Value": "0.009",
+        "Owner": "Corrin",
+        "OwnerId": 7,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812a964696593ccc99c3ae"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Corrin"
+      }
+    ]
   },
   {
-    "name": "Wall Cling",
-    "ownerId": 7,
-    "id": 114,
-    "value": "No"
+    "InstanceId": "59812a964696593ccc99c3af",
+    "Name": "DashLength",
+    "OwnerId": 7,
+    "Owner": "Corrin",
+    "Values": [
+      {
+        "Value": "8",
+        "Owner": "Corrin",
+        "OwnerId": 7,
+        "Name": "LENGTH IN FRAMES"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812a964696593ccc99c3af"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Corrin"
+      }
+    ]
   },
   {
-    "name": "Air Speed",
-    "ownerId": 7,
-    "id": 115,
-    "value": "0.97"
+    "InstanceId": "59812a964696593ccc99c3b0",
+    "Name": "FallSpeed",
+    "OwnerId": 7,
+    "Owner": "Corrin",
+    "Values": [
+      {
+        "Value": "1.65",
+        "Owner": "Corrin",
+        "OwnerId": 7,
+        "Name": "MAX FALL SPEED"
+      },
+      {
+        "Value": "2.64",
+        "Owner": "Corrin",
+        "OwnerId": 7,
+        "Name": "FAST FALL SPEED"
+      },
+      {
+        "Value": "60%",
+        "Owner": "Corrin",
+        "OwnerId": 7,
+        "Name": "SPEED INCREASE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812a964696593ccc99c3b0"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Corrin"
+      }
+    ]
   },
   {
-    "name": "Crawl",
-    "ownerId": 7,
-    "id": 116,
-    "value": "No"
+    "InstanceId": "59812a964696593ccc99c3b1",
+    "Name": "FullHop",
+    "OwnerId": 7,
+    "Owner": "Corrin",
+    "Values": [
+      {
+        "Value": "33",
+        "Owner": "Corrin",
+        "OwnerId": 7,
+        "Name": "HEIGHT"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812a964696593ccc99c3b1"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Corrin"
+      }
+    ]
   },
   {
-    "name": "Fall Speed",
-    "ownerId": 7,
-    "id": 117,
-    "value": "1.65"
+    "InstanceId": "59812a964696593ccc99c3b2",
+    "Name": "Gravity",
+    "OwnerId": 7,
+    "Owner": "Corrin",
+    "Values": [
+      {
+        "Value": "0.092",
+        "Owner": "Corrin",
+        "OwnerId": 7,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812a964696593ccc99c3b2"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Corrin"
+      }
+    ]
   },
   {
-    "name": "Tether",
-    "ownerId": 7,
-    "id": 118,
-    "value": "No"
+    "InstanceId": "59812a964696593ccc99c3b3",
+    "Name": "JumpSquat",
+    "OwnerId": 7,
+    "Owner": "Corrin",
+    "Values": [
+      {
+        "Value": "6",
+        "Owner": "Corrin",
+        "OwnerId": 7,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812a964696593ccc99c3b3"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Corrin"
+      }
+    ]
   },
   {
-    "name": "Fast Fall Speed",
-    "ownerId": 7,
-    "id": 119,
-    "value": "2.64"
+    "InstanceId": "59812a964696593ccc99c3b4",
+    "Name": "LedgeHop",
+    "OwnerId": 7,
+    "Owner": "Corrin",
+    "Values": [
+      {
+        "Value": "36.5",
+        "Owner": "Corrin",
+        "OwnerId": 7,
+        "Name": "HEIGHT"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812a964696593ccc99c3b4"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Corrin"
+      }
+    ]
   },
   {
-    "name": "Jumpsquat",
-    "ownerId": 7,
-    "id": 120,
-    "value": "6frames"
+    "InstanceId": "59812a964696593ccc99c3b5",
+    "Name": "ShortHop",
+    "OwnerId": 7,
+    "Owner": "Corrin",
+    "Values": [
+      {
+        "Value": "16",
+        "Owner": "Corrin",
+        "OwnerId": 7,
+        "Name": "HEIGHT"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812a964696593ccc99c3b5"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Corrin"
+      }
+    ]
   },
   {
-    "name": "Air Acceleration",
-    "ownerId": 7,
-    "id": 121,
-    "value": "0.04"
+    "InstanceId": "59812a964696593ccc99c3b6",
+    "Name": "Spotdodge",
+    "OwnerId": 7,
+    "Owner": "Corrin",
+    "Values": [
+      {
+        "Value": "3-17",
+        "Owner": "Corrin",
+        "OwnerId": 7,
+        "Name": "INTANGIBLE"
+      },
+      {
+        "Value": "27",
+        "Owner": "Corrin",
+        "OwnerId": 7,
+        "Name": "FAF"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812a964696593ccc99c3b6"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Corrin"
+      }
+    ]
   },
   {
-    "name": "Soft Landing Lag",
-    "ownerId": 7,
-    "id": 122,
-    "value": "2frames"
+    "InstanceId": "59812a964696593ccc99c3b7",
+    "Name": "Traction",
+    "OwnerId": 7,
+    "Owner": "Corrin",
+    "Values": [
+      {
+        "Value": "0.065",
+        "Owner": "Corrin",
+        "OwnerId": 7,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812a964696593ccc99c3b7"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Corrin"
+      }
+    ]
   },
   {
-    "name": "Gravity",
-    "ownerId": 7,
-    "id": 123,
-    "value": "0.092"
+    "InstanceId": "59812a964696593ccc99c3b8",
+    "Name": "WalkSpeed",
+    "OwnerId": 7,
+    "Owner": "Corrin",
+    "Values": [
+      {
+        "Value": "1.15",
+        "Owner": "Corrin",
+        "OwnerId": 7,
+        "Name": "MAX WALK SPEED VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812a964696593ccc99c3b8"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Corrin"
+      }
+    ]
   },
   {
-    "name": "Hard Landing Lag",
-    "ownerId": 7,
-    "id": 124,
-    "value": "4frames"
+    "InstanceId": "59812a964696593ccc99c3b9",
+    "Name": "AirSpeed",
+    "OwnerId": 7,
+    "Owner": "Corrin",
+    "Values": [
+      {
+        "Value": "0.97",
+        "Owner": "Corrin",
+        "OwnerId": 7,
+        "Name": "MAX AIR SPEED VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812a964696593ccc99c3b9"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Corrin"
+      }
+    ]
   },
   {
-    "name": "SH Air Time",
-    "ownerId": 7,
-    "id": 125,
-    "value": "37frames"
+    "InstanceId": "59812a964696593ccc99c3ba",
+    "Name": "AirDodge",
+    "OwnerId": 7,
+    "Owner": "Corrin",
+    "Values": [
+      {
+        "Value": "3-27",
+        "Owner": "Corrin",
+        "OwnerId": 7,
+        "Name": "INTANGIBLE"
+      },
+      {
+        "Value": "33",
+        "Owner": "Corrin",
+        "OwnerId": 7,
+        "Name": "FAF"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812a964696593ccc99c3ba"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Corrin"
+      }
+    ]
   },
   {
-    "name": "FH Air Time",
-    "ownerId": 7,
-    "id": 126,
-    "value": "55frames"
+    "InstanceId": "59812a964696593ccc99c3bb",
+    "Name": "Rolls",
+    "OwnerId": 7,
+    "Owner": "Corrin",
+    "Values": [
+      {
+        "Value": "4-14",
+        "Owner": "Corrin",
+        "OwnerId": 7,
+        "Name": "INTANGIBLE"
+      },
+      {
+        "Value": "31",
+        "Owner": "Corrin",
+        "OwnerId": 7,
+        "Name": "FAF"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812a964696593ccc99c3bb"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Corrin"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812a964696593ccc99c3bc",
+    "Name": "RunSpeed",
+    "OwnerId": 7,
+    "Owner": "Corrin",
+    "Values": [
+      {
+        "Value": "1.45",
+        "Owner": "Corrin",
+        "OwnerId": 7,
+        "Name": "MAX RUN SPEED VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812a964696593ccc99c3bc"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Corrin"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812a964696593ccc99c3bd",
+    "Name": "ShieldSize",
+    "OwnerId": 7,
+    "Owner": "Corrin",
+    "Values": [
+      {
+        "Value": "11.13",
+        "Owner": "Corrin",
+        "OwnerId": 7,
+        "Name": "SIZE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812a964696593ccc99c3bd"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Corrin"
+      }
+    ]
   }
 ]

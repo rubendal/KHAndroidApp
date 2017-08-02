@@ -1,110 +1,488 @@
 ﻿[
   {
-    "name": "Weight",
-    "ownerId": 58,
-    "id": 1027,
-    "value": "80"
+    "InstanceId": "59812b1f4696593ccc99d5c7",
+    "Name": "AerialJump",
+    "OwnerId": 58,
+    "Owner": "ZeroSuitSamus",
+    "Values": [
+      {
+        "Value": "44.199909",
+        "Owner": "ZeroSuitSamus",
+        "OwnerId": 58,
+        "Name": "HEIGHT"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812b1f4696593ccc99d5c7"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/ZeroSuitSamus"
+      }
+    ]
   },
   {
-    "name": "Max Jumps",
-    "ownerId": 58,
-    "id": 1028,
-    "value": "2"
+    "InstanceId": "59812b1f4696593ccc99d5c8",
+    "Name": "AirAcceleration",
+    "OwnerId": 58,
+    "Owner": "ZeroSuitSamus",
+    "Values": [
+      {
+        "Value": "0.085",
+        "Owner": "ZeroSuitSamus",
+        "OwnerId": 58,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812b1f4696593ccc99d5c8"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/ZeroSuitSamus"
+      }
+    ]
   },
   {
-    "name": "Run Speed",
-    "ownerId": 58,
-    "id": 1029,
-    "value": "2.1"
+    "InstanceId": "59812b1f4696593ccc99d5c9",
+    "Name": "AirDeceleration",
+    "OwnerId": 58,
+    "Owner": "ZeroSuitSamus",
+    "Values": [
+      {
+        "Value": "0.01",
+        "Owner": "ZeroSuitSamus",
+        "OwnerId": 58,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812b1f4696593ccc99d5c9"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/ZeroSuitSamus"
+      }
+    ]
   },
   {
-    "name": "Wall Jump",
-    "ownerId": 58,
-    "id": 1030,
-    "value": "Yes"
+    "InstanceId": "59812b1f4696593ccc99d5ca",
+    "Name": "AirFriction",
+    "OwnerId": 58,
+    "Owner": "ZeroSuitSamus",
+    "Values": [
+      {
+        "Value": "0.008",
+        "Owner": "ZeroSuitSamus",
+        "OwnerId": 58,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812b1f4696593ccc99d5ca"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/ZeroSuitSamus"
+      }
+    ]
   },
   {
-    "name": "Walk Speed",
-    "ownerId": 58,
-    "id": 1031,
-    "value": "1.4"
+    "InstanceId": "59812b1f4696593ccc99d5cb",
+    "Name": "DashLength",
+    "OwnerId": 58,
+    "Owner": "ZeroSuitSamus",
+    "Values": [
+      {
+        "Value": "13",
+        "Owner": "ZeroSuitSamus",
+        "OwnerId": 58,
+        "Name": "LENGTH IN FRAMES"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812b1f4696593ccc99d5cb"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/ZeroSuitSamus"
+      }
+    ]
   },
   {
-    "name": "Wall Cling",
-    "ownerId": 58,
-    "id": 1032,
-    "value": "No"
+    "InstanceId": "59812b1f4696593ccc99d5cc",
+    "Name": "FallSpeed",
+    "OwnerId": 58,
+    "Owner": "ZeroSuitSamus",
+    "Values": [
+      {
+        "Value": "1.7",
+        "Owner": "ZeroSuitSamus",
+        "OwnerId": 58,
+        "Name": "MAX FALL SPEED"
+      },
+      {
+        "Value": "2.72",
+        "Owner": "ZeroSuitSamus",
+        "OwnerId": 58,
+        "Name": "FAST FALL SPEED"
+      },
+      {
+        "Value": "60%",
+        "Owner": "ZeroSuitSamus",
+        "OwnerId": 58,
+        "Name": "SPEED INCREASE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812b1f4696593ccc99d5cc"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/ZeroSuitSamus"
+      }
+    ]
   },
   {
-    "name": "Air Speed",
-    "ownerId": 58,
-    "id": 1033,
-    "value": "1.2"
+    "InstanceId": "59812b1f4696593ccc99d5cd",
+    "Name": "FullHop",
+    "OwnerId": 58,
+    "Owner": "ZeroSuitSamus",
+    "Values": [
+      {
+        "Value": "44.5",
+        "Owner": "ZeroSuitSamus",
+        "OwnerId": 58,
+        "Name": "HEIGHT"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812b1f4696593ccc99d5cd"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/ZeroSuitSamus"
+      }
+    ]
   },
   {
-    "name": "Crawl",
-    "ownerId": 58,
-    "id": 1034,
-    "value": "Yes"
+    "InstanceId": "59812b1f4696593ccc99d5ce",
+    "Name": "Gravity",
+    "OwnerId": 58,
+    "Owner": "ZeroSuitSamus",
+    "Values": [
+      {
+        "Value": "0.12",
+        "Owner": "ZeroSuitSamus",
+        "OwnerId": 58,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812b1f4696593ccc99d5ce"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/ZeroSuitSamus"
+      }
+    ]
   },
   {
-    "name": "Fall Speed",
-    "ownerId": 58,
-    "id": 1035,
-    "value": "1.7"
+    "InstanceId": "59812b1f4696593ccc99d5cf",
+    "Name": "JumpSquat",
+    "OwnerId": 58,
+    "Owner": "ZeroSuitSamus",
+    "Values": [
+      {
+        "Value": "4",
+        "Owner": "ZeroSuitSamus",
+        "OwnerId": 58,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812b1f4696593ccc99d5cf"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/ZeroSuitSamus"
+      }
+    ]
   },
   {
-    "name": "Tether",
-    "ownerId": 58,
-    "id": 1036,
-    "value": "Yes"
+    "InstanceId": "59812b1f4696593ccc99d5d0",
+    "Name": "LedgeHop",
+    "OwnerId": 58,
+    "Owner": "ZeroSuitSamus",
+    "Values": [
+      {
+        "Value": "42.25",
+        "Owner": "ZeroSuitSamus",
+        "OwnerId": 58,
+        "Name": "HEIGHT"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812b1f4696593ccc99d5d0"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/ZeroSuitSamus"
+      }
+    ]
   },
   {
-    "name": "Fast Fall Speed",
-    "ownerId": 58,
-    "id": 1037,
-    "value": "2.72"
+    "InstanceId": "59812b1f4696593ccc99d5d1",
+    "Name": "ShortHop",
+    "OwnerId": 58,
+    "Owner": "ZeroSuitSamus",
+    "Values": [
+      {
+        "Value": "21.354742",
+        "Owner": "ZeroSuitSamus",
+        "OwnerId": 58,
+        "Name": "HEIGHT"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812b1f4696593ccc99d5d1"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/ZeroSuitSamus"
+      }
+    ]
   },
   {
-    "name": "Jumpsquat",
-    "ownerId": 58,
-    "id": 1038,
-    "value": "4frames"
+    "InstanceId": "59812b1f4696593ccc99d5d2",
+    "Name": "Spotdodge",
+    "OwnerId": 58,
+    "Owner": "ZeroSuitSamus",
+    "Values": [
+      {
+        "Value": "2-15",
+        "Owner": "ZeroSuitSamus",
+        "OwnerId": 58,
+        "Name": "INTANGIBLE"
+      },
+      {
+        "Value": "25",
+        "Owner": "ZeroSuitSamus",
+        "OwnerId": 58,
+        "Name": "FAF"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812b1f4696593ccc99d5d2"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/ZeroSuitSamus"
+      }
+    ]
   },
   {
-    "name": "Air Acceleration",
-    "ownerId": 58,
-    "id": 1039,
-    "value": "0.085"
+    "InstanceId": "59812b1f4696593ccc99d5d3",
+    "Name": "Traction",
+    "OwnerId": 58,
+    "Owner": "ZeroSuitSamus",
+    "Values": [
+      {
+        "Value": "0.07",
+        "Owner": "ZeroSuitSamus",
+        "OwnerId": 58,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812b1f4696593ccc99d5d3"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/ZeroSuitSamus"
+      }
+    ]
   },
   {
-    "name": "Soft Landing Lag",
-    "ownerId": 58,
-    "id": 1040,
-    "value": "2frames"
+    "InstanceId": "59812b1f4696593ccc99d5d4",
+    "Name": "WalkSpeed",
+    "OwnerId": 58,
+    "Owner": "ZeroSuitSamus",
+    "Values": [
+      {
+        "Value": "1.4",
+        "Owner": "ZeroSuitSamus",
+        "OwnerId": 58,
+        "Name": "MAX WALK SPEED VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812b1f4696593ccc99d5d4"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/ZeroSuitSamus"
+      }
+    ]
   },
   {
-    "name": "Gravity",
-    "ownerId": 58,
-    "id": 1041,
-    "value": "0.12"
+    "InstanceId": "59812b1f4696593ccc99d5d5",
+    "Name": "AirSpeed",
+    "OwnerId": 58,
+    "Owner": "ZeroSuitSamus",
+    "Values": [
+      {
+        "Value": "1.2",
+        "Owner": "ZeroSuitSamus",
+        "OwnerId": 58,
+        "Name": "MAX AIR SPEED VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812b1f4696593ccc99d5d5"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/ZeroSuitSamus"
+      }
+    ]
   },
   {
-    "name": "Hard Landing Lag",
-    "ownerId": 58,
-    "id": 1042,
-    "value": "4frames"
+    "InstanceId": "59812b1f4696593ccc99d5d6",
+    "Name": "AirDodge",
+    "OwnerId": 58,
+    "Owner": "ZeroSuitSamus",
+    "Values": [
+      {
+        "Value": "2-25",
+        "Owner": "ZeroSuitSamus",
+        "OwnerId": 58,
+        "Name": "INTANGIBLE"
+      },
+      {
+        "Value": "31",
+        "Owner": "ZeroSuitSamus",
+        "OwnerId": 58,
+        "Name": "FAF"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812b1f4696593ccc99d5d6"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/ZeroSuitSamus"
+      }
+    ]
   },
   {
-    "name": "SH Air Time",
-    "ownerId": 58,
-    "id": 1043,
-    "value": "38frames"
+    "InstanceId": "59812b1f4696593ccc99d5d7",
+    "Name": "Rolls",
+    "OwnerId": 58,
+    "Owner": "ZeroSuitSamus",
+    "Values": [
+      {
+        "Value": "4-15",
+        "Owner": "ZeroSuitSamus",
+        "OwnerId": 58,
+        "Name": "INTANGIBLE"
+      },
+      {
+        "Value": "28",
+        "Owner": "ZeroSuitSamus",
+        "OwnerId": 58,
+        "Name": "FAF"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812b1f4696593ccc99d5d7"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/ZeroSuitSamus"
+      }
+    ]
   },
   {
-    "name": "FH Air Time",
-    "ownerId": 58,
-    "id": 1044,
-    "value": "60frames"
+    "InstanceId": "59812b1f4696593ccc99d5d8",
+    "Name": "RunSpeed",
+    "OwnerId": 58,
+    "Owner": "ZeroSuitSamus",
+    "Values": [
+      {
+        "Value": "2.1",
+        "Owner": "ZeroSuitSamus",
+        "OwnerId": 58,
+        "Name": "MAX RUN SPEED VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812b1f4696593ccc99d5d8"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/ZeroSuitSamus"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812b1f4696593ccc99d5d9",
+    "Name": "ShieldSize",
+    "OwnerId": 58,
+    "Owner": "ZeroSuitSamus",
+    "Values": [
+      {
+        "Value": "11.13",
+        "Owner": "ZeroSuitSamus",
+        "OwnerId": 58,
+        "Name": "SIZE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812b1f4696593ccc99d5d9"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/ZeroSuitSamus"
+      }
+    ]
   }
 ]

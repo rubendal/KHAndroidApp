@@ -91,10 +91,10 @@ public class Character implements Serializable {
 
     public static Character fromJson(Context context, JSONObject jsonObject){
         try {
-            String name = jsonObject.getString("displayName"), thumbnail = jsonObject.getString("thumbnailUrl"), color = jsonObject.getString("colorTheme");
-            int id = jsonObject.getInt("id");
+            String name = jsonObject.getString("DisplayName"), thumbnail = jsonObject.getString("ThumbnailUrl"), color = jsonObject.getString("ColorTheme");
+            int id = jsonObject.getInt("OwnerId");
             Character c = new Character(context, id, name, thumbnail, color);
-            c.favorite = UserPref.checkFavorites(name);
+            c.favorite = UserPref.checkCharacterFavorites(name);
             return c;
         }catch(Exception e){
             return null;

@@ -1,0 +1,308 @@
+﻿[
+  {
+    "InstanceId": "59812ae44696593ccc99cdc6",
+    "Name": "Weight",
+    "OwnerId": 36,
+    "Owner": "Ness",
+    "Value": "94 ",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812ae44696593ccc99cdc6"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ness"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812ae44696593ccc99cdc7",
+    "Name": "Max Jumps",
+    "OwnerId": 36,
+    "Owner": "Ness",
+    "Value": "2",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812ae44696593ccc99cdc7"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ness"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812ae44696593ccc99cdc8",
+    "Name": "Run Speed",
+    "OwnerId": 36,
+    "Owner": "Ness",
+    "Value": "1.46265 ",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812ae44696593ccc99cdc8"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ness"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812ae44696593ccc99cdc9",
+    "Name": "Wall Jump",
+    "OwnerId": 36,
+    "Owner": "Ness",
+    "Value": "No",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812ae44696593ccc99cdc9"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ness"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812ae44696593ccc99cdca",
+    "Name": "Walk Speed",
+    "OwnerId": 36,
+    "Owner": "Ness",
+    "Value": "0.8635 ",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812ae44696593ccc99cdca"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ness"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812ae44696593ccc99cdcb",
+    "Name": "Wall Cling",
+    "OwnerId": 36,
+    "Owner": "Ness",
+    "Value": "No",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812ae44696593ccc99cdcb"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ness"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812ae44696593ccc99cdcc",
+    "Name": "Air Speed",
+    "OwnerId": 36,
+    "Owner": "Ness",
+    "Value": "0.9588 ",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812ae44696593ccc99cdcc"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ness"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812ae44696593ccc99cdcd",
+    "Name": "Crawl",
+    "OwnerId": 36,
+    "Owner": "Ness",
+    "Value": "No",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812ae44696593ccc99cdcd"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ness"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812ae44696593ccc99cdce",
+    "Name": "Fall Speed",
+    "OwnerId": 36,
+    "Owner": "Ness",
+    "Value": "1.31 ",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812ae44696593ccc99cdce"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ness"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812ae44696593ccc99cdcf",
+    "Name": "Tether",
+    "OwnerId": 36,
+    "Owner": "Ness",
+    "Value": "No",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812ae44696593ccc99cdcf"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ness"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812ae44696593ccc99cdd0",
+    "Name": "Fast Fall Speed",
+    "OwnerId": 36,
+    "Owner": "Ness",
+    "Value": "2.096 ",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812ae44696593ccc99cdd0"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ness"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812ae44696593ccc99cdd1",
+    "Name": "Jumpsquat",
+    "OwnerId": 36,
+    "Owner": "Ness",
+    "Value": "5 frames",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812ae44696593ccc99cdd1"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ness"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812ae44696593ccc99cdd2",
+    "Name": "Air Acceleration",
+    "OwnerId": 36,
+    "Owner": "Ness",
+    "Value": "0.09",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812ae44696593ccc99cdd2"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ness"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812ae44696593ccc99cdd3",
+    "Name": "Soft Landing Lag",
+    "OwnerId": 36,
+    "Owner": "Ness",
+    "Value": "2 frames",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812ae44696593ccc99cdd3"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ness"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812ae44696593ccc99cdd4",
+    "Name": "Gravity",
+    "OwnerId": 36,
+    "Owner": "Ness",
+    "Value": "0.077",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812ae44696593ccc99cdd4"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ness"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812ae44696593ccc99cdd5",
+    "Name": "Hard Landing Lag",
+    "OwnerId": 36,
+    "Owner": "Ness",
+    "Value": "4 frames",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812ae44696593ccc99cdd5"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ness"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812ae44696593ccc99cdd6",
+    "Name": "SH Air Time",
+    "OwnerId": 36,
+    "Owner": "Ness",
+    "Value": "42 frames",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812ae44696593ccc99cdd6"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ness"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812ae44696593ccc99cdd7",
+    "Name": "FH Air Time",
+    "OwnerId": 36,
+    "Owner": "Ness",
+    "Value": "64 frames",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/movements/59812ae44696593ccc99cdd7"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ness"
+      }
+    ]
+  }
+]

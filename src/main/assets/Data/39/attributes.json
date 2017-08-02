@@ -1,110 +1,536 @@
 ﻿[
   {
-    "name": "Weight",
-    "ownerId": 39,
-    "id": 685,
-    "value": "91"
+    "InstanceId": "59812aec4696593ccc99cf06",
+    "Name": "AerialJump",
+    "OwnerId": 39,
+    "Owner": "Palutena",
+    "Values": [
+      {
+        "Value": "35.900002",
+        "Owner": "Palutena",
+        "OwnerId": 39,
+        "Name": "HEIGHT"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812aec4696593ccc99cf06"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Palutena"
+      }
+    ]
   },
   {
-    "name": "Max Jumps",
-    "ownerId": 39,
-    "id": 686,
-    "value": "2"
+    "InstanceId": "59812aec4696593ccc99cf07",
+    "Name": "Counters",
+    "OwnerId": 39,
+    "Owner": "Palutena",
+    "Values": [
+      {
+        "Value": "10-31",
+        "Owner": "Palutena",
+        "OwnerId": 39,
+        "Name": "COUNTER FRAMES"
+      },
+      {
+        "Value": "10-16",
+        "Owner": "Palutena",
+        "OwnerId": 39,
+        "Name": "INTANGIBLE ON"
+      },
+      {
+        "Value": "75",
+        "Owner": "Palutena",
+        "OwnerId": 39,
+        "Name": "FAF"
+      },
+      {
+        "Value": "1.3x",
+        "Owner": "Palutena",
+        "OwnerId": 39,
+        "Name": "DAMAGE (MULTIPLIER)"
+      },
+      {
+        "Value": "40/20 | 75/65",
+        "Owner": "Palutena",
+        "OwnerId": 39,
+        "Name": "BKB | KBG"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812aec4696593ccc99cf07"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Palutena"
+      }
+    ]
   },
   {
-    "name": "Run Speed",
-    "ownerId": 39,
-    "id": 687,
-    "value": "1.888"
+    "InstanceId": "59812aec4696593ccc99cf08",
+    "Name": "AirAcceleration",
+    "OwnerId": 39,
+    "Owner": "Palutena",
+    "Values": [
+      {
+        "Value": "0.1",
+        "Owner": "Palutena",
+        "OwnerId": 39,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812aec4696593ccc99cf08"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Palutena"
+      }
+    ]
   },
   {
-    "name": "Wall Jump",
-    "ownerId": 39,
-    "id": 688,
-    "value": "No"
+    "InstanceId": "59812aec4696593ccc99cf09",
+    "Name": "AirDeceleration",
+    "OwnerId": 39,
+    "Owner": "Palutena",
+    "Values": [
+      {
+        "Value": "0.01",
+        "Owner": "Palutena",
+        "OwnerId": 39,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812aec4696593ccc99cf09"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Palutena"
+      }
+    ]
   },
   {
-    "name": "Walk Speed",
-    "ownerId": 39,
-    "id": 689,
-    "value": "1.21"
+    "InstanceId": "59812aec4696593ccc99cf0a",
+    "Name": "AirFriction",
+    "OwnerId": 39,
+    "Owner": "Palutena",
+    "Values": [
+      {
+        "Value": "0.01",
+        "Owner": "Palutena",
+        "OwnerId": 39,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812aec4696593ccc99cf0a"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Palutena"
+      }
+    ]
   },
   {
-    "name": "Wall Cling",
-    "ownerId": 39,
-    "id": 690,
-    "value": "No"
+    "InstanceId": "59812aec4696593ccc99cf0b",
+    "Name": "DashLength",
+    "OwnerId": 39,
+    "Owner": "Palutena",
+    "Values": [
+      {
+        "Value": "11",
+        "Owner": "Palutena",
+        "OwnerId": 39,
+        "Name": "LENGTH IN FRAMES"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812aec4696593ccc99cf0b"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Palutena"
+      }
+    ]
   },
   {
-    "name": "Air Speed",
-    "ownerId": 39,
-    "id": 691,
-    "value": "0.91"
+    "InstanceId": "59812aec4696593ccc99cf0c",
+    "Name": "FallSpeed",
+    "OwnerId": 39,
+    "Owner": "Palutena",
+    "Values": [
+      {
+        "Value": "1.4",
+        "Owner": "Palutena",
+        "OwnerId": 39,
+        "Name": "MAX FALL SPEED"
+      },
+      {
+        "Value": "2.24",
+        "Owner": "Palutena",
+        "OwnerId": 39,
+        "Name": "FAST FALL SPEED"
+      },
+      {
+        "Value": "60%",
+        "Owner": "Palutena",
+        "OwnerId": 39,
+        "Name": "SPEED INCREASE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812aec4696593ccc99cf0c"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Palutena"
+      }
+    ]
   },
   {
-    "name": "Crawl",
-    "ownerId": 39,
-    "id": 692,
-    "value": "No"
+    "InstanceId": "59812aec4696593ccc99cf0d",
+    "Name": "FullHop",
+    "OwnerId": 39,
+    "Owner": "Palutena",
+    "Values": [
+      {
+        "Value": "35.900002",
+        "Owner": "Palutena",
+        "OwnerId": 39,
+        "Name": "HEIGHT"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812aec4696593ccc99cf0d"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Palutena"
+      }
+    ]
   },
   {
-    "name": "Fall Speed",
-    "ownerId": 39,
-    "id": 693,
-    "value": "1.4"
+    "InstanceId": "59812aec4696593ccc99cf0e",
+    "Name": "Gravity",
+    "OwnerId": 39,
+    "Owner": "Palutena",
+    "Values": [
+      {
+        "Value": "0.105",
+        "Owner": "Palutena",
+        "OwnerId": 39,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812aec4696593ccc99cf0e"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Palutena"
+      }
+    ]
   },
   {
-    "name": "Tether",
-    "ownerId": 39,
-    "id": 694,
-    "value": "No"
+    "InstanceId": "59812aec4696593ccc99cf0f",
+    "Name": "JumpSquat",
+    "OwnerId": 39,
+    "Owner": "Palutena",
+    "Values": [
+      {
+        "Value": "5",
+        "Owner": "Palutena",
+        "OwnerId": 39,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812aec4696593ccc99cf0f"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Palutena"
+      }
+    ]
   },
   {
-    "name": "Fast Fall Speed",
-    "ownerId": 39,
-    "id": 695,
-    "value": "2.24"
+    "InstanceId": "59812aec4696593ccc99cf10",
+    "Name": "LedgeHop",
+    "OwnerId": 39,
+    "Owner": "Palutena",
+    "Values": [
+      {
+        "Value": "37.950001",
+        "Owner": "Palutena",
+        "OwnerId": 39,
+        "Name": "HEIGHT"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812aec4696593ccc99cf10"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Palutena"
+      }
+    ]
   },
   {
-    "name": "Jumpsquat",
-    "ownerId": 39,
-    "id": 696,
-    "value": "5frames"
+    "InstanceId": "59812aec4696593ccc99cf11",
+    "Name": "ShortHop",
+    "OwnerId": 39,
+    "Owner": "Palutena",
+    "Values": [
+      {
+        "Value": "17.303881",
+        "Owner": "Palutena",
+        "OwnerId": 39,
+        "Name": "HEIGHT"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812aec4696593ccc99cf11"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Palutena"
+      }
+    ]
   },
   {
-    "name": "Air Acceleration",
-    "ownerId": 39,
-    "id": 697,
-    "value": "0.1"
+    "InstanceId": "59812aec4696593ccc99cf12",
+    "Name": "Spotdodge",
+    "OwnerId": 39,
+    "Owner": "Palutena",
+    "Values": [
+      {
+        "Value": "3-18",
+        "Owner": "Palutena",
+        "OwnerId": 39,
+        "Name": "INTANGIBLE"
+      },
+      {
+        "Value": "28",
+        "Owner": "Palutena",
+        "OwnerId": 39,
+        "Name": "FAF"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812aec4696593ccc99cf12"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Palutena"
+      }
+    ]
   },
   {
-    "name": "Soft Landing Lag",
-    "ownerId": 39,
-    "id": 698,
-    "value": "2frames"
+    "InstanceId": "59812aec4696593ccc99cf13",
+    "Name": "Traction",
+    "OwnerId": 39,
+    "Owner": "Palutena",
+    "Values": [
+      {
+        "Value": "0.068",
+        "Owner": "Palutena",
+        "OwnerId": 39,
+        "Name": "VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812aec4696593ccc99cf13"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Palutena"
+      }
+    ]
   },
   {
-    "name": "Gravity",
-    "ownerId": 39,
-    "id": 699,
-    "value": "0.105"
+    "InstanceId": "59812aec4696593ccc99cf14",
+    "Name": "WalkSpeed",
+    "OwnerId": 39,
+    "Owner": "Palutena",
+    "Values": [
+      {
+        "Value": "1.21",
+        "Owner": "Palutena",
+        "OwnerId": 39,
+        "Name": "MAX WALK SPEED VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812aec4696593ccc99cf14"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Palutena"
+      }
+    ]
   },
   {
-    "name": "Hard Landing Lag",
-    "ownerId": 39,
-    "id": 700,
-    "value": "4frames"
+    "InstanceId": "59812aec4696593ccc99cf15",
+    "Name": "AirSpeed",
+    "OwnerId": 39,
+    "Owner": "Palutena",
+    "Values": [
+      {
+        "Value": "0.91",
+        "Owner": "Palutena",
+        "OwnerId": 39,
+        "Name": "MAX AIR SPEED VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812aec4696593ccc99cf15"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Palutena"
+      }
+    ]
   },
   {
-    "name": "SH Air Time",
-    "ownerId": 39,
-    "id": 701,
-    "value": "37frames"
+    "InstanceId": "59812aec4696593ccc99cf16",
+    "Name": "AirDodge",
+    "OwnerId": 39,
+    "Owner": "Palutena",
+    "Values": [
+      {
+        "Value": "3-28",
+        "Owner": "Palutena",
+        "OwnerId": 39,
+        "Name": "INTANGIBLE"
+      },
+      {
+        "Value": "34",
+        "Owner": "Palutena",
+        "OwnerId": 39,
+        "Name": "FAF"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812aec4696593ccc99cf16"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Palutena"
+      }
+    ]
   },
   {
-    "name": "FH Air Time",
-    "ownerId": 39,
-    "id": 702,
-    "value": "58frames"
+    "InstanceId": "59812aec4696593ccc99cf17",
+    "Name": "Rolls",
+    "OwnerId": 39,
+    "Owner": "Palutena",
+    "Values": [
+      {
+        "Value": "4-17",
+        "Owner": "Palutena",
+        "OwnerId": 39,
+        "Name": "INTANGIBLE"
+      },
+      {
+        "Value": "31",
+        "Owner": "Palutena",
+        "OwnerId": 39,
+        "Name": "FAF"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812aec4696593ccc99cf17"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Palutena"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812aec4696593ccc99cf18",
+    "Name": "RunSpeed",
+    "OwnerId": 39,
+    "Owner": "Palutena",
+    "Values": [
+      {
+        "Value": "1.888",
+        "Owner": "Palutena",
+        "OwnerId": 39,
+        "Name": "MAX RUN SPEED VALUE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812aec4696593ccc99cf18"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Palutena"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812aec4696593ccc99cf19",
+    "Name": "ShieldSize",
+    "OwnerId": 39,
+    "Owner": "Palutena",
+    "Values": [
+      {
+        "Value": "12.075",
+        "Owner": "Palutena",
+        "OwnerId": 39,
+        "Name": "SIZE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59812aec4696593ccc99cf19"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Palutena"
+      }
+    ]
   }
 ]

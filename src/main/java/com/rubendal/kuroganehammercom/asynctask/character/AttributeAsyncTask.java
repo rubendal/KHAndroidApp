@@ -58,7 +58,7 @@ public class AttributeAsyncTask extends AsyncTask<String, String, LinkedList<Att
     @Override
     protected LinkedList<Attribute> doInBackground(String... params) {
         try {
-            String json = Storage.read(String.valueOf(character.id),"smashAttributes.json",context.getActivity());
+            String json = Storage.read(String.valueOf(character.id),"attributes.json",context.getActivity());
             LinkedList<Attribute> list = new LinkedList<>();
             JSONArray jsonArray = new JSONArray(json);
             for(int i=0;i<jsonArray.length();i++){
