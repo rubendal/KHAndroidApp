@@ -245,16 +245,24 @@ public class DataFragment extends Fragment {
         data.target.character = (String)target.getSelectedItem();
         data.target.percent = Float.parseFloat(targetPercent.getText().toString());
 
-        if(attackerModifier.getAdapter().getCount() == 0){
-            data.attacker.modifier = null;
+        if(attackerModifier.getAdapter()!=null) {
+            if (attackerModifier.getAdapter().getCount() == 0) {
+                data.attacker.modifier = null;
+            } else {
+                data.attacker.modifier = (String) attackerModifier.getSelectedItem();
+            }
         }else{
-            data.attacker.modifier = (String)attackerModifier.getSelectedItem();
+            data.attacker.modifier = null;
         }
 
-        if(targetModifier.getAdapter().getCount() == 0){
-            data.target.modifier = null;
+        if(targetModifier.getAdapter()!=null) {
+            if (targetModifier.getAdapter().getCount() == 0) {
+                data.target.modifier = null;
+            } else {
+                data.target.modifier = (String) targetModifier.getSelectedItem();
+            }
         }else{
-            data.target.modifier = (String)targetModifier.getSelectedItem();
+            data.target.modifier = null;
         }
 
         data.attack.name = (String)attack.getSelectedItem();
@@ -297,7 +305,7 @@ public class DataFragment extends Fragment {
 
         CalculatorFragment calculatorFragment = (CalculatorFragment)getParentFragment();
 
-        KBRequestAsyncTask r = new KBRequestAsyncTask(calculatorFragment, data);
+        KBRequestAsyncTask r = new KBRequestAsyncTask(calculatorFragment, data, "Sending request");
         r.execute();
     }
 

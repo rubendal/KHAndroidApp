@@ -1,1858 +1,1626 @@
 ﻿[
-    {
-        "InstanceId": "5966d6ec4696593050d2774f",
-        "Name": "Bayonetta",
-        "OwnerId": 1,
-        "FullUrl": "http://kuroganehammer.com/Smash4/Bayonetta",
-        "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Bayonetta.png",
-        "ThumbnailUrl": "http://kuroganehammer.com/Smash4/character/character-bayonetta3.png",
-        "ColorTheme": "#B396E2",
-        "DisplayName": "Bayonetta",
-        "Links": [
-            {
-                "Rel": "self",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Bayonetta",
-                "Title": ""
-            },
-            {
-                "Rel": "moves",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Bayonetta/moves",
-                "Title": ""
-            },
-            {
-                "Rel": "characterattributes",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Bayonetta/characterattributes",
-                "Title": ""
-            },
-            {
-                "Rel": "movements",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Bayonetta/movements",
-                "Title": ""
-            }
-        ]
-    },
-    {
-        "InstanceId": "5966d6ef4696593050d277ba",
-        "Name": "Bowser",
-        "OwnerId": 2,
-        "FullUrl": "http://kuroganehammer.com/Smash4/Bowser",
-        "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Bowser.png",
-        "ThumbnailUrl": "http://kuroganehammer.com/Smash4/character/character-koopa.png",
-        "ColorTheme": "#2F654B",
-        "DisplayName": "Bowser",
-        "Links": [
-            {
-                "Rel": "self",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Bowser",
-                "Title": ""
-            },
-            {
-                "Rel": "moves",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Bowser/moves",
-                "Title": ""
-            },
-            {
-                "Rel": "characterattributes",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Bowser/characterattributes",
-                "Title": ""
-            },
-            {
-                "Rel": "movements",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Bowser/movements",
-                "Title": ""
-            }
-        ]
-    },
-    {
-        "InstanceId": "5966d6f34696593050d2780f",
-        "Name": "BowserJr",
-        "OwnerId": 3,
-        "FullUrl": "http://kuroganehammer.com/Smash4/Bowser%20Jr",
-        "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Bowser%20Jr.png",
-        "ThumbnailUrl": "http://kuroganehammer.com/Smash4/character/character-bowser_jr.png",
-        "ColorTheme": "#CED327",
-        "DisplayName": "Bowser Jr",
-        "Links": [
-            {
-                "Rel": "self",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/BowserJr",
-                "Title": ""
-            },
-            {
-                "Rel": "moves",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/BowserJr/moves",
-                "Title": ""
-            },
-            {
-                "Rel": "characterattributes",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/BowserJr/characterattributes",
-                "Title": ""
-            },
-            {
-                "Rel": "movements",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/BowserJr/movements",
-                "Title": ""
-            }
-        ]
-    },
-    {
-        "InstanceId": "5966d6f64696593050d27869",
-        "Name": "CaptainFalcon",
-        "OwnerId": 4,
-        "FullUrl": "http://kuroganehammer.com/Smash4/Captain%20Falcon",
-        "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Captain%20Falcon.png",
-        "ThumbnailUrl": "",
-        "ColorTheme": "#997DE6",
-        "DisplayName": "Captain Falcon",
-        "Links": [
-            {
-                "Rel": "self",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/CaptainFalcon",
-                "Title": ""
-            },
-            {
-                "Rel": "moves",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/CaptainFalcon/moves",
-                "Title": ""
-            },
-            {
-                "Rel": "characterattributes",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/CaptainFalcon/characterattributes",
-                "Title": ""
-            },
-            {
-                "Rel": "movements",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/CaptainFalcon/movements",
-                "Title": ""
-            }
-        ]
-    },
-    {
-        "InstanceId": "5966d6f94696593050d278b8",
-        "Name": "Charizard",
-        "OwnerId": 5,
-        "FullUrl": "http://kuroganehammer.com/Smash4/Charizard",
-        "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Charizard.png",
-        "ThumbnailUrl": "http://kuroganehammer.com/Smash4/character/character-lizardon.png",
-        "ColorTheme": "#E6571C",
-        "DisplayName": "Charizard",
-        "Links": [
-            {
-                "Rel": "self",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Charizard",
-                "Title": ""
-            },
-            {
-                "Rel": "moves",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Charizard/moves",
-                "Title": ""
-            },
-            {
-                "Rel": "characterattributes",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Charizard/characterattributes",
-                "Title": ""
-            },
-            {
-                "Rel": "movements",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Charizard/movements",
-                "Title": ""
-            }
-        ]
-    },
-    {
-        "InstanceId": "5966d6fb4696593050d27904",
-        "Name": "Cloud",
-        "OwnerId": 6,
-        "FullUrl": "http://kuroganehammer.com/Smash4/Cloud",
-        "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Cloud.png",
-        "ThumbnailUrl": "http://kuroganehammer.com/Smash4/character/character-cloud.png",
-        "ColorTheme": "#1E9989",
-        "DisplayName": "Cloud",
-        "Links": [
-            {
-                "Rel": "self",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud",
-                "Title": ""
-            },
-            {
-                "Rel": "moves",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud/moves",
-                "Title": ""
-            },
-            {
-                "Rel": "characterattributes",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud/characterattributes",
-                "Title": ""
-            },
-            {
-                "Rel": "movements",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud/movements",
-                "Title": ""
-            }
-        ]
-    },
-    {
-        "InstanceId": "5966d6fe4696593050d27979",
-        "Name": "Corrin",
-        "OwnerId": 7,
-        "FullUrl": "http://kuroganehammer.com/Smash4/Corrin",
-        "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Corrin.png",
-        "ThumbnailUrl": "http://kuroganehammer.com/Smash4/character/character-corrin.png",
-        "ColorTheme": "#2CABC1",
-        "DisplayName": "Corrin",
-        "Links": [
-            {
-                "Rel": "self",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Corrin",
-                "Title": ""
-            },
-            {
-                "Rel": "moves",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Corrin/moves",
-                "Title": ""
-            },
-            {
-                "Rel": "characterattributes",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Corrin/characterattributes",
-                "Title": ""
-            },
-            {
-                "Rel": "movements",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Corrin/movements",
-                "Title": ""
-            }
-        ]
-    },
-    {
-        "InstanceId": "5966d7014696593050d279d5",
-        "Name": "DarkPit",
-        "OwnerId": 8,
-        "FullUrl": "http://kuroganehammer.com/Smash4/Dark%20Pit",
-        "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/DarkPit.png",
-        "ThumbnailUrl": "",
-        "ColorTheme": "#A334D3",
-        "DisplayName": "Dark Pit",
-        "Links": [
-            {
-                "Rel": "self",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DarkPit",
-                "Title": ""
-            },
-            {
-                "Rel": "moves",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DarkPit/moves",
-                "Title": ""
-            },
-            {
-                "Rel": "characterattributes",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DarkPit/characterattributes",
-                "Title": ""
-            },
-            {
-                "Rel": "movements",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DarkPit/movements",
-                "Title": ""
-            }
-        ]
-    },
-    {
-        "InstanceId": "5966d7034696593050d27a1d",
-        "Name": "DiddyKong",
-        "OwnerId": 9,
-        "FullUrl": "http://kuroganehammer.com/Smash4/Diddy%20Kong",
-        "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Diddy%20Kong.png",
-        "ThumbnailUrl": "",
-        "ColorTheme": "#E65445",
-        "DisplayName": "Diddy Kong",
-        "Links": [
-            {
-                "Rel": "self",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DiddyKong",
-                "Title": ""
-            },
-            {
-                "Rel": "moves",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DiddyKong/moves",
-                "Title": ""
-            },
-            {
-                "Rel": "characterattributes",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DiddyKong/characterattributes",
-                "Title": ""
-            },
-            {
-                "Rel": "movements",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DiddyKong/movements",
-                "Title": ""
-            }
-        ]
-    },
-    {
-        "InstanceId": "5966d7064696593050d27a64",
-        "Name": "DonkeyKong",
-        "OwnerId": 10,
-        "FullUrl": "http://kuroganehammer.com/Smash4/Donkey%20Kong",
-        "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/DK.png",
-        "ThumbnailUrl": "",
-        "ColorTheme": "#E6D91C",
-        "DisplayName": "Donkey Kong",
-        "Links": [
-            {
-                "Rel": "self",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DonkeyKong",
-                "Title": ""
-            },
-            {
-                "Rel": "moves",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DonkeyKong/moves",
-                "Title": ""
-            },
-            {
-                "Rel": "characterattributes",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DonkeyKong/characterattributes",
-                "Title": ""
-            },
-            {
-                "Rel": "movements",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DonkeyKong/movements",
-                "Title": ""
-            }
-        ]
-    },
-    {
-        "InstanceId": "5966d7094696593050d27ab1",
-        "Name": "DrMario",
-        "OwnerId": 11,
-        "FullUrl": "http://kuroganehammer.com/Smash4/Dr.%20Mario",
-        "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Dr.%20Mario.png",
-        "ThumbnailUrl": "",
-        "ColorTheme": "#DF4557",
-        "DisplayName": "Dr. Mario",
-        "Links": [
-            {
-                "Rel": "self",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DrMario",
-                "Title": ""
-            },
-            {
-                "Rel": "moves",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DrMario/moves",
-                "Title": ""
-            },
-            {
-                "Rel": "characterattributes",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DrMario/characterattributes",
-                "Title": ""
-            },
-            {
-                "Rel": "movements",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DrMario/movements",
-                "Title": ""
-            }
-        ]
-    },
-    {
-        "InstanceId": "5966d70c4696593050d27af6",
-        "Name": "DuckHunt",
-        "OwnerId": 12,
-        "FullUrl": "http://kuroganehammer.com/Smash4/Duck%20Hunt",
-        "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Duck%20Hunt.png",
-        "ThumbnailUrl": "",
-        "ColorTheme": "#814520",
-        "DisplayName": "Duck Hunt",
-        "Links": [
-            {
-                "Rel": "self",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DuckHunt",
-                "Title": ""
-            },
-            {
-                "Rel": "moves",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DuckHunt/moves",
-                "Title": ""
-            },
-            {
-                "Rel": "characterattributes",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DuckHunt/characterattributes",
-                "Title": ""
-            },
-            {
-                "Rel": "movements",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DuckHunt/movements",
-                "Title": ""
-            }
-        ]
-    },
-    {
-        "InstanceId": "5966d70f4696593050d27b43",
-        "Name": "Falco",
-        "OwnerId": 13,
-        "FullUrl": "http://kuroganehammer.com/Smash4/Falco",
-        "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Falco.png",
-        "ThumbnailUrl": "http://kuroganehammer.com/Smash4/character/character-falco.png",
-        "ColorTheme": "#23A6D0",
-        "DisplayName": "Falco",
-        "Links": [
-            {
-                "Rel": "self",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Falco",
-                "Title": ""
-            },
-            {
-                "Rel": "moves",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Falco/moves",
-                "Title": ""
-            },
-            {
-                "Rel": "characterattributes",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Falco/characterattributes",
-                "Title": ""
-            },
-            {
-                "Rel": "movements",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Falco/movements",
-                "Title": ""
-            }
-        ]
-    },
-    {
-        "InstanceId": "5966d7114696593050d27b96",
-        "Name": "Fox",
-        "OwnerId": 14,
-        "FullUrl": "http://kuroganehammer.com/Smash4/Fox",
-        "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Fox.png",
-        "ThumbnailUrl": "http://kuroganehammer.com/Smash4/character/character-fox.png",
-        "ColorTheme": "#205ACB",
-        "DisplayName": "Fox",
-        "Links": [
-            {
-                "Rel": "self",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Fox",
-                "Title": ""
-            },
-            {
-                "Rel": "moves",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Fox/moves",
-                "Title": ""
-            },
-            {
-                "Rel": "characterattributes",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Fox/characterattributes",
-                "Title": ""
-            },
-            {
-                "Rel": "movements",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Fox/movements",
-                "Title": ""
-            }
-        ]
-    },
-    {
-        "InstanceId": "5966d7144696593050d27bec",
-        "Name": "Ganondorf",
-        "OwnerId": 15,
-        "FullUrl": "http://kuroganehammer.com/Smash4/Ganondorf",
-        "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Ganondorf.png",
-        "ThumbnailUrl": "http://kuroganehammer.com/Smash4/character/character-ganondorf.png",
-        "ColorTheme": "#7A6B93",
-        "DisplayName": "Ganondorf",
-        "Links": [
-            {
-                "Rel": "self",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ganondorf",
-                "Title": ""
-            },
-            {
-                "Rel": "moves",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ganondorf/moves",
-                "Title": ""
-            },
-            {
-                "Rel": "characterattributes",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ganondorf/characterattributes",
-                "Title": ""
-            },
-            {
-                "Rel": "movements",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ganondorf/movements",
-                "Title": ""
-            }
-        ]
-    },
-    {
-        "InstanceId": "5966d7174696593050d27c3f",
-        "Name": "Greninja",
-        "OwnerId": 16,
-        "FullUrl": "http://kuroganehammer.com/Smash4/Greninja",
-        "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Greninja.png",
-        "ThumbnailUrl": "http://kuroganehammer.com/Smash4/character/character-gekkouga.png",
-        "ColorTheme": "#345193",
-        "DisplayName": "Greninja",
-        "Links": [
-            {
-                "Rel": "self",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Greninja",
-                "Title": ""
-            },
-            {
-                "Rel": "moves",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Greninja/moves",
-                "Title": ""
-            },
-            {
-                "Rel": "characterattributes",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Greninja/characterattributes",
-                "Title": ""
-            },
-            {
-                "Rel": "movements",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Greninja/movements",
-                "Title": ""
-            }
-        ]
-    },
-    {
-        "InstanceId": "5966d7194696593050d27c95",
-        "Name": "Ike",
-        "OwnerId": 17,
-        "FullUrl": "http://kuroganehammer.com/Smash4/Ike",
-        "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Ike.png",
-        "ThumbnailUrl": "http://kuroganehammer.com/Smash4/character/character-ike.png",
-        "ColorTheme": "#C73F31",
-        "DisplayName": "Ike",
-        "Links": [
-            {
-                "Rel": "self",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ike",
-                "Title": ""
-            },
-            {
-                "Rel": "moves",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ike/moves",
-                "Title": ""
-            },
-            {
-                "Rel": "characterattributes",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ike/characterattributes",
-                "Title": ""
-            },
-            {
-                "Rel": "movements",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ike/movements",
-                "Title": ""
-            }
-        ]
-    },
-    {
-        "InstanceId": "5966d71c4696593050d27cec",
-        "Name": "Jigglypuff",
-        "OwnerId": 18,
-        "FullUrl": "http://kuroganehammer.com/Smash4/Jigglypuff",
-        "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Jigglypuff.png",
-        "ThumbnailUrl": "http://kuroganehammer.com/Smash4/character/character-purin.png",
-        "ColorTheme": "#E581E0",
-        "DisplayName": "Jigglypuff",
-        "Links": [
-            {
-                "Rel": "self",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Jigglypuff",
-                "Title": ""
-            },
-            {
-                "Rel": "moves",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Jigglypuff/moves",
-                "Title": ""
-            },
-            {
-                "Rel": "characterattributes",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Jigglypuff/characterattributes",
-                "Title": ""
-            },
-            {
-                "Rel": "movements",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Jigglypuff/movements",
-                "Title": ""
-            }
-        ]
-    },
-    {
-        "InstanceId": "5966d71f4696593050d27d34",
-        "Name": "KingDedede",
-        "OwnerId": 19,
-        "FullUrl": "http://kuroganehammer.com/Smash4/King%20Dedede",
-        "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Dedede.png",
-        "ThumbnailUrl": "",
-        "ColorTheme": "#E9CF79",
-        "DisplayName": "King Dedede",
-        "Links": [
-            {
-                "Rel": "self",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/KingDedede",
-                "Title": ""
-            },
-            {
-                "Rel": "moves",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/KingDedede/moves",
-                "Title": ""
-            },
-            {
-                "Rel": "characterattributes",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/KingDedede/characterattributes",
-                "Title": ""
-            },
-            {
-                "Rel": "movements",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/KingDedede/movements",
-                "Title": ""
-            }
-        ]
-    },
-    {
-        "InstanceId": "5966d7214696593050d27d86",
-        "Name": "Kirby",
-        "OwnerId": 20,
-        "FullUrl": "http://kuroganehammer.com/Smash4/Kirby",
-        "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Kirby.png",
-        "ThumbnailUrl": "http://kuroganehammer.com/Smash4/character/character-kirby.png",
-        "ColorTheme": "#E4C5C7",
-        "DisplayName": "Kirby",
-        "Links": [
-            {
-                "Rel": "self",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Kirby",
-                "Title": ""
-            },
-            {
-                "Rel": "moves",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Kirby/moves",
-                "Title": ""
-            },
-            {
-                "Rel": "characterattributes",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Kirby/characterattributes",
-                "Title": ""
-            },
-            {
-                "Rel": "movements",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Kirby/movements",
-                "Title": ""
-            }
-        ]
-    },
-    {
-        "InstanceId": "5966d7244696593050d27de4",
-        "Name": "Link",
-        "OwnerId": 21,
-        "FullUrl": "http://kuroganehammer.com/Smash4/Link",
-        "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Link.png",
-        "ThumbnailUrl": "http://kuroganehammer.com/Smash4/character/character-link.png",
-        "ColorTheme": "#C7D34B",
-        "DisplayName": "Link",
-        "Links": [
-            {
-                "Rel": "self",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Link",
-                "Title": ""
-            },
-            {
-                "Rel": "moves",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Link/moves",
-                "Title": ""
-            },
-            {
-                "Rel": "characterattributes",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Link/characterattributes",
-                "Title": ""
-            },
-            {
-                "Rel": "movements",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Link/movements",
-                "Title": ""
-            }
-        ]
-    },
-    {
-        "InstanceId": "5966d7264696593050d27e43",
-        "Name": "LittleMac",
-        "OwnerId": 22,
-        "FullUrl": "http://kuroganehammer.com/Smash4/Little%20Mac",
-        "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Little Mac.png",
-        "ThumbnailUrl": "http://kuroganehammer.com/Smash4/character/character-little_mac.png",
-        "ColorTheme": "#2A7D51",
-        "DisplayName": "Little Mac",
-        "Links": [
-            {
-                "Rel": "self",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/LittleMac",
-                "Title": ""
-            },
-            {
-                "Rel": "moves",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/LittleMac/moves",
-                "Title": ""
-            },
-            {
-                "Rel": "characterattributes",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/LittleMac/characterattributes",
-                "Title": ""
-            },
-            {
-                "Rel": "movements",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/LittleMac/movements",
-                "Title": ""
-            }
-        ]
-    },
-    {
-        "InstanceId": "5966d7294696593050d27e9a",
-        "Name": "Lucario",
-        "OwnerId": 23,
-        "FullUrl": "http://kuroganehammer.com/Smash4/Lucario",
-        "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Lucario.png",
-        "ThumbnailUrl": "http://kuroganehammer.com/Smash4/character/character-lucario.png",
-        "ColorTheme": "#A8D6E4",
-        "DisplayName": "Lucario",
-        "Links": [
-            {
-                "Rel": "self",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucario",
-                "Title": ""
-            },
-            {
-                "Rel": "moves",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucario/moves",
-                "Title": ""
-            },
-            {
-                "Rel": "characterattributes",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucario/characterattributes",
-                "Title": ""
-            },
-            {
-                "Rel": "movements",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucario/movements",
-                "Title": ""
-            }
-        ]
-    },
-    {
-        "InstanceId": "5966d72c4696593050d27ee6",
-        "Name": "Lucas",
-        "OwnerId": 24,
-        "FullUrl": "http://kuroganehammer.com/Smash4/Lucas",
-        "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Lucas.png",
-        "ThumbnailUrl": "http://kuroganehammer.com/Smash4/http://i.imgur.com/bcDEunC.png",
-        "ColorTheme": "#E66B1C",
-        "DisplayName": "Lucas",
-        "Links": [
-            {
-                "Rel": "self",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucas",
-                "Title": ""
-            },
-            {
-                "Rel": "moves",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucas/moves",
-                "Title": ""
-            },
-            {
-                "Rel": "characterattributes",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucas/characterattributes",
-                "Title": ""
-            },
-            {
-                "Rel": "movements",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucas/movements",
-                "Title": ""
-            }
-        ]
-    },
-    {
-        "InstanceId": "5966d72e4696593050d27f3b",
-        "Name": "Lucina",
-        "OwnerId": 25,
-        "FullUrl": "http://kuroganehammer.com/Smash4/Lucina",
-        "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Lucina.png",
-        "ThumbnailUrl": "http://kuroganehammer.com/Smash4/character/character-lucina.png",
-        "ColorTheme": "#4B89B8",
-        "DisplayName": "Lucina",
-        "Links": [
-            {
-                "Rel": "self",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucina",
-                "Title": ""
-            },
-            {
-                "Rel": "moves",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucina/moves",
-                "Title": ""
-            },
-            {
-                "Rel": "characterattributes",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucina/characterattributes",
-                "Title": ""
-            },
-            {
-                "Rel": "movements",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucina/movements",
-                "Title": ""
-            }
-        ]
-    },
-    {
-        "InstanceId": "5966d7314696593050d27f8f",
-        "Name": "Luigi",
-        "OwnerId": 26,
-        "FullUrl": "http://kuroganehammer.com/Smash4/Luigi",
-        "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Luigi.png",
-        "ThumbnailUrl": "http://kuroganehammer.com/Smash4/character/character-luigi.png",
-        "ColorTheme": "#45B834",
-        "DisplayName": "Luigi",
-        "Links": [
-            {
-                "Rel": "self",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Luigi",
-                "Title": ""
-            },
-            {
-                "Rel": "moves",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Luigi/moves",
-                "Title": ""
-            },
-            {
-                "Rel": "characterattributes",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Luigi/characterattributes",
-                "Title": ""
-            },
-            {
-                "Rel": "movements",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Luigi/movements",
-                "Title": ""
-            }
-        ]
-    },
-    {
-        "InstanceId": "5966d7334696593050d27fe1",
-        "Name": "Mario",
-        "OwnerId": 27,
-        "FullUrl": "http://kuroganehammer.com/Smash4/Mario",
-        "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Mario.png",
-        "ThumbnailUrl": "http://kuroganehammer.com/Smash4/character/character-mario.png",
-        "ColorTheme": "#DF3F45",
-        "DisplayName": "Mario",
-        "Links": [
-            {
-                "Rel": "self",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Mario",
-                "Title": ""
-            },
-            {
-                "Rel": "moves",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Mario/moves",
-                "Title": ""
-            },
-            {
-                "Rel": "characterattributes",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Mario/characterattributes",
-                "Title": ""
-            },
-            {
-                "Rel": "movements",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Mario/movements",
-                "Title": ""
-            }
-        ]
-    },
-    {
-        "InstanceId": "5966d7364696593050d28032",
-        "Name": "Marth",
-        "OwnerId": 28,
-        "FullUrl": "http://kuroganehammer.com/Smash4/Marth",
-        "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Marth.png",
-        "ThumbnailUrl": "http://kuroganehammer.com/Smash4/character/character-marth.png",
-        "ColorTheme": "#2CA3C7",
-        "DisplayName": "Marth",
-        "Links": [
-            {
-                "Rel": "self",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Marth",
-                "Title": ""
-            },
-            {
-                "Rel": "moves",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Marth/moves",
-                "Title": ""
-            },
-            {
-                "Rel": "characterattributes",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Marth/characterattributes",
-                "Title": ""
-            },
-            {
-                "Rel": "movements",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Marth/movements",
-                "Title": ""
-            }
-        ]
-    },
-    {
-        "InstanceId": "5966d7384696593050d28086",
-        "Name": "MegaMan",
-        "OwnerId": 29,
-        "FullUrl": "http://kuroganehammer.com/Smash4/Mega%20Man",
-        "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Mega%20Man.png",
-        "ThumbnailUrl": "",
-        "ColorTheme": "#61B8D3",
-        "DisplayName": "Mega Man",
-        "Links": [
-            {
-                "Rel": "self",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MegaMan",
-                "Title": ""
-            },
-            {
-                "Rel": "moves",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MegaMan/moves",
-                "Title": ""
-            },
-            {
-                "Rel": "characterattributes",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MegaMan/characterattributes",
-                "Title": ""
-            },
-            {
-                "Rel": "movements",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MegaMan/movements",
-                "Title": ""
-            }
-        ]
-    },
-    {
-        "InstanceId": "5966d73b4696593050d280eb",
-        "Name": "MetaKnight",
-        "OwnerId": 30,
-        "FullUrl": "http://kuroganehammer.com/Smash4/Meta%20Knight",
-        "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Meta%20Knight.png",
-        "ThumbnailUrl": "http://kuroganehammer.com/Smash4/character/character-metaknight.png",
-        "ColorTheme": "#344585",
-        "DisplayName": "Meta Knight",
-        "Links": [
-            {
-                "Rel": "self",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MetaKnight",
-                "Title": ""
-            },
-            {
-                "Rel": "moves",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MetaKnight/moves",
-                "Title": ""
-            },
-            {
-                "Rel": "characterattributes",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MetaKnight/characterattributes",
-                "Title": ""
-            },
-            {
-                "Rel": "movements",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MetaKnight/movements",
-                "Title": ""
-            }
-        ]
-    },
-    {
-        "InstanceId": "5966d73d4696593050d2813e",
-        "Name": "Mewtwo",
-        "OwnerId": 31,
-        "FullUrl": "http://kuroganehammer.com/Smash4/Mewtwo",
-        "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Mewtwo.png",
-        "ThumbnailUrl": "http://kuroganehammer.com/Smash4/character/character-mewtwo.png",
-        "ColorTheme": "#9042D7",
-        "DisplayName": "Mewtwo",
-        "Links": [
-            {
-                "Rel": "self",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Mewtwo",
-                "Title": ""
-            },
-            {
-                "Rel": "moves",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Mewtwo/moves",
-                "Title": ""
-            },
-            {
-                "Rel": "characterattributes",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Mewtwo/characterattributes",
-                "Title": ""
-            },
-            {
-                "Rel": "movements",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Mewtwo/movements",
-                "Title": ""
-            }
-        ]
-    },
-    {
-        "InstanceId": "5966d7404696593050d28187",
-        "Name": "MiiSwordfighter",
-        "OwnerId": 34,
-        "FullUrl": "http://kuroganehammer.com/Smash4/Mii%20Swordfighter",
-        "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Mii%20Swordfighter.png",
-        "ThumbnailUrl": "http://kuroganehammer.com/Smash4/character/character-mii_fighter.png",
-        "ColorTheme": "#1EB3D5",
-        "DisplayName": "Mii Swordfighter",
-        "Links": [
-            {
-                "Rel": "self",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter",
-                "Title": ""
-            },
-            {
-                "Rel": "moves",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter/moves",
-                "Title": ""
-            },
-            {
-                "Rel": "characterattributes",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter/characterattributes",
-                "Title": ""
-            },
-            {
-                "Rel": "movements",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter/movements",
-                "Title": ""
-            }
-        ]
-    },
-    {
-        "InstanceId": "5966d7444696593050d281ef",
-        "Name": "MiiBrawler",
-        "OwnerId": 32,
-        "FullUrl": "http://kuroganehammer.com/Smash4/Mii%20Brawler",
-        "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Mii%20Brawler.png",
-        "ThumbnailUrl": "http://kuroganehammer.com/Smash4/character/character-mii_fighter.png",
-        "ColorTheme": "#1EB3D5",
-        "DisplayName": "Mii Brawler",
-        "Links": [
-            {
-                "Rel": "self",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiBrawler",
-                "Title": ""
-            },
-            {
-                "Rel": "moves",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiBrawler/moves",
-                "Title": ""
-            },
-            {
-                "Rel": "characterattributes",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiBrawler/characterattributes",
-                "Title": ""
-            },
-            {
-                "Rel": "movements",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiBrawler/movements",
-                "Title": ""
-            }
-        ]
-    },
-    {
-        "InstanceId": "5966d7464696593050d2825a",
-        "Name": "MiiGunner",
-        "OwnerId": 33,
-        "FullUrl": "http://kuroganehammer.com/Smash4/Mii%20Gunner",
-        "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Mii%20Gunner.png",
-        "ThumbnailUrl": "http://kuroganehammer.com/Smash4/character/character-mii_fighter.png",
-        "ColorTheme": "#1EB3D5",
-        "DisplayName": "Mii Gunner",
-        "Links": [
-            {
-                "Rel": "self",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiGunner",
-                "Title": ""
-            },
-            {
-                "Rel": "moves",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiGunner/moves",
-                "Title": ""
-            },
-            {
-                "Rel": "characterattributes",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiGunner/characterattributes",
-                "Title": ""
-            },
-            {
-                "Rel": "movements",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiGunner/movements",
-                "Title": ""
-            }
-        ]
-    },
-    {
-        "InstanceId": "5966d7494696593050d282ab",
-        "Name": "MrGameWatch",
-        "OwnerId": 35,
-        "FullUrl": "http://kuroganehammer.com/Smash4/Game%20And%20Watch",
-        "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/GameWatch.png",
-        "ThumbnailUrl": "http://kuroganehammer.com/Smash4/character/character-game_and_watch.png",
-        "ColorTheme": "#A3A089",
-        "DisplayName": "Game & Watch",
-        "Links": [
-            {
-                "Rel": "self",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MrGameWatch",
-                "Title": ""
-            },
-            {
-                "Rel": "moves",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MrGameWatch/moves",
-                "Title": ""
-            },
-            {
-                "Rel": "characterattributes",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MrGameWatch/characterattributes",
-                "Title": ""
-            },
-            {
-                "Rel": "movements",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MrGameWatch/movements",
-                "Title": ""
-            }
-        ]
-    },
-    {
-        "InstanceId": "5966d74b4696593050d282fe",
-        "Name": "Ness",
-        "OwnerId": 36,
-        "FullUrl": "http://kuroganehammer.com/Smash4/Ness",
-        "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Ness.png",
-        "ThumbnailUrl": "http://kuroganehammer.com/Smash4/character/character-ness.png",
-        "ColorTheme": "#E42020",
-        "DisplayName": "Ness",
-        "Links": [
-            {
-                "Rel": "self",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ness",
-                "Title": ""
-            },
-            {
-                "Rel": "moves",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ness/moves",
-                "Title": ""
-            },
-            {
-                "Rel": "characterattributes",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ness/characterattributes",
-                "Title": ""
-            },
-            {
-                "Rel": "movements",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ness/movements",
-                "Title": ""
-            }
-        ]
-    },
-    {
-        "InstanceId": "5966d74e4696593050d28351",
-        "Name": "Olimar",
-        "OwnerId": 37,
-        "FullUrl": "http://kuroganehammer.com/Smash4/Olimar",
-        "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Olimar.png",
-        "ThumbnailUrl": "http://kuroganehammer.com/Smash4/character/character-pikmin.png",
-        "ColorTheme": "#CEE590",
-        "DisplayName": "Olimar",
-        "Links": [
-            {
-                "Rel": "self",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Olimar",
-                "Title": ""
-            },
-            {
-                "Rel": "moves",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Olimar/moves",
-                "Title": ""
-            },
-            {
-                "Rel": "characterattributes",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Olimar/characterattributes",
-                "Title": ""
-            },
-            {
-                "Rel": "movements",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Olimar/movements",
-                "Title": ""
-            }
-        ]
-    },
-    {
-        "InstanceId": "5966d7504696593050d2839b",
-        "Name": "PAC-MAN",
-        "OwnerId": 38,
-        "FullUrl": "http://kuroganehammer.com/Smash4/PAC-MAN",
-        "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/PAC-MAN.png",
-        "ThumbnailUrl": "http://kuroganehammer.com/Smash4/character/character-pac-man.png",
-        "ColorTheme": "#DD9F22",
-        "DisplayName": "PAC-MAN",
-        "Links": [
-            {
-                "Rel": "self",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/PAC-MAN",
-                "Title": ""
-            },
-            {
-                "Rel": "moves",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/PAC-MAN/moves",
-                "Title": ""
-            },
-            {
-                "Rel": "characterattributes",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/PAC-MAN/characterattributes",
-                "Title": ""
-            },
-            {
-                "Rel": "movements",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/PAC-MAN/movements",
-                "Title": ""
-            }
-        ]
-    },
-    {
-        "InstanceId": "5966d7534696593050d283f7",
-        "Name": "Palutena",
-        "OwnerId": 39,
-        "FullUrl": "http://kuroganehammer.com/Smash4/Palutena",
-        "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Palutena.png",
-        "ThumbnailUrl": "http://kuroganehammer.com/Smash4/character/character-palutena.png",
-        "ColorTheme": "#42E2B8",
-        "DisplayName": "Palutena",
-        "Links": [
-            {
-                "Rel": "self",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Palutena",
-                "Title": ""
-            },
-            {
-                "Rel": "moves",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Palutena/moves",
-                "Title": ""
-            },
-            {
-                "Rel": "characterattributes",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Palutena/characterattributes",
-                "Title": ""
-            },
-            {
-                "Rel": "movements",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Palutena/movements",
-                "Title": ""
-            }
-        ]
-    },
-    {
-        "InstanceId": "5966d7554696593050d28444",
-        "Name": "Peach",
-        "OwnerId": 40,
-        "FullUrl": "http://kuroganehammer.com/Smash4/Peach",
-        "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Peach.png",
-        "ThumbnailUrl": "http://kuroganehammer.com/Smash4/character/character-peach.png",
-        "ColorTheme": "#E4BDD6",
-        "DisplayName": "Peach",
-        "Links": [
-            {
-                "Rel": "self",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Peach",
-                "Title": ""
-            },
-            {
-                "Rel": "moves",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Peach/moves",
-                "Title": ""
-            },
-            {
-                "Rel": "characterattributes",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Peach/characterattributes",
-                "Title": ""
-            },
-            {
-                "Rel": "movements",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Peach/movements",
-                "Title": ""
-            }
-        ]
-    },
-    {
-        "InstanceId": "5966d7584696593050d28497",
-        "Name": "Pikachu",
-        "OwnerId": 41,
-        "FullUrl": "http://kuroganehammer.com/Smash4/Pikachu",
-        "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Pikachu.png",
-        "ThumbnailUrl": "http://kuroganehammer.com/Smash4/character/character-pikachu.png",
-        "ColorTheme": "#E6BB1C",
-        "DisplayName": "Pikachu",
-        "Links": [
-            {
-                "Rel": "self",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Pikachu",
-                "Title": ""
-            },
-            {
-                "Rel": "moves",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Pikachu/moves",
-                "Title": ""
-            },
-            {
-                "Rel": "characterattributes",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Pikachu/characterattributes",
-                "Title": ""
-            },
-            {
-                "Rel": "movements",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Pikachu/movements",
-                "Title": ""
-            }
-        ]
-    },
-    {
-        "InstanceId": "5966d75a4696593050d284ea",
-        "Name": "Pit",
-        "OwnerId": 42,
-        "FullUrl": "http://kuroganehammer.com/Smash4/Pit",
-        "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Pit.png",
-        "ThumbnailUrl": "http://kuroganehammer.com/Smash4/character/character-pit.png",
-        "ColorTheme": "#5EB1CE",
-        "DisplayName": "Pit",
-        "Links": [
-            {
-                "Rel": "self",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Pit",
-                "Title": ""
-            },
-            {
-                "Rel": "moves",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Pit/moves",
-                "Title": ""
-            },
-            {
-                "Rel": "characterattributes",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Pit/characterattributes",
-                "Title": ""
-            },
-            {
-                "Rel": "movements",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Pit/movements",
-                "Title": ""
-            }
-        ]
-    },
-    {
-        "InstanceId": "5966d75d4696593050d2853f",
-        "Name": "Rob",
-        "OwnerId": 43,
-        "FullUrl": "http://kuroganehammer.com/Smash4/R.O.B",
-        "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/ROB.png",
-        "ThumbnailUrl": "http://kuroganehammer.com/Smash4/character/character-rob.png",
-        "ColorTheme": "#B1B3B8",
-        "DisplayName": "R.O.B.",
-        "Links": [
-            {
-                "Rel": "self",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Rob",
-                "Title": ""
-            },
-            {
-                "Rel": "moves",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Rob/moves",
-                "Title": ""
-            },
-            {
-                "Rel": "characterattributes",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Rob/characterattributes",
-                "Title": ""
-            },
-            {
-                "Rel": "movements",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Rob/movements",
-                "Title": ""
-            }
-        ]
-    },
-    {
-        "InstanceId": "5966d7604696593050d2858d",
-        "Name": "Robin",
-        "OwnerId": 44,
-        "FullUrl": "http://kuroganehammer.com/Smash4/Robin",
-        "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Robin.png",
-        "ThumbnailUrl": "http://kuroganehammer.com/Smash4/character/character-reflet.png",
-        "ColorTheme": "#CC6ED3",
-        "DisplayName": "Robin",
-        "Links": [
-            {
-                "Rel": "self",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Robin",
-                "Title": ""
-            },
-            {
-                "Rel": "moves",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Robin/moves",
-                "Title": ""
-            },
-            {
-                "Rel": "characterattributes",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Robin/characterattributes",
-                "Title": ""
-            },
-            {
-                "Rel": "movements",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Robin/movements",
-                "Title": ""
-            }
-        ]
-    },
-    {
-        "InstanceId": "5966d7634696593050d285f0",
-        "Name": "RosalinaLuma",
-        "OwnerId": 45,
-        "FullUrl": "http://kuroganehammer.com/Smash4/Rosalina%20And%20Luma",
-        "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Rosalina.png",
-        "ThumbnailUrl": "",
-        "ColorTheme": "#1CE6DD",
-        "DisplayName": "Rosalina & Luma",
-        "Links": [
-            {
-                "Rel": "self",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/RosalinaLuma",
-                "Title": ""
-            },
-            {
-                "Rel": "moves",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/RosalinaLuma/moves",
-                "Title": ""
-            },
-            {
-                "Rel": "characterattributes",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/RosalinaLuma/characterattributes",
-                "Title": ""
-            },
-            {
-                "Rel": "movements",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/RosalinaLuma/movements",
-                "Title": ""
-            }
-        ]
-    },
-    {
-        "InstanceId": "5966d7654696593050d28650",
-        "Name": "Roy",
-        "OwnerId": 46,
-        "FullUrl": "http://kuroganehammer.com/Smash4/Roy",
-        "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Roy.png",
-        "ThumbnailUrl": "http://kuroganehammer.com/Smash4/character/character-roy.png",
-        "ColorTheme": "#6FE448",
-        "DisplayName": "Roy",
-        "Links": [
-            {
-                "Rel": "self",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Roy",
-                "Title": ""
-            },
-            {
-                "Rel": "moves",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Roy/moves",
-                "Title": ""
-            },
-            {
-                "Rel": "characterattributes",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Roy/characterattributes",
-                "Title": ""
-            },
-            {
-                "Rel": "movements",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Roy/movements",
-                "Title": ""
-            }
-        ]
-    },
-    {
-        "InstanceId": "5966d7684696593050d286a9",
-        "Name": "Ryu",
-        "OwnerId": 47,
-        "FullUrl": "http://kuroganehammer.com/Smash4/Ryu",
-        "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Ryu.png",
-        "ThumbnailUrl": "http://kuroganehammer.com/Smash4/character/character-ryu.png",
-        "ColorTheme": "#D73434",
-        "DisplayName": "Ryu",
-        "Links": [
-            {
-                "Rel": "self",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ryu",
-                "Title": ""
-            },
-            {
-                "Rel": "moves",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ryu/moves",
-                "Title": ""
-            },
-            {
-                "Rel": "characterattributes",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ryu/characterattributes",
-                "Title": ""
-            },
-            {
-                "Rel": "movements",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ryu/movements",
-                "Title": ""
-            }
-        ]
-    },
-    {
-        "InstanceId": "5966d76b4696593050d2870e",
-        "Name": "Samus",
-        "OwnerId": 48,
-        "FullUrl": "http://kuroganehammer.com/Smash4/Samus",
-        "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Samus.png",
-        "ThumbnailUrl": "http://kuroganehammer.com/Smash4/character/character-samus.png",
-        "ColorTheme": "#2A3F57",
-        "DisplayName": "Samus",
-        "Links": [
-            {
-                "Rel": "self",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Samus",
-                "Title": ""
-            },
-            {
-                "Rel": "moves",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Samus/moves",
-                "Title": ""
-            },
-            {
-                "Rel": "characterattributes",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Samus/characterattributes",
-                "Title": ""
-            },
-            {
-                "Rel": "movements",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Samus/movements",
-                "Title": ""
-            }
-        ]
-    },
-    {
-        "InstanceId": "5966d76e4696593050d2876e",
-        "Name": "Sheik",
-        "OwnerId": 49,
-        "FullUrl": "http://kuroganehammer.com/Smash4/Sheik",
-        "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Sheik.png",
-        "ThumbnailUrl": "http://kuroganehammer.com/Smash4/character/character-sheik.png",
-        "ColorTheme": "#8168D7",
-        "DisplayName": "Sheik",
-        "Links": [
-            {
-                "Rel": "self",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sheik",
-                "Title": ""
-            },
-            {
-                "Rel": "moves",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sheik/moves",
-                "Title": ""
-            },
-            {
-                "Rel": "characterattributes",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sheik/characterattributes",
-                "Title": ""
-            },
-            {
-                "Rel": "movements",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sheik/movements",
-                "Title": ""
-            }
-        ]
-    },
-    {
-        "InstanceId": "5966d7714696593050d287c2",
-        "Name": "Shulk",
-        "OwnerId": 50,
-        "FullUrl": "http://kuroganehammer.com/Smash4/Shulk",
-        "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Shulk.png",
-        "ThumbnailUrl": "http://kuroganehammer.com/Smash4/character/character-shulk.png",
-        "ColorTheme": "#DC5A6F",
-        "DisplayName": "Shulk",
-        "Links": [
-            {
-                "Rel": "self",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Shulk",
-                "Title": ""
-            },
-            {
-                "Rel": "moves",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Shulk/moves",
-                "Title": ""
-            },
-            {
-                "Rel": "characterattributes",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Shulk/characterattributes",
-                "Title": ""
-            },
-            {
-                "Rel": "movements",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Shulk/movements",
-                "Title": ""
-            }
-        ]
-    },
-    {
-        "InstanceId": "5966d7734696593050d28821",
-        "Name": "Sonic",
-        "OwnerId": 51,
-        "FullUrl": "http://kuroganehammer.com/Smash4/Sonic",
-        "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Sonic.png",
-        "ThumbnailUrl": "http://kuroganehammer.com/Smash4/character/character-sonic.png",
-        "ColorTheme": "#2793E4",
-        "DisplayName": "Sonic",
-        "Links": [
-            {
-                "Rel": "self",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sonic",
-                "Title": ""
-            },
-            {
-                "Rel": "moves",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sonic/moves",
-                "Title": ""
-            },
-            {
-                "Rel": "characterattributes",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sonic/characterattributes",
-                "Title": ""
-            },
-            {
-                "Rel": "movements",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sonic/movements",
-                "Title": ""
-            }
-        ]
-    },
-    {
-        "InstanceId": "5966d7764696593050d28872",
-        "Name": "ToonLink",
-        "OwnerId": 52,
-        "FullUrl": "http://kuroganehammer.com/Smash4/Toon%20Link",
-        "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Toon%20Link.png",
-        "ThumbnailUrl": "",
-        "ColorTheme": "#9ABC63",
-        "DisplayName": "Toon Link",
-        "Links": [
-            {
-                "Rel": "self",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/ToonLink",
-                "Title": ""
-            },
-            {
-                "Rel": "moves",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/ToonLink/moves",
-                "Title": ""
-            },
-          {
-            "Rel": "characterattributes",
-            "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/ToonLink/characterattributes",
-            "Title": ""
-          },
-            {
-                "Rel": "movements",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/ToonLink/movements",
-                "Title": ""
-            }
-        ]
-    },
-    {
-        "InstanceId": "5966d7794696593050d288ba",
-        "Name": "Villager",
-        "OwnerId": 53,
-        "FullUrl": "http://kuroganehammer.com/Smash4/Villager",
-        "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Villager.png",
-        "ThumbnailUrl": "http://kuroganehammer.com/Smash4/character/character-murabito.png",
-        "ColorTheme": "#4EBD76",
-        "DisplayName": "Villager",
-        "Links": [
-            {
-                "Rel": "self",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager",
-                "Title": ""
-            },
-            {
-                "Rel": "moves",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager/moves",
-                "Title": ""
-            },
-            {
-                "Rel": "characterattributes",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager/characterattributes",
-                "Title": ""
-            },
-            {
-                "Rel": "movements",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager/movements",
-                "Title": ""
-            }
-        ]
-    },
-    {
-        "InstanceId": "5966d77b4696593050d2891b",
-        "Name": "Wario",
-        "OwnerId": 54,
-        "FullUrl": "http://kuroganehammer.com/Smash4/Wario",
-        "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Wario.png",
-        "ThumbnailUrl": "http://kuroganehammer.com/Smash4/character/character-wario.png",
-        "ColorTheme": "#E2B71D",
-        "DisplayName": "Wario",
-        "Links": [
-            {
-                "Rel": "self",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Wario",
-                "Title": ""
-            },
-            {
-                "Rel": "moves",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Wario/moves",
-                "Title": ""
-            },
-            {
-                "Rel": "characterattributes",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Wario/characterattributes",
-                "Title": ""
-            },
-            {
-                "Rel": "movements",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Wario/movements",
-                "Title": ""
-            }
-        ]
-    },
-    {
-        "InstanceId": "5966d77e4696593050d2896d",
-        "Name": "WiiFitTrainer",
-        "OwnerId": 55,
-        "FullUrl": "http://kuroganehammer.com/Smash4/Wii%20Fit%20Trainer",
-        "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Wii%20Fit%20Trainer.png",
-        "ThumbnailUrl": "",
-        "ColorTheme": "#99DD76",
-        "DisplayName": "Wii Fit Trainer",
-        "Links": [
-            {
-                "Rel": "self",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/WiiFitTrainer",
-                "Title": ""
-            },
-            {
-                "Rel": "moves",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/WiiFitTrainer/moves",
-                "Title": ""
-            },
-            {
-                "Rel": "characterattributes",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/WiiFitTrainer/characterattributes",
-                "Title": ""
-            },
-            {
-                "Rel": "movements",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/WiiFitTrainer/movements",
-                "Title": ""
-            }
-        ]
-    },
-    {
-        "InstanceId": "5966d7804696593050d289ac",
-        "Name": "Yoshi",
-        "OwnerId": 56,
-        "FullUrl": "http://kuroganehammer.com/Smash4/Yoshi",
-        "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Yoshi.png",
-        "ThumbnailUrl": "http://kuroganehammer.com/Smash4/character/character-yoshi.png",
-        "ColorTheme": "#57D334",
-        "DisplayName": "Yoshi",
-        "Links": [
-            {
-                "Rel": "self",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Yoshi",
-                "Title": ""
-            },
-            {
-                "Rel": "moves",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Yoshi/moves",
-                "Title": ""
-            },
-            {
-                "Rel": "characterattributes",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Yoshi/characterattributes",
-                "Title": ""
-            },
-            {
-                "Rel": "movements",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Yoshi/movements",
-                "Title": ""
-            }
-        ]
-    },
-    {
-        "InstanceId": "5966d7834696593050d289f7",
-        "Name": "Zelda",
-        "OwnerId": 57,
-        "FullUrl": "http://kuroganehammer.com/Smash4/Zelda",
-        "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Zelda.png",
-        "ThumbnailUrl": "http://kuroganehammer.com/Smash4/character/character-zelda.png",
-        "ColorTheme": "#B16FB3",
-        "DisplayName": "Zelda",
-        "Links": [
-            {
-                "Rel": "self",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Zelda",
-                "Title": ""
-            },
-            {
-                "Rel": "moves",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Zelda/moves",
-                "Title": ""
-            },
-            {
-                "Rel": "characterattributes",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Zelda/characterattributes",
-                "Title": ""
-            },
-            {
-                "Rel": "movements",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Zelda/movements",
-                "Title": ""
-            }
-        ]
-    },
-    {
-        "InstanceId": "5966d7864696593050d28a45",
-        "Name": "ZeroSuitSamus",
-        "OwnerId": 58,
-        "FullUrl": "http://kuroganehammer.com/Smash4/Zero%20Suit%20Samus",
-        "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Zero%20Suit%20Samus.png",
-        "ThumbnailUrl": "",
-        "ColorTheme": "#1E42B1",
-        "DisplayName": "Zero Suit Samus",
-        "Links": [
-            {
-                "Rel": "self",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/ZeroSuitSamus",
-                "Title": ""
-            },
-            {
-                "Rel": "moves",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/ZeroSuitSamus/moves",
-                "Title": ""
-            },
-            {
-                "Rel": "characterattributes",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/ZeroSuitSamus/characterattributes",
-                "Title": ""
-            },
-            {
-                "Rel": "movements",
-                "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/ZeroSuitSamus/movements",
-                "Title": ""
-            }
-        ]
-    }
+  {
+    "InstanceId": "59812a844696593ccc99c111",
+    "Name": "Bayonetta",
+    "OwnerId": 1,
+    "FullUrl": "http://kuroganehammer.com/Smash4/Bayonetta",
+    "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Bayonetta.png",
+    "ThumbnailUrl": "http://kuroganehammer.com/Smash4/character/character-bayonetta3.png",
+    "ColorTheme": "#B396E2",
+    "DisplayName": "Bayonetta",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Bayonetta"
+      },
+      {
+        "Rel": "moves",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Bayonetta/moves"
+      },
+      {
+        "Rel": "characterattributes",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Bayonetta/characterattributes"
+      },
+      {
+        "Rel": "movements",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Bayonetta/movements"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812a884696593ccc99c17f",
+    "Name": "Bowser",
+    "OwnerId": 2,
+    "FullUrl": "http://kuroganehammer.com/Smash4/Bowser",
+    "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Bowser.png",
+    "ThumbnailUrl": "http://kuroganehammer.com/Smash4/character/character-koopa.png",
+    "ColorTheme": "#2F654B",
+    "DisplayName": "Bowser",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Bowser"
+      },
+      {
+        "Rel": "moves",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Bowser/moves"
+      },
+      {
+        "Rel": "characterattributes",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Bowser/characterattributes"
+      },
+      {
+        "Rel": "movements",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Bowser/movements"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812a8a4696593ccc99c1d8",
+    "Name": "BowserJr",
+    "OwnerId": 3,
+    "FullUrl": "http://kuroganehammer.com/Smash4/Bowser%20Jr",
+    "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Bowser%20Jr.png",
+    "ThumbnailUrl": "http://kuroganehammer.com/Smash4/character/character-bowser_jr.png",
+    "ColorTheme": "#CED327",
+    "DisplayName": "Bowser Jr",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/BowserJr"
+      },
+      {
+        "Rel": "moves",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/BowserJr/moves"
+      },
+      {
+        "Rel": "characterattributes",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/BowserJr/characterattributes"
+      },
+      {
+        "Rel": "movements",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/BowserJr/movements"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812a8d4696593ccc99c235",
+    "Name": "CaptainFalcon",
+    "OwnerId": 4,
+    "FullUrl": "http://kuroganehammer.com/Smash4/Captain%20Falcon",
+    "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Captain%20Falcon.png",
+    "ThumbnailUrl": "",
+    "ColorTheme": "#997DE6",
+    "DisplayName": "Captain Falcon",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/CaptainFalcon"
+      },
+      {
+        "Rel": "moves",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/CaptainFalcon/moves"
+      },
+      {
+        "Rel": "characterattributes",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/CaptainFalcon/characterattributes"
+      },
+      {
+        "Rel": "movements",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/CaptainFalcon/movements"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812a904696593ccc99c294",
+    "Name": "Charizard",
+    "OwnerId": 5,
+    "FullUrl": "http://kuroganehammer.com/Smash4/Charizard",
+    "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Charizard.png",
+    "ThumbnailUrl": "http://kuroganehammer.com/Smash4/character/character-lizardon.png",
+    "ColorTheme": "#E6571C",
+    "DisplayName": "Charizard",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Charizard"
+      },
+      {
+        "Rel": "moves",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Charizard/moves"
+      },
+      {
+        "Rel": "characterattributes",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Charizard/characterattributes"
+      },
+      {
+        "Rel": "movements",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Charizard/movements"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812a924696593ccc99c2e3",
+    "Name": "Cloud",
+    "OwnerId": 6,
+    "FullUrl": "http://kuroganehammer.com/Smash4/Cloud",
+    "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Cloud.png",
+    "ThumbnailUrl": "http://kuroganehammer.com/Smash4/character/character-cloud.png",
+    "ColorTheme": "#1E9989",
+    "DisplayName": "Cloud",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud"
+      },
+      {
+        "Rel": "moves",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud/moves"
+      },
+      {
+        "Rel": "characterattributes",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud/characterattributes"
+      },
+      {
+        "Rel": "movements",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud/movements"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812a954696593ccc99c35f",
+    "Name": "Corrin",
+    "OwnerId": 7,
+    "FullUrl": "http://kuroganehammer.com/Smash4/Corrin",
+    "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Corrin.png",
+    "ThumbnailUrl": "http://kuroganehammer.com/Smash4/character/character-corrin.png",
+    "ColorTheme": "#2CABC1",
+    "DisplayName": "Corrin",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Corrin"
+      },
+      {
+        "Rel": "moves",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Corrin/moves"
+      },
+      {
+        "Rel": "characterattributes",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Corrin/characterattributes"
+      },
+      {
+        "Rel": "movements",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Corrin/movements"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812a984696593ccc99c3be",
+    "Name": "DarkPit",
+    "OwnerId": 8,
+    "FullUrl": "http://kuroganehammer.com/Smash4/Dark%20Pit",
+    "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/DarkPit.png",
+    "ThumbnailUrl": "",
+    "ColorTheme": "#A334D3",
+    "DisplayName": "Dark Pit",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DarkPit"
+      },
+      {
+        "Rel": "moves",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DarkPit/moves"
+      },
+      {
+        "Rel": "characterattributes",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DarkPit/characterattributes"
+      },
+      {
+        "Rel": "movements",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DarkPit/movements"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812a9a4696593ccc99c416",
+    "Name": "DiddyKong",
+    "OwnerId": 9,
+    "FullUrl": "http://kuroganehammer.com/Smash4/Diddy%20Kong",
+    "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Diddy%20Kong.png",
+    "ThumbnailUrl": "",
+    "ColorTheme": "#E65445",
+    "DisplayName": "Diddy Kong",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DiddyKong"
+      },
+      {
+        "Rel": "moves",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DiddyKong/moves"
+      },
+      {
+        "Rel": "characterattributes",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DiddyKong/characterattributes"
+      },
+      {
+        "Rel": "movements",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DiddyKong/movements"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812a9d4696593ccc99c46e",
+    "Name": "DonkeyKong",
+    "OwnerId": 10,
+    "FullUrl": "http://kuroganehammer.com/Smash4/Donkey%20Kong",
+    "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/DK.png",
+    "ThumbnailUrl": "",
+    "ColorTheme": "#E6D91C",
+    "DisplayName": "Donkey Kong",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DonkeyKong"
+      },
+      {
+        "Rel": "moves",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DonkeyKong/moves"
+      },
+      {
+        "Rel": "characterattributes",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DonkeyKong/characterattributes"
+      },
+      {
+        "Rel": "movements",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DonkeyKong/movements"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812aa04696593ccc99c4cf",
+    "Name": "DrMario",
+    "OwnerId": 11,
+    "FullUrl": "http://kuroganehammer.com/Smash4/Dr.%20Mario",
+    "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Dr.%20Mario.png",
+    "ThumbnailUrl": "",
+    "ColorTheme": "#DF4557",
+    "DisplayName": "Dr. Mario",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DrMario"
+      },
+      {
+        "Rel": "moves",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DrMario/moves"
+      },
+      {
+        "Rel": "characterattributes",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DrMario/characterattributes"
+      },
+      {
+        "Rel": "movements",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DrMario/movements"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812aa34696593ccc99c523",
+    "Name": "DuckHunt",
+    "OwnerId": 12,
+    "FullUrl": "http://kuroganehammer.com/Smash4/Duck%20Hunt",
+    "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Duck%20Hunt.png",
+    "ThumbnailUrl": "",
+    "ColorTheme": "#814520",
+    "DisplayName": "Duck Hunt",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DuckHunt"
+      },
+      {
+        "Rel": "moves",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DuckHunt/moves"
+      },
+      {
+        "Rel": "characterattributes",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DuckHunt/characterattributes"
+      },
+      {
+        "Rel": "movements",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DuckHunt/movements"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812aa64696593ccc99c57e",
+    "Name": "Falco",
+    "OwnerId": 13,
+    "FullUrl": "http://kuroganehammer.com/Smash4/Falco",
+    "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Falco.png",
+    "ThumbnailUrl": "http://kuroganehammer.com/Smash4/character/character-falco.png",
+    "ColorTheme": "#23A6D0",
+    "DisplayName": "Falco",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Falco"
+      },
+      {
+        "Rel": "moves",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Falco/moves"
+      },
+      {
+        "Rel": "characterattributes",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Falco/characterattributes"
+      },
+      {
+        "Rel": "movements",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Falco/movements"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812aa84696593ccc99c5d4",
+    "Name": "Fox",
+    "OwnerId": 14,
+    "FullUrl": "http://kuroganehammer.com/Smash4/Fox",
+    "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Fox.png",
+    "ThumbnailUrl": "http://kuroganehammer.com/Smash4/character/character-fox.png",
+    "ColorTheme": "#205ACB",
+    "DisplayName": "Fox",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Fox"
+      },
+      {
+        "Rel": "moves",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Fox/moves"
+      },
+      {
+        "Rel": "characterattributes",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Fox/characterattributes"
+      },
+      {
+        "Rel": "movements",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Fox/movements"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812aab4696593ccc99c62d",
+    "Name": "Ganondorf",
+    "OwnerId": 15,
+    "FullUrl": "http://kuroganehammer.com/Smash4/Ganondorf",
+    "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Ganondorf.png",
+    "ThumbnailUrl": "http://kuroganehammer.com/Smash4/character/character-ganondorf.png",
+    "ColorTheme": "#7A6B93",
+    "DisplayName": "Ganondorf",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ganondorf"
+      },
+      {
+        "Rel": "moves",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ganondorf/moves"
+      },
+      {
+        "Rel": "characterattributes",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ganondorf/characterattributes"
+      },
+      {
+        "Rel": "movements",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ganondorf/movements"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812aae4696593ccc99c683",
+    "Name": "Greninja",
+    "OwnerId": 16,
+    "FullUrl": "http://kuroganehammer.com/Smash4/Greninja",
+    "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Greninja.png",
+    "ThumbnailUrl": "http://kuroganehammer.com/Smash4/character/character-gekkouga.png",
+    "ColorTheme": "#345193",
+    "DisplayName": "Greninja",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Greninja"
+      },
+      {
+        "Rel": "moves",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Greninja/moves"
+      },
+      {
+        "Rel": "characterattributes",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Greninja/characterattributes"
+      },
+      {
+        "Rel": "movements",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Greninja/movements"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812ab04696593ccc99c6dd",
+    "Name": "Ike",
+    "OwnerId": 17,
+    "FullUrl": "http://kuroganehammer.com/Smash4/Ike",
+    "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Ike.png",
+    "ThumbnailUrl": "http://kuroganehammer.com/Smash4/character/character-ike.png",
+    "ColorTheme": "#C73F31",
+    "DisplayName": "Ike",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ike"
+      },
+      {
+        "Rel": "moves",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ike/moves"
+      },
+      {
+        "Rel": "characterattributes",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ike/characterattributes"
+      },
+      {
+        "Rel": "movements",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ike/movements"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812ab34696593ccc99c737",
+    "Name": "Jigglypuff",
+    "OwnerId": 18,
+    "FullUrl": "http://kuroganehammer.com/Smash4/Jigglypuff",
+    "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Jigglypuff.png",
+    "ThumbnailUrl": "http://kuroganehammer.com/Smash4/character/character-purin.png",
+    "ColorTheme": "#E581E0",
+    "DisplayName": "Jigglypuff",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Jigglypuff"
+      },
+      {
+        "Rel": "moves",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Jigglypuff/moves"
+      },
+      {
+        "Rel": "characterattributes",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Jigglypuff/characterattributes"
+      },
+      {
+        "Rel": "movements",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Jigglypuff/movements"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812ab64696593ccc99c782",
+    "Name": "KingDedede",
+    "OwnerId": 19,
+    "FullUrl": "http://kuroganehammer.com/Smash4/King%20Dedede",
+    "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Dedede.png",
+    "ThumbnailUrl": "",
+    "ColorTheme": "#E9CF79",
+    "DisplayName": "King Dedede",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/KingDedede"
+      },
+      {
+        "Rel": "moves",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/KingDedede/moves"
+      },
+      {
+        "Rel": "characterattributes",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/KingDedede/characterattributes"
+      },
+      {
+        "Rel": "movements",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/KingDedede/movements"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812ab84696593ccc99c7db",
+    "Name": "Kirby",
+    "OwnerId": 20,
+    "FullUrl": "http://kuroganehammer.com/Smash4/Kirby",
+    "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Kirby.png",
+    "ThumbnailUrl": "http://kuroganehammer.com/Smash4/character/character-kirby.png",
+    "ColorTheme": "#E4C5C7",
+    "DisplayName": "Kirby",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Kirby"
+      },
+      {
+        "Rel": "moves",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Kirby/moves"
+      },
+      {
+        "Rel": "characterattributes",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Kirby/characterattributes"
+      },
+      {
+        "Rel": "movements",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Kirby/movements"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812abb4696593ccc99c83c",
+    "Name": "Link",
+    "OwnerId": 21,
+    "FullUrl": "http://kuroganehammer.com/Smash4/Link",
+    "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Link.png",
+    "ThumbnailUrl": "http://kuroganehammer.com/Smash4/character/character-link.png",
+    "ColorTheme": "#C7D34B",
+    "DisplayName": "Link",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Link"
+      },
+      {
+        "Rel": "moves",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Link/moves"
+      },
+      {
+        "Rel": "characterattributes",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Link/characterattributes"
+      },
+      {
+        "Rel": "movements",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Link/movements"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812abd4696593ccc99c89e",
+    "Name": "LittleMac",
+    "OwnerId": 22,
+    "FullUrl": "http://kuroganehammer.com/Smash4/Little%20Mac",
+    "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Little Mac.png",
+    "ThumbnailUrl": "http://kuroganehammer.com/Smash4/character/character-little_mac.png",
+    "ColorTheme": "#2A7D51",
+    "DisplayName": "Little Mac",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/LittleMac"
+      },
+      {
+        "Rel": "moves",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/LittleMac/moves"
+      },
+      {
+        "Rel": "characterattributes",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/LittleMac/characterattributes"
+      },
+      {
+        "Rel": "movements",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/LittleMac/movements"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812ac04696593ccc99c8fc",
+    "Name": "Lucario",
+    "OwnerId": 23,
+    "FullUrl": "http://kuroganehammer.com/Smash4/Lucario",
+    "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Lucario.png",
+    "ThumbnailUrl": "http://kuroganehammer.com/Smash4/character/character-lucario.png",
+    "ColorTheme": "#A8D6E4",
+    "DisplayName": "Lucario",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucario"
+      },
+      {
+        "Rel": "moves",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucario/moves"
+      },
+      {
+        "Rel": "characterattributes",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucario/characterattributes"
+      },
+      {
+        "Rel": "movements",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucario/movements"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812ac34696593ccc99c94f",
+    "Name": "Lucas",
+    "OwnerId": 24,
+    "FullUrl": "http://kuroganehammer.com/Smash4/Lucas",
+    "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Lucas.png",
+    "ThumbnailUrl": "http://kuroganehammer.com/Smash4/http://i.imgur.com/bcDEunC.png",
+    "ColorTheme": "#E66B1C",
+    "DisplayName": "Lucas",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucas"
+      },
+      {
+        "Rel": "moves",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucas/moves"
+      },
+      {
+        "Rel": "characterattributes",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucas/characterattributes"
+      },
+      {
+        "Rel": "movements",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucas/movements"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812ac54696593ccc99c9a7",
+    "Name": "Lucina",
+    "OwnerId": 25,
+    "FullUrl": "http://kuroganehammer.com/Smash4/Lucina",
+    "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Lucina.png",
+    "ThumbnailUrl": "http://kuroganehammer.com/Smash4/character/character-lucina.png",
+    "ColorTheme": "#4B89B8",
+    "DisplayName": "Lucina",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucina"
+      },
+      {
+        "Rel": "moves",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucina/moves"
+      },
+      {
+        "Rel": "characterattributes",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucina/characterattributes"
+      },
+      {
+        "Rel": "movements",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucina/movements"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812ac84696593ccc99c9fe",
+    "Name": "Luigi",
+    "OwnerId": 26,
+    "FullUrl": "http://kuroganehammer.com/Smash4/Luigi",
+    "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Luigi.png",
+    "ThumbnailUrl": "http://kuroganehammer.com/Smash4/character/character-luigi.png",
+    "ColorTheme": "#45B834",
+    "DisplayName": "Luigi",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Luigi"
+      },
+      {
+        "Rel": "moves",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Luigi/moves"
+      },
+      {
+        "Rel": "characterattributes",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Luigi/characterattributes"
+      },
+      {
+        "Rel": "movements",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Luigi/movements"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812acb4696593ccc99ca54",
+    "Name": "Mario",
+    "OwnerId": 27,
+    "FullUrl": "http://kuroganehammer.com/Smash4/Mario",
+    "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Mario.png",
+    "ThumbnailUrl": "http://kuroganehammer.com/Smash4/character/character-mario.png",
+    "ColorTheme": "#DF3F45",
+    "DisplayName": "Mario",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Mario"
+      },
+      {
+        "Rel": "moves",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Mario/moves"
+      },
+      {
+        "Rel": "characterattributes",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Mario/characterattributes"
+      },
+      {
+        "Rel": "movements",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Mario/movements"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812acd4696593ccc99caa8",
+    "Name": "Marth",
+    "OwnerId": 28,
+    "FullUrl": "http://kuroganehammer.com/Smash4/Marth",
+    "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Marth.png",
+    "ThumbnailUrl": "http://kuroganehammer.com/Smash4/character/character-marth.png",
+    "ColorTheme": "#2CA3C7",
+    "DisplayName": "Marth",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Marth"
+      },
+      {
+        "Rel": "moves",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Marth/moves"
+      },
+      {
+        "Rel": "characterattributes",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Marth/characterattributes"
+      },
+      {
+        "Rel": "movements",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Marth/movements"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812ad04696593ccc99caff",
+    "Name": "MegaMan",
+    "OwnerId": 29,
+    "FullUrl": "http://kuroganehammer.com/Smash4/Mega%20Man",
+    "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Mega%20Man.png",
+    "ThumbnailUrl": "",
+    "ColorTheme": "#61B8D3",
+    "DisplayName": "Mega Man",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MegaMan"
+      },
+      {
+        "Rel": "moves",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MegaMan/moves"
+      },
+      {
+        "Rel": "characterattributes",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MegaMan/characterattributes"
+      },
+      {
+        "Rel": "movements",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MegaMan/movements"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812ad24696593ccc99cb73",
+    "Name": "MetaKnight",
+    "OwnerId": 30,
+    "FullUrl": "http://kuroganehammer.com/Smash4/Meta%20Knight",
+    "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Meta%20Knight.png",
+    "ThumbnailUrl": "http://kuroganehammer.com/Smash4/character/character-metaknight.png",
+    "ColorTheme": "#344585",
+    "DisplayName": "Meta Knight",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MetaKnight"
+      },
+      {
+        "Rel": "moves",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MetaKnight/moves"
+      },
+      {
+        "Rel": "characterattributes",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MetaKnight/characterattributes"
+      },
+      {
+        "Rel": "movements",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MetaKnight/movements"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812ad54696593ccc99cbc9",
+    "Name": "Mewtwo",
+    "OwnerId": 31,
+    "FullUrl": "http://kuroganehammer.com/Smash4/Mewtwo",
+    "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Mewtwo.png",
+    "ThumbnailUrl": "http://kuroganehammer.com/Smash4/character/character-mewtwo.png",
+    "ColorTheme": "#9042D7",
+    "DisplayName": "Mewtwo",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Mewtwo"
+      },
+      {
+        "Rel": "moves",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Mewtwo/moves"
+      },
+      {
+        "Rel": "characterattributes",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Mewtwo/characterattributes"
+      },
+      {
+        "Rel": "movements",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Mewtwo/movements"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812ad84696593ccc99cc15",
+    "Name": "MiiSwordfighter",
+    "OwnerId": 34,
+    "FullUrl": "http://kuroganehammer.com/Smash4/Mii%20Swordfighter",
+    "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Mii%20Swordfighter.png",
+    "ThumbnailUrl": "http://kuroganehammer.com/Smash4/character/character-mii_fighter.png",
+    "ColorTheme": "#1EB3D5",
+    "DisplayName": "Mii Swordfighter",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter"
+      },
+      {
+        "Rel": "moves",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter/moves"
+      },
+      {
+        "Rel": "characterattributes",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter/characterattributes"
+      },
+      {
+        "Rel": "movements",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter/movements"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812ada4696593ccc99cc8e",
+    "Name": "MiiBrawler",
+    "OwnerId": 32,
+    "FullUrl": "http://kuroganehammer.com/Smash4/Mii%20Brawler",
+    "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Mii%20Brawler.png",
+    "ThumbnailUrl": "http://kuroganehammer.com/Smash4/character/character-mii_fighter.png",
+    "ColorTheme": "#1EB3D5",
+    "DisplayName": "Mii Brawler",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiBrawler"
+      },
+      {
+        "Rel": "moves",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiBrawler/moves"
+      },
+      {
+        "Rel": "characterattributes",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiBrawler/characterattributes"
+      },
+      {
+        "Rel": "movements",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiBrawler/movements"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812ade4696593ccc99cd08",
+    "Name": "MiiGunner",
+    "OwnerId": 33,
+    "FullUrl": "http://kuroganehammer.com/Smash4/Mii%20Gunner",
+    "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Mii%20Gunner.png",
+    "ThumbnailUrl": "http://kuroganehammer.com/Smash4/character/character-mii_fighter.png",
+    "ColorTheme": "#1EB3D5",
+    "DisplayName": "Mii Gunner",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiGunner"
+      },
+      {
+        "Rel": "moves",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiGunner/moves"
+      },
+      {
+        "Rel": "characterattributes",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiGunner/characterattributes"
+      },
+      {
+        "Rel": "movements",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiGunner/movements"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812ae14696593ccc99cd69",
+    "Name": "MrGameWatch",
+    "OwnerId": 35,
+    "FullUrl": "http://kuroganehammer.com/Smash4/Game%20And%20Watch",
+    "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/GameWatch.png",
+    "ThumbnailUrl": "http://kuroganehammer.com/Smash4/character/character-game_and_watch.png",
+    "ColorTheme": "#A3A089",
+    "DisplayName": "Game & Watch",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MrGameWatch"
+      },
+      {
+        "Rel": "moves",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MrGameWatch/moves"
+      },
+      {
+        "Rel": "characterattributes",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MrGameWatch/characterattributes"
+      },
+      {
+        "Rel": "movements",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MrGameWatch/movements"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812ae34696593ccc99cdc5",
+    "Name": "Ness",
+    "OwnerId": 36,
+    "FullUrl": "http://kuroganehammer.com/Smash4/Ness",
+    "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Ness.png",
+    "ThumbnailUrl": "http://kuroganehammer.com/Smash4/character/character-ness.png",
+    "ColorTheme": "#E42020",
+    "DisplayName": "Ness",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ness"
+      },
+      {
+        "Rel": "moves",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ness/moves"
+      },
+      {
+        "Rel": "characterattributes",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ness/characterattributes"
+      },
+      {
+        "Rel": "movements",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ness/movements"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812ae64696593ccc99ce1a",
+    "Name": "Olimar",
+    "OwnerId": 37,
+    "FullUrl": "http://kuroganehammer.com/Smash4/Olimar",
+    "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Olimar.png",
+    "ThumbnailUrl": "http://kuroganehammer.com/Smash4/character/character-pikmin.png",
+    "ColorTheme": "#CEE590",
+    "DisplayName": "Olimar",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Olimar"
+      },
+      {
+        "Rel": "moves",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Olimar/moves"
+      },
+      {
+        "Rel": "characterattributes",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Olimar/characterattributes"
+      },
+      {
+        "Rel": "movements",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Olimar/movements"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812ae94696593ccc99ce6b",
+    "Name": "PAC-MAN",
+    "OwnerId": 38,
+    "FullUrl": "http://kuroganehammer.com/Smash4/PAC-MAN",
+    "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/PAC-MAN.png",
+    "ThumbnailUrl": "http://kuroganehammer.com/Smash4/character/character-pac-man.png",
+    "ColorTheme": "#DD9F22",
+    "DisplayName": "PAC-MAN",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/PAC-MAN"
+      },
+      {
+        "Rel": "moves",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/PAC-MAN/moves"
+      },
+      {
+        "Rel": "characterattributes",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/PAC-MAN/characterattributes"
+      },
+      {
+        "Rel": "movements",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/PAC-MAN/movements"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812aeb4696593ccc99ceca",
+    "Name": "Palutena",
+    "OwnerId": 39,
+    "FullUrl": "http://kuroganehammer.com/Smash4/Palutena",
+    "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Palutena.png",
+    "ThumbnailUrl": "http://kuroganehammer.com/Smash4/character/character-palutena.png",
+    "ColorTheme": "#42E2B8",
+    "DisplayName": "Palutena",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Palutena"
+      },
+      {
+        "Rel": "moves",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Palutena/moves"
+      },
+      {
+        "Rel": "characterattributes",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Palutena/characterattributes"
+      },
+      {
+        "Rel": "movements",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Palutena/movements"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812aee4696593ccc99cf1a",
+    "Name": "Peach",
+    "OwnerId": 40,
+    "FullUrl": "http://kuroganehammer.com/Smash4/Peach",
+    "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Peach.png",
+    "ThumbnailUrl": "http://kuroganehammer.com/Smash4/character/character-peach.png",
+    "ColorTheme": "#E4BDD6",
+    "DisplayName": "Peach",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Peach"
+      },
+      {
+        "Rel": "moves",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Peach/moves"
+      },
+      {
+        "Rel": "characterattributes",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Peach/characterattributes"
+      },
+      {
+        "Rel": "movements",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Peach/movements"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812af14696593ccc99cf74",
+    "Name": "Pikachu",
+    "OwnerId": 41,
+    "FullUrl": "http://kuroganehammer.com/Smash4/Pikachu",
+    "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Pikachu.png",
+    "ThumbnailUrl": "http://kuroganehammer.com/Smash4/character/character-pikachu.png",
+    "ColorTheme": "#E6BB1C",
+    "DisplayName": "Pikachu",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Pikachu"
+      },
+      {
+        "Rel": "moves",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Pikachu/moves"
+      },
+      {
+        "Rel": "characterattributes",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Pikachu/characterattributes"
+      },
+      {
+        "Rel": "movements",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Pikachu/movements"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812af34696593ccc99cfca",
+    "Name": "Pit",
+    "OwnerId": 42,
+    "FullUrl": "http://kuroganehammer.com/Smash4/Pit",
+    "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Pit.png",
+    "ThumbnailUrl": "http://kuroganehammer.com/Smash4/character/character-pit.png",
+    "ColorTheme": "#5EB1CE",
+    "DisplayName": "Pit",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Pit"
+      },
+      {
+        "Rel": "moves",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Pit/moves"
+      },
+      {
+        "Rel": "characterattributes",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Pit/characterattributes"
+      },
+      {
+        "Rel": "movements",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Pit/movements"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812af64696593ccc99d022",
+    "Name": "Rob",
+    "OwnerId": 43,
+    "FullUrl": "http://kuroganehammer.com/Smash4/R.O.B",
+    "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/ROB.png",
+    "ThumbnailUrl": "http://kuroganehammer.com/Smash4/character/character-rob.png",
+    "ColorTheme": "#B1B3B8",
+    "DisplayName": "R.O.B.",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Rob"
+      },
+      {
+        "Rel": "moves",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Rob/moves"
+      },
+      {
+        "Rel": "characterattributes",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Rob/characterattributes"
+      },
+      {
+        "Rel": "movements",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Rob/movements"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812af94696593ccc99d073",
+    "Name": "Robin",
+    "OwnerId": 44,
+    "FullUrl": "http://kuroganehammer.com/Smash4/Robin",
+    "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Robin.png",
+    "ThumbnailUrl": "http://kuroganehammer.com/Smash4/character/character-reflet.png",
+    "ColorTheme": "#CC6ED3",
+    "DisplayName": "Robin",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Robin"
+      },
+      {
+        "Rel": "moves",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Robin/moves"
+      },
+      {
+        "Rel": "characterattributes",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Robin/characterattributes"
+      },
+      {
+        "Rel": "movements",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Robin/movements"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812afb4696593ccc99d0dd",
+    "Name": "RosalinaLuma",
+    "OwnerId": 45,
+    "FullUrl": "http://kuroganehammer.com/Smash4/Rosalina%20And%20Luma",
+    "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Rosalina.png",
+    "ThumbnailUrl": "",
+    "ColorTheme": "#1CE6DD",
+    "DisplayName": "Rosalina & Luma",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/RosalinaLuma"
+      },
+      {
+        "Rel": "moves",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/RosalinaLuma/moves"
+      },
+      {
+        "Rel": "characterattributes",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/RosalinaLuma/characterattributes"
+      },
+      {
+        "Rel": "movements",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/RosalinaLuma/movements"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812afe4696593ccc99d144",
+    "Name": "Roy",
+    "OwnerId": 46,
+    "FullUrl": "http://kuroganehammer.com/Smash4/Roy",
+    "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Roy.png",
+    "ThumbnailUrl": "http://kuroganehammer.com/Smash4/character/character-roy.png",
+    "ColorTheme": "#6FE448",
+    "DisplayName": "Roy",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Roy"
+      },
+      {
+        "Rel": "moves",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Roy/moves"
+      },
+      {
+        "Rel": "characterattributes",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Roy/characterattributes"
+      },
+      {
+        "Rel": "movements",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Roy/movements"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812b014696593ccc99d1a0",
+    "Name": "Ryu",
+    "OwnerId": 47,
+    "FullUrl": "http://kuroganehammer.com/Smash4/Ryu",
+    "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Ryu.png",
+    "ThumbnailUrl": "http://kuroganehammer.com/Smash4/character/character-ryu.png",
+    "ColorTheme": "#D73434",
+    "DisplayName": "Ryu",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ryu"
+      },
+      {
+        "Rel": "moves",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ryu/moves"
+      },
+      {
+        "Rel": "characterattributes",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ryu/characterattributes"
+      },
+      {
+        "Rel": "movements",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ryu/movements"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812b034696593ccc99d208",
+    "Name": "Samus",
+    "OwnerId": 48,
+    "FullUrl": "http://kuroganehammer.com/Smash4/Samus",
+    "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Samus.png",
+    "ThumbnailUrl": "http://kuroganehammer.com/Smash4/character/character-samus.png",
+    "ColorTheme": "#2A3F57",
+    "DisplayName": "Samus",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Samus"
+      },
+      {
+        "Rel": "moves",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Samus/moves"
+      },
+      {
+        "Rel": "characterattributes",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Samus/characterattributes"
+      },
+      {
+        "Rel": "movements",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Samus/movements"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812b064696593ccc99d26b",
+    "Name": "Sheik",
+    "OwnerId": 49,
+    "FullUrl": "http://kuroganehammer.com/Smash4/Sheik",
+    "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Sheik.png",
+    "ThumbnailUrl": "http://kuroganehammer.com/Smash4/character/character-sheik.png",
+    "ColorTheme": "#8168D7",
+    "DisplayName": "Sheik",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sheik"
+      },
+      {
+        "Rel": "moves",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sheik/moves"
+      },
+      {
+        "Rel": "characterattributes",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sheik/characterattributes"
+      },
+      {
+        "Rel": "movements",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sheik/movements"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812b084696593ccc99d2c2",
+    "Name": "Shulk",
+    "OwnerId": 50,
+    "FullUrl": "http://kuroganehammer.com/Smash4/Shulk",
+    "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Shulk.png",
+    "ThumbnailUrl": "http://kuroganehammer.com/Smash4/character/character-shulk.png",
+    "ColorTheme": "#DC5A6F",
+    "DisplayName": "Shulk",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Shulk"
+      },
+      {
+        "Rel": "moves",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Shulk/moves"
+      },
+      {
+        "Rel": "characterattributes",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Shulk/characterattributes"
+      },
+      {
+        "Rel": "movements",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Shulk/movements"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812b0b4696593ccc99d326",
+    "Name": "Sonic",
+    "OwnerId": 51,
+    "FullUrl": "http://kuroganehammer.com/Smash4/Sonic",
+    "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Sonic.png",
+    "ThumbnailUrl": "http://kuroganehammer.com/Smash4/character/character-sonic.png",
+    "ColorTheme": "#2793E4",
+    "DisplayName": "Sonic",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sonic"
+      },
+      {
+        "Rel": "moves",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sonic/moves"
+      },
+      {
+        "Rel": "characterattributes",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sonic/characterattributes"
+      },
+      {
+        "Rel": "movements",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sonic/movements"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812b0f4696593ccc99d37a",
+    "Name": "ToonLink",
+    "OwnerId": 52,
+    "FullUrl": "http://kuroganehammer.com/Smash4/Toon%20Link",
+    "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Toon%20Link.png",
+    "ThumbnailUrl": "",
+    "ColorTheme": "#9ABC63",
+    "DisplayName": "Toon Link",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/ToonLink"
+      },
+      {
+        "Rel": "moves",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/ToonLink/moves"
+      },
+      {
+        "Rel": "characterattributes",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/ToonLink/characterattributes"
+      },
+      {
+        "Rel": "movements",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/ToonLink/movements"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812b114696593ccc99d3d2",
+    "Name": "Villager",
+    "OwnerId": 53,
+    "FullUrl": "http://kuroganehammer.com/Smash4/Villager",
+    "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Villager.png",
+    "ThumbnailUrl": "http://kuroganehammer.com/Smash4/character/character-murabito.png",
+    "ColorTheme": "#4EBD76",
+    "DisplayName": "Villager",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      },
+      {
+        "Rel": "moves",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager/moves"
+      },
+      {
+        "Rel": "characterattributes",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager/characterattributes"
+      },
+      {
+        "Rel": "movements",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager/movements"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812b144696593ccc99d436",
+    "Name": "Wario",
+    "OwnerId": 54,
+    "FullUrl": "http://kuroganehammer.com/Smash4/Wario",
+    "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Wario.png",
+    "ThumbnailUrl": "http://kuroganehammer.com/Smash4/character/character-wario.png",
+    "ColorTheme": "#E2B71D",
+    "DisplayName": "Wario",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Wario"
+      },
+      {
+        "Rel": "moves",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Wario/moves"
+      },
+      {
+        "Rel": "characterattributes",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Wario/characterattributes"
+      },
+      {
+        "Rel": "movements",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Wario/movements"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812b174696593ccc99d48b",
+    "Name": "WiiFitTrainer",
+    "OwnerId": 55,
+    "FullUrl": "http://kuroganehammer.com/Smash4/Wii%20Fit%20Trainer",
+    "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Wii%20Fit%20Trainer.png",
+    "ThumbnailUrl": "",
+    "ColorTheme": "#99DD76",
+    "DisplayName": "Wii Fit Trainer",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/WiiFitTrainer"
+      },
+      {
+        "Rel": "moves",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/WiiFitTrainer/moves"
+      },
+      {
+        "Rel": "characterattributes",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/WiiFitTrainer/characterattributes"
+      },
+      {
+        "Rel": "movements",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/WiiFitTrainer/movements"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812b194696593ccc99d4de",
+    "Name": "Yoshi",
+    "OwnerId": 56,
+    "FullUrl": "http://kuroganehammer.com/Smash4/Yoshi",
+    "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Yoshi.png",
+    "ThumbnailUrl": "http://kuroganehammer.com/Smash4/character/character-yoshi.png",
+    "ColorTheme": "#57D334",
+    "DisplayName": "Yoshi",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Yoshi"
+      },
+      {
+        "Rel": "moves",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Yoshi/moves"
+      },
+      {
+        "Rel": "characterattributes",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Yoshi/characterattributes"
+      },
+      {
+        "Rel": "movements",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Yoshi/movements"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812b1c4696593ccc99d530",
+    "Name": "Zelda",
+    "OwnerId": 57,
+    "FullUrl": "http://kuroganehammer.com/Smash4/Zelda",
+    "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Zelda.png",
+    "ThumbnailUrl": "http://kuroganehammer.com/Smash4/character/character-zelda.png",
+    "ColorTheme": "#B16FB3",
+    "DisplayName": "Zelda",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Zelda"
+      },
+      {
+        "Rel": "moves",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Zelda/moves"
+      },
+      {
+        "Rel": "characterattributes",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Zelda/characterattributes"
+      },
+      {
+        "Rel": "movements",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Zelda/movements"
+      }
+    ]
+  },
+  {
+    "InstanceId": "59812b1e4696593ccc99d581",
+    "Name": "ZeroSuitSamus",
+    "OwnerId": 58,
+    "FullUrl": "http://kuroganehammer.com/Smash4/Zero%20Suit%20Samus",
+    "MainImageUrl": "http://kuroganehammer.com/Smash4/logo2/Zero%20Suit%20Samus.png",
+    "ThumbnailUrl": "",
+    "ColorTheme": "#1E42B1",
+    "DisplayName": "Zero Suit Samus",
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/ZeroSuitSamus"
+      },
+      {
+        "Rel": "moves",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/ZeroSuitSamus/moves"
+      },
+      {
+        "Rel": "characterattributes",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/ZeroSuitSamus/characterattributes"
+      },
+      {
+        "Rel": "movements",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/ZeroSuitSamus/movements"
+      }
+    ]
+  }
 ]

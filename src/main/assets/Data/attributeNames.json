@@ -151,5 +151,32 @@
         "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/name/AirDodge"
       }
     ]
+  },
+  {
+    "Name": "Rolls",
+    "Links": [
+      {
+        "Rel": "characterattributes",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/name/Rolls"
+      }
+    ]
+  },
+  {
+    "Name": "RunSpeed",
+    "Links": [
+      {
+        "Rel": "characterattributes",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/name/RunSpeed"
+      }
+    ]
+  },
+  {
+    "Name": "ShieldSize",
+    "Links": [
+      {
+        "Rel": "characterattributes",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/name/ShieldSize"
+      }
+    ]
   }
 ]
