@@ -100,23 +100,78 @@ public class AttributeRankMaker {
                 Collections.sort(list, new Comparator<Attribute>() {
                     @Override
                     public int compare(Attribute attribute, Attribute t1) {
-                        boolean containsEndFrame = attribute.attributes.get(0).value.contains("-");
+
+                        String v1 = attribute.attributes.get(0).value.split(" ")[0];
+                        String v2 = t1.attributes.get(0).value.split(" ")[0];
+
+                        boolean containsEndFrame = v1.contains("-") && v2.contains("-");
+
+                        try{
+                            //Check if value is a number
+                            Float.parseFloat(v1.split("-")[0]);
+                        }catch(Exception e){
+                            //It's not a number
+                            return -1;
+                        }
+
+                        try{
+                            //Check if value is a number
+                            Float.parseFloat(v2.split("-")[0]);
+                        }catch(Exception e){
+                            //It's not a number
+                            return 1;
+                        }
+
                         if(!usesFAF) {
-                            if (Float.parseFloat(attribute.attributes.get(0).value.split("-")[0]) < Float.parseFloat(t1.attributes.get(0).value.split("-")[0]))
+                            if (Float.parseFloat(v1.split("-")[0]) < Float.parseFloat(v2.split("-")[0]))
                                 return 1;
-                            if (Float.parseFloat(attribute.attributes.get(0).value.split("-")[0]) > Float.parseFloat(t1.attributes.get(0).value.split("-")[0]))
+                            if (Float.parseFloat(v1.split("-")[0]) > Float.parseFloat(v2.split("-")[0]))
                                 return -1;
 
                             if (containsEndFrame) {
-                                if (Float.parseFloat(attribute.attributes.get(0).value.split("-")[1]) < Float.parseFloat(t1.attributes.get(0).value.split("-")[1]))
+
+                                try{
+                                    //Check if value is a number
+                                    Float.parseFloat(v1.split("-")[1]);
+                                }catch(Exception e){
+                                    //It's not a number
                                     return -1;
-                                if (Float.parseFloat(attribute.attributes.get(0).value.split("-")[1]) > Float.parseFloat(t1.attributes.get(0).value.split("-")[1]))
+                                }
+
+                                try{
+                                    //Check if value is a number
+                                    Float.parseFloat(v2.split("-")[1]);
+                                }catch(Exception e){
+                                    //It's not a number
+                                    return 1;
+                                }
+
+                                if (Float.parseFloat(v1.split("-")[1]) < Float.parseFloat(v2.split("-")[1]))
+                                    return -1;
+                                if (Float.parseFloat(v1.split("-")[1]) > Float.parseFloat(v2.split("-")[1]))
                                     return 1;
                             }
 
 
                         }else{
                             if (attribute.attributes.size() >= 2) {
+
+                                try{
+                                    //Check if value is a number
+                                    Float.parseFloat(attribute.attributes.get(1).value.split("-")[0]);
+                                }catch(Exception e){
+                                    //It's not a number
+                                    return -1;
+                                }
+
+                                try{
+                                    //Check if value is a number
+                                    Float.parseFloat(t1.attributes.get(1).value.split("-")[0]);
+                                }catch(Exception e){
+                                    //It's not a number
+                                    return 1;
+                                }
+
                                 if (Float.parseFloat(attribute.attributes.get(1).value.split("-")[0]) < Float.parseFloat(t1.attributes.get(1).value.split("-")[0]))
                                     return 1;
                                 if (Float.parseFloat(attribute.attributes.get(1).value.split("-")[0]) > Float.parseFloat(t1.attributes.get(1).value.split("-")[0]))
@@ -124,15 +179,15 @@ public class AttributeRankMaker {
                             }
 
 
-                            if (Float.parseFloat(attribute.attributes.get(0).value.split("-")[0]) < Float.parseFloat(t1.attributes.get(0).value.split("-")[0]))
+                            if (Float.parseFloat(v1.split("-")[0]) < Float.parseFloat(v2.split("-")[0]))
                                 return 1;
-                            if (Float.parseFloat(attribute.attributes.get(0).value.split("-")[0]) > Float.parseFloat(t1.attributes.get(0).value.split("-")[0]))
+                            if (Float.parseFloat(v1.split("-")[0]) > Float.parseFloat(v2.split("-")[0]))
                                 return -1;
 
-                            if(containsEndFrame){
-                                if (Float.parseFloat(attribute.attributes.get(0).value.split("-")[1]) < Float.parseFloat(t1.attributes.get(0).value.split("-")[1]))
+                            if(containsEndFrame && (v1.split("-").length > 1 &&v2.split("-").length > 1)){
+                                if (Float.parseFloat(v1.split("-")[1]) < Float.parseFloat(v2.split("-")[1]))
                                     return -1;
-                                if (Float.parseFloat(attribute.attributes.get(0).value.split("-")[1]) > Float.parseFloat(t1.attributes.get(0).value.split("-")[1]))
+                                if (Float.parseFloat(v1.split("-")[1]) > Float.parseFloat(v2.split("-")[1]))
                                     return 1;
                             }
                         }
@@ -146,22 +201,75 @@ public class AttributeRankMaker {
                 Collections.sort(list, new Comparator<Attribute>() {
                     @Override
                     public int compare(Attribute attribute, Attribute t1) {
-                        boolean containsEndFrame = attribute.attributes.get(0).value.contains("-");
+                        String v1 = attribute.attributes.get(0).value.split(" ")[0];
+                        String v2 = t1.attributes.get(0).value.split(" ")[0];
+
+                        boolean containsEndFrame = v1.contains("-") && v2.contains("-");
+
+                        try{
+                            //Check if value is a number
+                            Float.parseFloat(v1.split("-")[0]);
+                        }catch(Exception e){
+                            //It's not a number
+                            return 1;
+                        }
+
+                        try{
+                            //Check if value is a number
+                            Float.parseFloat(v2.split("-")[0]);
+                        }catch(Exception e){
+                            //It's not a number
+                            return -1;
+                        }
 
                         if(!usesFAF){
-                            if (Float.parseFloat(attribute.attributes.get(0).value.split("-")[0]) < Float.parseFloat(t1.attributes.get(0).value.split("-")[0]))
+                            if (Float.parseFloat(v1.split("-")[0]) < Float.parseFloat(v2.split("-")[0]))
                                 return -1;
-                            if (Float.parseFloat(attribute.attributes.get(0).value.split("-")[0]) > Float.parseFloat(t1.attributes.get(0).value.split("-")[0]))
+                            if (Float.parseFloat(v1.split("-")[0]) > Float.parseFloat(v2.split("-")[0]))
                                 return 1;
 
-                            if(containsEndFrame){
-                                if (Float.parseFloat(attribute.attributes.get(0).value.split("-")[1]) < Float.parseFloat(t1.attributes.get(0).value.split("-")[1]))
+                            if(containsEndFrame && (v1.split("-").length > 1 &&v2.split("-").length > 1)){
+
+                                try{
+                                    //Check if value is a number
+                                    Float.parseFloat(v1.split("-")[1]);
+                                }catch(Exception e){
+                                    //It's not a number
                                     return 1;
-                                if (Float.parseFloat(attribute.attributes.get(0).value.split("-")[1]) > Float.parseFloat(t1.attributes.get(0).value.split("-")[1]))
+                                }
+
+                                try{
+                                    //Check if value is a number
+                                    Float.parseFloat(v2.split("-")[1]);
+                                }catch(Exception e){
+                                    //It's not a number
+                                    return -1;
+                                }
+
+                                if (Float.parseFloat(v1.split("-")[1]) < Float.parseFloat(v2.split("-")[1]))
+                                    return 1;
+                                if (Float.parseFloat(v1.split("-")[1]) > Float.parseFloat(v2.split("-")[1]))
                                     return -1;
                             }
 
                             if(attribute.attributes.size()>=2){
+
+                                try{
+                                    //Check if value is a number
+                                    Float.parseFloat(attribute.attributes.get(1).value.split("-")[1]);
+                                }catch(Exception e){
+                                    //It's not a number
+                                    return 1;
+                                }
+
+                                try{
+                                    //Check if value is a number
+                                    Float.parseFloat(t1.attributes.get(1).value.split("-")[1]);
+                                }catch(Exception e){
+                                    //It's not a number
+                                    return -1;
+                                }
+
                                 if (Float.parseFloat(attribute.attributes.get(1).value.split("-")[0]) < Float.parseFloat(t1.attributes.get(1).value.split("-")[0]))
                                     return -1;
                                 if (Float.parseFloat(attribute.attributes.get(1).value.split("-")[0]) > Float.parseFloat(t1.attributes.get(1).value.split("-")[0]))
@@ -169,21 +277,55 @@ public class AttributeRankMaker {
                             }
                         }else{
                             if(attribute.attributes.size()>=2){
+
+                                try{
+                                    //Check if value is a number
+                                    Float.parseFloat(attribute.attributes.get(1).value.split("-")[0]);
+                                }catch(Exception e){
+                                    //It's not a number
+                                    return 1;
+                                }
+
+                                try{
+                                    //Check if value is a number
+                                    Float.parseFloat(t1.attributes.get(1).value.split("-")[0]);
+                                }catch(Exception e){
+                                    //It's not a number
+                                    return -1;
+                                }
+
                                 if (Float.parseFloat(attribute.attributes.get(1).value.split("-")[0]) < Float.parseFloat(t1.attributes.get(1).value.split("-")[0]))
                                     return -1;
                                 if (Float.parseFloat(attribute.attributes.get(1).value.split("-")[0]) > Float.parseFloat(t1.attributes.get(1).value.split("-")[0]))
                                     return 1;
                             }
 
-                            if (Float.parseFloat(attribute.attributes.get(0).value.split("-")[0]) < Float.parseFloat(t1.attributes.get(0).value.split("-")[0]))
+                            if (Float.parseFloat(v1.split("-")[0]) < Float.parseFloat(v2.split("-")[0]))
                                 return -1;
-                            if (Float.parseFloat(attribute.attributes.get(0).value.split("-")[0]) > Float.parseFloat(t1.attributes.get(0).value.split("-")[0]))
+                            if (Float.parseFloat(v1.split("-")[0]) > Float.parseFloat(v2.split("-")[0]))
                                 return 1;
 
-                            if(containsEndFrame){
-                                if (Float.parseFloat(attribute.attributes.get(0).value.split("-")[1]) < Float.parseFloat(t1.attributes.get(0).value.split("-")[1]))
+                            if(containsEndFrame && (v1.split("-").length > 1 &&v2.split("-").length > 1)){
+
+                                try{
+                                    //Check if value is a number
+                                    Float.parseFloat(v1.split("-")[1]);
+                                }catch(Exception e){
+                                    //It's not a number
                                     return 1;
-                                if (Float.parseFloat(attribute.attributes.get(0).value.split("-")[1]) > Float.parseFloat(t1.attributes.get(0).value.split("-")[1]))
+                                }
+
+                                try{
+                                    //Check if value is a number
+                                    Float.parseFloat(v2.split("-")[1]);
+                                }catch(Exception e){
+                                    //It's not a number
+                                    return -1;
+                                }
+
+                                if (Float.parseFloat(v1.split("-")[1]) < Float.parseFloat(v2.split("-")[1]))
+                                    return 1;
+                                if (Float.parseFloat(v1.split("-")[1]) > Float.parseFloat(v2.split("-")[1]))
                                     return -1;
                             }
 
@@ -210,6 +352,7 @@ public class AttributeRankMaker {
                 i++;
             }
             System.out.println(e.getMessage());
+            e.printStackTrace();
         }
 
         return ranks;

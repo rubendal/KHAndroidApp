@@ -178,5 +178,14 @@
         "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/name/ShieldSize"
       }
     ]
+  },
+  {
+    "Name": "Reflectors",
+    "Links": [
+      {
+        "Rel": "characterattributes",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/name/Reflectors"
+      }
+    ]
   }
 ]
