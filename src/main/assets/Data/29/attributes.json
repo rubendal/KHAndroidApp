@@ -1,6 +1,6 @@
 ﻿[
   {
-    "InstanceId": "59890d4b4696594604933dd8",
+    "InstanceId": "598e3fbe46965919a427fd49",
     "Name": "AerialJump",
     "OwnerId": 29,
     "Owner": "MegaMan",
@@ -15,7 +15,7 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59890d4b4696594604933dd8"
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/598e3fbe46965919a427fd49"
       },
       {
         "Rel": "character",
@@ -24,7 +24,7 @@
     ]
   },
   {
-    "InstanceId": "59890d4b4696594604933dd9",
+    "InstanceId": "598e3fbe46965919a427fd4a",
     "Name": "AirAcceleration",
     "OwnerId": 29,
     "Owner": "MegaMan",
@@ -33,37 +33,25 @@
         "Value": "0.1",
         "Owner": "MegaMan",
         "OwnerId": 29,
-        "Name": "VALUE"
-      }
-    ],
-    "Links": [
-      {
-        "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59890d4b4696594604933dd9"
+        "Name": "MAX ADDITIONAL"
       },
-      {
-        "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MegaMan"
-      }
-    ]
-  },
-  {
-    "InstanceId": "59890d4b4696594604933dda",
-    "Name": "AirDeceleration",
-    "OwnerId": 29,
-    "Owner": "MegaMan",
-    "Values": [
       {
         "Value": "0.01",
         "Owner": "MegaMan",
         "OwnerId": 29,
-        "Name": "VALUE"
+        "Name": "BASE VALUE"
+      },
+      {
+        "Value": "0.11",
+        "Owner": "MegaMan",
+        "OwnerId": 29,
+        "Name": "TOTAL"
       }
     ],
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59890d4b4696594604933dda"
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/598e3fbe46965919a427fd4a"
       },
       {
         "Rel": "character",
@@ -72,7 +60,7 @@
     ]
   },
   {
-    "InstanceId": "59890d4b4696594604933ddb",
+    "InstanceId": "598e3fbe46965919a427fd4b",
     "Name": "AirFriction",
     "OwnerId": 29,
     "Owner": "MegaMan",
@@ -87,7 +75,7 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59890d4b4696594604933ddb"
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/598e3fbe46965919a427fd4b"
       },
       {
         "Rel": "character",
@@ -96,7 +84,7 @@
     ]
   },
   {
-    "InstanceId": "59890d4b4696594604933ddc",
+    "InstanceId": "598e3fbe46965919a427fd4c",
     "Name": "DashLength",
     "OwnerId": 29,
     "Owner": "MegaMan",
@@ -111,7 +99,7 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59890d4b4696594604933ddc"
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/598e3fbe46965919a427fd4c"
       },
       {
         "Rel": "character",
@@ -120,7 +108,7 @@
     ]
   },
   {
-    "InstanceId": "59890d4b4696594604933ddd",
+    "InstanceId": "598e3fbe46965919a427fd4d",
     "Name": "FullHop",
     "OwnerId": 29,
     "Owner": "MegaMan",
@@ -135,7 +123,7 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59890d4b4696594604933ddd"
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/598e3fbe46965919a427fd4d"
       },
       {
         "Rel": "character",
@@ -144,7 +132,7 @@
     ]
   },
   {
-    "InstanceId": "59890d4b4696594604933dde",
+    "InstanceId": "598e3fbe46965919a427fd4e",
     "Name": "Gravity",
     "OwnerId": 29,
     "Owner": "MegaMan",
@@ -159,7 +147,7 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59890d4b4696594604933dde"
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/598e3fbe46965919a427fd4e"
       },
       {
         "Rel": "character",
@@ -168,7 +156,7 @@
     ]
   },
   {
-    "InstanceId": "59890d4b4696594604933ddf",
+    "InstanceId": "598e3fbe46965919a427fd4f",
     "Name": "JumpSquat",
     "OwnerId": 29,
     "Owner": "MegaMan",
@@ -183,7 +171,7 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59890d4b4696594604933ddf"
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/598e3fbe46965919a427fd4f"
       },
       {
         "Rel": "character",
@@ -192,7 +180,7 @@
     ]
   },
   {
-    "InstanceId": "59890d4b4696594604933de0",
+    "InstanceId": "598e3fbe46965919a427fd50",
     "Name": "LedgeHop",
     "OwnerId": 29,
     "Owner": "MegaMan",
@@ -207,7 +195,7 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59890d4b4696594604933de0"
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/598e3fbe46965919a427fd50"
       },
       {
         "Rel": "character",
@@ -216,7 +204,7 @@
     ]
   },
   {
-    "InstanceId": "59890d4b4696594604933de1",
+    "InstanceId": "598e3fbe46965919a427fd51",
     "Name": "ShortHop",
     "OwnerId": 29,
     "Owner": "MegaMan",
@@ -231,7 +219,7 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59890d4b4696594604933de1"
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/598e3fbe46965919a427fd51"
       },
       {
         "Rel": "character",
@@ -240,7 +228,7 @@
     ]
   },
   {
-    "InstanceId": "59890d4b4696594604933de2",
+    "InstanceId": "598e3fbe46965919a427fd52",
     "Name": "Spotdodge",
     "OwnerId": 29,
     "Owner": "MegaMan",
@@ -261,7 +249,7 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59890d4b4696594604933de2"
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/598e3fbe46965919a427fd52"
       },
       {
         "Rel": "character",
@@ -270,7 +258,7 @@
     ]
   },
   {
-    "InstanceId": "59890d4b4696594604933de3",
+    "InstanceId": "598e3fbe46965919a427fd53",
     "Name": "Traction",
     "OwnerId": 29,
     "Owner": "MegaMan",
@@ -285,7 +273,7 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59890d4b4696594604933de3"
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/598e3fbe46965919a427fd53"
       },
       {
         "Rel": "character",
@@ -294,7 +282,7 @@
     ]
   },
   {
-    "InstanceId": "59890d4b4696594604933de4",
+    "InstanceId": "598e3fbe46965919a427fd54",
     "Name": "WalkSpeed",
     "OwnerId": 29,
     "Owner": "MegaMan",
@@ -309,7 +297,7 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59890d4b4696594604933de4"
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/598e3fbe46965919a427fd54"
       },
       {
         "Rel": "character",
@@ -318,7 +306,7 @@
     ]
   },
   {
-    "InstanceId": "59890d4b4696594604933de5",
+    "InstanceId": "598e3fbe46965919a427fd55",
     "Name": "AirSpeed",
     "OwnerId": 29,
     "Owner": "MegaMan",
@@ -333,7 +321,7 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59890d4b4696594604933de5"
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/598e3fbe46965919a427fd55"
       },
       {
         "Rel": "character",
@@ -342,7 +330,7 @@
     ]
   },
   {
-    "InstanceId": "59890d4b4696594604933de6",
+    "InstanceId": "598e3fbe46965919a427fd56",
     "Name": "AirDodge",
     "OwnerId": 29,
     "Owner": "MegaMan",
@@ -363,7 +351,7 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59890d4b4696594604933de6"
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/598e3fbe46965919a427fd56"
       },
       {
         "Rel": "character",
@@ -372,7 +360,7 @@
     ]
   },
   {
-    "InstanceId": "59890d4b4696594604933de7",
+    "InstanceId": "598e3fbe46965919a427fd57",
     "Name": "Rolls",
     "OwnerId": 29,
     "Owner": "MegaMan",
@@ -393,7 +381,7 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59890d4b4696594604933de7"
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/598e3fbe46965919a427fd57"
       },
       {
         "Rel": "character",
@@ -402,7 +390,7 @@
     ]
   },
   {
-    "InstanceId": "59890d4b4696594604933de8",
+    "InstanceId": "598e3fbe46965919a427fd58",
     "Name": "RunSpeed",
     "OwnerId": 29,
     "Owner": "MegaMan",
@@ -417,7 +405,7 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59890d4b4696594604933de8"
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/598e3fbe46965919a427fd58"
       },
       {
         "Rel": "character",
@@ -426,7 +414,7 @@
     ]
   },
   {
-    "InstanceId": "59890d4b4696594604933de9",
+    "InstanceId": "598e3fbe46965919a427fd59",
     "Name": "ShieldSize",
     "OwnerId": 29,
     "Owner": "MegaMan",
@@ -441,7 +429,7 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59890d4b4696594604933de9"
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/598e3fbe46965919a427fd59"
       },
       {
         "Rel": "character",

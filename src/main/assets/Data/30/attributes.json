@@ -1,6 +1,6 @@
 ﻿[
   {
-    "InstanceId": "59890d4d4696594604933e2d",
+    "InstanceId": "598e3fc046965919a427fd9d",
     "Name": "AerialJump",
     "OwnerId": 30,
     "Owner": "MetaKnight",
@@ -15,7 +15,7 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59890d4d4696594604933e2d"
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/598e3fc046965919a427fd9d"
       },
       {
         "Rel": "character",
@@ -24,46 +24,34 @@
     ]
   },
   {
-    "InstanceId": "59890d4d4696594604933e2e",
+    "InstanceId": "598e3fc046965919a427fd9e",
     "Name": "AirAcceleration",
     "OwnerId": 30,
     "Owner": "MetaKnight",
     "Values": [
       {
-        "Value": "0.065",
+        "Value": "0.65",
         "Owner": "MetaKnight",
         "OwnerId": 30,
-        "Name": "VALUE"
-      }
-    ],
-    "Links": [
-      {
-        "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59890d4d4696594604933e2e"
+        "Name": "MAX ADDITIONAL"
       },
-      {
-        "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MetaKnight"
-      }
-    ]
-  },
-  {
-    "InstanceId": "59890d4d4696594604933e2f",
-    "Name": "AirDeceleration",
-    "OwnerId": 30,
-    "Owner": "MetaKnight",
-    "Values": [
       {
         "Value": "0.01",
         "Owner": "MetaKnight",
         "OwnerId": 30,
-        "Name": "VALUE"
+        "Name": "BASE VALUE"
+      },
+      {
+        "Value": "0.075",
+        "Owner": "MetaKnight",
+        "OwnerId": 30,
+        "Name": "TOTAL"
       }
     ],
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59890d4d4696594604933e2f"
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/598e3fc046965919a427fd9e"
       },
       {
         "Rel": "character",
@@ -72,7 +60,7 @@
     ]
   },
   {
-    "InstanceId": "59890d4d4696594604933e30",
+    "InstanceId": "598e3fc046965919a427fd9f",
     "Name": "AirFriction",
     "OwnerId": 30,
     "Owner": "MetaKnight",
@@ -87,7 +75,7 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59890d4d4696594604933e30"
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/598e3fc046965919a427fd9f"
       },
       {
         "Rel": "character",
@@ -96,7 +84,7 @@
     ]
   },
   {
-    "InstanceId": "59890d4d4696594604933e31",
+    "InstanceId": "598e3fc046965919a427fda0",
     "Name": "DashLength",
     "OwnerId": 30,
     "Owner": "MetaKnight",
@@ -111,7 +99,7 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59890d4d4696594604933e31"
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/598e3fc046965919a427fda0"
       },
       {
         "Rel": "character",
@@ -120,7 +108,7 @@
     ]
   },
   {
-    "InstanceId": "59890d4d4696594604933e32",
+    "InstanceId": "598e3fc046965919a427fda1",
     "Name": "FallSpeed",
     "OwnerId": 30,
     "Owner": "MetaKnight",
@@ -147,7 +135,7 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59890d4d4696594604933e32"
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/598e3fc046965919a427fda1"
       },
       {
         "Rel": "character",
@@ -156,7 +144,7 @@
     ]
   },
   {
-    "InstanceId": "59890d4d4696594604933e33",
+    "InstanceId": "598e3fc046965919a427fda2",
     "Name": "FullHop",
     "OwnerId": 30,
     "Owner": "MetaKnight",
@@ -171,7 +159,7 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59890d4d4696594604933e33"
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/598e3fc046965919a427fda2"
       },
       {
         "Rel": "character",
@@ -180,7 +168,7 @@
     ]
   },
   {
-    "InstanceId": "59890d4d4696594604933e34",
+    "InstanceId": "598e3fc046965919a427fda3",
     "Name": "Gravity",
     "OwnerId": 30,
     "Owner": "MetaKnight",
@@ -195,7 +183,7 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59890d4d4696594604933e34"
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/598e3fc046965919a427fda3"
       },
       {
         "Rel": "character",
@@ -204,7 +192,7 @@
     ]
   },
   {
-    "InstanceId": "59890d4d4696594604933e35",
+    "InstanceId": "598e3fc046965919a427fda4",
     "Name": "JumpSquat",
     "OwnerId": 30,
     "Owner": "MetaKnight",
@@ -219,7 +207,7 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59890d4d4696594604933e35"
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/598e3fc046965919a427fda4"
       },
       {
         "Rel": "character",
@@ -228,7 +216,7 @@
     ]
   },
   {
-    "InstanceId": "59890d4d4696594604933e36",
+    "InstanceId": "598e3fc046965919a427fda5",
     "Name": "LedgeHop",
     "OwnerId": 30,
     "Owner": "MetaKnight",
@@ -243,7 +231,7 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59890d4d4696594604933e36"
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/598e3fc046965919a427fda5"
       },
       {
         "Rel": "character",
@@ -252,7 +240,7 @@
     ]
   },
   {
-    "InstanceId": "59890d4d4696594604933e37",
+    "InstanceId": "598e3fc046965919a427fda6",
     "Name": "ShortHop",
     "OwnerId": 30,
     "Owner": "MetaKnight",
@@ -267,7 +255,7 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59890d4d4696594604933e37"
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/598e3fc046965919a427fda6"
       },
       {
         "Rel": "character",
@@ -276,7 +264,7 @@
     ]
   },
   {
-    "InstanceId": "59890d4d4696594604933e38",
+    "InstanceId": "598e3fc046965919a427fda7",
     "Name": "Spotdodge",
     "OwnerId": 30,
     "Owner": "MetaKnight",
@@ -297,7 +285,7 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59890d4d4696594604933e38"
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/598e3fc046965919a427fda7"
       },
       {
         "Rel": "character",
@@ -306,7 +294,7 @@
     ]
   },
   {
-    "InstanceId": "59890d4d4696594604933e39",
+    "InstanceId": "598e3fc046965919a427fda8",
     "Name": "Traction",
     "OwnerId": 30,
     "Owner": "MetaKnight",
@@ -321,7 +309,7 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59890d4d4696594604933e39"
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/598e3fc046965919a427fda8"
       },
       {
         "Rel": "character",
@@ -330,7 +318,7 @@
     ]
   },
   {
-    "InstanceId": "59890d4d4696594604933e3a",
+    "InstanceId": "598e3fc046965919a427fda9",
     "Name": "WalkSpeed",
     "OwnerId": 30,
     "Owner": "MetaKnight",
@@ -345,7 +333,7 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59890d4d4696594604933e3a"
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/598e3fc046965919a427fda9"
       },
       {
         "Rel": "character",
@@ -354,7 +342,7 @@
     ]
   },
   {
-    "InstanceId": "59890d4d4696594604933e3b",
+    "InstanceId": "598e3fc046965919a427fdaa",
     "Name": "AirSpeed",
     "OwnerId": 30,
     "Owner": "MetaKnight",
@@ -369,7 +357,7 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59890d4d4696594604933e3b"
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/598e3fc046965919a427fdaa"
       },
       {
         "Rel": "character",
@@ -378,7 +366,7 @@
     ]
   },
   {
-    "InstanceId": "59890d4d4696594604933e3c",
+    "InstanceId": "598e3fc046965919a427fdab",
     "Name": "AirDodge",
     "OwnerId": 30,
     "Owner": "MetaKnight",
@@ -399,7 +387,7 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59890d4d4696594604933e3c"
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/598e3fc046965919a427fdab"
       },
       {
         "Rel": "character",
@@ -408,7 +396,7 @@
     ]
   },
   {
-    "InstanceId": "59890d4d4696594604933e3d",
+    "InstanceId": "598e3fc046965919a427fdac",
     "Name": "Rolls",
     "OwnerId": 30,
     "Owner": "MetaKnight",
@@ -429,7 +417,7 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59890d4d4696594604933e3d"
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/598e3fc046965919a427fdac"
       },
       {
         "Rel": "character",
@@ -438,7 +426,7 @@
     ]
   },
   {
-    "InstanceId": "59890d4d4696594604933e3e",
+    "InstanceId": "598e3fc046965919a427fdad",
     "Name": "RunSpeed",
     "OwnerId": 30,
     "Owner": "MetaKnight",
@@ -453,7 +441,7 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59890d4d4696594604933e3e"
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/598e3fc046965919a427fdad"
       },
       {
         "Rel": "character",
@@ -462,7 +450,7 @@
     ]
   },
   {
-    "InstanceId": "59890d4d4696594604933e3f",
+    "InstanceId": "598e3fc046965919a427fdae",
     "Name": "ShieldSize",
     "OwnerId": 30,
     "Owner": "MetaKnight",
@@ -477,7 +465,7 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59890d4d4696594604933e3f"
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/598e3fc046965919a427fdae"
       },
       {
         "Rel": "character",

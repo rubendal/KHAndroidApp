@@ -1,6 +1,6 @@
 ﻿[
   {
-    "InstanceId": "59890d0046965946049333dc",
+    "InstanceId": "598e3f7246965919a427f369",
     "Name": "AerialJump",
     "OwnerId": 1,
     "Owner": "Bayonetta",
@@ -15,7 +15,7 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59890d0046965946049333dc"
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/598e3f7246965919a427f369"
       },
       {
         "Rel": "character",
@@ -24,7 +24,7 @@
     ]
   },
   {
-    "InstanceId": "59890d0046965946049333dd",
+    "InstanceId": "598e3f7246965919a427f36a",
     "Name": "Counters",
     "OwnerId": 1,
     "Owner": "Bayonetta",
@@ -63,7 +63,7 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59890d0046965946049333dd"
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/598e3f7246965919a427f36a"
       },
       {
         "Rel": "character",
@@ -72,7 +72,7 @@
     ]
   },
   {
-    "InstanceId": "59890d0046965946049333de",
+    "InstanceId": "598e3f7246965919a427f36b",
     "Name": "AirAcceleration",
     "OwnerId": 1,
     "Owner": "Bayonetta",
@@ -81,37 +81,25 @@
         "Value": "0.085",
         "Owner": "Bayonetta",
         "OwnerId": 1,
-        "Name": "VALUE"
-      }
-    ],
-    "Links": [
-      {
-        "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59890d0046965946049333de"
+        "Name": "MAX ADDITIONAL"
       },
-      {
-        "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Bayonetta"
-      }
-    ]
-  },
-  {
-    "InstanceId": "59890d0046965946049333df",
-    "Name": "AirDeceleration",
-    "OwnerId": 1,
-    "Owner": "Bayonetta",
-    "Values": [
       {
         "Value": "0.01",
         "Owner": "Bayonetta",
         "OwnerId": 1,
-        "Name": "VALUE"
+        "Name": "BASE VALUE"
+      },
+      {
+        "Value": "0.095",
+        "Owner": "Bayonetta",
+        "OwnerId": 1,
+        "Name": "TOTAL"
       }
     ],
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59890d0046965946049333df"
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/598e3f7246965919a427f36b"
       },
       {
         "Rel": "character",
@@ -120,7 +108,7 @@
     ]
   },
   {
-    "InstanceId": "59890d0046965946049333e0",
+    "InstanceId": "598e3f7246965919a427f36c",
     "Name": "AirFriction",
     "OwnerId": 1,
     "Owner": "Bayonetta",
@@ -135,7 +123,7 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59890d0046965946049333e0"
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/598e3f7246965919a427f36c"
       },
       {
         "Rel": "character",
@@ -144,7 +132,7 @@
     ]
   },
   {
-    "InstanceId": "59890d0046965946049333e1",
+    "InstanceId": "598e3f7246965919a427f36d",
     "Name": "DashLength",
     "OwnerId": 1,
     "Owner": "Bayonetta",
@@ -159,7 +147,7 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59890d0046965946049333e1"
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/598e3f7246965919a427f36d"
       },
       {
         "Rel": "character",
@@ -168,7 +156,7 @@
     ]
   },
   {
-    "InstanceId": "59890d0046965946049333e2",
+    "InstanceId": "598e3f7246965919a427f36e",
     "Name": "FallSpeed",
     "OwnerId": 1,
     "Owner": "Bayonetta",
@@ -195,7 +183,7 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59890d0046965946049333e2"
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/598e3f7246965919a427f36e"
       },
       {
         "Rel": "character",
@@ -204,7 +192,7 @@
     ]
   },
   {
-    "InstanceId": "59890d0046965946049333e3",
+    "InstanceId": "598e3f7246965919a427f36f",
     "Name": "FullHop",
     "OwnerId": 1,
     "Owner": "Bayonetta",
@@ -219,7 +207,7 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59890d0046965946049333e3"
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/598e3f7246965919a427f36f"
       },
       {
         "Rel": "character",
@@ -228,7 +216,7 @@
     ]
   },
   {
-    "InstanceId": "59890d0046965946049333e4",
+    "InstanceId": "598e3f7246965919a427f370",
     "Name": "Gravity",
     "OwnerId": 1,
     "Owner": "Bayonetta",
@@ -243,7 +231,7 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59890d0046965946049333e4"
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/598e3f7246965919a427f370"
       },
       {
         "Rel": "character",
@@ -252,7 +240,7 @@
     ]
   },
   {
-    "InstanceId": "59890d0046965946049333e5",
+    "InstanceId": "598e3f7246965919a427f371",
     "Name": "JumpSquat",
     "OwnerId": 1,
     "Owner": "Bayonetta",
@@ -267,7 +255,7 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59890d0046965946049333e5"
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/598e3f7246965919a427f371"
       },
       {
         "Rel": "character",
@@ -276,7 +264,7 @@
     ]
   },
   {
-    "InstanceId": "59890d0046965946049333e6",
+    "InstanceId": "598e3f7246965919a427f372",
     "Name": "LedgeHop",
     "OwnerId": 1,
     "Owner": "Bayonetta",
@@ -291,7 +279,7 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59890d0046965946049333e6"
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/598e3f7246965919a427f372"
       },
       {
         "Rel": "character",
@@ -300,7 +288,7 @@
     ]
   },
   {
-    "InstanceId": "59890d0046965946049333e7",
+    "InstanceId": "598e3f7246965919a427f373",
     "Name": "ShortHop",
     "OwnerId": 1,
     "Owner": "Bayonetta",
@@ -315,7 +303,7 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59890d0046965946049333e7"
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/598e3f7246965919a427f373"
       },
       {
         "Rel": "character",
@@ -324,7 +312,7 @@
     ]
   },
   {
-    "InstanceId": "59890d0046965946049333e8",
+    "InstanceId": "598e3f7246965919a427f374",
     "Name": "Spotdodge",
     "OwnerId": 1,
     "Owner": "Bayonetta",
@@ -345,7 +333,7 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59890d0046965946049333e8"
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/598e3f7246965919a427f374"
       },
       {
         "Rel": "character",
@@ -354,7 +342,7 @@
     ]
   },
   {
-    "InstanceId": "59890d0046965946049333e9",
+    "InstanceId": "598e3f7246965919a427f375",
     "Name": "Traction",
     "OwnerId": 1,
     "Owner": "Bayonetta",
@@ -369,7 +357,7 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59890d0046965946049333e9"
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/598e3f7246965919a427f375"
       },
       {
         "Rel": "character",
@@ -378,7 +366,7 @@
     ]
   },
   {
-    "InstanceId": "59890d0046965946049333ea",
+    "InstanceId": "598e3f7246965919a427f376",
     "Name": "WalkSpeed",
     "OwnerId": 1,
     "Owner": "Bayonetta",
@@ -393,7 +381,7 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59890d0046965946049333ea"
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/598e3f7246965919a427f376"
       },
       {
         "Rel": "character",
@@ -402,7 +390,7 @@
     ]
   },
   {
-    "InstanceId": "59890d0046965946049333eb",
+    "InstanceId": "598e3f7246965919a427f377",
     "Name": "AirSpeed",
     "OwnerId": 1,
     "Owner": "Bayonetta",
@@ -417,7 +405,7 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59890d0046965946049333eb"
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/598e3f7246965919a427f377"
       },
       {
         "Rel": "character",
@@ -426,7 +414,7 @@
     ]
   },
   {
-    "InstanceId": "59890d0046965946049333ec",
+    "InstanceId": "598e3f7246965919a427f378",
     "Name": "AirDodge",
     "OwnerId": 1,
     "Owner": "Bayonetta",
@@ -447,7 +435,7 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59890d0046965946049333ec"
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/598e3f7246965919a427f378"
       },
       {
         "Rel": "character",
@@ -456,7 +444,7 @@
     ]
   },
   {
-    "InstanceId": "59890d0046965946049333ed",
+    "InstanceId": "598e3f7246965919a427f379",
     "Name": "Rolls",
     "OwnerId": 1,
     "Owner": "Bayonetta",
@@ -477,7 +465,7 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59890d0046965946049333ed"
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/598e3f7246965919a427f379"
       },
       {
         "Rel": "character",
@@ -486,7 +474,7 @@
     ]
   },
   {
-    "InstanceId": "59890d0046965946049333ee",
+    "InstanceId": "598e3f7246965919a427f37a",
     "Name": "RunSpeed",
     "OwnerId": 1,
     "Owner": "Bayonetta",
@@ -501,7 +489,7 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59890d0046965946049333ee"
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/598e3f7246965919a427f37a"
       },
       {
         "Rel": "character",
@@ -510,7 +498,7 @@
     ]
   },
   {
-    "InstanceId": "59890d0046965946049333ef",
+    "InstanceId": "598e3f7246965919a427f37b",
     "Name": "ShieldSize",
     "OwnerId": 1,
     "Owner": "Bayonetta",
@@ -525,7 +513,7 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59890d0046965946049333ef"
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/598e3f7246965919a427f37b"
       },
       {
         "Rel": "character",

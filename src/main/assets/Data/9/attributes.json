@@ -1,6 +1,6 @@
 ﻿[
   {
-    "InstanceId": "59890d1546965946049336cd",
+    "InstanceId": "598e3f8746965919a427f652",
     "Name": "AerialJump",
     "OwnerId": 9,
     "Owner": "DiddyKong",
@@ -15,7 +15,7 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59890d1546965946049336cd"
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/598e3f8746965919a427f652"
       },
       {
         "Rel": "character",
@@ -24,7 +24,7 @@
     ]
   },
   {
-    "InstanceId": "59890d1546965946049336ce",
+    "InstanceId": "598e3f8746965919a427f653",
     "Name": "AirAcceleration",
     "OwnerId": 9,
     "Owner": "DiddyKong",
@@ -33,37 +33,25 @@
         "Value": "0.05",
         "Owner": "DiddyKong",
         "OwnerId": 9,
-        "Name": "VALUE"
-      }
-    ],
-    "Links": [
-      {
-        "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59890d1546965946049336ce"
+        "Name": "MAX ADDITIONAL"
       },
-      {
-        "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DiddyKong"
-      }
-    ]
-  },
-  {
-    "InstanceId": "59890d1546965946049336cf",
-    "Name": "AirDeceleration",
-    "OwnerId": 9,
-    "Owner": "DiddyKong",
-    "Values": [
       {
         "Value": "0",
         "Owner": "DiddyKong",
         "OwnerId": 9,
-        "Name": "VALUE"
+        "Name": "BASE VALUE"
+      },
+      {
+        "Value": "0.05",
+        "Owner": "DiddyKong",
+        "OwnerId": 9,
+        "Name": "TOTAL"
       }
     ],
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59890d1546965946049336cf"
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/598e3f8746965919a427f653"
       },
       {
         "Rel": "character",
@@ -72,7 +60,7 @@
     ]
   },
   {
-    "InstanceId": "59890d1546965946049336d0",
+    "InstanceId": "598e3f8746965919a427f654",
     "Name": "AirFriction",
     "OwnerId": 9,
     "Owner": "DiddyKong",
@@ -87,7 +75,7 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59890d1546965946049336d0"
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/598e3f8746965919a427f654"
       },
       {
         "Rel": "character",
@@ -96,7 +84,7 @@
     ]
   },
   {
-    "InstanceId": "59890d1546965946049336d1",
+    "InstanceId": "598e3f8746965919a427f655",
     "Name": "DashLength",
     "OwnerId": 9,
     "Owner": "DiddyKong",
@@ -111,7 +99,7 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59890d1546965946049336d1"
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/598e3f8746965919a427f655"
       },
       {
         "Rel": "character",
@@ -120,7 +108,7 @@
     ]
   },
   {
-    "InstanceId": "59890d1546965946049336d2",
+    "InstanceId": "598e3f8746965919a427f656",
     "Name": "FallSpeed",
     "OwnerId": 9,
     "Owner": "DiddyKong",
@@ -147,7 +135,7 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59890d1546965946049336d2"
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/598e3f8746965919a427f656"
       },
       {
         "Rel": "character",
@@ -156,7 +144,7 @@
     ]
   },
   {
-    "InstanceId": "59890d1546965946049336d3",
+    "InstanceId": "598e3f8746965919a427f657",
     "Name": "FullHop",
     "OwnerId": 9,
     "Owner": "DiddyKong",
@@ -171,7 +159,7 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59890d1546965946049336d3"
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/598e3f8746965919a427f657"
       },
       {
         "Rel": "character",
@@ -180,7 +168,7 @@
     ]
   },
   {
-    "InstanceId": "59890d1546965946049336d4",
+    "InstanceId": "598e3f8746965919a427f658",
     "Name": "Gravity",
     "OwnerId": 9,
     "Owner": "DiddyKong",
@@ -195,7 +183,7 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59890d1546965946049336d4"
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/598e3f8746965919a427f658"
       },
       {
         "Rel": "character",
@@ -204,7 +192,7 @@
     ]
   },
   {
-    "InstanceId": "59890d1546965946049336d5",
+    "InstanceId": "598e3f8746965919a427f659",
     "Name": "JumpSquat",
     "OwnerId": 9,
     "Owner": "DiddyKong",
@@ -219,7 +207,7 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59890d1546965946049336d5"
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/598e3f8746965919a427f659"
       },
       {
         "Rel": "character",
@@ -228,7 +216,7 @@
     ]
   },
   {
-    "InstanceId": "59890d1546965946049336d6",
+    "InstanceId": "598e3f8746965919a427f65a",
     "Name": "LedgeHop",
     "OwnerId": 9,
     "Owner": "DiddyKong",
@@ -243,7 +231,7 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59890d1546965946049336d6"
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/598e3f8746965919a427f65a"
       },
       {
         "Rel": "character",
@@ -252,7 +240,7 @@
     ]
   },
   {
-    "InstanceId": "59890d1546965946049336d7",
+    "InstanceId": "598e3f8746965919a427f65b",
     "Name": "ShortHop",
     "OwnerId": 9,
     "Owner": "DiddyKong",
@@ -267,7 +255,7 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59890d1546965946049336d7"
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/598e3f8746965919a427f65b"
       },
       {
         "Rel": "character",
@@ -276,7 +264,7 @@
     ]
   },
   {
-    "InstanceId": "59890d1546965946049336d8",
+    "InstanceId": "598e3f8746965919a427f65c",
     "Name": "Spotdodge",
     "OwnerId": 9,
     "Owner": "DiddyKong",
@@ -297,7 +285,7 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59890d1546965946049336d8"
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/598e3f8746965919a427f65c"
       },
       {
         "Rel": "character",
@@ -306,7 +294,7 @@
     ]
   },
   {
-    "InstanceId": "59890d1546965946049336d9",
+    "InstanceId": "598e3f8746965919a427f65d",
     "Name": "Traction",
     "OwnerId": 9,
     "Owner": "DiddyKong",
@@ -321,7 +309,7 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59890d1546965946049336d9"
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/598e3f8746965919a427f65d"
       },
       {
         "Rel": "character",
@@ -330,7 +318,7 @@
     ]
   },
   {
-    "InstanceId": "59890d1546965946049336da",
+    "InstanceId": "598e3f8746965919a427f65e",
     "Name": "WalkSpeed",
     "OwnerId": 9,
     "Owner": "DiddyKong",
@@ -345,7 +333,7 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59890d1546965946049336da"
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/598e3f8746965919a427f65e"
       },
       {
         "Rel": "character",
@@ -354,7 +342,7 @@
     ]
   },
   {
-    "InstanceId": "59890d1546965946049336db",
+    "InstanceId": "598e3f8746965919a427f65f",
     "Name": "AirSpeed",
     "OwnerId": 9,
     "Owner": "DiddyKong",
@@ -369,7 +357,7 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59890d1546965946049336db"
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/598e3f8746965919a427f65f"
       },
       {
         "Rel": "character",
@@ -378,7 +366,7 @@
     ]
   },
   {
-    "InstanceId": "59890d1546965946049336dc",
+    "InstanceId": "598e3f8746965919a427f660",
     "Name": "AirDodge",
     "OwnerId": 9,
     "Owner": "DiddyKong",
@@ -399,7 +387,7 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59890d1546965946049336dc"
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/598e3f8746965919a427f660"
       },
       {
         "Rel": "character",
@@ -408,7 +396,7 @@
     ]
   },
   {
-    "InstanceId": "59890d1546965946049336dd",
+    "InstanceId": "598e3f8746965919a427f661",
     "Name": "Rolls",
     "OwnerId": 9,
     "Owner": "DiddyKong",
@@ -429,7 +417,7 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59890d1546965946049336dd"
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/598e3f8746965919a427f661"
       },
       {
         "Rel": "character",
@@ -438,7 +426,7 @@
     ]
   },
   {
-    "InstanceId": "59890d1546965946049336de",
+    "InstanceId": "598e3f8746965919a427f662",
     "Name": "RunSpeed",
     "OwnerId": 9,
     "Owner": "DiddyKong",
@@ -453,7 +441,7 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59890d1546965946049336de"
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/598e3f8746965919a427f662"
       },
       {
         "Rel": "character",
@@ -462,7 +450,7 @@
     ]
   },
   {
-    "InstanceId": "59890d1546965946049336df",
+    "InstanceId": "598e3f8746965919a427f663",
     "Name": "ShieldSize",
     "OwnerId": 9,
     "Owner": "DiddyKong",
@@ -477,7 +465,7 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59890d1546965946049336df"
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/598e3f8746965919a427f663"
       },
       {
         "Rel": "character",

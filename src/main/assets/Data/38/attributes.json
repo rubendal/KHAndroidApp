@@ -1,6 +1,6 @@
 ﻿[
   {
-    "InstanceId": "59890d624696594604934133",
+    "InstanceId": "598e3fd546965919a428009b",
     "Name": "AerialJump",
     "OwnerId": 38,
     "Owner": "PAC-MAN",
@@ -15,7 +15,7 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59890d624696594604934133"
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/598e3fd546965919a428009b"
       },
       {
         "Rel": "character",
@@ -24,7 +24,7 @@
     ]
   },
   {
-    "InstanceId": "59890d624696594604934134",
+    "InstanceId": "598e3fd546965919a428009c",
     "Name": "AirAcceleration",
     "OwnerId": 38,
     "Owner": "PAC-MAN",
@@ -33,37 +33,25 @@
         "Value": "0.07",
         "Owner": "PAC-MAN",
         "OwnerId": 38,
-        "Name": "VALUE"
-      }
-    ],
-    "Links": [
-      {
-        "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59890d624696594604934134"
+        "Name": "MAX ADDITIONAL"
       },
-      {
-        "Rel": "character",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/PAC-MAN"
-      }
-    ]
-  },
-  {
-    "InstanceId": "59890d624696594604934135",
-    "Name": "AirDeceleration",
-    "OwnerId": 38,
-    "Owner": "PAC-MAN",
-    "Values": [
       {
         "Value": "0.01",
         "Owner": "PAC-MAN",
         "OwnerId": 38,
-        "Name": "VALUE"
+        "Name": "BASE VALUE"
+      },
+      {
+        "Value": "0.08",
+        "Owner": "PAC-MAN",
+        "OwnerId": 38,
+        "Name": "TOTAL"
       }
     ],
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59890d624696594604934135"
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/598e3fd546965919a428009c"
       },
       {
         "Rel": "character",
@@ -72,7 +60,7 @@
     ]
   },
   {
-    "InstanceId": "59890d624696594604934136",
+    "InstanceId": "598e3fd546965919a428009d",
     "Name": "AirFriction",
     "OwnerId": 38,
     "Owner": "PAC-MAN",
@@ -87,7 +75,7 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59890d624696594604934136"
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/598e3fd546965919a428009d"
       },
       {
         "Rel": "character",
@@ -96,7 +84,7 @@
     ]
   },
   {
-    "InstanceId": "59890d624696594604934137",
+    "InstanceId": "598e3fd546965919a428009e",
     "Name": "DashLength",
     "OwnerId": 38,
     "Owner": "PAC-MAN",
@@ -111,7 +99,7 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59890d624696594604934137"
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/598e3fd546965919a428009e"
       },
       {
         "Rel": "character",
@@ -120,7 +108,7 @@
     ]
   },
   {
-    "InstanceId": "59890d624696594604934138",
+    "InstanceId": "598e3fd546965919a428009f",
     "Name": "FullHop",
     "OwnerId": 38,
     "Owner": "PAC-MAN",
@@ -135,7 +123,7 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59890d624696594604934138"
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/598e3fd546965919a428009f"
       },
       {
         "Rel": "character",
@@ -144,7 +132,7 @@
     ]
   },
   {
-    "InstanceId": "59890d624696594604934139",
+    "InstanceId": "598e3fd546965919a42800a0",
     "Name": "Gravity",
     "OwnerId": 38,
     "Owner": "PAC-MAN",
@@ -159,7 +147,7 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59890d624696594604934139"
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/598e3fd546965919a42800a0"
       },
       {
         "Rel": "character",
@@ -168,7 +156,7 @@
     ]
   },
   {
-    "InstanceId": "59890d62469659460493413a",
+    "InstanceId": "598e3fd546965919a42800a1",
     "Name": "JumpSquat",
     "OwnerId": 38,
     "Owner": "PAC-MAN",
@@ -183,7 +171,7 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59890d62469659460493413a"
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/598e3fd546965919a42800a1"
       },
       {
         "Rel": "character",
@@ -192,7 +180,7 @@
     ]
   },
   {
-    "InstanceId": "59890d62469659460493413b",
+    "InstanceId": "598e3fd546965919a42800a2",
     "Name": "LedgeHop",
     "OwnerId": 38,
     "Owner": "PAC-MAN",
@@ -207,7 +195,7 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59890d62469659460493413b"
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/598e3fd546965919a42800a2"
       },
       {
         "Rel": "character",
@@ -216,7 +204,7 @@
     ]
   },
   {
-    "InstanceId": "59890d62469659460493413c",
+    "InstanceId": "598e3fd546965919a42800a3",
     "Name": "ShortHop",
     "OwnerId": 38,
     "Owner": "PAC-MAN",
@@ -231,7 +219,7 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59890d62469659460493413c"
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/598e3fd546965919a42800a3"
       },
       {
         "Rel": "character",
@@ -240,7 +228,7 @@
     ]
   },
   {
-    "InstanceId": "59890d62469659460493413d",
+    "InstanceId": "598e3fd546965919a42800a4",
     "Name": "Spotdodge",
     "OwnerId": 38,
     "Owner": "PAC-MAN",
@@ -261,7 +249,7 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59890d62469659460493413d"
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/598e3fd546965919a42800a4"
       },
       {
         "Rel": "character",
@@ -270,7 +258,7 @@
     ]
   },
   {
-    "InstanceId": "59890d62469659460493413e",
+    "InstanceId": "598e3fd546965919a42800a5",
     "Name": "Traction",
     "OwnerId": 38,
     "Owner": "PAC-MAN",
@@ -285,7 +273,7 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59890d62469659460493413e"
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/598e3fd546965919a42800a5"
       },
       {
         "Rel": "character",
@@ -294,7 +282,7 @@
     ]
   },
   {
-    "InstanceId": "59890d62469659460493413f",
+    "InstanceId": "598e3fd546965919a42800a6",
     "Name": "WalkSpeed",
     "OwnerId": 38,
     "Owner": "PAC-MAN",
@@ -309,7 +297,7 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59890d62469659460493413f"
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/598e3fd546965919a42800a6"
       },
       {
         "Rel": "character",
@@ -318,7 +306,7 @@
     ]
   },
   {
-    "InstanceId": "59890d624696594604934140",
+    "InstanceId": "598e3fd546965919a42800a7",
     "Name": "AirSpeed",
     "OwnerId": 38,
     "Owner": "PAC-MAN",
@@ -333,7 +321,7 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59890d624696594604934140"
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/598e3fd546965919a42800a7"
       },
       {
         "Rel": "character",
@@ -342,7 +330,7 @@
     ]
   },
   {
-    "InstanceId": "59890d624696594604934141",
+    "InstanceId": "598e3fd546965919a42800a8",
     "Name": "AirDodge",
     "OwnerId": 38,
     "Owner": "PAC-MAN",
@@ -363,7 +351,7 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59890d624696594604934141"
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/598e3fd546965919a42800a8"
       },
       {
         "Rel": "character",
@@ -372,7 +360,7 @@
     ]
   },
   {
-    "InstanceId": "59890d624696594604934142",
+    "InstanceId": "598e3fd546965919a42800a9",
     "Name": "Rolls",
     "OwnerId": 38,
     "Owner": "PAC-MAN",
@@ -393,7 +381,7 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59890d624696594604934142"
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/598e3fd546965919a42800a9"
       },
       {
         "Rel": "character",
@@ -402,7 +390,7 @@
     ]
   },
   {
-    "InstanceId": "59890d624696594604934143",
+    "InstanceId": "598e3fd546965919a42800aa",
     "Name": "RunSpeed",
     "OwnerId": 38,
     "Owner": "PAC-MAN",
@@ -417,7 +405,7 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59890d624696594604934143"
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/598e3fd546965919a42800aa"
       },
       {
         "Rel": "character",
@@ -426,7 +414,7 @@
     ]
   },
   {
-    "InstanceId": "59890d624696594604934144",
+    "InstanceId": "598e3fd546965919a42800ab",
     "Name": "ShieldSize",
     "OwnerId": 38,
     "Owner": "PAC-MAN",
@@ -441,7 +429,7 @@
     "Links": [
       {
         "Rel": "self",
-        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/59890d624696594604934144"
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/598e3fd546965919a42800ab"
       },
       {
         "Rel": "character",
