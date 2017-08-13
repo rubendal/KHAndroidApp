@@ -97,6 +97,7 @@ public class StartCalculatorAsyncTask extends AsyncTask<String, String, APIList>
             String characters = sendRequest("http://calculator.kuroganehammer.com/api/characters/names");
             String moves = sendRequest("http://calculator.kuroganehammer.com/api/moves/Mario");
             String stages = sendRequest("http://calculator.kuroganehammer.com/api/stages/names");
+            String effects = sendRequest("http://calculator.kuroganehammer.com/api/moves/effects");
 
             JSONArray jsonArray = new JSONArray(characters);
             for(int i=0;i<jsonArray.length();i++){
@@ -116,6 +117,11 @@ public class StartCalculatorAsyncTask extends AsyncTask<String, String, APIList>
             jsonArray = new JSONArray(stages);
             for(int i=0;i<jsonArray.length();i++){
                 apiList.stages.add(jsonArray.getString(i));
+            }
+
+            jsonArray = new JSONArray(effects);
+            for(int i=0;i<jsonArray.length();i++){
+                apiList.effects.add(jsonArray.getJSONObject(i).getString("name"));
             }
 
             return apiList;

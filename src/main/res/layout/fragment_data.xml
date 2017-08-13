@@ -228,12 +228,18 @@
                     android:layout_weight="1"
                     android:text="Set weight" />
 
-                <CheckBox
-                    android:id="@+id/paralyzer"
+                <TextView
+                    android:id="@+id/textView10"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="Paralyzer" />
+                    android:text="Effect" />
+
+                <Spinner
+                    android:id="@+id/effectSpinner"
+                    android:layout_width="190dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_toRightOf="@+id/textView10"/>
 
             </LinearLayout>
 
@@ -282,13 +288,6 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Grounded meteor"/>
-
-            <CheckBox
-                android:id="@+id/electric"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Electric attack"/>
 
             <RadioGroup
                 android:layout_width="wrap_content"

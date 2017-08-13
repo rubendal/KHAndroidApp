@@ -10,12 +10,12 @@ import java.io.Serializable;
 public class Modifiers implements Serializable {
 
     public int di;
-    public boolean no_di, grounded_meteor, electric_attack, crouch_cancel, interrupted_smash_charge;
+    public boolean no_di, grounded_meteor, crouch_cancel, interrupted_smash_charge;
     public float launch_rate;
 
     public Modifiers(){
         di = 0;
-        no_di = grounded_meteor = electric_attack = crouch_cancel = interrupted_smash_charge = false;
+        no_di = grounded_meteor = crouch_cancel = interrupted_smash_charge = false;
         launch_rate = 1;
     }
 

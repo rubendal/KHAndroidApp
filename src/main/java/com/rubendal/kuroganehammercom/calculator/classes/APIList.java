@@ -5,7 +5,7 @@ import java.util.LinkedList;
 
 public class APIList implements Serializable {
 
-    public LinkedList<String> characters, attacker_modifiers, target_modifiers, moves, stages;
+    public LinkedList<String> characters, attacker_modifiers, target_modifiers, moves, stages, effects;
     public LinkedList<MoveData> moveData;
 
     public APIList(){
@@ -14,6 +14,7 @@ public class APIList implements Serializable {
         target_modifiers = new LinkedList<>();
         moves = new LinkedList<>();
         stages = new LinkedList<>();
+        effects = new LinkedList<>();
 
         moveData = new LinkedList<>();
     }

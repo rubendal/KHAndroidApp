@@ -58,14 +58,17 @@ public class DataFragment extends Fragment {
         if(view!=null) {
             Spinner attacker = (Spinner)view.findViewById(R.id.attackerSpinner);
             Spinner target = (Spinner)view.findViewById(R.id.targetSpinner);
+            Spinner effects = (Spinner)view.findViewById(R.id.effectSpinner);
 
             StringSpinnerAdapter characterAdapter = new StringSpinnerAdapter(getContext(), apiList.characters);
             StringSpinnerAdapter characterAdapter2 = new StringSpinnerAdapter(getContext(), apiList.characters);
+            StringSpinnerAdapter effectsAdapter = new StringSpinnerAdapter(getContext(), apiList.effects);
+
             attacker.setAdapter(characterAdapter);
             target.setAdapter(characterAdapter2);
+            effects.setAdapter(effectsAdapter);
 
             updateAttacks(view);
-
 
             attacker.setSelection(apiList.characters.indexOf(data.attacker.character));
             target.setSelection(apiList.characters.indexOf(data.target.character));
@@ -218,6 +221,7 @@ public class DataFragment extends Fragment {
         Spinner attackerModifier = (Spinner)view.findViewById(R.id.attackerModifierSpinner);
         Spinner targetModifier = (Spinner)view.findViewById(R.id.targetModifierSpinner);
         Spinner attack = (Spinner)view.findViewById(R.id.attackSpinner);
+        Spinner effectSpinner = (Spinner)view.findViewById(R.id.effectSpinner);
 
 
 
@@ -233,9 +237,7 @@ public class DataFragment extends Fragment {
         CheckBox aerial = (CheckBox)view.findViewById(R.id.aerial_opponent);
         CheckBox projectile = (CheckBox)view.findViewById(R.id.projectile);
         CheckBox set_weight = (CheckBox)view.findViewById(R.id.set_weight);
-        CheckBox paralyzer = (CheckBox)view.findViewById(R.id.paralyzer);
         CheckBox no_di = (CheckBox)view.findViewById(R.id.no_di);
-        CheckBox electric = (CheckBox)view.findViewById(R.id.electric);
         CheckBox powershield = (CheckBox)view.findViewById(R.id.powershield);
         CheckBox vs_mode = (CheckBox)view.findViewById(R.id.vs_mode);
 
@@ -271,9 +273,20 @@ public class DataFragment extends Fragment {
         data.attack.is_smash_attack = smash_attack.isChecked();
         data.attack.aerial_opponent = aerial.isChecked();
         data.attack.projectile = projectile.isChecked();
-        data.attack.set_weight = set_weight.isChecked() || paralyzer.isChecked();
-        data.attack.paralyzer = paralyzer.isChecked();
-        data.modifiers.electric_attack = electric.isChecked();
+
+        boolean effectSetWeight = false;
+
+        if(effectSpinner.getAdapter() != null){
+            data.attack.effect = (String)effectSpinner.getSelectedItem();
+            if(data.attack.effect.equals("Paralyzer")){
+                effectSetWeight = true;
+            }
+        }else{
+            data.attack.effect = null;
+        }
+
+        data.attack.set_weight = set_weight.isChecked() || effectSetWeight;
+
         data.shield_advantage.hit_frame = Integer.parseInt(hit_frame.getText().toString());
         if(data.shield_advantage.hit_frame==0){
             data.shield_advantage.hit_frame = null;
