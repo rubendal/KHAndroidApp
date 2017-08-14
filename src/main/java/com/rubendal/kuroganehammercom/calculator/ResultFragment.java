@@ -71,6 +71,10 @@ public class ResultFragment extends Fragment {
                 o++;
                 layout.addView(buildRow("Rage", response.rage, o % 2 == 1));
             }
+            if(response.flower_time != null) {
+                o++;
+                layout.addView(buildRow("Flower time", String.valueOf(response.flower_time) + " frames", o % 2 == 1));
+            }
             o++;
             layout.addView(buildRow("KB", response.kb, o % 2 == 1));
             o++;
