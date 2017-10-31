@@ -18,12 +18,13 @@ import com.rubendal.kuroganehammercom.classes.Movement;
 import com.rubendal.kuroganehammercom.util.params.Params;
 
 import java.util.LinkedList;
+import java.util.List;
 
 
 public class MovementFragment extends KHFragment {
 
     private Character character;
-    private LinkedList<Movement> attributes;
+    private List<Movement> attributes;
 
     public MovementFragment() {
 
@@ -56,7 +57,7 @@ public class MovementFragment extends KHFragment {
         super.onCreate(savedInstanceState);
         if(getArguments() != null){
             this.character = (Character)getArguments().getSerializable("character");
-            this.attributes = (LinkedList<Movement>)getArguments().getSerializable("attributes");
+            this.attributes = (List<Movement>)getArguments().getSerializable("attributes");
         }
     }
 

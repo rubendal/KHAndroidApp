@@ -63,17 +63,13 @@ public class ResultFragment extends Fragment {
                 o++;
                 layout.addView(buildRow("Target Hitlag", String.valueOf(response.target_hitlag) + " frames", o % 2 == 1));
             }
-            if(response.paralysis_time != null) {
+            if(response.effect_time != null) {
                 o++;
-                layout.addView(buildRow("Paralysis time", String.valueOf(response.paralysis_time) + " frames", o % 2 == 1));
+                layout.addView(buildRow("Effect time", String.valueOf(response.effect_time) + " frames", o % 2 == 1));
             }
             if(response.rage != 1){
                 o++;
                 layout.addView(buildRow("Rage", response.rage, o % 2 == 1));
-            }
-            if(response.flower_time != null) {
-                o++;
-                layout.addView(buildRow("Flower time", String.valueOf(response.flower_time) + " frames", o % 2 == 1));
             }
             o++;
             layout.addView(buildRow("KB", response.kb, o % 2 == 1));

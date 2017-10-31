@@ -18,10 +18,11 @@ import com.rubendal.kuroganehammercom.classes.AttributeRank;
 import com.rubendal.kuroganehammercom.util.params.Params;
 
 import java.util.LinkedList;
+import java.util.List;
 
 public class AttributeRankingFragment extends KHFragment {
 
-    private LinkedList<AttributeRank> ranks;
+    private List<AttributeRank> ranks;
     private AttributeName attributeName;
 
     public AttributeRankingFragment() {
@@ -60,7 +61,7 @@ public class AttributeRankingFragment extends KHFragment {
         super.onCreate(savedInstanceState);
         if(getArguments() != null){
             this.attributeName = (AttributeName) getArguments().getSerializable("attributeName");
-            this.ranks = (LinkedList<AttributeRank>) getArguments().getSerializable("ranks");
+            this.ranks = (List<AttributeRank>) getArguments().getSerializable("ranks");
         }
     }
 
@@ -77,6 +78,9 @@ public class AttributeRankingFragment extends KHFragment {
         layout.setPadding(Params.LAYOUT_PADDING,Params.LAYOUT_PADDING,Params.LAYOUT_PADDING,Params.LAYOUT_PADDING);
 
         TableRow header = (TableRow)layout.findViewById(R.id.header);
+
+        if(ranks == null)
+            return;
 
         for(int i=0;i<ranks.get(0).types.size();i++){
             TextView a = new TextView(getContext());

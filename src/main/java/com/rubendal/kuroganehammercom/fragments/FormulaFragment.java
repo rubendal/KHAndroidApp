@@ -14,10 +14,11 @@ import com.rubendal.kuroganehammercom.asynctask.formula.FormulaAsyncTask;
 import com.rubendal.kuroganehammercom.classes.Formula;
 
 import java.util.LinkedList;
+import java.util.List;
 
 public class FormulaFragment extends NavigationFragment {
 
-    private LinkedList<Formula> formulas = new LinkedList<>();
+    private List<Formula> formulas = new LinkedList<>();
 
     public FormulaFragment() {
 
@@ -43,7 +44,7 @@ public class FormulaFragment extends NavigationFragment {
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         if(getArguments() != null){
-            this.formulas = (LinkedList<Formula>) getArguments().getSerializable("formulas");
+            this.formulas = (List<Formula>) getArguments().getSerializable("formulas");
         }
     }
 

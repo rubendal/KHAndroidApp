@@ -21,15 +21,17 @@ import com.rubendal.kuroganehammercom.classes.Move;
 import com.rubendal.kuroganehammercom.classes.MoveType;
 import com.rubendal.kuroganehammercom.util.params.Params;
 
+import java.util.ArrayList;
 import java.util.Collections;
 import java.util.LinkedList;
+import java.util.List;
 
 public class AttackListFragment extends KHFragment {
 
     private Character character;
     private MoveType moveType;
-    private LinkedList<Move> moveList;
-    private LinkedList<Move> evasion;
+    private List<Move> moveList;
+    private List<Move> evasion;
 
     public AttackListFragment() {
 
@@ -47,8 +49,8 @@ public class AttackListFragment extends KHFragment {
         if(getArguments() != null){
             this.character = (Character)getArguments().getSerializable("character");
             this.moveType = (MoveType)getArguments().getSerializable("type");
-            this.moveList = (LinkedList<Move>)getArguments().getSerializable("list");
-            this.evasion = (LinkedList<Move>)getArguments().getSerializable("evasion");
+            this.moveList = (List<Move>)getArguments().getSerializable("list");
+            this.evasion = (List<Move>)getArguments().getSerializable("evasion");
         }
     }
 

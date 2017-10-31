@@ -18,11 +18,12 @@ import com.rubendal.kuroganehammercom.classes.Character;
 import com.rubendal.kuroganehammercom.util.params.Params;
 
 import java.util.LinkedList;
+import java.util.List;
 
 public class AttributeFragment extends KHFragment {
 
     private Character character;
-    private LinkedList<Attribute> attributes;
+    private List<Attribute> attributes;
 
     public AttributeFragment() {
 
@@ -44,7 +45,7 @@ public class AttributeFragment extends KHFragment {
         super.onCreate(savedInstanceState);
         if(getArguments() != null){
             this.character = (Character)getArguments().getSerializable("character");
-            this.attributes = (LinkedList<Attribute>)getArguments().getSerializable("attributes");
+            this.attributes = (List<Attribute>)getArguments().getSerializable("attributes");
         }
     }
 
