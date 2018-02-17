@@ -7,13 +7,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/parameter"
-        android:padding="5dp"/>
+        android:padding="5dp"
+        android:textColor="@color/black"/>
 
     <TextView
         android:text="value"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/value"
-        android:padding="5dp"/>
+        android:padding="5dp"
+        android:textColor="@color/black"/>
 
 </TableRow>

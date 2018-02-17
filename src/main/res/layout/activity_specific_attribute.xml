@@ -32,14 +32,16 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:id="@+id/attribute"
-                        android:padding="5dp"/>
+                        android:padding="5dp"
+                        android:textColor="@color/black"/>
 
                     <TextView
                         android:text="-"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:id="@+id/header2"
-                        android:padding="5dp"/>
+                        android:padding="5dp"
+                        android:textColor="@color/black"/>
 
 
                 </TableRow>

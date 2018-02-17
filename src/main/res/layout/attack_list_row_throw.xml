@@ -7,35 +7,41 @@
         android:text="Name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/name" />
+        android:id="@+id/name"
+        android:textColor="@color/black"/>
 
     <TextView
         android:text="Weight Dependent"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/weightDependent" />
+        android:id="@+id/weightDependent"
+        android:textColor="@color/black"/>
 
     <TextView
         android:text="Damage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/damage" />
+        android:id="@+id/damage"
+        android:textColor="@color/black"/>
 
     <TextView
         android:text="Angle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/angle" />
+        android:id="@+id/angle"
+        android:textColor="@color/black"/>
 
     <TextView
         android:text="BKB"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/bkb" />
+        android:id="@+id/bkb"
+        android:textColor="@color/black"/>
 
     <TextView
         android:text="KBG"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/kbg" />
+        android:id="@+id/kbg"
+        android:textColor="@color/black"/>
 </TableRow>

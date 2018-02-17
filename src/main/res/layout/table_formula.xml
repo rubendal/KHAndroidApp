@@ -8,12 +8,14 @@
         <TextView
             android:text="FORMULA"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"/>
 
         <TextView
             android:text="EQUATION"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"/>
     </TableRow>
 
     <TableRow android:id="@+id/row_formula">
@@ -21,26 +23,30 @@
             android:text=""
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/formula"/>
+            android:id="@+id/formula"
+            android:textColor="@color/black"/>
 
         <TextView
             android:text=""
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/equation"/>
+            android:id="@+id/equation"
+            android:textColor="@color/black"/>
     </TableRow>
 
     <TableRow android:id="@+id/row_notes">
         <TextView
             android:text="Variables/Notes:"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"/>
 
         <TextView
             android:text=""
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/notes"/>
+            android:id="@+id/notes"
+            android:textColor="@color/black"/>
     </TableRow>
 
 </TableLayout>

@@ -27,7 +27,8 @@
                     android:textSize="21sp"
                     android:paddingTop="5dp"
                     android:paddingBottom="4dp"
-                    android:text="Ground Moves"/>
+                    android:text="Ground Moves"
+                    android:textColor="@color/black"/>
 
                 <TableLayout
                     android:id="@+id/groundtable"
@@ -48,6 +49,7 @@
                             android:layout_height="wrap_content"
                             android:id="@+id/header1"
                             android:padding="5dp"
+                            android:textColor="@color/black"
                             />
 
                         <TextView
@@ -55,42 +57,48 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:id="@+id/header2"
-                            android:padding="5dp"/>
+                            android:padding="5dp"
+                            android:textColor="@color/black"/>
 
                         <TextView
                             android:text="FAF"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:id="@+id/header3"
-                            android:padding="5dp"/>
+                            android:padding="5dp"
+                            android:textColor="@color/black"/>
 
                         <TextView
                             android:text="Damage"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:id="@+id/header4"
-                            android:padding="5dp"/>
+                            android:padding="5dp"
+                            android:textColor="@color/black"/>
 
                         <TextView
                             android:text="Angle"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:id="@+id/header5"
-                            android:padding="5dp"/>
+                            android:padding="5dp"
+                            android:textColor="@color/black"/>
 
                         <TextView
                             android:text="BKB"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:id="@+id/header6"
-                            android:padding="5dp"/>
+                            android:padding="5dp"
+                            android:textColor="@color/black"/>
 
                         <TextView
                             android:text="KBG"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:id="@+id/header7"
-                            android:padding="5dp"/>
+                            android:padding="5dp"
+                            android:textColor="@color/black"/>
                     </TableRow>
 
 
@@ -105,7 +113,8 @@
                     android:textSize="21sp"
                     android:paddingTop="5dp"
                     android:paddingBottom="4dp"
-                    android:text="Throws"/>
+                    android:text="Throws"
+                    android:textColor="@color/black"/>
 
                 <TableLayout
                     android:id="@+id/throwtable"
@@ -126,6 +135,7 @@
                             android:layout_height="wrap_content"
                             android:id="@+id/header9"
                             android:padding="5dp"
+                            android:textColor="@color/black"
                             />
 
                         <TextView
@@ -133,14 +143,16 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:id="@+id/header10"
-                            android:padding="5dp" />
+                            android:padding="5dp"
+                            android:textColor="@color/black"/>
 
                         <TextView
                             android:text="Damage"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:id="@+id/header11"
-                            android:padding="5dp" />
+                            android:padding="5dp"
+                            android:textColor="@color/black"/>
 
                         <TextView
                             android:text="Angle"
@@ -154,14 +166,16 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:id="@+id/header13"
-                            android:padding="5dp" />
+                            android:padding="5dp"
+                            android:textColor="@color/black"/>
 
                         <TextView
                             android:text="KBG"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:id="@+id/header14"
-                            android:padding="5dp" />
+                            android:padding="5dp"
+                            android:textColor="@color/black"/>
                     </TableRow>
 
 
@@ -186,6 +200,7 @@
                             android:layout_height="wrap_content"
                             android:id="@+id/dodgeheader1"
                             android:padding="5dp"
+                            android:textColor="@color/black"
                             />
 
                         <TextView
@@ -193,14 +208,16 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:id="@+id/dodgeheader2"
-                            android:padding="5dp"/>
+                            android:padding="5dp"
+                            android:textColor="@color/black"/>
 
                         <TextView
                             android:text="FAF"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:id="@+id/dodgeheader3"
-                            android:padding="5dp"/>
+                            android:padding="5dp"
+                            android:textColor="@color/black"/>
                     </TableRow>
 
 
@@ -215,7 +232,8 @@
                     android:textSize="21sp"
                     android:paddingTop="5dp"
                     android:paddingBottom="4dp"
-                    android:text="Aerial Moves"/>
+                    android:text="Aerial Moves"
+                    android:textColor="@color/black"/>
 
                 <TableLayout
                     android:id="@+id/aerialtable"
@@ -236,6 +254,7 @@
                             android:layout_height="wrap_content"
                             android:id="@+id/header16"
                             android:padding="5dp"
+                            android:textColor="@color/black"
                             />
 
                         <TextView
@@ -243,56 +262,64 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:id="@+id/header17"
-                            android:padding="5dp" />
+                            android:padding="5dp"
+                            android:textColor="@color/black"/>
 
                         <TextView
                             android:text="FAF"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:id="@+id/header18"
-                            android:padding="5dp" />
+                            android:padding="5dp"
+                            android:textColor="@color/black"/>
 
                         <TextView
                             android:text="Damage"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:id="@+id/header19"
-                            android:padding="5dp" />
+                            android:padding="5dp"
+                            android:textColor="@color/black"/>
 
                         <TextView
                             android:text="Angle"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:id="@+id/header20"
-                            android:padding="5dp" />
+                            android:padding="5dp"
+                            android:textColor="@color/black"/>
 
                         <TextView
                             android:text="BKB"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:id="@+id/header21"
-                            android:padding="5dp" />
+                            android:padding="5dp"
+                            android:textColor="@color/black"/>
 
                         <TextView
                             android:text="KBG"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:id="@+id/header22"
-                            android:padding="5dp" />
+                            android:padding="5dp"
+                            android:textColor="@color/black"/>
 
                         <TextView
                             android:text="Landing Lag"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:id="@+id/header23"
-                            android:padding="5dp" />
+                            android:padding="5dp"
+                            android:textColor="@color/black"/>
 
                         <TextView
                             android:text="Autocancel"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:id="@+id/header24"
-                            android:padding="5dp" />
+                            android:padding="5dp"
+                            android:textColor="@color/black"/>
                     </TableRow>
 
 
@@ -307,7 +334,8 @@
                     android:textSize="21sp"
                     android:paddingTop="5dp"
                     android:paddingBottom="4dp"
-                    android:text="Special moves"/>
+                    android:text="Special moves"
+                    android:textColor="@color/black"/>
 
                 <TableLayout
                     android:id="@+id/specialtable"
@@ -328,6 +356,7 @@
                             android:layout_height="wrap_content"
                             android:id="@+id/header26"
                             android:padding="5dp"
+                            android:textColor="@color/black"
                             />
 
                         <TextView
@@ -335,42 +364,48 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:id="@+id/header27"
-                            android:padding="5dp"/>
+                            android:padding="5dp"
+                            android:textColor="@color/black"/>
 
                         <TextView
                             android:text="FAF"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:id="@+id/header28"
-                            android:padding="5dp"/>
+                            android:padding="5dp"
+                            android:textColor="@color/black"/>
 
                         <TextView
                             android:text="Damage"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:id="@+id/header29"
-                            android:padding="5dp"/>
+                            android:padding="5dp"
+                            android:textColor="@color/black"/>
 
                         <TextView
                             android:text="Angle"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:id="@+id/header30"
-                            android:padding="5dp"/>
+                            android:padding="5dp"
+                            android:textColor="@color/black"/>
 
                         <TextView
                             android:text="BKB"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:id="@+id/header31"
-                            android:padding="5dp"/>
+                            android:padding="5dp"
+                            android:textColor="@color/black"/>
 
                         <TextView
                             android:text="KBG"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:id="@+id/header32"
-                            android:padding="5dp"/>
+                            android:padding="5dp"
+                            android:textColor="@color/black"/>
                     </TableRow>
 
 

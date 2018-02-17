@@ -7,12 +7,14 @@
         android:text="Rank"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/rank" />
+        android:id="@+id/rank"
+        android:textColor="@color/black"/>
 
     <TextView
         android:text="Name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/character" />
+        android:id="@+id/character"
+        android:textColor="@color/black"/>
 
 </TableRow>

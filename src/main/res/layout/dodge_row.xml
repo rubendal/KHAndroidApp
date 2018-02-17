@@ -7,18 +7,21 @@
         android:text="Name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/attribute" />
+        android:id="@+id/attribute"
+        android:textColor="@color/black"/>
 
     <TextView
         android:text="Value"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/intangibility" />
+        android:id="@+id/intangibility"
+        android:textColor="@color/black"/>
 
     <TextView
         android:text="Value"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/faf" />
+        android:id="@+id/faf"
+        android:textColor="@color/black"/>
 
 </TableRow>

@@ -24,7 +24,8 @@
                     android:id="@+id/textView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Attacker" />
+                    android:text="Attacker"
+                    android:textColor="@color/black"/>
 
                 <Spinner
                     android:id="@+id/attackerSpinner"
@@ -42,13 +43,15 @@
                     android:inputType="numberDecimal"
                     android:text="0"
                     android:textAlignment="center"
-                    android:textSize="12sp" />
+                    android:textSize="12sp"
+                    android:textColor="@color/black"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_toRightOf="@+id/attackerPercent"
-                    android:text="%" />
+                    android:text="%"
+                    android:textColor="@color/black"/>
 
             </RelativeLayout>
 
@@ -77,7 +80,8 @@
                     android:id="@+id/textView2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Target" />
+                    android:text="Target"
+                    android:textColor="@color/black"/>
 
                 <Spinner
                     android:id="@+id/targetSpinner"
@@ -96,13 +100,15 @@
                     android:inputType="numberDecimal"
                     android:text="0"
                     android:textAlignment="center"
-                    android:textSize="12sp" />
+                    android:textSize="12sp"
+                    android:textColor="@color/black"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_toRightOf="@+id/targetPercent"
-                    android:text="%" />
+                    android:text="%"
+                    android:textColor="@color/black"/>
 
             </RelativeLayout>
 
@@ -131,7 +137,8 @@
                     android:id="@+id/textView4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Attack" />
+                    android:text="Attack"
+                    android:textColor="@color/black"/>
 
 
                 <Spinner
@@ -152,7 +159,8 @@
                     android:id="@+id/textView5"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Hitlag" />
+                    android:text="Hitlag"
+                    android:textColor="@color/black"/>
 
                 <EditText
                     android:id="@+id/hitlag"
@@ -163,7 +171,8 @@
                     android:inputType="numberDecimal"
                     android:text="1"
                     android:textAlignment="center"
-                    android:textSize="12sp" />
+                    android:textSize="12sp"
+                    android:textColor="@color/black"/>
 
 
             </RelativeLayout>
@@ -179,7 +188,8 @@
                     android:id="@+id/textView6"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Frames charged" />
+                    android:text="Frames charged"
+                    android:textColor="@color/black"/>
 
                 <EditText
                     android:id="@+id/frames_charged"
@@ -190,7 +200,8 @@
                     android:inputType="number"
                     android:text="0"
                     android:textAlignment="center"
-                    android:textSize="12sp" />
+                    android:textSize="12sp"
+                    android:textColor="@color/black"/>
 
 
             </RelativeLayout>
@@ -205,34 +216,39 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Smash attack" />
+                    android:text="Smash attack"
+                    android:textColor="@color/black"/>
 
                 <CheckBox
                     android:id="@+id/projectile"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Projectile" />
+                    android:text="Projectile"
+                    android:textColor="@color/black"/>
 
                 <CheckBox
                     android:id="@+id/aerial_opponent"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Aerial opponent" />
+                    android:text="Aerial opponent"
+                    android:textColor="@color/black"/>
 
                 <CheckBox
                     android:id="@+id/set_weight"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Set weight" />
+                    android:text="Set weight"
+                    android:textColor="@color/black"/>
 
                 <TextView
                     android:id="@+id/textView10"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Effect" />
+                    android:text="Effect"
+                    android:textColor="@color/black"/>
 
                 <Spinner
                     android:id="@+id/effectSpinner"
@@ -252,7 +268,8 @@
                     android:id="@+id/textView7"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="DI" />
+                    android:text="DI"
+                    android:textColor="@color/black"/>
 
                 <EditText
                     android:id="@+id/di"
@@ -263,7 +280,8 @@
                     android:inputType="number"
                     android:text="0"
                     android:textAlignment="center"
-                    android:textSize="12sp" />
+                    android:textSize="12sp"
+                    android:textColor="@color/black"/>
 
                 <CheckBox
                     android:id="@+id/no_di"
@@ -272,7 +290,8 @@
                     android:layout_weight="1"
                     android:text="No DI"
                     android:layout_toRightOf="@+id/di"
-                    android:checked="true"/>
+                    android:checked="true"
+                    android:textColor="@color/black"/>
 
 
             </RelativeLayout>
@@ -299,19 +318,22 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="None"
-                    android:checked="true"/>
+                    android:checked="true"
+                    android:textColor="@color/black"/>
 
                 <RadioButton
                     android:id="@+id/crouch_cancel"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Crouch cancel"/>
+                    android:text="Crouch cancel"
+                    android:textColor="@color/black"/>
 
                 <RadioButton
                     android:id="@+id/interrupted_smash"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Interrupted charged smash attack"/>
+                    android:text="Interrupted charged smash attack"
+                    android:textColor="@color/black"/>
 
             </RadioGroup>
 
@@ -327,7 +349,8 @@
                     android:id="@+id/textView8"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Hit frame" />
+                    android:text="Hit frame"
+                    android:textColor="@color/black"/>
 
                 <EditText
                     android:id="@+id/hit_frame"
@@ -338,13 +361,15 @@
                     android:inputType="number"
                     android:text="0"
                     android:textAlignment="center"
-                    android:textSize="12sp" />
+                    android:textSize="12sp"
+                    android:textColor="@color/black"/>
 
                 <TextView
                     android:id="@+id/textView9"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="FAF" />
+                    android:text="FAF"
+                    android:textColor="@color/black"/>
 
                 <EditText
                     android:id="@+id/faf"
@@ -355,14 +380,16 @@
                     android:inputType="number"
                     android:text="0"
                     android:textAlignment="center"
-                    android:textSize="12sp" />
+                    android:textSize="12sp"
+                    android:textColor="@color/black"/>
 
                 <CheckBox
                     android:id="@+id/powershield"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Powershield"/>
+                    android:text="Powershield"
+                    android:textColor="@color/black"/>
 
                 <CheckBox
                     android:id="@+id/vs_mode"
@@ -370,7 +397,8 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="Vs mode"
-                    android:checked="true"/>
+                    android:checked="true"
+                    android:textColor="@color/black"/>
 
 
             </LinearLayout>
