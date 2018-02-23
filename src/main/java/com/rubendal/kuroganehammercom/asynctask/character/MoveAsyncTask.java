@@ -5,6 +5,7 @@ import android.os.AsyncTask;
 
 import com.rubendal.kuroganehammercom.MainActivity;
 import com.rubendal.kuroganehammercom.classes.Attribute;
+import com.rubendal.kuroganehammercom.classes.MoveSort;
 import com.rubendal.kuroganehammercom.fragments.AttackListFragment;
 import com.rubendal.kuroganehammercom.fragments.KHFragment;
 import com.rubendal.kuroganehammercom.util.Storage;
@@ -16,6 +17,8 @@ import com.rubendal.kuroganehammercom.classes.ThrowMove;
 
 import org.json.JSONArray;
 
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.LinkedList;
 
 public class MoveAsyncTask extends AsyncTask<String, String, LinkedList<Move>> {
@@ -26,6 +29,7 @@ public class MoveAsyncTask extends AsyncTask<String, String, LinkedList<Move>> {
     private MoveType type;
     private Character character;
     private LinkedList<Move> evasion;
+    private MoveSort moveSort = MoveSort.NONE;
 
     private boolean replace = false;
 
@@ -44,6 +48,16 @@ public class MoveAsyncTask extends AsyncTask<String, String, LinkedList<Move>> {
         this.title = null;
         this.dialog = null;
         this.replace = replace;
+    }
+
+    public MoveAsyncTask(KHFragment context, Character character, MoveType type, boolean replace, MoveSort moveSort){
+        this.context = context;
+        this.type = type;
+        this.character = character;
+        this.title = null;
+        this.dialog = null;
+        this.replace = replace;
+        this.moveSort = moveSort;
     }
 
     public MoveAsyncTask(KHFragment context, Character character, MoveType type, boolean replace, String title){
@@ -142,6 +156,33 @@ public class MoveAsyncTask extends AsyncTask<String, String, LinkedList<Move>> {
                 }
 
             }
+
+            if(moveSort != MoveSort.NONE){
+
+                switch (moveSort){
+                    case HITBOX_ACTIVE:
+                        Collections.sort(list, MoveSort.HitboxActiveComparator());
+                        break;
+                    case FAF:
+                        Collections.sort(list, MoveSort.FAFComparator());
+                        break;
+                    case DAMAGE:
+                        Collections.sort(list, MoveSort.DamageComparator());
+                        break;
+                    case ANGLE:
+                        Collections.sort(list, MoveSort.AngleComparator());
+                        break;
+                    case BKB:
+                        Collections.sort(list, MoveSort.BKBComparator());
+                        break;
+                    case KBG:
+                        Collections.sort(list, MoveSort.KBGComparator());
+                        break;
+                }
+
+            }
+
+
             return list;
         } catch (Exception e) {
 
@@ -156,9 +197,9 @@ public class MoveAsyncTask extends AsyncTask<String, String, LinkedList<Move>> {
             dialog.dismiss();
         }
         if(replace){
-            ((MainActivity)context.getActivity()).replaceFragment(AttackListFragment.newInstance(character,type,s, evasion));
+            ((MainActivity)context.getActivity()).replaceFragment(AttackListFragment.newInstance(character,type,s, evasion, moveSort));
         }else {
-            ((MainActivity) context.getActivity()).loadFragment(AttackListFragment.newInstance(character, type, s, evasion));
+            ((MainActivity) context.getActivity()).loadFragment(AttackListFragment.newInstance(character, type, s, evasion, moveSort));
         }
     }
 }

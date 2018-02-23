@@ -5,6 +5,7 @@ import android.os.AsyncTask;
 import android.util.Log;
 
 import com.rubendal.kuroganehammercom.classes.Attribute;
+import com.rubendal.kuroganehammercom.classes.MoveSort;
 import com.rubendal.kuroganehammercom.fragments.CharacterDataFragment;
 import com.rubendal.kuroganehammercom.MainActivity;
 import com.rubendal.kuroganehammercom.classes.CharacterData;
@@ -18,6 +19,8 @@ import com.rubendal.kuroganehammercom.classes.ThrowMove;
 
 import org.json.JSONArray;
 
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.LinkedList;
 
 public class CharacterDataAsyncTask extends AsyncTask<String, String, CharacterData> {
@@ -26,6 +29,7 @@ public class CharacterDataAsyncTask extends AsyncTask<String, String, CharacterD
     private ProgressDialog dialog;
     private String title;
     private Character character;
+    private MoveSort moveSort = MoveSort.NONE;
 
     private boolean replace = false;
 
@@ -42,6 +46,15 @@ public class CharacterDataAsyncTask extends AsyncTask<String, String, CharacterD
         this.title = null;
         this.dialog = null;
         this.replace = replace;
+    }
+
+    public CharacterDataAsyncTask(KHFragment context, Character character, boolean replace, MoveSort moveSort){
+        this.context = context;
+        this.character = character;
+        this.title = null;
+        this.dialog = null;
+        this.replace = replace;
+        this.moveSort = moveSort;
     }
 
     public CharacterDataAsyncTask(KHFragment context, Character character, boolean replace, String title){
@@ -98,6 +111,31 @@ public class CharacterDataAsyncTask extends AsyncTask<String, String, CharacterD
                 }
             }
 
+            if(moveSort != MoveSort.NONE){
+
+                switch (moveSort){
+                    case HITBOX_ACTIVE:
+                        Collections.sort(list, MoveSort.HitboxActiveComparator());
+                        break;
+                    case FAF:
+                        Collections.sort(list, MoveSort.FAFComparator());
+                        break;
+                    case DAMAGE:
+                        Collections.sort(list, MoveSort.DamageComparator());
+                        break;
+                    case ANGLE:
+                        Collections.sort(list, MoveSort.AngleComparator());
+                        break;
+                    case BKB:
+                        Collections.sort(list, MoveSort.BKBComparator());
+                        break;
+                    case KBG:
+                        Collections.sort(list, MoveSort.KBGComparator());
+                        break;
+                }
+
+            }
+
             json = Storage.read(String.valueOf(character.id),"movements.json",context.getActivity());
             LinkedList<Movement> movements = new LinkedList<>();
             jsonArray = new JSONArray(json);
@@ -105,7 +143,7 @@ public class CharacterDataAsyncTask extends AsyncTask<String, String, CharacterD
                 movements.add(Movement.fromJson(jsonArray.getJSONObject(i)));
             }
 
-            return new CharacterData(character, movements, list, evasion);
+            return new CharacterData(character, movements, list, evasion, moveSort);
         } catch (Exception e) {
             Log.d("error",e.getMessage());
         }

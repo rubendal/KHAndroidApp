@@ -57,6 +57,7 @@ public class AttributeRank implements Serializable {
 
         for(int i=0;i<types.size();i++){
             TextView valueView = new TextView(context);
+            valueView.setTextColor(Color.BLACK);
             valueView.setText(values.get(types.get(i)));
             valueView.setPadding(padding,padding,padding,padding);
             if(!odd){

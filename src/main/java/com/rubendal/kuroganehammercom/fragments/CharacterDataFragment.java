@@ -1,10 +1,15 @@
 package com.rubendal.kuroganehammercom.fragments;
 
 
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
@@ -17,6 +22,7 @@ import com.rubendal.kuroganehammercom.asynctask.character.CharacterDataAsyncTask
 import com.rubendal.kuroganehammercom.classes.CharacterData;
 import com.rubendal.kuroganehammercom.classes.DodgeData;
 import com.rubendal.kuroganehammercom.classes.Move;
+import com.rubendal.kuroganehammercom.classes.MoveSort;
 import com.rubendal.kuroganehammercom.classes.MoveType;
 import com.rubendal.kuroganehammercom.classes.Movement;
 import com.rubendal.kuroganehammercom.classes.RowValue;
@@ -35,8 +41,49 @@ public class CharacterDataFragment extends KHFragment {
     }
 
     @Override
+    public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
+        super.onCreateOptionsMenu(menu, inflater);
+        inflater.inflate(R.menu.data_menu, menu);
+
+
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case R.id.sort:
+                CharSequence items[] = new CharSequence[]{"None", "Hitbox Active","FAF","Damage","Angle","BKB","KBG"};
+
+                AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
+                builder.setTitle("Sort options");
+                builder.setSingleChoiceItems(items, data.moveSort.ordinal(), new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        MoveSort sort = MoveSort.values()[which];
+
+                        if(sort != data.moveSort) {
+                            updateDataWithSort(sort);
+                        }
+
+                        dialog.dismiss();
+                    }
+                });
+                builder.show();
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+
+        }
+    }
+
+    @Override
     public void updateData() {
         CharacterDataAsyncTask c = new CharacterDataAsyncTask(this, data.character, true);
+        c.execute();
+    }
+
+    public void updateDataWithSort(MoveSort sort) {
+        CharacterDataAsyncTask c = new CharacterDataAsyncTask(this, data.character, true, sort);
         c.execute();
     }
 
@@ -60,6 +107,7 @@ public class CharacterDataFragment extends KHFragment {
         if(getArguments() != null){
             this.data = (CharacterData)getArguments().getSerializable("data");
         }
+        setHasOptionsMenu(true);
     }
 
 

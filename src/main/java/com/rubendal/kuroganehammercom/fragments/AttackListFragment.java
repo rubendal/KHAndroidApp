@@ -1,23 +1,30 @@
 package com.rubendal.kuroganehammercom.fragments;
 
 
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.util.Log;
 import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TableLayout;
 import android.widget.TableRow;
 import android.widget.TextView;
 
+import com.rubendal.kuroganehammercom.asynctask.KHUpdate;
 import com.rubendal.kuroganehammercom.asynctask.character.MoveAsyncTask;
 import com.rubendal.kuroganehammercom.classes.Attribute;
 import com.rubendal.kuroganehammercom.classes.Character;
 import com.rubendal.kuroganehammercom.R;
 import com.rubendal.kuroganehammercom.classes.DodgeData;
 import com.rubendal.kuroganehammercom.classes.Move;
+import com.rubendal.kuroganehammercom.classes.MoveSort;
 import com.rubendal.kuroganehammercom.classes.MoveType;
 import com.rubendal.kuroganehammercom.util.params.Params;
 
@@ -32,14 +39,56 @@ public class AttackListFragment extends KHFragment {
     private MoveType moveType;
     private List<Move> moveList;
     private List<Move> evasion;
+    private MoveSort moveSort;
 
     public AttackListFragment() {
 
     }
 
     @Override
+    public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
+        super.onCreateOptionsMenu(menu, inflater);
+        inflater.inflate(R.menu.data_menu, menu);
+
+
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case R.id.sort:
+                CharSequence items[] = new CharSequence[]{"None", "Hitbox Active","FAF","Damage","Angle","BKB","KBG"};
+
+                AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
+                builder.setTitle("Sort options");
+                builder.setSingleChoiceItems(items, moveSort.ordinal(), new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        MoveSort sort = MoveSort.values()[which];
+
+                        if(sort != moveSort) {
+                            updateDataWithSort(sort);
+                        }
+
+                        dialog.dismiss();
+                    }
+                });
+                builder.show();
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+
+        }
+    }
+
+    @Override
     public void updateData() {
         MoveAsyncTask m = new MoveAsyncTask(this, character, moveType, true);
+        m.execute();
+    }
+
+    public void updateDataWithSort(MoveSort sort) {
+        MoveAsyncTask m = new MoveAsyncTask(this, character, moveType, true, sort);
         m.execute();
     }
 
@@ -51,7 +100,10 @@ public class AttackListFragment extends KHFragment {
             this.moveType = (MoveType)getArguments().getSerializable("type");
             this.moveList = (List<Move>)getArguments().getSerializable("list");
             this.evasion = (List<Move>)getArguments().getSerializable("evasion");
+            this.moveSort = (MoveSort)getArguments().getSerializable("sort");
         }
+        setHasOptionsMenu(true);
+
     }
 
     private String getType(){
@@ -74,18 +126,20 @@ public class AttackListFragment extends KHFragment {
         return String.format("%s/%s",character.getCharacterTitleName(), getType());
     }
 
-    public static AttackListFragment newInstance(Character character, MoveType type, LinkedList<Move> moveList, LinkedList<Move> evasion){
+    public static AttackListFragment newInstance(Character character, MoveType type, LinkedList<Move> moveList, LinkedList<Move> evasion, MoveSort sort){
         AttackListFragment fragment = new AttackListFragment();
         Bundle args = new Bundle();
         args.putSerializable("character", character);
         args.putSerializable("type", type);
         args.putSerializable("list", moveList);
         args.putSerializable("evasion",evasion);
+        args.putSerializable("sort", sort);
         fragment.setArguments(args);
         fragment.character = character;
         fragment.moveType = type;
         fragment.moveList = moveList;
         fragment.evasion = evasion;
+        fragment.moveSort = sort;
         return fragment;
     }
 
@@ -115,6 +169,8 @@ public class AttackListFragment extends KHFragment {
         super.onActivityCreated(savedInstanceState);
 
         loadData();
+
+
     }
 
     private void loadData(){
