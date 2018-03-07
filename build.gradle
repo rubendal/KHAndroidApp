@@ -7,8 +7,8 @@ android {
         applicationId "com.rubendal.kuroganehammercom"
         minSdkVersion 9
         targetSdkVersion 25
-        versionCode 17
-        versionName "2.1.0"
+        versionCode 18
+        versionName "2.2"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
