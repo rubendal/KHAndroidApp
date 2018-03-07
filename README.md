@@ -3,15 +3,18 @@ KuroganeHammer.com Android app to view character frame data offline
 
 https://play.google.com/store/apps/details?id=com.rubendal.kuroganehammercom
 
-### Current version
-2.1.0
+### Planned version for this branch
+2.2
 
 ### Features
-* View frame data without an Internet connection on your Android device
+* View frame data without an Internet connection on your Android device (Smash 4/DBFZ)
 * Favorite characters to put them on top of the list
 * Manual sync with the KH API to get updates from the site
 * Sm4sh Calculator (requires Internet connection when using it, uses Sm4sh Calculator API)
 * Memes
+
+### Notes
+Current DBFZ pics are from KuroganeHammer.com, in case the app gets rejected by Google Play due to copyright policies they will be changed
 
 ### Issues and Feedback
 You can [open an Issue here](https://github.com/rubendal/KHAndroidApp/issues) or DM me on [Twitter](https://twitter.com/Ruben_dal) your issues and feedback

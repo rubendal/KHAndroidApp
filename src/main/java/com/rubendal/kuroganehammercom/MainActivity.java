@@ -11,15 +11,16 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import com.rubendal.kuroganehammercom.asynctask.KHUpdate;
-import com.rubendal.kuroganehammercom.calculator.CalculatorFragment;
-import com.rubendal.kuroganehammercom.calculator.asynctask.StartCalculatorAsyncTask;
-//import com.rubendal.kuroganehammercom.fragments.AttributeMainFragment;
-import com.rubendal.kuroganehammercom.fragments.AttributeMainFragment;
-import com.rubendal.kuroganehammercom.fragments.FormulaFragment;
-import com.rubendal.kuroganehammercom.fragments.KHFragment;
-import com.rubendal.kuroganehammercom.fragments.MainFragment;
-import com.rubendal.kuroganehammercom.fragments.NavigationFragment;
+import com.rubendal.kuroganehammercom.dbfz.fragments.DBCharacterMainFragment;
+import com.rubendal.kuroganehammercom.util.KHUpdate;
+import com.rubendal.kuroganehammercom.smash4.calculator.CalculatorFragment;
+import com.rubendal.kuroganehammercom.smash4.calculator.asynctask.StartCalculatorAsyncTask;
+//import com.rubendal.kuroganehammercom.smash4.fragments.AttributeMainFragment;
+import com.rubendal.kuroganehammercom.smash4.fragments.AttributeMainFragment;
+import com.rubendal.kuroganehammercom.smash4.fragments.FormulaFragment;
+import com.rubendal.kuroganehammercom.interfaces.KHFragment;
+import com.rubendal.kuroganehammercom.smash4.fragments.MainFragment;
+import com.rubendal.kuroganehammercom.interfaces.NavigationFragment;
 import com.rubendal.kuroganehammercom.util.Storage;
 import com.rubendal.kuroganehammercom.util.UserPref;
 
@@ -107,6 +108,15 @@ public class MainActivity extends AppCompatActivity
             if(!(currentFragment instanceof CalculatorFragment)){
                 StartCalculatorAsyncTask s = new StartCalculatorAsyncTask(this, currentFragment instanceof NavigationFragment, "Loading calculator");
                 s.execute();
+            }
+        }
+        else if(id == R.id.dbfz_characters){
+            if(!(currentFragment instanceof DBCharacterMainFragment)){
+                if(currentFragment instanceof NavigationFragment){
+                    replaceFragment(DBCharacterMainFragment.newInstance());
+                }else{
+                    loadFragment(DBCharacterMainFragment.newInstance());
+                }
             }
         }
         else if (id == R.id.about_credits) {

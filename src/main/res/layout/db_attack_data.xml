@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:id="@+id/row">
+    <TextView
+        android:text="Attack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:text="First Hitbox Frame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/firstHitboxFrame"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:text="Total Frames"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/totalFrames"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:text="Advantage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/advantage"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:text="Damage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/damage"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:text="Block"
+        android:id="@+id/guard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"/>
+</TableRow>

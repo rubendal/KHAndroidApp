@@ -19,6 +19,13 @@
                     android:title="Sm4sh Calculator" />
             </menu>
         </item>
+        <item android:title="Dragon Ball FighterZ">
+            <menu>
+                <item
+                    android:id="@+id/dbfz_characters"
+                    android:title="Characters" />
+            </menu>
+        </item>
     </group>
     <group>
         <item

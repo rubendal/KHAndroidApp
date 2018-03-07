@@ -1,9 +1,6 @@
 package com.rubendal.kuroganehammercom.util;
 
 import android.content.Context;
-import android.content.SharedPreferences;
-
-import com.rubendal.kuroganehammercom.classes.AttributeName;
 
 import org.json.JSONArray;
 
