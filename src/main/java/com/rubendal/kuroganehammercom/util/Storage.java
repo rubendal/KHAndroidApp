@@ -195,6 +195,7 @@ public class Storage {
             }
 
             //DBFZ
+
             json = Assets.getAsset(assets, "DBFZ/characters.json");
             LinkedList<DBCharacter> list2 = new LinkedList<>();
             jsonArray = new JSONArray(json);

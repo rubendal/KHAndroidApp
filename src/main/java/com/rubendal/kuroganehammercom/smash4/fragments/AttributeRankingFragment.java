@@ -11,6 +11,7 @@ import android.widget.TableLayout;
 import android.widget.TableRow;
 import android.widget.TextView;
 
+import com.rubendal.kuroganehammercom.MainActivity;
 import com.rubendal.kuroganehammercom.R;
 import com.rubendal.kuroganehammercom.interfaces.KHFragment;
 import com.rubendal.kuroganehammercom.smash4.asynctask.attribute.AttributeRankingAsyncTask;
@@ -97,7 +98,6 @@ public class AttributeRankingFragment extends KHFragment {
         }
 
         int o = 0;
-
         for(AttributeRank a : ranks){
             if(a!=null){
                 o++;

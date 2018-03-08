@@ -11,6 +11,7 @@ import android.widget.TableLayout;
 import android.widget.TableRow;
 import android.widget.TextView;
 
+import com.rubendal.kuroganehammercom.MainActivity;
 import com.rubendal.kuroganehammercom.R;
 import com.rubendal.kuroganehammercom.interfaces.KHFragment;
 import com.rubendal.kuroganehammercom.smash4.classes.Character;
@@ -90,6 +91,16 @@ public class SpecificAttributeFragment extends KHFragment {
 
             TextView a = (TextView)getView().findViewById(R.id.attribute);
             a.setText(character.specificAttribute.attribute);
+
+            if(character.specificAttribute.attribute.equals("Luma/Ganon")){
+                //a.setTextColor(Color.parseColor("#6194BC"));
+                a.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        ((MainActivity)getContext()).loadFragment(MemeDisplayFragment.newInstance(character.specificAttribute.attribute,"Images/others/luma.png"));
+                    }
+                });
+            }
 
             int o = 0;
             for(RowValue r : character.specificAttribute.valueList){

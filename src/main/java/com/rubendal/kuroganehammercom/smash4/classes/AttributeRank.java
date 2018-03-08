@@ -7,7 +7,9 @@ import android.view.View;
 import android.widget.TableRow;
 import android.widget.TextView;
 
+import com.rubendal.kuroganehammercom.MainActivity;
 import com.rubendal.kuroganehammercom.R;
+import com.rubendal.kuroganehammercom.smash4.fragments.MemeDisplayFragment;
 import com.rubendal.kuroganehammercom.util.params.Params;
 
 import java.io.Serializable;
@@ -45,7 +47,7 @@ public class AttributeRank implements Serializable {
         values.put(type, value);
     }
 
-    public TableRow asRow(Context context, boolean odd){
+    public TableRow asRow(final Context context, boolean odd){
         LayoutInflater vi = (LayoutInflater)context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         View v = vi.inflate(R.layout.attribute_ranking_row, null);
         TableRow tableRow = (TableRow)v.findViewById(R.id.row);
@@ -63,11 +65,22 @@ public class AttributeRank implements Serializable {
             if(!odd){
                 valueView.setBackgroundColor(Color.parseColor("#D9D9D9"));
             }
+
+            if(i== 0 && attribute.formattedName.equals("Reflectors") && character.name.equals("R.O.B.")){
+                valueView.setTextColor(Color.parseColor("#6194BC"));
+                valueView.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        ((MainActivity)context).loadFragment(MemeDisplayFragment.newInstance(values.get(types.get(0)),"Images/others/questionmark.png"));
+                    }
+                });
+            }
+
             tableRow.addView(valueView);
         }
 
         rankView.setText(String.valueOf(rank));
-        if(attribute.equals("Gravity")){
+        if(attribute.formattedName.equals("Gravity")){
             String name = character.name;
             switch (name){
                 case "Marth":
@@ -76,10 +89,13 @@ public class AttributeRank implements Serializable {
                 case "Lucina":
                     characterView.setText("Marth's worthless granddaughter");
                     break;
+                case "Mii Swordfighter":
+                    characterView.setText("Mii Swordspider");
+                    break;
                 default:
                     characterView.setText(character.name);
             }
-        }else if(attribute.equals("RunSpeed")) {
+        }else if(attribute.formattedName.equals("Run Speed")) {
             String name = character.name;
             switch (name){
                 case "Ness":
@@ -88,16 +104,8 @@ public class AttributeRank implements Serializable {
                 default:
                     characterView.setText(character.name);
             }
-        }else if(attribute.equals("Gravity")) {
-            String name = character.name;
-            switch (name){
-                case "Mii Swordfighter":
-                    characterView.setText("Mii Swordspider");
-                    break;
-                default:
-                    characterView.setText(character.name);
-            }
-        }else {
+        }
+        else {
             characterView.setText(character.name);
         }
 
