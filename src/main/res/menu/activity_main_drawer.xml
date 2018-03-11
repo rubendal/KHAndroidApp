@@ -19,6 +19,13 @@
                     android:title="Sm4sh Calculator" />
             </menu>
         </item>
+        <item android:title="Rivals of Aether">
+            <menu>
+                <item
+                    android:id="@+id/rivals_characters"
+                    android:title="Characters" />
+            </menu>
+        </item>
         <item android:title="Dragon Ball FighterZ">
             <menu>
                 <item

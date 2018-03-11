@@ -25,7 +25,7 @@ public class AerialMove extends Move {
         this.autoCancel = autoCancel;
     }
 
-    public TableRow asRow(Context context, boolean odd){
+    public TableRow asRow(Context context, boolean odd, String color){
         LayoutInflater vi = (LayoutInflater)context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         View v = vi.inflate(R.layout.attack_list_row_aerial, null);
         TableRow tableRow = (TableRow)v.findViewById(R.id.row);
@@ -72,6 +72,8 @@ public class AerialMove extends Move {
             landingLagView.setBackgroundColor(Color.parseColor("#D9D9D9"));
             autoCancelView.setBackgroundColor(Color.parseColor("#D9D9D9"));
         }
+
+        nameView.setBackgroundColor(Color.parseColor(color));
 
         return tableRow;
 

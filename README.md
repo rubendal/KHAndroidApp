@@ -14,8 +14,8 @@ https://play.google.com/store/apps/details?id=com.rubendal.kuroganehammercom
 * Memes
 
 ### Notes
-* Current DBFZ pics are from KuroganeHammer.com, in case the app gets rejected by Google Play due to copyright policies they will be changed
-* DBFZ data isn't on KH API, it's scraped manually and added into the project's assets. So KH API sync won't change DBFZ related data and updates are managed via app releases (until it gets added)
+* Current Rivals of Aether/DBFZ pics are from KuroganeHammer.com, in case the app gets rejected by Google Play due to copyright policies they will be changed
+* Rivals of Aether/DBFZ data isn't on KH API, it's scraped manually and added into the project's assets. So KH API sync won't change Rivals of Aether/DBFZ related data and updates are managed via app releases (until it gets added)
 
 ### Issues and Feedback
 You can [open an Issue here](https://github.com/rubendal/KHAndroidApp/issues) or DM me on [Twitter](https://twitter.com/Ruben_dal) your issues and feedback

@@ -95,6 +95,7 @@ public class AttributeRankingFragment extends KHFragment {
             TextView t = (TextView)header.getChildAt(i);
             t.setPadding(Params.PADDING,Params.PADDING,Params.PADDING,Params.PADDING);
             t.setBackgroundColor(Color.parseColor("#D0EAFF"));
+            t.setTextColor(Color.parseColor("#000000"));
         }
 
         int o = 0;

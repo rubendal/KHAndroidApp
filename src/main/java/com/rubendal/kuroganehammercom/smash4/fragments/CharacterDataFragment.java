@@ -219,7 +219,7 @@ public class CharacterDataFragment extends KHFragment {
             if (move != null) {
                 if(move.moveType == MoveType.Ground) {
                     o++;
-                    layout.addView(move.asRow(this.getActivity(), o % 2 == 1));
+                    layout.addView(move.asRow(this.getActivity(), o % 2 == 1, data.character.color));
                 }
             }
         }
@@ -240,7 +240,7 @@ public class CharacterDataFragment extends KHFragment {
             if (move != null) {
                 if(move.moveType == MoveType.Throw) {
                     o++;
-                    layout.addView(move.asRow(this.getActivity(), o % 2 == 1));
+                    layout.addView(move.asRow(this.getActivity(), o % 2 == 1, data.character.color));
                 }
             }
         }
@@ -261,7 +261,7 @@ public class CharacterDataFragment extends KHFragment {
         for (Move move : data.evasion) {
             if (move != null) {
                 o++;
-                layout.addView(new DodgeData(move).asRow(this.getActivity(), o % 2 == 1));
+                layout.addView(new DodgeData(move).asRow(this.getActivity(), o % 2 == 1, data.character.color));
             }
         }
 
@@ -281,7 +281,7 @@ public class CharacterDataFragment extends KHFragment {
             if (move != null) {
                 if(move.moveType == MoveType.Aerial) {
                     o++;
-                    layout.addView(move.asRow(this.getActivity(), o % 2 == 1));
+                    layout.addView(move.asRow(this.getActivity(), o % 2 == 1, data.character.color));
                 }
             }
         }
@@ -302,7 +302,7 @@ public class CharacterDataFragment extends KHFragment {
             if (move != null) {
                 if(move.moveType == MoveType.Special) {
                     o++;
-                    layout.addView(move.asRow(this.getActivity(), o % 2 == 1));
+                    layout.addView(move.asRow(this.getActivity(), o % 2 == 1, data.character.color));
                 }
             }
         }

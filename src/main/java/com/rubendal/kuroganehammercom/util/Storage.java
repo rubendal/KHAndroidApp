@@ -3,6 +3,7 @@ package com.rubendal.kuroganehammercom.util;
 import android.content.Context;
 import android.content.res.AssetManager;
 
+import com.rubendal.kuroganehammercom.rivals.classes.RivalsCharacter;
 import com.rubendal.kuroganehammercom.smash4.classes.AttributeName;
 import com.rubendal.kuroganehammercom.smash4.classes.Character;
 import com.rubendal.kuroganehammercom.dbfz.classes.DBCharacter;
@@ -22,7 +23,7 @@ import java.util.LinkedList;
 public class Storage {
 
     //Initial storage assets version, will change when new assets that are stored in internal storage are added or changed
-    private static final String STORAGE_DATA_VERSION = "2.2";
+    private static final String STORAGE_DATA_VERSION = "0";
 
     //Write file in internal storage
     public static void write (String directory, String filename, Context context, String string) throws IOException {
@@ -105,6 +106,17 @@ public class Storage {
         }
 
         try{
+            String json = read("rivals","characters.json",context);
+            JSONArray jsonArray = new JSONArray(json);
+            for(int i=0;i<jsonArray.length();i++){
+                RivalsCharacter c = RivalsCharacter.fromJson(context, jsonArray.getJSONObject(i));
+                DeleteDir(context.getDir("RoA_" + String.valueOf(c.id), Context.MODE_PRIVATE));
+            }
+        }catch(Exception e){
+
+        }
+
+        try{
             String json = read("data","attributeNames.json",context);
             JSONArray jsonArray = new JSONArray(json);
             for(int i=0;i<jsonArray.length();i++){
@@ -117,6 +129,7 @@ public class Storage {
 
         DeleteDir(context.getDir("data", Context.MODE_PRIVATE));
         DeleteDir(context.getDir("dbfz", Context.MODE_PRIVATE));
+        DeleteDir(context.getDir("rivals", Context.MODE_PRIVATE));
     }
 
     //Check if storage has been initialized based on the app assets version
@@ -210,6 +223,26 @@ public class Storage {
                     json = Assets.getAsset(assets, "DBFZ/Data/" + c.id + "/moves.json");
                     if(json!=null)
                         write("DB_" + String.valueOf(c.id), "moves.json", context, json);
+                }catch(Exception e){
+
+                }
+            }
+
+            //Rivals of Aether
+            json = Assets.getAsset(assets, "Rivals/characters.json");
+            LinkedList<RivalsCharacter> list3 = new LinkedList<>();
+            jsonArray = new JSONArray(json);
+            for(int i=0;i<jsonArray.length();i++){
+                list3.add(RivalsCharacter.fromJson(context, jsonArray.getJSONObject(i)));
+            }
+            write("rivals","characters.json",context,json);
+
+            for(RivalsCharacter c : list3){
+
+                try {
+                    json = Assets.getAsset(assets, "Rivals/Data/" + c.id + "/moves.json");
+                    if(json!=null)
+                        write("RoA_" + String.valueOf(c.id), "moves.json", context, json);
                 }catch(Exception e){
 
                 }

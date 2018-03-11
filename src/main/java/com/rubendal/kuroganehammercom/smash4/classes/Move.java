@@ -42,7 +42,7 @@ public class Move implements Serializable {
         return name;
     }
 
-    public TableRow asRow(Context context, boolean odd){
+    public TableRow asRow(Context context, boolean odd, String color){
         LayoutInflater vi = (LayoutInflater)context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         View v = vi.inflate(R.layout.attack_list_row, null);
         TableRow tableRow = (TableRow)v.findViewById(R.id.row);
@@ -81,6 +81,8 @@ public class Move implements Serializable {
             bkbView.setBackgroundColor(Color.parseColor("#D9D9D9"));
             kbgView.setBackgroundColor(Color.parseColor("#D9D9D9"));
         }
+
+        nameView.setBackgroundColor(Color.parseColor(color));
 
         return tableRow;
 

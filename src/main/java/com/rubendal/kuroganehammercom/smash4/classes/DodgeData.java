@@ -26,7 +26,7 @@ public class DodgeData {
         this.faf = move.FAF;
     }
 
-    public TableRow asRow(Context context, boolean odd){
+    public TableRow asRow(Context context, boolean odd, String color){
         LayoutInflater vi = (LayoutInflater)context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         View v = vi.inflate(R.layout.dodge_row, null);
         TableRow tableRow = (TableRow)v.findViewById(R.id.row);
@@ -49,6 +49,8 @@ public class DodgeData {
             intangibilityView.setBackgroundColor(Color.parseColor("#D9D9D9"));
             fafView.setBackgroundColor(Color.parseColor("#D9D9D9"));
         }
+
+        attributeView.setBackgroundColor(Color.parseColor(color));
 
         return tableRow;
 

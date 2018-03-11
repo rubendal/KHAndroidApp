@@ -190,7 +190,7 @@ public class AttackListFragment extends KHFragment {
             for (Move move : moveList) {
                 if (move != null) {
                     o++;
-                    layout.addView(move.asRow(this.getActivity(), o % 2 == 1));
+                    layout.addView(move.asRow(this.getActivity(), o % 2 == 1, character.color));
                 }
             }
 
@@ -211,7 +211,7 @@ public class AttackListFragment extends KHFragment {
                 for (Move move : evasion) {
                     if (move != null) {
                         o++;
-                        layout.addView(new DodgeData(move).asRow(this.getActivity(), o % 2 == 1));
+                        layout.addView(new DodgeData(move).asRow(this.getActivity(), o % 2 == 1, character.color));
                     }
                 }
 
@@ -232,7 +232,7 @@ public class AttackListFragment extends KHFragment {
                 if (move != null) {
                     if(move.moveType == MoveType.Ground) {
                         o++;
-                        layout.addView(move.asRow(this.getActivity(), o % 2 == 1));
+                        layout.addView(move.asRow(this.getActivity(), o % 2 == 1, character.color));
                     }
                 }
             }
@@ -253,7 +253,7 @@ public class AttackListFragment extends KHFragment {
                 if (move != null) {
                     if(move.moveType == MoveType.Throw) {
                         o++;
-                        layout.addView(move.asRow(this.getActivity(), o % 2 == 1));
+                        layout.addView(move.asRow(this.getActivity(), o % 2 == 1, character.color));
                     }
                 }
             }
@@ -274,7 +274,7 @@ public class AttackListFragment extends KHFragment {
             for (Move move : evasion) {
                 if (move != null) {
                     o++;
-                    layout.addView(new DodgeData(move).asRow(this.getActivity(), o % 2 == 1));
+                    layout.addView(new DodgeData(move).asRow(this.getActivity(), o % 2 == 1, character.color));
                 }
             }
 
@@ -294,7 +294,7 @@ public class AttackListFragment extends KHFragment {
                 if (move != null) {
                     if(move.moveType == MoveType.Aerial) {
                         o++;
-                        layout.addView(move.asRow(this.getActivity(), o % 2 == 1));
+                        layout.addView(move.asRow(this.getActivity(), o % 2 == 1, character.color));
                     }
                 }
             }
@@ -315,7 +315,7 @@ public class AttackListFragment extends KHFragment {
                 if (move != null) {
                     if(move.moveType == MoveType.Special) {
                         o++;
-                        layout.addView(move.asRow(this.getActivity(), o % 2 == 1));
+                        layout.addView(move.asRow(this.getActivity(), o % 2 == 1, character.color));
                     }
                 }
             }

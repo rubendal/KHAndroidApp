@@ -12,6 +12,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 import com.rubendal.kuroganehammercom.dbfz.fragments.DBCharacterMainFragment;
+import com.rubendal.kuroganehammercom.rivals.fragments.RivalsCharacterMainFragment;
 import com.rubendal.kuroganehammercom.util.KHUpdate;
 import com.rubendal.kuroganehammercom.smash4.calculator.CalculatorFragment;
 import com.rubendal.kuroganehammercom.smash4.calculator.asynctask.StartCalculatorAsyncTask;
@@ -116,6 +117,15 @@ public class MainActivity extends AppCompatActivity
                     replaceFragment(DBCharacterMainFragment.newInstance());
                 }else{
                     loadFragment(DBCharacterMainFragment.newInstance());
+                }
+            }
+        }
+        else if(id == R.id.rivals_characters){
+            if(!(currentFragment instanceof RivalsCharacterMainFragment)){
+                if(currentFragment instanceof NavigationFragment){
+                    replaceFragment(RivalsCharacterMainFragment.newInstance());
+                }else{
+                    loadFragment(RivalsCharacterMainFragment.newInstance());
                 }
             }
         }
