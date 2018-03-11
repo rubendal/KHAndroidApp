@@ -5,6 +5,8 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.util.DisplayMetrics;
 import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.GridView;
@@ -19,6 +21,13 @@ public class RivalsCharacterMainFragment extends NavigationFragment {
 
     public RivalsCharacterMainFragment() {
 
+    }
+
+    @Override
+    public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
+        super.onCreateOptionsMenu(menu, inflater);
+
+        menu.findItem(R.id.update).setVisible(false);
     }
 
     public static RivalsCharacterMainFragment newInstance(){
@@ -98,6 +107,8 @@ public class RivalsCharacterMainFragment extends NavigationFragment {
         if (savedInstanceState != null) {
             selectedItem = savedInstanceState.getInt("index");
         }
+
         super.onCreate(savedInstanceState);
+        setHasOptionsMenu(true);
     }
 }

@@ -36,6 +36,13 @@ public class DBAttackListFragment extends KHFragment {
     }
 
     @Override
+    public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
+        super.onCreateOptionsMenu(menu, inflater);
+
+        menu.findItem(R.id.update).setVisible(false);
+    }
+
+    @Override
     public void updateData() {
         CharacterMovesAsyncTask m = new CharacterMovesAsyncTask(this, character, true);
         m.execute();
