@@ -4,15 +4,19 @@ import android.app.ProgressDialog;
 import android.os.AsyncTask;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.ImageView;
 import android.widget.Toast;
 
+import com.rubendal.kuroganehammercom.R;
 import com.rubendal.kuroganehammercom.rivals.adapter.CharacterAdapter;
 import com.rubendal.kuroganehammercom.rivals.classes.RivalsCharacter;
 import com.rubendal.kuroganehammercom.rivals.fragments.RivalsCharacterMainFragment;
 import com.rubendal.kuroganehammercom.util.Storage;
+import com.rubendal.kuroganehammercom.util.UserPref;
 
 import org.json.JSONArray;
 
+import java.util.Collections;
 import java.util.LinkedList;
 
 public class CharacterListAsyncTask extends AsyncTask<String, String, LinkedList<RivalsCharacter>> {
@@ -57,7 +61,7 @@ public class CharacterListAsyncTask extends AsyncTask<String, String, LinkedList
                 c.hasMoveData = Storage.exists("RoA_" + String.valueOf(c.id),"moves.json",context.getActivity());
                 list.add(c);
             }
-            //Collections.sort(list, Character.getComparator());
+            Collections.sort(list, RivalsCharacter.getComparator());
             return list;
         } catch (Exception e) {
             System.out.println(e.getMessage());
@@ -87,24 +91,24 @@ public class CharacterListAsyncTask extends AsyncTask<String, String, LinkedList
 
                 }
             });
-            /*
+
             context.grid.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
                 @Override
                 public boolean onItemLongClick(AdapterView<?> adapterView, View view, int i, long l) {
-                    Character character = (Character) adapterView.getItemAtPosition(i);
+                    RivalsCharacter character = (RivalsCharacter) adapterView.getItemAtPosition(i);
                     ImageView fav = (ImageView)view.findViewById(R.id.fav);
-                    if(UserPref.checkCharacterFavorites(character.name)){
-                        UserPref.removeFavoriteCharacter(context.getActivity(),character.name);
+                    if(UserPref.checkRivalsCharacterFavorites(character.name)){
+                        UserPref.removeFavoriteRivalsCharacter(context.getActivity(),character.name);
                         fav.setVisibility(View.INVISIBLE);
                         character.favorite = false;
                     }else{
-                        UserPref.addFavoriteCharacter(context.getActivity(),character.name);
+                        UserPref.addFavoriteRivalsCharacter(context.getActivity(),character.name);
                         fav.setVisibility(View.VISIBLE);
                         character.favorite = true;
                     }
                     return true;
                 }
-            });*/
+            });
         }
     }
 }

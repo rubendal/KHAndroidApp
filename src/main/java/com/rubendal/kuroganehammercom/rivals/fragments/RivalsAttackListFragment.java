@@ -171,7 +171,7 @@ public class RivalsAttackListFragment extends KHFragment {
                 }
             }
         }
-        
+
         o=0;
 
         layout = (TableLayout)getView().findViewById(R.id.attributetable);

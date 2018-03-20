@@ -7,11 +7,14 @@ import android.graphics.Canvas;
 import android.graphics.ColorMatrixColorFilter;
 import android.graphics.Paint;
 
+import com.rubendal.kuroganehammercom.util.UserPref;
+
 import org.json.JSONObject;
 
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.Serializable;
+import java.util.Comparator;
 
 public class RivalsCharacter implements Serializable{
     public int id;
@@ -85,12 +88,40 @@ public class RivalsCharacter implements Serializable{
         try{
             String name = jsonObject.getString("Name"), color = jsonObject.getString("Color");
             int id = jsonObject.getInt("Id");
+            RivalsCharacter character = new RivalsCharacter(id, name, color);
 
-            return new RivalsCharacter(id, name, color);
+            character.favorite = UserPref.checkRivalsCharacterFavorites(character.name);
+
+            return character;
         }
         catch(Exception e){
 
         }
         return null;
+    }
+
+    public static Comparator<RivalsCharacter> getComparator(){
+        Comparator<RivalsCharacter> comparator = new Comparator<RivalsCharacter>() {
+            @Override
+            public int compare(RivalsCharacter c1, RivalsCharacter c2) {
+                if(c1.favorite == c2.favorite){
+                    if(c1.id < c2.id){
+                        return -1;
+                    }
+                    if(c1.id > c2.id){
+                        return 1;
+                    }
+                    return 0;
+                }
+                if(c1.favorite){
+                    return -1;
+                }
+                if(c2.favorite){
+                    return 1;
+                }
+                return 0;
+            }
+        };
+        return comparator;
     }
 }
