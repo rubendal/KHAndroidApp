@@ -243,6 +243,9 @@ public class Storage {
                     json = Assets.getAsset(assets, "Rivals/Data/" + c.id + "/moves.json");
                     if(json!=null)
                         write("RoA_" + String.valueOf(c.id), "moves.json", context, json);
+                    json = Assets.getAsset(assets, "Rivals/Data/" + c.id + "/attributes.json");
+                    if(json!=null)
+                        write("RoA_" + String.valueOf(c.id), "attributes.json", context, json);
                 }catch(Exception e){
 
                 }

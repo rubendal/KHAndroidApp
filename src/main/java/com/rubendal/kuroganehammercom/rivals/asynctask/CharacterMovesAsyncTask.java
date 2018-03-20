@@ -5,6 +5,7 @@ import android.os.AsyncTask;
 import android.widget.Toast;
 
 import com.rubendal.kuroganehammercom.MainActivity;
+import com.rubendal.kuroganehammercom.rivals.classes.RivalsAttribute;
 import com.rubendal.kuroganehammercom.rivals.classes.RivalsCharacter;
 import com.rubendal.kuroganehammercom.rivals.fragments.RivalsAttackListFragment;
 import com.rubendal.kuroganehammercom.interfaces.KHFragment;
@@ -22,6 +23,7 @@ public class CharacterMovesAsyncTask extends AsyncTask<String, String, LinkedLis
     private ProgressDialog dialog;
     private String title;
     private RivalsCharacter character;
+    private LinkedList<RivalsAttribute> attributeList;
     //private MoveSort moveSort = MoveSort.NONE;
 
     private boolean replace = false;
@@ -72,8 +74,13 @@ public class CharacterMovesAsyncTask extends AsyncTask<String, String, LinkedLis
             }
 
 
-
-
+            attributeList = new LinkedList<>();
+            json = Storage.read("RoA_" + String.valueOf(character.id),"attributes.json",context.getActivity());
+            jsonArray = new JSONArray(json);
+            for(int i=0;i<jsonArray.length();i++){
+                RivalsAttribute attribute = RivalsAttribute.fromJson(jsonArray.getJSONObject(i));
+                attributeList.add(attribute);
+            }
             return list;
         } catch (Exception e) {
 
@@ -92,9 +99,9 @@ public class CharacterMovesAsyncTask extends AsyncTask<String, String, LinkedLis
             return;
         }
         if(replace){
-            ((MainActivity)context.getActivity()).replaceFragment(RivalsAttackListFragment.newInstance(character,s));
+            ((MainActivity)context.getActivity()).replaceFragment(RivalsAttackListFragment.newInstance(character,s, attributeList));
         }else {
-            ((MainActivity) context.getActivity()).loadFragment(RivalsAttackListFragment.newInstance(character, s));
+            ((MainActivity) context.getActivity()).loadFragment(RivalsAttackListFragment.newInstance(character, s, attributeList));
         }
     }
 }

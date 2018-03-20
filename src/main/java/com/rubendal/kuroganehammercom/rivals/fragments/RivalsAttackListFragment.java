@@ -19,6 +19,7 @@ import android.widget.TextView;
 import com.rubendal.kuroganehammercom.R;
 import com.rubendal.kuroganehammercom.interfaces.KHFragment;
 import com.rubendal.kuroganehammercom.rivals.asynctask.CharacterMovesAsyncTask;
+import com.rubendal.kuroganehammercom.rivals.classes.RivalsAttribute;
 import com.rubendal.kuroganehammercom.rivals.classes.RivalsCharacter;
 import com.rubendal.kuroganehammercom.rivals.classes.RivalsMove;
 import com.rubendal.kuroganehammercom.util.params.Params;
@@ -30,6 +31,7 @@ public class RivalsAttackListFragment extends KHFragment {
 
     private RivalsCharacter character;
     private List<RivalsMove> moveList;
+    private List<RivalsAttribute> attributeList;
 
     public RivalsAttackListFragment() {
 
@@ -54,6 +56,7 @@ public class RivalsAttackListFragment extends KHFragment {
         if(getArguments() != null){
             this.character = (RivalsCharacter)getArguments().getSerializable("character");
             this.moveList = (List<RivalsMove>)getArguments().getSerializable("list");
+            this.attributeList = (List<RivalsAttribute>)getArguments().getSerializable("attributes");
         }
         setHasOptionsMenu(true);
 
@@ -65,14 +68,16 @@ public class RivalsAttackListFragment extends KHFragment {
         return String.format("%s/Moves",character.getCharacterTitleName());
     }
 
-    public static RivalsAttackListFragment newInstance(RivalsCharacter character, LinkedList<RivalsMove> moveList){
+    public static RivalsAttackListFragment newInstance(RivalsCharacter character, LinkedList<RivalsMove> moveList, LinkedList<RivalsAttribute> attributeList){
         RivalsAttackListFragment fragment = new RivalsAttackListFragment();
         Bundle args = new Bundle();
         args.putSerializable("character", character);
         args.putSerializable("list", moveList);
+        args.putSerializable("attributes", attributeList);
         fragment.setArguments(args);
         fragment.character = character;
         fragment.moveList = moveList;
+        fragment.attributeList = attributeList;
         return fragment;
     }
 
@@ -164,6 +169,28 @@ public class RivalsAttackListFragment extends KHFragment {
                     o++;
                     layout.addView(move.asRow(this.getActivity(), o % 2 == 1, character.color));
                 }
+            }
+        }
+        
+        o=0;
+
+        layout = (TableLayout)getView().findViewById(R.id.attributetable);
+
+        layout.setPadding(Params.LAYOUT_PADDING,Params.LAYOUT_PADDING,Params.LAYOUT_PADDING,Params.LAYOUT_PADDING);
+
+        header = (TableRow) layout.findViewById(R.id.attributeheader);
+
+        for (int i = 0; i < header.getChildCount(); i++) {
+            TextView t = (TextView) header.getChildAt(i);
+            t.setPadding(Params.PADDING,Params.PADDING,Params.PADDING,Params.PADDING);
+            t.setBackgroundColor(Color.parseColor(character.color));
+        }
+
+
+        for (RivalsAttribute attribute : attributeList) {
+            if (attribute != null) {
+                o++;
+                layout.addView(attribute.asRow(this.getActivity(), o % 2 == 1));
             }
         }
     }

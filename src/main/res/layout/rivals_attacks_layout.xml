@@ -18,6 +18,32 @@
                 android:layout_height="match_parent"
                 android:orientation="vertical">
 
+                <TableLayout
+                    android:id="@+id/attributetable"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true">
+
+                    <TableRow android:id="@+id/attributeheader">
+
+                        <TextView
+                            android:text="Attribute"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"/>
+
+                        <TextView
+                            android:text="Value"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"/>
+
+                    </TableRow>
+
+                </TableLayout>
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
