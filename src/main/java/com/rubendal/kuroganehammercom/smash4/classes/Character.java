@@ -20,6 +20,7 @@ public class Character implements Serializable {
     public String thumbnailUrl;
     //public transient Bitmap thumbnail;
     public String color;
+    public String gameName;
     public boolean hasSpecificAttributes;
     public SpecificAttribute specificAttribute;
     public boolean favorite = false;
@@ -30,6 +31,9 @@ public class Character implements Serializable {
         if(name.equals("Game & Watch")){
             this.name = "Mr. " + name;
         }
+
+        setGameName();
+        System.out.println(gameName);
     }
 
     public Character(Context context, int id, String name, String thumbnailUrl, String color){
@@ -45,6 +49,88 @@ public class Character implements Serializable {
                 this.specificAttribute = null;
                 this.hasSpecificAttributes = false;
             }
+        }
+    }
+
+    public void setGameName(){
+        switch(this.name){
+            case "Captain Falcon":
+                gameName = "captain";
+                break;
+            case "Charizard":
+                gameName = "lizardon";
+                break;
+            case "Diddy Kong":
+                gameName = "diddy";
+                break;
+            case "Donkey Kong":
+                gameName = "donkey";
+                break;
+            case "King Dedede":
+                gameName = "dedede";
+                break;
+            case "Mr. Game & Watch":
+                gameName = "gamewatch";
+                break;
+            case "Ganondorf":
+                gameName = "ganon";
+                break;
+            case "Corrin":
+                gameName = "kamui";
+                break;
+            case "Robin":
+                gameName = "reflet";
+                break;
+            case "Bowser":
+                gameName = "koopa";
+                break;
+            case "Bowser Jr.":
+                gameName = "koopajr";
+                break;
+            case "Dr. Mario":
+                gameName = "mariod";
+                break;
+            case "Mii Brawler":
+                gameName = "miifighter";
+                break;
+            case "Mii Swordfighter":
+                gameName = "miiswordsman";
+                break;
+            case "Villager":
+                gameName = "murabito";
+                break;
+            case "PAC-MAN":
+                gameName = "pacman";
+                break;
+            case "Olimar":
+                gameName = "pikmin";
+                break;
+            case "Greninja":
+                gameName = "gekkouga";
+                break;
+            case "Dark Pit":
+                gameName = "pitb";
+                break;
+            case "Jigglypuff":
+                gameName = "purin";
+                break;
+            case "Mega Man":
+                gameName = "rockman";
+                break;
+            case "Rosalina & Luma":
+                gameName = "rosetta";
+                break;
+            case "R.O.B.":
+                gameName = "robot";
+                break;
+            case "Zero Suit Samus":
+                gameName = "szerosuit";
+                break;
+            case "Wii Fit Trainer":
+                gameName = "wiifit";
+                break;
+            default:
+                gameName = this.name.toLowerCase().replace(" ","");
         }
     }
 

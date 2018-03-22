@@ -1,6 +1,8 @@
 package com.rubendal.kuroganehammercom.smash4.fragments;
 
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.view.LayoutInflater;
@@ -100,9 +102,12 @@ public class CharacterFragment extends KHFragment {
         }
         list.add(new CharacterOption("Special Moves"));
 
+
         if(character.hasSpecificAttributes){
             list.add(new CharacterOption(character.specificAttribute.attribute));
         }
+
+        list.add(new CharacterOption("Hitbox Visualization"));
 
 
         adapter = new CharacterOptionsAdapter(this.getActivity(), list);
@@ -155,6 +160,10 @@ public class CharacterFragment extends KHFragment {
                     case "Ground Moves":
                         m = new MoveAsyncTask(ref, character, MoveType.Ground);
                         m.execute();
+                        break;
+                    case "Hitbox Visualization":
+                        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(String.format("https://struz.github.io/smash-move-viewer/#/v1/%s", character.gameName)));
+                        startActivity(intent);
                         break;
                 }
             }
