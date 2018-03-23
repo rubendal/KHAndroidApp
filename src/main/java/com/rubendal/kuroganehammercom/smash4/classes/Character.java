@@ -33,7 +33,6 @@ public class Character implements Serializable {
         }
 
         setGameName();
-        System.out.println(gameName);
     }
 
     public Character(Context context, int id, String name, String thumbnailUrl, String color){
@@ -173,6 +172,26 @@ public class Character implements Serializable {
                 return "Ridley";
         }
         return name;
+    }
+
+    public String getCharacterHitboxVisualizationLink(){
+        return String.format("https://struz.github.io/smash-move-viewer/#/v1/%s", gameName);
+    }
+
+    public String getCharacterHitboxVisualizationData(){
+        return String.format("https://struz.github.io/smash-move-viewer/fighters/%s.json", gameName);
+    }
+
+    public String getCharacterHitboxVisualizationLink(String animation){
+        return String.format("https://struz.github.io/smash-move-viewer/#/v1/%s/%s", gameName, animation);
+    }
+
+    public String getCharacterHitboxVisualizationData(String animation){
+        return String.format("https://struz.github.io/smash-move-viewer/fighters/%s/%s.json", gameName, animation);
+    }
+
+    public String getCharacterHitboxVisualizationVideo(String animation){
+        return String.format("https://s3-us-west-1.amazonaws.com/smash-move-viewer/fighters/%s/videos/game_view/%s.mp4?1", gameName, animation);
     }
 
     public static Character fromJson(Context context, JSONObject jsonObject){

@@ -41,48 +41,12 @@ public class KHUpdate extends AsyncTask<String, String, Boolean> {
         }
     }
 
-    private String sendRequest(String link){
-        StringBuilder builder = new StringBuilder();
-        HttpURLConnection connection = null;
-
-        try
-        {
-            URL url = new URL(link);
-            connection = (HttpURLConnection) url.openConnection();
-            connection.setRequestProperty("Accept-Charset", "utf-8");
-            connection.setRequestMethod("GET");
-            connection.setDoInput(true);
-            connection.setDoOutput(false);
-
-            connection.connect();
-
-            BufferedReader reader = new BufferedReader(
-                    new InputStreamReader(connection.getInputStream()));
-
-            String line = "";
-            while ((line = reader.readLine()) != null)
-            {
-                builder.append(line);
-            }
-        }catch (Exception ex)
-        {
-
-        }
-        finally
-        {
-            if(connection!=null) {
-                connection.disconnect();
-            }
-        }
-        return builder.toString();
-    }
-
     @Override
     protected Boolean doInBackground(String... params) {
         //Get all data needed from the API
         try {
-            String characters = sendRequest(HOST + "/api/Characters");
-            String attributeNames = sendRequest(HOST +"/api/characterattributes/types");
+            String characters = HttpRequest.get(HOST + "/api/Characters");
+            String attributeNames = HttpRequest.get(HOST +"/api/characterattributes/types");
 
             if(characters.isEmpty()){
                 return false;
@@ -101,9 +65,9 @@ public class KHUpdate extends AsyncTask<String, String, Boolean> {
             }
 
             for(Character c : list){
-                String moves = sendRequest(HOST +"/api/Characters/" + c.id + "/moves");
-                String attributes = sendRequest(HOST +"/api/Characters/" + c.id + "/characterattributes");
-                String movements = sendRequest(HOST +"/api/Characters/" + c.id + "/movements");
+                String moves = HttpRequest.get(HOST +"/api/Characters/" + c.id + "/moves");
+                String attributes = HttpRequest.get(HOST +"/api/Characters/" + c.id + "/characterattributes");
+                String movements = HttpRequest.get(HOST +"/api/Characters/" + c.id + "/movements");
                 if(moves.isEmpty()){
                     return false;
                 }
@@ -126,7 +90,7 @@ public class KHUpdate extends AsyncTask<String, String, Boolean> {
             }
 
             for(AttributeName a : attrNames){
-                String attrData = sendRequest(HOST + "/api/characterattributes/name/" + a.name);
+                String attrData = HttpRequest.get(HOST + "/api/characterattributes/name/" + a.name);
 
                 if(attrData.isEmpty())
                     return false;

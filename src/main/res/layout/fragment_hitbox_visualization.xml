@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+        android:scrollbars="vertical"
+        android:fillViewport="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Spinner
+                android:id="@+id/animationSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/videoContainer"
+                android:layout_below="@id/animationSpinner">
+
+                <VideoView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/videoView"
+                    android:layout_centerHorizontal="true"
+                    android:background="#00000000"/>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/videoContainer">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/frameLabel"
+                    android:text="Frame"
+                    android:textSize="16sp"
+                    android:layout_centerVertical="true"
+                    android:textColor="@color/black"/>
+
+                <EditText
+                    android:id="@+id/frameCounter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/frameLabel"
+                    android:layout_toRightOf="@id/frameLabel"
+                    android:ems="3"
+                    android:inputType="number"
+                    android:text="1"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_skip_previous_black_24dp"
+                    android:id="@+id/previous"
+                    android:layout_toRightOf="@id/frameCounter"
+                    android:layout_toEndOf="@id/frameCounter"
+                    />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_play_arrow_black_24dp"
+                    android:id="@+id/play"
+                    android:layout_toRightOf="@id/previous"
+                    android:layout_toEndOf="@id/previous"
+                    />
+
+                <ImageButton
+                    android:id="@+id/pause"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_pause_black_24dp"
+                    android:visibility="invisible"
+                    android:layout_toRightOf="@id/previous"
+                    android:layout_toEndOf="@id/previous"/>
+
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_skip_next_black_24dp"
+                    android:layout_toRightOf="@id/play"
+                    android:layout_toEndOf="@id/play"
+                    android:id="@+id/next"
+                    />
+
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
