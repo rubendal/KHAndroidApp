@@ -163,8 +163,10 @@ public class CharacterFragment extends KHFragment {
                         m.execute();
                         break;
                     case "Hitbox Visualization":
-                        /*Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(String.format("https://struz.github.io/smash-move-viewer/#/v1/%s", character.gameName)));
-                        startActivity(intent);*/
+                        /*
+                        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(String.format("https://struz.github.io/smash-move-viewer/#/v1/%s", character.gameName)));
+                        startActivity(intent);
+                        */
                         MoveAnimationsAsyncTask ma = new MoveAnimationsAsyncTask(ref, character);
                         ma.execute();
                         break;

@@ -1,6 +1,8 @@
 package com.rubendal.kuroganehammercom.smash4.asynctask.character;
 
 import android.app.ProgressDialog;
+import android.content.Intent;
+import android.net.Uri;
 import android.os.AsyncTask;
 import android.util.Log;
 import android.widget.Toast;
@@ -13,6 +15,7 @@ import com.rubendal.kuroganehammercom.smash4.fragments.HitboxVisualizationFragme
 import com.rubendal.kuroganehammercom.util.HttpRequest;
 
 import org.json.JSONArray;
+import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.util.Collections;
@@ -24,6 +27,8 @@ public class MoveAnimationsAsyncTask extends AsyncTask<String, String, LinkedLis
     private ProgressDialog dialog;
     private String title;
     private Character character;
+
+    private boolean connected = false;
 
     public MoveAnimationsAsyncTask(KHFragment context, Character character){
         this.context = context;
@@ -46,6 +51,15 @@ public class MoveAnimationsAsyncTask extends AsyncTask<String, String, LinkedLis
     @Override
     protected LinkedList<MoveAnimation> doInBackground(String... params) {
         try {
+
+            //Make request to server for device connection test without adding ACCESS_NETWORK_STATE permission, if it catches an exception connected will be false if string is empty
+            String test = HttpRequest.get("https://struz.github.io/smash-move-viewer/#/v1");
+
+            if(!test.isEmpty())
+                connected = true;
+            else
+                return null;
+
             String json = HttpRequest.get(character.getCharacterHitboxVisualizationData());
 
             LinkedList<MoveAnimation> list = new LinkedList<>();
@@ -58,8 +72,9 @@ public class MoveAnimationsAsyncTask extends AsyncTask<String, String, LinkedLis
             }
 
             return list;
+
         } catch (Exception e) {
-            Log.d("error",e.getMessage());
+
         }
         return null;
     }
@@ -71,10 +86,15 @@ public class MoveAnimationsAsyncTask extends AsyncTask<String, String, LinkedLis
             dialog.dismiss();
         }
         if(s == null){
-            Toast.makeText(context.getContext(), "Coming soon", Toast.LENGTH_LONG).show();
+            if(connected)
+                Toast.makeText(context.getContext(), "Coming soon", Toast.LENGTH_LONG).show();
+            else
+                Toast.makeText(context.getContext(), "Couldn't connect with Smash Move Viewer", Toast.LENGTH_LONG).show();
             return;
         }
-        ((MainActivity) context.getActivity()).loadFragment(HitboxVisualizationFragment.newInstance(character,s));
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(String.format("https://struz.github.io/smash-move-viewer/#/v1/%s", character.gameName)));
+        context.startActivity(intent);
+        //((MainActivity) context.getActivity()).loadFragment(HitboxVisualizationFragment.newInstance(character,s));
     }
 
 }
