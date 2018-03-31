@@ -50,7 +50,7 @@ public class DodgeData {
             fafView.setBackgroundColor(Color.parseColor("#D9D9D9"));
         }
 
-        attributeView.setBackgroundColor(Color.parseColor(color));
+        //attributeView.setBackgroundColor(Color.parseColor(color));
 
         return tableRow;
 

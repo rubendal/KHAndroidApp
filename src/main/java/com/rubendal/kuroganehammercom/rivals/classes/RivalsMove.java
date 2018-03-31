@@ -125,7 +125,7 @@ public class RivalsMove implements Serializable {
 
         }
 
-        nameView.setBackgroundColor(Color.parseColor(color));
+        //nameView.setBackgroundColor(Color.parseColor(color));
 
         return tableRow;
 

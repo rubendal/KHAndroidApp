@@ -82,7 +82,7 @@ public class Move implements Serializable {
             kbgView.setBackgroundColor(Color.parseColor("#D9D9D9"));
         }
 
-        nameView.setBackgroundColor(Color.parseColor(color));
+        //nameView.setBackgroundColor(Color.parseColor(color));
 
         return tableRow;
 
