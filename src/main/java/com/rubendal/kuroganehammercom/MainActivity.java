@@ -8,9 +8,14 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.Toast;
 
+import com.rubendal.kuroganehammercom.dbfz.classes.DBCharacter;
 import com.rubendal.kuroganehammercom.dbfz.fragments.DBCharacterMainFragment;
 import com.rubendal.kuroganehammercom.rivals.fragments.RivalsCharacterMainFragment;
 import com.rubendal.kuroganehammercom.util.KHUpdate;
@@ -31,6 +36,10 @@ public class MainActivity extends AppCompatActivity
     public KHFragment currentFragment;
     private int id = 0;
 
+    private MenuItem smash4Nav;
+    private MenuItem dbfzNav;
+    private MenuItem roaNav;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -47,9 +56,27 @@ public class MainActivity extends AppCompatActivity
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
+        Menu navMenu = navigationView.getMenu();
+
+        smash4Nav = navMenu.findItem(R.id.smash4);
+        dbfzNav = navMenu.findItem(R.id.dbfz);
+        roaNav = navMenu.findItem(R.id.roa);
+
         Storage.Initialize(this);
         UserPref.Initialize(this);
-        loadInitialFragment(MainFragment.newInstance());
+
+        switch(UserPref.getInitialGame()){
+            case "RoA":
+                loadInitialFragment(RivalsCharacterMainFragment.newInstance());
+                break;
+            case "DBFZ":
+                loadInitialFragment(DBCharacterMainFragment.newInstance());
+                break;
+            default:
+                loadInitialFragment(MainFragment.newInstance());
+        }
+        SetInitialGameIcon();
+
     }
 
     @Override
@@ -71,6 +98,7 @@ public class MainActivity extends AppCompatActivity
         }
     }
 
+
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
@@ -85,6 +113,9 @@ public class MainActivity extends AppCompatActivity
                 }else{
                     loadFragment(MainFragment.newInstance());
                 }
+            }else{
+                UserPref.setInitialGame(getApplicationContext(), "Smash 4");
+                SetInitialGameIcon();
             }
         }
         else if (id == R.id.attributes) {
@@ -118,6 +149,9 @@ public class MainActivity extends AppCompatActivity
                 }else{
                     loadFragment(DBCharacterMainFragment.newInstance());
                 }
+            }else{
+                UserPref.setInitialGame(getApplicationContext(), "DBFZ");
+                SetInitialGameIcon();
             }
         }
         else if(id == R.id.rivals_characters){
@@ -127,6 +161,9 @@ public class MainActivity extends AppCompatActivity
                 }else{
                     loadFragment(RivalsCharacterMainFragment.newInstance());
                 }
+            }else{
+                UserPref.setInitialGame(getApplicationContext(), "RoA");
+                SetInitialGameIcon();
             }
         }
         else if (id == R.id.about_credits) {
@@ -174,17 +211,63 @@ public class MainActivity extends AppCompatActivity
             drawer.closeDrawer(GravityCompat.START);
         } else {
             if (getSupportFragmentManager().getBackStackEntryCount() == 0){
-                if(currentFragment instanceof MainFragment) {
-                    super.onBackPressed();
-                }else{
-                    loadInitialFragment(MainFragment.newInstance());
+                switch(UserPref.getInitialGame()){
+                    case "DBFZ":
+                        if(currentFragment instanceof DBCharacterMainFragment) {
+                            super.onBackPressed();
+                        }else{
+                            loadInitialFragment(DBCharacterMainFragment.newInstance());
+                        }
+                        break;
+                    case "RoA":
+                        if(currentFragment instanceof RivalsCharacterMainFragment) {
+                            super.onBackPressed();
+                        }else{
+                            loadInitialFragment(RivalsCharacterMainFragment.newInstance());
+                        }
+                        break;
+                    default:
+                        if(currentFragment instanceof MainFragment) {
+                            super.onBackPressed();
+                        }else{
+                            loadInitialFragment(MainFragment.newInstance());
+                        }
                 }
+
             } else {
                 id--;
                 currentFragment = (KHFragment)getSupportFragmentManager().findFragmentByTag(String.valueOf(id-1));
                 getSupportFragmentManager().popBackStack();
                 setTitle(currentFragment.getTitle());
             }
+        }
+    }
+
+    private void SetInitialGameIcon(){
+        switch(UserPref.getInitialGame()){
+            case "DBFZ":
+                smash4Nav.setTitle("Smash 4");
+                roaNav.setTitle("Rivals of Aether");
+                dbfzNav.setTitle("Dragon Ball FighterZ (Startup)");
+                //smash4Nav.setIcon(null);
+                //roaNav.setIcon(null);
+                //dbfzNav.setIcon(R.drawable.ic_star_black_24dp);
+                break;
+            case "RoA":
+                smash4Nav.setTitle("Smash 4");
+                roaNav.setTitle("Rivals of Aether (Startup)");
+                dbfzNav.setTitle("Dragon Ball FighterZ");
+                //smash4Nav.setIcon(null);
+                //roaNav.setIcon(R.drawable.ic_star_black_24dp);
+                //dbfzNav.setIcon(null);
+                break;
+            default:
+                smash4Nav.setTitle("Smash 4 (Startup)");
+                roaNav.setTitle("Rivals of Aether");
+                dbfzNav.setTitle("Dragon Ball FighterZ");
+                //smash4Nav.setIcon(R.drawable.ic_star_black_24dp);
+                //roaNav.setIcon(null);
+                //dbfzNav.setIcon(null);
         }
     }
 }

@@ -2,7 +2,7 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <group android:checkableBehavior="single">
-        <item android:title="Smash 4">
+        <item android:title="Smash 4" android:id="@+id/smash4">
             <menu>
                 <item
                     android:id="@+id/characters"
@@ -19,14 +19,14 @@
                     android:title="Sm4sh Calculator" />
             </menu>
         </item>
-        <item android:title="Rivals of Aether">
+        <item android:title="Rivals of Aether" android:id="@+id/roa">
             <menu>
                 <item
                     android:id="@+id/rivals_characters"
                     android:title="Characters" />
             </menu>
         </item>
-        <item android:title="Dragon Ball FighterZ">
+        <item android:title="Dragon Ball FighterZ" android:id="@+id/dbfz">
             <menu>
                 <item
                     android:id="@+id/dbfz_characters"

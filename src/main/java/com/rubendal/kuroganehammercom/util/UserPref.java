@@ -8,12 +8,21 @@ import java.util.LinkedList;
 
 public class UserPref {
 
+    private static String InitialGame = "Smash 4";
+
     private static LinkedList<String> favoriteCharacters = new LinkedList<>();
     private static LinkedList<String> favoriteAttributes = new LinkedList<>();
     private static LinkedList<String> favoriteDBCharacters = new LinkedList<>();
     private static LinkedList<String> favoriteRivalsCharacters = new LinkedList<>();
 
     public static void Initialize(Context context){
+        try {
+            InitialGame = Storage.read("user", "initialGame.bin", context);
+            InitialGame = InitialGame.trim();
+        }catch(Exception e){
+            InitialGame = "Smash 4";
+        }
+
         LinkedList<String> list = new LinkedList<>();
         try {
             String json = Storage.read("user", "favoriteCharacters.json", context);
@@ -158,6 +167,19 @@ public class UserPref {
     public static void removeFavoriteRivalsCharacter(Context context, String name){
         favoriteRivalsCharacters.remove(name);
         saveFavoriteRivalsCharacters(context);
+    }
+
+    public static String getInitialGame(){
+        return InitialGame;
+    }
+
+    public static void setInitialGame(Context context, String game){
+        InitialGame = game;
+        try{
+            Storage.write("user","initialGame.bin",context, InitialGame);
+        }catch(Exception e){
+
+        }
     }
 
 }
