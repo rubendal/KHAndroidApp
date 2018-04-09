@@ -104,6 +104,8 @@ public class MainActivity extends AppCompatActivity
     public boolean onNavigationItemSelected(MenuItem item) {
         int id = item.getItemId();
 
+        boolean close = true;
+
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
 
         if (id == R.id.characters) {
@@ -116,6 +118,7 @@ public class MainActivity extends AppCompatActivity
             }else{
                 UserPref.setInitialGame(getApplicationContext(), "Smash 4");
                 SetInitialGameIcon();
+                close = false;
             }
         }
         else if (id == R.id.attributes) {
@@ -152,6 +155,7 @@ public class MainActivity extends AppCompatActivity
             }else{
                 UserPref.setInitialGame(getApplicationContext(), "DBFZ");
                 SetInitialGameIcon();
+                close = false;
             }
         }
         else if(id == R.id.rivals_characters){
@@ -164,14 +168,16 @@ public class MainActivity extends AppCompatActivity
             }else{
                 UserPref.setInitialGame(getApplicationContext(), "RoA");
                 SetInitialGameIcon();
+                close = false;
             }
         }
         else if (id == R.id.about_credits) {
             startActivity(new Intent(this,AboutActivity.class));
         }
 
+        if(close)
+            drawer.closeDrawer(GravityCompat.START);
 
-        drawer.closeDrawer(GravityCompat.START);
         return true;
     }
 
