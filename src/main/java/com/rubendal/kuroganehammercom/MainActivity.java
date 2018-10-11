@@ -112,6 +112,9 @@ public class MainActivity extends AppCompatActivity
         else if (id == R.id.about_credits) {
             startActivity(new Intent(this,AboutActivity.class));
         }
+        else if (id == R.id.help) {
+            startActivity(new Intent(this,HelpActivity.class));
+        }
 
 
         drawer.closeDrawer(GravityCompat.START);
@@ -161,9 +164,11 @@ public class MainActivity extends AppCompatActivity
                 }
             } else {
                 id--;
-                currentFragment = (KHFragment)getSupportFragmentManager().findFragmentByTag(String.valueOf(id-1));
-                getSupportFragmentManager().popBackStack();
-                setTitle(currentFragment.getTitle());
+                if(id > 0) {
+                    currentFragment = (KHFragment) getSupportFragmentManager().findFragmentByTag(String.valueOf(id - 1));
+                    getSupportFragmentManager().popBackStack();
+                    setTitle(currentFragment.getTitle());
+                }
             }
         }
     }

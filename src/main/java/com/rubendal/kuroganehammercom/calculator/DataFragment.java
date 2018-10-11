@@ -15,6 +15,7 @@ import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.RelativeLayout;
 import android.widget.Spinner;
+import android.widget.Toast;
 
 import com.rubendal.kuroganehammercom.R;
 import com.rubendal.kuroganehammercom.calculator.adapter.StringSpinnerAdapter;
@@ -55,7 +56,7 @@ public class DataFragment extends Fragment {
     }
 
     public void reloadView(final View view){
-        if(view!=null) {
+        if(view!=null && apiList != null) {
             Spinner attacker = (Spinner)view.findViewById(R.id.attackerSpinner);
             Spinner target = (Spinner)view.findViewById(R.id.targetSpinner);
             Spinner effects = (Spinner)view.findViewById(R.id.effectSpinner);
@@ -128,7 +129,12 @@ public class DataFragment extends Fragment {
                     sendRequest();
                 }
             });
+        }else{
+            if(apiList == null){
+                Toast.makeText(getContext(), "Error while getting data from calculator API", Toast.LENGTH_LONG).show();
+            }
         }
+
     }
 
     public void updateAttackerModifier(View view){

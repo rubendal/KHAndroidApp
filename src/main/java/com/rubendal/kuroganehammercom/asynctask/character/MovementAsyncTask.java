@@ -2,6 +2,7 @@ package com.rubendal.kuroganehammercom.asynctask.character;
 
 import android.app.ProgressDialog;
 import android.os.AsyncTask;
+import android.widget.Toast;
 
 import com.rubendal.kuroganehammercom.MainActivity;
 import com.rubendal.kuroganehammercom.fragments.KHFragment;
@@ -76,6 +77,10 @@ public class MovementAsyncTask extends AsyncTask<String, String, LinkedList<Move
         super.onPostExecute(s);
         if(dialog!=null){
             dialog.dismiss();
+        }
+        if(s==null){
+            Toast.makeText(context.getContext(), "An error ocurred while reading attribute data", Toast.LENGTH_LONG).show();
+            return;
         }
         if(replace){
             ((MainActivity)context.getActivity()).replaceFragment(MovementFragment.newInstance(character,s));
