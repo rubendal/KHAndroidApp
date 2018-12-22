@@ -78,14 +78,13 @@ public class CharacterDataAsyncTask extends AsyncTask<String, String, SSBUCharac
 
     //Used for now until API removes MoveType:"ground" for rolls/spotdodge/airdodge
     private boolean isEvasion(String name){
-        return name.equals("Forward Roll") || name.equals("Back Roll") || name.equals("Spotdodge") || name.equals("Airdodge");
+        return name.equals("Forward Roll") || name.equals("Back Roll") || name.equals("Spotdodge") || name.equals("Airdodge") || name.equals("Directional Airdodge (F/B)") || name.equals("Directional Airdodge (U)") || name.equals("Directional Airdodge (D)");
     }
 
     @Override
     protected SSBUCharacterData doInBackground(String... params) {
         try {
             String json = Storage.read("SSBU_" + String.valueOf(character.id),"moves.json",context.getActivity());
-            Log.d("difdew", json);
             LinkedList<Move> list = new LinkedList<>();
             LinkedList<Move> evasion = new LinkedList<>();
             JSONArray jsonArray = new JSONArray(json);
@@ -140,7 +139,6 @@ public class CharacterDataAsyncTask extends AsyncTask<String, String, SSBUCharac
             }
 
             json = Storage.read("SSBU_" + String.valueOf(character.id),"attributes.json",context.getActivity());
-            Log.d("difdew", json);
             LinkedList<Movement> movements = new LinkedList<>();
             jsonArray = new JSONArray(json);
             for(int i=0;i<jsonArray.length();i++){

@@ -201,7 +201,6 @@ public class SSBUCharacterDataFragment extends KHFragment {
             container.removeView(getView().findViewById(R.id.specific_attr_complex_table));
         }
         */
-
         layout = (TableLayout)getView().findViewById(R.id.groundtable);
 
         layout.setPadding(Params.LAYOUT_PADDING,Params.LAYOUT_PADDING,Params.LAYOUT_PADDING,Params.LAYOUT_PADDING);

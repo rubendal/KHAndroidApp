@@ -56,7 +56,15 @@ public class MainActivity extends AppCompatActivity
 
         Storage.Initialize(this);
         UserPref.Initialize(this);
-        loadInitialFragment(MainFragment.newInstance());
+
+        switch(UserPref.getInitialGame()){
+            case "SSBU":
+                loadInitialFragment(SSBUCharacterMainFragment.newInstance());
+                break;
+            default:
+                loadInitialFragment(MainFragment.newInstance());
+        }
+        SetInitialGameIcon();
     }
 
     @Override
