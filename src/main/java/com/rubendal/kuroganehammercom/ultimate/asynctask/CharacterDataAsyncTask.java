@@ -159,7 +159,7 @@ public class CharacterDataAsyncTask extends AsyncTask<String, String, SSBUCharac
             dialog.dismiss();
         }
         if(s==null){
-            Toast.makeText(context.getContext(), "An error ocurred while reading character data", Toast.LENGTH_LONG).show();
+            Toast.makeText(context.getContext(), "Character data isn't available yet", Toast.LENGTH_LONG).show();
             return;
         }
         if(replace){
