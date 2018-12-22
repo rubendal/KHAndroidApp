@@ -11,15 +11,16 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import com.rubendal.kuroganehammercom.asynctask.KHUpdate;
-import com.rubendal.kuroganehammercom.calculator.CalculatorFragment;
-import com.rubendal.kuroganehammercom.calculator.asynctask.StartCalculatorAsyncTask;
-//import com.rubendal.kuroganehammercom.fragments.AttributeMainFragment;
-import com.rubendal.kuroganehammercom.fragments.AttributeMainFragment;
-import com.rubendal.kuroganehammercom.fragments.FormulaFragment;
-import com.rubendal.kuroganehammercom.fragments.KHFragment;
-import com.rubendal.kuroganehammercom.fragments.MainFragment;
-import com.rubendal.kuroganehammercom.fragments.NavigationFragment;
+import com.rubendal.kuroganehammercom.smash4.asynctask.KHUpdate;
+import com.rubendal.kuroganehammercom.smash4.calculator.CalculatorFragment;
+import com.rubendal.kuroganehammercom.smash4.calculator.asynctask.StartCalculatorAsyncTask;
+//import com.rubendal.kuroganehammercom.smash4.fragments.AttributeMainFragment;
+import com.rubendal.kuroganehammercom.smash4.fragments.AttributeMainFragment;
+import com.rubendal.kuroganehammercom.smash4.fragments.FormulaFragment;
+import com.rubendal.kuroganehammercom.interfaces.KHFragment;
+import com.rubendal.kuroganehammercom.smash4.fragments.MainFragment;
+import com.rubendal.kuroganehammercom.interfaces.NavigationFragment;
+import com.rubendal.kuroganehammercom.ultimate.fragments.SSBUCharacterMainFragment;
 import com.rubendal.kuroganehammercom.util.Storage;
 import com.rubendal.kuroganehammercom.util.UserPref;
 
@@ -28,6 +29,9 @@ public class MainActivity extends AppCompatActivity
 
     public KHFragment currentFragment;
     private int id = 0;
+
+    private MenuItem smash4Nav;
+    private MenuItem ssbuNav;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,6 +48,11 @@ public class MainActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+
+        Menu navMenu = navigationView.getMenu();
+
+        smash4Nav = navMenu.findItem(R.id.smash4);
+        ssbuNav = navMenu.findItem(R.id.ssbu);
 
         Storage.Initialize(this);
         UserPref.Initialize(this);
@@ -74,6 +83,8 @@ public class MainActivity extends AppCompatActivity
     public boolean onNavigationItemSelected(MenuItem item) {
         int id = item.getItemId();
 
+        boolean close = true;
+
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
 
         if (id == R.id.characters) {
@@ -83,6 +94,10 @@ public class MainActivity extends AppCompatActivity
                 }else{
                     loadFragment(MainFragment.newInstance());
                 }
+            }else{
+                UserPref.setInitialGame(getApplicationContext(), "Smash 4");
+                SetInitialGameIcon();
+                close = false;
             }
         }
         else if (id == R.id.attributes) {
@@ -109,13 +124,28 @@ public class MainActivity extends AppCompatActivity
                 s.execute();
             }
         }
+        else if(id == R.id.ssbu_characters){
+            if(!(currentFragment instanceof SSBUCharacterMainFragment)){
+                if(currentFragment instanceof NavigationFragment){
+                    replaceFragment(SSBUCharacterMainFragment.newInstance());
+                }else{
+                    loadFragment(SSBUCharacterMainFragment.newInstance());
+                }
+            }else{
+                UserPref.setInitialGame(getApplicationContext(), "SSBU");
+                SetInitialGameIcon();
+                close = false;
+            }
+        }
         else if (id == R.id.about_credits) {
             startActivity(new Intent(this,AboutActivity.class));
         }
         else if (id == R.id.help) {
-            startActivity(new Intent(this,HelpActivity.class));
+            startActivity(new Intent(this, HelpActivity.class));
         }
 
+        if(close)
+            drawer.closeDrawer(GravityCompat.START);
 
         drawer.closeDrawer(GravityCompat.START);
         return true;
@@ -157,19 +187,40 @@ public class MainActivity extends AppCompatActivity
             drawer.closeDrawer(GravityCompat.START);
         } else {
             if (getSupportFragmentManager().getBackStackEntryCount() == 0){
-                if(currentFragment instanceof MainFragment) {
-                    super.onBackPressed();
-                }else{
-                    loadInitialFragment(MainFragment.newInstance());
+                switch(UserPref.getInitialGame()){
+                    case "SSBU":
+                        if(currentFragment instanceof SSBUCharacterMainFragment) {
+                            super.onBackPressed();
+                        }else{
+                            loadInitialFragment(SSBUCharacterMainFragment.newInstance());
+                        }
+                        break;
+                    default:
+                        if(currentFragment instanceof MainFragment) {
+                            super.onBackPressed();
+                        }else{
+                            loadInitialFragment(MainFragment.newInstance());
+                        }
                 }
+
             } else {
                 id--;
-                if(id > 0) {
-                    currentFragment = (KHFragment) getSupportFragmentManager().findFragmentByTag(String.valueOf(id - 1));
-                    getSupportFragmentManager().popBackStack();
-                    setTitle(currentFragment.getTitle());
-                }
+                currentFragment = (KHFragment)getSupportFragmentManager().findFragmentByTag(String.valueOf(id-1));
+                getSupportFragmentManager().popBackStack();
+                setTitle(currentFragment.getTitle());
             }
+        }
+    }
+
+    private void SetInitialGameIcon(){
+        switch(UserPref.getInitialGame()){
+            case "SSBU":
+                smash4Nav.setTitle("Smash 4");
+                ssbuNav.setTitle("Smash Ultimate (Startup)");
+                break;
+            default:
+                smash4Nav.setTitle("Smash 4 (Startup)");
+                ssbuNav.setTitle("Smash Ultimate");
         }
     }
 }

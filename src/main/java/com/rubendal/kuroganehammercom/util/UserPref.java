@@ -1,9 +1,6 @@
 package com.rubendal.kuroganehammercom.util;
 
 import android.content.Context;
-import android.content.SharedPreferences;
-
-import com.rubendal.kuroganehammercom.classes.AttributeName;
 
 import org.json.JSONArray;
 
@@ -11,10 +8,20 @@ import java.util.LinkedList;
 
 public class UserPref {
 
+    private static String InitialGame = "Smash 4";
+
     private static LinkedList<String> favoriteCharacters = new LinkedList<>();
     private static LinkedList<String> favoriteAttributes = new LinkedList<>();
+    private static LinkedList<String> favoriteUltCharacters = new LinkedList<>();
 
     public static void Initialize(Context context){
+        try {
+            InitialGame = Storage.read("user", "initialGame.bin", context);
+            InitialGame = InitialGame.trim();
+        }catch(Exception e){
+            InitialGame = "Smash 4";
+        }
+
         LinkedList<String> list = new LinkedList<>();
         try {
             String json = Storage.read("user", "favoriteCharacters.json", context);
@@ -38,6 +45,18 @@ public class UserPref {
             list = new LinkedList<>();
         }
         favoriteAttributes = list;
+
+        list = new LinkedList<>();
+        try {
+            String json = Storage.read("user", "favoriteUltCharacters.json", context);
+            JSONArray jsonArray = new JSONArray(json);
+            for(int i=0;i<jsonArray.length();i++){
+                list.add(jsonArray.getString(i));
+            }
+        }catch(Exception e){
+            list = new LinkedList<>();
+        }
+        favoriteUltCharacters = list;
     }
 
     private static void saveFavoriteCharacters(Context context){
@@ -88,5 +107,42 @@ public class UserPref {
         saveAttributesFavorite(context);
     }
 
+
+    private static void saveFavoriteUltCharacters(Context context){
+        try{
+            JSONArray jsonArray = new JSONArray(favoriteUltCharacters);
+            String json = jsonArray.toString();
+            Storage.write("user","favoriteUltCharacters.json",context,json);
+        }catch(Exception e){
+
+        }
+    }
+
+    public static boolean checkUltCharacterFavorites(String name){
+        return favoriteUltCharacters.contains(name);
+    }
+
+    public static void addFavoriteUltCharacter(Context context, String name){
+        favoriteUltCharacters.add(name);
+        saveFavoriteUltCharacters(context);
+    }
+
+    public static void removeFavoriteUltCharacter(Context context, String name){
+        favoriteUltCharacters.remove(name);
+        saveFavoriteUltCharacters(context);
+    }
+
+    public static String getInitialGame(){
+        return InitialGame;
+    }
+
+    public static void setInitialGame(Context context, String game){
+        InitialGame = game;
+        try{
+            Storage.write("user","initialGame.bin",context, InitialGame);
+        }catch(Exception e){
+
+        }
+    }
 
 }
