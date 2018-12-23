@@ -1,15 +1,20 @@
 package com.rubendal.kuroganehammercom;
 
+import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
+import android.support.v4.view.MenuItemCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.SwitchCompat;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.CompoundButton;
 
 import com.rubendal.kuroganehammercom.interfaces.SSBUMainFragment;
 import com.rubendal.kuroganehammercom.interfaces.Smash4MainFragment;
@@ -75,6 +80,35 @@ public class MainActivity extends AppCompatActivity
                     loadInitialFragment(MainListFragment.newInstance());
         }
         SetInitialGameIcon();
+
+        final Activity ref = this;
+        Menu menu=navigationView.getMenu();
+
+        SwitchCompat drawerSwitch=(SwitchCompat) MenuItemCompat.getActionView(menu.findItem(R.id.display_mode)).findViewById(R.id.display_mode_switch);
+
+        drawerSwitch.setChecked(UserPref.usePicsForCharacterList);
+
+        drawerSwitch.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                UserPref.changeCharacterDisplay(ref, isChecked);
+                if (isChecked) {
+                    if(currentFragment instanceof MainListFragment){
+                        replaceFragment(MainFragment.newInstance());
+                    }
+                    else if(currentFragment instanceof SSBUCharacterMainListFragment){
+                        replaceFragment(SSBUCharacterMainFragment.newInstance());
+                    }
+                } else {
+                    if(currentFragment instanceof MainFragment){
+                        replaceFragment(MainListFragment.newInstance());
+                    }
+                    else if(currentFragment instanceof SSBUCharacterMainFragment){
+                        replaceFragment(SSBUCharacterMainListFragment.newInstance());
+                    }
+                }
+            }
+        });
     }
 
     @Override
@@ -173,11 +207,13 @@ public class MainActivity extends AppCompatActivity
         else if (id == R.id.help) {
             startActivity(new Intent(this, HelpActivity.class));
         }
+        else if (id == R.id.display_mode) {
+            return false;
+        }
 
         if(close)
             drawer.closeDrawer(GravityCompat.START);
 
-        drawer.closeDrawer(GravityCompat.START);
         return true;
     }
 
