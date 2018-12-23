@@ -64,7 +64,7 @@ public class CharacterListAdapter extends BaseAdapter {
             name.setText(character.getCharacterImageName());
             GradientDrawable g = (GradientDrawable) name.getBackground();
             if(character.hasMoveData)
-                g.setColor(Color.parseColor(character.color.replace("#", "#40")));
+                g.setColor(Color.parseColor(character.color.replace("#", "#60")));
             else
                 g.setColor(Color.parseColor("#30555555"));
 

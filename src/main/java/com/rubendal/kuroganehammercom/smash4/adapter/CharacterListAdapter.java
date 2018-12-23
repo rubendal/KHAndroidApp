@@ -67,7 +67,7 @@ public class CharacterListAdapter extends BaseAdapter {
 
             name.setText(character.getCharacterImageName());
             GradientDrawable g = (GradientDrawable)name.getBackground();
-            g.setColor(Color.parseColor(character.color.replace("#","#40")));
+            g.setColor(Color.parseColor(character.color.replace("#","#60")));
 
             if(character.favorite){
                 fav.setVisibility(View.VISIBLE);
