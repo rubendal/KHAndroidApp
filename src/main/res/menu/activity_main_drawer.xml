@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <group android:checkableBehavior="single">
-        <item android:title="Smash 4">
+        <item android:title="Smash Ultimate" android:id="@+id/ssbu">
+            <menu>
+                <item
+                    android:id="@+id/ssbu_characters"
+                    android:title="Characters" />
+            </menu>
+        </item>
+        <item android:title="Smash 4" android:id="@+id/smash4">
             <menu>
                 <item
                     android:id="@+id/characters"
@@ -13,12 +21,18 @@
                 <item
                     android:id="@+id/formulas"
                     android:title="Formulas" />
-
                 <item
                     android:id="@+id/calculator"
                     android:title="Sm4sh Calculator" />
             </menu>
         </item>
+    </group>
+    <group>
+        <item
+            android:id="@+id/display_mode"
+            android:title="Character pics"
+            app:actionLayout="@layout/nav_settings"
+            />
     </group>
     <group>
         <item
