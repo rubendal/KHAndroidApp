@@ -4,15 +4,15 @@
     android:layout_width="match_parent" android:layout_height="match_parent" android:gravity="center">
 
     <ImageView
+        android:id="@+id/image"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:minWidth="300px"
-        android:minHeight="179px"
-        android:padding="10px"
-        android:id="@+id/image"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="10px"
-        android:src="@drawable/row_shape"
-        android:layout_centerHorizontal="true" />
+        android:minWidth="200px"
+        android:minHeight="92px"
+        android:padding="10px"
+        android:src="@drawable/row_shape" />
 
     <!--<TextView
         android:layout_width="wrap_content"
@@ -35,9 +35,9 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:minWidth="50px"
-        android:minHeight="50px"
-        android:padding="10px"
+        android:minWidth="20px"
+        android:minHeight="20px"
+        android:padding="5px"
         android:id="@+id/fav"
         android:src="@drawable/ic_star_black_24dp"
         android:layout_alignTop="@id/image"

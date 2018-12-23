@@ -55,7 +55,7 @@ public class CharacterAdapter extends BaseAdapter {
         ImageView fav = (ImageView)convertView.findViewById(R.id.fav);
 
         img.getLayoutParams().width = x;
-        img.getLayoutParams().height = x * 28 / 47;
+        img.getLayoutParams().height = x * 23 / 50;
 
         /*
         //Recalculate text params

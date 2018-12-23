@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:gravity="center">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="200px"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="false"
+        android:layout_marginBottom="10dp"
+        android:height="200px"
+        android:background="@drawable/row_shape"
+        android:fontFamily="sans-serif"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dp"
+        android:text="Rosalina and Luma"
+        android:textColor="#000000"
+        android:textSize="40px"
+        android:textStyle="normal|bold" />
+
+    <ImageView
+        android:id="@+id/fav"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_alignTop="@+id/image"
+        android:layout_alignEnd="@+id/image"
+        android:layout_alignRight="@+id/image"
+        android:minWidth="50px"
+        android:minHeight="200px"
+        android:padding="10px"
+        android:src="@drawable/ic_star_black_24dp" />
+</RelativeLayout>

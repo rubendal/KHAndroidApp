@@ -14,12 +14,20 @@ public class UserPref {
     private static LinkedList<String> favoriteAttributes = new LinkedList<>();
     private static LinkedList<String> favoriteUltCharacters = new LinkedList<>();
 
+    public static boolean usePicsForCharacterList = true;
+
     public static void Initialize(Context context){
         try {
             InitialGame = Storage.read("user", "initialGame.bin", context);
             InitialGame = InitialGame.trim();
         }catch(Exception e){
             InitialGame = "Smash 4";
+        }
+
+        try {
+            usePicsForCharacterList = Boolean.parseBoolean(Storage.read("user", "displayMode.bin", context).trim());
+        }catch(Exception e){
+            usePicsForCharacterList = true;
         }
 
         LinkedList<String> list = new LinkedList<>();
@@ -140,6 +148,16 @@ public class UserPref {
         InitialGame = game;
         try{
             Storage.write("user","initialGame.bin",context, InitialGame);
+        }catch(Exception e){
+
+        }
+    }
+
+    public static void changeCharacterDisplay(Context context, boolean usePics){
+        usePicsForCharacterList = usePics;
+
+        try{
+            Storage.write("user","displayMode.bin",context, String.valueOf(usePicsForCharacterList));
         }catch(Exception e){
 
         }

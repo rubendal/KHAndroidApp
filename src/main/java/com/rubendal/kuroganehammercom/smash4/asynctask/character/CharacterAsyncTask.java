@@ -9,8 +9,12 @@ import android.widget.Toast;
 
 import com.rubendal.kuroganehammercom.MainActivity;
 import com.rubendal.kuroganehammercom.R;
+import com.rubendal.kuroganehammercom.interfaces.NavigationFragment;
+import com.rubendal.kuroganehammercom.interfaces.Smash4MainFragment;
+import com.rubendal.kuroganehammercom.smash4.adapter.CharacterListAdapter;
 import com.rubendal.kuroganehammercom.smash4.fragments.CharacterFragment;
 import com.rubendal.kuroganehammercom.smash4.fragments.MainFragment;
+import com.rubendal.kuroganehammercom.smash4.fragments.MainListFragment;
 import com.rubendal.kuroganehammercom.util.Storage;
 import com.rubendal.kuroganehammercom.smash4.adapter.CharacterAdapter;
 import com.rubendal.kuroganehammercom.smash4.classes.Character;
@@ -24,19 +28,19 @@ import java.util.LinkedList;
 
 public class CharacterAsyncTask extends AsyncTask<String, String, LinkedList<Character>> {
 
-    private MainFragment context;
+    private Smash4MainFragment context;
     private ProgressDialog dialog;
     private String title;
     private int x;
 
-    public CharacterAsyncTask(MainFragment context, int x){
+    public CharacterAsyncTask(Smash4MainFragment context, int x){
         this.context = context;
         this.title = null;
         this.dialog = null;
         this.x = x;
     }
 
-    public CharacterAsyncTask(MainFragment context, int x, String title){
+    public CharacterAsyncTask(Smash4MainFragment context, int x, String title){
         this(context, x);
         this.title = title;
         this.dialog = new ProgressDialog(context.getActivity());
@@ -79,37 +83,73 @@ public class CharacterAsyncTask extends AsyncTask<String, String, LinkedList<Cha
             Toast.makeText(context.getContext(), "An error ocurred while reading character data", Toast.LENGTH_LONG).show();
             return;
         }
-        CharacterAdapter adapter = new CharacterAdapter(context.getActivity(), s, x);
+
         if(s != null) {
-            context.grid.setAdapter(adapter);
-            if(context.selectedItem != -1){
-                context.grid.smoothScrollToPosition(context.selectedItem);
-            }
-            context.grid.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-                @Override
-                public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                    context.selectedItem = position;
-                    Character character = (Character) parent.getItemAtPosition(position);
-                    ((MainActivity)context.getActivity()).loadFragment(CharacterFragment.newInstance(character));
+            if(context instanceof MainFragment) {
+                CharacterAdapter adapter = new CharacterAdapter(context.getActivity(), s, x);
+                final MainFragment img_context = (MainFragment)context;
+                img_context.grid.setAdapter(adapter);
+                if (img_context.selectedItem != -1) {
+                    img_context.grid.smoothScrollToPosition(img_context.selectedItem);
                 }
-            });
-            context.grid.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
-                @Override
-                public boolean onItemLongClick(AdapterView<?> adapterView, View view, int i, long l) {
-                    Character character = (Character) adapterView.getItemAtPosition(i);
-                    ImageView fav = (ImageView)view.findViewById(R.id.fav);
-                    if(UserPref.checkCharacterFavorites(character.name)){
-                        UserPref.removeFavoriteCharacter(context.getActivity(),character.name);
-                        fav.setVisibility(View.INVISIBLE);
-                        character.favorite = false;
-                    }else{
-                        UserPref.addFavoriteCharacter(context.getActivity(),character.name);
-                        fav.setVisibility(View.VISIBLE);
-                        character.favorite = true;
+                img_context.grid.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                        img_context.selectedItem = position;
+                        Character character = (Character) parent.getItemAtPosition(position);
+                        ((MainActivity) context.getActivity()).loadFragment(CharacterFragment.newInstance(character));
                     }
-                    return true;
+                });
+                img_context.grid.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
+                    @Override
+                    public boolean onItemLongClick(AdapterView<?> adapterView, View view, int i, long l) {
+                        Character character = (Character) adapterView.getItemAtPosition(i);
+                        ImageView fav = (ImageView) view.findViewById(R.id.fav);
+                        if (UserPref.checkCharacterFavorites(character.name)) {
+                            UserPref.removeFavoriteCharacter(context.getActivity(), character.name);
+                            fav.setVisibility(View.INVISIBLE);
+                            character.favorite = false;
+                        } else {
+                            UserPref.addFavoriteCharacter(context.getActivity(), character.name);
+                            fav.setVisibility(View.VISIBLE);
+                            character.favorite = true;
+                        }
+                        return true;
+                    }
+                });
+            }else if(context instanceof MainListFragment){
+                final MainListFragment list_context = (MainListFragment)context;
+                CharacterListAdapter adapter = new CharacterListAdapter(context.getActivity(), s);
+                list_context.list.setAdapter(adapter);
+                if (list_context.selectedItem != -1) {
+                    list_context.list.smoothScrollToPosition(list_context.selectedItem);
                 }
-            });
+                list_context.list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                        list_context.selectedItem = position;
+                        Character character = (Character) parent.getItemAtPosition(position);
+                        ((MainActivity) context.getActivity()).loadFragment(CharacterFragment.newInstance(character));
+                    }
+                });
+                list_context.list.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
+                    @Override
+                    public boolean onItemLongClick(AdapterView<?> adapterView, View view, int i, long l) {
+                        Character character = (Character) adapterView.getItemAtPosition(i);
+                        ImageView fav = (ImageView) view.findViewById(R.id.fav);
+                        if (UserPref.checkCharacterFavorites(character.name)) {
+                            UserPref.removeFavoriteCharacter(context.getActivity(), character.name);
+                            fav.setVisibility(View.INVISIBLE);
+                            character.favorite = false;
+                        } else {
+                            UserPref.addFavoriteCharacter(context.getActivity(), character.name);
+                            fav.setVisibility(View.VISIBLE);
+                            character.favorite = true;
+                        }
+                        return true;
+                    }
+                });
+            }
         }
     }
 }

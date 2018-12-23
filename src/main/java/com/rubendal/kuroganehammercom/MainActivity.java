@@ -11,6 +11,8 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.rubendal.kuroganehammercom.interfaces.SSBUMainFragment;
+import com.rubendal.kuroganehammercom.interfaces.Smash4MainFragment;
 import com.rubendal.kuroganehammercom.smash4.asynctask.KHUpdate;
 import com.rubendal.kuroganehammercom.smash4.calculator.CalculatorFragment;
 import com.rubendal.kuroganehammercom.smash4.calculator.asynctask.StartCalculatorAsyncTask;
@@ -20,7 +22,9 @@ import com.rubendal.kuroganehammercom.smash4.fragments.FormulaFragment;
 import com.rubendal.kuroganehammercom.interfaces.KHFragment;
 import com.rubendal.kuroganehammercom.smash4.fragments.MainFragment;
 import com.rubendal.kuroganehammercom.interfaces.NavigationFragment;
+import com.rubendal.kuroganehammercom.smash4.fragments.MainListFragment;
 import com.rubendal.kuroganehammercom.ultimate.fragments.SSBUCharacterMainFragment;
+import com.rubendal.kuroganehammercom.ultimate.fragments.SSBUCharacterMainListFragment;
 import com.rubendal.kuroganehammercom.util.Storage;
 import com.rubendal.kuroganehammercom.util.UserPref;
 
@@ -59,10 +63,16 @@ public class MainActivity extends AppCompatActivity
 
         switch(UserPref.getInitialGame()){
             case "SSBU":
-                loadInitialFragment(SSBUCharacterMainFragment.newInstance());
+                if(UserPref.usePicsForCharacterList)
+                    loadInitialFragment(SSBUCharacterMainFragment.newInstance());
+                else
+                    loadInitialFragment(SSBUCharacterMainListFragment.newInstance());
                 break;
             default:
-                loadInitialFragment(MainFragment.newInstance());
+                if(UserPref.usePicsForCharacterList)
+                    loadInitialFragment(MainFragment.newInstance());
+                else
+                    loadInitialFragment(MainListFragment.newInstance());
         }
         SetInitialGameIcon();
     }
@@ -96,11 +106,17 @@ public class MainActivity extends AppCompatActivity
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
 
         if (id == R.id.characters) {
-            if(!(currentFragment instanceof MainFragment)){
+            if(!(currentFragment instanceof Smash4MainFragment)){
                 if(currentFragment instanceof NavigationFragment){
-                    replaceFragment(MainFragment.newInstance());
+                    if(UserPref.usePicsForCharacterList)
+                        replaceFragment(MainFragment.newInstance());
+                    else
+                        replaceFragment(MainListFragment.newInstance());
                 }else{
-                    loadFragment(MainFragment.newInstance());
+                    if(UserPref.usePicsForCharacterList)
+                        loadFragment(MainFragment.newInstance());
+                    else
+                        loadFragment(MainListFragment.newInstance());
                 }
             }else{
                 UserPref.setInitialGame(getApplicationContext(), "Smash 4");
@@ -133,11 +149,17 @@ public class MainActivity extends AppCompatActivity
             }
         }
         else if(id == R.id.ssbu_characters){
-            if(!(currentFragment instanceof SSBUCharacterMainFragment)){
+            if(!(currentFragment instanceof SSBUMainFragment)){
                 if(currentFragment instanceof NavigationFragment){
-                    replaceFragment(SSBUCharacterMainFragment.newInstance());
+                    if(UserPref.usePicsForCharacterList)
+                        replaceFragment(SSBUCharacterMainFragment.newInstance());
+                    else
+                        replaceFragment(SSBUCharacterMainListFragment.newInstance());
                 }else{
-                    loadFragment(SSBUCharacterMainFragment.newInstance());
+                    if(UserPref.usePicsForCharacterList)
+                        loadFragment(SSBUCharacterMainFragment.newInstance());
+                    else
+                        loadFragment(SSBUCharacterMainListFragment.newInstance());
                 }
             }else{
                 UserPref.setInitialGame(getApplicationContext(), "SSBU");

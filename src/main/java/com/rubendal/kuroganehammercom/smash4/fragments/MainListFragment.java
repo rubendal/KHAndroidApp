@@ -9,23 +9,24 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.GridView;
+import android.widget.ListView;
 
 import com.rubendal.kuroganehammercom.R;
 import com.rubendal.kuroganehammercom.interfaces.NavigationFragment;
 import com.rubendal.kuroganehammercom.interfaces.Smash4MainFragment;
 import com.rubendal.kuroganehammercom.smash4.asynctask.character.CharacterAsyncTask;
 
-public class MainFragment extends Smash4MainFragment {
+public class MainListFragment extends Smash4MainFragment {
 
-    public GridView grid;
+    public ListView list;
     public int selectedItem = -1;
 
-    public MainFragment() {
+    public MainListFragment() {
 
     }
 
-    public static MainFragment newInstance(){
-        MainFragment fragment = new MainFragment();
+    public static MainListFragment newInstance(){
+        MainListFragment fragment = new MainListFragment();
         fragment.setRetainInstance(true);
         return fragment;
     }
@@ -33,9 +34,9 @@ public class MainFragment extends Smash4MainFragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_main, container, false);
+        View view = inflater.inflate(R.layout.fragment_main_list, container, false);
 
-        grid = (GridView)view.findViewById(R.id.grid);
+        list = (ListView)view.findViewById(R.id.list);
 
         return view;
     }
@@ -47,35 +48,7 @@ public class MainFragment extends Smash4MainFragment {
     }
 
     public void updateData(){
-        DisplayMetrics metrics = new DisplayMetrics();
-        getActivity().getWindowManager().getDefaultDisplay().getMetrics(metrics);
-
-        int width = metrics.widthPixels;
-        int height = metrics.heightPixels;
-
-        int x = 300;
-
-        if(getResources().getConfiguration().orientation == Configuration.ORIENTATION_PORTRAIT) {
-            if (width <= 800) {
-                x = (width / 2) - 5;
-            } else if (width > 800 && width <= 1800) {
-                x = 350;
-            } else {
-                x = 400;
-            }
-        }else{
-            if (height <= 800) {
-                x = (height / 2) - 5;
-            } else if (height > 800 && height <= 1800) {
-                x = 350;
-            } else {
-                x = 400;
-            }
-        }
-
-        grid.setNumColumns(width / x);
-
-        CharacterAsyncTask c = new CharacterAsyncTask(this, x);
+        CharacterAsyncTask c = new CharacterAsyncTask(this, 0);
         c.execute();
     }
 
