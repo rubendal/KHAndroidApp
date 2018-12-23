@@ -255,17 +255,23 @@ public class MainActivity extends AppCompatActivity
             if (getSupportFragmentManager().getBackStackEntryCount() == 0){
                 switch(UserPref.getInitialGame()){
                     case "SSBU":
-                        if(currentFragment instanceof SSBUCharacterMainFragment) {
+                        if(currentFragment instanceof SSBUMainFragment) {
                             super.onBackPressed();
                         }else{
-                            loadInitialFragment(SSBUCharacterMainFragment.newInstance());
+                            if(UserPref.usePicsForCharacterList)
+                                loadInitialFragment(SSBUCharacterMainFragment.newInstance());
+                            else
+                                loadInitialFragment(SSBUCharacterMainListFragment.newInstance());
                         }
                         break;
                     default:
-                        if(currentFragment instanceof MainFragment) {
+                        if(currentFragment instanceof Smash4MainFragment) {
                             super.onBackPressed();
                         }else{
-                            loadInitialFragment(MainFragment.newInstance());
+                            if(UserPref.usePicsForCharacterList)
+                                loadInitialFragment(MainFragment.newInstance());
+                            else
+                                loadInitialFragment(MainListFragment.newInstance());
                         }
                 }
 
