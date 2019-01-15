@@ -2,12 +2,14 @@ package com.rubendal.kuroganehammercom.smash4.classes;
 
 import android.content.Context;
 import android.graphics.Color;
+import android.graphics.Paint;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.TableRow;
 import android.widget.TextView;
 
 import com.rubendal.kuroganehammercom.R;
+import com.rubendal.kuroganehammercom.util.Tooltip;
 import com.rubendal.kuroganehammercom.util.params.Params;
 
 import org.apache.commons.lang3.StringEscapeUtils;
@@ -21,6 +23,12 @@ public class AerialMove extends Move {
 
     public AerialMove(MoveType moveType, String name, String hitboxActive, String FAF, String baseDamage, String angle, String bkb, String kbg, String landingLag, String autoCancel) {
         super(moveType, name, hitboxActive, FAF, baseDamage, angle, bkb, kbg);
+        this.landingLag = landingLag;
+        this.autoCancel = autoCancel;
+    }
+
+    public AerialMove(MoveType moveType, String name, String hitboxActive, String FAF, String baseDamage, String angle, String bkb, String kbg, String landingLag, String autoCancel, String hitboxActiveTooltip, String baseDamageTooltip) {
+        super(moveType, name, hitboxActive, FAF, baseDamage, angle, bkb, kbg, hitboxActiveTooltip, baseDamageTooltip);
         this.landingLag = landingLag;
         this.autoCancel = autoCancel;
     }
@@ -49,6 +57,16 @@ public class AerialMove extends Move {
         kbgView.setText(kbg);
         landingLagView.setText(landingLag);
         autoCancelView.setText(autoCancel);
+
+        if(hitboxActiveTooltip != null){
+            hitboxActiveView.setPaintFlags(hitboxActiveView.getPaintFlags() | Paint.UNDERLINE_TEXT_FLAG);
+            hitboxActiveView.setOnClickListener(new Tooltip(context, hitboxActiveTooltip));
+        }
+
+        if(baseDamageTooltip != null){
+            baseDamageView.setPaintFlags(baseDamageView.getPaintFlags() | Paint.UNDERLINE_TEXT_FLAG);
+            baseDamageView.setOnClickListener(new Tooltip(context, baseDamageTooltip));
+        }
 
         int padding = Params.PADDING;
         nameView.setPadding(padding,padding,padding,padding);
@@ -108,7 +126,18 @@ public class AerialMove extends Move {
                 landingLag = "";
             if(jsonObject.isNull("AutoCancel"))
                 autoCancel = "";
-            return new AerialMove(moveType, name, hitboxActive, FAF, baseDamage, angle, bkb, kbg, landingLag, autoCancel);
+            if(!jsonObject.has("HitboxActiveTooltip")) {
+                return new AerialMove(moveType, name, hitboxActive, FAF, baseDamage, angle, bkb, kbg, landingLag, autoCancel);
+            }else{
+                String hitboxActiveTooltip = null, baseDamageTooltip = null;
+                if(jsonObject.has("HitboxActiveTooltip") && !jsonObject.isNull("HitboxActiveTooltip")){
+                    hitboxActiveTooltip = jsonObject.getString("HitboxActiveTooltip");
+                }
+                if(jsonObject.has("BaseDamageTooltip") && !jsonObject.isNull("BaseDamageTooltip")){
+                    baseDamageTooltip = jsonObject.getString("BaseDamageTooltip");
+                }
+                return new AerialMove(moveType, name, hitboxActive, FAF, baseDamage, angle, bkb, kbg, landingLag, autoCancel, hitboxActiveTooltip, baseDamageTooltip);
+            }
         }catch(Exception e){
             return null;
         }

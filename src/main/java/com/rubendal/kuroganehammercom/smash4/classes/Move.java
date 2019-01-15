@@ -2,12 +2,15 @@ package com.rubendal.kuroganehammercom.smash4.classes;
 
 import android.content.Context;
 import android.graphics.Color;
+import android.graphics.Paint;
+import android.text.SpannableString;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.TableRow;
 import android.widget.TextView;
 
 import com.rubendal.kuroganehammercom.R;
+import com.rubendal.kuroganehammercom.util.Tooltip;
 import com.rubendal.kuroganehammercom.util.params.Params;
 
 import org.apache.commons.lang3.StringEscapeUtils;
@@ -26,6 +29,10 @@ public class Move implements Serializable {
     public String bkb;
     public String kbg;
 
+    //Smash Ultimate Tooltips
+    public String hitboxActiveTooltip;
+    public String baseDamageTooltip;
+
     public Move(MoveType moveType, String name, String hitboxActive, String FAF, String baseDamage, String angle, String bkb, String kbg) {
         this.moveType = moveType;
         this.name = name;
@@ -35,6 +42,19 @@ public class Move implements Serializable {
         this.angle = angle;
         this.bkb = bkb;
         this.kbg = kbg;
+    }
+
+    public Move(MoveType moveType, String name, String hitboxActive, String FAF, String baseDamage, String angle, String bkb, String kbg, String hitboxActiveTooltip, String baseDamageTooltip) {
+        this.moveType = moveType;
+        this.name = name;
+        this.hitboxActive = hitboxActive;
+        this.FAF = FAF;
+        this.baseDamage = baseDamage;
+        this.angle = angle;
+        this.bkb = bkb;
+        this.kbg = kbg;
+        this.hitboxActiveTooltip = hitboxActiveTooltip;
+        this.baseDamageTooltip = baseDamageTooltip;
     }
 
     @Override
@@ -62,6 +82,16 @@ public class Move implements Serializable {
         angleView.setText(angle);
         bkbView.setText(bkb);
         kbgView.setText(kbg);
+
+        if(hitboxActiveTooltip != null){
+            hitboxActiveView.setPaintFlags(hitboxActiveView.getPaintFlags() | Paint.UNDERLINE_TEXT_FLAG);
+            hitboxActiveView.setOnClickListener(new Tooltip(context, hitboxActiveTooltip));
+        }
+
+        if(baseDamageTooltip != null){
+            baseDamageView.setPaintFlags(baseDamageView.getPaintFlags() | Paint.UNDERLINE_TEXT_FLAG);
+            baseDamageView.setOnClickListener(new Tooltip(context, baseDamageTooltip));
+        }
 
         int padding = Params.PADDING;
         nameView.setPadding(padding,padding,padding,padding);
@@ -111,7 +141,19 @@ public class Move implements Serializable {
                 bkb = "";
             if(jsonObject.isNull("KnockbackGrowth"))
                 kbg = "";
-            return new Move(moveType, name, hitboxActive, FAF, baseDamage, angle, bkb, kbg);
+
+            if(!jsonObject.has("HitboxActiveTooltip")) {
+                return new Move(moveType, name, hitboxActive, FAF, baseDamage, angle, bkb, kbg);
+            }else{
+                String hitboxActiveTooltip = null, baseDamageTooltip = null;
+                if(jsonObject.has("HitboxActiveTooltip") && !jsonObject.isNull("HitboxActiveTooltip")){
+                    hitboxActiveTooltip = jsonObject.getString("HitboxActiveTooltip");
+                }
+                if(jsonObject.has("BaseDamageTooltip") && !jsonObject.isNull("BaseDamageTooltip")){
+                    baseDamageTooltip = jsonObject.getString("BaseDamageTooltip");
+                }
+                return new Move(moveType, name, hitboxActive, FAF, baseDamage, angle, bkb, kbg, hitboxActiveTooltip, baseDamageTooltip);
+            }
         }catch(Exception e){
             return null;
         }

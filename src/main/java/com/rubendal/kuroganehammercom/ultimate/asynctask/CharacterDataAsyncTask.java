@@ -6,9 +6,7 @@ import android.util.Log;
 import android.widget.Toast;
 
 import com.rubendal.kuroganehammercom.smash4.classes.MoveSort;
-import com.rubendal.kuroganehammercom.smash4.fragments.CharacterDataFragment;
 import com.rubendal.kuroganehammercom.MainActivity;
-import com.rubendal.kuroganehammercom.smash4.classes.CharacterData;
 import com.rubendal.kuroganehammercom.smash4.classes.Movement;
 import com.rubendal.kuroganehammercom.interfaces.KHFragment;
 import com.rubendal.kuroganehammercom.ultimate.classes.SSBUCharacter;
@@ -16,9 +14,8 @@ import com.rubendal.kuroganehammercom.ultimate.classes.SSBUCharacterData;
 import com.rubendal.kuroganehammercom.ultimate.fragments.SSBUCharacterDataFragment;
 import com.rubendal.kuroganehammercom.util.Storage;
 import com.rubendal.kuroganehammercom.smash4.classes.AerialMove;
-import com.rubendal.kuroganehammercom.smash4.classes.Character;
 import com.rubendal.kuroganehammercom.smash4.classes.Move;
-import com.rubendal.kuroganehammercom.smash4.classes.ThrowMove;
+import com.rubendal.kuroganehammercom.ultimate.classes.ThrowMove;
 
 import org.json.JSONArray;
 

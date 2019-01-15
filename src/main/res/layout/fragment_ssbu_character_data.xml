@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_attack_list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent" android:layout_height="fill_parent"
+        android:scrollbars="vertical"
+        android:fillViewport="true">
+
+        <HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content" android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:id="@+id/layout">
+
+                <TableLayout
+                    android:id="@+id/movement_table"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    >
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/mov_header">
+
+                        <TextView
+                            android:text="Attribute"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/mov_header1"
+                            android:padding="5dp"
+                            android:textColor="@color/black"/>
+
+                        <TextView
+                            android:text="Value"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/mov_header2"
+                            android:padding="5dp"
+                            android:textColor="@color/black"/>
+
+                    </TableRow>
+
+                </TableLayout>
+
+                <TableLayout
+                    android:id="@+id/specific_attr_simple_table"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/specific_attr_simple_header">
+
+                        <TextView
+                            android:text=""
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/specific_attr_simple_attribute"
+                            android:padding="5dp"
+                            android:textColor="@color/black"/>
+
+                        <TextView
+                            android:text=""
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/specific_attr_simple_header2"
+                            android:padding="5dp"
+                            android:textColor="@color/black"/>
+
+
+                    </TableRow>
+
+                </TableLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ground_label"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginStart="5dp"
+                    android:textSize="21sp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="4dp"
+                    android:text="Ground Moves"
+                    android:textColor="@color/black"/>
+
+                <TableLayout
+                    android:id="@+id/groundtable"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/groundheader">
+
+                        <TextView
+                            android:text="Attacks"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/header1"
+                            android:padding="5dp"
+                            android:textColor="@color/black"
+                            />
+
+                        <TextView
+                            android:text="Hitbox Active"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/header2"
+                            android:padding="5dp"
+                            android:textColor="@color/black"/>
+
+                        <TextView
+                            android:text="FAF"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/header3"
+                            android:padding="5dp"
+                            android:textColor="@color/black"/>
+
+                        <TextView
+                            android:text="Damage"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/header4"
+                            android:padding="5dp"
+                            android:textColor="@color/black"/>
+
+                        <TextView
+                            android:text="Angle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/header5"
+                            android:padding="5dp"
+                            android:textColor="@color/black"/>
+
+                        <TextView
+                            android:text="BKB"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/header6"
+                            android:padding="5dp"
+                            android:textColor="@color/black"/>
+
+                        <TextView
+                            android:text="KBG"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/header7"
+                            android:padding="5dp"
+                            android:textColor="@color/black"/>
+                    </TableRow>
+
+
+                </TableLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/throw_label"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginStart="5dp"
+                    android:textSize="21sp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="4dp"
+                    android:text="Throws"
+                    android:textColor="@color/black"/>
+
+                <TableLayout
+                    android:id="@+id/throwtable"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/throwheader">
+
+                        <TextView
+                            android:text="Attacks"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/header9"
+                            android:padding="5dp"
+                            android:textColor="@color/black"
+                            />
+
+                        <TextView
+                            android:text="Damage"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/header11"
+                            android:padding="5dp"
+                            android:textColor="@color/black"/>
+
+                        <TextView
+                            android:text="Angle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/header12"
+                            android:padding="5dp"
+                            android:textColor="@color/black"/>
+
+                        <TextView
+                            android:text="BKB"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/header13"
+                            android:padding="5dp"
+                            android:textColor="@color/black"/>
+
+                        <TextView
+                            android:text="KBG"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/header14"
+                            android:padding="5dp"
+                            android:textColor="@color/black"/>
+                    </TableRow>
+
+
+                </TableLayout>
+
+                <TableLayout
+                    android:id="@+id/dodgetable"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/dodgeheader">
+
+                        <TextView
+                            android:text="Miscellaneous"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/dodgeheader1"
+                            android:padding="5dp"
+                            android:textColor="@color/black"
+                            />
+
+                        <TextView
+                            android:text="Intangibility"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/dodgeheader2"
+                            android:padding="5dp"
+                            android:textColor="@color/black"/>
+
+                        <TextView
+                            android:text="FAF"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/dodgeheader3"
+                            android:padding="5dp"
+                            android:textColor="@color/black"/>
+                    </TableRow>
+
+
+                </TableLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/aerial_label"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginStart="5dp"
+                    android:textSize="21sp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="4dp"
+                    android:text="Aerial Moves"
+                    android:textColor="@color/black"/>
+
+                <TableLayout
+                    android:id="@+id/aerialtable"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/aerialheader">
+
+                        <TextView
+                            android:text="Attacks"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/header16"
+                            android:padding="5dp"
+                            android:textColor="@color/black"
+                            />
+
+                        <TextView
+                            android:text="Hitbox Active"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/header17"
+                            android:padding="5dp"
+                            android:textColor="@color/black"/>
+
+                        <TextView
+                            android:text="FAF"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/header18"
+                            android:padding="5dp"
+                            android:textColor="@color/black"/>
+
+                        <TextView
+                            android:text="Damage"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/header19"
+                            android:padding="5dp"
+                            android:textColor="@color/black"/>
+
+                        <TextView
+                            android:text="Angle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/header20"
+                            android:padding="5dp"
+                            android:textColor="@color/black"/>
+
+                        <TextView
+                            android:text="BKB"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/header21"
+                            android:padding="5dp"
+                            android:textColor="@color/black"/>
+
+                        <TextView
+                            android:text="KBG"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/header22"
+                            android:padding="5dp"
+                            android:textColor="@color/black"/>
+
+                        <TextView
+                            android:text="Landing Lag"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/header23"
+                            android:padding="5dp"
+                            android:textColor="@color/black"/>
+
+                        <TextView
+                            android:text="Autocancel"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/header24"
+                            android:padding="5dp"
+                            android:textColor="@color/black"/>
+                    </TableRow>
+
+
+                </TableLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/special_label"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginStart="5dp"
+                    android:textSize="21sp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="4dp"
+                    android:text="Special moves"
+                    android:textColor="@color/black"/>
+
+                <TableLayout
+                    android:id="@+id/specialtable"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/specialheader">
+
+                        <TextView
+                            android:text="Attacks"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/header26"
+                            android:padding="5dp"
+                            android:textColor="@color/black"
+                            />
+
+                        <TextView
+                            android:text="Hitbox Active"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/header27"
+                            android:padding="5dp"
+                            android:textColor="@color/black"/>
+
+                        <TextView
+                            android:text="FAF"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/header28"
+                            android:padding="5dp"
+                            android:textColor="@color/black"/>
+
+                        <TextView
+                            android:text="Damage"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/header29"
+                            android:padding="5dp"
+                            android:textColor="@color/black"/>
+
+                        <TextView
+                            android:text="Angle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/header30"
+                            android:padding="5dp"
+                            android:textColor="@color/black"/>
+
+                        <TextView
+                            android:text="BKB"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/header31"
+                            android:padding="5dp"
+                            android:textColor="@color/black"/>
+
+                        <TextView
+                            android:text="KBG"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/header32"
+                            android:padding="5dp"
+                            android:textColor="@color/black"/>
+                    </TableRow>
+
+
+                </TableLayout>
+
+                <TableLayout
+                    android:id="@+id/specific_attr_complex_table"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true">
+
+
+                </TableLayout>
+
+            </LinearLayout>
+
+
+        </HorizontalScrollView>
+    </ScrollView>
+</RelativeLayout>
