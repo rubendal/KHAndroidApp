@@ -8,18 +8,19 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="10px"
         android:minWidth="200px"
         android:minHeight="92px"
-        android:padding="10px"
+        android:paddingTop="10px"
+        android:paddingBottom="10px"
         android:src="@drawable/row_shape" />
 
-    <!--<TextView
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/name"
         android:text="Rosalina and Luma"
         android:fontFamily="sans-serif"
+        android:visibility="gone"
         android:textStyle="normal|bold"
         android:textAllCaps="true"
         android:textAlignment="center"
@@ -30,7 +31,7 @@
         android:height="70px"
         android:textSize="32px"
         android:textColor="#FFFFFF"
-        android:gravity="center_vertical" />-->
+        android:gravity="center_vertical" />
 
     <ImageView
         android:layout_width="wrap_content"

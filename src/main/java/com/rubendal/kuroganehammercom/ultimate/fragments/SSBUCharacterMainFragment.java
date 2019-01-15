@@ -48,16 +48,16 @@ public class SSBUCharacterMainFragment extends SSBUMainFragment {
         if(getResources().getConfiguration().orientation == Configuration.ORIENTATION_PORTRAIT) {
             if (width <= 800) {
                 x = (width / 2) - 5;
-            } else if (width > 800 && width <= 1800) {
-                x = 350;
+            } else if (width <= 1800) {
+                x = (width / 3) - 5;
             } else {
                 x = 400;
             }
         }else{
             if (height <= 800) {
                 x = (height / 2) - 5;
-            } else if (height > 800 && height <= 1800) {
-                x = 350;
+            } else if (height <= 1800) {
+                x = (width / 3) - 5;
             } else {
                 x = 400;
             }

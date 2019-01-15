@@ -2,6 +2,7 @@ package com.rubendal.kuroganehammercom.ultimate.asynctask;
 
 import android.app.ProgressDialog;
 import android.os.AsyncTask;
+import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ImageView;
@@ -60,7 +61,6 @@ public class CharacterListAsyncTask extends AsyncTask<String, String, LinkedList
             LinkedList<SSBUCharacter> list = new LinkedList<>();
             JSONArray jsonArray = new JSONArray(json);
             for(int i=0;i<jsonArray.length();i++){
-
                 SSBUCharacter c = SSBUCharacter.fromJson(context.getActivity(), jsonArray.getJSONObject(i));
                 c.hasMoveData = Storage.exists("SSBU_" + String.valueOf(c.id),"moves.json",context.getActivity());
                 list.add(c);

@@ -21,7 +21,7 @@ import java.util.LinkedList;
 public class Storage {
 
     //Initial storage assets version, will change when new assets that are stored in internal storage are added or changed
-    private static final String STORAGE_DATA_VERSION = "3.0";
+    private static final String STORAGE_DATA_VERSION = "0";
 
     //Write file in internal storage
     public static void write (String directory, String filename, Context context, String string) throws IOException {
