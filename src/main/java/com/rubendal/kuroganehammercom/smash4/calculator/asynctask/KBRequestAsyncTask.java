@@ -125,7 +125,7 @@ public class KBRequestAsyncTask extends AsyncTask<String, String, KBResponse> {
         }
 
         if(s == null){
-            Toast.makeText(context.getActivity(), "Unable to connect to Sm4sh Calculator API", Toast.LENGTH_LONG).show();
+            Toast.makeText(context.getContext(), "Unable to connect to Sm4sh Calculator API", Toast.LENGTH_LONG).show();
             return;
         }
 

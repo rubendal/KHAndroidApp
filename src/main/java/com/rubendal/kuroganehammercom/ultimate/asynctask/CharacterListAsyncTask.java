@@ -6,6 +6,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 import com.rubendal.kuroganehammercom.MainActivity;
 import com.rubendal.kuroganehammercom.R;
@@ -79,7 +80,10 @@ public class CharacterListAsyncTask extends AsyncTask<String, String, LinkedList
         if(dialog!=null){
             dialog.dismiss();
         }
-
+        if(s==null){
+            Toast.makeText(context.getContext(), "An error ocurred while reading character data", Toast.LENGTH_LONG).show();
+            return;
+        }
         if(s != null) {
             if(context instanceof SSBUCharacterMainFragment){
                 final SSBUCharacterMainFragment img_context = (SSBUCharacterMainFragment)context;

@@ -138,7 +138,7 @@ public class StartCalculatorAsyncTask extends AsyncTask<String, String, APIList>
         }
 
         if(s==null){
-            Toast.makeText(context, "Unable to connect to Sm4sh Calculator API", Toast.LENGTH_LONG).show();
+            Toast.makeText(context.getApplicationContext(), "Unable to connect to Sm4sh Calculator API", Toast.LENGTH_LONG).show();
             return;
         }
 

@@ -80,7 +80,7 @@ public class CharacterAsyncTask extends AsyncTask<String, String, LinkedList<Cha
             dialog.dismiss();
         }
         if(s==null){
-            Toast.makeText(context.getContext(), "An error ocurred while reading character data", Toast.LENGTH_LONG).show();
+            Toast.makeText(context.getContext().getApplicationContext(), "An error ocurred while reading character data", Toast.LENGTH_LONG).show();
             return;
         }
 
