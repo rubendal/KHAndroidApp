@@ -1,0 +1,758 @@
+﻿[
+  {
+    "InstanceId": "5c2a14944696596e10861f69",
+    "Name": "Reflectors",
+    "OwnerId": 8,
+    "Owner": "DarkPit",
+    "Values": [
+      {
+        "Value": "9-29 (up to 89)",
+        "Owner": "DarkPit",
+        "OwnerId": 8,
+        "Name": "REFLECTS ON"
+      },
+      {
+        "Value": "-",
+        "Owner": "DarkPit",
+        "OwnerId": 8,
+        "Name": "HITBOX ON"
+      },
+      {
+        "Value": "1.5x",
+        "Owner": "DarkPit",
+        "OwnerId": 8,
+        "Name": "DAMAGE MULTIPLIER"
+      },
+      {
+        "Value": "1.7x",
+        "Owner": "DarkPit",
+        "OwnerId": 8,
+        "Name": "SPEED MULTIPLIER"
+      },
+      {
+        "Value": "50%",
+        "Owner": "DarkPit",
+        "OwnerId": 8,
+        "Name": "BREAK THRESHOLD"
+      },
+      {
+        "Value": "0.7%",
+        "Owner": "DarkPit",
+        "OwnerId": 8,
+        "Name": "LIFETIME MULTIPLIER"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5c2a14944696596e10861f69"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DarkPit"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5c2a149b4696596e10862070",
+    "Name": "Reflectors",
+    "OwnerId": 11,
+    "Owner": "DrMario",
+    "Values": [
+      {
+        "Value": "6-22",
+        "Owner": "DrMario",
+        "OwnerId": 11,
+        "Name": "REFLECTS ON"
+      },
+      {
+        "Value": "12-",
+        "Owner": "DrMario",
+        "OwnerId": 11,
+        "Name": "HITBOX ON"
+      },
+      {
+        "Value": "1.5x",
+        "Owner": "DrMario",
+        "OwnerId": 11,
+        "Name": "DAMAGE MULTIPLIER"
+      },
+      {
+        "Value": "1x",
+        "Owner": "DrMario",
+        "OwnerId": 11,
+        "Name": "SPEED MULTIPLIER"
+      },
+      {
+        "Value": "50%",
+        "Owner": "DrMario",
+        "OwnerId": 11,
+        "Name": "BREAK THRESHOLD"
+      },
+      {
+        "Value": "0.75%",
+        "Owner": "DrMario",
+        "OwnerId": 11,
+        "Name": "LIFETIME MULTIPLIER"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5c2a149b4696596e10862070"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DrMario"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5c2a149f4696596e10862120",
+    "Name": "Reflectors",
+    "OwnerId": 13,
+    "Owner": "Falco",
+    "Values": [
+      {
+        "Value": "1-33",
+        "Owner": "Falco",
+        "OwnerId": 13,
+        "Name": "REFLECTS ON"
+      },
+      {
+        "Value": "5-",
+        "Owner": "Falco",
+        "OwnerId": 13,
+        "Name": "HITBOX ON"
+      },
+      {
+        "Value": "1.2x",
+        "Owner": "Falco",
+        "OwnerId": 13,
+        "Name": "DAMAGE MULTIPLIER"
+      },
+      {
+        "Value": "1.3x",
+        "Owner": "Falco",
+        "OwnerId": 13,
+        "Name": "SPEED MULTIPLIER"
+      },
+      {
+        "Value": "50%",
+        "Owner": "Falco",
+        "OwnerId": 13,
+        "Name": "BREAK THRESHOLD"
+      },
+      {
+        "Value": "0.8%",
+        "Owner": "Falco",
+        "OwnerId": 13,
+        "Name": "LIFETIME MULTIPLIER"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5c2a149f4696596e10862120"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Falco"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5c2a14a24696596e10862179",
+    "Name": "Reflectors",
+    "OwnerId": 14,
+    "Owner": "Fox",
+    "Values": [
+      {
+        "Value": "4-",
+        "Owner": "Fox",
+        "OwnerId": 14,
+        "Name": "REFLECTS ON"
+      },
+      {
+        "Value": "6-",
+        "Owner": "Fox",
+        "OwnerId": 14,
+        "Name": "HITBOX ON"
+      },
+      {
+        "Value": "1.4x",
+        "Owner": "Fox",
+        "OwnerId": 14,
+        "Name": "DAMAGE MULTIPLIER"
+      },
+      {
+        "Value": "1.4x",
+        "Owner": "Fox",
+        "OwnerId": 14,
+        "Name": "SPEED MULTIPLIER"
+      },
+      {
+        "Value": "50%",
+        "Owner": "Fox",
+        "OwnerId": 14,
+        "Name": "BREAK THRESHOLD"
+      },
+      {
+        "Value": "1%",
+        "Owner": "Fox",
+        "OwnerId": 14,
+        "Name": "LIFETIME MULTIPLIER"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5c2a14a24696596e10862179"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Fox"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5c2a14b84696596e108624ea",
+    "Name": "Reflectors",
+    "OwnerId": 24,
+    "Owner": "Lucas",
+    "Values": [
+      {
+        "Value": "11-20",
+        "Owner": "Lucas",
+        "OwnerId": 24,
+        "Name": "REFLECTS ON"
+      },
+      {
+        "Value": "14-",
+        "Owner": "Lucas",
+        "OwnerId": 24,
+        "Name": "HITBOX ON"
+      },
+      {
+        "Value": "1.5x",
+        "Owner": "Lucas",
+        "OwnerId": 24,
+        "Name": "DAMAGE MULTIPLIER"
+      },
+      {
+        "Value": "1.5x",
+        "Owner": "Lucas",
+        "OwnerId": 24,
+        "Name": "SPEED MULTIPLIER"
+      },
+      {
+        "Value": "50%",
+        "Owner": "Lucas",
+        "OwnerId": 24,
+        "Name": "BREAK THRESHOLD"
+      },
+      {
+        "Value": "0.7%",
+        "Owner": "Lucas",
+        "OwnerId": 24,
+        "Name": "LIFETIME MULTIPLIER"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5c2a14b84696596e108624ea"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucas"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5c2a14c04696596e108625e9",
+    "Name": "Reflectors",
+    "OwnerId": 27,
+    "Owner": "Mario",
+    "Values": [
+      {
+        "Value": "6-20",
+        "Owner": "Mario",
+        "OwnerId": 27,
+        "Name": "REFLECTS ON"
+      },
+      {
+        "Value": "12-",
+        "Owner": "Mario",
+        "OwnerId": 27,
+        "Name": "HITBOX ON"
+      },
+      {
+        "Value": "1.5x",
+        "Owner": "Mario",
+        "OwnerId": 27,
+        "Name": "DAMAGE MULTIPLIER"
+      },
+      {
+        "Value": "1x",
+        "Owner": "Mario",
+        "OwnerId": 27,
+        "Name": "SPEED MULTIPLIER"
+      },
+      {
+        "Value": "50%",
+        "Owner": "Mario",
+        "OwnerId": 27,
+        "Name": "BREAK THRESHOLD"
+      },
+      {
+        "Value": "0.75%",
+        "Owner": "Mario",
+        "OwnerId": 27,
+        "Name": "LIFETIME MULTIPLIER"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5c2a14c04696596e108625e9"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Mario"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5c2a14c94696596e10862753",
+    "Name": "Reflectors",
+    "OwnerId": 31,
+    "Owner": "Mewtwo",
+    "Values": [
+      {
+        "Value": "12-35",
+        "Owner": "Mewtwo",
+        "OwnerId": 31,
+        "Name": "REFLECTS ON"
+      },
+      {
+        "Value": "12-",
+        "Owner": "Mewtwo",
+        "OwnerId": 31,
+        "Name": "HITBOX ON"
+      },
+      {
+        "Value": "1.4x",
+        "Owner": "Mewtwo",
+        "OwnerId": 31,
+        "Name": "DAMAGE MULTIPLIER"
+      },
+      {
+        "Value": "1.2x",
+        "Owner": "Mewtwo",
+        "OwnerId": 31,
+        "Name": "SPEED MULTIPLIER"
+      },
+      {
+        "Value": "50%",
+        "Owner": "Mewtwo",
+        "OwnerId": 31,
+        "Name": "BREAK THRESHOLD"
+      },
+      {
+        "Value": "1.25%",
+        "Owner": "Mewtwo",
+        "OwnerId": 31,
+        "Name": "LIFETIME MULTIPLIER"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5c2a14c94696596e10862753"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Mewtwo"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5c2a14cb4696596e108627cc",
+    "Name": "Reflectors",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "Values": [
+      {
+        "Value": "6-22",
+        "Owner": "MiiSwordfighter",
+        "OwnerId": 34,
+        "Name": "REFLECTS ON"
+      },
+      {
+        "Value": "12-",
+        "Owner": "MiiSwordfighter",
+        "OwnerId": 34,
+        "Name": "HITBOX ON"
+      },
+      {
+        "Value": "1.5x",
+        "Owner": "MiiSwordfighter",
+        "OwnerId": 34,
+        "Name": "DAMAGE MULTIPLIER"
+      },
+      {
+        "Value": "1x",
+        "Owner": "MiiSwordfighter",
+        "OwnerId": 34,
+        "Name": "SPEED MULTIPLIER"
+      },
+      {
+        "Value": "50%",
+        "Owner": "MiiSwordfighter",
+        "OwnerId": 34,
+        "Name": "BREAK THRESHOLD"
+      },
+      {
+        "Value": "0.75%",
+        "Owner": "MiiSwordfighter",
+        "OwnerId": 34,
+        "Name": "LIFETIME MULTIPLIER"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5c2a14cb4696596e108627cc"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5c2a14d04696596e108628a6",
+    "Name": "Reflectors",
+    "OwnerId": 33,
+    "Owner": "MiiGunner",
+    "Values": [
+      {
+        "Value": "4-",
+        "Owner": "MiiGunner",
+        "OwnerId": 33,
+        "Name": "REFLECTS ON"
+      },
+      {
+        "Value": "3-",
+        "Owner": "MiiGunner",
+        "OwnerId": 33,
+        "Name": "HITBOX ON"
+      },
+      {
+        "Value": "1.4x",
+        "Owner": "MiiGunner",
+        "OwnerId": 33,
+        "Name": "DAMAGE MULTIPLIER"
+      },
+      {
+        "Value": "1.1x",
+        "Owner": "MiiGunner",
+        "OwnerId": 33,
+        "Name": "SPEED MULTIPLIER"
+      },
+      {
+        "Value": "50%",
+        "Owner": "MiiGunner",
+        "OwnerId": 33,
+        "Name": "BREAK THRESHOLD"
+      },
+      {
+        "Value": "1%",
+        "Owner": "MiiGunner",
+        "OwnerId": 33,
+        "Name": "LIFETIME MULTIPLIER"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5c2a14d04696596e108628a6"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiGunner"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5c2a14d44696596e10862956",
+    "Name": "Reflectors",
+    "OwnerId": 36,
+    "Owner": "Ness",
+    "Values": [
+      {
+        "Value": "19-31",
+        "Owner": "Ness",
+        "OwnerId": 36,
+        "Name": "REFLECTS ON"
+      },
+      {
+        "Value": "21-",
+        "Owner": "Ness",
+        "OwnerId": 36,
+        "Name": "HITBOX ON"
+      },
+      {
+        "Value": "2x",
+        "Owner": "Ness",
+        "OwnerId": 36,
+        "Name": "DAMAGE MULTIPLIER"
+      },
+      {
+        "Value": "2.5x",
+        "Owner": "Ness",
+        "OwnerId": 36,
+        "Name": "SPEED MULTIPLIER"
+      },
+      {
+        "Value": "80%",
+        "Owner": "Ness",
+        "OwnerId": 36,
+        "Name": "BREAK THRESHOLD"
+      },
+      {
+        "Value": "0.5%",
+        "Owner": "Ness",
+        "OwnerId": 36,
+        "Name": "LIFETIME MULTIPLIER"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5c2a14d44696596e10862956"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ness"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5c2a14db4696596e10862a55",
+    "Name": "Reflectors",
+    "OwnerId": 39,
+    "Owner": "Palutena",
+    "Values": [
+      {
+        "Value": "9-66",
+        "Owner": "Palutena",
+        "OwnerId": 39,
+        "Name": "REFLECTS ON"
+      },
+      {
+        "Value": "8",
+        "Owner": "Palutena",
+        "OwnerId": 39,
+        "Name": "HITBOX ON"
+      },
+      {
+        "Value": "1.17x",
+        "Owner": "Palutena",
+        "OwnerId": 39,
+        "Name": "DAMAGE MULTIPLIER"
+      },
+      {
+        "Value": "1.25x",
+        "Owner": "Palutena",
+        "OwnerId": 39,
+        "Name": "SPEED MULTIPLIER"
+      },
+      {
+        "Value": "50%",
+        "Owner": "Palutena",
+        "OwnerId": 39,
+        "Name": "BREAK THRESHOLD"
+      },
+      {
+        "Value": "1%",
+        "Owner": "Palutena",
+        "OwnerId": 39,
+        "Name": "LIFETIME MULTIPLIER"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5c2a14db4696596e10862a55"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Palutena"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5c2a14e24696596e10862b5c",
+    "Name": "Reflectors",
+    "OwnerId": 42,
+    "Owner": "Pit",
+    "Values": [
+      {
+        "Value": "9-29 (up to 89)",
+        "Owner": "Pit",
+        "OwnerId": 42,
+        "Name": "REFLECTS ON"
+      },
+      {
+        "Value": "-",
+        "Owner": "Pit",
+        "OwnerId": 42,
+        "Name": "HITBOX ON"
+      },
+      {
+        "Value": "1.5x",
+        "Owner": "Pit",
+        "OwnerId": 42,
+        "Name": "DAMAGE MULTIPLIER"
+      },
+      {
+        "Value": "1.7x",
+        "Owner": "Pit",
+        "OwnerId": 42,
+        "Name": "SPEED MULTIPLIER"
+      },
+      {
+        "Value": "50%",
+        "Owner": "Pit",
+        "OwnerId": 42,
+        "Name": "BREAK THRESHOLD"
+      },
+      {
+        "Value": "0.7%",
+        "Owner": "Pit",
+        "OwnerId": 42,
+        "Name": "LIFETIME MULTIPLIER"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5c2a14e24696596e10862b5c"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Pit"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5c2a14e54696596e10862bad",
+    "Name": "Reflectors",
+    "OwnerId": 43,
+    "Owner": "Rob",
+    "Values": [
+      {
+        "Value": "???",
+        "Owner": "Rob",
+        "OwnerId": 43,
+        "Name": "REFLECTS ON"
+      },
+      {
+        "Value": "16-",
+        "Owner": "Rob",
+        "OwnerId": 43,
+        "Name": "HITBOX ON"
+      },
+      {
+        "Value": "1.5x",
+        "Owner": "Rob",
+        "OwnerId": 43,
+        "Name": "DAMAGE MULTIPLIER"
+      },
+      {
+        "Value": "1.3x",
+        "Owner": "Rob",
+        "OwnerId": 43,
+        "Name": "SPEED MULTIPLIER"
+      },
+      {
+        "Value": "60%",
+        "Owner": "Rob",
+        "OwnerId": 43,
+        "Name": "BREAK THRESHOLD"
+      },
+      {
+        "Value": "1%",
+        "Owner": "Rob",
+        "OwnerId": 43,
+        "Name": "LIFETIME MULTIPLIER"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5c2a14e54696596e10862bad"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Rob"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5c2a15054696596e108630ae",
+    "Name": "Reflectors",
+    "OwnerId": 57,
+    "Owner": "Zelda",
+    "Values": [
+      {
+        "Value": "5-43",
+        "Owner": "Zelda",
+        "OwnerId": 57,
+        "Name": "REFLECTS ON"
+      },
+      {
+        "Value": "13-",
+        "Owner": "Zelda",
+        "OwnerId": 57,
+        "Name": "HITBOX ON"
+      },
+      {
+        "Value": "1.25x",
+        "Owner": "Zelda",
+        "OwnerId": 57,
+        "Name": "DAMAGE MULTIPLIER"
+      },
+      {
+        "Value": "1.4x",
+        "Owner": "Zelda",
+        "OwnerId": 57,
+        "Name": "SPEED MULTIPLIER"
+      },
+      {
+        "Value": "50%",
+        "Owner": "Zelda",
+        "OwnerId": 57,
+        "Name": "BREAK THRESHOLD"
+      },
+      {
+        "Value": "0.75%",
+        "Owner": "Zelda",
+        "OwnerId": 57,
+        "Name": "LIFETIME MULTIPLIER"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5c2a15054696596e108630ae"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Zelda"
+      }
+    ]
+  }
+]

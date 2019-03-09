@@ -43,7 +43,7 @@ public class BaseDamageTooltip implements Serializable {
         BaseDamageTooltip baseDamageTooltip = new BaseDamageTooltip();
 
         try{
-            baseDamageTooltip.Normal = StringEscapeUtils.unescapeHtml4(jsonObject.getString("Normal"));
+            baseDamageTooltip.Normal = StringEscapeUtils.unescapeHtml4(jsonObject.getString("Normal").replace("|", "").replaceAll("\r\n",""));
 
             if(jsonObject.has("OneVOne")){
                 baseDamageTooltip.OneVOne = StringEscapeUtils.unescapeHtml4(jsonObject.getString("OneVOne").replace("|",""));

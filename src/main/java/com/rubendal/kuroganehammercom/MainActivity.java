@@ -183,12 +183,12 @@ public class MainActivity extends AppCompatActivity
                 }
             }
         }
-        else if (id == R.id.calculator) {
+        /*else if (id == R.id.calculator) {
             if(!(currentFragment instanceof CalculatorFragment)){
                 StartCalculatorAsyncTask s = new StartCalculatorAsyncTask(this, currentFragment instanceof NavigationFragment, "Loading calculator");
                 s.execute();
             }
-        }
+        }*/
         else if(id == R.id.ssbu_characters){
             if(!(currentFragment instanceof SSBUMainFragment)){
                 if(currentFragment instanceof NavigationFragment){

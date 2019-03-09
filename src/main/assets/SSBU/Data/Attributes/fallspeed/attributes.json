@@ -1,0 +1,2018 @@
+﻿[
+  {
+    "InstanceId": "5c2a14834696596e10861ccc",
+    "Name": "FallSpeed",
+    "OwnerId": 1,
+    "Owner": "Bayonetta",
+    "Values": [
+      {
+        "Value": "1.77",
+        "Owner": "Bayonetta",
+        "OwnerId": 1,
+        "Name": "MAX FALL SPEED"
+      },
+      {
+        "Value": "2.832",
+        "Owner": "Bayonetta",
+        "OwnerId": 1,
+        "Name": "FAST FALL SPEED"
+      },
+      {
+        "Value": "60%",
+        "Owner": "Bayonetta",
+        "OwnerId": 1,
+        "Name": "SPEED INCREASE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5c2a14834696596e10861ccc"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Bayonetta"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5c2a14854696596e10861d23",
+    "Name": "FallSpeed",
+    "OwnerId": 2,
+    "Owner": "Bowser",
+    "Values": [
+      {
+        "Value": "1.39",
+        "Owner": "Bowser",
+        "OwnerId": 2,
+        "Name": "MAX FALL SPEED"
+      },
+      {
+        "Value": "2.224",
+        "Owner": "Bowser",
+        "OwnerId": 2,
+        "Name": "FAST FALL SPEED"
+      },
+      {
+        "Value": "60%",
+        "Owner": "Bowser",
+        "OwnerId": 2,
+        "Name": "SPEED INCREASE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5c2a14854696596e10861d23"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Bowser"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5c2a14884696596e10861d7f",
+    "Name": "FallSpeed",
+    "OwnerId": 3,
+    "Owner": "BowserJr",
+    "Values": [
+      {
+        "Value": "1.65",
+        "Owner": "BowserJr",
+        "OwnerId": 3,
+        "Name": "MAX FALL SPEED"
+      },
+      {
+        "Value": "2.64",
+        "Owner": "BowserJr",
+        "OwnerId": 3,
+        "Name": "FAST FALL SPEED"
+      },
+      {
+        "Value": "60%",
+        "Owner": "BowserJr",
+        "OwnerId": 3,
+        "Name": "SPEED INCREASE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5c2a14884696596e10861d7f"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/BowserJr"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5c2a148a4696596e10861ddd",
+    "Name": "FallSpeed",
+    "OwnerId": 4,
+    "Owner": "CaptainFalcon",
+    "Values": [
+      {
+        "Value": "1.837",
+        "Owner": "CaptainFalcon",
+        "OwnerId": 4,
+        "Name": "MAX FALL SPEED"
+      },
+      {
+        "Value": "2.9392",
+        "Owner": "CaptainFalcon",
+        "OwnerId": 4,
+        "Name": "FAST FALL SPEED"
+      },
+      {
+        "Value": "60%",
+        "Owner": "CaptainFalcon",
+        "OwnerId": 4,
+        "Name": "SPEED INCREASE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5c2a148a4696596e10861ddd"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/CaptainFalcon"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5c2a148c4696596e10861e2b",
+    "Name": "FallSpeed",
+    "OwnerId": 5,
+    "Owner": "Charizard",
+    "Values": [
+      {
+        "Value": "1.4",
+        "Owner": "Charizard",
+        "OwnerId": 5,
+        "Name": "MAX FALL SPEED"
+      },
+      {
+        "Value": "2.24",
+        "Owner": "Charizard",
+        "OwnerId": 5,
+        "Name": "FAST FALL SPEED"
+      },
+      {
+        "Value": "60%",
+        "Owner": "Charizard",
+        "OwnerId": 5,
+        "Name": "SPEED INCREASE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5c2a148c4696596e10861e2b"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Charizard"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5c2a148f4696596e10861e9a",
+    "Name": "FallSpeed",
+    "OwnerId": 6,
+    "Owner": "Cloud",
+    "Values": [
+      {
+        "Value": "1.68",
+        "Owner": "Cloud",
+        "OwnerId": 6,
+        "Name": "MAX FALL SPEED"
+      },
+      {
+        "Value": "2.688",
+        "Owner": "Cloud",
+        "OwnerId": 6,
+        "Name": "FAST FALL SPEED"
+      },
+      {
+        "Value": "60%",
+        "Owner": "Cloud",
+        "OwnerId": 6,
+        "Name": "SPEED INCREASE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5c2a148f4696596e10861e9a"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Cloud"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5c2a14914696596e10861f04",
+    "Name": "FallSpeed",
+    "OwnerId": 7,
+    "Owner": "Corrin",
+    "Values": [
+      {
+        "Value": "1.65",
+        "Owner": "Corrin",
+        "OwnerId": 7,
+        "Name": "MAX FALL SPEED"
+      },
+      {
+        "Value": "2.64",
+        "Owner": "Corrin",
+        "OwnerId": 7,
+        "Name": "FAST FALL SPEED"
+      },
+      {
+        "Value": "60%",
+        "Owner": "Corrin",
+        "OwnerId": 7,
+        "Name": "SPEED INCREASE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5c2a14914696596e10861f04"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Corrin"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5c2a14944696596e10861f5b",
+    "Name": "FallSpeed",
+    "OwnerId": 8,
+    "Owner": "DarkPit",
+    "Values": [
+      {
+        "Value": "1.48",
+        "Owner": "DarkPit",
+        "OwnerId": 8,
+        "Name": "MAX FALL SPEED"
+      },
+      {
+        "Value": "2.368",
+        "Owner": "DarkPit",
+        "OwnerId": 8,
+        "Name": "FAST FALL SPEED"
+      },
+      {
+        "Value": "60%",
+        "Owner": "DarkPit",
+        "OwnerId": 8,
+        "Name": "SPEED INCREASE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5c2a14944696596e10861f5b"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DarkPit"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5c2a14964696596e10861fb3",
+    "Name": "FallSpeed",
+    "OwnerId": 9,
+    "Owner": "DiddyKong",
+    "Values": [
+      {
+        "Value": "1.75",
+        "Owner": "DiddyKong",
+        "OwnerId": 9,
+        "Name": "MAX FALL SPEED"
+      },
+      {
+        "Value": "2.8",
+        "Owner": "DiddyKong",
+        "OwnerId": 9,
+        "Name": "FAST FALL SPEED"
+      },
+      {
+        "Value": "60%",
+        "Owner": "DiddyKong",
+        "OwnerId": 9,
+        "Name": "SPEED INCREASE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5c2a14964696596e10861fb3"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DiddyKong"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5c2a14984696596e1086200f",
+    "Name": "FallSpeed",
+    "OwnerId": 10,
+    "Owner": "DonkeyKong",
+    "Values": [
+      {
+        "Value": "1.63",
+        "Owner": "DonkeyKong",
+        "OwnerId": 10,
+        "Name": "MAX FALL SPEED"
+      },
+      {
+        "Value": "2.608",
+        "Owner": "DonkeyKong",
+        "OwnerId": 10,
+        "Name": "FAST FALL SPEED"
+      },
+      {
+        "Value": "60%",
+        "Owner": "DonkeyKong",
+        "OwnerId": 10,
+        "Name": "SPEED INCREASE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5c2a14984696596e1086200f"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DonkeyKong"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5c2a149b4696596e10862062",
+    "Name": "FallSpeed",
+    "OwnerId": 11,
+    "Owner": "DrMario",
+    "Values": [
+      {
+        "Value": "1.5",
+        "Owner": "DrMario",
+        "OwnerId": 11,
+        "Name": "MAX FALL SPEED"
+      },
+      {
+        "Value": "2.4",
+        "Owner": "DrMario",
+        "OwnerId": 11,
+        "Name": "FAST FALL SPEED"
+      },
+      {
+        "Value": "60%",
+        "Owner": "DrMario",
+        "OwnerId": 11,
+        "Name": "SPEED INCREASE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5c2a149b4696596e10862062"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DrMario"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5c2a149d4696596e108620bd",
+    "Name": "FallSpeed",
+    "OwnerId": 12,
+    "Owner": "DuckHunt",
+    "Values": [
+      {
+        "Value": "1.65",
+        "Owner": "DuckHunt",
+        "OwnerId": 12,
+        "Name": "MAX FALL SPEED"
+      },
+      {
+        "Value": "2.64",
+        "Owner": "DuckHunt",
+        "OwnerId": 12,
+        "Name": "FAST FALL SPEED"
+      },
+      {
+        "Value": "60%",
+        "Owner": "DuckHunt",
+        "OwnerId": 12,
+        "Name": "SPEED INCREASE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5c2a149d4696596e108620bd"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/DuckHunt"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5c2a149f4696596e10862112",
+    "Name": "FallSpeed",
+    "OwnerId": 13,
+    "Owner": "Falco",
+    "Values": [
+      {
+        "Value": "1.8",
+        "Owner": "Falco",
+        "OwnerId": 13,
+        "Name": "MAX FALL SPEED"
+      },
+      {
+        "Value": "2.88",
+        "Owner": "Falco",
+        "OwnerId": 13,
+        "Name": "FAST FALL SPEED"
+      },
+      {
+        "Value": "60%",
+        "Owner": "Falco",
+        "OwnerId": 13,
+        "Name": "SPEED INCREASE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5c2a149f4696596e10862112"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Falco"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5c2a14a24696596e1086216b",
+    "Name": "FallSpeed",
+    "OwnerId": 14,
+    "Owner": "Fox",
+    "Values": [
+      {
+        "Value": "2.05",
+        "Owner": "Fox",
+        "OwnerId": 14,
+        "Name": "MAX FALL SPEED"
+      },
+      {
+        "Value": "3.28",
+        "Owner": "Fox",
+        "OwnerId": 14,
+        "Name": "FAST FALL SPEED"
+      },
+      {
+        "Value": "60%",
+        "Owner": "Fox",
+        "OwnerId": 14,
+        "Name": "SPEED INCREASE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5c2a14a24696596e1086216b"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Fox"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5c2a14a44696596e108621c1",
+    "Name": "FallSpeed",
+    "OwnerId": 15,
+    "Owner": "Ganondorf",
+    "Values": [
+      {
+        "Value": "1.65",
+        "Owner": "Ganondorf",
+        "OwnerId": 15,
+        "Name": "MAX FALL SPEED"
+      },
+      {
+        "Value": "2.64",
+        "Owner": "Ganondorf",
+        "OwnerId": 15,
+        "Name": "FAST FALL SPEED"
+      },
+      {
+        "Value": "60%",
+        "Owner": "Ganondorf",
+        "OwnerId": 15,
+        "Name": "SPEED INCREASE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5c2a14a44696596e108621c1"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ganondorf"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5c2a14a64696596e10862219",
+    "Name": "FallSpeed",
+    "OwnerId": 16,
+    "Owner": "Greninja",
+    "Values": [
+      {
+        "Value": "1.85",
+        "Owner": "Greninja",
+        "OwnerId": 16,
+        "Name": "MAX FALL SPEED"
+      },
+      {
+        "Value": "2.96",
+        "Owner": "Greninja",
+        "OwnerId": 16,
+        "Name": "FAST FALL SPEED"
+      },
+      {
+        "Value": "60%",
+        "Owner": "Greninja",
+        "OwnerId": 16,
+        "Name": "SPEED INCREASE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5c2a14a64696596e10862219"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Greninja"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5c2a14a94696596e10862273",
+    "Name": "FallSpeed",
+    "OwnerId": 17,
+    "Owner": "Ike",
+    "Values": [
+      {
+        "Value": "1.65",
+        "Owner": "Ike",
+        "OwnerId": 17,
+        "Name": "MAX FALL SPEED"
+      },
+      {
+        "Value": "2.64",
+        "Owner": "Ike",
+        "OwnerId": 17,
+        "Name": "FAST FALL SPEED"
+      },
+      {
+        "Value": "60%",
+        "Owner": "Ike",
+        "OwnerId": 17,
+        "Name": "SPEED INCREASE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5c2a14a94696596e10862273"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ike"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5c2a14ab4696596e108622bd",
+    "Name": "FallSpeed",
+    "OwnerId": 18,
+    "Owner": "Jigglypuff",
+    "Values": [
+      {
+        "Value": "0.98",
+        "Owner": "Jigglypuff",
+        "OwnerId": 18,
+        "Name": "MAX FALL SPEED"
+      },
+      {
+        "Value": "1.568",
+        "Owner": "Jigglypuff",
+        "OwnerId": 18,
+        "Name": "FAST FALL SPEED"
+      },
+      {
+        "Value": "60%",
+        "Owner": "Jigglypuff",
+        "OwnerId": 18,
+        "Name": "SPEED INCREASE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5c2a14ab4696596e108622bd"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Jigglypuff"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5c2a14ad4696596e10862315",
+    "Name": "FallSpeed",
+    "OwnerId": 19,
+    "Owner": "KingDedede",
+    "Values": [
+      {
+        "Value": "1.95",
+        "Owner": "KingDedede",
+        "OwnerId": 19,
+        "Name": "MAX FALL SPEED"
+      },
+      {
+        "Value": "3.12",
+        "Owner": "KingDedede",
+        "OwnerId": 19,
+        "Name": "FAST FALL SPEED"
+      },
+      {
+        "Value": "60%",
+        "Owner": "KingDedede",
+        "OwnerId": 19,
+        "Name": "SPEED INCREASE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5c2a14ad4696596e10862315"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/KingDedede"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5c2a14af4696596e10862375",
+    "Name": "FallSpeed",
+    "OwnerId": 20,
+    "Owner": "Kirby",
+    "Values": [
+      {
+        "Value": "1.23",
+        "Owner": "Kirby",
+        "OwnerId": 20,
+        "Name": "MAX FALL SPEED"
+      },
+      {
+        "Value": "1.968",
+        "Owner": "Kirby",
+        "OwnerId": 20,
+        "Name": "FAST FALL SPEED"
+      },
+      {
+        "Value": "60%",
+        "Owner": "Kirby",
+        "OwnerId": 20,
+        "Name": "SPEED INCREASE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5c2a14af4696596e10862375"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Kirby"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5c2a14b24696596e108623d6",
+    "Name": "FallSpeed",
+    "OwnerId": 21,
+    "Owner": "Link",
+    "Values": [
+      {
+        "Value": "1.6",
+        "Owner": "Link",
+        "OwnerId": 21,
+        "Name": "MAX FALL SPEED"
+      },
+      {
+        "Value": "3.04",
+        "Owner": "Link",
+        "OwnerId": 21,
+        "Name": "FAST FALL SPEED"
+      },
+      {
+        "Value": "90%",
+        "Owner": "Link",
+        "OwnerId": 21,
+        "Name": "SPEED INCREASE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5c2a14b24696596e108623d6"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Link"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5c2a14b44696596e10862433",
+    "Name": "FallSpeed",
+    "OwnerId": 22,
+    "Owner": "LittleMac",
+    "Values": [
+      {
+        "Value": "1.8",
+        "Owner": "LittleMac",
+        "OwnerId": 22,
+        "Name": "MAX FALL SPEED"
+      },
+      {
+        "Value": "2.88",
+        "Owner": "LittleMac",
+        "OwnerId": 22,
+        "Name": "FAST FALL SPEED"
+      },
+      {
+        "Value": "60%",
+        "Owner": "LittleMac",
+        "OwnerId": 22,
+        "Name": "SPEED INCREASE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5c2a14b44696596e10862433"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/LittleMac"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5c2a14b64696596e10862485",
+    "Name": "FallSpeed",
+    "OwnerId": 23,
+    "Owner": "Lucario",
+    "Values": [
+      {
+        "Value": "1.68",
+        "Owner": "Lucario",
+        "OwnerId": 23,
+        "Name": "MAX FALL SPEED"
+      },
+      {
+        "Value": "2.688",
+        "Owner": "Lucario",
+        "OwnerId": 23,
+        "Name": "FAST FALL SPEED"
+      },
+      {
+        "Value": "60%",
+        "Owner": "Lucario",
+        "OwnerId": 23,
+        "Name": "SPEED INCREASE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5c2a14b64696596e10862485"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucario"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5c2a14b84696596e108624dc",
+    "Name": "FallSpeed",
+    "OwnerId": 24,
+    "Owner": "Lucas",
+    "Values": [
+      {
+        "Value": "1.37",
+        "Owner": "Lucas",
+        "OwnerId": 24,
+        "Name": "MAX FALL SPEED"
+      },
+      {
+        "Value": "2.192",
+        "Owner": "Lucas",
+        "OwnerId": 24,
+        "Name": "FAST FALL SPEED"
+      },
+      {
+        "Value": "60%",
+        "Owner": "Lucas",
+        "OwnerId": 24,
+        "Name": "SPEED INCREASE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5c2a14b84696596e108624dc"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucas"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5c2a14bb4696596e10862533",
+    "Name": "FallSpeed",
+    "OwnerId": 25,
+    "Owner": "Lucina",
+    "Values": [
+      {
+        "Value": "1.58",
+        "Owner": "Lucina",
+        "OwnerId": 25,
+        "Name": "MAX FALL SPEED"
+      },
+      {
+        "Value": "2.528",
+        "Owner": "Lucina",
+        "OwnerId": 25,
+        "Name": "FAST FALL SPEED"
+      },
+      {
+        "Value": "60%",
+        "Owner": "Lucina",
+        "OwnerId": 25,
+        "Name": "SPEED INCREASE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5c2a14bb4696596e10862533"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Lucina"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5c2a14bd4696596e10862588",
+    "Name": "FallSpeed",
+    "OwnerId": 26,
+    "Owner": "Luigi",
+    "Values": [
+      {
+        "Value": "1.25",
+        "Owner": "Luigi",
+        "OwnerId": 26,
+        "Name": "MAX FALL SPEED"
+      },
+      {
+        "Value": "2.0",
+        "Owner": "Luigi",
+        "OwnerId": 26,
+        "Name": "FAST FALL SPEED"
+      },
+      {
+        "Value": "60%",
+        "Owner": "Luigi",
+        "OwnerId": 26,
+        "Name": "SPEED INCREASE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5c2a14bd4696596e10862588"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Luigi"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5c2a14c04696596e108625db",
+    "Name": "FallSpeed",
+    "OwnerId": 27,
+    "Owner": "Mario",
+    "Values": [
+      {
+        "Value": "1.5",
+        "Owner": "Mario",
+        "OwnerId": 27,
+        "Name": "MAX FALL SPEED"
+      },
+      {
+        "Value": "2.4",
+        "Owner": "Mario",
+        "OwnerId": 27,
+        "Name": "FAST FALL SPEED"
+      },
+      {
+        "Value": "60%",
+        "Owner": "Mario",
+        "OwnerId": 27,
+        "Name": "SPEED INCREASE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5c2a14c04696596e108625db"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Mario"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5c2a14c24696596e10862632",
+    "Name": "FallSpeed",
+    "OwnerId": 28,
+    "Owner": "Marth",
+    "Values": [
+      {
+        "Value": "1.58",
+        "Owner": "Marth",
+        "OwnerId": 28,
+        "Name": "MAX FALL SPEED"
+      },
+      {
+        "Value": "2.528",
+        "Owner": "Marth",
+        "OwnerId": 28,
+        "Name": "FAST FALL SPEED"
+      },
+      {
+        "Value": "60%",
+        "Owner": "Marth",
+        "OwnerId": 28,
+        "Name": "SPEED INCREASE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5c2a14c24696596e10862632"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Marth"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5c2a14c74696596e108626fa",
+    "Name": "FallSpeed",
+    "OwnerId": 30,
+    "Owner": "MetaKnight",
+    "Values": [
+      {
+        "Value": "1.66",
+        "Owner": "MetaKnight",
+        "OwnerId": 30,
+        "Name": "MAX FALL SPEED"
+      },
+      {
+        "Value": "2.656",
+        "Owner": "MetaKnight",
+        "OwnerId": 30,
+        "Name": "FAST FALL SPEED"
+      },
+      {
+        "Value": "60%",
+        "Owner": "MetaKnight",
+        "OwnerId": 30,
+        "Name": "SPEED INCREASE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5c2a14c74696596e108626fa"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MetaKnight"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5c2a14c94696596e10862745",
+    "Name": "FallSpeed",
+    "OwnerId": 31,
+    "Owner": "Mewtwo",
+    "Values": [
+      {
+        "Value": "1.5",
+        "Owner": "Mewtwo",
+        "OwnerId": 31,
+        "Name": "MAX FALL SPEED"
+      },
+      {
+        "Value": "2.4",
+        "Owner": "Mewtwo",
+        "OwnerId": 31,
+        "Name": "FAST FALL SPEED"
+      },
+      {
+        "Value": "60%",
+        "Owner": "Mewtwo",
+        "OwnerId": 31,
+        "Name": "SPEED INCREASE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5c2a14c94696596e10862745"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Mewtwo"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5c2a14cb4696596e108627be",
+    "Name": "FallSpeed",
+    "OwnerId": 34,
+    "Owner": "MiiSwordfighter",
+    "Values": [
+      {
+        "Value": "1.6",
+        "Owner": "MiiSwordfighter",
+        "OwnerId": 34,
+        "Name": "MAX FALL SPEED"
+      },
+      {
+        "Value": "2.56",
+        "Owner": "MiiSwordfighter",
+        "OwnerId": 34,
+        "Name": "FAST FALL SPEED"
+      },
+      {
+        "Value": "60%",
+        "Owner": "MiiSwordfighter",
+        "OwnerId": 34,
+        "Name": "SPEED INCREASE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5c2a14cb4696596e108627be"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiSwordfighter"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5c2a14ce4696596e10862838",
+    "Name": "FallSpeed",
+    "OwnerId": 32,
+    "Owner": "MiiBrawler",
+    "Values": [
+      {
+        "Value": "1.7",
+        "Owner": "MiiBrawler",
+        "OwnerId": 32,
+        "Name": "MAX FALL SPEED"
+      },
+      {
+        "Value": "2.72",
+        "Owner": "MiiBrawler",
+        "OwnerId": 32,
+        "Name": "FAST FALL SPEED"
+      },
+      {
+        "Value": "60%",
+        "Owner": "MiiBrawler",
+        "OwnerId": 32,
+        "Name": "SPEED INCREASE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5c2a14ce4696596e10862838"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiBrawler"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5c2a14d04696596e10862898",
+    "Name": "FallSpeed",
+    "OwnerId": 33,
+    "Owner": "MiiGunner",
+    "Values": [
+      {
+        "Value": "1.45",
+        "Owner": "MiiGunner",
+        "OwnerId": 33,
+        "Name": "MAX FALL SPEED"
+      },
+      {
+        "Value": "2.32",
+        "Owner": "MiiGunner",
+        "OwnerId": 33,
+        "Name": "FAST FALL SPEED"
+      },
+      {
+        "Value": "60%",
+        "Owner": "MiiGunner",
+        "OwnerId": 33,
+        "Name": "SPEED INCREASE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5c2a14d04696596e10862898"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MiiGunner"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5c2a14d24696596e108628f4",
+    "Name": "FallSpeed",
+    "OwnerId": 35,
+    "Owner": "MrGameWatch",
+    "Values": [
+      {
+        "Value": "1.24",
+        "Owner": "MrGameWatch",
+        "OwnerId": 35,
+        "Name": "MAX FALL SPEED"
+      },
+      {
+        "Value": "1.984",
+        "Owner": "MrGameWatch",
+        "OwnerId": 35,
+        "Name": "FAST FALL SPEED"
+      },
+      {
+        "Value": "60%",
+        "Owner": "MrGameWatch",
+        "OwnerId": 35,
+        "Name": "SPEED INCREASE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5c2a14d24696596e108628f4"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/MrGameWatch"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5c2a14d44696596e10862949",
+    "Name": "FallSpeed",
+    "OwnerId": 36,
+    "Owner": "Ness",
+    "Values": [
+      {
+        "Value": "1.31",
+        "Owner": "Ness",
+        "OwnerId": 36,
+        "Name": "MAX FALL SPEED"
+      },
+      {
+        "Value": "2.096",
+        "Owner": "Ness",
+        "OwnerId": 36,
+        "Name": "FAST FALL SPEED"
+      },
+      {
+        "Value": "60%",
+        "Owner": "Ness",
+        "OwnerId": 36,
+        "Name": "SPEED INCREASE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5c2a14d44696596e10862949"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ness"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5c2a14d74696596e1086299a",
+    "Name": "FallSpeed",
+    "OwnerId": 37,
+    "Owner": "Olimar",
+    "Values": [
+      {
+        "Value": "1.35",
+        "Owner": "Olimar",
+        "OwnerId": 37,
+        "Name": "MAX FALL SPEED"
+      },
+      {
+        "Value": "2.16",
+        "Owner": "Olimar",
+        "OwnerId": 37,
+        "Name": "FAST FALL SPEED"
+      },
+      {
+        "Value": "60%",
+        "Owner": "Olimar",
+        "OwnerId": 37,
+        "Name": "SPEED INCREASE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5c2a14d74696596e1086299a"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Olimar"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5c2a14db4696596e10862a47",
+    "Name": "FallSpeed",
+    "OwnerId": 39,
+    "Owner": "Palutena",
+    "Values": [
+      {
+        "Value": "1.4",
+        "Owner": "Palutena",
+        "OwnerId": 39,
+        "Name": "MAX FALL SPEED"
+      },
+      {
+        "Value": "2.24",
+        "Owner": "Palutena",
+        "OwnerId": 39,
+        "Name": "FAST FALL SPEED"
+      },
+      {
+        "Value": "60%",
+        "Owner": "Palutena",
+        "OwnerId": 39,
+        "Name": "SPEED INCREASE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5c2a14db4696596e10862a47"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Palutena"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5c2a14de4696596e10862aa2",
+    "Name": "FallSpeed",
+    "OwnerId": 40,
+    "Owner": "Peach",
+    "Values": [
+      {
+        "Value": "1.15",
+        "Owner": "Peach",
+        "OwnerId": 40,
+        "Name": "MAX FALL SPEED"
+      },
+      {
+        "Value": "1.84",
+        "Owner": "Peach",
+        "OwnerId": 40,
+        "Name": "FAST FALL SPEED"
+      },
+      {
+        "Value": "60%",
+        "Owner": "Peach",
+        "OwnerId": 40,
+        "Name": "SPEED INCREASE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5c2a14de4696596e10862aa2"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Peach"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5c2a14e04696596e10862af7",
+    "Name": "FallSpeed",
+    "OwnerId": 41,
+    "Owner": "Pikachu",
+    "Values": [
+      {
+        "Value": "1.55",
+        "Owner": "Pikachu",
+        "OwnerId": 41,
+        "Name": "MAX FALL SPEED"
+      },
+      {
+        "Value": "2.48",
+        "Owner": "Pikachu",
+        "OwnerId": 41,
+        "Name": "FAST FALL SPEED"
+      },
+      {
+        "Value": "60%",
+        "Owner": "Pikachu",
+        "OwnerId": 41,
+        "Name": "SPEED INCREASE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5c2a14e04696596e10862af7"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Pikachu"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5c2a14e24696596e10862b4e",
+    "Name": "FallSpeed",
+    "OwnerId": 42,
+    "Owner": "Pit",
+    "Values": [
+      {
+        "Value": "1.48",
+        "Owner": "Pit",
+        "OwnerId": 42,
+        "Name": "MAX FALL SPEED"
+      },
+      {
+        "Value": "2.368",
+        "Owner": "Pit",
+        "OwnerId": 42,
+        "Name": "FAST FALL SPEED"
+      },
+      {
+        "Value": "60%",
+        "Owner": "Pit",
+        "OwnerId": 42,
+        "Name": "SPEED INCREASE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5c2a14e24696596e10862b4e"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Pit"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5c2a14e54696596e10862b9f",
+    "Name": "FallSpeed",
+    "OwnerId": 43,
+    "Owner": "Rob",
+    "Values": [
+      {
+        "Value": "1.6",
+        "Owner": "Rob",
+        "OwnerId": 43,
+        "Name": "MAX FALL SPEED"
+      },
+      {
+        "Value": "2.56",
+        "Owner": "Rob",
+        "OwnerId": 43,
+        "Name": "FAST FALL SPEED"
+      },
+      {
+        "Value": "60%",
+        "Owner": "Rob",
+        "OwnerId": 43,
+        "Name": "SPEED INCREASE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5c2a14e54696596e10862b9f"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Rob"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5c2a14e74696596e10862c09",
+    "Name": "FallSpeed",
+    "OwnerId": 44,
+    "Owner": "Robin",
+    "Values": [
+      {
+        "Value": "1.5",
+        "Owner": "Robin",
+        "OwnerId": 44,
+        "Name": "MAX FALL SPEED"
+      },
+      {
+        "Value": "2.4",
+        "Owner": "Robin",
+        "OwnerId": 44,
+        "Name": "FAST FALL SPEED"
+      },
+      {
+        "Value": "60%",
+        "Owner": "Robin",
+        "OwnerId": 44,
+        "Name": "SPEED INCREASE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5c2a14e74696596e10862c09"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Robin"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5c2a14ea4696596e10862c6f",
+    "Name": "FallSpeed",
+    "OwnerId": 45,
+    "Owner": "RosalinaLuma",
+    "Values": [
+      {
+        "Value": "1.2",
+        "Owner": "RosalinaLuma",
+        "OwnerId": 45,
+        "Name": "MAX FALL SPEED"
+      },
+      {
+        "Value": "1.92",
+        "Owner": "RosalinaLuma",
+        "OwnerId": 45,
+        "Name": "FAST FALL SPEED"
+      },
+      {
+        "Value": "60%",
+        "Owner": "RosalinaLuma",
+        "OwnerId": 45,
+        "Name": "SPEED INCREASE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5c2a14ea4696596e10862c6f"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/RosalinaLuma"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5c2a14ec4696596e10862cca",
+    "Name": "FallSpeed",
+    "OwnerId": 46,
+    "Owner": "Roy",
+    "Values": [
+      {
+        "Value": "1.8",
+        "Owner": "Roy",
+        "OwnerId": 46,
+        "Name": "MAX FALL SPEED"
+      },
+      {
+        "Value": "2.9",
+        "Owner": "Roy",
+        "OwnerId": 46,
+        "Name": "FAST FALL SPEED"
+      },
+      {
+        "Value": "61%",
+        "Owner": "Roy",
+        "OwnerId": 46,
+        "Name": "SPEED INCREASE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5c2a14ec4696596e10862cca"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Roy"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5c2a14ee4696596e10862d31",
+    "Name": "FallSpeed",
+    "OwnerId": 47,
+    "Owner": "Ryu",
+    "Values": [
+      {
+        "Value": "1.6",
+        "Owner": "Ryu",
+        "OwnerId": 47,
+        "Name": "MAX FALL SPEED"
+      },
+      {
+        "Value": "2.24",
+        "Owner": "Ryu",
+        "OwnerId": 47,
+        "Name": "FAST FALL SPEED"
+      },
+      {
+        "Value": "40%",
+        "Owner": "Ryu",
+        "OwnerId": 47,
+        "Name": "SPEED INCREASE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5c2a14ee4696596e10862d31"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Ryu"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5c2a14f04696596e10862d93",
+    "Name": "FallSpeed",
+    "OwnerId": 48,
+    "Owner": "Samus",
+    "Values": [
+      {
+        "Value": "1.3",
+        "Owner": "Samus",
+        "OwnerId": 48,
+        "Name": "MAX FALL SPEED"
+      },
+      {
+        "Value": "2.08",
+        "Owner": "Samus",
+        "OwnerId": 48,
+        "Name": "FAST FALL SPEED"
+      },
+      {
+        "Value": "60%",
+        "Owner": "Samus",
+        "OwnerId": 48,
+        "Name": "SPEED INCREASE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5c2a14f04696596e10862d93"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Samus"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5c2a14f34696596e10862de9",
+    "Name": "FallSpeed",
+    "OwnerId": 49,
+    "Owner": "Sheik",
+    "Values": [
+      {
+        "Value": "1.75",
+        "Owner": "Sheik",
+        "OwnerId": 49,
+        "Name": "MAX FALL SPEED"
+      },
+      {
+        "Value": "2.8",
+        "Owner": "Sheik",
+        "OwnerId": 49,
+        "Name": "FAST FALL SPEED"
+      },
+      {
+        "Value": "60%",
+        "Owner": "Sheik",
+        "OwnerId": 49,
+        "Name": "SPEED INCREASE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5c2a14f34696596e10862de9"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sheik"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5c2a14f54696596e10862e4c",
+    "Name": "FallSpeed",
+    "OwnerId": 50,
+    "Owner": "Shulk",
+    "Values": [
+      {
+        "Value": "1.5",
+        "Owner": "Shulk",
+        "OwnerId": 50,
+        "Name": "MAX FALL SPEED"
+      },
+      {
+        "Value": "2.4",
+        "Owner": "Shulk",
+        "OwnerId": 50,
+        "Name": "FAST FALL SPEED"
+      },
+      {
+        "Value": "60%",
+        "Owner": "Shulk",
+        "OwnerId": 50,
+        "Name": "SPEED INCREASE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5c2a14f54696596e10862e4c"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Shulk"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5c2a14f74696596e10862e9f",
+    "Name": "FallSpeed",
+    "OwnerId": 51,
+    "Owner": "Sonic",
+    "Values": [
+      {
+        "Value": "1.45",
+        "Owner": "Sonic",
+        "OwnerId": 51,
+        "Name": "MAX FALL SPEED"
+      },
+      {
+        "Value": "2.32",
+        "Owner": "Sonic",
+        "OwnerId": 51,
+        "Name": "FAST FALL SPEED"
+      },
+      {
+        "Value": "60%",
+        "Owner": "Sonic",
+        "OwnerId": 51,
+        "Name": "SPEED INCREASE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5c2a14f74696596e10862e9f"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Sonic"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5c2a14fa4696596e10862ef6",
+    "Name": "FallSpeed",
+    "OwnerId": 52,
+    "Owner": "ToonLink",
+    "Values": [
+      {
+        "Value": "1.28",
+        "Owner": "ToonLink",
+        "OwnerId": 52,
+        "Name": "MAX FALL SPEED"
+      },
+      {
+        "Value": "2.048",
+        "Owner": "ToonLink",
+        "OwnerId": 52,
+        "Name": "FAST FALL SPEED"
+      },
+      {
+        "Value": "60%",
+        "Owner": "ToonLink",
+        "OwnerId": 52,
+        "Name": "SPEED INCREASE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5c2a14fa4696596e10862ef6"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/ToonLink"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5c2a14fc4696596e10862f59",
+    "Name": "FallSpeed",
+    "OwnerId": 53,
+    "Owner": "Villager",
+    "Values": [
+      {
+        "Value": "1.32",
+        "Owner": "Villager",
+        "OwnerId": 53,
+        "Name": "MAX FALL SPEED"
+      },
+      {
+        "Value": "2.112",
+        "Owner": "Villager",
+        "OwnerId": 53,
+        "Name": "FAST FALL SPEED"
+      },
+      {
+        "Value": "60%",
+        "Owner": "Villager",
+        "OwnerId": 53,
+        "Name": "SPEED INCREASE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5c2a14fc4696596e10862f59"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Villager"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5c2a14fe4696596e10862fad",
+    "Name": "FallSpeed",
+    "OwnerId": 54,
+    "Owner": "Wario",
+    "Values": [
+      {
+        "Value": "1.61",
+        "Owner": "Wario",
+        "OwnerId": 54,
+        "Name": "MAX FALL SPEED"
+      },
+      {
+        "Value": "2.576",
+        "Owner": "Wario",
+        "OwnerId": 54,
+        "Name": "FAST FALL SPEED"
+      },
+      {
+        "Value": "60%",
+        "Owner": "Wario",
+        "OwnerId": 54,
+        "Name": "SPEED INCREASE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5c2a14fe4696596e10862fad"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Wario"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5c2a15014696596e10862fff",
+    "Name": "FallSpeed",
+    "OwnerId": 55,
+    "Owner": "WiiFitTrainer",
+    "Values": [
+      {
+        "Value": "1.3",
+        "Owner": "WiiFitTrainer",
+        "OwnerId": 55,
+        "Name": "MAX FALL SPEED"
+      },
+      {
+        "Value": "2.08",
+        "Owner": "WiiFitTrainer",
+        "OwnerId": 55,
+        "Name": "FAST FALL SPEED"
+      },
+      {
+        "Value": "60%",
+        "Owner": "WiiFitTrainer",
+        "OwnerId": 55,
+        "Name": "SPEED INCREASE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5c2a15014696596e10862fff"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/WiiFitTrainer"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5c2a15034696596e10863050",
+    "Name": "FallSpeed",
+    "OwnerId": 56,
+    "Owner": "Yoshi",
+    "Values": [
+      {
+        "Value": "1.29",
+        "Owner": "Yoshi",
+        "OwnerId": 56,
+        "Name": "MAX FALL SPEED"
+      },
+      {
+        "Value": "2.064",
+        "Owner": "Yoshi",
+        "OwnerId": 56,
+        "Name": "FAST FALL SPEED"
+      },
+      {
+        "Value": "60%",
+        "Owner": "Yoshi",
+        "OwnerId": 56,
+        "Name": "SPEED INCREASE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5c2a15034696596e10863050"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Yoshi"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5c2a15054696596e108630a0",
+    "Name": "FallSpeed",
+    "OwnerId": 57,
+    "Owner": "Zelda",
+    "Values": [
+      {
+        "Value": "1.35",
+        "Owner": "Zelda",
+        "OwnerId": 57,
+        "Name": "MAX FALL SPEED"
+      },
+      {
+        "Value": "2.16",
+        "Owner": "Zelda",
+        "OwnerId": 57,
+        "Name": "FAST FALL SPEED"
+      },
+      {
+        "Value": "60%",
+        "Owner": "Zelda",
+        "OwnerId": 57,
+        "Name": "SPEED INCREASE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5c2a15054696596e108630a0"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/Zelda"
+      }
+    ]
+  },
+  {
+    "InstanceId": "5c2a15084696596e108630f9",
+    "Name": "FallSpeed",
+    "OwnerId": 58,
+    "Owner": "ZeroSuitSamus",
+    "Values": [
+      {
+        "Value": "1.7",
+        "Owner": "ZeroSuitSamus",
+        "OwnerId": 58,
+        "Name": "MAX FALL SPEED"
+      },
+      {
+        "Value": "2.72",
+        "Owner": "ZeroSuitSamus",
+        "OwnerId": 58,
+        "Name": "FAST FALL SPEED"
+      },
+      {
+        "Value": "60%",
+        "Owner": "ZeroSuitSamus",
+        "OwnerId": 58,
+        "Name": "SPEED INCREASE"
+      }
+    ],
+    "Links": [
+      {
+        "Rel": "self",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characterattributes/5c2a15084696596e108630f9"
+      },
+      {
+        "Rel": "character",
+        "Href": "http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/ZeroSuitSamus"
+      }
+    ]
+  }
+]
