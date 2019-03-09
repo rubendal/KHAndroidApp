@@ -21,7 +21,7 @@ import org.json.JSONObject;
 public class ThrowMove extends Move {
 
 
-    public ThrowMove(MoveType moveType, String name, String hitboxActive, String FAF, String baseDamage, String angle, String bkb, String kbg, String baseDamageTooltip) {
+    public ThrowMove(MoveType moveType, String name, String hitboxActive, String FAF, String baseDamage, String angle, String bkb, String kbg, BaseDamageTooltip baseDamageTooltip) {
         super(moveType, name, hitboxActive, FAF, baseDamage, angle, bkb, kbg, null, baseDamageTooltip);
     }
 
@@ -43,8 +43,10 @@ public class ThrowMove extends Move {
         kbgView.setText(kbg);
 
         if(baseDamageTooltip != null){
-            baseDamageView.setPaintFlags(baseDamageView.getPaintFlags() | Paint.UNDERLINE_TEXT_FLAG);
-            baseDamageView.setOnClickListener(new Tooltip(context, baseDamageTooltip));
+            if(!baseDamageTooltip.toString().equals("")) {
+                baseDamageView.setPaintFlags(baseDamageView.getPaintFlags() | Paint.UNDERLINE_TEXT_FLAG);
+                baseDamageView.setOnClickListener(new Tooltip(context, baseDamageTooltip.toString()));
+            }
         }
 
         int padding = Params.PADDING;
@@ -73,13 +75,27 @@ public class ThrowMove extends Move {
         try {
             MoveType moveType = MoveType.fromValue(moveData.getString("MoveType"));
             String name = StringEscapeUtils.unescapeHtml4(moveData.getString("Name"));
-            String hitboxActive = StringEscapeUtils.unescapeHtml4(moveData.getString("HitboxActive"));
+
             String FAF = StringEscapeUtils.unescapeHtml4(moveData.getString("FirstActionableFrame"));
-            String baseDamage = StringEscapeUtils.unescapeHtml4(moveData.getString("BaseDamage"));
             String angle = StringEscapeUtils.unescapeHtml4(moveData.getString("Angle"));
             String bkb = StringEscapeUtils.unescapeHtml4(moveData.getString("BaseKnockBackSetKnockback"));
             String kbg = StringEscapeUtils.unescapeHtml4(moveData.getString("KnockbackGrowth"));
             boolean weightDependent = moveData.getBoolean("IsWeightDependent");
+
+            String hitboxActive= "";
+            String baseDamage = "";
+
+            HitboxActiveTooltip hitboxActiveTooltip = null;
+            if(!moveData.isNull("HitboxActive")){
+                hitboxActiveTooltip = HitboxActiveTooltip.getFromJson(moveData.getJSONObject("HitboxActive"));
+                hitboxActive = hitboxActiveTooltip.Frames;
+            }
+            BaseDamageTooltip baseDamageTooltip = null;
+            if(!moveData.isNull("BaseDamage")){
+                baseDamageTooltip = BaseDamageTooltip.getFromJson(moveData.getJSONObject("BaseDamage"));
+                baseDamage = baseDamageTooltip.Normal;
+            }
+
             if(moveData.isNull("HitboxActive"))
                 hitboxActive="";
             if(moveData.isNull("FirstActionableFrame"))
@@ -92,10 +108,7 @@ public class ThrowMove extends Move {
                 bkb = "";
             if(moveData.isNull("KnockbackGrowth"))
                 kbg = "";
-            String baseDamageTooltip = null;
-            if(moveData.has("BaseDamageTooltip") && !moveData.isNull("BaseDamageTooltip")){
-                baseDamageTooltip = moveData.getString("BaseDamageTooltip");
-            }
+
             return new ThrowMove(moveType, name, hitboxActive, FAF, baseDamage, angle, bkb, kbg, baseDamageTooltip);
         }catch(Exception e){
             return null;

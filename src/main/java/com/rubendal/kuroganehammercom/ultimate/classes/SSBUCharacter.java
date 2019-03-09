@@ -17,9 +17,15 @@ import java.io.Serializable;
 import java.util.Comparator;
 
 public class SSBUCharacter implements Serializable{
+    public String name;
     public int id;
-    public String name, color;
+    public String thumbnailUrl;
+    //public transient Bitmap thumbnail;
+    public String color;
+    public String gameName;
+    public boolean hasSpecificAttributes;
     public boolean favorite = false;
+
     public boolean hasMoveData = false; //temp while characters data is being uploaded to the site
 
     public SSBUCharacter(){
@@ -31,7 +37,7 @@ public class SSBUCharacter implements Serializable{
         this.name = name;
         this.color = color;
 
-        if(this.color.equals("#FFFFFF"))
+        if(this.color == null || this.color.equals("") || this.color.equals("#FFFFFF"))
             this.color = "#3F51B5";
     }
 
@@ -96,10 +102,10 @@ public class SSBUCharacter implements Serializable{
 
     public static SSBUCharacter fromJson(Context context, JSONObject jsonObject){
         try{
-            String name = jsonObject.getString("Name"), color = jsonObject.getString("Color");
-            int id = jsonObject.getInt("Id");
-            SSBUCharacter character = new SSBUCharacter(id, name, color);
+            String name = jsonObject.getString("DisplayName"), color = jsonObject.getString("ColorTheme");
+            int id = jsonObject.getInt("OwnerId");
 
+            SSBUCharacter character = new SSBUCharacter(id, name, color);
             character.favorite = UserPref.checkUltCharacterFavorites(character.name);
 
             return character;

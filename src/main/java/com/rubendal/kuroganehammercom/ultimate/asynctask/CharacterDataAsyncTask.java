@@ -86,10 +86,10 @@ public class CharacterDataAsyncTask extends AsyncTask<String, String, SSBUCharac
             LinkedList<Move> evasion = new LinkedList<>();
             JSONArray jsonArray = new JSONArray(json);
             for(int i=0;i<jsonArray.length();i++){
-                Move move = Move.getFromJson(jsonArray.getJSONObject(i));
+                Move move = Move.ssbuGetFromJson(jsonArray.getJSONObject(i));
                 switch (move.moveType) {
                     case Aerial:
-                        list.add(AerialMove.getFromJson(jsonArray.getJSONObject(i)));
+                        list.add(AerialMove.ssbuGetFromJson(jsonArray.getJSONObject(i)));
                         break;
                     case Ground:
                         if(!isEvasion(move.name)) {

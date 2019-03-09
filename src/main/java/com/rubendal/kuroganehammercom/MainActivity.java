@@ -28,6 +28,8 @@ import com.rubendal.kuroganehammercom.interfaces.KHFragment;
 import com.rubendal.kuroganehammercom.smash4.fragments.MainFragment;
 import com.rubendal.kuroganehammercom.interfaces.NavigationFragment;
 import com.rubendal.kuroganehammercom.smash4.fragments.MainListFragment;
+import com.rubendal.kuroganehammercom.ultimate.asynctask.UltimateKHUpdate;
+import com.rubendal.kuroganehammercom.ultimate.fragments.SSBUCharacterDataFragment;
 import com.rubendal.kuroganehammercom.ultimate.fragments.SSBUCharacterMainFragment;
 import com.rubendal.kuroganehammercom.ultimate.fragments.SSBUCharacterMainListFragment;
 import com.rubendal.kuroganehammercom.util.Storage;
@@ -121,8 +123,13 @@ public class MainActivity extends AppCompatActivity
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.update:
-                KHUpdate kh = new KHUpdate(currentFragment,"Syncing with KH API...");
-                kh.execute();
+                if(currentFragment instanceof SSBUCharacterMainFragment || currentFragment instanceof  SSBUCharacterMainListFragment || currentFragment instanceof SSBUCharacterDataFragment){
+                    UltimateKHUpdate kh = new UltimateKHUpdate(currentFragment,"Syncing with KH API...");
+                    kh.execute();
+                }else {
+                    KHUpdate kh = new KHUpdate(currentFragment, "Syncing with KH API...");
+                    kh.execute();
+                }
                 return true;
             default:
                 return super.onOptionsItemSelected(item);

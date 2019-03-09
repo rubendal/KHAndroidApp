@@ -202,6 +202,7 @@ public class Character implements Serializable {
             c.favorite = UserPref.checkCharacterFavorites(name);
             return c;
         }catch(Exception e){
+            System.out.println(jsonObject.toString());
             return null;
         }
     }

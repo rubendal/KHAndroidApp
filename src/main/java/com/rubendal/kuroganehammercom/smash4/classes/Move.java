@@ -10,6 +10,8 @@ import android.widget.TableRow;
 import android.widget.TextView;
 
 import com.rubendal.kuroganehammercom.R;
+import com.rubendal.kuroganehammercom.ultimate.classes.BaseDamageTooltip;
+import com.rubendal.kuroganehammercom.ultimate.classes.HitboxActiveTooltip;
 import com.rubendal.kuroganehammercom.util.Tooltip;
 import com.rubendal.kuroganehammercom.util.params.Params;
 
@@ -30,8 +32,8 @@ public class Move implements Serializable {
     public String kbg;
 
     //Smash Ultimate Tooltips
-    public String hitboxActiveTooltip;
-    public String baseDamageTooltip;
+    public HitboxActiveTooltip hitboxActiveTooltip;
+    public BaseDamageTooltip baseDamageTooltip;
 
     public Move(MoveType moveType, String name, String hitboxActive, String FAF, String baseDamage, String angle, String bkb, String kbg) {
         this.moveType = moveType;
@@ -44,7 +46,7 @@ public class Move implements Serializable {
         this.kbg = kbg;
     }
 
-    public Move(MoveType moveType, String name, String hitboxActive, String FAF, String baseDamage, String angle, String bkb, String kbg, String hitboxActiveTooltip, String baseDamageTooltip) {
+    public Move(MoveType moveType, String name, String hitboxActive, String FAF, String baseDamage, String angle, String bkb, String kbg, HitboxActiveTooltip hitboxActiveTooltip, BaseDamageTooltip baseDamageTooltip) {
         this.moveType = moveType;
         this.name = name;
         this.hitboxActive = hitboxActive;
@@ -84,13 +86,17 @@ public class Move implements Serializable {
         kbgView.setText(kbg);
 
         if(hitboxActiveTooltip != null){
-            hitboxActiveView.setPaintFlags(hitboxActiveView.getPaintFlags() | Paint.UNDERLINE_TEXT_FLAG);
-            hitboxActiveView.setOnClickListener(new Tooltip(context, hitboxActiveTooltip));
+            if(!hitboxActiveTooltip.toString().equals("")) {
+                hitboxActiveView.setPaintFlags(hitboxActiveView.getPaintFlags() | Paint.UNDERLINE_TEXT_FLAG);
+                hitboxActiveView.setOnClickListener(new Tooltip(context, hitboxActiveTooltip.toString()));
+            }
         }
 
         if(baseDamageTooltip != null){
-            baseDamageView.setPaintFlags(baseDamageView.getPaintFlags() | Paint.UNDERLINE_TEXT_FLAG);
-            baseDamageView.setOnClickListener(new Tooltip(context, baseDamageTooltip));
+            if(!baseDamageTooltip.toString().equals("")) {
+                baseDamageView.setPaintFlags(baseDamageView.getPaintFlags() | Paint.UNDERLINE_TEXT_FLAG);
+                baseDamageView.setOnClickListener(new Tooltip(context, baseDamageTooltip.toString()));
+            }
         }
 
         int padding = Params.PADDING;
@@ -152,9 +158,54 @@ public class Move implements Serializable {
                 if(jsonObject.has("BaseDamageTooltip") && !jsonObject.isNull("BaseDamageTooltip")){
                     baseDamageTooltip = jsonObject.getString("BaseDamageTooltip");
                 }
-                return new Move(moveType, name, hitboxActive, FAF, baseDamage, angle, bkb, kbg, hitboxActiveTooltip, baseDamageTooltip);
+                return new Move(moveType, name, hitboxActive, FAF, baseDamage, angle, bkb, kbg);
             }
         }catch(Exception e){
+            return null;
+        }
+    }
+
+    public static Move ssbuGetFromJson(JSONObject jsonObject){
+        try {
+            MoveType moveType = MoveType.fromValue(jsonObject.getString("MoveType"));
+            String name = StringEscapeUtils.unescapeHtml4(jsonObject.getString("Name"));
+
+            String FAF = StringEscapeUtils.unescapeHtml4(jsonObject.getString("FirstActionableFrame"));
+
+            String angle = StringEscapeUtils.unescapeHtml4(jsonObject.getString("Angle"));
+            String bkb = StringEscapeUtils.unescapeHtml4(jsonObject.getString("BaseKnockBackSetKnockback"));
+            String kbg = StringEscapeUtils.unescapeHtml4(jsonObject.getString("KnockbackGrowth"));
+
+            String hitboxActive= "";
+            String baseDamage = "";
+
+            HitboxActiveTooltip hitboxActiveTooltip = null;
+            if(!jsonObject.isNull("HitboxActive")){
+                hitboxActiveTooltip = HitboxActiveTooltip.getFromJson(jsonObject.getJSONObject("HitboxActive"));
+                hitboxActive = hitboxActiveTooltip.Frames;
+            }
+            BaseDamageTooltip baseDamageTooltip = null;
+            if(!jsonObject.isNull("BaseDamage")){
+                baseDamageTooltip = BaseDamageTooltip.getFromJson(jsonObject.getJSONObject("BaseDamage"));
+                baseDamage = baseDamageTooltip.Normal;
+            }
+
+            if(jsonObject.isNull("HitboxActive"))
+                hitboxActive="";
+            if(jsonObject.isNull("FirstActionableFrame"))
+                FAF = "";
+            if(jsonObject.isNull("BaseDamage"))
+                baseDamage = "";
+            if(jsonObject.isNull("Angle"))
+                angle = "";
+            if(jsonObject.isNull("BaseKnockBackSetKnockback"))
+                bkb = "";
+            if(jsonObject.isNull("KnockbackGrowth"))
+                kbg = "";
+
+            return new Move(moveType, name, hitboxActive, FAF, baseDamage, angle, bkb, kbg, hitboxActiveTooltip, baseDamageTooltip);
+        }catch(Exception e){
+            e.printStackTrace();
             return null;
         }
     }

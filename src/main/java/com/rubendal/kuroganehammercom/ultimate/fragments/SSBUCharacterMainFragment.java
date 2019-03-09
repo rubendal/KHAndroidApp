@@ -27,7 +27,7 @@ public class SSBUCharacterMainFragment extends SSBUMainFragment {
     public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
         super.onCreateOptionsMenu(menu, inflater);
 
-        menu.findItem(R.id.update).setVisible(false);
+        //menu.findItem(R.id.update).setVisible(false);
     }
 
     public static SSBUCharacterMainFragment newInstance(){

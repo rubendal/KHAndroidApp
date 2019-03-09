@@ -44,7 +44,7 @@ public class SSBUCharacterDataFragment extends KHFragment {
     public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
         super.onCreateOptionsMenu(menu, inflater);
 
-        menu.findItem(R.id.update).setVisible(false);
+        //menu.findItem(R.id.update).setVisible(false);
     }
 
     @Override
