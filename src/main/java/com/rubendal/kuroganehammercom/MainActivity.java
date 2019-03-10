@@ -3,6 +3,7 @@ package com.rubendal.kuroganehammercom;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -183,12 +184,14 @@ public class MainActivity extends AppCompatActivity
                 }
             }
         }
-        /*else if (id == R.id.calculator) {
-            if(!(currentFragment instanceof CalculatorFragment)){
-                StartCalculatorAsyncTask s = new StartCalculatorAsyncTask(this, currentFragment instanceof NavigationFragment, "Loading calculator");
-                s.execute();
-            }
-        }*/
+        else if (id == R.id.calculator) {
+            Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://rubendal.github.io/SSBU-Calculator/?from=KHApp"));
+            startActivity(i);
+        }
+        else if (id == R.id.s4calculator) {
+            Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://rubendal.github.io/Sm4sh-Calculator/?from=KHApp"));
+            startActivity(i);
+        }
         else if(id == R.id.ssbu_characters){
             if(!(currentFragment instanceof SSBUMainFragment)){
                 if(currentFragment instanceof NavigationFragment){

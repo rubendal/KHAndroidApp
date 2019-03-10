@@ -8,6 +8,9 @@
                 <item
                     android:id="@+id/ssbu_characters"
                     android:title="Characters" />
+                <item
+                    android:id="@+id/calculator"
+                    android:title="SSBU Calculator" />
             </menu>
         </item>
         <item android:title="Smash 4" android:id="@+id/smash4">
@@ -22,7 +25,7 @@
                     android:id="@+id/formulas"
                     android:title="Formulas" />
                 <item
-                    android:id="@+id/calculator"
+                    android:id="@+id/s4calculator"
                     android:title="Sm4sh Calculator" />
             </menu>
         </item>

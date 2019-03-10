@@ -211,6 +211,9 @@ public class Storage {
                     json = Assets.getAsset(assets, "SSBU/Data/" + c.id + "/attributes.json");
                     if(json!=null)
                         write("SSBU_" + String.valueOf(c.id), "attributes.json", context, json);
+                    json = Assets.getAsset(assets, "SSBU/Data/" + c.id + "/movements.json");
+                    if(json!=null)
+                        write("SSBU_" + String.valueOf(c.id), "movements.json", context, json);
                 }catch(Exception e){
 
                 }

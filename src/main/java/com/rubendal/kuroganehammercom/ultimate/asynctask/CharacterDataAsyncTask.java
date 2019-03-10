@@ -135,7 +135,7 @@ public class CharacterDataAsyncTask extends AsyncTask<String, String, SSBUCharac
 
             }
 
-            json = Storage.read("SSBU_" + String.valueOf(character.id),"attributes.json",context.getActivity());
+            json = Storage.read("SSBU_" + String.valueOf(character.id),"movements.json",context.getActivity());
             LinkedList<Movement> movements = new LinkedList<>();
             jsonArray = new JSONArray(json);
             for(int i=0;i<jsonArray.length();i++){
