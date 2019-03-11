@@ -121,10 +121,10 @@ public class SSBUCharacter implements Serializable{
             @Override
             public int compare(SSBUCharacter c1, SSBUCharacter c2) {
                 if(c1.favorite == c2.favorite){
-                    if(c1.id < c2.id){
+                    if(c1.name.compareTo(c2.name) < 0){
                         return -1;
                     }
-                    if(c1.id > c2.id){
+                    if(c1.name.compareTo(c2.name) > 0){
                         return 1;
                     }
                     return 0;
