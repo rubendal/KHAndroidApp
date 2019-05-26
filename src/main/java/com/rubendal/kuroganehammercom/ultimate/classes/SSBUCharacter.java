@@ -22,6 +22,7 @@ public class SSBUCharacter implements Serializable{
     public String thumbnailUrl;
     //public transient Bitmap thumbnail;
     public String color;
+    private String basecolor;
     public String gameName;
     public boolean hasSpecificAttributes;
     public boolean favorite = false;
@@ -39,6 +40,8 @@ public class SSBUCharacter implements Serializable{
 
         if(this.color == null || this.color.equals("") || this.color.equals("#FFFFFF"))
             this.color = "#3F51B5";
+
+        this.basecolor = this.color.replace("#","");
     }
 
     public String getCharacterTitleName(){
@@ -98,6 +101,10 @@ public class SSBUCharacter implements Serializable{
         canvas.drawBitmap(bitmap, 0, 0, paint);
 
         return grayscale;
+    }
+
+    public String GetBaseColor(){
+        return this.basecolor;
     }
 
     public static SSBUCharacter fromJson(Context context, JSONObject jsonObject){

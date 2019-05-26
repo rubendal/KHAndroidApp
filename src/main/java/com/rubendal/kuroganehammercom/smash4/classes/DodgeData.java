@@ -2,12 +2,15 @@ package com.rubendal.kuroganehammercom.smash4.classes;
 
 import android.content.Context;
 import android.graphics.Color;
+import android.graphics.Paint;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.widget.LinearLayout;
 import android.widget.TableRow;
 import android.widget.TextView;
 
 import com.rubendal.kuroganehammercom.R;
+import com.rubendal.kuroganehammercom.util.Tooltip;
 import com.rubendal.kuroganehammercom.util.params.Params;
 
 public class DodgeData {
@@ -55,5 +58,33 @@ public class DodgeData {
         return tableRow;
 
 
+    }
+
+    public LinearLayout asSection(Context context, String color){
+        LayoutInflater vi = (LayoutInflater)context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+        View v = vi.inflate(R.layout.attack_dodge_data_mobile, null);
+
+        LinearLayout layout = (LinearLayout)v.findViewById(R.id.attack_data_container);
+
+        TextView nameView = (TextView)layout.findViewById(R.id.name);
+        TextView hitboxActiveView = (TextView)layout.findViewById(R.id.hitboxActive);
+        TextView fafView = (TextView)layout.findViewById(R.id.faf);
+
+        nameView.setText(attribute);
+        hitboxActiveView.setText(intangibility);
+        fafView.setText(faf);
+
+
+        int padding = Params.PADDING;
+        nameView.setPadding(padding,padding,padding,padding);
+        hitboxActiveView.setPadding(padding,padding,padding,padding);
+        fafView.setPadding(padding,padding,padding,padding);
+
+        nameView.setBackgroundColor(Color.parseColor("#55" + color));
+
+        TableRow tableRow = (TableRow)layout.findViewById(R.id.header1);
+        tableRow.setBackgroundColor(Color.parseColor("#33" + color));
+
+        return layout;
     }
 }

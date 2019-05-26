@@ -28,6 +28,7 @@ import com.rubendal.kuroganehammercom.smash4.classes.MoveType;
 import com.rubendal.kuroganehammercom.smash4.classes.Movement;
 import com.rubendal.kuroganehammercom.smash4.classes.RowValue;
 import com.rubendal.kuroganehammercom.ultimate.classes.SSBUCharacterData;
+import com.rubendal.kuroganehammercom.util.UserPref;
 import com.rubendal.kuroganehammercom.util.params.Params;
 
 import java.util.List;
@@ -113,7 +114,10 @@ public class SSBUCharacterDataFragment extends KHFragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_ssbu_character_data, container, false);
+        if(UserPref.useNewMoveDataDesign)
+            return inflater.inflate(R.layout.fragment_ssbu_character_data_mobile, container, false);
+        else
+            return inflater.inflate(R.layout.fragment_ssbu_character_data, container, false);
     }
 
     @Override
@@ -124,8 +128,6 @@ public class SSBUCharacterDataFragment extends KHFragment {
     }
 
     private void loadData(){
-
-        LinearLayout container = (LinearLayout)getView().findViewById(R.id.layout);
 
         int o = 0;
 
@@ -201,107 +203,169 @@ public class SSBUCharacterDataFragment extends KHFragment {
             container.removeView(getView().findViewById(R.id.specific_attr_complex_table));
         }
         */
-        layout = (TableLayout)getView().findViewById(R.id.groundtable);
 
-        layout.setPadding(Params.LAYOUT_PADDING,Params.LAYOUT_PADDING,Params.LAYOUT_PADDING,Params.LAYOUT_PADDING);
+        if(UserPref.useNewMoveDataDesign){
 
-        header = (TableRow) layout.findViewById(R.id.groundheader);
+            LinearLayout container = (LinearLayout)getView().findViewById(R.id.ground_move_container);
 
-        o=0;
-
-        for (int i = 0; i < header.getChildCount(); i++) {
-            TextView t = (TextView) header.getChildAt(i);
-            t.setPadding(Params.PADDING,Params.PADDING,Params.PADDING,Params.PADDING);
-            t.setBackgroundColor(Color.parseColor(data.character.color));
-        }
-        for (Move move : data.moveList) {
-            if (move != null) {
-                if(move.moveType == MoveType.Ground) {
-                    o++;
-                    layout.addView(move.asRow(this.getActivity(), o % 2 == 1, data.character.color));
+            for (Move move : data.moveList) {
+                if (move != null) {
+                    if(move.moveType == MoveType.Ground) {
+                        o++;
+                        container.addView(move.asSection(this.getActivity(), data.character.GetBaseColor()));
+                    }
                 }
             }
-        }
 
-        o=0;
-        layout = (TableLayout)getView().findViewById(R.id.throwtable);
+            container = (LinearLayout)getView().findViewById(R.id.throw_move_container);
 
-        layout.setPadding(Params.LAYOUT_PADDING,Params.LAYOUT_PADDING,Params.LAYOUT_PADDING,Params.LAYOUT_PADDING);
-
-        header = (TableRow) layout.findViewById(R.id.throwheader);
-
-        for (int i = 0; i < header.getChildCount(); i++) {
-            TextView t = (TextView) header.getChildAt(i);
-            t.setPadding(Params.PADDING,Params.PADDING,Params.PADDING,Params.PADDING);
-            t.setBackgroundColor(Color.parseColor(data.character.color));
-        }
-        for (Move move : data.moveList) {
-            if (move != null) {
-                if(move.moveType == MoveType.Throw) {
-                    o++;
-                    layout.addView(move.asRow(this.getActivity(), o % 2 == 1, data.character.color));
+            for (Move move : data.moveList) {
+                if (move != null) {
+                    if(move.moveType == MoveType.Throw) {
+                        o++;
+                        container.addView(move.asSection(this.getActivity(), data.character.GetBaseColor()));
+                    }
                 }
             }
-        }
 
-        o=0;
-        layout = (TableLayout)getView().findViewById(R.id.dodgetable);
+            container = (LinearLayout)getView().findViewById(R.id.dodge_move_container);
 
-        layout.setPadding(Params.LAYOUT_PADDING,Params.LAYOUT_PADDING,Params.LAYOUT_PADDING,Params.LAYOUT_PADDING);
-
-        header = (TableRow) layout.findViewById(R.id.dodgeheader);
-
-        for (int i = 0; i < header.getChildCount(); i++) {
-            TextView t = (TextView) header.getChildAt(i);
-            t.setPadding(Params.PADDING,Params.PADDING,Params.PADDING,Params.PADDING);
-            t.setBackgroundColor(Color.parseColor(data.character.color));
-        }
-
-        for (Move move : data.evasion) {
-            if (move != null) {
-                o++;
-                layout.addView(new DodgeData(move).asRow(this.getActivity(), o % 2 == 1, data.character.color));
-            }
-        }
-
-        o=0;
-        layout = (TableLayout)getView().findViewById(R.id.aerialtable);
-
-        layout.setPadding(Params.LAYOUT_PADDING,Params.LAYOUT_PADDING,Params.LAYOUT_PADDING,Params.LAYOUT_PADDING);
-
-        header = (TableRow) layout.findViewById(R.id.aerialheader);
-
-        for (int i = 0; i < header.getChildCount(); i++) {
-            TextView t = (TextView) header.getChildAt(i);
-            t.setPadding(Params.PADDING,Params.PADDING,Params.PADDING,Params.PADDING);
-            t.setBackgroundColor(Color.parseColor(data.character.color));
-        }
-        for (Move move : data.moveList) {
-            if (move != null) {
-                if(move.moveType == MoveType.Aerial) {
-                    o++;
-                    layout.addView(move.asRow(this.getActivity(), o % 2 == 1, data.character.color));
+            for (Move move : data.moveList) {
+                if (move != null) {
+                    if(move.moveType == MoveType.Evasion) {
+                        o++;
+                        container.addView(move.asSection(this.getActivity(), data.character.GetBaseColor()));
+                    }
                 }
             }
+
+            container = (LinearLayout)getView().findViewById(R.id.aerial_move_container);
+
+            for (Move move : data.moveList) {
+                if (move != null) {
+                    if(move.moveType == MoveType.Aerial) {
+                        o++;
+                        container.addView(move.asSection(this.getActivity(), data.character.GetBaseColor()));
+                    }
+                }
+            }
+
+            container = (LinearLayout)getView().findViewById(R.id.special_move_container);
+
+            for (Move move : data.moveList) {
+                if (move != null) {
+                    if(move.moveType == MoveType.Special) {
+                        o++;
+                        container.addView(move.asSection(this.getActivity(), data.character.GetBaseColor()));
+                    }
+                }
+            }
+
         }
+        else{
 
-        o=0;
-        layout = (TableLayout)getView().findViewById(R.id.specialtable);
+            layout = (TableLayout)getView().findViewById(R.id.groundtable);
 
-        layout.setPadding(Params.LAYOUT_PADDING,Params.LAYOUT_PADDING,Params.LAYOUT_PADDING,Params.LAYOUT_PADDING);
+            layout.setPadding(Params.LAYOUT_PADDING,Params.LAYOUT_PADDING,Params.LAYOUT_PADDING,Params.LAYOUT_PADDING);
 
-        header = (TableRow) layout.findViewById(R.id.specialheader);
+            header = (TableRow) layout.findViewById(R.id.groundheader);
 
-        for (int i = 0; i < header.getChildCount(); i++) {
-            TextView t = (TextView) header.getChildAt(i);
-            t.setPadding(Params.PADDING,Params.PADDING,Params.PADDING,Params.PADDING);
-            t.setBackgroundColor(Color.parseColor(data.character.color));
-        }
-        for (Move move : data.moveList) {
-            if (move != null) {
-                if(move.moveType == MoveType.Special) {
+            o=0;
+
+            for (int i = 0; i < header.getChildCount(); i++) {
+                TextView t = (TextView) header.getChildAt(i);
+                t.setPadding(Params.PADDING,Params.PADDING,Params.PADDING,Params.PADDING);
+                t.setBackgroundColor(Color.parseColor(data.character.color));
+            }
+            for (Move move : data.moveList) {
+                if (move != null) {
+                    if(move.moveType == MoveType.Ground) {
+                        o++;
+                        layout.addView(move.asRow(this.getActivity(), o % 2 == 1, data.character.color));
+                    }
+                }
+            }
+
+            o=0;
+            layout = (TableLayout)getView().findViewById(R.id.throwtable);
+
+            layout.setPadding(Params.LAYOUT_PADDING,Params.LAYOUT_PADDING,Params.LAYOUT_PADDING,Params.LAYOUT_PADDING);
+
+            header = (TableRow) layout.findViewById(R.id.throwheader);
+
+            for (int i = 0; i < header.getChildCount(); i++) {
+                TextView t = (TextView) header.getChildAt(i);
+                t.setPadding(Params.PADDING,Params.PADDING,Params.PADDING,Params.PADDING);
+                t.setBackgroundColor(Color.parseColor(data.character.color));
+            }
+            for (Move move : data.moveList) {
+                if (move != null) {
+                    if(move.moveType == MoveType.Throw) {
+                        o++;
+                        layout.addView(move.asRow(this.getActivity(), o % 2 == 1, data.character.color));
+                    }
+                }
+            }
+
+            o=0;
+            layout = (TableLayout)getView().findViewById(R.id.dodgetable);
+
+            layout.setPadding(Params.LAYOUT_PADDING,Params.LAYOUT_PADDING,Params.LAYOUT_PADDING,Params.LAYOUT_PADDING);
+
+            header = (TableRow) layout.findViewById(R.id.dodgeheader);
+
+            for (int i = 0; i < header.getChildCount(); i++) {
+                TextView t = (TextView) header.getChildAt(i);
+                t.setPadding(Params.PADDING,Params.PADDING,Params.PADDING,Params.PADDING);
+                t.setBackgroundColor(Color.parseColor(data.character.color));
+            }
+
+            for (Move move : data.evasion) {
+                if (move != null) {
                     o++;
-                    layout.addView(move.asRow(this.getActivity(), o % 2 == 1, data.character.color));
+                    layout.addView(new DodgeData(move).asRow(this.getActivity(), o % 2 == 1, data.character.color));
+                }
+            }
+
+            o=0;
+            layout = (TableLayout)getView().findViewById(R.id.aerialtable);
+
+            layout.setPadding(Params.LAYOUT_PADDING,Params.LAYOUT_PADDING,Params.LAYOUT_PADDING,Params.LAYOUT_PADDING);
+
+            header = (TableRow) layout.findViewById(R.id.aerialheader);
+
+            for (int i = 0; i < header.getChildCount(); i++) {
+                TextView t = (TextView) header.getChildAt(i);
+                t.setPadding(Params.PADDING,Params.PADDING,Params.PADDING,Params.PADDING);
+                t.setBackgroundColor(Color.parseColor(data.character.color));
+            }
+            for (Move move : data.moveList) {
+                if (move != null) {
+                    if(move.moveType == MoveType.Aerial) {
+                        o++;
+                        layout.addView(move.asRow(this.getActivity(), o % 2 == 1, data.character.color));
+                    }
+                }
+            }
+
+            o=0;
+            layout = (TableLayout)getView().findViewById(R.id.specialtable);
+
+            layout.setPadding(Params.LAYOUT_PADDING,Params.LAYOUT_PADDING,Params.LAYOUT_PADDING,Params.LAYOUT_PADDING);
+
+            header = (TableRow) layout.findViewById(R.id.specialheader);
+
+            for (int i = 0; i < header.getChildCount(); i++) {
+                TextView t = (TextView) header.getChildAt(i);
+                t.setPadding(Params.PADDING,Params.PADDING,Params.PADDING,Params.PADDING);
+                t.setBackgroundColor(Color.parseColor(data.character.color));
+            }
+            for (Move move : data.moveList) {
+                if (move != null) {
+                    if(move.moveType == MoveType.Special) {
+                        o++;
+                        layout.addView(move.asRow(this.getActivity(), o % 2 == 1, data.character.color));
+                    }
                 }
             }
         }

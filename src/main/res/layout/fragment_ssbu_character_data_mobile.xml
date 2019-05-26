@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_attack_list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent" android:layout_height="fill_parent"
+        android:scrollbars="vertical"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/layout">
+
+            <TableLayout
+                android:id="@+id/movement_table"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                >
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/mov_header">
+
+                    <TextView
+                        android:text="Attribute"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/mov_header1"
+                        android:padding="5dp"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:text="Value"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/mov_header2"
+                        android:padding="5dp"
+                        android:textColor="@color/black"/>
+
+                </TableRow>
+
+            </TableLayout>
+
+            <TableLayout
+                android:id="@+id/specific_attr_simple_table"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/specific_attr_simple_header">
+
+                    <TextView
+                        android:text=""
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/specific_attr_simple_attribute"
+                        android:padding="5dp"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:text=""
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/specific_attr_simple_header2"
+                        android:padding="5dp"
+                        android:textColor="@color/black"/>
+
+
+                </TableRow>
+
+            </TableLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ground_label"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
+                android:textSize="21sp"
+                android:paddingTop="5dp"
+                android:paddingBottom="4dp"
+                android:text="Ground Moves"
+                android:textColor="@color/black"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/ground_move_container"></LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/throw_label"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
+                android:textSize="21sp"
+                android:paddingTop="5dp"
+                android:paddingBottom="4dp"
+                android:text="Throws"
+                android:textColor="@color/black"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/throw_move_container"></LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/dodge_move_container"></LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/aerial_label"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
+                android:textSize="21sp"
+                android:paddingTop="5dp"
+                android:paddingBottom="4dp"
+                android:text="Aerial Moves"
+                android:textColor="@color/black"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/aerial_move_container"></LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/special_label"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
+                android:textSize="21sp"
+                android:paddingTop="5dp"
+                android:paddingBottom="4dp"
+                android:text="Special moves"
+                android:textColor="@color/black"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/special_move_container"></LinearLayout>
+
+            <TableLayout
+                android:id="@+id/specific_attr_complex_table"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true">
+
+
+            </TableLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

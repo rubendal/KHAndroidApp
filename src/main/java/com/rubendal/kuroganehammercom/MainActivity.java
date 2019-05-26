@@ -88,8 +88,11 @@ public class MainActivity extends AppCompatActivity
         Menu menu=navigationView.getMenu();
 
         SwitchCompat drawerSwitch=(SwitchCompat) MenuItemCompat.getActionView(menu.findItem(R.id.display_mode)).findViewById(R.id.display_mode_switch);
+        SwitchCompat drawerDataSwitch=(SwitchCompat) MenuItemCompat.getActionView(menu.findItem(R.id.data_display_mode)).findViewById(R.id.display_data_mode_switch);
 
         drawerSwitch.setChecked(UserPref.usePicsForCharacterList);
+
+        drawerDataSwitch.setChecked(UserPref.useNewMoveDataDesign);
 
         drawerSwitch.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
@@ -110,6 +113,14 @@ public class MainActivity extends AppCompatActivity
                         replaceFragment(SSBUCharacterMainListFragment.newInstance());
                     }
                 }
+            }
+        });
+
+        drawerDataSwitch.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                UserPref.changeCharacterDataDisplay(ref, isChecked);
+                currentFragment.updateData();
             }
         });
     }
@@ -218,6 +229,9 @@ public class MainActivity extends AppCompatActivity
             startActivity(new Intent(this, HelpActivity.class));
         }
         else if (id == R.id.display_mode) {
+            return false;
+        }
+        else if (id == R.id.data_display_mode) {
             return false;
         }
 

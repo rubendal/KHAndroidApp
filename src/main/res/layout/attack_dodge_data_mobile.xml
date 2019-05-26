@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/attack_data_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:text="Jab 1"
+        android:background="#440000ff"
+        android:gravity="center_horizontal"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        />
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TableRow android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/header1"
+            android:background="#330000ff">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Intangibility"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FAF"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:textColor="@color/black"
+                />
+
+        </TableRow>
+
+        <TableRow android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/hitboxActive"
+                android:text="3-14"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/angle"
+                android:text="36"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:textColor="@color/black"
+                />
+
+        </TableRow>
+
+
+
+    </TableLayout>
+
+</LinearLayout>

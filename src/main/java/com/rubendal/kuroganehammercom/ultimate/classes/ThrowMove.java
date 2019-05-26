@@ -5,6 +5,7 @@ import android.graphics.Color;
 import android.graphics.Paint;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.widget.LinearLayout;
 import android.widget.TableRow;
 import android.widget.TextView;
 
@@ -69,6 +70,49 @@ public class ThrowMove extends Move {
         return tableRow;
 
 
+    }
+
+    public LinearLayout asSection(Context context, String color){
+        LayoutInflater vi = (LayoutInflater)context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+        View v = vi.inflate(R.layout.attack_throw_data_mobile, null);
+
+        LinearLayout layout = (LinearLayout)v.findViewById(R.id.attack_data_container);
+
+        TextView nameView = (TextView)layout.findViewById(R.id.name);
+        TextView baseDamageView = (TextView)layout.findViewById(R.id.damage);
+        TextView angleView = (TextView)layout.findViewById(R.id.angle);
+        TextView bkbView = (TextView)layout.findViewById(R.id.bkb);
+        TextView kbgView = (TextView)layout.findViewById(R.id.kbg);
+
+        nameView.setText(name);
+        baseDamageView.setText(baseDamage);
+        angleView.setText(angle);
+        bkbView.setText(bkb);
+        kbgView.setText(kbg);
+
+
+        if(baseDamageTooltip != null){
+            if(!baseDamageTooltip.toString().equals("")) {
+                baseDamageView.setPaintFlags(baseDamageView.getPaintFlags() | Paint.UNDERLINE_TEXT_FLAG);
+                baseDamageView.setOnClickListener(new Tooltip(context, baseDamageTooltip.toString()));
+            }
+        }
+
+        int padding = Params.PADDING;
+        nameView.setPadding(padding,padding,padding,padding);
+        baseDamageView.setPadding(padding,padding,padding,padding);
+        angleView.setPadding(padding,padding,padding,padding);
+        bkbView.setPadding(padding,padding,padding,padding);
+        kbgView.setPadding(padding,padding,padding,padding);
+
+        nameView.setBackgroundColor(Color.parseColor("#55" + color));
+
+        TableRow tableRow = (TableRow)layout.findViewById(R.id.header1);
+        tableRow.setBackgroundColor(Color.parseColor("#33" + color));
+        tableRow = (TableRow)layout.findViewById(R.id.header2);
+        tableRow.setBackgroundColor(Color.parseColor("#33" + color));
+
+        return layout;
     }
 
     public static ThrowMove getFromJson(JSONObject moveData){

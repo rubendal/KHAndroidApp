@@ -15,6 +15,7 @@ public class UserPref {
     private static LinkedList<String> favoriteUltCharacters = new LinkedList<>();
 
     public static boolean usePicsForCharacterList = true;
+    public static boolean useNewMoveDataDesign = true;
 
     public static void Initialize(Context context){
         try {
@@ -158,6 +159,16 @@ public class UserPref {
 
         try{
             Storage.write("user","displayMode.bin",context, String.valueOf(usePicsForCharacterList));
+        }catch(Exception e){
+
+        }
+    }
+
+    public static void changeCharacterDataDisplay(Context context, boolean useNewDesign){
+        useNewMoveDataDesign = useNewDesign;
+
+        try{
+            Storage.write("user","dataDisplayDesign.bin",context, String.valueOf(useNewMoveDataDesign));
         }catch(Exception e){
 
         }

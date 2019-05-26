@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/attack_data_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:text="Jab 1"
+        android:background="#440000ff"
+        android:gravity="center_horizontal"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        />
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#330000ff"
+            android:id="@+id/header1"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hitbox Active"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FAF"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:textColor="@color/black"
+                />
+
+        </TableRow>
+
+
+        <TableRow android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/hitboxActive"
+                android:text="5-6"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/faf"
+                android:text="32"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:textColor="@color/black"
+                />
+
+        </TableRow>
+
+        <TableRow android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/header2"
+            android:background="#330000ff">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Base Damage"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Angle"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:textColor="@color/black"
+                />
+
+        </TableRow>
+
+        <TableRow android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/damage"
+                android:text="10"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/angle"
+                android:text="361"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:textColor="@color/black"
+                />
+
+        </TableRow>
+
+        <TableRow android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/header3"
+            android:background="#330000ff">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BKB"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="KBG"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:textColor="@color/black"
+                />
+
+        </TableRow>
+
+        <TableRow android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/bkb"
+                android:text="40"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/kbg"
+                android:text="100"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:textColor="@color/black"
+                />
+
+        </TableRow>
+
+        <TableRow android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/header4"
+            android:background="#330000ff">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Landing Lag"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Autocancel"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:textColor="@color/black"
+                />
+
+        </TableRow>
+
+        <TableRow android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/landingLag"
+                android:text="11>"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/autoCancel"
+                android:text="42"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:textColor="@color/black"
+                />
+
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>
