@@ -172,14 +172,14 @@ public class Move implements Serializable {
         bkbView.setPadding(padding,padding,padding,padding);
         kbgView.setPadding(padding,padding,padding,padding);
 
-        nameView.setBackgroundColor(Color.parseColor("#55" + color));
+        nameView.setBackgroundColor(Color.parseColor(Params.MOVENAME_TRANSPARENCY + color));
 
         TableRow tableRow = (TableRow)layout.findViewById(R.id.header1);
-        tableRow.setBackgroundColor(Color.parseColor("#33" + color));
+        tableRow.setBackgroundColor(Color.parseColor(Params.MOVEHEADER_TRANSPARENCY + color));
         tableRow = (TableRow)layout.findViewById(R.id.header2);
-        tableRow.setBackgroundColor(Color.parseColor("#33" + color));
+        tableRow.setBackgroundColor(Color.parseColor(Params.MOVEHEADER_TRANSPARENCY + color));
         tableRow = (TableRow)layout.findViewById(R.id.header3);
-        tableRow.setBackgroundColor(Color.parseColor("#33" + color));
+        tableRow.setBackgroundColor(Color.parseColor(Params.MOVEHEADER_TRANSPARENCY + color));
 
         if(name.equals("Standing Grab") || name.equals("Dash Grab") || name.equals("Pivot Grab")){
             tableRow = (TableRow)layout.findViewById(R.id.header2);

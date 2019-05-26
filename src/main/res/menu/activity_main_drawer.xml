@@ -39,7 +39,7 @@
 
         <item
             android:id="@+id/data_display_mode"
-            android:title="Mobile data display"
+            android:title="Mobile move data view"
             app:actionLayout="@layout/nav_data_display_settings"
             />
     </group>

@@ -22,7 +22,7 @@ public class UserPref {
             InitialGame = Storage.read("user", "initialGame.bin", context);
             InitialGame = InitialGame.trim();
         }catch(Exception e){
-            InitialGame = "Smash 4";
+            InitialGame = "SSBU";
         }
 
         try {

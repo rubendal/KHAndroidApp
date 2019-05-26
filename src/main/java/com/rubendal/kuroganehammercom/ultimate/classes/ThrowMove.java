@@ -105,12 +105,12 @@ public class ThrowMove extends Move {
         bkbView.setPadding(padding,padding,padding,padding);
         kbgView.setPadding(padding,padding,padding,padding);
 
-        nameView.setBackgroundColor(Color.parseColor("#55" + color));
+        nameView.setBackgroundColor(Color.parseColor(Params.MOVENAME_TRANSPARENCY + color));
 
         TableRow tableRow = (TableRow)layout.findViewById(R.id.header1);
-        tableRow.setBackgroundColor(Color.parseColor("#33" + color));
+        tableRow.setBackgroundColor(Color.parseColor(Params.MOVEHEADER_TRANSPARENCY + color));
         tableRow = (TableRow)layout.findViewById(R.id.header2);
-        tableRow.setBackgroundColor(Color.parseColor("#33" + color));
+        tableRow.setBackgroundColor(Color.parseColor(Params.MOVEHEADER_TRANSPARENCY + color));
 
         return layout;
     }
