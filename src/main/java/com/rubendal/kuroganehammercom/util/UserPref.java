@@ -8,7 +8,7 @@ import java.util.LinkedList;
 
 public class UserPref {
 
-    private static String InitialGame = "Smash 4";
+    private static String InitialGame = "SSBU";
 
     private static LinkedList<String> favoriteCharacters = new LinkedList<>();
     private static LinkedList<String> favoriteAttributes = new LinkedList<>();

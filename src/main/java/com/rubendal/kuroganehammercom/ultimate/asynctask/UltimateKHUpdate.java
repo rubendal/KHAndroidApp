@@ -23,7 +23,7 @@ public class UltimateKHUpdate extends AsyncTask<String, String, Boolean> {
     private ProgressDialog dialog;
     private String title;
 
-    private static String HOST = "https://test-khapi.frannsoft.com";
+    private static String HOST = "https://api.kuroganehammer.com";
 
     public UltimateKHUpdate(KHFragment context, String title){
         this.context = context;

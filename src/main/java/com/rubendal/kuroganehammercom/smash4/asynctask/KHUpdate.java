@@ -22,7 +22,8 @@ public class KHUpdate extends AsyncTask<String, String, Boolean> {
     private ProgressDialog dialog;
     private String title;
 
-    private static String HOST = "http://beta-api-kuroganehammer.azurewebsites.net";
+    private static String HOST = "https://api.kuroganehammer.com";
+    private static String GAME = "game=Smash4";
 
     public KHUpdate(KHFragment context, String title){
         this.context = context;
@@ -81,8 +82,8 @@ public class KHUpdate extends AsyncTask<String, String, Boolean> {
     protected Boolean doInBackground(String... params) {
         //Get all data needed from the API
         try {
-            String characters = sendRequest(HOST + "/api/Characters");
-            String attributeNames = sendRequest(HOST +"/api/characterattributes/types");
+            String characters = sendRequest(HOST + "/api/Characters?" + GAME);
+            String attributeNames = sendRequest(HOST +"/api/characterattributes/types?" + GAME);
 
             if(characters.isEmpty()){
                 return false;
@@ -101,9 +102,9 @@ public class KHUpdate extends AsyncTask<String, String, Boolean> {
             }
 
             for(Character c : list){
-                String moves = sendRequest(HOST +"/api/Characters/" + c.id + "/moves");
-                String attributes = sendRequest(HOST +"/api/Characters/" + c.id + "/characterattributes");
-                String movements = sendRequest(HOST +"/api/Characters/" + c.id + "/movements");
+                String moves = sendRequest(HOST +"/api/Characters/" + c.id + "/moves?" + GAME);
+                String attributes = sendRequest(HOST +"/api/Characters/" + c.id + "/characterattributes?" + GAME);
+                String movements = sendRequest(HOST +"/api/Characters/" + c.id + "/movements?" + GAME);
                 if(moves.isEmpty()){
                     return false;
                 }
@@ -126,7 +127,7 @@ public class KHUpdate extends AsyncTask<String, String, Boolean> {
             }
 
             for(AttributeName a : attrNames){
-                String attrData = sendRequest(HOST + "/api/characterattributes/name/" + a.name);
+                String attrData = sendRequest(HOST + "/api/characterattributes/name/" + a.name + "?" + GAME);
 
                 if(attrData.isEmpty())
                     return false;
